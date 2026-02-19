@@ -7,35 +7,85 @@ permalink: /take-action/
 
 Every Arkansan whose retirement is managed by a state pension fund has a stake in how that money is invested. Here's how you can make your voice heard — starting today.
 
-## 1. Sign the petition
+## 1. Sign on in support
 
-[PLACEHOLDER: Action Network petition embed will be added when available]
+We're building a list of Arkansans — educators, public employees, retirees, and concerned taxpayers — who believe pension investments should be based solely on financial merit.
 
-In the meantime, email us at **[divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=I%20support%20pension%20transparency)** to add your name.
+**Add your name** by emailing **[divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=I%20support%20pension%20transparency&body=I%20am%20an%20Arkansan%20who%20supports%20pension%20transparency%20and%20fiduciary%20accountability.%0A%0AName%3A%20%0ACity%3A%20%0AReason%20I%20care%3A%20)** with your name, city, and why you care.
 
-## 2. Contact your legislators
+## 2. Write to pension trustees
 
-Text **RESIST** to **50409** to reach your Arkansas state legislators through Resistbot. Ask them to support pension transparency legislation in the 2027 session.
+The people who make investment decisions for your retirement fund are required by law to act solely in your financial interest. Let them know you're paying attention.
 
-## 3. Write to pension trustees
+<div class="callout" markdown="1">
 
-Use our letter templates to send a message directly to the people who make investment decisions:
+**Keep it professional and focused on fiduciary duty.** The most effective messages are short, specific, and center on pecuniary factors — not politics. Ask for a pause, an independent analysis, and transparency.
 
-- **ATRS members (educators):** [See the educator letter template](/educators/)
-- **APERS members (public employees):** [See the public employee letter template](/public-employees/)
+</div>
+
+**For ATRS members (educators and retired educators):**
+
+Write to ATRS trustees at **[info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20—%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
+
+> Dear ATRS Trustees,
+>
+> As an Arkansas educator and ATRS member, I appreciate your work to safeguard our retirement. I'm writing to ask you to pause execution of the June 2025 authorization of up to $50 million in Israel Bonds until an independent, written analysis is completed and shared with members. That review should compare risk, return, and liquidity to other fixed-income options and explain how this investment satisfies Arkansas's pecuniary-only and prudent-investor requirements.
+>
+> Sincerely,
+> [Your name, role, and city]
+
+**For APERS members (public employees and retirees):**
+
+Write to APERS at **[APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20—%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
+
+> Dear APERS Trustees,
+>
+> As an Arkansas public employee and APERS member, I appreciate your work to safeguard our retirement. I'm asking you to pause execution of the 2025 Israel Bonds authorization until you complete and share an independent, written analysis. Please compare risk, return, and liquidity to other fixed-income options and explain how any investment in Israel Bonds meets Arkansas's pecuniary-only standard and prudent-investor duties.
+>
+> Sincerely,
+> [Your name, role / agency, and city]
+
+## 3. Contact your legislators
+
+The 2027 Arkansas legislative session is an opportunity to establish stronger pension transparency requirements. Let your state legislators know this issue matters to you.
+
+**Text RESIST to 50409** to reach your Arkansas state legislators through Resistbot. Ask them to:
+
+- Support pension transparency legislation in the 2027 session
+- Require independent credit analysis before large new bond purchases
+- Ensure that Arkansas's pecuniary-only standard is enforced — for purchases and sales alike
+
+You can also find your legislators at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/).
 
 ## 4. Attend a board meeting
 
-Public comment at board meetings is one of the most effective ways to be heard.
+Public comment at pension board meetings is one of the most direct ways to be heard by the people who manage your retirement funds. Board meetings are open to the public under Arkansas law.
 
 **ATRS Board Meetings**
-- Location: ATRS Board Room, 1400 W. Third St., Little Rock
-- Contact Board Secretary Tammy Porter at [tammyp@artrs.gov](mailto:tammyp@artrs.gov) for public comment procedures
+- **Location:** ATRS Board Room, 1400 W. Third St., Little Rock
+- **Upcoming 2026 dates:** Check the [ATRS Board Calendar](https://www.artrs.gov/board-calendar) for the current schedule
+- **Public comment:** Contact Board Secretary Tammy Porter at [tammyp@artrs.gov](mailto:tammyp@artrs.gov) to sign up ahead of the meeting
+- **Written comment:** Email [info@artrs.gov](mailto:info@artrs.gov) with the subject line "Public Comment for [date] Board Meeting"
 
 **APERS Board Meetings**
-- Location: APERS Office, 124 W. Capitol Ave., Little Rock
-- Contact the Executive Director's office at [APERS@arkansas.gov](mailto:APERS@arkansas.gov)
+- **Location:** APERS Office, 124 W. Capitol Ave., Little Rock
+- **Upcoming 2026 dates:** March 11 and June 10 (9:00 a.m.) — check [apers.org](https://apers.org/) for updates
+- **Public comment:** Contact the Executive Director's office at [APERS@arkansas.gov](mailto:APERS@arkansas.gov) for sign-up details
+- **Written comment:** Email [APERS@arkansas.gov](mailto:APERS@arkansas.gov) with a subject line referencing the board meeting date
+
+<div class="callout" markdown="1">
+
+**Tips for public comment:** Keep your statement to 60 seconds. Focus on fiduciary standards — risk, return, liquidity, and process. Ask specific questions: Was an independent credit analysis performed? Why were internal staff recommendations overridden? How does this investment meet the pecuniary-only standard?
+
+</div>
 
 ## 5. Volunteer
 
-We need people across Arkansas — especially educators and public employees — to help spread the word. Email **[divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=I%20want%20to%20volunteer)** to get involved.
+We need Arkansans across the state — especially educators and public employees — to help build this campaign. There are roles for every skill level and time commitment:
+
+- **Research and FOIA** — Help analyze public records and file information requests
+- **Outreach** — Talk to coworkers, attend community events, connect with local organizations
+- **Communications** — Help with writing, social media, and media outreach
+- **Legislative advocacy** — Contact and meet with legislators ahead of the 2027 session
+
+**Email [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=I%20want%20to%20volunteer&body=Name%3A%20%0ACity%3A%20%0AI%27m%20interested%20in%3A%20%5Bresearch%20%2F%20outreach%20%2F%20communications%20%2F%20legislative%20advocacy%5D%0A)** to get started.
