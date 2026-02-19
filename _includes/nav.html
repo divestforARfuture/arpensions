@@ -1,0 +1,20 @@
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}" class="nav-logo" aria-label="Divest for AR Future home">
+      <img src="{{ '/assets/images/d4arf-logo.png' | relative_url }}" alt="Divest for AR Future logo" width="40" height="40">
+      <span class="nav-title">Divest for AR Future</span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+
+    <ul id="nav-menu" class="nav-links" role="list">
+      <li><a href="{{ '/the-issue/' | relative_url }}"{% if page.url == '/the-issue/' %} aria-current="page"{% endif %}>The Issue</a></li>
+      <li><a href="{{ '/evidence/' | relative_url }}"{% if page.url == '/evidence/' %} aria-current="page"{% endif %}>Evidence</a></li>
+      <li><a href="{{ '/take-action/' | relative_url }}"{% if page.url == '/take-action/' %} aria-current="page"{% endif %}>Take Action</a></li>
+      <li><a href="{{ '/news/' | relative_url }}"{% if page.url == '/news/' %} aria-current="page"{% endif %}>News</a></li>
+      <li><a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a></li>
+    </ul>
+  </div>
+</nav>

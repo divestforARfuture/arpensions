@@ -1,0 +1,44 @@
+title: Divest for AR Future
+description: "Protecting Arkansas pensions through transparency and accountability"
+url: "https://divestforarfuture.github.io"
+baseurl: ""
+permalink: /blog/:title/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-default.png
+
+# Exclude from build
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
