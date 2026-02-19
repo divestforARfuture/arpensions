@@ -72,6 +72,34 @@ a:hover {
 
 .skip-link:focus {
   top: 0;
+  outline: 3px solid var(--d4arf-black);
+  outline-offset: 2px;
+}
+
+/* --- Focus States (a11y) --- */
+:focus-visible {
+  outline: 3px solid var(--d4arf-red);
+  outline-offset: 2px;
+}
+
+.nav-links a:focus-visible {
+  outline-offset: -2px;
+  border-radius: 6px;
+}
+
+.pathway-card:focus-visible {
+  outline-offset: -2px;
+  border-color: var(--d4arf-red);
+  box-shadow: 0 2px 8px rgba(185, 28, 28, 0.1);
+}
+
+.btn:focus-visible {
+  outline-offset: 3px;
+}
+
+.footer-links a:focus-visible,
+.footer-contact a:focus-visible {
+  outline-color: #fff;
 }
 
 /* --- Container --- */
