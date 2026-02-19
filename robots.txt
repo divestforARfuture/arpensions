@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://divestforARfuture.github.io/sitemap.xml

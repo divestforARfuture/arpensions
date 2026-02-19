@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="landing-content">
+  <section class="landing-hero" aria-labelledby="landing-heading">
+    <div class="container container-prose">
+      <h1 id="landing-heading">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="landing-description">{{ page.description }}</p>
+      {% endif %}
+    </div>
+  </section>
+  <div class="container container-prose">
+    {{ content }}
+    {% include social-share.html %}
+  </div>
+</article>
