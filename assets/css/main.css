@@ -467,6 +467,41 @@ a:hover {
   color: var(--d4arf-gray);
 }
 
+/* --- Letter Template --- */
+.letter-template {
+  margin: 1.5rem 0;
+  padding: 2rem;
+  background-color: #fff;
+  border: 2px solid var(--d4arf-border);
+  border-radius: 8px;
+  position: relative;
+}
+
+.letter-template .letter-heading {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--d4arf-gray);
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--d4arf-border);
+}
+
+.letter-template p,
+.letter-template ol {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.letter-template ol {
+  padding-left: 1.25rem;
+}
+
+.letter-template ol li {
+  margin-bottom: 0.5rem;
+}
+
 /* --- Callout / Pull Quote --- */
 .callout {
   padding: 1.5rem;
