@@ -7,7 +7,7 @@ permalink: /press/
 
 ## Campaign summary
 
-Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed 957 public records revealing that approximately $155 million in pension funds were committed to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
+Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed hundreds of public records revealing that approximately $155 million in pension funds were committed to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
 The campaign is calling for a pause on new purchases, independent financial analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
 
@@ -19,9 +19,9 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **$50M** | ATRS (teacher retirement) authorization for Israel Bonds (June 2, 2025; Board Chair cast lone "no" vote) |
 | **$25–50M** | APERS (public employee retirement) authorization for Israel Bonds (May 15, 2025) |
 | **$155M** | Total Arkansas exposure — Treasury holdings plus pension fund authorizations combined |
-| **957** | Public records obtained and analyzed via FOIA requests to four state agencies |
+| **Hundreds** | Public records obtained and analyzed via FOIA requests to four state agencies |
 | **3** | Major credit agencies that have downgraded Israel's credit rating since 2024 |
-| **0** | Independent credit analyses of Israel Bonds found in the entire 957-document record |
+| **0** | Independent credit analyses of Israel Bonds found in the entire document record |
 | **4** | Arkansas state agencies that received FOIA requests (Treasury, ATRS, APERS, Auditor of State) |
 | **1** | Dissenting vote on the ATRS Board — Chair Danny Knight, who warned the process departed from standard practice |
 

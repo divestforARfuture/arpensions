@@ -48,7 +48,7 @@ Several red flags suggest these standards may not have been followed:
 
 **The ATRS Board Chair dissented.** Danny Knight, the lone "no" vote on the June 2025 authorization, warned that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members — to recommend specific securities.
 
-**No independent credit analysis was produced.** Our review of 957 public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed.
+**No independent credit analysis was produced.** Our review of hundreds of public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed.
 
 **The investment was championed through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both the ATRS and APERS boards, arranged meetings between Israel Bonds sales representatives and state officials. A thank-you note from an Israel Bonds executive praised Milligan for his "support and passion for Israel Bonds" and called him "critical to our success and Israel's future." These are not the words of a routine financial transaction.
 

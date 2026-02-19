@@ -17,7 +17,7 @@ Arkansas pension funds have committed up to **$155 million** in Israel Bonds —
 - All three major credit agencies (Moody's, S&P, Fitch) downgraded Israel's credit rating
 - ATRS Board Chair Danny Knight voted against the authorization, citing process concerns
 - Israel Bonds sales representatives met with all three agencies in April 2025, weeks before authorizations
-- Zero independent credit analyses were found in 957 FOIA documents
+- Zero independent credit analyses were found in hundreds of FOIA documents
 
 ## What we're asking
 

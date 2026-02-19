@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "What We've Found: 957 Public Records Tell a Story"
+title: "What We've Found: Hundreds of Public Records Tell a Story"
 date: 2026-02-19
 description: "A summary of what we learned from FOIA requests to four Arkansas state agencies about Israel Bonds investments in state pension funds."
 ---
 
-Over the past year, Divest for AR Future filed Freedom of Information Act requests with four Arkansas state agencies: the State Treasury, the Arkansas Teacher Retirement System (ATRS), the Arkansas Public Employees' Retirement System (APERS), and the Auditor of State. We received and analyzed **957 public records** — board packets, internal memos, correspondence, meeting minutes, and financial documents.
+Over the past year, Divest for AR Future filed Freedom of Information Act requests with four Arkansas state agencies: the State Treasury, the Arkansas Teacher Retirement System (ATRS), the Arkansas Public Employees' Retirement System (APERS), and the Auditor of State. We received and analyzed **hundreds of public records** — board packets, internal memos, correspondence, meeting minutes, and financial documents.
 
 Here is what those records tell us.
 
@@ -41,7 +41,7 @@ Knight's objection went to the heart of fiduciary process: the standard practice
 
 Sometimes what's missing from the record is as important as what's there.
 
-In 957 documents across four state agencies, we found **zero independent credit analyses** of Israel Bonds prepared before the authorizations. No side-by-side comparison of risk, return, and liquidity with comparable alternatives. No written recommendation from ATRS's investment consultants (Aon Hewitt) endorsing the purchase.
+In hundreds of documents across four state agencies, we found **zero independent credit analyses** of Israel Bonds prepared before the authorizations. No side-by-side comparison of risk, return, and liquidity with comparable alternatives. No written recommendation from ATRS's investment consultants (Aon Hewitt) endorsing the purchase.
 
 This is unusual. For a $50 million authorization in a relatively illiquid, single-country sovereign bond with a declining credit rating, you would expect — at minimum — a documented financial analysis showing why this specific investment was the best available option for pension fund members. We found no evidence that such an analysis was performed.
 
