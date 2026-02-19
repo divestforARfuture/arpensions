@@ -1,19 +1,19 @@
 ---
 layout: page
 title: "Evidence"
-description: "Key findings from 957 public records obtained through FOIA requests to four Arkansas state agencies."
+description: "Key findings from extensive public records obtained through FOIA requests to four Arkansas state agencies."
 permalink: /evidence/
 ---
 
 ## Our research
 
-Divest for AR Future has analyzed **957 public records** obtained through Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State.
+Divest for AR Future has analyzed **hundreds of public records** obtained through Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State.
 
 ## Key findings
 
 ### No independent credit analysis
 
-Of the 957 documents reviewed, **zero** contained an independent credit analysis of Israel Bonds. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
+Of the hundreds of documents reviewed, **zero** contained an independent credit analysis of Israel Bonds. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
 
 ### Internal memo recommended against new purchases
 
