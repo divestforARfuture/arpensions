@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<article class="page-content">
+<article class="page-content" aria-labelledby="page-heading">
   <div class="container container-prose">
     <header class="page-header">
-      <h1>{{ page.title }}</h1>
+      <h1 id="page-heading">{{ page.title }}</h1>
       {% if page.description %}
       <p class="page-description">{{ page.description }}</p>
       {% endif %}

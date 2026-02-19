@@ -3,6 +3,13 @@ description: "Protecting Arkansas pensions through transparency and accountabili
 url: "https://divestforarfuture.github.io"
 baseurl: ""
 permalink: /blog/:title/
+locale: en_US
+
+# Social / Open Graph defaults
+twitter:
+  card: summary_large_image
+social:
+  name: Divest for AR Future
 
 # Build settings
 markdown: kramdown
