@@ -25,7 +25,7 @@ The people who make investment decisions for your retirement fund are required b
 
 **For ATRS members (educators and retired educators):**
 
-Write to ATRS trustees at **[info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20—%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
+Write to ATRS trustees at **[info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
 
 > Dear ATRS Trustees,
 >
@@ -36,7 +36,7 @@ Write to ATRS trustees at **[info@artrs.gov](mailto:info@artrs.gov?subject=Publi
 
 **For APERS members (public employees and retirees):**
 
-Write to APERS at **[APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20—%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
+Write to APERS at **[APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
 
 > Dear APERS Trustees,
 >
