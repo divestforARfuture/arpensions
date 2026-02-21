@@ -7,11 +7,13 @@ permalink: /press/
 
 ## Campaign summary
 
-Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed hundreds of public records revealing that approximately $155 million in pension funds were committed to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
+Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed more than 1,000 public records revealing that approximately $155 million in pension funds were committed to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
 The campaign is calling for a pause on new purchases, independent financial analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
 
 ## Key statistics
+
+<div class="issue-agency-table issue-agency-table--fact-detail" markdown="1">
 
 | Figure | Detail |
 |--------|--------|
@@ -19,13 +21,17 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **$50M** | ATRS (teacher retirement) authorization for Israel Bonds (June 2, 2025; Board Chair cast lone "no" vote) |
 | **$25–50M** | APERS (public employee retirement) authorization for Israel Bonds (May 15, 2025) |
 | **$155M** | Total Arkansas exposure — Treasury holdings plus pension fund authorizations combined |
-| **Hundreds** | Public records obtained and analyzed via FOIA requests to four state agencies |
+| **1,000+** | Public records obtained and analyzed via FOIA requests to four state agencies |
 | **3** | Major credit agencies that have downgraded Israel's credit rating since 2024 |
 | **0** | Independent credit analyses of Israel Bonds found in the entire document record |
 | **4** | Arkansas state agencies that received FOIA requests (Treasury, ATRS, APERS, Auditor of State) |
 | **1** | Dissenting vote on the ATRS Board — Chair Danny Knight, who warned the process departed from standard practice |
 
+</div>
+
 ## Timeline of key events
+
+<div class="issue-agency-table issue-agency-table--fact-detail" markdown="1">
 
 | Date | Event |
 |------|-------|
@@ -40,22 +46,55 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **July 2025** | Arkansas Times publishes in-depth investigation: "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on" |
 | **August 2025** | Governor Sanders publicly celebrates the bond purchases: "Arkansas puts its money where its mouth is" |
 
+</div>
+
+<div class="press-quotes" markdown="1">
+
 ## Key quotes from the public record
 
-> "Both S&P Global Ratings and Moody's downgraded Israel's credit ratings due to heightened security risks and weakened economic prospects. The outlook remains negative... It is crucial for Israel to manage these risks effectively."
-> — Senior investment manager, Arkansas State Treasurer's Office (internal memo, late 2024)
+<div class="pull-quote" markdown="1">
 
-> "[The Board is] going outside of the scope of the way we usually do things."
-> — Danny Knight, ATRS Board Chair and sole dissenting vote (June 2025)
+"Both S&P Global Ratings and Moody's downgraded Israel's credit ratings due to heightened security risks and weakened economic prospects. The outlook remains negative... It is crucial for Israel to manage these risks effectively."
 
-> "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds!"
-> — Governor Sarah Huckabee Sanders (public statement, August 2025)
+<span class="pull-quote-attribution">— Senior investment manager, Arkansas State Treasurer's Office (internal memo, late 2024)</span>
 
-> "Those who bless Israel will be blessed, and those who curse Israel will be cursed. Arkansas unequivocally stands with Israel, as demonstrated by the recent actions of Governor Sarah Sanders and the Arkansas Legislature."
-> — State Treasurer Larry Walther, press release (Oct. 2023)
+</div>
 
-> "The meetings you helped arrange for us were productive... Your support and passion for Israel Bonds is second to none... critical to our success and Israel's future."
-> — Israel Bonds executive, in a thank-you note to State Auditor Dennis Milligan
+<div class="pull-quote" markdown="1">
+
+"[The Board is] going outside of the scope of the way we usually do things."
+
+<span class="pull-quote-attribution">— Danny Knight, ATRS Board Chair and sole dissenting vote (June 2025)</span>
+
+</div>
+
+<div class="pull-quote" markdown="1">
+
+"Arkansas puts its money where its mouth is and is investing millions in Israeli bonds!"
+
+<span class="pull-quote-attribution">— Governor Sarah Huckabee Sanders (public statement, August 2025)</span>
+
+</div>
+
+<div class="pull-quote" markdown="1">
+
+"Those who bless Israel will be blessed, and those who curse Israel will be cursed. Arkansas unequivocally stands with Israel, as demonstrated by the recent actions of Governor Sarah Sanders and the Arkansas Legislature."
+
+<span class="pull-quote-attribution">— State Treasurer Larry Walther, press release (Oct. 2023)</span>
+
+</div>
+
+<div class="pull-quote" markdown="1">
+
+"The meetings you helped arrange for us were productive... Your support and passion for Israel Bonds is second to none... critical to our success and Israel's future."
+
+<span class="pull-quote-attribution">— Israel Bonds executive, in a thank-you note to State Auditor Dennis Milligan</span>
+
+</div>
+
+</div>
+
+<div class="issue-red-flags" markdown="1">
 
 ## The fiduciary question
 
@@ -63,12 +102,21 @@ Arkansas law requires pension investments to be based solely on "pecuniary facto
 
 Key evidence points:
 
-- An internal Treasury memo recommended against new purchases
-- No independent credit analysis has been produced
-- The ATRS Board Chair warned the process was irregular and voted against it
-- The investments were arranged through a state official with stated non-financial motivations
-- Public statements by the Governor, Treasurer, and other officials framed the purchases in political — not financial — terms
-- The bond market offers many alternatives with higher credit ratings and greater liquidity
+**An internal Treasury memo recommended against new purchases.** The Treasurer's senior investment manager wrote that the state should hold existing positions and let maturing bonds roll off.
+
+**No independent credit analysis has been produced.** A review of more than 1,000 public records from four state agencies found zero independent credit analyses.
+
+**The ATRS Board Chair warned the process was irregular and voted against it.** Danny Knight's dissent noted the request departed from the normal manager-driven process.
+
+**The investments were arranged through a state official with stated non-financial motivations.** State Auditor Dennis Milligan arranged meetings between Israel Bonds representatives and agency heads.
+
+**Public statements by the Governor, Treasurer, and other officials framed the purchases in political — not financial — terms.** The Governor celebrated them as proof Arkansas "puts its money where its mouth is."
+
+**The bond market offers many alternatives with higher credit ratings and greater liquidity.** Israel Bonds cannot be traded before maturity and carry declining credit ratings.
+
+</div>
+
+<div class="press-resources" markdown="1">
 
 ## Background resources
 
@@ -76,10 +124,16 @@ Key evidence points:
 - **Credit ratings:** Moody's downgraded Israel from A2 to Baa1; Fitch downgraded from A+ to A; S&P maintains negative outlook
 - **Prior press coverage:** Jennifer Lenow, "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on," *Arkansas Times*, July 11, 2025
 
-## Media contact
+</div>
+
+<div class="cta-box" markdown="1">
+
+### Media contact
 
 **Email:** [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me)
 
 For source documents and detailed research findings, contact us directly. All claims are backed by public records obtained through lawful FOIA requests.
 
-*Divest for AR Future is a campaign of Little Rock Peace for Palestine.*
+</div>
+
+<p class="campaign-attribution">Divest for AR Future is a campaign of Little Rock Peace for Palestine.</p>
