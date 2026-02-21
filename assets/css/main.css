@@ -1596,3 +1596,116 @@ a:hover {
     font-size: 0.9rem;
   }
 }
+
+/* ==========================================================================
+   LEGISLATORS, PRESS KIT, ABOUT — Page elevation styles
+   ========================================================================== */
+
+/* --- Press Quotes — Pull quote cards with extra spacing --- */
+.press-quotes .pull-quote {
+  background: #fff;
+  border: 1px solid var(--d4arf-border);
+  border-left: 6px solid var(--d4arf-red);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
+  margin: 1.5rem 0;
+}
+
+.press-quotes .pull-quote-attribution {
+  font-size: 0.85rem;
+  color: var(--d4arf-gray);
+  font-style: italic;
+}
+
+/* --- Press Resources — Compact reference card --- */
+.press-resources {
+  background: var(--d4arf-gray-light);
+  border-radius: 8px;
+  padding: 1.5rem 1.75rem;
+  margin: 2rem 0;
+}
+
+.press-resources h2 {
+  margin-top: 0;
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--d4arf-border);
+  margin-bottom: 1rem;
+}
+
+.press-resources ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.press-resources li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--d4arf-border);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.press-resources li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* --- Approach Pillars — Gray accent bar on bold-lead paragraphs --- */
+.approach-pillars > p:has(> strong:first-child) {
+  border-left: 4px solid var(--d4arf-gray);
+  padding-left: 1.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.approach-pillars > p:has(> strong:first-child) + p:has(> strong:first-child) {
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--d4arf-border);
+}
+
+/* --- FAQ Section — Visually distinct Q&A pairs --- */
+.faq-section .faq-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--d4arf-border);
+}
+
+.faq-section .faq-item:first-of-type {
+  padding-top: 0;
+}
+
+.faq-section .faq-item:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.faq-section .faq-item > p:first-child {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--d4arf-black);
+  margin-bottom: 0.5rem;
+}
+
+.faq-section .faq-item > p:last-child {
+  color: var(--d4arf-gray);
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+/* --- Campaign Attribution — Subtle footer note --- */
+.campaign-attribution {
+  font-size: 0.85rem;
+  color: var(--d4arf-gray);
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--d4arf-border);
+}
+
+/* --- Fact/Detail table mobile labels (legislators, press kit) --- */
+@media (max-width: 600px) {
+  /* Override generic "Amount:" / "Date:" labels for Fact/Detail tables */
+  .issue-agency-table td:nth-child(2)::before {
+    content: '';
+  }
+}
