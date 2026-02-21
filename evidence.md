@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Evidence"
+title: "FOIA Evidence — Arkansas Pension Israel Bonds Investments"
 description: "Key findings from more than 1,000 public records obtained through FOIA requests to four Arkansas state agencies"
 permalink: /evidence/
 ---

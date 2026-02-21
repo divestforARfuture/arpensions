@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: "For Legislators"
-description: "Policy brief on Arkansas pension investments in Israel Bonds for members of the Arkansas General Assembly."
+title: "Policy Brief — Arkansas Pension Transparency for 2027"
+description: "Policy brief for Arkansas legislators on $155 million in pension fund Israel Bonds investments and the case for transparency legislation in 2027."
 permalink: /legislators/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: "For Educators"
+title: "ATRS & Israel Bonds — What Arkansas Teachers Should Know"
 description: "What Arkansas teachers and retired educators need to know about ATRS pension investments in Israel Bonds."
 permalink: /educators/
 ---

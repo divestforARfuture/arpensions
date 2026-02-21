@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: "For Public Employees"
+title: "APERS & Israel Bonds — What State Employees Should Know"
 description: "What Arkansas state employees need to know about APERS pension investments in Israel Bonds."
 permalink: /public-employees/
 ---
