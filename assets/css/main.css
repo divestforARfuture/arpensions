@@ -82,6 +82,16 @@ a:hover {
   outline-offset: 2px;
 }
 
+/* --- Screen Reader Only (a11y) --- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
 /* --- Focus States (a11y) --- */
 :focus-visible {
   outline: 3px solid var(--d4arf-red);
@@ -645,7 +655,7 @@ a:hover {
 }
 
 .about-section .container-prose {
-  text-align: left;
+  text-align: center;
 }
 
 .about-section h2 {
@@ -658,7 +668,8 @@ a:hover {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 3rem;
   height: 3px;
   background: var(--d4arf-red);
@@ -940,4 +951,211 @@ a:hover {
 .post-list p {
   margin-top: 0.5rem;
   color: var(--d4arf-gray);
+}
+
+/* ==========================================================================
+   EVIDENCE PAGE — Timeline, pull quotes, findings, legal reference
+   ========================================================================== */
+
+/* --- Evidence Findings — Visual hierarchy for numbered findings --- */
+.evidence-findings h3 {
+  padding-left: 1rem;
+  border-left: 4px solid var(--d4arf-red);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+}
+
+.evidence-findings h3:first-child {
+  margin-top: 0;
+}
+
+/* Separator between findings */
+.evidence-findings hr {
+  border: none;
+  border-top: 1px solid var(--d4arf-border);
+  margin: 2.5rem 0;
+}
+
+/* --- Pull Quote — Elevated callout for official statements --- */
+.pull-quote {
+  padding: 1.75rem 1.75rem 1.75rem 2rem;
+  background-color: var(--d4arf-gray-light);
+  border-left: 6px solid var(--d4arf-red);
+  border-radius: 0 8px 8px 0;
+  margin: 2rem 0;
+  position: relative;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* Decorative open-quote */
+.pull-quote::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.25rem;
+  left: 0.75rem;
+  font-size: 4rem;
+  font-family: var(--font-display);
+  color: var(--d4arf-red);
+  opacity: 0.12;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.pull-quote p {
+  margin: 0 0 1rem;
+  position: relative;
+}
+
+.pull-quote p:last-child {
+  margin-bottom: 0;
+}
+
+.pull-quote-attribution {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--d4arf-gray);
+  font-style: normal;
+  margin-top: 0.25rem;
+}
+
+/* --- Evidence Timeline — Vertical timeline component --- */
+.evidence-timeline {
+  position: relative;
+  padding-left: 2.5rem;
+  margin: 2rem 0 1rem;
+}
+
+/* Vertical line */
+.evidence-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: rgba(185, 28, 28, 0.2);
+  border-radius: 1px;
+}
+
+.timeline-event {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.timeline-event:last-child {
+  padding-bottom: 0;
+}
+
+/* Dot marker on the line */
+.timeline-marker {
+  position: absolute;
+  left: -2.25rem;
+  top: 0.35rem;
+  width: 10px;
+  height: 10px;
+  background: var(--d4arf-red);
+  border-radius: 50%;
+  border: 2px solid var(--d4arf-white);
+  box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.2);
+}
+
+.timeline-date {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--d4arf-red);
+  margin-bottom: 0.35rem;
+}
+
+.timeline-content {
+  font-size: 0.95rem;
+  color: var(--d4arf-gray);
+  line-height: 1.65;
+}
+
+/* Escalation events — stronger visual treatment */
+.timeline-event--escalation .timeline-marker {
+  width: 14px;
+  height: 14px;
+  left: -2.375rem;
+  top: 0.25rem;
+  box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.25);
+}
+
+.timeline-event--escalation .timeline-content {
+  background: var(--d4arf-red-light);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--d4arf-red);
+  color: var(--d4arf-black);
+}
+
+.timeline-event--escalation .timeline-date {
+  font-size: 1rem;
+}
+
+/* Timeline mobile adjustments */
+@media (max-width: 600px) {
+  .evidence-timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline-marker {
+    left: -1.75rem;
+  }
+
+  .timeline-event--escalation .timeline-marker {
+    left: -1.875rem;
+  }
+
+  .timeline-event--escalation .timeline-content {
+    padding: 0.6rem 0.75rem;
+  }
+}
+
+/* --- Legal Reference Block — Highlighted legal standards sidebar --- */
+.legal-reference {
+  background: var(--d4arf-red-light);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.legal-reference h2 {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--d4arf-red);
+}
+
+.legal-reference ul {
+  margin: 0;
+  padding-left: 0.25rem;
+  list-style: none;
+}
+
+.legal-reference li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(185, 28, 28, 0.12);
+  line-height: 1.65;
+}
+
+.legal-reference li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.legal-reference li strong {
+  color: var(--d4arf-black);
+}
+
+.legal-reference p {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+  color: var(--d4arf-gray);
+  line-height: 1.65;
 }
