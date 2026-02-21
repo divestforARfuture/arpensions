@@ -82,9 +82,17 @@ Multiple state officials made public statements that framed the investments in p
 
 <span class="pull-quote-attribution">— Governor Sarah Huckabee Sanders</span>
 
+</div>
+
+<div class="pull-quote" markdown="1">
+
 **"Investing in Israel Bonds is a testament to our longstanding belief in Israel's resiliency and the value it brings to the global economy."**
 
 <span class="pull-quote-attribution">— Former State Treasurer Dennis Milligan (Oct. 2023)</span>
+
+</div>
+
+<div class="callout" markdown="1">
 
 **Referred to the U.S. Ambassador to Israel as "my and Amy's former boss"** and called Israel "the United States' most trusted and dependable ally in a volatile region."
 

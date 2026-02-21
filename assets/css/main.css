@@ -82,6 +82,16 @@ a:hover {
   outline-offset: 2px;
 }
 
+/* --- Screen Reader Only (a11y) --- */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
 /* --- Focus States (a11y) --- */
 :focus-visible {
   outline: 3px solid var(--d4arf-red);
@@ -1124,7 +1134,7 @@ a:hover {
 
 .legal-reference ul {
   margin: 0;
-  padding-left: 0;
+  padding-left: 0.25rem;
   list-style: none;
 }
 
