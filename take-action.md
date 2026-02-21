@@ -31,7 +31,7 @@ The people who make investment decisions for your retirement fund are required b
 
 **For ATRS members (educators and retired educators):**
 
-Write to ATRS trustees at **[info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
+Write to ATRS trustees at **[info@atrs.gov](mailto:info@atrs.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
 
 <div class="letter-template letter-template--compact" markdown="1">
 <button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
@@ -91,9 +91,9 @@ Public comment at pension board meetings is one of the most direct ways to be he
 **ATRS Board Meetings**
 
 - **Location:** ATRS Board Room, 1400 W. Third St., Little Rock
-- **Upcoming 2026 dates:** Check the [ATRS Board Calendar](https://www.artrs.gov/board-calendar) for the current schedule
-- **Public comment:** Contact Board Secretary Tammy Porter at [tammyp@artrs.gov](mailto:tammyp@artrs.gov) to sign up ahead of the meeting
-- **Written comment:** Email [info@artrs.gov](mailto:info@artrs.gov) with the subject line "Public Comment for [date] Board Meeting"
+- **Upcoming 2026 dates:** Check the [ATRS Board Calendar](https://www.atrs.gov/board-calendar) for the current schedule
+- **Public comment:** Contact Board Secretary Tammy Porter at [tammyp@atrs.gov](mailto:tammyp@atrs.gov) to sign up ahead of the meeting
+- **Written comment:** Email [info@atrs.gov](mailto:info@atrs.gov) with the subject line "Public Comment for [date] Board Meeting"
 
 </div>
 <div class="meeting-info" markdown="1">
