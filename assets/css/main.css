@@ -1703,11 +1703,8 @@ a:hover {
 }
 
 /* --- Fact/Detail table mobile labels (legislators, press kit) --- */
+/* Scoped to --fact-detail modifier to avoid blanking labels on the-issue.md */
 @media (max-width: 600px) {
-  /* Override generic "Amount:" / "Date:" labels for Fact/Detail tables */
-  .issue-agency-table td:nth-child(2)::before {
-    content: '';
-  }
   .issue-agency-table--fact-detail td:nth-child(2)::before {
     content: '';
   }
