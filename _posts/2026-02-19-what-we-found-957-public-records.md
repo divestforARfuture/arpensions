@@ -50,7 +50,7 @@ This is unusual. For a $50 million authorization in a relatively illiquid, singl
 The public record also includes statements from state officials that frame these investments in explicitly political — not financial — terms:
 
 - Governor Sanders: "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds!"
-- Former Treasurer Walther: "Investing in Israel Bonds is a testament to our longstanding belief in Israel's resiliency and the value it brings to the global economy."
+- Treasurer Walther: "Those who bless Israel will be blessed, and those who curse Israel will be cursed. Arkansas unequivocally stands with Israel, as demonstrated by the recent actions of Governor Sarah Sanders and the Arkansas Legislature."
 - Deputy Auditor Brady, at the APERS meeting: referenced the U.S. Ambassador to Israel as "my and Amy's former boss" and called Israel "the United States' most trusted and dependable ally in a volatile region."
 
 These statements matter because Arkansas law requires pension investments to be based solely on "pecuniary factors" — financial merit. When the people championing an investment describe it in political terms, it raises the question of whether the legal standard was met.
