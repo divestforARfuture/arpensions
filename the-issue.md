@@ -1,9 +1,11 @@
 ---
 layout: page
 title: "The Issue"
-description: "Understanding the fiduciary concerns behind Arkansas pension investments in Israel Bonds."
+description: "Understanding the fiduciary concerns behind $155 million in Arkansas pension investments"
 permalink: /the-issue/
 ---
+
+<div class="issue-page" markdown="1">
 
 ## What are Israel Bonds?
 
@@ -18,11 +20,15 @@ In practical terms: an Arkansas pension fund that buys Israel Bonds is accepting
 
 Three Arkansas state agencies have committed or authorized significant funds for Israel Bonds:
 
+<div class="issue-agency-table" markdown="1">
+
 | Agency | Amount | Date |
 |--------|--------|------|
 | **State Treasury** | $55 million in holdings (including $20M purchased since May 2025) | Ongoing since 2017 |
 | **ATRS** (Arkansas Teacher Retirement System) | Up to **$50 million** authorized | June 2, 2025 |
 | **APERS** (Arkansas Public Employees' Retirement System) | **$25–50 million** authorized | May 15, 2025 |
+
+</div>
 
 These authorizations came in rapid succession — and under circumstances that raise questions about process:
 
@@ -35,6 +41,8 @@ These authorizations came in rapid succession — and under circumstances that r
 **What changed between the late-2024 recommendation to hold and the spring 2025 buying spree?** Not the credit ratings — those continued to decline. Not the financial outlook — the risks identified in the internal memo remained. The only thing that changed was the political pressure.
 
 </div>
+
+<div class="issue-red-flags" markdown="1">
 
 ## The fiduciary problem
 
@@ -52,13 +60,17 @@ Several red flags suggest these standards may not have been followed:
 
 **The investment was championed through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both the ATRS and APERS boards, arranged meetings between Israel Bonds sales representatives and state officials. A thank-you note from an Israel Bonds executive praised Milligan for his "support and passion for Israel Bonds" and called him "critical to our success and Israel's future." These are not the words of a routine financial transaction.
 
-**Public statements emphasized political symbolism, not financial merit.** Governor Sanders publicly stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." Former Treasurer Larry Walther called investing in Israel Bonds "a testament to our longstanding belief in Israel's resiliency." At the APERS Investment Subcommittee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel (former Arkansas Governor Mike Huckabee) as "my and Amy's former boss" and called Israel "the United States' most trusted and dependable ally in a volatile region." None of these are pecuniary factors.
+**Public statements emphasized political symbolism, not financial merit.** Governor Sanders publicly stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." Former Treasurer Larry Walther called investing in Israel Bonds "a testament to our longstanding belief in Israel's resiliency [...]" At the APERS Investment Subcommittee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel (former Arkansas Governor Mike Huckabee) as "my and Amy's former boss" and called Israel "the United States' most trusted and dependable ally in a volatile region." None of these are pecuniary factors.
 
 <div class="callout" markdown="1">
 
 **The pattern is clear:** the idea for these investments originated through political channels, was promoted by a state official with explicit non-financial motivations, bypassed the normal professional recommendation process, overrode internal staff advice against new purchases, and was publicly celebrated as a political statement. Whether the bonds happen to be "investment-grade" does not answer the question of whether the process met Arkansas's fiduciary standards.
 
 </div>
+
+</div>
+
+<div class="issue-symmetry" markdown="1">
 
 ## The symmetry argument
 
@@ -70,12 +82,20 @@ If it is wrong to *sell* an investment for political reasons, it is equally wron
 
 Our campaign is not asking for anything that Arkansas law does not already require. We are asking:
 
+<div class="issue-questions" markdown="1">
+
 - Were these investments made through the standard process of independent financial analysis?
 - Were they evaluated solely on pecuniary factors — risk, return, and liquidity?
 - Were the internal staff recommendations against new purchases given proper weight?
 - Can the state produce the documented, independent credit analysis that prudent investment requires?
 
+</div>
+
 These are not political questions. They are fiduciary questions. And Arkansas pension beneficiaries — teachers, public employees, and retirees — deserve answers.
+
+</div>
+
+<div class="issue-demands" markdown="1">
 
 ## What we're asking for
 
@@ -85,3 +105,7 @@ Our requests are straightforward:
 2. **Transparency** — Publish the financial analysis comparing Israel Bonds' risk, return, and liquidity against comparable fixed-income alternatives.
 3. **Process review** — Document how the recent authorizations complied with Arkansas's pecuniary-only standard and the normal manager-driven investment process.
 4. **Member input** — Invite public comment from the educators, public employees, and retirees whose retirement savings are at stake.
+
+</div>
+
+</div>

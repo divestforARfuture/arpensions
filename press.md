@@ -30,7 +30,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | Date | Event |
 |------|-------|
 | **2017** | Arkansas first purchases Israel Bonds through the State Treasury, following outreach from Israel Bonds representatives to then-Treasurer Dennis Milligan |
-| **October 2023** | State Board of Finance approves $20M Israel Bonds purchase; Treasurer Walther cites "belief in Israel's resiliency" |
+| **October 2023** | State Board of Finance approves $20M Israel Bonds purchase; Treasurer Walther cites "belief in Israel's resiliency [...]" |
 | **February 2024** | All three major credit agencies downgrade Israel's credit outlook to "negative" |
 | **Late 2024** | Internal Treasury memo from senior investment manager recommends holding off on new Israel Bonds purchases due to credit-rating downgrades |
 | **November 2024** | State Auditor Milligan arranges for Israel Bonds representatives to meet with state officials |
