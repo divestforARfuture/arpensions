@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Take Action"
+title: "Take Action — Demand Arkansas Pension Transparency"
 description: "Join Arkansans demanding pension transparency and fiduciary accountability. Here's how you can help."
 permalink: /take-action/
 ---

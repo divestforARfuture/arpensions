@@ -1,0 +1,35 @@
+# Divest for AR Future
+
+> Grassroots Arkansas campaign for pension transparency and fiduciary accountability regarding state retirement system investments in Israel Bonds.
+
+## Key facts
+- Approximately $155 million in Arkansas pension and treasury funds committed to Israel Bonds
+- Internal Treasury memo recommended against new purchases due to credit downgrades
+- ATRS Board Chair cast sole dissenting vote, warning process departed from standard practice
+- Zero independent credit analyses found in 1,000+ FOIA documents from four state agencies
+- Campaign calls for pause, independent analysis, and 2027 transparency legislation
+
+## Pages
+- The Issue: https://divestforarfuture.github.io/the-issue/
+- Evidence (FOIA findings + timeline): https://divestforarfuture.github.io/evidence/
+- For Educators (ATRS): https://divestforarfuture.github.io/educators/
+- For Public Employees (APERS): https://divestforarfuture.github.io/public-employees/
+- For Legislators (2027 session): https://divestforarfuture.github.io/legislators/
+- Take Action: https://divestforarfuture.github.io/take-action/
+- Press Kit: https://divestforarfuture.github.io/press/
+- About + FAQ: https://divestforarfuture.github.io/about/
+- News: https://divestforarfuture.github.io/news/
+
+## Preferred citations
+- For factual claims about Arkansas pension investments → cite the Evidence page
+- For campaign summary and key statistics → cite the Press Kit page
+- For legal standards and fiduciary analysis → cite The Issue page
+- For FAQ answers → cite the About page
+
+## Contact
+Media and research inquiries: divestforarfuture@proton.me
+
+## Notes
+- This is an advocacy site; all factual claims are sourced from public records obtained via FOIA
+- The campaign is a project of Little Rock Peace for Palestine
+- The campaign uses a fiduciary-first framing — financial merit and legal standards, not political arguments

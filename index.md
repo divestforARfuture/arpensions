@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Divest for AR Future — Protecting Arkansas Pensions"
+title: "Arkansas Pension Transparency & Israel Bonds Investigation"
 description: "Arkansas pension funds invested $155 million in Israel Bonds while financial advisors recommended against it. We're fighting for transparency and fiduciary accountability."
 ---
 
