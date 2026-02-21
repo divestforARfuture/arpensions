@@ -13,7 +13,7 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 
 ## Key facts
 
-<div class="issue-agency-table" markdown="1">
+<div class="issue-agency-table issue-agency-table--fact-detail" markdown="1">
 
 | Fact | Detail |
 |------|--------|

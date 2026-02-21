@@ -13,7 +13,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 ## Key statistics
 
-<div class="issue-agency-table" markdown="1">
+<div class="issue-agency-table issue-agency-table--fact-detail" markdown="1">
 
 | Figure | Detail |
 |--------|--------|
@@ -31,7 +31,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 ## Timeline of key events
 
-<div class="issue-agency-table" markdown="1">
+<div class="issue-agency-table issue-agency-table--fact-detail" markdown="1">
 
 | Date | Event |
 |------|-------|
@@ -136,4 +136,4 @@ For source documents and detailed research findings, contact us directly. All cl
 
 </div>
 
-<p class="campaign-attribution"><em>Divest for AR Future is a campaign of Little Rock Peace for Palestine.</em></p>
+<p class="campaign-attribution">Divest for AR Future is a campaign of Little Rock Peace for Palestine.</p>
