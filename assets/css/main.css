@@ -1708,4 +1708,7 @@ a:hover {
   .issue-agency-table td:nth-child(2)::before {
     content: '';
   }
+  .issue-agency-table--fact-detail td:nth-child(2)::before {
+    content: '';
+  }
 }
