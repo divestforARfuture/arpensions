@@ -30,7 +30,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | Date | Event |
 |------|-------|
 | **2017** | Arkansas first purchases Israel Bonds through the State Treasury, following outreach from Israel Bonds representatives to then-Treasurer Dennis Milligan |
-| **October 2023** | State Board of Finance approves $20M Israel Bonds purchase; Treasurer Walther cites "belief in Israel's resiliency [...]" |
+| **October 2023** | State Board of Finance approves $10M additional Israel Bonds purchase; Treasurer Walther states "Those who bless Israel will be blessed, and those who curse Israel will be cursed" |
 | **February 2024** | All three major credit agencies downgrade Israel's credit outlook to "negative" |
 | **Late 2024** | Internal Treasury memo from senior investment manager recommends holding off on new Israel Bonds purchases due to credit-rating downgrades |
 | **November 2024** | State Auditor Milligan arranges for Israel Bonds representatives to meet with state officials |
@@ -51,8 +51,8 @@ The campaign is calling for a pause on new purchases, independent financial anal
 > "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds!"
 > — Governor Sarah Huckabee Sanders (public statement, August 2025)
 
-> "Investing in Israel Bonds is a testament to our longstanding belief in Israel's resiliency and the value it brings to the global economy."
-> — Larry Walther, former State Treasurer (October 2023)
+> "Those who bless Israel will be blessed, and those who curse Israel will be cursed. Arkansas unequivocally stands with Israel, as demonstrated by the recent actions of Governor Sarah Sanders and the Arkansas Legislature."
+> — State Treasurer Larry Walther, press release (Oct. 2023)
 
 > "The meetings you helped arrange for us were productive... Your support and passion for Israel Bonds is second to none... critical to our success and Israel's future."
 > — Israel Bonds executive, in a thank-you note to State Auditor Dennis Milligan

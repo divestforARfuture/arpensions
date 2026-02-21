@@ -78,17 +78,17 @@ Multiple state officials made public statements that framed the investments in p
 
 <div class="pull-quote" markdown="1">
 
-**"Arkansas puts its money where its mouth is and is investing millions in Israeli bonds!"**
+**"Treasurer Walther's purchase of $10 million in Israeli bonds allows us to support that country in actions as well as words. Arkansas stands with Israel."**
 
-<span class="pull-quote-attribution">— Governor Sarah Huckabee Sanders</span>
+<span class="pull-quote-attribution">— Governor Sarah Sanders, press release (Oct. 2023)</span>
 
 </div>
 
 <div class="pull-quote" markdown="1">
 
-**"Investing in Israel Bonds is a testament to our longstanding belief in Israel's resiliency and the value it brings to the global economy."**
+**"Those who bless Israel will be blessed, and those who curse Israel will be cursed. Arkansas unequivocally stands with Israel, as demonstrated by the recent actions of Governor Sarah Sanders and the Arkansas Legislature."**
 
-<span class="pull-quote-attribution">— Former State Treasurer Dennis Milligan (Oct. 2023)</span>
+<span class="pull-quote-attribution">— State Treasurer Larry Walther, press release (Oct. 2023)</span>
 
 </div>
 
