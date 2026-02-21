@@ -223,7 +223,16 @@ a:hover {
 
   .nav-links.nav-open {
     display: flex;
-    animation: navSlideDown 0.25s ease-out;
+    display: flex;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .nav-links.nav-open {
+      animation: navSlideDown 0.25s ease-out;
+    }
+  }
+
+  .nav-links.nav-open {
   }
 
   .nav-links a {
