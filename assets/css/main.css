@@ -726,9 +726,10 @@ a:hover {
 /* --- Landing Page --- */
 .landing-hero {
   background-color: var(--d4arf-gray-light);
-  padding: 3rem 1.5rem;
+  padding: 3.5rem 1.5rem 3rem;
   text-align: center;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .landing-hero h1 {
@@ -736,9 +737,11 @@ a:hover {
 }
 
 .landing-description {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   color: var(--d4arf-gray);
-  margin: 0;
+  margin: 0.75rem auto 0;
+  max-width: 600px;
+  line-height: 1.7;
 }
 
 .landing-content .container-prose {
@@ -772,16 +775,18 @@ a:hover {
   border: 2px solid var(--d4arf-border);
   border-radius: 8px;
   position: relative;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
 
 .letter-template .letter-heading {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   color: var(--d4arf-gray);
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
+  margin: -2rem -2rem 1.5rem;
+  padding: 0.75rem 6rem 0.75rem 2rem;
+  background: var(--d4arf-gray-light);
+  border-radius: 6px 6px 0 0;
   border-bottom: 1px solid var(--d4arf-border);
 }
 
@@ -1384,5 +1389,210 @@ a:hover {
     width: 1.75rem;
     height: 1.75rem;
     font-size: 0.85rem;
+  }
+}
+
+/* ==========================================================================
+   AUDIENCE LANDING PAGES + TAKE ACTION — Visual elevation
+   ========================================================================== */
+
+/* --- Landing Hero — Red accent stripe (mirrors homepage hero motif) --- */
+.landing-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--d4arf-red);
+}
+
+/* --- Copy to Clipboard Button --- */
+.copy-letter-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.35rem 0.85rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.8rem;
+  background: transparent;
+  color: var(--d4arf-red);
+  border: 2px solid var(--d4arf-red);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  min-height: 36px;
+  line-height: 1;
+  z-index: 1;
+}
+
+.copy-letter-btn:hover {
+  background: var(--d4arf-red);
+  color: #fff;
+}
+
+.copy-letter-btn:focus-visible {
+  outline: 3px solid var(--d4arf-red);
+  outline-offset: 2px;
+}
+
+.copy-letter-btn--copied,
+.copy-letter-btn--copied:hover {
+  background: var(--d4arf-green);
+  color: #fff;
+  border-color: var(--d4arf-green);
+}
+
+/* --- Compact Letter Template (shorter letters on take-action page) --- */
+.letter-template--compact {
+  padding: 3rem 1.5rem 1.5rem;
+}
+
+.letter-template--compact p:first-of-type {
+  margin-top: 0;
+}
+
+.letter-template--compact p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* --- Email Callout — Distinct shorter-version styling --- */
+.email-callout {
+  background: #fff;
+  border: 1px solid var(--d4arf-border);
+  border-left: 4px solid var(--d4arf-green);
+  font-size: 0.95rem;
+}
+
+/* --- Meeting Info Card — Accent-bordered details card --- */
+.meeting-info {
+  border-left: 4px solid var(--d4arf-red);
+  background: var(--d4arf-gray-light);
+  border-radius: 0 8px 8px 0;
+  padding: 1.25rem 1.5rem 1rem;
+  margin: 1.5rem 0;
+}
+
+.meeting-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.meeting-info li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--d4arf-border);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.meeting-info li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Meeting info header (bold-only paragraph used as card title) */
+.meeting-info > p:first-child {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--d4arf-border);
+}
+
+/* --- Meeting Grid — Side-by-side on desktop, stacked on mobile --- */
+.meeting-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.meeting-grid .meeting-info {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .meeting-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* --- Script Card — Rehearsal card for public comment scripts --- */
+.script-card {
+  background: #fff;
+  border: 2px solid var(--d4arf-border);
+  border-left: 6px solid var(--d4arf-red);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem 1.5rem 1.5rem 1.75rem;
+}
+
+/* --- Action Ladder (Take Action page) — Numbered action cards --- */
+.page-content .container-prose {
+  counter-reset: action-steps;
+}
+
+.action-step {
+  counter-increment: action-steps;
+  position: relative;
+  background: var(--d4arf-gray-light);
+  border: 1px solid var(--d4arf-border);
+  border-radius: 8px;
+  padding: 2rem 2rem 1.5rem 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.action-step h2 {
+  margin-top: 0;
+  font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+}
+
+.action-step h2::before {
+  content: counter(action-steps);
+  position: absolute;
+  left: 1.25rem;
+  top: 1.85rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--d4arf-red);
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 50%;
+  line-height: 1;
+}
+
+/* White backgrounds for nested components inside action cards */
+.action-step .callout {
+  background: #fff;
+}
+
+.action-step .letter-template {
+  background: #fff;
+}
+
+.action-step .meeting-grid {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .action-step {
+    padding: 1.5rem 1.25rem 1.25rem 3.5rem;
+  }
+
+  .action-step h2::before {
+    left: 0.75rem;
+    top: 1.35rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.9rem;
   }
 }

@@ -29,7 +29,7 @@ Here's what the record shows:
 - **The Treasurer's own staff recommended against it.** A late-2024 memo from the Treasurer's senior investment manager advised holding off on new Israel Bonds because all three major credit-rating agencies had downgraded Israel's credit, signaling higher risk.
 - **Sales representatives — not financial analysts — drove the process.** The authorization came shortly after an April 2025 meeting where Israel Bonds sales representatives met with senior officials from ATRS, APERS, the State Treasurer, and the State Auditor. Within weeks, a $20 million Treasury purchase followed, along with large authorizations at both pension funds.
 - **Public statements emphasized politics, not financial merit.** Officials have highlighted Israel Bonds as a way for Arkansas to "stand with Israel" — underscoring the need for clear separation between political symbolism and the Board's legal duties to ATRS members.
-- **No independent credit analysis was produced.** Our review of hundreds of public records obtained through FOIA requests found zero independent credit analyses of Israel Bonds prepared before the authorization.
+- **No independent credit analysis was produced.** Our review of more than 1,000 public records obtained through FOIA requests found zero independent credit analyses of Israel Bonds prepared before the authorization.
 
 <div class="callout" markdown="1">
 
@@ -48,8 +48,9 @@ Email the Board to request a pause and independent financial review before any b
 **Email:** [info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Authorization)
 
 <div class="letter-template" markdown="1">
+<button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
 
-#### Copy-paste letter for ATRS trustees
+#### Letter template — ATRS trustees
 {: .letter-heading }
 
 **Subject line:** Educators request pause and review on Israel Bonds authorization
@@ -73,7 +74,7 @@ Sincerely,
 
 </div>
 
-<div class="callout" markdown="1">
+<div class="callout email-callout" markdown="1">
 
 **Shorter version for email:** "As an Arkansas educator and ATRS member, I appreciate your work to safeguard our retirement. I'm writing to ask you to pause execution of the June 2025 authorization of up to $50 million in Israel Bonds until an independent, written analysis is completed and shared with members. That review should compare risk, return, and liquidity to other fixed-income options and explain how this investment satisfies Arkansas's pecuniary-only and prudent-investor requirements."
 
@@ -83,12 +84,16 @@ Sincerely,
 
 Public comment is your right as a pension fund member.
 
+<div class="meeting-info" markdown="1">
+
 - **Location:** ATRS Board Room, 1400 W. Third St., Little Rock
 - **Public comment:** Contact Board Secretary Tammy Porter at [tammyp@artrs.gov](mailto:tammyp@artrs.gov) to sign up
 - **Written comment:** Email [info@artrs.gov](mailto:info@artrs.gov) with a subject line referencing the board meeting date
 - **Upcoming 2026 dates:** Check the [ATRS Board Calendar](https://www.artrs.gov/board-calendar) for the current schedule
 
-<div class="callout" markdown="1">
+</div>
+
+<div class="callout script-card" markdown="1">
 
 **60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas educator and ATRS member. In June you approved Resolution 2025-22 authorizing up to $50 million in Israel Bonds. The Board Chair cast the lone no vote and raised concerns that selecting a specific bond at a trustee's request fell outside ATRS's usual manager-driven process. We also know the State Treasurer's own investment staff previously recommended pausing new Israel Bond purchases because of recent credit-rating downgrades. As members, we're simply asking you to slow down. Please pause execution of the authorization, commission and publish a clear risk-return and liquidity analysis under Arkansas's pecuniary-only standard, and invite robust public discussion before committing our pension fund to this position."
 

@@ -48,8 +48,9 @@ Email the Board to request a pause and independent financial review before any b
 **Email:** [APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Authorization)
 
 <div class="letter-template" markdown="1">
+<button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
 
-#### Copy-paste letter for APERS trustees
+#### Letter template — APERS trustees
 {: .letter-heading }
 
 **Subject line:** Public employees request pause and independent analysis on Israel Bonds
@@ -73,7 +74,7 @@ Sincerely,
 
 </div>
 
-<div class="callout" markdown="1">
+<div class="callout email-callout" markdown="1">
 
 **Shorter version for email:** "As an Arkansas public employee and APERS member, I appreciate your work to safeguard our retirement. I'm asking you to pause execution of the 2025 Israel Bonds authorization until you complete and share an independent, written analysis. Please compare risk, return, and liquidity to other fixed-income options and explain how any investment in Israel Bonds meets Arkansas's pecuniary-only standard and prudent-investor duties."
 
@@ -83,12 +84,16 @@ Sincerely,
 
 Public comment is your right as a pension fund member.
 
+<div class="meeting-info" markdown="1">
+
 - **Location:** APERS Office, 124 W. Capitol Ave., Little Rock
 - **Contact:** Executive Director's office at [APERS@arkansas.gov](mailto:APERS@arkansas.gov) to confirm public-comment logistics
 - **Written comment:** Email [APERS@arkansas.gov](mailto:APERS@arkansas.gov) with a subject line referencing the board meeting date
 - **Upcoming 2026 dates:** March 11 and June 10 (9:00 a.m.) — check [apers.org](https://apers.org/) for updates
 
-<div class="callout" markdown="1">
+</div>
+
+<div class="callout script-card" markdown="1">
 
 **60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas public employee and APERS member. In May 2025, your Investment Subcommittee approved a resolution to invest $25–50 million in Israel Bonds. Around the same time, the State Treasurer's investment staff issued a memo recommending that Arkansas hold off on new Israel Bonds because all three major rating agencies had downgraded Israel's credit. As members, we are simply asking you to slow down and put fiduciary standards first. Please pause any transaction, commission and publish a clear comparison of risk, return, and liquidity with other fixed-income options, and explain how any decision meets Arkansas's pecuniary-only and prudent-investor standards before committing our retirement fund to this position."
 
