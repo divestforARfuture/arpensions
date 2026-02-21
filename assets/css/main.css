@@ -221,8 +221,18 @@ a:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
+  @keyframes navSlideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-0.5rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
   .nav-links.nav-open {
-    display: flex;
     display: flex;
   }
 
@@ -232,25 +242,11 @@ a:hover {
     }
   }
 
-  .nav-links.nav-open {
-  }
-
   .nav-links a {
     padding: 0.85rem 0.75rem;
     min-height: 48px;
     display: flex;
     align-items: center;
-  }
-}
-
-@keyframes navSlideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-0.5rem);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }
 
