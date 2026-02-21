@@ -55,3 +55,59 @@
     }
   });
 })();
+
+// Scroll-triggered stat counter animation
+(function() {
+  // Respect reduced motion preference
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  var stats = document.querySelectorAll('[data-count]');
+  if (!stats.length) return;
+
+  var animated = false;
+
+  function animateCount(el) {
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    var prefix = el.getAttribute('data-prefix') || '';
+    var suffix = el.getAttribute('data-suffix') || '';
+    var duration = 1500;
+    var start = performance.now();
+
+    // Special handling for zero — delay then pulse
+    if (target === 0) {
+      el.textContent = '0';
+      setTimeout(function() {
+        el.classList.add('stat-number--revealed');
+      }, duration + 300);
+      return;
+    }
+
+    function step(now) {
+      var elapsed = now - start;
+      var progress = Math.min(elapsed / duration, 1);
+      // Ease-out cubic for natural deceleration
+      var eased = 1 - Math.pow(1 - progress, 3);
+      var current = Math.round(target * eased);
+      el.textContent = prefix + current + suffix;
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      }
+    }
+
+    el.textContent = prefix + '0' + suffix;
+    requestAnimationFrame(step);
+  }
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting && !animated) {
+        animated = true;
+        stats.forEach(animateCount);
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.3 });
+
+  var bar = document.querySelector('.stats-bar');
+  if (bar) observer.observe(bar);
+})();
