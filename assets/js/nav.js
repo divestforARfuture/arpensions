@@ -56,6 +56,21 @@
   });
 })();
 
+// Active nav highlighting — reinforce server-side aria-current with client-side path matching
+(function() {
+  var path = window.location.pathname.replace(/\/+$/, '') || '/';
+  var links = document.querySelectorAll('.nav-links a');
+
+  links.forEach(function(link) {
+    var href = (link.getAttribute('href') || '').replace(/\/+$/, '') || '/';
+    if (path === href) {
+      link.setAttribute('aria-current', 'page');
+    } else {
+      link.removeAttribute('aria-current');
+    }
+  });
+})();
+
 // Scroll-triggered stat counter animation
 (function() {
   // Respect reduced motion preference
