@@ -31,7 +31,7 @@ permalink: /network/
         <h2 class="sidebar-heading">Search</h2>
         <div class="search-wrapper">
           <input type="search" id="node-search" class="node-search" placeholder="Search entities..." aria-label="Search entities by name">
-          <div id="search-results" class="search-results" role="listbox" aria-label="Search results"></div>
+          <input type="search" id="node-search" class="node-search" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
         </div>
       </div>
 
