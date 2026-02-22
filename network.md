@@ -39,7 +39,7 @@ permalink: /network/
         <h2 class="sidebar-heading">Guided Tours</h2>
         <div class="tour-list" role="list">
           <li role="listitem">
-          <button class="tour-btn">
+          <li><button class="tour-btn">
             <span class="tour-btn-title">The Milligan Chain</span>
             <span class="tour-btn-desc">How one official drove Israel Bonds across three agencies</span>
           </button>
