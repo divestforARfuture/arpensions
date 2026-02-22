@@ -631,6 +631,7 @@
         var btn = document.createElement('button');
         btn.className = 'search-result-item';
         btn.setAttribute('role', 'option');
+        btn.setAttribute('aria-selected', 'false');
         var color = TYPE_COLORS[n.type] || '#999';
         btn.innerHTML =
           '<span class="search-result-dot" style="background:' + color + '"></span>' +
