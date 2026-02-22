@@ -30,32 +30,31 @@ permalink: /network/
       <div class="sidebar-section">
         <h2 class="sidebar-heading">Search</h2>
         <div class="search-wrapper">
-          <input type="search" id="node-search" class="node-search" placeholder="Search entities..." aria-label="Search entities by name">
-          <input type="search" id="node-search" class="node-search" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
+          <input type="search" id="node-search" class="node-search" placeholder="Search entities..." aria-label="Search entities by name" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
+          <div id="search-results" class="search-results" role="listbox" aria-label="Search results"></div>
         </div>
       </div>
 
       <div class="sidebar-section">
         <h2 class="sidebar-heading">Guided Tours</h2>
-        <div class="tour-list" role="list">
-          <li role="listitem">
-          <li><button class="tour-btn">
+        <ul class="tour-list">
+          <li><button class="tour-btn" data-tour="milligan-chain">
             <span class="tour-btn-title">The Milligan Chain</span>
             <span class="tour-btn-desc">How one official drove Israel Bonds across three agencies</span>
-          </button>
-          <button class="tour-btn" data-tour="seller-as-analyst" role="listitem">
+          </button></li>
+          <li><button class="tour-btn" data-tour="seller-as-analyst">
             <span class="tour-btn-title">Seller as Analyst</span>
             <span class="tour-btn-desc">Israel Bonds reps provided the only "analysis"</span>
-          </button>
-          <button class="tour-btn" data-tour="sfof-pipeline" role="listitem">
+          </button></li>
+          <li><button class="tour-btn" data-tour="sfof-pipeline">
             <span class="tour-btn-title">The SFOF Pipeline</span>
             <span class="tour-btn-desc">How advocacy spread through a national network</span>
-          </button>
-          <button class="tour-btn" data-tour="authorization-gap" role="listitem">
+          </button></li>
+          <li><button class="tour-btn" data-tour="authorization-gap">
             <span class="tour-btn-title">The Authorization Gap</span>
             <span class="tour-btn-desc">What's missing from the fiduciary record</span>
-          </button>
-        </div>
+          </button></li>
+        </ul>
       </div>
 
       <div class="sidebar-section sidebar-legend">
@@ -90,7 +89,8 @@ permalink: /network/
     </div>
 
     <!-- Detail panel -->
-    <aside class="network-detail" id="detail-panel" aria-label="Entity details" aria-live="polite">
+    <aside class="network-detail" id="detail-panel" aria-label="Entity details">
+      <div id="detail-status" class="sr-only" aria-live="polite" aria-atomic="true"></div>
       <div class="detail-empty" id="detail-empty">
         <div class="detail-empty-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>

@@ -167,11 +167,21 @@
     labelBgElements: null
   };
 
+  // --- Utility: debounce ---
+  function debounce(fn, delay) {
+    var timer;
+    return function () {
+      clearTimeout(timer);
+      timer = setTimeout(fn, delay);
+    };
+  }
+
   // --- Init ---
   function init() {
-    var dataUrl = document.querySelector('script[src*="network.js"]')
-      .getAttribute('src')
-      .replace('network.js', 'network-graph.json');
+    var scriptEl = document.querySelector('script[data-graph-url]');
+    var dataUrl = scriptEl
+      ? scriptEl.getAttribute('data-graph-url')
+      : '/assets/js/network-graph.json';
 
     d3.json(dataUrl).then(function (data) {
       state.data = data;
@@ -377,7 +387,8 @@
       .selectAll('rect')
       .data(labelNodes)
       .join('rect')
-      .attr('class', 'node-label-bg');
+      .attr('class', 'node-label-bg')
+      .attr('rx', 3);
 
     state.labelElements = g.append('g')
       .attr('class', 'labels')
@@ -441,12 +452,12 @@
       svg.on('mousedown.hint', null);
     });
 
-    // Resize
-    window.addEventListener('resize', function () {
+    // Resize (debounced)
+    window.addEventListener('resize', debounce(function () {
       var w = container.clientWidth;
       var h = container.clientHeight;
       svg.attr('width', w).attr('height', h);
-    });
+    }, 150));
   }
 
   // --- Drag handlers ---
@@ -524,6 +535,10 @@
 
     document.getElementById('detail-name').textContent = node.label;
 
+    // Announce to screen readers
+    var statusEl = document.getElementById('detail-status');
+    if (statusEl) statusEl.textContent = node.label + ' selected';
+
     // Observations
     var obsList = document.getElementById('detail-observations');
     obsList.innerHTML = '';
@@ -539,12 +554,6 @@
       more.style.color = '#999';
       more.style.fontStyle = 'italic';
       more.textContent = '+ ' + (observations.length - showCount) + ' more facts in the full record';
-      obsList.appendChild(more);
-    }
-      var more = document.createElement('li');
-      more.style.color = '#999';
-      more.style.fontStyle = 'italic';
-      more.textContent = '+ ' + (node.observationCount - showCount) + ' more facts in the full record';
       obsList.appendChild(more);
     }
 
@@ -615,6 +624,7 @@
 
       if (query.length < 2) {
         resultsEl.classList.remove('open');
+        input.setAttribute('aria-expanded', 'false');
         return;
       }
 
@@ -624,6 +634,7 @@
 
       if (matches.length === 0) {
         resultsEl.classList.remove('open');
+        input.setAttribute('aria-expanded', 'false');
         return;
       }
 
@@ -641,18 +652,21 @@
           panToNode(n);
           highlightNeighborhood(n);
           resultsEl.classList.remove('open');
+          input.setAttribute('aria-expanded', 'false');
           input.value = n.label;
         });
         resultsEl.appendChild(btn);
       });
 
       resultsEl.classList.add('open');
+      input.setAttribute('aria-expanded', 'true');
     });
 
     // Close on outside click
     document.addEventListener('click', function (e) {
       if (!e.target.closest('.search-wrapper')) {
         resultsEl.classList.remove('open');
+        input.setAttribute('aria-expanded', 'false');
       }
     });
   }
