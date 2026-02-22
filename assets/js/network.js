@@ -554,7 +554,8 @@
         var li = document.createElement('li');
         var btn = document.createElement('button');
         btn.className = 'detail-connection-link';
-        btn.textContent = other;
+        var otherNode = state.data.nodes.find(function (n) { return n.id === other; });
+        btn.textContent = otherNode ? otherNode.label : other;
         btn.addEventListener('click', function () {
           var targetNode = state.data.nodes.find(function (n) { return n.id === other; });
           if (targetNode) {
