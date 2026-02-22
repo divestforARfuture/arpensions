@@ -345,8 +345,33 @@
    ========================================================================== */
 .network-graph-area {
   position: relative;
-  background: var(--d4arf-black);
+  background:
+    radial-gradient(ellipse at 50% 45%, rgba(255, 255, 255, 0.04) 0%, transparent 65%),
+    var(--d4arf-black);
   overflow: hidden;
+}
+
+/* Subtle grid texture — same pattern as hero, adds visual grounding */
+.network-graph-area::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 64px 64px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Vignette — darkened edges frame the graph content */
+.network-graph-area::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 50%, transparent 40%, rgba(0, 0, 0, 0.35) 100%);
+  pointer-events: none;
+  z-index: 2;
 }
 
 .network-graph {
@@ -354,6 +379,7 @@
   height: calc(100vh - 60px);
   position: sticky;
   top: 60px;
+  z-index: 3;
 }
 
 .network-graph svg {
@@ -386,7 +412,7 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  z-index: 10;
+  z-index: 15;
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
@@ -417,7 +443,7 @@
   bottom: 1rem;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 10;
+  z-index: 15;
   pointer-events: none;
   transition: opacity 0.3s;
 }
@@ -440,19 +466,19 @@
 .node-label {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 11px;
-  fill: rgba(255, 255, 255, 0.8);
+  fill: rgba(255, 255, 255, 0.92);
   pointer-events: none;
   text-anchor: middle;
   dominant-baseline: central;
 }
 
 .node-label-bg {
-  fill: rgba(26, 26, 26, 0.75);
+  fill: rgba(10, 10, 10, 0.85);
   pointer-events: none;
 }
 
 .link-line {
-  stroke: rgba(255, 255, 255, 0.08);
+  stroke: rgba(255, 255, 255, 0.15);
   stroke-width: 1;
   fill: none;
 }
@@ -471,7 +497,7 @@
 .node-circle {
   cursor: pointer;
   transition: r 0.15s;
-  stroke: rgba(255, 255, 255, 0.15);
+  stroke: rgba(255, 255, 255, 0.3);
   stroke-width: 1.5;
 }
 
@@ -687,7 +713,7 @@
   bottom: 4rem;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 20;
+  z-index: 25;
   background: #fff;
   border: 1px solid var(--d4arf-border);
   border-left: 4px solid var(--d4arf-red);
