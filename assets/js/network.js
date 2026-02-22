@@ -538,6 +538,12 @@
       var more = document.createElement('li');
       more.style.color = '#999';
       more.style.fontStyle = 'italic';
+      more.textContent = '+ ' + (observations.length - showCount) + ' more facts in the full record';
+      obsList.appendChild(more);
+    }
+      var more = document.createElement('li');
+      more.style.color = '#999';
+      more.style.fontStyle = 'italic';
       more.textContent = '+ ' + (node.observationCount - showCount) + ' more facts in the full record';
       obsList.appendChild(more);
     }
