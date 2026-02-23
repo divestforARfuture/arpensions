@@ -1785,6 +1785,15 @@ a:hover {
   color: var(--d4arf-gray);
   margin-top: 0.25rem;
   line-height: 1.5;
+   DOCUMENT LIST — Styling for document description/source spans
+   ========================================================================== */
+.doc-description {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--d4arf-gray);
+  line-height: 1.5;
+  margin-top: 0.25rem;
 }
 
 .doc-source {
@@ -1798,4 +1807,12 @@ a:hover {
   border-radius: 3px;
   margin-top: 0.35rem;
   letter-spacing: 0.02em;
+  font-weight: 600;
+  color: var(--d4arf-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--d4arf-gray-light);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.35rem;
 }

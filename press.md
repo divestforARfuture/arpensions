@@ -72,7 +72,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds!"
 
-<span class="pull-quote-attribution">— Governor Sarah Huckabee Sanders (public statement, August 2025) ([source document](/assets/documents/walther-10m-purchase-news-coverage-2023.pdf))</span>
+<span class="pull-quote-attribution">— Governor Sarah Huckabee Sanders (public statement, August 2025)</span>
 
 </div>
 
