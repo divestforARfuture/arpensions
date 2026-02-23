@@ -15,7 +15,7 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 <div class="callout" markdown="1">
 
-**Read the source documents.** We've published key FOIA documents for you to review yourself. [Browse the document archive &rarr;](/documents/)
+**Read the source documents.** We've published key FOIA documents for you to review yourself. [Browse the document archive &rarr;](/assets/documents/)
 
 </div>
 
