@@ -1781,6 +1781,137 @@ a:hover {
 }
 
 /* ==========================================================================
+   404 PAGE
+   ========================================================================== */
+
+.not-found {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.not-found-message {
+  color: var(--d4arf-gray);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.not-found-links {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   PRINT STYLES — Clean output for letter templates, evidence summaries
+   ========================================================================== */
+@media print {
+  /* Hide non-content elements */
+  .site-nav,
+  .site-footer,
+  .social-share,
+  .cta-box,
+  .copy-letter-btn,
+  .skip-link,
+  .btn,
+  .pathway-grid,
+  .audience-nav {
+    display: none !important;
+  }
+
+  /* Base print typography */
+  body {
+    color: #000;
+    background: #fff;
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    break-after: avoid;
+    page-break-after: avoid; /* legacy fallback */
+  }
+
+  /* Remove background colors from callouts — use borders only */
+  .callout,
+  .pull-quote,
+  .meeting-info,
+  .letter-template,
+  .action-step {
+    background: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+    border-left: 4px solid #666;
+  }
+
+  /* Letter template: clean print with visible border */
+  .letter-template {
+    border: 2px solid #333;
+    padding: 1.5rem;
+  }
+
+  /* Show URLs after external links */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+    word-break: break-all;
+  }
+
+  /* Don't show URLs for internal links */
+  a[href^="/"]::after {
+    content: none;
+  }
+
+  /* Full-width containers */
+  .container,
+  .container-prose {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* Prevent page breaks inside key elements */
+  .letter-template,
+  .pull-quote,
+  .meeting-info,
+  .action-step {
+    break-inside: avoid;
+    page-break-inside: avoid; /* legacy fallback */
+  }
+
+  /* Keep tables together */
+  table, thead, tbody, tr {
+    break-inside: avoid;
+    page-break-inside: avoid; /* legacy fallback */
+  }
+
+  /* Remove hero dark background */
+  .hero {
+    background: none;
+    color: #000;
+    padding: 1rem 0;
+  }
+
+  .hero h1,
+  .hero-eyebrow,
+  .hero-sub {
+    color: #000;
+  }
+
+  .hero::before,
+  .hero::after {
+    display: none;
+  }
+
+  /* Footer attribution */
+  body::after {
+    content: "divestforarfuture.github.io";
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8em;
+    color: #999;
+  }
    DOCUMENT ARCHIVE — Styled document listing cards
    ========================================================================== */
 .document-list {
