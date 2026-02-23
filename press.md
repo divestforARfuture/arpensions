@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: landing
 title: "Press Kit — Arkansas Pension Israel Bonds Investigation"
 description: "Media resources for journalists covering Arkansas pension investments in Israel Bonds."
 permalink: /press/
+audience_nav: true
 ---
 
 ## Campaign summary

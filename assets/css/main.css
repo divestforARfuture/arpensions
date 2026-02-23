@@ -1722,6 +1722,56 @@ a:hover {
   border-top: 1px solid var(--d4arf-border);
 }
 
+/* ==========================================================================
+   AUDIENCE SUB-NAV — Cross-links between audience pages
+   ========================================================================== */
+.audience-nav {
+  background: var(--d4arf-gray-light);
+  border-bottom: 1px solid var(--d4arf-border);
+}
+
+.audience-nav .container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.audience-nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.25rem;
+}
+
+.audience-nav-list a {
+  display: block;
+  padding: 0.65rem 1rem;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--d4arf-gray);
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: 3px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.audience-nav-list a:hover {
+  color: var(--d4arf-red);
+}
+
+.audience-nav-list a[aria-current="page"] {
+  color: var(--d4arf-red);
+  border-bottom-color: var(--d4arf-red);
+}
+
+@media (max-width: 600px) {
+  .audience-nav-list {
+    justify-content: flex-start;
+  }
+}
+
 /* --- Fact/Detail table mobile labels (legislators, press kit) --- */
 /* Scoped to --fact-detail modifier to avoid blanking labels on the-issue.md */
 @media (max-width: 600px) {

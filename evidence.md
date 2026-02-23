@@ -13,6 +13,12 @@ Divest for AR Future has analyzed **more than 1,000 public records** obtained th
 
 Every claim on this site is backed by documents in the public record. Below are the key findings.
 
+<div class="callout" markdown="1">
+
+**Read the source documents.** We've published key FOIA documents for you to review yourself. [Browse the document archive &rarr;](/assets/documents/)
+
+</div>
+
 ---
 
 <div class="evidence-findings" markdown="1">
