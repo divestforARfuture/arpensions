@@ -5,6 +5,8 @@ description: "Media resources for journalists covering Arkansas pension investme
 permalink: /press/
 ---
 
+{% include audience-nav.html %}
+
 ## Campaign summary
 
 Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed more than 1,000 public records revealing that approximately $155 million in pension funds were committed to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
