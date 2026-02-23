@@ -126,3 +126,16 @@
   var bar = document.querySelector('.stats-bar');
   if (bar) observer.observe(bar);
 })();
+
+// External links — add target="_blank" and rel="noopener noreferrer" to off-site links
+(function() {
+  var host = window.location.hostname;
+  var links = document.querySelectorAll('a[href^="http"]');
+
+  links.forEach(function(link) {
+    if (link.hostname !== host) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+})();
