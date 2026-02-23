@@ -8,17 +8,17 @@
   // --- Color palette for entity types ---
   var TYPE_COLORS = {
     agency: '#B91C1C',
-    official: '#2563EB',
-    bonds_representative: '#D97706',
-    organization: '#7C3AED',
-    investigation_finding: '#059669',
-    key_document: '#64748B',
-    legislation: '#DC2626',
-    legal_standard: '#991B1B',
-    strategic_framework: '#0D9488',
-    foia_request: '#6366F1',
-    foia_strategy: '#8B5CF6',
-    evidence_assessment: '#475569'
+    official: '#1E3A5F',
+    bonds_representative: '#B45309',
+    organization: '#B45309',
+    investigation_finding: '#6B7280',
+    key_document: '#6B7280',
+    legislation: '#B91C1C',
+    legal_standard: '#B91C1C',
+    strategic_framework: '#6B7280',
+    foia_request: '#6B7280',
+    foia_strategy: '#6B7280',
+    evidence_assessment: '#6B7280'
   };
 
   var TYPE_LABELS = {
@@ -65,7 +65,7 @@
       steps: [
         {
           nodes: ['Dennis Milligan'],
-          text: 'Dennis Milligan served as State Treasurer (~2015-2019) where he initiated the Israel Bonds program. He later became Auditor of State — an office with no investment authority.'
+          text: 'Dennis Milligan served as State Treasurer (~2015-2019) where he initiated the Israel Bonds program. He later became Auditor of State \u2014 an office with no investment authority.'
         },
         {
           nodes: ['Dennis Milligan', 'Arkansas State Treasury', 'Auditor of State'],
@@ -73,7 +73,7 @@
         },
         {
           nodes: ['Dennis Milligan', 'Jason Brady', 'APERS', 'ATRS'],
-          text: 'Jason Brady — Milligan\'s direct report at the Auditor\'s office — served on the APERS board and initiated the Israel Bonds request at ATRS. He was the operational conduit across both pension systems.'
+          text: 'Jason Brady \u2014 Milligan\'s direct report at the Auditor\'s office \u2014 served on the APERS board and initiated the Israel Bonds request at ATRS. He was the operational conduit across both pension systems.'
         },
         {
           nodes: ['Dennis Milligan', 'Jason Brady', 'April 2025 Israel Bonds Tour', 'Lawrence Berman', 'Bradley Young'],
@@ -81,7 +81,7 @@
         },
         {
           nodes: ['Dennis Milligan', 'Stacy Peterson', 'SFOF', 'SFOF Conduit Role'],
-          text: 'After the votes, Milligan\'s communications director distributed success stories through SFOF to encourage other states to replicate. The full advocacy lifecycle — from meetings to votes to interstate promotion — operated from the Auditor\'s office.'
+          text: 'After the votes, Milligan\'s communications director distributed success stories through SFOF to encourage other states to replicate. The full advocacy lifecycle \u2014 from meetings to votes to interstate promotion \u2014 operated from the Auditor\'s office.'
         }
       ]
     },
@@ -115,7 +115,7 @@
         },
         {
           nodes: ['SFOF', 'Dennis Milligan', 'Israel Bonds / DCI'],
-          text: 'Milligan served as SFOF National Chair (~2019-2020). SFOF forwarded Israel Bonds events — including a "Celebration with Prime Minister Netanyahu" — to state officials. The organization functioned as a marketing channel.'
+          text: 'Milligan served as SFOF National Chair (~2019-2020). SFOF forwarded Israel Bonds events \u2014 including a "Celebration with Prime Minister Netanyahu" \u2014 to state officials. The organization functioned as a marketing channel.'
         },
         {
           nodes: ['SFOF Conduit Role', 'Inter-State Israel Bonds Coordination', 'Glenn Hegar'],
@@ -510,11 +510,11 @@
   }
 
   function clearHighlight() {
-    if (state.activeTour) return; // Don't clear during tour
+    if (state.activeTour) return;
     state.nodeElements.classed('dimmed', false);
     state.labelElements.classed('dimmed', false);
     state.linkElements.classed('dimmed', false).classed('highlighted', false);
-    applyFilters(); // Re-apply active filters
+    applyFilters();
   }
 
   // --- Select node ---
@@ -523,7 +523,6 @@
 
     state.nodeElements.classed('selected', function (d) { return d.id === node.id; });
 
-    // Show detail panel
     document.getElementById('detail-empty').style.display = 'none';
     var content = document.getElementById('detail-content');
     content.style.display = 'block';
@@ -535,11 +534,9 @@
 
     document.getElementById('detail-name').textContent = node.label;
 
-    // Announce to screen readers
     var statusEl = document.getElementById('detail-status');
     if (statusEl) statusEl.textContent = node.label + ' selected';
 
-    // Observations
     var obsList = document.getElementById('detail-observations');
     obsList.innerHTML = '';
     var observations = node.observations || [];
@@ -557,7 +554,6 @@
       obsList.appendChild(more);
     }
 
-    // Connections
     var connList = document.getElementById('detail-connections');
     connList.innerHTML = '';
     state.data.links.forEach(function (l) {
@@ -588,7 +584,6 @@
       }
     });
 
-    // Close button
     document.getElementById('detail-close').onclick = function () {
       deselectNode();
     };
@@ -662,7 +657,6 @@
       input.setAttribute('aria-expanded', 'true');
     });
 
-    // Close on outside click
     document.addEventListener('click', function (e) {
       if (!e.target.closest('.search-wrapper')) {
         resultsEl.classList.remove('open');
@@ -689,15 +683,11 @@
   function startTour(tourId) {
     var tour = TOURS[tourId];
     if (!tour) return;
-
     state.activeTour = tourId;
     state.tourStep = 0;
-
-    // Update button states
     document.querySelectorAll('.tour-btn').forEach(function (btn) {
       btn.classList.toggle('tour-active', btn.getAttribute('data-tour') === tourId);
     });
-
     showTourStep();
     createTourNarration();
   }
@@ -708,11 +698,8 @@
       exitTour();
       return;
     }
-
     var step = tour.steps[state.tourStep];
     var highlightIds = new Set(step.nodes);
-
-    // Find connected links between highlighted nodes
     var highlightLinkSet = new Set();
     state.data.links.forEach(function (l) {
       var s = typeof l.source === 'object' ? l.source.id : l.source;
@@ -721,22 +708,16 @@
         highlightLinkSet.add(l);
       }
     });
-
-    // Dim everything, then highlight tour nodes
     state.nodeElements
       .classed('dimmed', function (d) { return !highlightIds.has(d.id); })
       .classed('tour-highlight', function (d) { return highlightIds.has(d.id); });
-
     state.labelElements.classed('dimmed', function (d) {
       return !highlightIds.has(d.id);
     });
-
     state.linkElements
       .classed('dimmed', function (d) { return !highlightLinkSet.has(d); })
       .classed('tour-highlight', function (d) { return highlightLinkSet.has(d); })
       .classed('highlighted', false);
-
-    // Pan to center of highlighted nodes
     var tourNodes = state.data.nodes.filter(function (n) { return highlightIds.has(n.id); });
     if (tourNodes.length > 0) {
       var cx = d3.mean(tourNodes, function (n) { return n.x; });
@@ -750,15 +731,12 @@
         .scale(scale);
       state.svg.transition().duration(600).call(state.zoom.transform, transform);
     }
-
     updateTourNarration();
   }
 
   function createTourNarration() {
-    // Remove existing
     var existing = document.querySelector('.tour-narration');
     if (existing) existing.remove();
-
     var narration = document.createElement('div');
     narration.className = 'tour-narration visible';
     narration.innerHTML =
@@ -771,15 +749,10 @@
           '<button class="tour-nav-btn tour-next" id="tour-next-btn">Next</button>' +
         '</div>' +
       '</div>';
-
     document.querySelector('.network-graph-area').appendChild(narration);
-
     document.getElementById('tour-exit-btn').addEventListener('click', exitTour);
     document.getElementById('tour-prev-btn').addEventListener('click', function () {
-      if (state.tourStep > 0) {
-        state.tourStep--;
-        showTourStep();
-      }
+      if (state.tourStep > 0) { state.tourStep--; showTourStep(); }
     });
     document.getElementById('tour-next-btn').addEventListener('click', function () {
       state.tourStep++;
@@ -790,20 +763,15 @@
   function updateTourNarration() {
     var tour = TOURS[state.activeTour];
     if (!tour) return;
-
     var stepLabel = document.getElementById('tour-step-label');
     var stepText = document.getElementById('tour-step-text');
     var prevBtn = document.getElementById('tour-prev-btn');
     var nextBtn = document.getElementById('tour-next-btn');
-
     if (!stepLabel) return;
-
     stepLabel.textContent = tour.title + ' \u2014 Step ' + (state.tourStep + 1) + ' of ' + tour.steps.length;
     stepText.textContent = tour.steps[state.tourStep].text;
-
     prevBtn.disabled = state.tourStep === 0;
     prevBtn.style.opacity = state.tourStep === 0 ? '0.4' : '1';
-
     if (state.tourStep >= tour.steps.length - 1) {
       nextBtn.textContent = 'Finish';
     } else {
@@ -814,20 +782,15 @@
   function exitTour() {
     state.activeTour = null;
     state.tourStep = 0;
-
     document.querySelectorAll('.tour-btn').forEach(function (btn) {
       btn.classList.remove('tour-active');
     });
-
     var narration = document.querySelector('.tour-narration');
     if (narration) narration.remove();
-
-    // Clear tour highlighting
     state.nodeElements.classed('dimmed', false).classed('tour-highlight', false);
     state.labelElements.classed('dimmed', false);
     state.linkElements.classed('dimmed', false).classed('tour-highlight', false).classed('highlighted', false);
-
-    applyFilters(); // Re-apply filters if any
+    applyFilters();
   }
 
   // --- Utility ---
