@@ -1731,6 +1731,60 @@ a:hover {
 }
 
 /* ==========================================================================
+   DOCUMENT ARCHIVE — Styled document listing cards
+   ========================================================================== */
+.document-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.document-item {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  background: var(--d4arf-gray-light);
+  border-left: 4px solid var(--d4arf-red);
+  border-radius: 0 8px 8px 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .document-item {
+    transition: box-shadow 0.2s ease;
+  }
+}
+
+.document-item:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.document-item a.doc-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.document-item a.doc-title:hover {
+  text-decoration: underline;
+}
+
+.doc-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: 0.2rem;
+  color: var(--d4arf-red);
+}
+
+.doc-description {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--d4arf-gray);
+  margin-top: 0.25rem;
+  line-height: 1.5;
    DOCUMENT LIST — Styling for document description/source spans
    ========================================================================== */
 .doc-description {
@@ -1745,6 +1799,14 @@ a:hover {
 .doc-source {
   display: inline-block;
   font-size: 0.75rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--d4arf-gray);
+  background: var(--d4arf-border);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.35rem;
+  letter-spacing: 0.02em;
   font-weight: 600;
   color: var(--d4arf-gray);
   text-transform: uppercase;
