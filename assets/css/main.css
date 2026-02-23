@@ -1731,6 +1731,26 @@ a:hover {
 }
 
 /* ==========================================================================
+   404 PAGE
+   ========================================================================== */
+
+.not-found {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.not-found-message {
+  color: var(--d4arf-gray);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.not-found-links {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
    PRINT STYLES — Clean output for letter templates, evidence summaries
    ========================================================================== */
 @media print {
