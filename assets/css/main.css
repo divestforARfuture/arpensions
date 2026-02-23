@@ -1745,7 +1745,12 @@ a:hover {
   background: var(--d4arf-gray-light);
   border-left: 4px solid var(--d4arf-red);
   border-radius: 0 8px 8px 0;
-  transition: box-shadow 0.2s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .document-item {
+    transition: box-shadow 0.2s ease;
+  }
 }
 
 .document-item:hover {
