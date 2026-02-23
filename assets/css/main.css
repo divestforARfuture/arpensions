@@ -1729,3 +1729,28 @@ a:hover {
     content: '';
   }
 }
+
+/* ==========================================================================
+   DOCUMENT LIST — Styling for document description/source spans
+   ========================================================================== */
+.doc-description {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--d4arf-gray);
+  line-height: 1.5;
+  margin-top: 0.25rem;
+}
+
+.doc-source {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--d4arf-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--d4arf-gray-light);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.35rem;
+}
