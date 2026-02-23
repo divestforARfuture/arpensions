@@ -1,5 +1,7 @@
 ---
-layout: none
+layout: page
+title: "Source Document Excerpts"
+description: "FOIA source documents from the Divest for AR Future investigation."
 permalink: /assets/documents/index.html
 ---
 

@@ -29,7 +29,7 @@ Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor ru
 
 ### 2. Internal memo recommended against new purchases
 
-In late 2024, a senior investment manager in the State Treasurer's office wrote an internal memo raising concerns about Israel Bonds. The memo noted that all three major credit-rating agencies — Moody's, S&P, and Fitch — had downgraded Israel's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026."
+In late 2024, a senior investment manager in the State Treasurer's office wrote an internal memo raising concerns about Israel Bonds. The memo noted that all three major credit-rating agencies — Moody's, S&P, and Fitch — had downgraded Israel's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026." (For the investment standards that should have governed this decision, see the [Treasury investment policy](/assets/documents/treasury-investment-policy-2022.pdf).)
 
 Instead, by the time that $17 million matured in May 2025, the state purchased two new $10 million bonds — bringing total Treasury holdings to $55 million. What changed was not the credit outlook, but the political calculus.
 
@@ -37,7 +37,7 @@ Instead, by the time that $17 million matured in May 2025, the state purchased t
 
 ### 3. Sales representatives met with agencies before authorizations
 
-In April 2025, Israel Bonds national and regional sales representatives met with the directors of both ATRS and APERS, along with the State Treasurer and State Auditor. State Auditor Dennis Milligan arranged the meetings.
+In April 2025, Israel Bonds national and regional sales representatives met with the directors of both ATRS and APERS, along with the State Treasurer and State Auditor. State Auditor Dennis Milligan arranged the meetings. A [thank-you note from Israel Bonds executive Lawrence Berman](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) later used the Treasury's $20 million purchase as sales leverage on the APERS director. A separate [thank-you to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings.
 
 **Within weeks:**
 - The State Treasury purchased $20 million in new Israel Bonds
@@ -46,7 +46,7 @@ In April 2025, Israel Bonds national and regional sales representatives met with
 
 <div class="pull-quote" markdown="1">
 
-A thank-you note from an Israel Bonds executive praised Auditor Milligan for arranging the meetings, calling his "support and passion for Israel Bonds" as "critical to our success and Israel's future."
+A thank-you note from an Israel Bonds executive praised Auditor Milligan for arranging the meetings, calling his "support and passion for Israel Bonds" as "critical to our success and Israel's future." ([Read the correspondence](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))
 
 <span class="pull-quote-attribution">— Israel Bonds executive, in correspondence to State Auditor Dennis Milligan</span>
 
@@ -78,7 +78,7 @@ Multiple state officials made public statements that framed the investments in p
 
 <div class="pull-quote" markdown="1">
 
-**"Treasurer Walther's purchase of $10 million in Israeli bonds allows us to support that country in actions as well as words. Arkansas stands with Israel."**
+**"Treasurer Walther's purchase of $10 million in Israeli bonds allows us to support that country in actions as well as words. Arkansas stands with Israel."** ([Source](/assets/documents/walther-10m-purchase-news-coverage-2023.pdf))
 
 <span class="pull-quote-attribution">— Governor Sarah Sanders, press release (Oct. 2023)</span>
 
@@ -99,6 +99,8 @@ Multiple state officials made public statements that framed the investments in p
 <span class="pull-quote-attribution">— Deputy Auditor Jason Brady, APERS Investment Subcommittee (May 2025)</span>
 
 </div>
+
+The [purchase confirmation from November 2023](/assets/documents/israel-bonds-purchase-confirmation-nov2023.pdf) — one month after the October 7 attacks — documents the timing of one of these politically framed purchases.
 
 Under Arkansas's pecuniary-only standard, none of these are lawful bases for an investment decision. They are political statements. The law requires that the evaluation be based "only on pecuniary factors" — those with a material financial effect on risk or return.
 
@@ -146,8 +148,10 @@ This evidence belongs to every Arkansan. Here's how to use it:
 - **Are you a legislator or legislative staff?** [Read our policy brief](/legislators/) with specific legislative recommendations for the 2027 session.
 - **Are you a journalist?** [Visit our press page](/press/) for pull-ready statistics, timeline, and media contact.
 
+Browse our [source document archive](/documents/) to read the primary evidence yourself.
+
 ---
 
-*For source documents and detailed findings, contact us at [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me). We are committed to making primary sources available as legal review permits.*
+*For additional source documents and detailed findings, contact us at [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me).*
 
 </div>
