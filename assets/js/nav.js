@@ -128,6 +128,7 @@
 })();
 
 // External links — add target="_blank" and rel="noopener noreferrer" to off-site links
+// Uses relList.add() to avoid clobbering existing rel values (WCAG 2.4.4)
 (function() {
   var host = window.location.hostname;
   var links = document.querySelectorAll('a[href^="http"]');
@@ -135,7 +136,15 @@
   links.forEach(function(link) {
     if (link.hostname !== host) {
       link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
+      link.relList.add('noopener', 'noreferrer');
+
+      // Add visually-hidden cue for screen readers (WCAG AA)
+      if (!link.querySelector('.sr-only')) {
+        var hint = document.createElement('span');
+        hint.className = 'sr-only';
+        hint.textContent = ' (opens in new tab)';
+        link.appendChild(hint);
+      }
     }
   });
 })();
