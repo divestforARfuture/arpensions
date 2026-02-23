@@ -10,6 +10,7 @@ layout: default
       {% endif %}
     </div>
   </section>
+  {% if page.audience_nav %}{% include audience-nav.html %}{% endif %}
   <div class="container container-prose">
     {{ content }}
     {% include social-share.html %}

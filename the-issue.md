@@ -33,7 +33,7 @@ Three Arkansas state agencies have committed or authorized significant funds for
 These authorizations came in rapid succession — and under circumstances that raise questions about process:
 
 - **In late 2024**, a senior investment manager in the State Treasurer's office wrote an internal memo advising against new Israel Bonds purchases, citing credit-rating downgrades by all three major agencies. The memo recommended the state "hold our positions and allow for the $17M to roll off."
-- **In April 2025**, Israel Bonds sales representatives met with the directors of both ATRS and APERS, along with the State Treasurer and State Auditor.
+- **In April 2025**, Israel Bonds sales representatives [met with the directors of both ATRS and APERS](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf), along with the State Treasurer and State Auditor.
 - **Within weeks**, the Treasury purchased $20 million in new bonds, and both pension boards voted to authorize up to $100 million more in combined Israel Bonds investments.
 
 <div class="callout" markdown="1">
@@ -56,9 +56,9 @@ Several red flags suggest these standards may not have been followed:
 
 **The ATRS Board Chair dissented.** Danny Knight, the lone "no" vote on the June 2025 authorization, warned that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members — to recommend specific securities.
 
-**No independent credit analysis was produced.** Our review of hundreds of public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed.
+**No independent credit analysis was produced.** Our review of hundreds of public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
 
-**The investment was championed through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both the ATRS and APERS boards, arranged meetings between Israel Bonds sales representatives and state officials. A thank-you note from an Israel Bonds executive praised Milligan for his "support and passion for Israel Bonds" and called him "critical to our success and Israel's future." These are not the words of a routine financial transaction.
+**The investment was championed through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both the ATRS and APERS boards, arranged meetings between Israel Bonds sales representatives and state officials. A [thank-you note from an Israel Bonds executive](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf) praised Milligan for his "support and passion for Israel Bonds" and called him "critical to our success and Israel's future." These are not the words of a routine financial transaction.
 
 **Public statements emphasized political symbolism, not financial merit.** Governor Sanders publicly stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." Former Treasurer Larry Walther called investing in Israel Bonds "a testament to our longstanding belief in Israel's resiliency [...]" At the APERS Investment Subcommittee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel (former Arkansas Governor Mike Huckabee) as "my and Amy's former boss" and called Israel "the United States' most trusted and dependable ally in a volatile region." None of these are pecuniary factors.
 
@@ -92,6 +92,8 @@ Our campaign is not asking for anything that Arkansas law does not already requi
 </div>
 
 These are not political questions. They are fiduciary questions. And Arkansas pension beneficiaries — teachers, public employees, and retirees — deserve answers.
+
+[Read the source documents yourself](/documents/) — we've published key FOIA documents for public review.
 
 </div>
 

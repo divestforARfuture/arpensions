@@ -3,6 +3,7 @@ layout: landing
 title: "Policy Brief — Arkansas Pension Transparency for 2027"
 description: "Policy brief for Arkansas legislators on $155 million in pension fund Israel Bonds investments and the case for transparency legislation in 2027."
 permalink: /legislators/
+audience_nav: true
 ---
 
 ## Executive summary
@@ -40,7 +41,7 @@ Arkansas law is clear about how pension investments must be made:
 
 The pattern in the public record raises questions about whether these standards were met:
 
-**The idea originated through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both boards, arranged meetings between Israel Bonds sales representatives and state officials. A thank-you note from an Israel Bonds executive praised Milligan for his "support and passion for Israel Bonds" and called him "critical to our success and Israel's future."
+**The idea originated through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both boards, arranged meetings between Israel Bonds sales representatives and state officials. A [thank-you note from an Israel Bonds executive](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf) praised Milligan for his "support and passion for Israel Bonds" and called him "critical to our success and Israel's future."
 
 **Internal financial advice was overridden.** The Treasurer's senior investment manager recommended holding off, citing all three credit downgrades. The state purchased $20 million more anyway.
 
@@ -86,7 +87,7 @@ Arkansas's Act 710 establishes that investment decisions must be based on financ
 
 If it is wrong to *sell* an investment for political reasons, it is equally wrong to *buy* one for political reasons. The principle is the same: pecuniary factors only. Our campaign is not asking for anything that Arkansas law does not already require — we are asking for it to be enforced consistently.
 
-For the full timeline and detailed source documentation, see our [evidence page](/evidence/).
+For the full timeline and detailed source documentation, see our [evidence page](/evidence/). You can also [browse the FOIA document archive](/documents/) directly.
 
 </div>
 

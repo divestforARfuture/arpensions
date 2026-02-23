@@ -1,9 +1,9 @@
 ---
-layout: none
+layout: page
+title: "Source Document Excerpts"
+description: "FOIA source documents from the Divest for AR Future investigation."
 permalink: /assets/documents/index.html
 ---
-
-# Source Document Excerpts
 
 These are excerpts from FOIA documents obtained by Divest for Arkansas Future through public records requests to the Arkansas State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), and the Arkansas Auditor of State.
 
