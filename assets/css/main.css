@@ -1729,3 +1729,308 @@ a:hover {
     content: '';
   }
 }
+
+/* ==========================================================================
+   THEME TOGGLE BUTTON
+   ========================================================================== */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: var(--d4arf-gray);
+  cursor: pointer;
+  transition: color 0.15s, background-color 0.15s, border-color 0.15s;
+}
+
+.theme-toggle-btn:hover {
+  color: var(--d4arf-black);
+  background: var(--d4arf-gray-light);
+  border-color: var(--d4arf-border);
+}
+
+.theme-toggle-btn:focus-visible {
+  outline: 3px solid var(--d4arf-red);
+  outline-offset: 2px;
+}
+
+.theme-toggle-btn svg {
+  transition: transform 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle-btn svg {
+    transition: none;
+  }
+}
+
+.theme-toggle-btn:hover svg {
+  transform: rotate(15deg);
+}
+
+/* Mobile: keep toggle visible alongside hamburger */
+@media (max-width: 768px) {
+  .nav-actions {
+    gap: 0;
+  }
+}
+
+/* ==========================================================================
+   THEME TRANSITION — Applied briefly during toggle, NOT on page load
+   ========================================================================== */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *::before,
+html.theme-transition *::after {
+  transition: background-color 0.3s ease,
+              color 0.3s ease,
+              border-color 0.3s ease,
+              box-shadow 0.3s ease,
+              fill 0.3s ease !important;
+}
+
+/* ==========================================================================
+   DARK MODE — Design Tokens
+   ========================================================================== */
+[data-theme="dark"] {
+  --d4arf-red: #EF4444;
+  --d4arf-green: #22C55E;
+  --d4arf-black: #E5E7EB;
+  --d4arf-white: #121218;
+
+  --d4arf-red-light: rgba(239, 68, 68, 0.12);
+  --d4arf-green-light: rgba(34, 197, 94, 0.12);
+  --d4arf-gray: #9CA3AF;
+  --d4arf-gray-light: #1E1E28;
+  --d4arf-border: #2D2D3A;
+
+  --d4arf-link: #EF4444;
+  --d4arf-link-hover: #F87171;
+
+  /* Pico overrides for dark */
+  --pico-color: var(--d4arf-black);
+  --pico-background-color: var(--d4arf-white);
+  --pico-primary: var(--d4arf-red);
+  --pico-primary-hover: var(--d4arf-link-hover);
+  --pico-muted-color: var(--d4arf-gray);
+  --pico-muted-border-color: var(--d4arf-border);
+  --pico-card-background-color: #1A1A24;
+  --pico-card-border-color: var(--d4arf-border);
+  --pico-card-sectioning-background-color: #1E1E28;
+}
+
+/* ==========================================================================
+   DARK MODE — Component Overrides
+   ========================================================================== */
+
+/* --- Navigation --- */
+[data-theme="dark"] .site-nav {
+  background: #15151D;
+  border-bottom-color: var(--d4arf-border);
+}
+
+[data-theme="dark"] .nav-links a:hover,
+[data-theme="dark"] .nav-links a[aria-current="page"] {
+  color: var(--d4arf-red);
+  background-color: var(--d4arf-red-light);
+}
+
+@media (max-width: 768px) {
+  [data-theme="dark"] .nav-links {
+    background: #15151D;
+    border-bottom-color: var(--d4arf-border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* --- Skip Link --- */
+[data-theme="dark"] .skip-link:focus {
+  outline-color: var(--d4arf-red);
+}
+
+/* --- Focus States --- */
+[data-theme="dark"] :focus-visible {
+  outline-color: var(--d4arf-red);
+}
+
+/* --- Stats Bar --- */
+[data-theme="dark"] .stats-bar {
+  background-color: var(--d4arf-white);
+}
+
+/* --- Pathway Cards --- */
+[data-theme="dark"] .pathway-card {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  color: var(--d4arf-black);
+}
+
+[data-theme="dark"] .pathway-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  color: var(--d4arf-black);
+}
+
+/* --- Letter Template --- */
+[data-theme="dark"] .letter-template {
+  background-color: #1A1A24;
+  border-color: var(--d4arf-border);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .letter-template .letter-heading {
+  background: var(--d4arf-gray-light);
+  border-bottom-color: var(--d4arf-border);
+}
+
+/* --- Issue Questions --- */
+[data-theme="dark"] .issue-questions {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+}
+
+/* --- Script Card --- */
+[data-theme="dark"] .script-card {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Email Callout --- */
+[data-theme="dark"] .email-callout {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+}
+
+/* --- Press Quotes --- */
+[data-theme="dark"] .press-quotes .pull-quote {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Action Steps (nested white backgrounds) --- */
+[data-theme="dark"] .action-step .callout {
+  background: #1A1A24;
+}
+
+[data-theme="dark"] .action-step .letter-template {
+  background: #1A1A24;
+}
+
+/* --- Tour btn hover (used on network page but styled generally) --- */
+[data-theme="dark"] .tour-btn:hover {
+  background: #1A1A24;
+}
+
+/* --- Footer: already dark, minor adjustments for dark-on-dark --- */
+[data-theme="dark"] .site-footer {
+  background-color: #0D0D12;
+}
+
+[data-theme="dark"] .footer-bottom {
+  border-top-color: #1E1E28;
+}
+
+/* --- Blockquote / Pico default --- */
+[data-theme="dark"] blockquote {
+  border-left-color: var(--d4arf-red);
+  color: var(--d4arf-gray);
+}
+
+/* --- Tables --- */
+[data-theme="dark"] .issue-agency-table td {
+  border-bottom-color: var(--d4arf-border);
+}
+
+[data-theme="dark"] .issue-agency-table tbody tr:last-child td {
+  border-bottom-color: var(--d4arf-red);
+}
+
+@media (max-width: 600px) {
+  [data-theme="dark"] .issue-agency-table tbody tr {
+    background: var(--d4arf-gray-light);
+  }
+
+  [data-theme="dark"] .issue-agency-table td:first-child {
+    border-bottom-color: var(--d4arf-border);
+  }
+}
+
+/* --- Legal Reference --- */
+[data-theme="dark"] .legal-reference {
+  background: var(--d4arf-red-light);
+}
+
+[data-theme="dark"] .legal-reference li {
+  border-bottom-color: rgba(239, 68, 68, 0.15);
+}
+
+/* --- Timeline --- */
+[data-theme="dark"] .evidence-timeline::before {
+  background: rgba(239, 68, 68, 0.25);
+}
+
+[data-theme="dark"] .timeline-marker {
+  border-color: var(--d4arf-white);
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25);
+}
+
+[data-theme="dark"] .timeline-event--escalation .timeline-marker {
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.3);
+}
+
+[data-theme="dark"] .timeline-event--escalation .timeline-content {
+  background: var(--d4arf-red-light);
+  color: var(--d4arf-black);
+}
+
+/* --- Hero and Landing Hero: already dark or using variables, verify --- */
+/* The hero uses --d4arf-black as bg, which is now light text in dark mode.
+   The hero is always visually dark, so pin it. */
+[data-theme="dark"] .hero {
+  background-color: #0D0D12;
+}
+
+[data-theme="dark"] .landing-hero {
+  background-color: var(--d4arf-gray-light);
+}
+
+/* --- Graph hint (used on graph page but has generic background) --- */
+[data-theme="dark"] .graph-hint p {
+  background: rgba(18, 18, 24, 0.85);
+  border-color: var(--d4arf-border);
+}
+
+/* ==========================================================================
+   PRINT — Always light mode, ignore dark theme
+   ========================================================================== */
+@media print {
+  :root {
+    --d4arf-red: #B91C1C;
+    --d4arf-green: #166534;
+    --d4arf-black: #1A1A1A;
+    --d4arf-white: #FAFAFA;
+    --d4arf-red-light: #FEE2E2;
+    --d4arf-green-light: #DCFCE7;
+    --d4arf-gray: #4B5563;
+    --d4arf-gray-light: #F3F4F6;
+    --d4arf-border: #E5E7EB;
+    --d4arf-link: #B91C1C;
+    --d4arf-link-hover: #991B1B;
+  }
+
+  .theme-toggle-btn {
+    display: none !important;
+  }
+}

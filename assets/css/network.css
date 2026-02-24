@@ -875,6 +875,227 @@
 }
 
 /* ==========================================================================
+   DARK MODE — Network page overrides
+   ========================================================================== */
+
+/* --- Network hero: already visually dark, pin background --- */
+[data-theme="dark"] .network-hero {
+  background-color: #0D0D12;
+}
+
+/* --- App layout background --- */
+[data-theme="dark"] .network-app {
+  background: var(--d4arf-white);
+}
+
+/* --- Sidebar --- */
+[data-theme="dark"] .network-sidebar {
+  background: #15151D;
+  border-right-color: var(--d4arf-border);
+}
+
+[data-theme="dark"] .sidebar-section {
+  border-bottom-color: var(--d4arf-border);
+}
+
+/* Type filter buttons */
+[data-theme="dark"] .type-filter {
+  color: var(--d4arf-black);
+}
+
+[data-theme="dark"] .type-filter:hover {
+  background: var(--d4arf-gray-light);
+}
+
+[data-theme="dark"] .type-filter.active {
+  background: var(--d4arf-gray-light);
+}
+
+/* Search */
+[data-theme="dark"] .node-search {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  color: var(--d4arf-black);
+}
+
+[data-theme="dark"] .node-search::placeholder {
+  color: #6B7280;
+}
+
+[data-theme="dark"] .node-search:focus {
+  border-color: var(--d4arf-red);
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.15);
+}
+
+[data-theme="dark"] .search-results {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .search-result-item {
+  color: var(--d4arf-black);
+}
+
+[data-theme="dark"] .search-result-item:hover,
+[data-theme="dark"] .search-result-item:focus {
+  background: var(--d4arf-gray-light);
+}
+
+/* Tour buttons */
+[data-theme="dark"] .tour-btn {
+  background: var(--d4arf-gray-light);
+  border-color: var(--d4arf-border);
+}
+
+[data-theme="dark"] .tour-btn:hover {
+  background: #1A1A24;
+}
+
+[data-theme="dark"] .tour-btn.tour-active {
+  background: var(--d4arf-red-light);
+}
+
+[data-theme="dark"] .tour-btn-title {
+  color: var(--d4arf-black);
+}
+
+/* --- Graph area --- */
+[data-theme="dark"] .network-graph-area {
+  background: #16161E;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .network-graph-area::before {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+
+[data-theme="dark"] .network-graph-area::after {
+  background: radial-gradient(ellipse at 50% 50%, transparent 50%, rgba(0, 0, 0, 0.15) 100%);
+}
+
+/* Graph controls */
+[data-theme="dark"] .graph-control-btn {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  color: var(--d4arf-gray);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .graph-control-btn:hover {
+  background: var(--d4arf-gray-light);
+  color: var(--d4arf-black);
+}
+
+/* Graph hint */
+[data-theme="dark"] .graph-hint p {
+  background: rgba(18, 18, 24, 0.85);
+  border-color: var(--d4arf-border);
+  color: var(--d4arf-gray);
+}
+
+/* Node labels — JS sets fill, but CSS class overrides */
+[data-theme="dark"] .node-label {
+  fill: #D1D5DB;
+}
+
+[data-theme="dark"] .node-label-bg {
+  fill: rgba(22, 22, 30, 0.85);
+}
+
+/* Link lines */
+[data-theme="dark"] .link-line {
+  stroke: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="dark"] .link-line.highlighted {
+  stroke: rgba(239, 68, 68, 0.5);
+}
+
+[data-theme="dark"] .link-line.tour-highlight {
+  stroke: var(--d4arf-red);
+}
+
+/* Node circles */
+[data-theme="dark"] .node-circle {
+  stroke: #1A1A24;
+}
+
+[data-theme="dark"] .node-circle.selected {
+  stroke: var(--d4arf-red);
+}
+
+/* --- Detail panel --- */
+[data-theme="dark"] .network-detail {
+  background: #15151D;
+  border-left-color: var(--d4arf-border);
+}
+
+[data-theme="dark"] .detail-close {
+  border-color: var(--d4arf-border);
+  color: var(--d4arf-gray);
+}
+
+[data-theme="dark"] .detail-close:hover {
+  background: var(--d4arf-gray-light);
+  color: var(--d4arf-black);
+}
+
+[data-theme="dark"] .detail-header {
+  border-bottom-color: var(--d4arf-red);
+}
+
+[data-theme="dark"] .detail-section-heading {
+  border-bottom-color: var(--d4arf-border);
+}
+
+[data-theme="dark"] .detail-observations li {
+  border-bottom-color: var(--d4arf-gray-light);
+}
+
+[data-theme="dark"] .detail-connections li {
+  border-bottom-color: var(--d4arf-gray-light);
+}
+
+/* --- Tour narration --- */
+[data-theme="dark"] .tour-narration {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .tour-nav-btn {
+  border-color: var(--d4arf-border);
+  background: #1A1A24;
+  color: var(--d4arf-gray);
+}
+
+[data-theme="dark"] .tour-nav-btn:hover {
+  background: var(--d4arf-gray-light);
+  color: var(--d4arf-black);
+}
+
+[data-theme="dark"] .tour-nav-btn.tour-next {
+  background: var(--d4arf-red);
+  color: #fff;
+  border-color: var(--d4arf-red);
+}
+
+/* --- Responsive overrides --- */
+@media (max-width: 1024px) {
+  [data-theme="dark"] .network-sidebar {
+    border-bottom-color: var(--d4arf-border);
+  }
+
+  [data-theme="dark"] .network-detail {
+    border-top-color: var(--d4arf-border);
+    border-left: none;
+  }
+}
+
+/* ==========================================================================
    PRINT — Hide interactive elements
    ========================================================================== */
 @media print {
