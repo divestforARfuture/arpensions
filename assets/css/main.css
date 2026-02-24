@@ -747,6 +747,33 @@ a:hover {
   margin: 0;
 }
 
+/* --- Responsive Tables --- */
+.page-content table {
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.page-content tbody tr:nth-child(even) {
+  background-color: var(--d4arf-gray-light);
+}
+
+[data-theme="dark"] .page-content tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+[data-theme="dark"] .page-content th {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--d4arf-black);
+}
+
+@media (max-width: 768px) {
+  .page-content table {
+    font-size: 0.875rem;
+  }
+}
+
 /* --- Post Content --- */
 .post-content {
   padding: 3rem 0 4rem;
@@ -1893,7 +1920,7 @@ html.theme-transition *::after {
 
   --d4arf-red-light: rgba(239, 68, 68, 0.12);
   --d4arf-green-light: rgba(34, 197, 94, 0.12);
-  --d4arf-gray: #9CA3AF;
+  --d4arf-gray: #D1D5DB;
   --d4arf-gray-light: #1E1E28;
   --d4arf-border: #2D2D3A;
 
@@ -1949,7 +1976,12 @@ html.theme-transition *::after {
 
 /* --- Focus States --- */
 [data-theme="dark"] :focus-visible {
-  outline-color: var(--d4arf-red);
+  outline-color: #F87171;
+}
+
+[data-theme="dark"] .footer-links a:focus-visible,
+[data-theme="dark"] .footer-contact a:focus-visible {
+  outline-color: #fff;
 }
 
 /* --- Stats Bar --- */
