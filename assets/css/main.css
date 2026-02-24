@@ -37,6 +37,17 @@
   --pico-primary-hover: var(--d4arf-link-hover);
 }
 
+/* --- Logo theme swap — CSS only, no flash --- */
+[data-theme="light"] .logo-dark,
+[data-theme="dark"] .logo-light {
+  display: none;
+}
+
+[data-theme="light"] .logo-light,
+[data-theme="dark"] .logo-dark {
+  display: block;
+}
+
 /* --- Base --- */
 body {
   font-family: var(--font-body);
@@ -144,7 +155,7 @@ a:hover {
 .site-nav .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 0.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -178,6 +189,7 @@ a:hover {
   list-style: none;
   gap: 0.25rem;
   margin: 0;
+  margin-left: auto;
   padding: 0;
 }
 
@@ -248,6 +260,18 @@ a:hover {
     display: flex;
     align-items: center;
   }
+
+  .nav-links {
+    margin-left: 0;
+  }
+
+  .nav-end {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-title { display: none; }
 }
 
 /* ==========================================================================
@@ -1784,10 +1808,11 @@ a:hover {
 /* ==========================================================================
    THEME TOGGLE BUTTON
    ========================================================================== */
-.nav-actions {
+.nav-end {
   display: flex;
   align-items: center;
   gap: 0.25rem;
+  flex-shrink: 0;
 }
 
 .theme-toggle-btn {
@@ -1838,7 +1863,7 @@ a:hover {
 
 /* Mobile: keep toggle visible alongside hamburger */
 @media (max-width: 768px) {
-  .nav-actions {
+  .nav-end {
     gap: 0;
   }
 }
