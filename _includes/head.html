@@ -6,7 +6,8 @@
 
 <!-- Anti-FOUC: set theme before any rendering (hash: sha256-tOeAuFE0YRZrVapAvr/obQ4MBGr9jluihn946xkCJ8o=) -->
 <script>(function(){var t=localStorage.getItem('d4arf-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);})()</script>
-<!-- Critical dark-mode paint: prevents white flash while external CSS loads -->
+<!-- Critical dark-mode paint: prevents white flash while external CSS loads.
+     Values hardcoded — keep in sync with [data-theme="dark"] tokens in assets/css/main.css -->
 <style>html[data-theme="dark"]{background-color:#121218;color:#E5E7EB}html[data-theme="dark"] body{background-color:#121218}html[data-theme="dark"] .site-nav{background:#15151D}</style>
 
 {% seo %}
