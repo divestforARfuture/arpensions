@@ -37,6 +37,21 @@
   --pico-primary-hover: var(--d4arf-link-hover);
 }
 
+/* --- Logo theme swap — CSS only, no flash --- */
+[data-theme="light"] .logo-dark,
+[data-theme="dark"] .logo-light {
+  display: none;
+}
+
+[data-theme="light"] .logo-light,
+[data-theme="dark"] .logo-dark {
+  display: block;
+}
+
+/* Fallback: show light logo if data-theme hasn't been set (JS disabled) */
+:root:not([data-theme]) .logo-light { display: block; }
+:root:not([data-theme]) .logo-dark  { display: none; }
+
 /* --- Base --- */
 body {
   font-family: var(--font-body);
@@ -144,7 +159,7 @@ a:hover {
 .site-nav .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 0.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -178,6 +193,7 @@ a:hover {
   list-style: none;
   gap: 0.25rem;
   margin: 0;
+  margin-left: auto;
   padding: 0;
 }
 
@@ -248,6 +264,18 @@ a:hover {
     display: flex;
     align-items: center;
   }
+
+  .nav-links {
+    margin-left: 0;
+  }
+
+  .nav-end {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav-title { display: none; }
 }
 
 /* ==========================================================================
@@ -721,6 +749,35 @@ a:hover {
   font-size: 1.1rem;
   color: var(--d4arf-gray);
   margin: 0;
+}
+
+/* --- Responsive Tables --- */
+.table-scroll-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.page-content table {
+  width: 100%;
+}
+
+.page-content tbody tr:nth-child(even) {
+  background-color: var(--d4arf-gray-light);
+}
+
+[data-theme="dark"] .page-content tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+[data-theme="dark"] .page-content th {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--d4arf-black);
+}
+
+@media (max-width: 768px) {
+  .page-content table {
+    font-size: 0.875rem;
+  }
 }
 
 /* --- Post Content --- */
@@ -1784,10 +1841,11 @@ a:hover {
 /* ==========================================================================
    THEME TOGGLE BUTTON
    ========================================================================== */
-.nav-actions {
+.nav-end {
   display: flex;
   align-items: center;
   gap: 0.25rem;
+  flex-shrink: 0;
 }
 
 .theme-toggle-btn {
@@ -1838,7 +1896,7 @@ a:hover {
 
 /* Mobile: keep toggle visible alongside hamburger */
 @media (max-width: 768px) {
-  .nav-actions {
+  .nav-end {
     gap: 0;
   }
 }
@@ -1868,7 +1926,7 @@ html.theme-transition *::after {
 
   --d4arf-red-light: rgba(239, 68, 68, 0.12);
   --d4arf-green-light: rgba(34, 197, 94, 0.12);
-  --d4arf-gray: #9CA3AF;
+  --d4arf-gray: #D1D5DB;
   --d4arf-gray-light: #1E1E28;
   --d4arf-border: #2D2D3A;
 
@@ -1924,7 +1982,12 @@ html.theme-transition *::after {
 
 /* --- Focus States --- */
 [data-theme="dark"] :focus-visible {
-  outline-color: var(--d4arf-red);
+  outline-color: #F87171;
+}
+
+[data-theme="dark"] .footer-links a:focus-visible,
+[data-theme="dark"] .footer-contact a:focus-visible {
+  outline-color: #fff;
 }
 
 /* --- Stats Bar --- */
@@ -1988,11 +2051,6 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .action-step .letter-template {
-  background: #1A1A24;
-}
-
-/* --- Tour btn hover (used on network page but styled generally) --- */
-[data-theme="dark"] .tour-btn:hover {
   background: #1A1A24;
 }
 

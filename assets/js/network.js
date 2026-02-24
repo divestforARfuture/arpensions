@@ -21,6 +21,28 @@
     evidence_assessment: '#6B7280'
   };
 
+  // Brightened palette for dark mode — ensures visibility on dark canvas
+  var DARK_TYPE_COLORS = {
+    agency: '#EF4444',
+    official: '#4A90D9',
+    bonds_representative: '#F59E0B',
+    organization: '#F59E0B',
+    investigation_finding: '#9CA3AF',
+    key_document: '#9CA3AF',
+    legislation: '#EF4444',
+    legal_standard: '#EF4444',
+    strategic_framework: '#9CA3AF',
+    foia_request: '#9CA3AF',
+    foia_strategy: '#9CA3AF',
+    evidence_assessment: '#9CA3AF'
+  };
+
+  function getTypeColor(type) {
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var palette = isDark ? DARK_TYPE_COLORS : TYPE_COLORS;
+    return palette[type] || '#999';
+  }
+
   var TYPE_LABELS = {
     agency: 'Agency',
     official: 'Official',
@@ -164,7 +186,8 @@
     nodeElements: null,
     linkElements: null,
     labelElements: null,
-    labelBgElements: null
+    labelBgElements: null,
+    tourTriggerEl: null
   };
 
   // --- Utility: debounce ---
@@ -238,7 +261,7 @@
       var btn = document.createElement('button');
       btn.className = 'type-filter';
       btn.setAttribute('data-type', type);
-      var color = TYPE_COLORS[type] || '#999';
+      var color = getTypeColor(type);
       btn.innerHTML =
         '<span class="type-filter-dot" style="background:' + color + '"></span>' +
         '<span class="type-filter-label">' + (TYPE_LABELS[type] || type) + '</span>' +
@@ -298,7 +321,8 @@
     data.entityTypes.forEach(function (type) {
       var item = document.createElement('div');
       item.className = 'legend-item';
-      var color = TYPE_COLORS[type] || '#999';
+      item.setAttribute('data-type', type);
+      var color = getTypeColor(type);
       item.innerHTML =
         '<span class="legend-dot" style="background:' + color + '"></span>' +
         '<span>' + (TYPE_LABELS[type] || type) + '</span>';
@@ -360,7 +384,7 @@
       .join('circle')
       .attr('class', 'node-circle')
       .attr('r', function (d) { return nodeRadius(d); })
-      .attr('fill', function (d) { return TYPE_COLORS[d.type] || '#999'; })
+      .attr('fill', function (d) { return getTypeColor(d.type); })
       .attr('stroke', getCurrentNodeStroke())
       .on('click', function (event, d) {
         event.stopPropagation();
@@ -530,7 +554,7 @@
     var content = document.getElementById('detail-content');
     content.style.display = 'block';
 
-    var color = TYPE_COLORS[node.type] || '#999';
+    var color = getTypeColor(node.type);
     var badge = document.getElementById('detail-type');
     badge.textContent = TYPE_LABELS[node.type] || node.type;
     badge.style.backgroundColor = color;
@@ -641,7 +665,7 @@
         btn.className = 'search-result-item';
         btn.setAttribute('role', 'option');
         btn.setAttribute('aria-selected', 'false');
-        var color = TYPE_COLORS[n.type] || '#999';
+        var color = getTypeColor(n.type);
         btn.innerHTML =
           '<span class="search-result-dot" style="background:' + color + '"></span>' +
           '<span>' + escapeHtml(n.label) + '</span>';
@@ -688,6 +712,7 @@
     if (!tour) return;
     state.activeTour = tourId;
     state.tourStep = 0;
+    state.tourTriggerEl = document.querySelector('.tour-btn[data-tour="' + tourId + '"]');
     document.querySelectorAll('.tour-btn').forEach(function (btn) {
       btn.classList.toggle('tour-active', btn.getAttribute('data-tour') === tourId);
     });
@@ -761,6 +786,7 @@
       state.tourStep++;
       showTourStep();
     });
+    trapFocus(narration);
   }
 
   function updateTourNarration() {
@@ -782,18 +808,56 @@
     }
   }
 
+  // --- Focus trap for tour narration ---
+  function trapFocus(container) {
+    var focusable = container.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+    if (!focusable.length) return;
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+
+    container._focusTrap = function (e) {
+      if (e.key === 'Tab') {
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+      if (e.key === 'Escape') {
+        exitTour();
+      }
+    };
+    container.addEventListener('keydown', container._focusTrap);
+    first.focus();
+  }
+
+  function releaseFocus(container) {
+    if (container && container._focusTrap) {
+      container.removeEventListener('keydown', container._focusTrap);
+    }
+  }
+
   function exitTour() {
+    var triggerEl = state.tourTriggerEl;
     state.activeTour = null;
     state.tourStep = 0;
+    state.tourTriggerEl = null;
     document.querySelectorAll('.tour-btn').forEach(function (btn) {
       btn.classList.remove('tour-active');
     });
     var narration = document.querySelector('.tour-narration');
-    if (narration) narration.remove();
+    if (narration) {
+      releaseFocus(narration);
+      narration.remove();
+    }
     state.nodeElements.classed('dimmed', false).classed('tour-highlight', false);
     state.labelElements.classed('dimmed', false);
     state.linkElements.classed('dimmed', false).classed('tour-highlight', false).classed('highlighted', false);
     applyFilters();
+    // Return focus to the tour trigger button (WCAG 2.4.3)
+    if (triggerEl) triggerEl.focus();
   }
 
   // --- Utility ---
@@ -805,7 +869,7 @@
 
   // --- Theme awareness ---
   function getCurrentLabelColor() {
-    return document.documentElement.getAttribute('data-theme') === 'dark' ? '#D1D5DB' : '#374151';
+    return document.documentElement.getAttribute('data-theme') === 'dark' ? '#F3F4F6' : '#374151';
   }
 
   function getCurrentLabelBgColor() {
@@ -818,6 +882,27 @@
     return document.documentElement.getAttribute('data-theme') === 'dark' ? '#1A1A24' : '#fff';
   }
 
+  function updateDotColors() {
+    // Update filter dots
+    document.querySelectorAll('.type-filter[data-type]').forEach(function (btn) {
+      var type = btn.getAttribute('data-type');
+      if (type === 'all') return;
+      var dot = btn.querySelector('.type-filter-dot');
+      if (dot) dot.style.background = getTypeColor(type);
+    });
+    // Update legend dots
+    document.querySelectorAll('.legend-item[data-type]').forEach(function (item) {
+      var type = item.getAttribute('data-type');
+      var dot = item.querySelector('.legend-dot');
+      if (dot) dot.style.background = getTypeColor(type);
+    });
+    // Update detail badge if a node is selected
+    if (state.selectedNode) {
+      var badge = document.getElementById('detail-type');
+      if (badge) badge.style.backgroundColor = getTypeColor(state.selectedNode.type);
+    }
+  }
+
   function applyThemeColors() {
     if (state.labelElements) {
       state.labelElements.attr('fill', getCurrentLabelColor());
@@ -826,8 +911,11 @@
       state.labelBgElements.attr('fill', getCurrentLabelBgColor());
     }
     if (state.nodeElements) {
-      state.nodeElements.attr('stroke', getCurrentNodeStroke());
+      state.nodeElements
+        .attr('stroke', getCurrentNodeStroke())
+        .attr('fill', function (d) { return getTypeColor(d.type); });
     }
+    updateDotColors();
   }
 
   document.addEventListener('themechange', function () {
