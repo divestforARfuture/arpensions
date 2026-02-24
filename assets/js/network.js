@@ -186,7 +186,8 @@
     nodeElements: null,
     linkElements: null,
     labelElements: null,
-    labelBgElements: null
+    labelBgElements: null,
+    tourTriggerEl: null
   };
 
   // --- Utility: debounce ---
@@ -260,7 +261,7 @@
       var btn = document.createElement('button');
       btn.className = 'type-filter';
       btn.setAttribute('data-type', type);
-      var color = TYPE_COLORS[type] || '#999';
+      var color = getTypeColor(type);
       btn.innerHTML =
         '<span class="type-filter-dot" style="background:' + color + '"></span>' +
         '<span class="type-filter-label">' + (TYPE_LABELS[type] || type) + '</span>' +
@@ -320,7 +321,8 @@
     data.entityTypes.forEach(function (type) {
       var item = document.createElement('div');
       item.className = 'legend-item';
-      var color = TYPE_COLORS[type] || '#999';
+      item.setAttribute('data-type', type);
+      var color = getTypeColor(type);
       item.innerHTML =
         '<span class="legend-dot" style="background:' + color + '"></span>' +
         '<span>' + (TYPE_LABELS[type] || type) + '</span>';
@@ -552,7 +554,7 @@
     var content = document.getElementById('detail-content');
     content.style.display = 'block';
 
-    var color = TYPE_COLORS[node.type] || '#999';
+    var color = getTypeColor(node.type);
     var badge = document.getElementById('detail-type');
     badge.textContent = TYPE_LABELS[node.type] || node.type;
     badge.style.backgroundColor = color;
@@ -663,7 +665,7 @@
         btn.className = 'search-result-item';
         btn.setAttribute('role', 'option');
         btn.setAttribute('aria-selected', 'false');
-        var color = TYPE_COLORS[n.type] || '#999';
+        var color = getTypeColor(n.type);
         btn.innerHTML =
           '<span class="search-result-dot" style="background:' + color + '"></span>' +
           '<span>' + escapeHtml(n.label) + '</span>';
@@ -710,6 +712,7 @@
     if (!tour) return;
     state.activeTour = tourId;
     state.tourStep = 0;
+    state.tourTriggerEl = document.querySelector('.tour-btn[data-tour="' + tourId + '"]');
     document.querySelectorAll('.tour-btn').forEach(function (btn) {
       btn.classList.toggle('tour-active', btn.getAttribute('data-tour') === tourId);
     });
@@ -837,8 +840,10 @@
   }
 
   function exitTour() {
+    var triggerEl = state.tourTriggerEl;
     state.activeTour = null;
     state.tourStep = 0;
+    state.tourTriggerEl = null;
     document.querySelectorAll('.tour-btn').forEach(function (btn) {
       btn.classList.remove('tour-active');
     });
@@ -851,6 +856,8 @@
     state.labelElements.classed('dimmed', false);
     state.linkElements.classed('dimmed', false).classed('tour-highlight', false).classed('highlighted', false);
     applyFilters();
+    // Return focus to the tour trigger button (WCAG 2.4.3)
+    if (triggerEl) triggerEl.focus();
   }
 
   // --- Utility ---
@@ -875,6 +882,27 @@
     return document.documentElement.getAttribute('data-theme') === 'dark' ? '#1A1A24' : '#fff';
   }
 
+  function updateDotColors() {
+    // Update filter dots
+    document.querySelectorAll('.type-filter[data-type]').forEach(function (btn) {
+      var type = btn.getAttribute('data-type');
+      if (type === 'all') return;
+      var dot = btn.querySelector('.type-filter-dot');
+      if (dot) dot.style.background = getTypeColor(type);
+    });
+    // Update legend dots
+    document.querySelectorAll('.legend-item[data-type]').forEach(function (item) {
+      var type = item.getAttribute('data-type');
+      var dot = item.querySelector('.legend-dot');
+      if (dot) dot.style.background = getTypeColor(type);
+    });
+    // Update detail badge if a node is selected
+    if (state.selectedNode) {
+      var badge = document.getElementById('detail-type');
+      if (badge) badge.style.backgroundColor = getTypeColor(state.selectedNode.type);
+    }
+  }
+
   function applyThemeColors() {
     if (state.labelElements) {
       state.labelElements.attr('fill', getCurrentLabelColor());
@@ -887,6 +915,7 @@
         .attr('stroke', getCurrentNodeStroke())
         .attr('fill', function (d) { return getTypeColor(d.type); });
     }
+    updateDotColors();
   }
 
   document.addEventListener('themechange', function () {

@@ -748,11 +748,13 @@ a:hover {
 }
 
 /* --- Responsive Tables --- */
-.page-content table {
-  width: 100%;
-  display: block;
+.table-scroll-wrapper {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+.page-content table {
+  width: 100%;
 }
 
 .page-content tbody tr:nth-child(even) {
@@ -2045,11 +2047,6 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .action-step .letter-template {
-  background: #1A1A24;
-}
-
-/* --- Tour btn hover (used on network page but styled generally) --- */
-[data-theme="dark"] .tour-btn:hover {
   background: #1A1A24;
 }
 
