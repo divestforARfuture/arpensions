@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: landing
 title: "Press Kit — Arkansas Pension Israel Bonds Investigation"
 description: "Media resources for journalists covering Arkansas pension investments in Israel Bonds."
 permalink: /press/
+audience_nav: true
 ---
 
 ## Campaign summary
@@ -80,7 +81,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 "Those who bless Israel will be blessed, and those who curse Israel will be cursed. Arkansas unequivocally stands with Israel, as demonstrated by the recent actions of Governor Sarah Sanders and the Arkansas Legislature."
 
-<span class="pull-quote-attribution">— State Treasurer Larry Walther, press release (Oct. 2023)</span>
+<span class="pull-quote-attribution">— State Treasurer Larry Walther, press release (Oct. 2023) ([source document](/assets/documents/walther-10m-purchase-news-coverage-2023.pdf))</span>
 
 </div>
 
@@ -88,7 +89,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 "The meetings you helped arrange for us were productive... Your support and passion for Israel Bonds is second to none... critical to our success and Israel's future."
 
-<span class="pull-quote-attribution">— Israel Bonds executive, in a thank-you note to State Auditor Dennis Milligan</span>
+<span class="pull-quote-attribution">— Israel Bonds executive, in a thank-you note to State Auditor Dennis Milligan ([source document](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))</span>
 
 </div>
 
@@ -123,6 +124,7 @@ Key evidence points:
 - **Arkansas law:** Ark. Code § 24-2-614 (sole interest rule); Act 411 of 2023 (pecuniary factors only); Ark. Code §§ 24-2-610–619 (prudent investor standard)
 - **Credit ratings:** Moody's downgraded Israel from A2 to Baa1; Fitch downgraded from A+ to A; S&P maintains negative outlook
 - **Prior press coverage:** Jennifer Lenow, "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on," *Arkansas Times*, July 11, 2025
+- **Source documents:** [Browse the full FOIA document archive](/documents/) — key evidence documents published for public review
 
 </div>
 

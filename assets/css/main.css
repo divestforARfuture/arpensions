@@ -1722,6 +1722,56 @@ a:hover {
   border-top: 1px solid var(--d4arf-border);
 }
 
+/* ==========================================================================
+   AUDIENCE SUB-NAV — Cross-links between audience pages
+   ========================================================================== */
+.audience-nav {
+  background: var(--d4arf-gray-light);
+  border-bottom: 1px solid var(--d4arf-border);
+}
+
+.audience-nav .container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.audience-nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.25rem;
+}
+
+.audience-nav-list a {
+  display: block;
+  padding: 0.65rem 1rem;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--d4arf-gray);
+  text-decoration: none;
+  white-space: nowrap;
+  border-bottom: 3px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.audience-nav-list a:hover {
+  color: var(--d4arf-red);
+}
+
+.audience-nav-list a[aria-current="page"] {
+  color: var(--d4arf-red);
+  border-bottom-color: var(--d4arf-red);
+}
+
+@media (max-width: 600px) {
+  .audience-nav-list {
+    justify-content: flex-start;
+  }
+}
+
 /* --- Fact/Detail table mobile labels (legislators, press kit) --- */
 /* Scoped to --fact-detail modifier to avoid blanking labels on the-issue.md */
 @media (max-width: 600px) {
@@ -1729,6 +1779,7 @@ a:hover {
     content: '';
   }
 }
+
 
 /* ==========================================================================
    THEME TOGGLE BUTTON
@@ -2012,10 +2063,70 @@ html.theme-transition *::after {
   border-color: var(--d4arf-border);
 }
 
+/* --- Audience Sub-Nav (dark mode) --- */
+[data-theme="dark"] .audience-nav {
+  background: #15151D;
+  border-bottom-color: var(--d4arf-border);
+}
+
+[data-theme="dark"] .audience-nav-list a {
+  color: var(--d4arf-gray);
+}
+
+[data-theme="dark"] .audience-nav-list a:hover {
+  color: var(--d4arf-red);
+}
+
+[data-theme="dark"] .audience-nav-list a[aria-current="page"] {
+  color: var(--d4arf-red);
+  border-bottom-color: var(--d4arf-red);
+}
+
+/* --- 404 Page (dark mode) --- */
+[data-theme="dark"] .not-found-message {
+  color: var(--d4arf-gray);
+}
+
+/* --- Document Items (dark mode) --- */
+[data-theme="dark"] .document-item {
+  background: var(--d4arf-gray-light);
+  border-left-color: var(--d4arf-red);
+}
+
+[data-theme="dark"] .document-item:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .doc-source {
+  background: var(--d4arf-border);
+  color: var(--d4arf-gray);
+}
+
 /* ==========================================================================
-   PRINT — Always light mode, ignore dark theme
+   404 PAGE
+   ========================================================================== */
+
+.not-found {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.not-found-message {
+  color: var(--d4arf-gray);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.not-found-links {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+/* ==========================================================================
+   PRINT STYLES — Clean output for letter templates, evidence summaries
    ========================================================================== */
 @media print {
+  /* Force light-mode design tokens for print */
   :root {
     --d4arf-red: #B91C1C;
     --d4arf-green: #166534;
@@ -2030,7 +2141,188 @@ html.theme-transition *::after {
     --d4arf-link-hover: #991B1B;
   }
 
+  /* Hide non-content elements */
+  .site-nav,
+  .site-footer,
+  .social-share,
+  .cta-box,
+  .copy-letter-btn,
+  .skip-link,
+  .btn,
+  .pathway-grid,
+  .audience-nav,
   .theme-toggle-btn {
     display: none !important;
   }
+
+  /* Base print typography */
+  body {
+    color: #000;
+    background: #fff;
+    font-size: 12pt;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    break-after: avoid;
+    page-break-after: avoid; /* legacy fallback */
+  }
+
+  /* Remove background colors from callouts — use borders only */
+  .callout,
+  .pull-quote,
+  .meeting-info,
+  .letter-template,
+  .action-step {
+    background: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+    border-left: 4px solid #666;
+  }
+
+  /* Letter template: clean print with visible border */
+  .letter-template {
+    border: 2px solid #333;
+    padding: 1.5rem;
+  }
+
+  /* Show URLs after external links */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+    word-break: break-all;
+  }
+
+  /* Don't show URLs for internal links */
+  a[href^="/"]::after {
+    content: none;
+  }
+
+  /* Full-width containers */
+  .container,
+  .container-prose {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* Prevent page breaks inside key elements */
+  .letter-template,
+  .pull-quote,
+  .meeting-info,
+  .action-step {
+    break-inside: avoid;
+    page-break-inside: avoid; /* legacy fallback */
+  }
+
+  /* Keep tables together */
+  table, thead, tbody, tr {
+    break-inside: avoid;
+    page-break-inside: avoid; /* legacy fallback */
+  }
+
+  /* Remove hero dark background */
+  .hero {
+    background: none;
+    color: #000;
+    padding: 1rem 0;
+  }
+
+  .hero h1,
+  .hero-eyebrow,
+  .hero-sub {
+    color: #000;
+  }
+
+  .hero::before,
+  .hero::after {
+    display: none;
+  }
+
+  /* Footer attribution */
+  body::after {
+    content: "divestforarfuture.github.io";
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8em;
+    color: #999;
+  }
+}
+
+/* ==========================================================================
+   DOCUMENT ARCHIVE — Styled document listing cards
+   ========================================================================== */
+.document-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.document-item {
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  background: var(--d4arf-gray-light);
+  border-left: 4px solid var(--d4arf-red);
+  border-radius: 0 8px 8px 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .document-item {
+    transition: box-shadow 0.2s ease;
+  }
+}
+
+.document-item:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.document-item a.doc-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.document-item a.doc-title:hover {
+  text-decoration: underline;
+}
+
+.doc-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: 0.2rem;
+  color: var(--d4arf-red);
+}
+
+/* ==========================================================================
+   DOCUMENT LIST — Styling for document description/source spans
+   ========================================================================== */
+.doc-description {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--d4arf-gray);
+  line-height: 1.5;
+  margin-top: 0.25rem;
+}
+
+.doc-source {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--d4arf-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--d4arf-gray-light);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.35rem;
 }
