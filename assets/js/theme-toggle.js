@@ -37,8 +37,7 @@
     if (moonIcon) moonIcon.style.display = isDark ? 'none' : 'block';
   }
 
-  // Public toggle function
-  window.toggleTheme = function () {
+  function toggleTheme() {
     var current = document.documentElement.getAttribute('data-theme') || 'light';
     var next = current === 'dark' ? 'light' : 'dark';
 
@@ -52,7 +51,7 @@
     }
 
     setTheme(next);
-  };
+  }
 
   // Init on DOMContentLoaded: wire up button and set logos
   function onReady() {
@@ -64,7 +63,7 @@
 
     var btn = document.getElementById('theme-toggle');
     if (btn) {
-      btn.addEventListener('click', window.toggleTheme);
+      btn.addEventListener('click', toggleTheme);
     }
 
     // Listen for system preference changes

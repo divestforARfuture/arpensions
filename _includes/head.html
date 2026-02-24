@@ -1,10 +1,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- CSP: 'unsafe-inline' in script-src needed for the anti-FOUC theme script below.
-     Could be tightened to a sha256 hash if the inline script content is stable. -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://actionnetwork.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'self';">
+<!-- CSP: sha256 hash whitelists the anti-FOUC inline script below.
+     If you change the script content, recompute: printf '%s' 'SCRIPT' | openssl dgst -sha256 -binary | openssl base64 -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-tOeAuFE0YRZrVapAvr/obQ4MBGr9jluihn946xkCJ8o=' https://actionnetwork.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'self';">
 
-<!-- Anti-FOUC: set theme before any rendering -->
+<!-- Anti-FOUC: set theme before any rendering (hash: sha256-tOeAuFE0YRZrVapAvr/obQ4MBGr9jluihn946xkCJ8o=) -->
 <script>(function(){var t=localStorage.getItem('d4arf-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);})()</script>
 
 {% seo %}

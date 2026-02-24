@@ -1906,6 +1906,12 @@ html.theme-transition *::after {
 }
 
 /* --- Skip Link --- */
+/* Dark-mode --d4arf-red is #EF4444 which gives only ~3.7:1 against #fff.
+   Pin to the light-mode red (#B91C1C → 5.7:1 ratio) for WCAG AA. */
+[data-theme="dark"] .skip-link {
+  background: #B91C1C;
+}
+
 [data-theme="dark"] .skip-link:focus {
   outline-color: var(--d4arf-red);
 }
