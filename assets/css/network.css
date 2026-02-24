@@ -998,7 +998,7 @@
 
 /* Node labels — JS sets fill, but CSS class overrides */
 [data-theme="dark"] .node-label {
-  fill: #D1D5DB;
+  fill: #F3F4F6;
 }
 
 [data-theme="dark"] .node-label-bg {
@@ -1007,15 +1007,18 @@
 
 /* Link lines */
 [data-theme="dark"] .link-line {
-  stroke: rgba(255, 255, 255, 0.08);
+  stroke: #6B7280;
+  stroke-opacity: 0.5;
 }
 
 [data-theme="dark"] .link-line.highlighted {
-  stroke: rgba(239, 68, 68, 0.5);
+  stroke: rgba(239, 68, 68, 0.7);
+  stroke-opacity: 0.9;
 }
 
 [data-theme="dark"] .link-line.tour-highlight {
   stroke: var(--d4arf-red);
+  stroke-opacity: 0.9;
 }
 
 /* Node circles */

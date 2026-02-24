@@ -21,6 +21,28 @@
     evidence_assessment: '#6B7280'
   };
 
+  // Brightened palette for dark mode — ensures visibility on dark canvas
+  var DARK_TYPE_COLORS = {
+    agency: '#EF4444',
+    official: '#4A90D9',
+    bonds_representative: '#F59E0B',
+    organization: '#F59E0B',
+    investigation_finding: '#9CA3AF',
+    key_document: '#9CA3AF',
+    legislation: '#EF4444',
+    legal_standard: '#EF4444',
+    strategic_framework: '#9CA3AF',
+    foia_request: '#9CA3AF',
+    foia_strategy: '#9CA3AF',
+    evidence_assessment: '#9CA3AF'
+  };
+
+  function getTypeColor(type) {
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    var palette = isDark ? DARK_TYPE_COLORS : TYPE_COLORS;
+    return palette[type] || '#999';
+  }
+
   var TYPE_LABELS = {
     agency: 'Agency',
     official: 'Official',
@@ -360,7 +382,7 @@
       .join('circle')
       .attr('class', 'node-circle')
       .attr('r', function (d) { return nodeRadius(d); })
-      .attr('fill', function (d) { return TYPE_COLORS[d.type] || '#999'; })
+      .attr('fill', function (d) { return getTypeColor(d.type); })
       .attr('stroke', getCurrentNodeStroke())
       .on('click', function (event, d) {
         event.stopPropagation();
@@ -805,7 +827,7 @@
 
   // --- Theme awareness ---
   function getCurrentLabelColor() {
-    return document.documentElement.getAttribute('data-theme') === 'dark' ? '#D1D5DB' : '#374151';
+    return document.documentElement.getAttribute('data-theme') === 'dark' ? '#F3F4F6' : '#374151';
   }
 
   function getCurrentLabelBgColor() {
@@ -826,7 +848,9 @@
       state.labelBgElements.attr('fill', getCurrentLabelBgColor());
     }
     if (state.nodeElements) {
-      state.nodeElements.attr('stroke', getCurrentNodeStroke());
+      state.nodeElements
+        .attr('stroke', getCurrentNodeStroke())
+        .attr('fill', function (d) { return getTypeColor(d.type); });
     }
   }
 
