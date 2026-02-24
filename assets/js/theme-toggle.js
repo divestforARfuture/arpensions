@@ -31,10 +31,6 @@
     if (!btn) return;
     var isDark = theme === 'dark';
     btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
-    var sunIcon = btn.querySelector('.icon-sun');
-    var moonIcon = btn.querySelector('.icon-moon');
-    if (sunIcon) sunIcon.style.display = isDark ? 'block' : 'none';
-    if (moonIcon) moonIcon.style.display = isDark ? 'none' : 'block';
   }
 
   function toggleTheme() {
