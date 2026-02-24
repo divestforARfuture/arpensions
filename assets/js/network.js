@@ -361,6 +361,7 @@
       .attr('class', 'node-circle')
       .attr('r', function (d) { return nodeRadius(d); })
       .attr('fill', function (d) { return TYPE_COLORS[d.type] || '#999'; })
+      .attr('stroke', getCurrentNodeStroke())
       .on('click', function (event, d) {
         event.stopPropagation();
         selectNode(d);
@@ -388,6 +389,7 @@
       .data(labelNodes)
       .join('rect')
       .attr('class', 'node-label-bg')
+      .attr('fill', getCurrentLabelBgColor())
       .attr('rx', 3);
 
     state.labelElements = g.append('g')
@@ -396,6 +398,7 @@
       .data(labelNodes)
       .join('text')
       .attr('class', 'node-label')
+      .attr('fill', getCurrentLabelColor())
       .text(function (d) {
         var name = d.label;
         return name.length > 28 ? name.substring(0, 26) + '...' : name;
@@ -799,6 +802,37 @@
     div.textContent = str;
     return div.innerHTML;
   }
+
+  // --- Theme awareness ---
+  function getCurrentLabelColor() {
+    return document.documentElement.getAttribute('data-theme') === 'dark' ? '#D1D5DB' : '#374151';
+  }
+
+  function getCurrentLabelBgColor() {
+    return document.documentElement.getAttribute('data-theme') === 'dark'
+      ? 'rgba(22, 22, 30, 0.85)'
+      : 'rgba(248, 247, 245, 0.8)';
+  }
+
+  function getCurrentNodeStroke() {
+    return document.documentElement.getAttribute('data-theme') === 'dark' ? '#1A1A24' : '#fff';
+  }
+
+  function applyThemeColors() {
+    if (state.labelElements) {
+      state.labelElements.attr('fill', getCurrentLabelColor());
+    }
+    if (state.labelBgElements) {
+      state.labelBgElements.attr('fill', getCurrentLabelBgColor());
+    }
+    if (state.nodeElements) {
+      state.nodeElements.attr('stroke', getCurrentNodeStroke());
+    }
+  }
+
+  document.addEventListener('themechange', function () {
+    applyThemeColors();
+  });
 
   // --- Boot ---
   if (document.readyState === 'loading') {

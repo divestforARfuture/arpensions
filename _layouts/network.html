@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
   {% include head.html %}
   <link rel="stylesheet" href="{{ '/assets/css/network.css' | relative_url }}">
@@ -12,6 +12,7 @@
   </main>
   {% include footer.html %}
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/d3.v7.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/network.js' | relative_url }}" data-graph-url="{{ '/assets/js/network-graph.json' | relative_url }}"></script>
 </body>
