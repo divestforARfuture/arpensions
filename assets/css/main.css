@@ -48,6 +48,10 @@
   display: block;
 }
 
+/* Fallback: show light logo if data-theme hasn't been set (JS disabled) */
+:root:not([data-theme]) .logo-light { display: block; }
+:root:not([data-theme]) .logo-dark  { display: none; }
+
 /* --- Base --- */
 body {
   font-family: var(--font-body);
