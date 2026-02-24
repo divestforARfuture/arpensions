@@ -288,14 +288,21 @@
   border-radius: 0 6px 6px 0;
   cursor: pointer;
   text-align: left;
-  transition: border-color 0.15s, box-shadow 0.15s;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
   font-family: var(--font-body);
 }
 
 .tour-btn:hover {
+  transform: translateY(-2px);
   border-left-color: var(--d4arf-red);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-color: var(--d4arf-red);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background: #fff;
+}
+
+.tour-btn:focus-visible {
+  outline: 3px solid var(--d4arf-red);
+  outline-offset: 2px;
 }
 
 .tour-btn.tour-active {

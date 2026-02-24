@@ -783,6 +783,7 @@
       state.tourStep++;
       showTourStep();
     });
+    trapFocus(narration);
   }
 
   function updateTourNarration() {
@@ -804,6 +805,37 @@
     }
   }
 
+  // --- Focus trap for tour narration ---
+  function trapFocus(container) {
+    var focusable = container.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+    if (!focusable.length) return;
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+
+    container._focusTrap = function (e) {
+      if (e.key === 'Tab') {
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+      if (e.key === 'Escape') {
+        exitTour();
+      }
+    };
+    container.addEventListener('keydown', container._focusTrap);
+    first.focus();
+  }
+
+  function releaseFocus(container) {
+    if (container && container._focusTrap) {
+      container.removeEventListener('keydown', container._focusTrap);
+    }
+  }
+
   function exitTour() {
     state.activeTour = null;
     state.tourStep = 0;
@@ -811,7 +843,10 @@
       btn.classList.remove('tour-active');
     });
     var narration = document.querySelector('.tour-narration');
-    if (narration) narration.remove();
+    if (narration) {
+      releaseFocus(narration);
+      narration.remove();
+    }
     state.nodeElements.classed('dimmed', false).classed('tour-highlight', false);
     state.labelElements.classed('dimmed', false);
     state.linkElements.classed('dimmed', false).classed('tour-highlight', false).classed('highlighted', false);
