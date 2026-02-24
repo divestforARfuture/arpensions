@@ -1,10 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- CSP: sha256 hash whitelists the anti-FOUC inline script below.
-     If you change the script content, recompute: printf '%s' 'SCRIPT' | openssl dgst -sha256 -binary | openssl base64 -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-tOeAuFE0YRZrVapAvr/obQ4MBGr9jluihn946xkCJ8o=' https://actionnetwork.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'self';">
+     If you change the script content, recompute with:
+     node -e "const c=require('crypto');const s=\`SCRIPT_CONTENT\`;console.log(c.createHash('sha256').update(s,'utf8').digest('base64'))" -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-n6OG73OWngR6TuBHgZWhoZv6dyQz2VFBu2bB5P2C9JU=' https://actionnetwork.org; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'self';">
 
-<!-- Anti-FOUC: set theme before any rendering (hash: sha256-tOeAuFE0YRZrVapAvr/obQ4MBGr9jluihn946xkCJ8o=) -->
+<!-- Anti-FOUC: set theme before any rendering (hash: sha256-n6OG73OWngR6TuBHgZWhoZv6dyQz2VFBu2bB5P2C9JU=) -->
 <script>(function(){var t=localStorage.getItem('d4arf-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);})()</script>
 <!-- Critical dark-mode paint: prevents white flash while external CSS loads.
      Values hardcoded — keep in sync with [data-theme="dark"] tokens in assets/css/main.css -->
