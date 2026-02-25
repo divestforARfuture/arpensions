@@ -122,9 +122,89 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 ---
 
+## Exposure by agency
+
+<ul class="bar-chart" role="list" aria-label="Israel Bonds exposure by agency">
+  <li>
+    <div class="bar-chart-label"><span>Arkansas Treasury</span><span>~$100M</span></div>
+    <div class="bar-chart-bar" style="width: 100%" role="img" aria-label="Treasury: approximately $100 million"></div>
+  </li>
+  <li>
+    <div class="bar-chart-label"><span>ATRS (Teachers)</span><span>~$35M</span></div>
+    <div class="bar-chart-bar bar-chart-bar--secondary" style="width: 35%" role="img" aria-label="ATRS: approximately $35 million"></div>
+  </li>
+  <li>
+    <div class="bar-chart-label"><span>APERS (Public Employees)</span><span>~$20M</span></div>
+    <div class="bar-chart-bar bar-chart-bar--tertiary" style="width: 20%" role="img" aria-label="APERS: approximately $20 million"></div>
+  </li>
+</ul>
+
+*Dollar amounts are approximate and based on the most recent public records available. The site owner will verify exact figures.*
+
+---
+
 ## The timeline
 
-{% include evidence-timeline.html %}
+<div class="timeline-year">2017</div>
+<ol class="timeline" role="list" aria-label="Timeline of Israel Bonds investment events">
+  <li class="timeline-event">
+    <time>2017</time>
+    <h3>Israel Bonds outreach begins</h3>
+    <p>State Auditor Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds.</p>
+  </li>
+</ol>
+
+<div class="timeline-year">2023</div>
+<ol class="timeline" role="list">
+  <li class="timeline-event timeline-event--highlight">
+    <time>October 2023</time>
+    <h3>$10M purchase after October 7 attacks</h3>
+    <p>State Board of Finance approves $10 million additional Israel Bonds purchase, bringing total holdings to $57 million. Officials frame the purchase as Arkansas "standing with Israel."</p>
+  </li>
+</ol>
+
+<div class="timeline-year">2024</div>
+<ol class="timeline" role="list">
+  <li class="timeline-event timeline-event--highlight">
+    <time>Late 2024</time>
+    <h3>Internal memo recommends against new purchases</h3>
+    <p>Senior Treasury investment manager writes internal memo recommending against new Israel Bonds purchases, citing credit downgrades from all three major agencies.</p>
+  </li>
+  <li class="timeline-event">
+    <time>November 2024</time>
+    <h3>Auditor arranges meetings</h3>
+    <p>Auditor Milligan arranges meeting between Israel Bonds representatives and state officials.</p>
+  </li>
+</ol>
+
+<div class="timeline-year">2025</div>
+<ol class="timeline" role="list">
+  <li class="timeline-event timeline-event--highlight">
+    <time>April 2025</time>
+    <h3>Sales representatives meet with agency directors</h3>
+    <p>Israel Bonds sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time>May 2025</time>
+    <h3>$20M Treasury purchase; APERS authorizes $25–50M</h3>
+    <p>Treasury purchases $20 million in new Israel Bonds; APERS Investment Subcommittee authorizes $25–50 million.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time>June 2, 2025</time>
+    <h3>ATRS Board authorizes up to $50M</h3>
+    <p>ATRS Board adopts Resolution 2025-22 authorizing up to $50 million; Board Chair Danny Knight casts lone "no" vote.</p>
+  </li>
+  <li class="timeline-event">
+    <time>July 2025</time>
+    <h3>Arkansas Times investigation published</h3>
+    <p>Arkansas Times publishes in-depth investigation documenting the timeline, political connections, and fiduciary concerns.</p>
+  </li>
+  <li class="timeline-event">
+    <time>August 2025</time>
+    <h3>Governor's Israel trade mission</h3>
+    <p>Governor Sanders participates in Israel trade mission, boasts of state's Israel Bonds investments.</p>
+  </li>
+</ol>
 
 ---
 
