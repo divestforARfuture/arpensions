@@ -28,8 +28,8 @@ All documents were provided by the agencies in response to lawful FOIA requests.
 
 <ul class="document-list">
   <li class="document-item">
-    <a class="doc-title" href="/assets/documents/milligan-happy-to-help-social-media-2025.pdf"><svg class="doc-icon" aria-hidden="true"><use href="#doc-icon"/></svg>Auditor's office drafts social media praising Israel Bonds reps as "friends"</a>
-    <span class="doc-description">Internal draft social media post from the Auditor's office promoting Israel Bonds representatives</span>
+    <a class="doc-title" href="/assets/documents/milligan-happy-to-help-social-media-2025.pdf"><svg class="doc-icon" aria-hidden="true"><use href="#doc-icon"/></svg>Auditor's communications director calls Israel Bonds reps "friends" in internal email</a>
+    <span class="doc-description">Internal email from Auditor's Director of Communications to a colleague, expressing personal support for Israel Bonds representatives Larry Berman and Brad Young</span>
     <span class="doc-source">AUDIT-JUN25-0568</span>
   </li>
   <li class="document-item">
