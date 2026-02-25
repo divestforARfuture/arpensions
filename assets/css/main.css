@@ -2399,6 +2399,7 @@ html.theme-transition *::after {
 
 /* === Footer Heading (replaces semantic h4 to fix heading hierarchy) === */
 .footer-heading {
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 0.75rem;
@@ -2422,8 +2423,8 @@ html.theme-transition *::after {
   white-space: nowrap;
 }
 
-.btn-nav-cta:hover,
-.btn-nav-cta:focus-visible {
+.nav-cta .btn-nav-cta:hover,
+.nav-cta .btn-nav-cta:focus-visible {
   background-color: #991B1B;
   color: #fff !important;
   text-decoration: none;
