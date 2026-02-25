@@ -12,13 +12,6 @@
 <style>html[data-theme="dark"]{background-color:#121218;color:#E5E7EB}html[data-theme="dark"] body{background-color:#121218}html[data-theme="dark"] .site-nav{background:#15151D}</style>
 
 {% seo %}
-
-<!-- Twitter Cards -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
-<meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
-<meta name="twitter:image" content="{{ '/assets/images/og-default.png' | absolute_url }}">
-
 {% include jsonld.html %}
 
 <!-- Fonts -->

@@ -2,7 +2,7 @@ title: Divest for AR Future
 description: "Protecting Arkansas pensions through transparency and accountability"
 url: "https://divestforarfuture.github.io"
 baseurl: ""
-permalink: /blog/:title/
+permalink: /:title/
 locale: en_US
 
 # Social / Open Graph defaults
