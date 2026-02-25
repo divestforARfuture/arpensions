@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "About Divest for AR Future — Pension Accountability Campaign"
+title: "About — Our Investigation, Approach, and Frequently Asked Questions"
 description: "Divest for AR Future is a grassroots Arkansas campaign fighting for pension transparency and fiduciary accountability."
 permalink: /about/
 ---

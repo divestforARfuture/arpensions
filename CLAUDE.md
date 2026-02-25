@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 D4ARF Campaign Website — Claude Code Instructions
 
 You are redesigning the Divest for AR Future (D4ARF) campaign website. The site is Jekyll + GitHub Pages, deployed at https://divestforarfuture.github.io.

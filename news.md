@@ -1,26 +1,24 @@
 ---
 layout: page
-title: "News & Updates — Arkansas Pension Transparency Campaign"
-description: "Campaign updates and analysis from Divest for AR Future."
+title: "Campaign Updates"
+description: "Milestones and progress in the Divest for AR Future investigation."
 permalink: /news/
 ---
 
-## Campaign updates
+Follow the progress of our investigation and campaign.
 
-Follow our investigation and campaign progress. We publish updates as new FOIA responses arrive and as the campaign develops toward the 2027 legislative session.
+## 2026
 
-**Want updates by email?** Contact us at [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=Subscribe%20to%20updates) to join our update list.
+**February 20** — FOIA Round 2 Treasury response fully ingested — 118 new documents added to the investigation.
 
----
+**February 19** — Website launched with comprehensive evidence from more than 1,000 public records.
 
-<ul class="post-list">
-{% for post in site.posts %}
-  <li>
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-    {% if post.excerpt %}
-    <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
+**February 5** — FOIA Round 2 requests submitted to all four agencies: Treasury, ATRS, APERS, and Auditor of State.
+
+## 2025
+
+**October** — FOIA Round 1 responses received from all four Arkansas agencies. Initial analysis begins.
+
+**August** — First round of FOIA requests filed with Arkansas Treasury, ATRS, APERS, and Auditor of State.
+
+**Spring** — Investigation formally launched. Campaign infrastructure development begins.

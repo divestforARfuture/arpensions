@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Israel Bonds & Arkansas Pensions — Fiduciary Concerns"
+title: "The Issue — $155M in Arkansas Pension Funds Invested Without Independent Analysis"
 description: "$155 million in Arkansas pension funds committed to Israel Bonds despite credit downgrades, internal advice against purchases, and no independent analysis."
 permalink: /the-issue/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Source Documents — FOIA Evidence Archive"
+title: "Documents — FOIA Public Records Archive"
 description: "Primary source documents obtained through FOIA requests to four Arkansas state agencies."
 permalink: /documents/
 ---
