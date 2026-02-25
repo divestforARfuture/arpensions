@@ -14,7 +14,7 @@ All documents were provided by the agencies in response to Freedom of Informatio
 ## Key Evidence Documents
 
 - **[milligan-happy-to-help-social-media-2025.pdf](milligan-happy-to-help-social-media-2025.pdf)**  
-  Auditor's office drafts social media praising Israel Bonds reps as 'friends'  
+  Auditor's communications director calls Israel Bonds reps 'friends' in internal email  
   *Source: AUDIT-JUN25-0568*
 
 - **[israel-bonds-marketing-to-milligan-gov-2025.pdf](israel-bonds-marketing-to-milligan-gov-2025.pdf)**  
