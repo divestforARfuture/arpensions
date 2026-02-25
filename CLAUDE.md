@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 D4ARF Campaign Website — Claude Code Instructions
 
 You are redesigning the Divest for AR Future (D4ARF) campaign website. The site is Jekyll + GitHub Pages, deployed at https://divestforarfuture.github.io.
@@ -70,7 +74,7 @@ Red is the dominant accent (D4ARF brand + Arkansas's color), with restrained gre
 ## Current Architecture
 
 ```
-11 pages, 4 layouts, 8 includes, 2 blog posts
+11 pages, 4 layouts, 8 includes
 ├── index.md              (default layout — hero, stats, pathways, about)
 ├── the-issue.md          (page layout — core explainer)
 ├── evidence.md           (page layout — key findings, timeline, legal standards)
@@ -80,8 +84,7 @@ Red is the dominant accent (D4ARF brand + Arkansas's color), with restrained gre
 ├── legislators.md        (landing layout — policy brief)
 ├── press.md              (page layout — press kit)
 ├── about.md              (page layout — mission, approach, FAQ)
-├── news.md               (page layout — blog listing)
-└── _posts/               (2 posts — welcome + "What We Found")
+└── news.md               (page layout — campaign milestones timeline)
 ```
 
 ## Key Facts for Content (Use These Numbers)
