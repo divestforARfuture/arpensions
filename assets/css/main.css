@@ -1221,12 +1221,12 @@ blockquote p {
   border-radius: 1px;
 }
 
-.timeline-event {
+.evidence-timeline .timeline-event {
   position: relative;
   padding-bottom: 2rem;
 }
 
-.timeline-event:last-child {
+.evidence-timeline .timeline-event:last-child {
   padding-bottom: 0;
 }
 
@@ -2334,6 +2334,247 @@ html.theme-transition *::after {
 }
 
 /* ==========================================================================
+   EVIDENCE TIMELINE — CSS-only vertical timeline with year headers
+   ========================================================================== */
+
+/* Wrapper draws one continuous vertical line across all year groups */
+.timeline-wrapper {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.timeline-wrapper::before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--d4arf-border);
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+/* Standalone timeline (no wrapper) still draws its own line */
+.timeline:not(.timeline-wrapper .timeline)::before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--d4arf-border);
+}
+
+.timeline .timeline-event {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.timeline .timeline-event::before {
+  content: '';
+  position: absolute;
+  left: 0.55rem;
+  top: 0.35rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--d4arf-red);
+  border: 3px solid var(--d4arf-white);
+  z-index: 1;
+}
+
+[data-theme="dark"] .timeline .timeline-event::before {
+  border-color: #121218;
+}
+
+.timeline .timeline-event.timeline-event--highlight::before {
+  width: 18px;
+  height: 18px;
+  left: 0.4rem;
+  top: 0.25rem;
+  box-shadow: 0 0 0 4px rgba(185, 28, 28, 0.2);
+}
+
+[data-theme="dark"] .timeline .timeline-event.timeline-event--highlight::before {
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.25);
+}
+
+.timeline .timeline-event time {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--d4arf-red);
+  margin-bottom: 0.25rem;
+}
+
+.timeline .timeline-event h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.35rem;
+}
+
+.timeline .timeline-event p {
+  font-size: 0.95rem;
+  color: var(--d4arf-gray);
+  margin: 0;
+}
+
+.timeline-year {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--d4arf-black);
+  padding-left: 3rem;
+  margin: 2.5rem 0 1rem;
+  position: sticky;
+  top: 4rem;
+  z-index: 2;
+}
+
+/* First year header inside wrapper needs less top margin */
+.timeline-wrapper > .timeline-year:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .timeline-wrapper::before { left: 0.75rem; }
+  .timeline:not(.timeline-wrapper .timeline)::before { left: 0.75rem; }
+  .timeline .timeline-event { padding-left: 2.5rem; }
+  .timeline .timeline-event::before { left: 0.35rem; }
+  .timeline-year { padding-left: 2.5rem; }
+}
+
+/* ==========================================================================
+   ACTION CARDS — Effort-tier grouping for take-action page
+   ========================================================================== */
+.action-tier {
+  margin: 2.5rem 0;
+}
+
+.action-tier-label {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.action-tier-label--quick {
+  background: var(--d4arf-green-light);
+  color: var(--d4arf-green);
+}
+
+.action-tier-label--medium {
+  background: #FEF3C7;
+  color: #92400E;
+}
+
+.action-tier-label--ongoing {
+  background: var(--d4arf-red-light);
+  color: var(--d4arf-red);
+}
+
+[data-theme="dark"] .action-tier-label--quick {
+  background: rgba(22, 101, 52, 0.15);
+}
+
+[data-theme="dark"] .action-tier-label--medium {
+  background: rgba(146, 64, 14, 0.15);
+}
+
+[data-theme="dark"] .action-tier-label--ongoing {
+  background: rgba(185, 28, 28, 0.1);
+}
+
+/* ==========================================================================
+   CSS BAR CHART — Agency exposure visualization
+   ========================================================================== */
+.bar-chart {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  max-width: 36rem;
+}
+
+.bar-chart li {
+  margin-bottom: 1.25rem;
+}
+
+.bar-chart-label {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.35rem;
+}
+
+.bar-chart-bar {
+  height: 2rem;
+  background: var(--d4arf-red);
+  border-radius: 4px;
+  position: relative;
+}
+
+.bar-chart-bar--secondary {
+  background: var(--d4arf-green);
+}
+
+.bar-chart-bar--tertiary {
+  background: var(--d4arf-gray);
+}
+
+/* ==========================================================================
+   STICKY MOBILE CTA — Fixed bottom bar on small screens
+   ========================================================================== */
+.mobile-cta-bar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-cta-bar {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--d4arf-white);
+    border-top: 1px solid var(--d4arf-border);
+    padding: 0.75rem 1rem;
+    z-index: 100;
+    text-align: center;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  [data-theme="dark"] .mobile-cta-bar {
+    background: #15151D;
+    border-top-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .mobile-cta-bar .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 0.85rem;
+    font-size: 1.05rem;
+  }
+
+  /* Add padding to body so footer content isn't hidden behind the sticky bar */
+  body {
+    padding-bottom: 4.5rem;
+  }
+}
+
+/* ==========================================================================
    PRINT STYLES — Clean output for letter templates, evidence summaries
    ========================================================================== */
 @media print {
@@ -2363,8 +2604,13 @@ html.theme-transition *::after {
   .pathway-grid,
   .audience-nav,
   .theme-toggle-btn,
-  .page-flow {
+  .page-flow,
+  .mobile-cta-bar {
     display: none !important;
+  }
+
+  body {
+    padding-bottom: 0;
   }
 
   /* Base print typography */

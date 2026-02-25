@@ -7,6 +7,9 @@ permalink: /take-action/
 
 Every Arkansan whose retirement is managed by a state pension fund has a stake in how that money is invested. Here's how you can make your voice heard — starting today.
 
+<div class="action-tier" markdown="1">
+<span class="action-tier-label action-tier-label--quick">5 Minutes</span>
+
 <section class="action-step" markdown="1">
 
 ## Sign on in support
@@ -62,6 +65,10 @@ Sincerely,
 </div>
 
 </section>
+</div>
+
+<div class="action-tier" markdown="1">
+<span class="action-tier-label action-tier-label--medium">30 Minutes</span>
 
 <section class="action-step" markdown="1">
 
@@ -78,6 +85,10 @@ The 2027 Arkansas legislative session is an opportunity to establish stronger pe
 You can also find your legislators at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/).
 
 </section>
+</div>
+
+<div class="action-tier" markdown="1">
+<span class="action-tier-label action-tier-label--ongoing">Ongoing</span>
 
 <section class="action-step" markdown="1">
 
@@ -130,3 +141,4 @@ We need Arkansans across the state — especially educators and public employees
 **Email [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=I%20want%20to%20volunteer&body=Name%3A%20%0ACity%3A%20%0AI%27m%20interested%20in%3A%20%5Bresearch%20%2F%20outreach%20%2F%20communications%20%2F%20legislative%20advocacy%5D%0A)** to get started.
 
 </section>
+</div>

@@ -12,6 +12,11 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  {% unless page.url contains '/take-action/' %}
+  <aside class="mobile-cta-bar" aria-label="Take action">
+    <a href="{{ '/take-action/' | relative_url }}" class="btn-primary">Take Action for Your Pension</a>
+  </aside>
+  {% endunless %}
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/table-wrap.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/copy-to-clipboard.js' | relative_url }}"></script>
