@@ -160,4 +160,10 @@ Browse our [source document archive](/documents/) to read the primary evidence y
 
 *For additional source documents and detailed findings, contact us at [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me).*
 
+---
+
+<nav class="page-flow" aria-label="Continue reading">
+  <a href="{{ '/take-action/' | relative_url }}" class="btn-text">Next: Take Action</a>
+</nav>
+
 </div>
