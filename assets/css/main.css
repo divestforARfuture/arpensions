@@ -89,6 +89,11 @@ h4, h5, h6 {
   letter-spacing: -0.01em;
 }
 
+/* Utility classes need font-family since they may apply to non-heading elements */
+.h1, .h2, .h3 {
+  font-family: var(--font-display);
+}
+
 a {
   color: var(--d4arf-link);
   transition: color 0.15s ease;
@@ -165,15 +170,16 @@ a:hover {
   padding: 0 1.5rem;
 }
 
-/* Body text constraint — prevent long lines */
-.container-prose p,
-.container-prose li,
-.container-prose blockquote {
-  max-width: 42rem;
+/* Body text constraint — prevent long lines (only at widths where container is wide enough to matter) */
+@media (min-width: 800px) {
+  .container-prose p,
+  .container-prose li,
+  .container-prose blockquote {
+    max-width: 42rem;
+  }
 }
 
 /* === Section Rhythm === */
-.action-step,
 .evidence-finding,
 .page-content section,
 article section {
@@ -387,7 +393,7 @@ article > section:first-child {
 }
 
 .hero h1 {
-  font-size: clamp(2.4rem, 6vw, 3.8rem);
+  font-size: clamp(1.75rem, 4vw + 0.75rem, 3.8rem);
   color: #fff;
   margin-bottom: 1.5rem;
   max-width: 18ch;
@@ -417,10 +423,6 @@ article > section:first-child {
 @media (max-width: 600px) {
   .hero {
     padding: 3.5rem 1.5rem 3rem;
-  }
-
-  .hero h1 {
-    font-size: 1.75rem;
   }
 
   .hero-cta {
@@ -985,7 +987,7 @@ blockquote p {
 
 .key-finding strong:first-child {
   display: block;
-  font-family: 'Bitter', serif;
+  font-family: var(--font-display);
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
   color: var(--d4arf-red);
@@ -1950,6 +1952,7 @@ blockquote p {
 
 .source-citation a {
   color: var(--d4arf-gray);
+  text-decoration: underline;
 }
 
 .source-citation a:hover {
@@ -2359,7 +2362,8 @@ html.theme-transition *::after {
   .btn,
   .pathway-grid,
   .audience-nav,
-  .theme-toggle-btn {
+  .theme-toggle-btn,
+  .page-flow {
     display: none !important;
   }
 
