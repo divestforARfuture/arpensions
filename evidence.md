@@ -127,15 +127,15 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 <ul class="bar-chart" role="list" aria-label="Israel Bonds exposure by agency">
   <li>
     <div class="bar-chart-label"><span>Arkansas Treasury</span><span>~$100M</span></div>
-    <div class="bar-chart-bar" style="width: 100%" role="img" aria-label="Treasury: approximately $100 million"></div>
+    <div class="bar-chart-bar" style="width: 100%" aria-hidden="true"></div>
   </li>
   <li>
     <div class="bar-chart-label"><span>ATRS (Teachers)</span><span>~$35M</span></div>
-    <div class="bar-chart-bar bar-chart-bar--secondary" style="width: 35%" role="img" aria-label="ATRS: approximately $35 million"></div>
+    <div class="bar-chart-bar bar-chart-bar--secondary" style="width: 35%" aria-hidden="true"></div>
   </li>
   <li>
     <div class="bar-chart-label"><span>APERS (Public Employees)</span><span>~$20M</span></div>
-    <div class="bar-chart-bar bar-chart-bar--tertiary" style="width: 20%" role="img" aria-label="APERS: approximately $20 million"></div>
+    <div class="bar-chart-bar bar-chart-bar--tertiary" style="width: 20%" aria-hidden="true"></div>
   </li>
 </ul>
 
@@ -145,8 +145,10 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 ## The timeline
 
+<div class="timeline-wrapper" aria-label="Timeline of Israel Bonds investment events">
+
 <div class="timeline-year">2017</div>
-<ol class="timeline" role="list" aria-label="Timeline of Israel Bonds investment events">
+<ol class="timeline" role="list" aria-label="2017 events">
   <li class="timeline-event">
     <time>2017</time>
     <h3>Israel Bonds outreach begins</h3>
@@ -155,7 +157,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 </ol>
 
 <div class="timeline-year">2023</div>
-<ol class="timeline" role="list">
+<ol class="timeline" role="list" aria-label="2023 events">
   <li class="timeline-event timeline-event--highlight">
     <time>October 2023</time>
     <h3>$10M purchase after October 7 attacks</h3>
@@ -164,7 +166,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 </ol>
 
 <div class="timeline-year">2024</div>
-<ol class="timeline" role="list">
+<ol class="timeline" role="list" aria-label="2024 events">
   <li class="timeline-event timeline-event--highlight">
     <time>Late 2024</time>
     <h3>Internal memo recommends against new purchases</h3>
@@ -178,7 +180,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 </ol>
 
 <div class="timeline-year">2025</div>
-<ol class="timeline" role="list">
+<ol class="timeline" role="list" aria-label="2025 events">
   <li class="timeline-event timeline-event--highlight">
     <time>April 2025</time>
     <h3>Sales representatives meet with agency directors</h3>
@@ -205,6 +207,8 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <p>Governor Sanders participates in Israel trade mission, boasts of state's Israel Bonds investments.</p>
   </li>
 </ol>
+
+</div>
 
 ---
 

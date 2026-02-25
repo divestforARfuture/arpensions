@@ -1221,12 +1221,12 @@ blockquote p {
   border-radius: 1px;
 }
 
-.timeline-event {
+.evidence-timeline .timeline-event {
   position: relative;
   padding-bottom: 2rem;
 }
 
-.timeline-event:last-child {
+.evidence-timeline .timeline-event:last-child {
   padding-bottom: 0;
 }
 
@@ -2336,14 +2336,14 @@ html.theme-transition *::after {
 /* ==========================================================================
    EVIDENCE TIMELINE — CSS-only vertical timeline with year headers
    ========================================================================== */
-.timeline {
-  list-style: none;
-  padding: 0;
-  margin: 2rem 0;
+
+/* Wrapper draws one continuous vertical line across all year groups */
+.timeline-wrapper {
   position: relative;
+  margin: 2rem 0;
 }
 
-.timeline::before {
+.timeline-wrapper::before {
   content: '';
   position: absolute;
   left: 1rem;
@@ -2353,13 +2353,31 @@ html.theme-transition *::after {
   background: var(--d4arf-border);
 }
 
-.timeline-event {
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+/* Standalone timeline (no wrapper) still draws its own line */
+.timeline:not(.timeline-wrapper .timeline)::before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--d4arf-border);
+}
+
+.timeline .timeline-event {
   position: relative;
   padding-left: 3rem;
   margin-bottom: 2rem;
 }
 
-.timeline-event::before {
+.timeline .timeline-event::before {
   content: '';
   position: absolute;
   left: 0.55rem;
@@ -2372,11 +2390,11 @@ html.theme-transition *::after {
   z-index: 1;
 }
 
-[data-theme="dark"] .timeline-event::before {
+[data-theme="dark"] .timeline .timeline-event::before {
   border-color: #121218;
 }
 
-.timeline-event.timeline-event--highlight::before {
+.timeline .timeline-event.timeline-event--highlight::before {
   width: 18px;
   height: 18px;
   left: 0.4rem;
@@ -2384,32 +2402,32 @@ html.theme-transition *::after {
   box-shadow: 0 0 0 4px rgba(185, 28, 28, 0.2);
 }
 
-[data-theme="dark"] .timeline-event.timeline-event--highlight::before {
+[data-theme="dark"] .timeline .timeline-event.timeline-event--highlight::before {
   box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.25);
 }
 
-.timeline-event time {
+.timeline .timeline-event time {
   display: block;
-  font-family: 'Bitter', serif;
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--d4arf-red);
   margin-bottom: 0.25rem;
 }
 
-.timeline-event h3 {
+.timeline .timeline-event h3 {
   font-size: 1.1rem;
   margin: 0 0 0.35rem;
 }
 
-.timeline-event p {
+.timeline .timeline-event p {
   font-size: 0.95rem;
   color: var(--d4arf-gray);
   margin: 0;
 }
 
 .timeline-year {
-  font-family: 'Bitter', serif;
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.4rem;
   color: var(--d4arf-black);
@@ -2420,14 +2438,16 @@ html.theme-transition *::after {
   z-index: 2;
 }
 
-[data-theme="dark"] .timeline-year {
-  color: var(--d4arf-black);
+/* First year header inside wrapper needs less top margin */
+.timeline-wrapper > .timeline-year:first-child {
+  margin-top: 0;
 }
 
 @media (max-width: 600px) {
-  .timeline::before { left: 0.75rem; }
-  .timeline-event { padding-left: 2.5rem; }
-  .timeline-event::before { left: 0.35rem; }
+  .timeline-wrapper::before { left: 0.75rem; }
+  .timeline:not(.timeline-wrapper .timeline)::before { left: 0.75rem; }
+  .timeline .timeline-event { padding-left: 2.5rem; }
+  .timeline .timeline-event::before { left: 0.35rem; }
   .timeline-year { padding-left: 2.5rem; }
 }
 
@@ -2440,7 +2460,7 @@ html.theme-transition *::after {
 
 .action-tier-label {
   display: inline-block;
-  font-family: 'Bitter', serif;
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.85rem;
   text-transform: uppercase;
@@ -2504,7 +2524,6 @@ html.theme-transition *::after {
   background: var(--d4arf-red);
   border-radius: 4px;
   position: relative;
-  transition: width 0.6s ease;
 }
 
 .bar-chart-bar--secondary {
