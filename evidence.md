@@ -139,7 +139,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   </li>
 </ul>
 
-Treasury figure reflects current holdings, including $20M purchased since May 2025. ATRS and APERS figures reflect board-authorized maximums (Resolution 2025-22, June 2025, and APERS Investment Subcommittee authorization of $25–50M, May 2025) — these authorizations may not yet be fully executed.
+<p><em>Treasury figure reflects current holdings, including $20M purchased since May 2025. ATRS and APERS figures reflect board-authorized maximums (Resolution 2025-22, June 2025, and APERS Investment Subcommittee authorization of $25–50M, May 2025) — these authorizations may not yet be fully executed.</em></p>
 
 ---
 
@@ -152,7 +152,7 @@ Treasury figure reflects current holdings, including $20M purchased since May 20
   <li class="timeline-event">
     <time>2017</time>
     <h3>Israel Bonds outreach begins</h3>
-    <p>State Auditor Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds. This led to the state's first Israel Bonds purchases through the Treasury.</p>
+    <p>State Treasurer Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds. This led to the state's first Israel Bonds purchases through the Treasury.</p>
   </li>
 </ol>
 
