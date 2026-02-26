@@ -161,7 +161,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event">
     <time>2018</time>
     <h3>Israel Bonds representatives congratulate Milligan on re-election</h3>
-    <p>Israel Bonds executives Lawrence Berman and David Young sent congratulations to Dennis Milligan on his re-election as State Treasurer. Milligan replied that he looked "forward to our future together." (<a href="/assets/documents/berman-young-congratulations-milligan-2018.pdf">Read the correspondence</a>)</p>
+    <p>Israel Bonds executives Lawrence Berman and Bradley Young sent congratulations to Dennis Milligan on his re-election as State Treasurer. Milligan replied that he looked "forward to our future together." (<a href="/assets/documents/berman-young-congratulations-milligan-2018.pdf">Read the correspondence</a>)</p>
   </li>
 </ol>
 
