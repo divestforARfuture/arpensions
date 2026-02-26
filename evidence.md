@@ -122,24 +122,24 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 ---
 
-## Exposure by agency
+## Authorized or committed exposure by agency
 
-<ul class="bar-chart" role="list" aria-label="Israel Bonds exposure by agency">
+<ul class="bar-chart" role="list" aria-label="Israel Bonds authorized or committed exposure by agency">
   <li>
-    <div class="bar-chart-label"><span>Arkansas Treasury</span><span>~$100M</span></div>
+    <div class="bar-chart-label"><span>Arkansas Treasury</span><span>$55M</span></div>
     <div class="bar-chart-bar" style="width: 100%" aria-hidden="true"></div>
   </li>
   <li>
-    <div class="bar-chart-label"><span>ATRS (Teachers)</span><span>~$35M</span></div>
-    <div class="bar-chart-bar bar-chart-bar--secondary" style="width: 35%" aria-hidden="true"></div>
+    <div class="bar-chart-label"><span>ATRS (Teachers)</span><span>Up to $50M</span></div>
+    <div class="bar-chart-bar bar-chart-bar--secondary" style="width: 91%" aria-hidden="true"></div>
   </li>
   <li>
-    <div class="bar-chart-label"><span>APERS (Public Employees)</span><span>~$20M</span></div>
-    <div class="bar-chart-bar bar-chart-bar--tertiary" style="width: 20%" aria-hidden="true"></div>
+    <div class="bar-chart-label"><span>APERS (Public Employees)</span><span>Up to $50M</span></div>
+    <div class="bar-chart-bar bar-chart-bar--tertiary" style="width: 91%" aria-hidden="true"></div>
   </li>
 </ul>
 
-*Dollar amounts are approximate and based on the most recent public records available. The site owner will verify exact figures.*
+<p><em>Treasury figure reflects current holdings, including $20M purchased since May 2025. ATRS and APERS figures reflect board-authorized maximums (Resolution 2025-22, June 2025, and APERS Investment Subcommittee authorization of $25–50M, May 2025) — these authorizations may not yet be fully executed.</em></p>
 
 ---
 
@@ -152,7 +152,25 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event">
     <time>2017</time>
     <h3>Israel Bonds outreach begins</h3>
-    <p>State Auditor Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds.</p>
+    <p>State Treasurer Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds. This led to the state's first Israel Bonds purchases through the Treasury.</p>
+  </li>
+</ol>
+
+<div class="timeline-year">2018</div>
+<ol class="timeline" role="list" aria-label="2018 events">
+  <li class="timeline-event">
+    <time>2018</time>
+    <h3>Israel Bonds representatives congratulate Milligan on re-election</h3>
+    <p>Israel Bonds executives Lawrence Berman and David Young sent congratulations to Dennis Milligan on his re-election as State Treasurer. Milligan replied that he looked "forward to our future together." (<a href="/assets/documents/berman-young-congratulations-milligan-2018.pdf">Read the correspondence</a>)</p>
+  </li>
+</ol>
+
+<div class="timeline-year">2020</div>
+<ol class="timeline" role="list" aria-label="2020 events">
+  <li class="timeline-event">
+    <time>2020</time>
+    <h3>Milligan nominated as SFOF National Chair</h3>
+    <p>The State Financial Officers Foundation nominated Dennis Milligan as National Chair. The nomination noted his participation was "key to our success." (<a href="/assets/documents/sfof-nominates-milligan-chair-2020.pdf">Read the nomination</a>)</p>
   </li>
 </ol>
 

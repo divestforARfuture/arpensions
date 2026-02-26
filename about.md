@@ -7,7 +7,7 @@ permalink: /about/
 
 ## Our mission
 
-Divest for AR Future is a grassroots campaign committed to exposing and challenging the misuse of public funds, holding decision-makers accountable to their fiduciary duties, and building a broad-based movement to align Arkansas's investments with the values of transparency, justice, and the well-being of Arkansans.
+Divest for AR Future is a grassroots campaign using public records and Arkansas law to hold pension decision-makers accountable to the fiduciary standards they are required to follow. When investment decisions bypass independent analysis and override internal staff recommendations, pension beneficiaries deserve answers.
 
 <div class="approach-pillars" markdown="1">
 
