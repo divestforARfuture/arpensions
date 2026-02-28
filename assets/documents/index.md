@@ -34,7 +34,7 @@ All documents were provided by the agencies in response to Freedom of Informatio
   *Source: TREAS-SEP25-0008*
 
 - **[israel-bonds-purchase-confirmation-nov2023.pdf](israel-bonds-purchase-confirmation-nov2023.pdf)**  
-  Official purchase confirmation — 1 month after October 7 attacks  
+  Official purchase confirmation — $10M Israel Bond, November 2023 (3-year Jubilee at 5.40%)  
   *Source: TREAS-SEP25-0066*
 
 ## Excerpts from Compiled Records
@@ -56,7 +56,7 @@ All documents were provided by the agencies in response to Freedom of Informatio
   *Source: APERS-JUL25-0002*
 
 - **[sfof-nominates-milligan-chair-2020.pdf](sfof-nominates-milligan-chair-2020.pdf)** *(pages 307–308 of original)*  
-  Milligan nominated as SFOF National Chair; 'your participation is key to our success'  
+  Milligan nominated as SFOF National Chair by Indiana Treasurer Kelly Mitchell  
   *Source: TREAS-FEB26-0108*
 
 ## Reference Documents
@@ -66,5 +66,5 @@ All documents were provided by the agencies in response to Freedom of Informatio
   *Source: TREAS-SEP25-0049*
 
 - **[israel-bonds-purchase-confirmation-may2025.pdf](israel-bonds-purchase-confirmation-may2025.pdf)**  
-  Most recent purchase confirmation — shows pattern is ongoing  
+  Purchase confirmation — $10M Israel Bond, May 2025 (3-year Jubilee at ~4.86%)  
   *Source: TREAS-SEP25-0063*

@@ -41,7 +41,7 @@ Arkansas law is clear about how pension investments must be made:
 
 The pattern in the public record raises questions about whether these standards were met:
 
-**The idea originated through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both boards, arranged meetings between Israel Bonds sales representatives and state officials. A [thank-you note from an Israel Bonds executive](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf) praised Milligan for his "support and passion for Israel Bonds" and called him "critical to our success and Israel's future."
+**The idea originated through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both boards, arranged meetings between Israel Bonds sales representatives and state officials. In [correspondence with the Auditor's office](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf), an Israel Bonds executive called Milligan "truly one of a kind" and expressed he was "forever grateful" for his support.
 
 **Internal financial advice was overridden.** The Treasurer's senior investment manager recommended holding off, citing all three credit downgrades. The state purchased $20 million more anyway.
 
