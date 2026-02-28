@@ -52,7 +52,7 @@ In April 2025, Israel Bonds national and regional sales representatives met with
 
 <div class="pull-quote" markdown="1">
 
-A thank-you note from an Israel Bonds executive praised Auditor Milligan for arranging the meetings, calling his "support and passion for Israel Bonds" as "critical to our success and Israel's future." ([Read the correspondence](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))
+In reply, an Israel Bonds executive called Milligan "truly one of a kind" and said he was "forever grateful" for his support. ([Read the correspondence](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))
 
 <span class="pull-quote-attribution">— Israel Bonds executive, in correspondence to State Auditor Dennis Milligan</span>
 
@@ -170,7 +170,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event">
     <time>2020</time>
     <h3>Milligan nominated as SFOF National Chair</h3>
-    <p>The State Financial Officers Foundation nominated Dennis Milligan as National Chair. The nomination noted his participation was "key to our success." (<a href="/assets/documents/sfof-nominates-milligan-chair-2020.pdf">Read the nomination</a>)</p>
+    <p>Indiana Treasurer Kelly Mitchell nominated Dennis Milligan as National Chair of the State Financial Officers Foundation, praising his service and noting he managed an approximately $4.5 billion portfolio. (<a href="/assets/documents/sfof-nominates-milligan-chair-2020.pdf">Read the nomination</a>)</p>
   </li>
 </ol>
 

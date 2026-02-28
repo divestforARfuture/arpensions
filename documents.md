@@ -53,8 +53,8 @@ All documents were provided by the agencies in response to lawful FOIA requests.
     <span class="doc-source">TREAS-SEP25-0008</span>
   </li>
   <li class="document-item">
-    <a class="doc-title" href="/assets/documents/israel-bonds-purchase-confirmation-nov2023.pdf"><svg class="doc-icon" aria-hidden="true"><use href="#doc-icon"/></svg>Official purchase confirmation &mdash; 1 month after October 7 attacks</a>
-    <span class="doc-description">State Treasury purchase confirmation for Israel Bonds dated November 2023, one month after the October 7 attacks</span>
+    <a class="doc-title" href="/assets/documents/israel-bonds-purchase-confirmation-nov2023.pdf"><svg class="doc-icon" aria-hidden="true"><use href="#doc-icon"/></svg>Official purchase confirmation &mdash; November 2023</a>
+    <span class="doc-description">State Treasury purchase confirmation for a $10 million Israel Bond (3-year Jubilee at 5.40%), dated November 1, 2023. For context on the political statements surrounding this purchase, see our <a href="/evidence/#key-findings">evidence page</a></span>
     <span class="doc-source">TREAS-SEP25-0066</span>
   </li>
 </ul>
@@ -104,8 +104,8 @@ These are page-range extracts from larger compiled FOIA response documents.
     <span class="doc-source">TREAS-SEP25-0049</span>
   </li>
   <li class="document-item">
-    <a class="doc-title" href="/assets/documents/israel-bonds-purchase-confirmation-may2025.pdf"><svg class="doc-icon" aria-hidden="true"><use href="#doc-icon"/></svg>Most recent purchase confirmation &mdash; shows pattern is ongoing</a>
-    <span class="doc-description">Purchase confirmation from May 2025, demonstrating that Israel Bonds purchases continued despite credit downgrades and internal caution</span>
+    <a class="doc-title" href="/assets/documents/israel-bonds-purchase-confirmation-may2025.pdf"><svg class="doc-icon" aria-hidden="true"><use href="#doc-icon"/></svg>Purchase confirmation &mdash; May 2025</a>
+    <span class="doc-description">State Treasury purchase confirmation for a $10 million Israel Bond (3-year Jubilee at approximately 4.86%), dated May 2025. For context on how this purchase followed internal recommendations against new purchases, see our <a href="/evidence/#key-findings">evidence page</a></span>
     <span class="doc-source">TREAS-SEP25-0063</span>
   </li>
 </ul>

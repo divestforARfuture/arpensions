@@ -87,9 +87,9 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 <div class="pull-quote" markdown="1">
 
-"The meetings you helped arrange for us were productive... Your support and passion for Israel Bonds is second to none... critical to our success and Israel's future."
+"This is a wonderful message, Stacy. I will reach out to the Auditor directly, but please let him know how deeply we appreciate his support... you are truly one of a kind; forever grateful."
 
-<span class="pull-quote-attribution">— Israel Bonds executive, in a thank-you note to State Auditor Dennis Milligan ([source document](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))</span>
+<span class="pull-quote-attribution">— Lawrence Berman, Israel Bonds National Managing Director, replying to the Auditor's office on the October 7 anniversary ([source document](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))</span>
 
 </div>
 
