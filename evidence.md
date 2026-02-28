@@ -54,7 +54,7 @@ In April 2025, Israel Bonds national and regional sales representatives met with
 
 In reply, an Israel Bonds executive called Milligan "truly one of a kind" and said he was "forever grateful" for his support. ([Read the correspondence](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))
 
-<span class="pull-quote-attribution">— Israel Bonds executive, in correspondence to State Auditor Dennis Milligan</span>
+<span class="pull-quote-attribution">— Lawrence Berman, Israel Bonds National Managing Director, replying to the Auditor's office on the October 7 anniversary (source document)</span>
 
 </div>
 
