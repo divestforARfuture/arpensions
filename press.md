@@ -49,6 +49,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **June 2, 2025** | ATRS Board adopts Resolution 2025-22 authorizing up to $50M in Israel Bonds. Board Chair Danny Knight casts lone "no" vote |
 | **July 2025** | Arkansas Times publishes in-depth investigation: "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on" |
 | **August 2025** | Governor Sanders publicly celebrates the bond purchases: "Arkansas puts its money where its mouth is" |
+| **June 11, 2025** | APERS full board approves $25–50 million Israel Bonds authorization, following Jason Brady's introduction citing Treasury's $55 million holdings |
 | **September 2025** | ATRS establishes formal investment guidelines for "Israeli Jubilee bond account" managed by Reams Asset Management |
 | **November 2025** | APERS receives first Israel Bonds statement, confirming purchase occurred |
 | **February 5, 2026** | Second round of FOIA requests submitted to all four agencies |
