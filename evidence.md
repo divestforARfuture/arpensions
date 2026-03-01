@@ -276,10 +276,6 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <h3>Governor's Israel trade mission</h3>
     <p>Governor Sanders participates in Israel trade mission, boasts of state's Israel Bonds investments.</p>
   </li>
-</ol>
-
-<div class="timeline-year">2025 (continued)</div>
-<ol class="timeline" role="list" aria-label="2025 continued events">
   <li class="timeline-event">
     <time>September 25, 2025</time>
     <h3>ATRS establishes investment guidelines</h3>
