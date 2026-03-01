@@ -9,9 +9,13 @@ Follow the progress of our investigation and campaign.
 
 ## 2026
 
+**March 1** — Completed assessment of APERS and ATRS Round 2 FOIA responses. Key findings: Brady-as-conduit confirmed with direct quotes; APERS purchase timeline reconstructed; ATRS investment management structure documented.
+
+**February 27** — APERS delivered Round 2 FOIA response — 16 documents including an 8,648-page comprehensive production containing the agency's Israel Bonds records.
+
 **February 20** — FOIA Round 2 Treasury response fully ingested — 118 new documents added to the investigation.
 
-**February 19** — Website launched with comprehensive evidence from more than 1,000 public records.
+**February 19** — Website launched; investigation corpus has grown to nearly 1,100 public records across two FOIA rounds.
 
 **February 5** — FOIA Round 2 requests submitted to all four agencies: Treasury, ATRS, APERS, and Auditor of State.
 

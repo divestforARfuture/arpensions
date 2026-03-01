@@ -12,11 +12,17 @@ In May 2025, the Arkansas Public Employees Retirement System (APERS) Investment 
 
 That combination of a large, concentrated authorization and a prior caution flag raises straightforward questions about risk, return, and process for every APERS member.
 
+New records obtained in February 2026 — including an 8,648-page APERS FOIA production — reveal exactly how Israel Bonds reached the APERS board. Jason Brady, the Auditor of State's appointee, told fellow board members that "it had come to his attention" that Israel Bonds were available and cited the Treasury's $55 million in holdings as justification. The board subsequently approved $25–50 million.
+
+Despite that authorization, APERS purchased zero bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The next day, CIO Carlos Borromeo emailed Stephens Inc. asking them to forward his contact information to an Israel Bonds representative — meaning staff were still establishing the basic operational pathway for purchasing well after the board had voted. A bond statement received in November 2025 confirms that a purchase eventually occurred, though the exact amount has not been disclosed.
+
 <div class="callout" markdown="1">
 
 **These are direct loans to the Israeli government that cannot be sold before maturity.** Unlike most fixed-income investments, Israel Bonds have no secondary market — once APERS buys them, your pension fund is locked in until the bonds mature.
 
 </div>
+
+At the authorized level of $25–50 million, Israel Bonds would represent approximately 0.2–0.4% of APERS's $11.92 billion portfolio. The question is not whether the allocation is large, but whether the decision followed the fiduciary process Arkansas law requires.
 
 ## Why it matters
 
@@ -30,6 +36,8 @@ Here's what the record shows:
 - **Sales representatives — not financial analysts — initiated the process.** Israel Bonds sales representatives met in April 2025 with APERS, ATRS, the State Treasurer, and the State Auditor. A [thank-you note to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings, while a separate [note to the APERS director](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) used the $20 million Treasury purchase as sales leverage. Within weeks, the Treasury bought $20 million more and both pension funds approved large Israel Bonds allocations.
 - **The Treasurer's own staff recommended against it.** A late-2024 internal Treasury memo advised holding off on new Israel Bonds because all three major rating agencies had downgraded Israel's credit, signaling higher risk.
 - **Non-financial motivations were stated on the record.** At the Investment Subcommittee meeting, Deputy State Auditor Jason Brady referenced ties to former Governor Mike Huckabee (then U.S. Ambassador to Israel) and called Israel "the United States' most trusted and dependable ally in a volatile region." These are not pecuniary factors.
+- **APERS chose no external oversight.** CIO Carlos Borromeo stated: "APERS intent is to purchase the bonds directly. Staff opinion is that there is not a need to incur management fees." This means APERS has no independent investment manager reviewing its Israel Bonds position — unlike ATRS, which hired Reams Asset Management. The absence of external oversight makes the lack of independent credit analysis even more concerning.
+- **The Stephens Inc. connection.** When APERS staff finally moved to establish contact with Israel Bonds in July 2025, the CIO routed the request through Seth Middleton at Stephens Inc. — APERS's investment consultant. It remains unclear whether Stephens provided any independent assessment of the investment.
 - **Press analysis raises questions.** Reporting has noted that Israel Bonds often offer lower yields and less liquidity than many higher-rated alternatives, and explicitly asked: "So why Israeli bonds?" — underscoring the need for a clear financial rationale.
 
 <div class="callout" markdown="1">
@@ -60,7 +68,7 @@ Dear APERS Trustees,
 
 As Arkansas public employees and APERS members, we ask that every investment decision remain strictly fiduciary. State law requires trustees to act "solely in the interest of the members and benefit recipients," and that evaluations be based only on pecuniary factors — those with a material effect on risk or return. That standard — prudence, loyalty, and process — exists to protect our pensions from politics and keep choices focused on risk, return, liquidity, and long-term security. It also reflects the prudent-investor rule requiring care, skill, diversification, and diligence appropriate to the fund's objectives.
 
-In May 2025, the APERS Investment Subcommittee advanced a resolution authorizing $25–50 million in Israel Bonds, later noted in APERS's fall packet. Around the same period, an internal Treasury memo (late 2024) advised holding off on new Israel Bonds due to credit-rating downgrades, and public comments by some officials framed the bonds in political terms. We raise these points only to underscore why process and a strictly pecuniary analysis matter here. We recognize that APERS has stated the investment complies with statutes and will result in a good outcome for members; a transparent side-by-side comparison is the surest way to confirm that.
+In May–June 2025, the APERS Investment Subcommittee and then the full board approved a $25–50 million Israel Bonds authorization. The Auditor of State's appointee to the board introduced the investment by citing Treasury holdings — not independent financial analysis. Around the same period, an internal Treasury memo (late 2024) advised holding off on new Israel Bonds due to credit-rating downgrades, and public comments by some officials framed the bonds in political terms. We raise these points only to underscore why process and a strictly pecuniary analysis matter here. We recognize that APERS has stated the investment complies with statutes and will result in a good outcome for members; a transparent side-by-side comparison is the surest way to confirm that.
 
 Our request is Arkansas-first and straightforward. Before any execution, please:
 

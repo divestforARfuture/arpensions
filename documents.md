@@ -18,7 +18,7 @@ permalink: /documents/
 
 ## About these documents
 
-These are excerpts and key documents from the more than 1,000 public records obtained by Divest for AR Future through Freedom of Information Act requests to four Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), and the Arkansas Auditor of State.
+These are excerpts and key documents from nearly 1,100 public records obtained by Divest for AR Future through two rounds of Freedom of Information Act requests to four Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), and the Arkansas Auditor of State.
 
 All documents were provided by the agencies in response to lawful FOIA requests. Where noted, page ranges have been extracted from larger compiled document sets. No content has been altered.
 
@@ -83,7 +83,7 @@ These are page-range extracts from larger compiled FOIA response documents.
   </li>
   <li class="document-item">
     <a class="doc-title" href="/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf"><svg class="doc-icon" aria-hidden="true"><use href="#doc-icon"/></svg>Berman uses $20M Treasury purchase as sales leverage</a>
-    <span class="doc-description">Israel Bonds executive cites the State Treasury's $20 million purchase as leverage while pitching APERS Executive Director Jason Fecher. Pages 589&ndash;590 of original.</span>
+    <span class="doc-description">Israel Bonds executive cites the State Treasury's $20 million purchase as leverage while pitching APERS Executive Director Amy Fecher. Pages 589&ndash;590 of original.</span>
     <span class="doc-source">APERS-JUL25-0002</span>
   </li>
   <li class="document-item">
@@ -111,6 +111,18 @@ These are page-range extracts from larger compiled FOIA response documents.
 </ul>
 
 ---
+
+## Round 2 FOIA responses (February 2026)
+
+A second round of FOIA requests produced 141 additional documents:
+
+**Treasury (118 documents, 2,526 pages):** Daily trading dashboards, ROI reports, Israel Bonds cash flow projections, a 412-page redacted communications compilation, custodial statements, SFOF conference materials, portfolio snapshots, Israel Bonds marketing materials, and management signoff records.
+
+**APERS (16 documents, 9,241 pages):** Four quarterly board packets (March–December 2025), four Investment Finance Committee subcommittee packets, an 8,648-page comprehensive FOIA production containing emails, internal communications, board materials, and news articles, plus six sets of meeting minutes (currently being processed).
+
+**ATRS (7 documents, 51 pages — partial response):** Investment guidelines for the "Israeli Jubilee bond account" managed by Reams Asset Management, contract documents, sign-in sheets, and email files. Requests 2 and 3 are due March 3, 2026.
+
+**Auditor of State:** Round 2 response pending.
 
 Additional source documents are available upon request. Contact [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me).
 

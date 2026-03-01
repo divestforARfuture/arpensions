@@ -8,7 +8,7 @@ audience_nav: true
 
 ## Campaign summary
 
-Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed more than 1,000 public records revealing that approximately $155 million in pension funds were committed to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
+Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed nearly 1,100 public records revealing that approximately $155 million in pension funds were committed to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
 The campaign is calling for a pause on new purchases, independent financial analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
 
@@ -22,11 +22,14 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **$50M** | ATRS (teacher retirement) authorization for Israel Bonds (June 2, 2025; Board Chair cast lone "no" vote) |
 | **$25–50M** | APERS (public employee retirement) authorization for Israel Bonds (May 15, 2025) |
 | **$155M** | Total Arkansas exposure — Treasury holdings plus pension fund authorizations combined |
-| **1,000+** | Public records obtained and analyzed via FOIA requests to four state agencies |
+| **1,098** | Public records obtained and analyzed across two FOIA rounds to four state agencies |
 | **3** | Major credit agencies that have downgraded Israel's credit rating since 2024 |
 | **0** | Independent credit analyses of Israel Bonds found in the entire document record |
 | **4** | Arkansas state agencies that received FOIA requests (Treasury, ATRS, APERS, Auditor of State) |
 | **1** | Dissenting vote on the ATRS Board — Chair Danny Knight, who warned the process departed from standard practice |
+| **2** | Rounds of FOIA requests filed (August 2025 and February 2026) |
+| **141** | New documents received in FOIA Round 2 (118 Treasury, 16 APERS, 7 ATRS) |
+| **8,648** | Pages in APERS's Round 2 FOIA production — the single largest response received |
 
 </div>
 
@@ -44,8 +47,14 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **April 2025** | Israel Bonds sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor |
 | **May 2025** | State Treasury purchases two new $10M Israel Bonds ($20M total), bringing holdings to $55M. APERS Investment Subcommittee unanimously authorizes $25–50M in Israel Bonds |
 | **June 2, 2025** | ATRS Board adopts Resolution 2025-22 authorizing up to $50M in Israel Bonds. Board Chair Danny Knight casts lone "no" vote |
+| **June 11, 2025** | APERS full board approves $25–50 million Israel Bonds authorization, following Jason Brady's introduction citing Treasury's $55 million holdings |
 | **July 2025** | Arkansas Times publishes in-depth investigation: "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on" |
 | **August 2025** | Governor Sanders publicly celebrates the bond purchases: "Arkansas puts its money where its mouth is" |
+| **September 2025** | ATRS establishes formal investment guidelines for "Israeli Jubilee bond account" managed by Reams Asset Management |
+| **November 2025** | APERS receives first Israel Bonds statement, confirming purchase occurred |
+| **February 5, 2026** | Second round of FOIA requests submitted to all four agencies |
+| **February 19, 2026** | Treasury delivers Round 2 response (118 documents, 2,526 pages) |
+| **February 27, 2026** | APERS delivers Round 2 response (16 documents including 8,648-page production) |
 
 </div>
 
@@ -93,6 +102,30 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 </div>
 
+<div class="pull-quote" markdown="1">
+
+"It had come to his attention" that Israel Bonds were available, and the State Treasury "currently holds approximately $55 million in Israel Bonds as part of its $11 billion portfolio."
+
+<span class="pull-quote-attribution">— Jason Brady, Auditor of State's appointee to APERS board, introducing Israel Bonds to the board (June 11, 2025)</span>
+
+</div>
+
+<div class="pull-quote" markdown="1">
+
+"Still zero for APERS."
+
+<span class="pull-quote-attribution">— Amy Fecher, APERS Executive Director, confirming no purchases two months after board authorization (July 30, 2025)</span>
+
+</div>
+
+<div class="pull-quote" markdown="1">
+
+"APERS intent is to purchase the bonds directly. Staff opinion is that there is not a need to incur management fees."
+
+<span class="pull-quote-attribution">— Carlos Borromeo, APERS Chief Investment Officer (2025)</span>
+
+</div>
+
 </div>
 
 <div class="issue-red-flags" markdown="1">
@@ -105,7 +138,7 @@ Key evidence points:
 
 **An internal Treasury memo recommended against new purchases.** The Treasurer's senior investment manager wrote that the state should hold existing positions and let maturing bonds roll off.
 
-**No independent credit analysis has been produced.** A review of more than 1,000 public records from four state agencies found zero independent credit analyses.
+**No independent credit analysis has been produced.** A review of nearly 1,100 public records from four state agencies found zero independent credit analyses.
 
 **The ATRS Board Chair warned the process was irregular and voted against it.** Danny Knight's dissent noted the request departed from the normal manager-driven process.
 
@@ -114,6 +147,12 @@ Key evidence points:
 **Public statements by the Governor, Treasurer, and other officials framed the purchases in political — not financial — terms.** The Governor celebrated them as proof Arkansas "puts its money where its mouth is."
 
 **The bond market offers many alternatives with higher credit ratings and greater liquidity.** Israel Bonds cannot be traded before maturity and carry declining credit ratings.
+
+**The Auditor's appointee served as conduit.** Jason Brady introduced Israel Bonds to the APERS board citing Treasury holdings, not independent analysis. The board approved $25–50 million.
+
+**The board voted before staff were ready.** APERS authorized $25–50 million but purchased nothing for two months. The CIO was still establishing contact with Israel Bonds in late July 2025.
+
+**Two pension funds, zero independent credit analyses.** APERS chose direct purchase with no manager; ATRS hired a manager but created investment guidelines four months after authorization. Neither produced independent analysis before the board vote.
 
 </div>
 
