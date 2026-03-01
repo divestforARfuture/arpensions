@@ -26,6 +26,10 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 | **Board Chair dissent** | ATRS Board Chair Danny Knight cast the sole "no" vote, warning the process departed from ATRS's normal manager-driven practice |
 | **Sales representative involvement** | Israel Bonds representatives met with all three agencies in April 2025; within weeks, new purchases and authorizations followed |
 | **Independent credit analysis** | None found in nearly 1,100 FOIA documents from four state agencies |
+| **Brady conduit confirmed** | Auditor's appointee Jason Brady introduced Israel Bonds to APERS board citing Treasury's $55M holdings; board approved $25–50M without independent analysis |
+| **APERS two-month purchase delay** | Board authorized in May–June 2025; "Still zero for APERS" confirmed July 30, 2025; staff still establishing contact July 31 |
+| **Divergent management approaches** | APERS: direct purchase, no manager, no fees. ATRS: hired Reams Asset Management, formal guidelines established September 25, 2025 |
+| **Total documents reviewed** | 1,098 across two FOIA rounds to four agencies |
 
 </div>
 
@@ -43,11 +47,15 @@ The pattern in the public record raises questions about whether these standards 
 
 **The idea originated through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both boards, arranged meetings between Israel Bonds sales representatives and state officials. In [correspondence with the Auditor's office](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf), an Israel Bonds executive called Milligan "truly one of a kind" and expressed he was "forever grateful" for his support.
 
+**The conduit chain is now documented.** New records confirm the specific mechanism. Jason Brady, appointed to the APERS board by Auditor Dennis Milligan, introduced Israel Bonds by telling the board "it had come to his attention" that the investment was available, and cited Treasury's $55 million in holdings. The board approved $25–50 million following Brady's presentation. The chain — Milligan as former Treasurer initiating Treasury purchases, then as Auditor placing his appointee on the APERS board to introduce the same investment — is documented across multiple independent FOIA responses.
+
 **Internal financial advice was overridden.** The Treasurer's senior investment manager recommended holding off, citing all three credit downgrades. The state purchased $20 million more anyway.
 
 **Public statements emphasized political symbolism.** Governor Sanders stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." At the APERS committee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel as "my and Amy's former boss." None of these are pecuniary factors.
 
 **The normal investment process was bypassed.** ATRS Board Chair Danny Knight warned that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members — to recommend specific securities.
+
+The process divergence extends further: APERS chose to purchase Israel Bonds directly without any external manager, while ATRS hired Reams Asset Management and established a dedicated "Israeli Jubilee bond account" with written investment guidelines — but only four months after the board authorized the purchase. In neither case was independent credit analysis completed before authorization.
 
 </div>
 
@@ -76,6 +84,8 @@ We urge the Arkansas General Assembly to consider pension transparency legislati
 2. **Mandate public disclosure** of the financial rationale for significant new investment authorizations, including risk-return comparisons with alternatives
 3. **Strengthen fiduciary accountability** by ensuring that the pecuniary-only standard in Act 411 applies with equal force to purchase decisions and divestment decisions
 4. **Protect trustee independence** by clarifying that investment recommendations should originate through professional investment staff, not through political channels
+
+Round 2 FOIA evidence underscores these recommendations: APERS's Israel Bonds authorization originated from a political appointee's board presentation, not from investment staff or consultants. APERS's CIO was still establishing basic contact with Israel Bonds representatives two months after the board voted.
 
 </div>
 
