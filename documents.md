@@ -83,7 +83,7 @@ These are page-range extracts from larger compiled FOIA response documents.
   </li>
   <li class="document-item">
     <a class="doc-title" href="/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf"><svg class="doc-icon" aria-hidden="true"><use href="#doc-icon"/></svg>Berman uses $20M Treasury purchase as sales leverage</a>
-    <span class="doc-description">Israel Bonds executive cites the State Treasury's $20 million purchase as leverage while pitching APERS Executive Director Jason Fecher. Pages 589&ndash;590 of original.</span>
+    <span class="doc-description">Israel Bonds executive cites the State Treasury's $20 million purchase as leverage while pitching APERS Executive Director Amy Fecher. Pages 589&ndash;590 of original.</span>
     <span class="doc-source">APERS-JUL25-0002</span>
   </li>
   <li class="document-item">
