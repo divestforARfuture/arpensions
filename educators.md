@@ -12,6 +12,8 @@ In June 2025, the Arkansas Teacher Retirement System (ATRS) Board approved Resol
 
 Around the same time, an internal memo from the State Treasurer's investment staff (late 2024) recommended pausing new Israel Bond purchases because of recent credit-rating downgrades. Together, these actions raise practical questions about risk, return, and how ATRS applies its own fiduciary standards.
 
+Records from the second FOIA round reveal that ATRS formalized its Israel Bonds approach through Reams Asset Management, a division of Columbus Investments Inc. A document dated September 25, 2025 — nearly four months after the board authorized the investment — established "Investment guidelines for the Arkansas State Teacher Retirement Israeli Jubilee bond account." The creation of a dedicated account with its own guidelines suggests Israel Bonds were treated as a special case outside ATRS's normal fixed-income allocation, not a routine investment.
+
 <div class="callout" markdown="1">
 
 **These are direct loans to the Israeli government that cannot be sold before maturity.** Unlike most fixed-income investments, Israel Bonds have no secondary market — once ATRS buys them, your pension fund is locked in until the bonds mature.
@@ -31,10 +33,11 @@ Here's what the record shows:
 - **Sales representatives — not financial analysts — drove the process.** The authorization came shortly after an April 2025 meeting where Israel Bonds sales representatives met with senior officials from ATRS, APERS, the State Treasurer, and the State Auditor. A [thank-you note from an Israel Bonds executive](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) later used the $20 million Treasury purchase as sales leverage. Within weeks, a $20 million Treasury purchase followed, along with large authorizations at both pension funds.
 - **Public statements emphasized politics, not financial merit.** Officials have highlighted Israel Bonds as a way for Arkansas to ["stand with Israel"](/assets/documents/walther-10m-purchase-news-coverage-2023.pdf) — underscoring the need for clear separation between political symbolism and the Board's legal duties to ATRS members.
 - **No independent credit analysis was produced.** Our review of nearly 1,100 public records obtained through FOIA requests found zero independent credit analyses of Israel Bonds prepared before the authorization.
+- **A tale of two pension funds.** While ATRS hired a professional manager for its Israel Bonds, APERS chose to purchase directly with no external oversight — its CIO stated there was "not a need to incur management fees." Both funds authorized investments through the same political channel, but arrived at different management structures. Neither produced independent credit analysis before authorization.
 
 <div class="callout" markdown="1">
 
-**The key question:** Israel Bonds would account for less than one-quarter of one percent of ATRS's roughly $22 billion portfolio, but they represent a concentrated bet on a single foreign government and are less liquid than many standard fixed-income options. Was this trade-off made based on sound financial analysis — or political pressure?
+**The key question:** Israel Bonds would account for less than one-quarter of one percent of ATRS's $22.45 billion portfolio, but they represent a concentrated bet on a single foreign government and are less liquid than many standard fixed-income options. Was this trade-off made based on sound financial analysis — or political pressure?
 
 </div>
 
