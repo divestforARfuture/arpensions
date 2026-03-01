@@ -47,9 +47,9 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **April 2025** | Israel Bonds sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor |
 | **May 2025** | State Treasury purchases two new $10M Israel Bonds ($20M total), bringing holdings to $55M. APERS Investment Subcommittee unanimously authorizes $25–50M in Israel Bonds |
 | **June 2, 2025** | ATRS Board adopts Resolution 2025-22 authorizing up to $50M in Israel Bonds. Board Chair Danny Knight casts lone "no" vote |
+| **June 11, 2025** | APERS full board approves $25–50 million Israel Bonds authorization, following Jason Brady's introduction citing Treasury's $55 million holdings |
 | **July 2025** | Arkansas Times publishes in-depth investigation: "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on" |
 | **August 2025** | Governor Sanders publicly celebrates the bond purchases: "Arkansas puts its money where its mouth is" |
-| **June 11, 2025** | APERS full board approves $25–50 million Israel Bonds authorization, following Jason Brady's introduction citing Treasury's $55 million holdings |
 | **September 2025** | ATRS establishes formal investment guidelines for "Israeli Jubilee bond account" managed by Reams Asset Management |
 | **November 2025** | APERS receives first Israel Bonds statement, confirming purchase occurred |
 | **February 5, 2026** | Second round of FOIA requests submitted to all four agencies |
@@ -106,7 +106,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 "It had come to his attention" that Israel Bonds were available, and the State Treasury "currently holds approximately $55 million in Israel Bonds as part of its $11 billion portfolio."
 
-<span class="pull-quote-attribution">— Jason Brady, Auditor of State's appointee to APERS board, introducing Israel Bonds to the board (2025)</span>
+<span class="pull-quote-attribution">— Jason Brady, Auditor of State's appointee to APERS board, introducing Israel Bonds to the board (June 11, 2025)</span>
 
 </div>
 

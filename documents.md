@@ -112,8 +112,6 @@ These are page-range extracts from larger compiled FOIA response documents.
 
 ---
 
----
-
 ## Round 2 FOIA responses (February 2026)
 
 A second round of FOIA requests produced 141 additional documents:

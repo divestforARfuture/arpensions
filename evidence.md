@@ -47,8 +47,8 @@ In April 2025, Israel Bonds national and regional sales representatives met with
 
 **Within weeks:**
 - The State Treasury purchased $20 million in new Israel Bonds
-- APERS authorized $25–50 million (May 2025)
-- ATRS authorized up to $50 million (June 2025)
+- APERS authorized $25–50 million (May 15, 2025)
+- ATRS authorized up to $50 million (June 2, 2025)
 
 <div class="pull-quote" markdown="1">
 
@@ -142,7 +142,7 @@ Multiple state officials made public statements that framed the investments in p
 
 **Referred to the U.S. Ambassador to Israel as "my and Amy's former boss"** and called Israel "the United States' most trusted and dependable ally in a volatile region."
 
-<span class="pull-quote-attribution">— Deputy Auditor Jason Brady, APERS Investment Subcommittee (May 2025)</span>
+<span class="pull-quote-attribution">— Deputy Auditor Jason Brady, APERS Investment Subcommittee (May 15, 2025)</span>
 
 </div>
 

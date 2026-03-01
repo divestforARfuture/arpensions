@@ -20,7 +20,7 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 |------|--------|
 | **State Treasury holdings** | $55 million in Israel Bonds as of mid-2025, including $20M purchased since May 2025 |
 | **ATRS authorization** | Up to $50 million (Resolution 2025-22, June 2, 2025) |
-| **APERS authorization** | $25–50 million (Investment Subcommittee, May 2025) |
+| **APERS authorization** | $25–50 million (Investment Subcommittee, May 15, 2025; full board, June 11, 2025) |
 | **Credit downgrades** | All three major agencies (Moody's, S&P, Fitch) downgraded Israel's credit rating, citing economic instability and security risks |
 | **Internal staff advice** | A late-2024 Treasury investment memo recommended against new purchases due to credit downgrades |
 | **Board Chair dissent** | ATRS Board Chair Danny Knight cast the sole "no" vote, warning the process departed from ATRS's normal manager-driven practice |
