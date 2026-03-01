@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Our Methods — How We Conducted This Investigation"
-description: "How Divest for AR Future obtained, processed, and analyzed more than 1,000 public records from four Arkansas state agencies."
+description: "How Divest for AR Future obtained, processed, and analyzed nearly 1,100 public records from four Arkansas state agencies."
 permalink: /methodology/
 ---
 
@@ -15,7 +15,7 @@ Our requests targeted investment decision records, board meeting materials, corr
 
 ## Document Processing
 
-We received more than 1,000 documents totaling over 4.5 gigabytes across all agency responses. Every document was:
+We received nearly 1,100 documents totaling over 4.5 gigabytes across all agency responses. Every document was:
 
 1. **Cataloged** with metadata including source agency, date, document type, and FOIA request number
 2. **Processed** using optical character recognition (OCR) where necessary to make scanned documents searchable

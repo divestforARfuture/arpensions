@@ -30,7 +30,7 @@ Here's what the record shows:
 - **The Treasurer's own staff recommended against it.** A late-2024 memo from the Treasurer's senior investment manager advised holding off on new Israel Bonds because all three major credit-rating agencies had downgraded Israel's credit, signaling higher risk.
 - **Sales representatives — not financial analysts — drove the process.** The authorization came shortly after an April 2025 meeting where Israel Bonds sales representatives met with senior officials from ATRS, APERS, the State Treasurer, and the State Auditor. A [thank-you note from an Israel Bonds executive](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) later used the $20 million Treasury purchase as sales leverage. Within weeks, a $20 million Treasury purchase followed, along with large authorizations at both pension funds.
 - **Public statements emphasized politics, not financial merit.** Officials have highlighted Israel Bonds as a way for Arkansas to ["stand with Israel"](/assets/documents/walther-10m-purchase-news-coverage-2023.pdf) — underscoring the need for clear separation between political symbolism and the Board's legal duties to ATRS members.
-- **No independent credit analysis was produced.** Our review of more than 1,000 public records obtained through FOIA requests found zero independent credit analyses of Israel Bonds prepared before the authorization.
+- **No independent credit analysis was produced.** Our review of nearly 1,100 public records obtained through FOIA requests found zero independent credit analyses of Israel Bonds prepared before the authorization.
 
 <div class="callout" markdown="1">
 

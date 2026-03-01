@@ -25,7 +25,7 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 | **Internal staff advice** | A late-2024 Treasury investment memo recommended against new purchases due to credit downgrades |
 | **Board Chair dissent** | ATRS Board Chair Danny Knight cast the sole "no" vote, warning the process departed from ATRS's normal manager-driven practice |
 | **Sales representative involvement** | Israel Bonds representatives met with all three agencies in April 2025; within weeks, new purchases and authorizations followed |
-| **Independent credit analysis** | None found in more than 1,000 FOIA documents from four state agencies |
+| **Independent credit analysis** | None found in nearly 1,100 FOIA documents from four state agencies |
 
 </div>
 

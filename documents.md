@@ -18,7 +18,7 @@ permalink: /documents/
 
 ## About these documents
 
-These are excerpts and key documents from the more than 1,000 public records obtained by Divest for AR Future through Freedom of Information Act requests to four Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), and the Arkansas Auditor of State.
+These are excerpts and key documents from the nearly 1,100 public records obtained by Divest for AR Future through Freedom of Information Act requests to four Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), and the Arkansas Auditor of State.
 
 All documents were provided by the agencies in response to lawful FOIA requests. Where noted, page ranges have been extracted from larger compiled document sets. No content has been altered.
 

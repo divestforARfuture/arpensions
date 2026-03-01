@@ -8,7 +8,7 @@ You are redesigning the Divest for AR Future (D4ARF) campaign website. The site 
 
 ## What This Is
 
-D4ARF is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. The campaign has processed more than 1,000 government documents (1,075 total, 909 unique after deduplication) through 8 FOIA requests to 4 state agencies, building a verified fact registry with ~105,000 entries. The site is the public face of this investigation.
+D4ARF is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. The campaign has processed nearly 1,100 government documents (1,098 total, 909 unique after deduplication) through 8 FOIA requests to 4 state agencies, building a verified fact registry with ~105,000 entries. The site is the public face of this investigation.
 
 This is NOT a protest site. It's an evidence-driven, fiduciary accountability campaign — think investigative journalism meets civic engagement. ProPublica's rigor crossed with a well-run ballot initiative's energy.
 
@@ -90,7 +90,7 @@ Red is the dominant accent (D4ARF brand + Arkansas's color), with restrained gre
 ## Key Facts for Content (Use These Numbers)
 
 * $155 million total Arkansas exposure to Israel Bonds across 3 agencies
-* More than 1,000 public records obtained through FOIA (use "more than 1,000" in prose)
+* Nearly 1,100 public records obtained through FOIA (use "nearly 1,100" in prose)
 * 8 FOIA requests across 2 rounds to 4 agencies (Treasury, ATRS, APERS, Auditor)
 * 0 independent credit analyses found in the entire document corpus
 * 3 major credit agencies downgraded Israel's rating

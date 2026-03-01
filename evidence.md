@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Evidence — Key Findings from 1,075 Arkansas Public Records"
-description: "Key findings from more than 1,000 public records obtained through FOIA requests to four Arkansas state agencies"
+title: "Evidence — Key Findings from 1,098 Arkansas Public Records"
+description: "Key findings from nearly 1,100 public records obtained through FOIA requests to four Arkansas state agencies"
 permalink: /evidence/
 ---
 
@@ -9,7 +9,7 @@ permalink: /evidence/
 
 ## Our research
 
-Divest for AR Future has analyzed **more than 1,000 public records** obtained through Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State.
+Divest for AR Future has analyzed **nearly 1,100 public records** obtained through Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State.
 
 Every claim on this site is backed by documents in the public record. Below are the key findings.
 
@@ -27,7 +27,7 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 ### 1. No independent credit analysis
 
-Of more than 1,000 documents reviewed, **zero** contained an independent credit analysis of Israel Bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
+Of nearly 1,100 documents reviewed, **zero** contained an independent credit analysis of Israel Bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
 
 Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) both require documented financial analysis before committing member funds to new investment positions. The absence of any such analysis in the public record is a significant gap.
 
