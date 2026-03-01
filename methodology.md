@@ -15,7 +15,7 @@ Our requests targeted investment decision records, board meeting materials, corr
 
 ## Document Processing
 
-We received nearly 1,100 documents totaling over 4.5 gigabytes across all agency responses. Every document was:
+We received nearly 1,100 documents totaling over 4.5 gigabytes across two rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February 2026) added 141 documents from three agencies (Treasury: 118; APERS: 16; ATRS: 7). The Auditor of State's Round 2 response remains pending. Every document was:
 
 1. **Cataloged** with metadata including source agency, date, document type, and FOIA request number
 2. **Processed** using optical character recognition (OCR) where necessary to make scanned documents searchable
@@ -38,6 +38,8 @@ This two-hop citation chain (Source Document → Fact Registry → Published Fin
 ## Limitations
 
 Our evidence is limited to what agencies have provided through FOIA. Some requests are still pending, and agencies may hold responsive documents that were not included in their responses. Where we identify gaps in the documentary record, we note them and file follow-up requests.
+
+Some documents in Round 2 responses — including six sets of APERS board and committee meeting minutes, four Treasury custodial statements (1,561 pages combined), and two ATRS sign-in sheets — were received as scanned images that yielded no extractable text. These documents are prioritized for optical character recognition processing. Until they are recovered, findings from these meetings rely on board packets and other corroborating documents rather than official minutes.
 
 ## Verify Our Work
 

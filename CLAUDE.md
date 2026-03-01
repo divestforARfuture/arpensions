@@ -90,7 +90,7 @@ Red is the dominant accent (D4ARF brand + Arkansas's color), with restrained gre
 ## Key Facts for Content (Use These Numbers)
 
 * $155 million total Arkansas exposure to Israel Bonds across 3 agencies
-* Nearly 1,100 public records obtained through FOIA (use "nearly 1,100" in prose)
+* 1,098 public records analyzed across two FOIA rounds
 * 8 FOIA requests across 2 rounds to 4 agencies (Treasury, ATRS, APERS, Auditor)
 * 0 independent credit analyses found in the entire document corpus
 * 3 major credit agencies downgraded Israel's rating
