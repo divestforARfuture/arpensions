@@ -10,7 +10,7 @@
         "254 financial reports and 41 spreadsheets form core financial data",
         "Current Treasurer: John Thurston; preceded by Larry Walther (who succeeded Dennis Milligan)",
         "First Israel Bonds purchase initiated by Treasurer Milligan circa 2017",
-        "Three successive Treasurers (Milligan → Thurston → Walther) all continued Israel Bonds purchases",
+        "Three successive Treasurers (Milligan → Walther → Thurston) all continued Israel Bonds purchases",
         "Key operational staff: Celeste Gladden (Investment Manager), Steve Pulley (Senior Investment Officer), Eric Munson (Chief Deputy Treasurer), Steven Kilgore (accounting)",
         "Wire transfers for Israel Bonds processed through Computershare Trust Company, N.A."
       ],
@@ -580,7 +580,7 @@
       "label": "Communication Chains - Treasury Israel Bonds",
       "type": "investigation_finding",
       "observations": [
-        "DECISION CHAIN: Treasurer (Milligan/Thurston/Walther) authorizes → Eric Munson (Chief Deputy) communicates → Celeste Gladden executes wire → Steve Pulley tracks positions → Israel Bonds (Young/Berm...",
+        "DECISION CHAIN: Treasurer (Milligan/Walther/Thurston) authorizes → Eric Munson (Chief Deputy) communicates → Celeste Gladden executes wire → Steve Pulley tracks positions → Israel Bonds (Young/Berm...",
         "INITIATION PATTERN: Israel Bonds reps (Young, Berman) proactively send rate sheets and sales materials to Treasury staff, creating purchase opportunities.",
         "Brad Young → Celeste Gladden/Holly Beaver/Steven Kilgore: Rate sheet forwarding with sales pitch (TREAS-SEP25-0015 p.33)",
         "Lawrence Berman → Steve Pulley/Bill Huffman/Kenneth Burleson: 'Exclusive briefing' invitations and maturity coordination (TREAS-SEP25-0027 chunk 1, TREAS-JUL25-0003 chunk 87)",
@@ -731,7 +731,7 @@
         "SCOPE: Act 644 authorized not just the Treasury but ALL state entities including cities, counties, and municipalities to invest in Israel Bonds.",
         "BOARD OF FINANCE AGENDA (TREAS-FEB26-0108 chunk 1): State Board of Finance met May 9, 2017 — same legislative session as Act 644 passage.",
         "FIDUCIARY SAFEGUARDS: Act 644 contains NO documented fiduciary requirements — no independent analysis mandate, no risk assessment requirement, no yield comparison requirement, no investment committ...",
-        "THREE SUCCESSIVE TREASURERS: Brady confirmed at APERS board (APERS-JUL25-0001 chunk 718) that since Act 644's passage, 'both Treasurer Milligan and his successors, Treasurer Thurston and Treasurer ...",
+        "THREE SUCCESSIVE TREASURERS: Brady confirmed at APERS board (APERS-JUL25-0001 chunk 718) that since Act 644's passage, 'both Treasurer Milligan and his successors, Treasurer Walther and Treasurer ...",
         "HB1464 REFERENCE (TREAS-FEB26-0108 chunk 390, 392): Board of Finance discussed whether four-year universities should be included as eligible entities to invest."
       ],
       "observationCount": 13
@@ -1308,8 +1308,8 @@
       "label": "FOIA Round 2",
       "type": "foia_request",
       "observations": [
-        "Filed February 13, 2026 by Joshua Dunlap targeting all 4 agencies with refined requests based on Round 1 evidence gaps.",
-        "AGENCY STATUS AS OF FEB 22, 2026: Treasury — received Feb 19, 2026 (117 active docs after dedup, 2,526 pages, 906 MB).",
+        "Filed February 13, 2026 by Joshua Dunlap targeting all 4 agencies with refined requests based on Round 1 evidence gaps. [HUMAN REVIEW: news.md says Feb 5; this file says Feb 13. Reconcile from campaign records.]",
+        "AGENCY STATUS AS OF FEB 22, 2026: Treasury — received Feb 19, 2026 (118 active docs after dedup, 2,526 pages, 906 MB).",
         "TREASURY ROUND 2 CONTENTS: 81 PDFs, 35 xlsx files, 1 docx.",
         "DEDUP RESULTS: 246 duplicate files detected and skipped during ingestion (Treasury had significant file overlap with Round 1 response).",
         "7 EMPTY DOCUMENTS: TREAS-FEB26-0030, 0036, 0114, 0115, 0116, 0117, 0118 — all scanned PDFs returning 0 extracted characters.",
