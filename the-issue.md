@@ -12,7 +12,7 @@ permalink: /the-issue/
 Israel Bonds are direct loans to the Israeli government, sold through the Development Corporation for Israel. Unlike U.S. Treasury bonds and most other fixed-income securities, they have two critical features that matter for pension fund managers:
 
 1. **No secondary market.** Israel Bonds cannot be sold or traded before maturity (per the bond prospectus — a characteristic of the instrument, not a FOIA finding). A pension fund that purchases them is locked in — unable to exit the position if conditions change, if better opportunities arise, or if the fund needs liquidity.
-2. **Lower credit ratings.** Two major rating agencies — Moody's and S&P — have downgraded Israel's credit rating since 2024, specifically citing economic instability and heightened security risks. This means Israel Bonds carry more risk than many comparable alternatives with similar interest rates.
+2. **Lower credit ratings.** All three major rating agencies — Moody's, S&P, and Fitch — have downgraded Israel's credit rating since 2024, specifically citing economic instability and heightened security risks. This means Israel Bonds carry more risk than many comparable alternatives with similar interest rates.
 
 In practical terms: an Arkansas pension fund that buys Israel Bonds is accepting less liquidity and more risk than it would with many other available fixed-income investments. The question is whether that trade-off was made based on sound financial analysis.
 

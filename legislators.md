@@ -21,7 +21,7 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 | **State Treasury holdings** | $55 million in Israel Bonds as of mid-2025, including $20M purchased since May 2025 |
 | **ATRS authorization** | Up to $50 million (Resolution 2025-22, June 2, 2025) |
 | **APERS authorization** | $25–50 million (Investment Subcommittee, May 15, 2025; full board, June 11, 2025) |
-| **Credit downgrades** | Two major agencies (Moody's and S&P) have downgraded Israel's credit rating, citing economic instability and security risks |
+| **Credit downgrades** | All three major agencies (Moody's, S&P, and Fitch) have downgraded Israel's credit rating since 2024, citing economic instability and security risks |
 | **Internal staff advice** | A late-2024 Treasury investment memo recommended against new purchases due to credit downgrades |
 | **Board Chair dissent** | ATRS Board Chair Danny Knight cast the sole "no" vote, warning the process departed from ATRS's normal manager-driven practice |
 | **Sales representative involvement** | Israel Bonds representatives met with all three agencies in April 2025; within weeks, new purchases and authorizations followed |
@@ -66,7 +66,7 @@ The process divergence extends further: APERS chose to purchase Israel Bonds dir
 Unlike U.S. Treasury bonds and most fixed-income instruments available to pension funds, Israel Bonds have characteristics that require heightened due diligence:
 
 - **No secondary market** — they cannot be sold or traded before maturity, limiting a fund's ability to rebalance or access liquidity
-- **Declining credit quality** — two major agencies (Moody's and S&P) have downgraded Israel's rating, with negative outlooks citing ongoing military operations and economic uncertainty
+- **Declining credit quality** — all three major agencies (Moody's, S&P, and Fitch) have downgraded Israel's rating since 2024, with negative outlooks citing ongoing military operations and economic uncertainty
 - **Lower yields relative to risk** — press analysis has noted that the bond market "brims with other offerings that have higher credit ratings and that are liquid," asking "So why Israeli bonds?"
 - **Concentrated sovereign exposure** — Israel Bonds represent a direct, single-country government debt position
 
