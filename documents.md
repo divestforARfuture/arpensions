@@ -118,7 +118,7 @@ A second round of FOIA requests produced 141 additional documents:
 
 **Treasury (118 documents, 2,526 pages):** Daily trading dashboards, ROI reports, Israel Bonds cash flow projections, a 412-page redacted communications compilation, custodial statements, SFOF conference materials, portfolio snapshots, Israel Bonds marketing materials, and management signoff records.
 
-**APERS (16 documents, 9,241 pages):** Four quarterly board packets (March–December 2025), four Investment Finance Committee subcommittee packets, an 8,648-page comprehensive FOIA production containing emails, internal communications, board materials, and news articles, plus six sets of meeting minutes (currently being processed).
+**APERS (16 documents, 9,241 total pages):** Four quarterly board packets (March–December 2025), four Investment Finance Committee subcommittee packets, an 8,648-page comprehensive FOIA production containing emails, internal communications, board materials, and news articles, plus six sets of meeting minutes (currently being processed).
 
 **ATRS (7 documents, 51 pages — partial response):** Investment guidelines for the "Israeli Jubilee bond account" managed by Reams Asset Management, contract documents, sign-in sheets, and email files. Requests 2 and 3 are due March 3, 2026.
 

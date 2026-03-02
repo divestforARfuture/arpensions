@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "The Issue — $155M in Arkansas Pension Funds Invested Without Independent Analysis"
-description: "$155 million in Arkansas pension funds committed to Israel Bonds despite credit downgrades, internal advice against purchases, and no independent analysis."
+title: "The Issue — Up to $155M in Arkansas Pension Funds Authorized Without Independent Analysis"
+description: "Up to $155 million in Arkansas pension funds authorized for Israel Bonds despite credit downgrades, internal advice against new purchases, and no independent analysis."
 permalink: /the-issue/
 ---
 
@@ -11,8 +11,8 @@ permalink: /the-issue/
 
 Israel Bonds are direct loans to the Israeli government, sold through the Development Corporation for Israel. Unlike U.S. Treasury bonds and most other fixed-income securities, they have two critical features that matter for pension fund managers:
 
-1. **No secondary market.** Israel Bonds cannot be sold or traded before maturity. A pension fund that purchases them is locked in — unable to exit the position if conditions change, if better opportunities arise, or if the fund needs liquidity.
-2. **Lower credit ratings.** All three major rating agencies — Moody's, S&P, and Fitch — have downgraded Israel's credit rating since 2024, specifically citing economic instability and heightened security risks. This means Israel Bonds carry more risk than many comparable alternatives with similar interest rates.
+1. **No secondary market.** Israel Bonds cannot be sold or traded before maturity (per the bond prospectus — a characteristic of the instrument, not a FOIA finding). A pension fund that purchases them is locked in — unable to exit the position if conditions change, if better opportunities arise, or if the fund needs liquidity.
+2. **Lower credit ratings.** Two major rating agencies — Moody's and S&P — have downgraded Israel's credit rating since 2024, specifically citing economic instability and heightened security risks. This means Israel Bonds carry more risk than many comparable alternatives with similar interest rates.
 
 In practical terms: an Arkansas pension fund that buys Israel Bonds is accepting less liquidity and more risk than it would with many other available fixed-income investments. The question is whether that trade-off was made based on sound financial analysis.
 
@@ -30,11 +30,13 @@ Three Arkansas state agencies have committed or authorized significant funds for
 
 </div>
 
+(Note: The $155 million figure represents total authorized exposure. APERS authorized up to $50M but had not yet purchased as of July 2025 per FOIA records; actual current holdings are approximately $105 million.)
+
 While the portfolio percentages are small, the question is whether standard fiduciary process was followed — not whether the amounts are material.
 
 These authorizations came in rapid succession — and under circumstances that raise questions about process:
 
-- **In late 2024**, a senior investment manager in the State Treasurer's office wrote an internal memo advising against new Israel Bonds purchases, citing credit-rating downgrades by all three major agencies. The memo recommended the state "hold our positions and allow for the $17M to roll off."
+- **In late 2024**, a senior investment manager in the State Treasurer's office wrote an internal memo advising against new Israel Bonds purchases, citing credit-rating downgrades by major rating agencies. The memo recommended the state "hold our positions and allow for the $17M to roll off."
 - **In April 2025**, Israel Bonds sales representatives [met with the directors of both ATRS and APERS](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf), along with the State Treasurer and State Auditor.
 - **Within weeks**, the Treasury purchased $20 million in new bonds, and both pension boards voted to authorize up to $100 million more in combined Israel Bonds investments.
 

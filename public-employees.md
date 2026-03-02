@@ -8,7 +8,7 @@ audience_nav: true
 
 ## What's happening with YOUR pension
 
-In May 2025, the Arkansas Public Employees Retirement System (APERS) Investment Subcommittee approved a resolution authorizing a **$25–50 million** purchase of State of Israel Bonds. Around the same period, a late-2024 internal memo from the State Treasurer's senior investment manager recommended holding off on new Israel Bonds because all three major rating agencies had downgraded Israel's credit.
+In May 2025, the Arkansas Public Employees Retirement System (APERS) Investment Subcommittee approved a resolution authorizing a **$25–50 million** purchase of State of Israel Bonds. Around the same period, a late-2024 internal memo from the State Treasurer's senior investment manager recommended holding off on new Israel Bonds because major rating agencies had downgraded Israel's credit.
 
 That combination of a large, concentrated authorization and a prior caution flag raises straightforward questions about risk, return, and process for every APERS member.
 
@@ -34,7 +34,7 @@ Here's what the record shows:
 
 - **The authorization was fast-tracked.** In May 2025, the APERS Investment Subcommittee unanimously advanced a $25–50 million Israel Bonds resolution, with the authorization later referenced in the September 10, 2025 Board packet.
 - **Sales representatives — not financial analysts — initiated the process.** Israel Bonds sales representatives met in April 2025 with APERS, ATRS, the State Treasurer, and the State Auditor. A [thank-you note to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings, while a separate [note to the APERS director](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) used the $20 million Treasury purchase as sales leverage. Within weeks, the Treasury bought $20 million more and both pension funds approved large Israel Bonds allocations.
-- **The Treasurer's own staff recommended against it.** A late-2024 internal Treasury memo advised holding off on new Israel Bonds because all three major rating agencies had downgraded Israel's credit, signaling higher risk.
+- **The Treasurer's own staff recommended against it.** A late-2024 internal Treasury memo advised holding off on new Israel Bonds because major rating agencies had downgraded Israel's credit, signaling higher risk.
 - **Non-financial motivations were stated on the record.** At the Investment Subcommittee meeting, Deputy State Auditor Jason Brady referenced ties to former Governor Mike Huckabee (then U.S. Ambassador to Israel) and called Israel "the United States' most trusted and dependable ally in a volatile region." These are not pecuniary factors.
 - **APERS chose no external oversight.** CIO Carlos Borromeo stated: "APERS intent is to purchase the bonds directly. Staff opinion is that there is not a need to incur management fees." This means APERS has no independent investment manager reviewing its Israel Bonds position — unlike ATRS, which hired Reams Asset Management. The absence of external oversight makes the lack of independent credit analysis even more concerning.
 - **The Stephens Inc. connection.** When APERS staff finally moved to establish contact with Israel Bonds in July 2025, the CIO routed the request through Seth Middleton at Stephens Inc. — APERS's investment consultant. It remains unclear whether Stephens provided any independent assessment of the investment.
@@ -104,7 +104,7 @@ Public comment is your right as a pension fund member.
 
 <div class="callout script-card" markdown="1">
 
-**60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas public employee and APERS member. In May 2025, your Investment Subcommittee approved a resolution to invest $25–50 million in Israel Bonds. Around the same time, the State Treasurer's investment staff issued a memo recommending that Arkansas hold off on new Israel Bonds because all three major rating agencies had downgraded Israel's credit. As members, we are simply asking you to slow down and put fiduciary standards first. Please pause any transaction, commission and publish a clear comparison of risk, return, and liquidity with other fixed-income options, and explain how any decision meets Arkansas's pecuniary-only and prudent-investor standards before committing our retirement fund to this position."
+**60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas public employee and APERS member. In May 2025, your Investment Subcommittee approved a resolution to invest $25–50 million in Israel Bonds. Around the same time, the State Treasurer's investment staff issued a memo recommending that Arkansas hold off on new Israel Bonds because major rating agencies had downgraded Israel's credit. As members, we are simply asking you to slow down and put fiduciary standards first. Please pause any transaction, commission and publish a clear comparison of risk, return, and liquidity with other fixed-income options, and explain how any decision meets Arkansas's pecuniary-only and prudent-investor standards before committing our retirement fund to this position."
 
 </div>
 

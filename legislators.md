@@ -1,14 +1,14 @@
 ---
 layout: landing
 title: "Policy Brief — Arkansas Pension Transparency for 2027"
-description: "Policy brief for Arkansas legislators on $155 million in pension fund Israel Bonds investments and the case for transparency legislation in 2027."
+description: "Policy brief for Arkansas legislators on $155 million in authorized pension fund Israel Bonds exposure and the case for transparency legislation in 2027."
 permalink: /legislators/
 audience_nav: true
 ---
 
 ## Executive summary
 
-Arkansas pension funds have committed up to **$155 million** in Israel Bonds — direct loans to the Israeli government — despite credit downgrades from all three major rating agencies, an internal Treasury memo recommending against new purchases, and the ATRS Board Chair's dissent over process concerns. No independent credit analysis has been produced to justify these investments. This raises serious questions about fiduciary compliance under existing Arkansas law.
+Arkansas pension funds have authorized up to **$155 million** in Israel Bonds exposure — direct loans to the Israeli government — despite credit downgrades from major rating agencies, an internal Treasury memo recommending against new purchases, and the ATRS Board Chair's dissent over process concerns. No independent credit analysis has been produced to justify these investments. This raises serious questions about fiduciary compliance under existing Arkansas law.
 
 We are asking the General Assembly to strengthen pension transparency requirements so that Arkansans can be confident their retirement savings are managed based on financial merit — as the law already requires.
 
@@ -21,7 +21,7 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 | **State Treasury holdings** | $55 million in Israel Bonds as of mid-2025, including $20M purchased since May 2025 |
 | **ATRS authorization** | Up to $50 million (Resolution 2025-22, June 2, 2025) |
 | **APERS authorization** | $25–50 million (Investment Subcommittee, May 15, 2025; full board, June 11, 2025) |
-| **Credit downgrades** | All three major agencies (Moody's, S&P, Fitch) downgraded Israel's credit rating, citing economic instability and security risks |
+| **Credit downgrades** | Two major agencies (Moody's and S&P) have downgraded Israel's credit rating, citing economic instability and security risks |
 | **Internal staff advice** | A late-2024 Treasury investment memo recommended against new purchases due to credit downgrades |
 | **Board Chair dissent** | ATRS Board Chair Danny Knight cast the sole "no" vote, warning the process departed from ATRS's normal manager-driven practice |
 | **Sales representative involvement** | Israel Bonds representatives met with all three agencies in April 2025; within weeks, new purchases and authorizations followed |
@@ -49,7 +49,7 @@ The pattern in the public record raises questions about whether these standards 
 
 **The conduit chain is now documented.** New records confirm the specific mechanism. Jason Brady, appointed to the APERS board by Auditor Dennis Milligan, introduced Israel Bonds by telling the board "it had come to his attention" that the investment was available, and cited Treasury's $55 million in holdings. The board approved $25–50 million following Brady's presentation. The chain — Milligan as former Treasurer initiating Treasury purchases, then as Auditor placing his appointee on the APERS board to introduce the same investment — is documented across multiple independent FOIA responses.
 
-**Internal financial advice was overridden.** The Treasurer's senior investment manager recommended holding off, citing all three credit downgrades. The state purchased $20 million more anyway.
+**Internal financial advice was overridden.** The Treasurer's senior investment manager recommended holding off, citing credit downgrades. The state purchased $20 million more anyway.
 
 **Public statements emphasized political symbolism.** Governor Sanders stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." At the APERS committee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel as "my and Amy's former boss." None of these are pecuniary factors.
 
@@ -66,7 +66,7 @@ The process divergence extends further: APERS chose to purchase Israel Bonds dir
 Unlike U.S. Treasury bonds and most fixed-income instruments available to pension funds, Israel Bonds have characteristics that require heightened due diligence:
 
 - **No secondary market** — they cannot be sold or traded before maturity, limiting a fund's ability to rebalance or access liquidity
-- **Declining credit quality** — all three major agencies have downgraded Israel's rating, with negative outlooks citing ongoing military operations and economic uncertainty
+- **Declining credit quality** — two major agencies (Moody's and S&P) have downgraded Israel's rating, with negative outlooks citing ongoing military operations and economic uncertainty
 - **Lower yields relative to risk** — press analysis has noted that the bond market "brims with other offerings that have higher credit ratings and that are liquid," asking "So why Israeli bonds?"
 - **Concentrated sovereign exposure** — Israel Bonds represent a direct, single-country government debt position
 

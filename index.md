@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Divest for AR Future — Arkansas Pension Transparency Campaign"
-description: "Arkansas pension funds invested $155 million in Israel Bonds while financial advisors recommended against it. We're fighting for transparency and fiduciary accountability."
+description: "Arkansas pension funds authorized up to $155 million in Israel Bonds exposure while an internal memo recommended against new purchases. We're fighting for transparency and fiduciary accountability."
 ---
 
 {% include hero.html %}
