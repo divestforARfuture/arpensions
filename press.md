@@ -23,7 +23,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **$25–50M** | APERS (public employee retirement) authorization for Israel Bonds (May 15, 2025) |
 | **$155M** | Total authorized Arkansas exposure — Treasury holdings plus pension fund authorizations combined |
 | **1,098** | Public records obtained and analyzed across two FOIA rounds to four state agencies |
-| **2** | Major credit agencies (S&P, Moody's) that have downgraded Israel's credit rating since 2024 |
+| **3** | Major credit agencies (S&P, Moody's, Fitch) that have downgraded Israel's credit rating since 2024 |
 | **0** | Independent credit analyses of Israel Bonds found in the entire document record |
 | **4** | Arkansas state agencies that received FOIA requests (Treasury, ATRS, APERS, Auditor of State) |
 | **1** | Dissenting vote on the ATRS Board — Chair Danny Knight, who warned the process departed from standard practice |
@@ -43,6 +43,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **October 2023** | State Board of Finance approves $10M additional Israel Bonds purchase; Treasurer Walther states "Those who bless Israel will be blessed, and those who curse Israel will be cursed" |
 | **February 2024** | Moody's downgrades Israel's sovereign credit rating from A1 to A2, with "Negative" outlook |
 | **April 2024** | S&P downgrades Israel's sovereign credit rating from AA- to A+, with "Negative" outlook |
+| **August 2024** | Fitch downgrades Israel's sovereign credit rating from A+ to A, with "Negative" outlook |
 | **September 2024** | Moody's further downgrades Israel from A2 to Baa1, with "Negative" outlook |
 | **October 2024** | S&P further downgrades Israel from A+ to A, with "Negative" outlook |
 | **Late 2024** | Internal Treasury memo from senior investment manager recommends holding off on new Israel Bonds purchases due to credit-rating downgrades |
@@ -164,7 +165,7 @@ Key evidence points:
 ## Background resources
 
 - **Arkansas law:** Ark. Code § 24-2-614 (sole interest rule); Act 411 of 2023 (pecuniary factors only); Ark. Code §§ 24-2-610–619 (prudent investor standard)
-- **Credit ratings:** Moody's downgraded Israel from A1 to Baa1 (via A2); S&P downgraded from AA- to A (via A+); both maintain negative outlook
+- **Credit ratings:** Moody's downgraded Israel from A1 to Baa1 (via A2); S&P downgraded from AA- to A (via A+); Fitch downgraded from A+ to A (August 2024); all three maintained negative outlook
 - **Prior press coverage:** Jennifer Lenow, "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on," *Arkansas Times*, July 11, 2025
 - **Source documents:** [Browse the full FOIA document archive](/documents/) — key evidence documents published for public review
 

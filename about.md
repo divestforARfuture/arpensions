@@ -52,7 +52,7 @@ No. This is about fiduciary duty and financial risk. Arkansas law requires that 
 
 **What are Israel Bonds?**
 
-Israel Bonds are direct loans to the Israeli government. Unlike most bonds, they cannot be sold on a secondary market before maturity, which means pension funds that buy them are locked into the investment. Two major credit rating agencies (Moody's and S&P) have downgraded Israel's credit since 2024. For a detailed explanation, see our [issue explainer](/the-issue/).
+Israel Bonds are direct loans to the Israeli government. Unlike most bonds, they cannot be sold on a secondary market before maturity, which means pension funds that buy them are locked into the investment. All three major credit rating agencies (Moody's, S&P, and Fitch) have downgraded Israel's credit since 2024. For a detailed explanation, see our [issue explainer](/the-issue/).
 
 </div>
 
