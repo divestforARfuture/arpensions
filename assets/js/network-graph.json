@@ -1308,7 +1308,7 @@
       "label": "FOIA Round 2",
       "type": "foia_request",
       "observations": [
-        "Filed February 13, 2026 by Joshua Dunlap targeting all 4 agencies with refined requests based on Round 1 evidence gaps. [HUMAN REVIEW: news.md says Feb 5; this file says Feb 13. Reconcile from campaign records.]",
+        "Filed February 13, 2026 by Joshua Dunlap targeting all 4 agencies with refined requests based on Round 1 evidence gaps.",
         "AGENCY STATUS AS OF FEB 22, 2026: Treasury — received Feb 19, 2026 (118 active docs after dedup, 2,526 pages, 906 MB).",
         "TREASURY ROUND 2 CONTENTS: 81 PDFs, 35 xlsx files, 1 docx.",
         "DEDUP RESULTS: 246 duplicate files detected and skipped during ingestion (Treasury had significant file overlap with Round 1 response).",

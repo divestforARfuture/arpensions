@@ -23,6 +23,8 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 <div class="evidence-findings" markdown="1">
 
+## Key findings
+
 ### 1. No independent credit analysis
 
 Of nearly 1,100 documents reviewed, **zero** contained an independent credit analysis of Israel Bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
@@ -76,7 +78,7 @@ Brady's introduction framed Israel Bonds as already vetted by another state enti
 
 ### 3b. Board voted before staff had a contact
 
-Despite the board's May–June 2025 authorization of $25–50 million, APERS purchased zero Israel Bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The following day, CIO Carlos Borromeo emailed Seth Middleton at Stephens Inc. — APERS's investment consultant — asking him to forward contact information to Bradley Young, an Israel Bonds Executive Director for the Southeast Regional Office.
+Despite the board's May–June 2025 authorization of $25–50 million, APERS purchased zero Israel Bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The following day, CIO Carlos Borromeo emailed Seth Middleton at Stephens Inc. — APERS's investment consultant — asking him to forward contact information to Bradley Young, Southeast Regional Executive Director at Israel Bonds.
 
 By November 2025, a bond statement was received by APERS staff, indicating a purchase had eventually occurred. The two-month gap between authorization and purchase — and the fact that staff were still establishing basic contact with Israel Bonds representatives well after the board vote — suggests the board authorized the investment before operational groundwork was in place.
 
@@ -228,7 +230,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event timeline-event--highlight">
     <time>Late 2024</time>
     <h3>Internal memo recommends against new purchases</h3>
-    <p>Senior Treasury investment manager writes internal memo recommending against new Israel Bonds purchases, citing credit downgrades from major rating agencies.</p>
+    <p>Senior Treasury investment manager writes internal memo recommending against new Israel Bonds purchases, citing credit downgrades from two major rating agencies (Moody's and S&amp;P).</p>
   </li>
   <li class="timeline-event">
     <time>November 2024</time>

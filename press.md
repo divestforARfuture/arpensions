@@ -8,7 +8,7 @@ audience_nav: true
 
 ## Campaign summary
 
-Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed nearly 1,100 public records revealing that approximately $155 million in authorized pension fund exposure was committed to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
+Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed nearly 1,100 public records revealing approximately $155 million in authorized pension fund exposure to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
 The campaign is calling for a pause on new purchases, independent financial analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
 
@@ -43,6 +43,8 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **October 2023** | State Board of Finance approves $10M additional Israel Bonds purchase; Treasurer Walther states "Those who bless Israel will be blessed, and those who curse Israel will be cursed" |
 | **February 2024** | Moody's downgrades Israel's sovereign credit rating from A1 to A2, with "Negative" outlook |
 | **April 2024** | S&P downgrades Israel's sovereign credit rating from AA- to A+, with "Negative" outlook |
+| **September 2024** | Moody's further downgrades Israel from A2 to Baa1, with "Negative" outlook |
+| **October 2024** | S&P further downgrades Israel from A+ to A, with "Negative" outlook |
 | **Late 2024** | Internal Treasury memo from senior investment manager recommends holding off on new Israel Bonds purchases due to credit-rating downgrades |
 | **November 2024** | State Auditor Milligan arranges for Israel Bonds representatives to meet with state officials |
 | **April 2025** | Israel Bonds sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor |
