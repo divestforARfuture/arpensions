@@ -23,8 +23,6 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 <div class="evidence-findings" markdown="1">
 
-## Key findings
-
 ### 1. No independent credit analysis
 
 Of nearly 1,100 documents reviewed, **zero** contained an independent credit analysis of Israel Bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
@@ -35,7 +33,7 @@ Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor ru
 
 ### 2. Internal memo recommended against new purchases
 
-In late 2024, a senior investment manager in the State Treasurer's office wrote an internal memo raising concerns about Israel Bonds. The memo noted that all three major credit-rating agencies — Moody's, S&P, and Fitch — had downgraded Israel's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026." (For the investment standards that should have governed this decision, see the [Treasury investment policy](/assets/documents/treasury-investment-policy-2022.pdf).)
+In late 2024, a senior investment manager in the State Treasurer's office wrote an internal memo raising concerns about Israel Bonds. The memo noted that two major credit-rating agencies — Moody's and S&P — had downgraded Israel's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026." (For the investment standards that should have governed this decision, see the [Treasury investment policy](/assets/documents/treasury-investment-policy-2022.pdf).)
 
 Instead, by the time that $17 million matured in May 2025, the state purchased two new $10 million bonds — bringing total Treasury holdings to $55 million. What changed was not the credit outlook, but the political calculus.
 
@@ -78,7 +76,7 @@ Brady's introduction framed Israel Bonds as already vetted by another state enti
 
 ### 3b. Board voted before staff had a contact
 
-Despite the board's May–June 2025 authorization of $25–50 million, APERS purchased zero Israel Bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The following day, CIO Carlos Borromeo emailed Seth Middleton at Stephens Inc. — APERS's investment consultant — asking him to forward contact information to Bradley Young, the Israel Bonds Director of Community Investments.
+Despite the board's May–June 2025 authorization of $25–50 million, APERS purchased zero Israel Bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The following day, CIO Carlos Borromeo emailed Seth Middleton at Stephens Inc. — APERS's investment consultant — asking him to forward contact information to Bradley Young, an Israel Bonds Executive Director for the Southeast Regional Office.
 
 By November 2025, a bond statement was received by APERS staff, indicating a purchase had eventually occurred. The two-month gap between authorization and purchase — and the fact that staff were still establishing basic contact with Israel Bonds representatives well after the board vote — suggests the board authorized the investment before operational groundwork was in place.
 
@@ -230,7 +228,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event timeline-event--highlight">
     <time>Late 2024</time>
     <h3>Internal memo recommends against new purchases</h3>
-    <p>Senior Treasury investment manager writes internal memo recommending against new Israel Bonds purchases, citing credit downgrades from all three major agencies.</p>
+    <p>Senior Treasury investment manager writes internal memo recommending against new Israel Bonds purchases, citing credit downgrades from major rating agencies.</p>
   </li>
   <li class="timeline-event">
     <time>November 2024</time>
