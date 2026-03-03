@@ -502,7 +502,7 @@ article > section:first-child {
   text-decoration: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   min-height: 44px;
   line-height: 1.4;
   border: 2px solid transparent;
@@ -832,8 +832,19 @@ article > section:first-child {
   padding: 4rem 1.5rem 5rem;
 }
 
-.about-section .container-prose {
+.about-section .container-prose h2 {
   text-align: center;
+}
+
+.about-section .container-prose p {
+  text-align: left;
+}
+
+.about-section .container-prose .btn {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-section h2 {
@@ -2300,6 +2311,12 @@ html.theme-transition *::after {
   }
 }
 
+/* Pin table header to light-mode red in dark mode for WCAG AA contrast
+   (#EF4444 bg + #fff text is only ~3.27:1; #991B1B + #fff is 5.7:1) */
+[data-theme="dark"] .issue-agency-table thead {
+  background: #991B1B;
+}
+
 /* --- Legal Reference --- */
 [data-theme="dark"] .legal-reference {
   background: var(--d4arf-red-light);
@@ -2797,13 +2814,18 @@ hr.section-break {
   color: var(--color-text-primary);
 }
 
+.role-card:focus-visible {
+  outline: 2px solid var(--d4arf-accent);
+  outline-offset: -2px;
+}
+
 /* ==========================================================================
    LAYOUT — Section spacing and alternating backgrounds
    ========================================================================== */
 
-/* Increased section spacing */
-section + section,
-.content-section + .content-section {
+/* Increased section spacing — scoped to page content areas */
+.page-content section + section,
+.landing-content section + section {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -3049,10 +3071,10 @@ section + section,
   border-left: 1px solid var(--color-border);
 }
 
-.btn-nav-cta {
+.nav-cta .btn-nav-cta {
   display: inline-block;
   background: var(--color-cta);
-  color: #fff !important;
+  color: #fff;
   padding: 0.5rem 1.25rem;
   font-family: var(--font-sans);
   font-weight: 600;
@@ -3068,7 +3090,7 @@ section + section,
 .nav-cta .btn-nav-cta:hover,
 .nav-cta .btn-nav-cta:focus-visible {
   background: var(--color-cta-hover);
-  color: #fff !important;
+  color: #fff;
   text-decoration: none;
 }
 
