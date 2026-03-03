@@ -34,18 +34,29 @@ What the site is NOT: a protest site, a boycott campaign, partisan, or anti-Isra
 ## Brand Identity
 
 ```css
---d4arf-red: #B91C1C;       /* Primary — action, urgency, Arkansas */
---d4arf-green: #166534;      /* Secondary — trust, growth */
---d4arf-black: #1A1A1A;      /* Text */
---d4arf-white: #FAFAFA;      /* Background */
---d4arf-gray: #4B5563;       /* Secondary text */
---d4arf-gray-light: #F3F4F6; /* Section backgrounds */
---d4arf-border: #E5E7EB;     /* Borders */
---d4arf-red-light: #FEE2E2;  /* CTA backgrounds */
---d4arf-green-light: #DCFCE7; /* Success states */
+--d4arf-red: #B91C1C;         /* Primary — action, urgency, Arkansas */
+--d4arf-green: #166534;        /* Secondary — trust, growth */
+--d4arf-accent: #0C7489;       /* Teal — links, borders, section markers */
+--d4arf-accent-light: #E0F2F7; /* Teal highlight backgrounds */
+--d4arf-black: #1b2127;        /* Text (warm near-black) */
+--d4arf-white: #f8f7f5;        /* Background (warm off-white) */
+--d4arf-gray: #556068;         /* Secondary text */
+--d4arf-gray-light: #f0efec;   /* Section backgrounds (warm) */
+--d4arf-border: #dee3e6;       /* Borders */
+--d4arf-red-light: #FEE2E2;    /* CTA backgrounds */
+--d4arf-green-light: #DCFCE7;  /* Success states */
+
+/* Semantic tokens */
+--color-text-primary: var(--d4arf-black);
+--color-text-secondary: var(--d4arf-gray);
+--color-bg-page: var(--d4arf-white);
+--color-bg-panel: var(--d4arf-gray-light);
+--color-bg-surface: #ffffff;
+--color-link: var(--d4arf-accent);
+--color-cta: var(--d4arf-red);
 ```
 
-Fonts: Bitter (display) + Source Sans 3 (body) via Google Fonts. Open to upgrading if the pairing improves. Logo: assets/images/d4arf-logo.png (40x40 nav, 60x60 footer).
+Fonts: Lora (editorial serif) + Inter (UI sans) + IBM Plex Mono (data) via Google Fonts. Logo: assets/images/d4arf-logo.png (40x40 nav, 48x48 footer).
 
 ## Technical Constraints (Non-Negotiable)
 
@@ -74,7 +85,7 @@ Red is the dominant accent (D4ARF brand + Arkansas's color), with restrained gre
 ## Current Architecture
 
 ```
-11 pages, 4 layouts, 8 includes
+11 pages, 4 layouts, 9 includes
 ├── index.md              (default layout — hero, stats, pathways, about)
 ├── the-issue.md          (page layout — core explainer)
 ├── evidence.md           (page layout — key findings, timeline, legal standards)

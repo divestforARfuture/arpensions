@@ -1,38 +1,47 @@
 <footer class="site-footer" aria-label="Site footer">
   <div class="container">
-    <div class="footer-content">
+    <div class="footer-grid">
       <div class="footer-brand">
-        <img class="logo-light" src="{{ '/assets/images/d4arf-logo.png' | relative_url }}" alt="Divest for AR Future logo" width="60" height="60">
-        <img class="logo-dark" src="{{ '/assets/images/d4arf-logo-dark.png' | relative_url }}" alt="Divest for AR Future logo" width="60" height="60">
-        <p class="footer-tagline">Protecting Arkansas pensions through transparency and accountability</p>
+        <img class="logo-light" src="{{ '/assets/images/d4arf-logo.png' | relative_url }}" alt="Divest for AR Future logo" width="48" height="48">
+        <img class="logo-dark" src="{{ '/assets/images/d4arf-logo-dark.png' | relative_url }}" alt="Divest for AR Future logo" width="48" height="48">
+        <p class="footer-tagline">Protecting Arkansas pensions through transparency and fiduciary accountability.</p>
+        <p class="footer-contact-email"><a href="mailto:divestforarfuture@proton.me">divestforarfuture@proton.me</a></p>
       </div>
 
-      <div class="footer-links">
-        <p class="footer-heading">Navigate</p>
+      <div class="footer-nav-col">
+        <p class="footer-heading">Learn</p>
         <ul role="list">
           <li><a href="{{ '/the-issue/' | relative_url }}">The Issue</a></li>
           <li><a href="{{ '/evidence/' | relative_url }}">Evidence</a></li>
-          <li><a href="{{ '/network/' | relative_url }}">Network</a></li>
-          <li><a href="{{ '/take-action/' | relative_url }}">Take Action</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
           <li><a href="{{ '/documents/' | relative_url }}">Documents</a></li>
-          <li><a href="{{ '/news/' | relative_url }}">Updates</a></li>
-          <li><a href="{{ '/educators/' | relative_url }}">Educators</a></li>
-          <li><a href="{{ '/public-employees/' | relative_url }}">Public Employees</a></li>
-          <li><a href="{{ '/press/' | relative_url }}">Press</a></li>
-          <li><a href="{{ '/legislators/' | relative_url }}">Legislators</a></li>
+          <li><a href="{{ '/network/' | relative_url }}">Network</a></li>
           <li><a href="{{ '/methodology/' | relative_url }}">Our Methods</a></li>
         </ul>
       </div>
 
-      <div class="footer-contact">
-        <p class="footer-heading">Contact</p>
-        <p><a href="mailto:divestforarfuture@proton.me">divestforarfuture@proton.me</a></p>
+      <div class="footer-nav-col">
+        <p class="footer-heading">Act</p>
+        <ul role="list">
+          <li><a href="{{ '/take-action/' | relative_url }}">Take Action</a></li>
+          <li><a href="{{ '/educators/' | relative_url }}">For Educators</a></li>
+          <li><a href="{{ '/public-employees/' | relative_url }}">For Public Employees</a></li>
+          <li><a href="{{ '/legislators/' | relative_url }}">For Legislators</a></li>
+          <li><a href="{{ '/press/' | relative_url }}">For Media</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-nav-col">
+        <p class="footer-heading">Connect</p>
+        <ul role="list">
+          <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
+          <li><a href="{{ '/news/' | relative_url }}">Updates</a></li>
+          <li><a href="mailto:divestforarfuture@proton.me">Contact</a></li>
+        </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <p>A campaign of Little Rock Peace for Palestine</p>
+      <p>&copy; {{ 'now' | date: '%Y' }} Divest for AR Future &middot; A campaign of <a href="https://www.facebook.com/LittleRockPeaceForPalestine" target="_blank" rel="noopener">Little Rock Peace for Palestine</a></p>
     </div>
   </div>
 </footer>
