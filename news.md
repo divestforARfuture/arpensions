@@ -18,7 +18,6 @@ Follow the progress of our investigation and campaign.
 **February 19** — Website launched; investigation corpus has grown to nearly 1,100 public records across two FOIA rounds.
 
 **February 5** — FOIA Round 2 requests submitted to all four agencies: Treasury, ATRS, APERS, and Auditor of State.
-<!-- HUMAN REVIEW: Verify FOIA Round 2 filing date. news.md says Feb 5, network-graph.json says Feb 13. Reconcile from campaign records. -->
 
 ## 2025
 

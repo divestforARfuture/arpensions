@@ -43,7 +43,7 @@ Instead, by the time that $17 million matured in May 2025, the state purchased t
 
 ### 3. Sales representatives met with agencies before authorizations
 
-In April 2025, Israel Bonds national and regional sales representatives met with the directors of both ATRS and APERS, along with the State Treasurer and State Auditor. State Auditor Dennis Milligan arranged the meetings. A [thank-you note from Israel Bonds executive Lawrence Berman](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) later used the Treasury's $20 million purchase as sales leverage on the APERS director. A separate [thank-you to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings.
+In April 2025, Israel Bonds national and regional sales representatives met with the directors of both ATRS and APERS, along with the State Treasurer and State Auditor. State Auditor Dennis Milligan arranged the meetings. A [thank-you email from Israel Bonds executive Lawrence Berman](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) later used the Treasury's $20 million purchase as sales leverage on the APERS director. A separate [thank-you email to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings.
 
 **Within weeks:**
 - The State Treasury purchased $20 million in new Israel Bonds

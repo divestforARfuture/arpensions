@@ -43,6 +43,7 @@ defaults:
 # Exclude from build
 exclude:
   - README.md
+  - CLAUDE.md
   - LICENSE
   - CNAME
   - Gemfile
