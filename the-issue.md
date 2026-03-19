@@ -7,6 +7,8 @@ permalink: /the-issue/
 
 <div class="issue-page" markdown="1">
 
+<span class="section-label">The instrument</span>
+
 ## What are Israel Bonds?
 
 Israel Bonds are direct loans to the Israeli government, sold through the Development Corporation for Israel. Unlike U.S. Treasury bonds and most other fixed-income securities, they have two critical features that matter for pension fund managers:
@@ -15,6 +17,8 @@ Israel Bonds are direct loans to the Israeli government, sold through the Develo
 2. **Lower credit ratings.** All three major rating agencies — Moody's, S&P, and Fitch — have downgraded Israel's credit rating since 2024, specifically citing economic instability and heightened security risks. This means Israel Bonds carry more risk than many comparable alternatives with similar interest rates.
 
 In practical terms: an Arkansas pension fund that buys Israel Bonds is accepting less liquidity and more risk than it would with many other available fixed-income investments. The question is whether that trade-off was made based on sound financial analysis.
+
+<span class="section-label">The exposure</span>
 
 ## What's happening in Arkansas?
 
@@ -56,6 +60,8 @@ These authorizations came in rapid succession — and under circumstances that r
 
 <div class="issue-red-flags" markdown="1">
 
+<span class="section-label">The legal standard</span>
+
 ## The fiduciary problem
 
 Arkansas law is clear about how pension investments must be made:
@@ -88,13 +94,19 @@ Several red flags suggest these standards may not have been followed:
 
 <div class="issue-symmetry" markdown="1">
 
+<span class="section-label">The principle</span>
+
 ## The symmetry argument
 
 Arkansas law already establishes the principle at the heart of this issue. Act 710, the state's anti-boycott law, prohibits state entities from refusing to do business with companies for political reasons. The rationale: investment decisions should be based on financial merit, not political pressure.
 
 **We agree.** That principle should apply equally in both directions.
 
-If it is wrong to *sell* an investment for political reasons, it is equally wrong to *buy* one for political reasons. If Arkansas law protects against politically motivated divestment, it should also protect against politically motivated investment. The standard is the same: pecuniary factors only.
+<div class="pull-quote">
+  <p>If it is wrong to <em>sell</em> an investment for political reasons, it is equally wrong to <em>buy</em> one for political reasons. The standard is the same: pecuniary factors only.</p>
+</div>
+
+If Arkansas law protects against politically motivated divestment, it should also protect against politically motivated investment.
 
 Our campaign is not asking for anything that Arkansas law does not already require. We are asking:
 
@@ -115,6 +127,8 @@ These are not political questions. They are fiduciary questions. And Arkansas pe
 
 <div class="issue-demands" markdown="1">
 
+<span class="section-label">The ask</span>
+
 ## What we're asking for
 
 Our requests are straightforward:
@@ -123,7 +137,7 @@ Our requests are straightforward:
 2. **Transparency** — Publish the financial analysis comparing Israel Bonds' risk, return, and liquidity against comparable fixed-income alternatives.
 3. **Process review** — Document how the recent authorizations complied with Arkansas's pecuniary-only standard and the normal manager-driven investment process.
 4. **Member input** — Invite public comment from the educators, public employees, and retirees whose retirement savings are at stake.
-5. **Legislation** — Support the Pension Investment Transparency Act for the 2027 Arkansas legislative session, requiring independent analysis, consultant independence, liquidity disclosure, documented rationale, and consistent application of the pecuniary-factors standard before pension boards commit to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
+5. **[Pension Investment Transparency Act](/legislators/)** — Issuer-neutral legislation requiring independent analysis, consultant independence, liquidity disclosure, documented rationale, and consistent application of the pecuniary-factors standard before pension boards commit to non-tradable sovereign debt.
 
 </div>
 
