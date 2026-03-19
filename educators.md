@@ -41,6 +41,14 @@ Here's what the record shows:
 
 </div>
 
+## ATRS by the numbers
+
+The Reason Foundation — a conservative, libertarian think tank that grades pension systems nationwide — rates **ATRS an overall "F"** for retirement benefits adequacy, with a **"D" on financial sustainability**. The system carries over **$4.3 billion in unfunded liabilities** and is only approximately **80% funded**, meaning for every dollar owed to retirees, ATRS has about 80 cents on hand.
+
+This is the system that authorized up to $50 million in bonds that cannot be traded, cannot be sold on any secondary market, and carry no independent credit rating. When a pension system is already under financial strain, the standard of scrutiny for new illiquid commitments should be higher, not lower.
+
+*Source: [Reason Foundation, Arkansas Teacher Retirement System Pension Solvency Analysis](https://reason.org/policy-study/arkansas-teacher-retirement-system-atrs-pension-solvency-analysis/) (April 2020); ATRS actuarial valuations.*
+
 For the full timeline, source quotes, and legal analysis, see our [evidence page](/evidence/).
 
 ## What you can do

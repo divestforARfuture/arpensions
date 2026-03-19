@@ -123,6 +123,7 @@ Our requests are straightforward:
 2. **Transparency** — Publish the financial analysis comparing Israel Bonds' risk, return, and liquidity against comparable fixed-income alternatives.
 3. **Process review** — Document how the recent authorizations complied with Arkansas's pecuniary-only standard and the normal manager-driven investment process.
 4. **Member input** — Invite public comment from the educators, public employees, and retirees whose retirement savings are at stake.
+5. **Legislation** — Support the Pension Investment Transparency Act for the 2027 Arkansas legislative session, requiring independent analysis, consultant independence, liquidity disclosure, documented rationale, and consistent application of the pecuniary-factors standard before pension boards commit to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
 
 </div>
 

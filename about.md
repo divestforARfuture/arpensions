@@ -32,9 +32,13 @@ Our demands are narrow and rooted in existing Arkansas law:
 1. **Pause** new Israel Bonds purchases until an independent credit analysis is completed and shared with pension fund members.
 2. **Transparency** — Publish the financial analysis that justifies any Israel Bonds investment, comparing its risk, return, and liquidity against comparable alternatives.
 3. **Process review** — Document and explain how recent authorizations complied with Arkansas's pecuniary-only standard and the established manager-driven investment process.
-4. **Pension transparency legislation** for the 2027 Arkansas legislative session, requiring independent analysis and public disclosure before large, concentrated bond purchases.
+4. **Pension transparency legislation** — Support the **Pension Investment Transparency Act** for the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
 
 </div>
+
+## Our legislative strategy
+
+For the **2027 Arkansas legislative session**, we are proposing the **Pension Investment Transparency Act** — issuer-neutral legislation that would require independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
 
 <div class="faq-section" markdown="1">
 
