@@ -7,12 +7,22 @@ permalink: /take-action/
 
 Every Arkansan whose retirement is managed by a state pension fund has a stake in how that money is invested. Here's how you can make your voice heard — starting today.
 
+<nav class="action-nav" aria-label="Action steps">
+  <ul>
+    <li><a href="#sign-on">Sign on</a></li>
+    <li><a href="#write-trustees">Write to trustees</a></li>
+    <li><a href="#contact-legislators">Contact legislators</a></li>
+    <li><a href="#attend-meeting">Attend a meeting</a></li>
+    <li><a href="#volunteer">Volunteer</a></li>
+  </ul>
+</nav>
+
 <div class="action-tier" markdown="1">
 <span class="action-tier-label action-tier-label--quick">5 Minutes</span>
 
 <section class="action-step" markdown="1">
 
-## Sign on in support
+## Sign on in support {#sign-on}
 
 We're building a list of Arkansans — educators, public employees, retirees, and concerned taxpayers — who believe pension investments should be based solely on financial merit.
 
@@ -22,7 +32,7 @@ We're building a list of Arkansans — educators, public employees, retirees, an
 
 <section class="action-step" markdown="1">
 
-## Write to pension trustees
+## Write to pension trustees {#write-trustees}
 
 The people who make investment decisions for your retirement fund are required by law to act solely in your financial interest. Let them know you're paying attention.
 
@@ -72,7 +82,7 @@ Sincerely,
 
 <section class="action-step" markdown="1">
 
-## Contact your legislators
+## Contact your legislators {#contact-legislators}
 
 The 2027 Arkansas legislative session is an opportunity to establish stronger pension transparency requirements. Let your state legislators know this issue matters to you.
 
@@ -92,7 +102,7 @@ You can also find your legislators at [arkleg.state.ar.us](https://www.arkleg.st
 
 <section class="action-step" markdown="1">
 
-## Attend a board meeting
+## Attend a board meeting {#attend-meeting}
 
 Public comment at pension board meetings is one of the most direct ways to be heard by the people who manage your retirement funds. Board meetings are open to the public under Arkansas law.
 
@@ -129,7 +139,7 @@ Public comment at pension board meetings is one of the most direct ways to be he
 
 <section class="action-step" markdown="1">
 
-## Volunteer
+## Volunteer {#volunteer}
 
 We need Arkansans across the state — especially educators and public employees — to help build this campaign. There are roles for every skill level and time commitment:
 
