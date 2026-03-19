@@ -76,16 +76,29 @@ These are not inherently disqualifying characteristics, but they demand exactly 
 
 <div class="issue-demands" markdown="1">
 
-## What we're asking
+## The Pension Investment Transparency Act
 
-We urge the Arkansas General Assembly to consider pension transparency legislation for the **2027 session** that would:
+We urge the Arkansas General Assembly to consider the **Pension Investment Transparency Act** for the **2027 session**. This legislation is issuer-neutral — it does not single out any country. It establishes procedural standards for when pension boards invest in non-tradable, unrated sovereign debt instruments.
 
-1. **Require independent credit analysis** before pension funds commit to non-standard or illiquid investments above a defined threshold
-2. **Mandate public disclosure** of the financial rationale for significant new investment authorizations, including risk-return comparisons with alternatives
-3. **Strengthen fiduciary accountability** by ensuring that the pecuniary-only standard in Act 411 applies with equal force to purchase decisions and divestment decisions
-4. **Protect trustee independence** by clarifying that investment recommendations should originate through professional investment staff, not through political channels
+### The five provisions
 
-Round 2 FOIA evidence underscores these recommendations: APERS's Israel Bonds authorization originated from a political appointee's board presentation, not from investment staff or consultants. APERS's CIO was still establishing basic contact with Israel Bonds representatives two months after the board voted.
+1. **Require independent credit analysis** before any pension fund purchases unrated or non-tradable sovereign debt instruments. Our FOIA investigation found zero independent analyses across 1,098 documents from four agencies.
+
+2. **Require that investment recommendations come from the fund's own consultants**, not from the issuer's sales representatives. Israel Bonds representatives provided all investment materials with no independent third-party review.
+
+3. **Mandate public disclosure of liquidity risk** for any non-tradable instruments held in pension portfolios. Israel Bonds have no secondary market — pension funds that purchase them have no exit until maturity.
+
+4. **Require board-level documentation of the financial rationale** for any sovereign debt purchase, particularly instruments that lack a secondary market. At ATRS, Board Chair Danny Knight dissented, warning the process departed from standard practice.
+
+5. **Extend the pecuniary-factors standard** that Act 411 of 2023 applies to the Treasurer's investment evaluations to pension board sovereign debt acquisitions. Act 411 currently covers only the Treasurer of State; pension boards like ATRS and APERS have no equivalent procedural requirement.
+
+### The committee pathway
+
+This legislation would go through the **Joint Committee on Public Retirement & Social Security Programs**, which has legislative oversight of all public retirement systems in the state. Three of four Democratic seats on that committee are turning over due to term limits in November 2026, creating a window for early engagement with incoming members.
+
+### The symmetry argument
+
+Arkansas already requires financial merit for *selling* investments — Act 710 prohibits politically motivated divestment. And Act 411 requires the Treasurer's *investment evaluations* to be based only on pecuniary factors. But pension boards have no equivalent procedural standard for sovereign debt acquisitions. The same rigor should apply when committing members' retirement funds to non-tradable sovereign debt.
 
 </div>
 

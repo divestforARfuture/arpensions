@@ -41,6 +41,16 @@ Here's what the record shows:
 
 </div>
 
+## ATRS by the numbers
+
+According to ATRS's own FY2025 Annual Report, the system holds **$23.7 billion in net assets** (and has since crossed $24 billion), posted a **9.8% investment return** for FY2025, and carries an overall funded ratio of approximately **84%** — meaning for every dollar owed to current and future retirees, the system has about 84 cents on hand. The unfunded liability stands at approximately **$4.1 billion**, with a **21-year amortization period** to close the gap.
+
+These numbers represent real improvement — the funded ratio has risen from roughly 80% in 2020, and the amortization period has shortened from over 30 years. But improvement in the aggregate does not mean every investment decision meets fiduciary standards. ATRS authorized up to $50 million in Israel Bonds — instruments that cannot be traded on any secondary market and carry no independent credit rating — without producing the independent credit analysis that prudent investment of retirement funds demands. When a system is working to close a $4 billion funding gap, the scrutiny applied to new illiquid commitments should be higher, not lower.
+
+The Reason Foundation's **March 2026 Annual Pension Solvency and Performance Report** ranks Arkansas **#17 out of 50 states** on funded status — a solid position nationally, but one that depends on consistent fiduciary discipline for every investment decision, including this one.
+
+*Sources: [ATRS 2025 Annual Report](https://www.artrs.gov/Publications/ATRS_2025_Annual_Report.pdf); [Executive Director Update, December 2025](https://www.artrs.gov/director-updates/executive-director-update-2026-payment-schedule-2025-financial-update); [Reason Foundation Annual Pension Report, March 2026](https://reason.org/policy-study/annual-pension-report/).*
+
 For the full timeline, source quotes, and legal analysis, see our [evidence page](/evidence/).
 
 ## What you can do
