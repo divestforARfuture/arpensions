@@ -7,37 +7,60 @@ permalink: /methodology/
 
 Transparency about our own methods is as important as the transparency we demand from pension fund managers. Here's exactly how this investigation was conducted.
 
+<span class="section-label">Data collection</span>
+
 ## Public Records Requests
 
-We filed 8 Freedom of Information Act (FOIA) requests across 2 rounds to 4 Arkansas state agencies: the State Treasury, the Arkansas Teacher Retirement System (ATRS), the Arkansas Public Employees' Retirement System (APERS), and the Auditor of State's office.
+We filed <span class="font-mono">8</span> Freedom of Information Act (FOIA) requests across <span class="font-mono">2</span> rounds to <span class="font-mono">4</span> Arkansas state agencies: the State Treasury, the Arkansas Teacher Retirement System (ATRS), the Arkansas Public Employees' Retirement System (APERS), and the Auditor of State's office.
 
 Our requests targeted investment decision records, board meeting materials, correspondence with bond issuers, credit analyses, and internal memoranda related to Israel Bonds purchases.
 
+<span class="section-label">Processing pipeline</span>
+
 ## Document Processing
 
-We received nearly 1,100 documents totaling over 4.5 gigabytes across two rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February 2026) added 141 documents from three agencies (Treasury: 118; APERS: 16; ATRS: 7). The Auditor of State's Round 2 response has been received and is under review. Every document was:
+We received nearly <span class="font-mono">1,098</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across two rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February 2026) added 141 documents from three agencies (Treasury: 118; APERS: 16; ATRS: 7). The Auditor of State's Round 2 response has been received and is under review. Every document was:
 
 1. **Cataloged** with metadata including source agency, date, document type, and FOIA request number
 2. **Processed** using optical character recognition (OCR) where necessary to make scanned documents searchable
 3. **Deduplicated** to identify and flag documents received from multiple agencies
 4. **Cross-referenced** to connect people, organizations, dollar amounts, and events across documents from different agencies
 
+<span class="section-label">Verification system</span>
+
 ## Fact Registry
 
 Every factual claim in our evidence materials traces back to a specific source document, page number, and verbatim quote. We maintain a structured database of verified facts extracted from the source documents — not summaries or interpretations, but direct extractions with full citations.
 
-This two-hop citation chain (Source Document → Fact Registry → Published Finding) ensures that no claim drifts from what the documents actually say.
+<div class="key-finding" markdown="1">
+
+**Two-hop citation chain:** Source Document → Fact Registry → Published Finding. Every factual claim traces back to a specific source document, page number, and verbatim quote. No AI-generated analysis is used as source material.
+
+</div>
+
+<span class="section-label">Standards</span>
 
 ## What We Don't Do
 
-- We do not speculate beyond what the documents show
-- We do not use AI-generated analysis as source material — all factual claims trace to human-readable government documents
-- We do not cherry-pick favorable documents while ignoring unfavorable ones
-- We acknowledge gaps in the documentary record and identify them explicitly
+<div class="approach-pillars" markdown="1">
+
+**We do not speculate beyond what the documents show.** Our findings state what the record contains and what it lacks — not what officials were thinking or what might have happened off the record.
+
+**We do not use AI-generated analysis as source material.** All factual claims trace to human-readable government documents through a verified citation chain.
+
+**We do not cherry-pick.** We acknowledge gaps in the documentary record and identify them explicitly. Where agencies have provided exculpatory or contextualizing information, we include it.
+
+</div>
+
+<span class="section-label">Caveats</span>
 
 ## Limitations
 
-Our evidence is limited to what agencies have provided through FOIA. Some requests are still pending, and agencies may hold responsive documents that were not included in their responses. Where we identify gaps in the documentary record, we note them and file follow-up requests.
+<div class="callout" markdown="1">
+
+**Important:** Our evidence is limited to what agencies have provided through FOIA. Some requests are still pending, and agencies may hold responsive documents that were not included in their responses. Where we identify gaps, we note them and file follow-up requests.
+
+</div>
 
 Some documents in Round 2 responses — including six sets of APERS board and committee meeting minutes, four Treasury custodial statements (1,561 pages combined), and two ATRS sign-in sheets — were received as scanned images that yielded no extractable text. These documents are prioritized for optical character recognition processing. Until they are recovered, findings from these meetings rely on board packets and other corroborating documents rather than official minutes.
 
