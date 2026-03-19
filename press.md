@@ -59,6 +59,8 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | **February 5, 2026** | Second round of FOIA requests submitted to all four agencies |
 | **February 19, 2026** | Treasury delivers Round 2 response (118 documents, 2,526 pages) |
 | **February 27, 2026** | APERS delivers Round 2 response (16 documents including 8,648-page production) |
+| **March 3, 2026** | ATRS delivers partial Round 2 response (7 documents). General Counsel Jennifer Kelly confirms full original scope will be honored. |
+| **March 2026** | Auditor of State's Round 2 response received via flash drive from General Counsel TJ Fowler. Total investigation corpus: 1,098 documents across four agencies, two FOIA rounds. |
 
 </div>
 
