@@ -37,7 +37,7 @@ Here's what the record shows:
 
 <div class="callout" markdown="1">
 
-**The key question:** Israel Bonds would account for less than one-quarter of one percent of ATRS's $22.45 billion portfolio, but they represent a concentrated bet on a single foreign government and are less liquid than many standard fixed-income options. Was this trade-off made based on sound financial analysis — or political pressure?
+**The key question:** Israel Bonds would account for less than one-quarter of one percent of ATRS's $23.7 billion portfolio, but they represent a concentrated bet on a single foreign government and are less liquid than many standard fixed-income options. Was this trade-off made based on sound financial analysis — or political pressure?
 
 </div>
 
