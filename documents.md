@@ -120,7 +120,7 @@ A second round of FOIA requests produced 141 additional documents:
 
 **APERS (16 documents, 9,241 total pages):** Four quarterly board packets (March–December 2025), four Investment Finance Committee subcommittee packets, an 8,648-page comprehensive FOIA production containing emails, internal communications, board materials, and news articles, plus six sets of meeting minutes (currently being processed).
 
-**ATRS (7 documents, 51 pages — partial response):** Investment guidelines for the "Israeli Jubilee bond account" managed by Reams Asset Management, contract documents, sign-in sheets, and email files. Requests 2 and 3 are due March 3, 2026.
+**ATRS (7 documents, 51 pages — partial response):** Investment guidelines for the "Israeli Jubilee bond account" managed by Reams Asset Management, contract documents, sign-in sheets, and email files. ATRS General Counsel confirmed the full original scope in writing, but only a partial response has been delivered to date.
 
 **Auditor of State:** Round 2 response pending.
 
