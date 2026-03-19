@@ -25,7 +25,7 @@ Three Arkansas state agencies have committed or authorized significant funds for
 | Agency | Amount | Portfolio Share | Date |
 |--------|--------|----------------|------|
 | **State Treasury** | $55 million in holdings (including $20M purchased since May 2025) | ~0.5% of $11B | Ongoing since 2017 |
-| **ATRS** (Arkansas Teacher Retirement System) | Up to **$50 million** authorized | ~0.2% of $22.45B | June 2, 2025 |
+| **ATRS** (Arkansas Teacher Retirement System) | Up to **$50 million** authorized | ~0.2% of $23.7B | June 2, 2025 |
 | **APERS** (Arkansas Public Employees' Retirement System) | **$25–50 million** authorized; purchase confirmed by Nov 2025 | ~0.2–0.4% of $11.92B | May 15, 2025 (subcommittee); June 11, 2025 (full board) |
 
 </div>
