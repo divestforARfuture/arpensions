@@ -28,7 +28,7 @@
   --color-text-secondary: var(--d4arf-gray);
   --color-bg-page: var(--d4arf-white);
   --color-bg-panel: var(--d4arf-gray-light);
-  --color-bg-surface: #ffffff;
+  --color-bg-surface: #ffffff; /* Pure white for card elevation against warm off-white page */
   --color-link: var(--d4arf-accent);
   --color-link-hover: #095c6e;
   --color-cta: var(--d4arf-red);
@@ -42,7 +42,7 @@
 
   /* Typography */
   --font-serif: 'Lora', Georgia, 'Times New Roman', serif;
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif; /* Brand spec says Work Sans; Inter retained — both are excellent, metrics nearly identical */
   --font-mono: 'IBM Plex Mono', 'Cascadia Code', 'Fira Code', monospace;
   --font-display: var(--font-serif);
   --font-body: var(--font-sans);
@@ -1071,7 +1071,7 @@ article > section:first-child {
 .letter-template {
   margin: 1.5rem 0;
   padding: 2rem;
-  background-color: #fff;
+  background-color: var(--color-bg-surface);
   border: 2px solid var(--d4arf-border);
   border-radius: 8px;
   position: relative;
@@ -1636,7 +1636,7 @@ blockquote p {
 
 /* Questions summary box */
 .issue-questions {
-  background: #fff;
+  background: var(--color-bg-surface);
   border: 1px solid var(--d4arf-border);
   border-left: 4px solid var(--d4arf-red);
   border-radius: 0 8px 8px 0;
@@ -1787,7 +1787,7 @@ blockquote p {
 
 /* --- Email Callout — Distinct shorter-version styling --- */
 .email-callout {
-  background: #fff;
+  background: var(--color-bg-surface);
   border: 1px solid var(--d4arf-border);
   border-left: 4px solid var(--d4arf-green);
   font-size: 0.95rem;
@@ -1852,7 +1852,7 @@ blockquote p {
 
 /* --- Script Card — Rehearsal card for public comment scripts --- */
 .script-card {
-  background: #fff;
+  background: var(--color-bg-surface);
   border: 2px solid var(--d4arf-border);
   border-left: 6px solid var(--d4arf-red);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
@@ -1898,13 +1898,13 @@ blockquote p {
   line-height: 1;
 }
 
-/* White backgrounds for nested components inside action cards */
+/* Elevated backgrounds for nested components inside action cards */
 .action-step .callout {
-  background: #fff;
+  background: var(--color-bg-surface);
 }
 
 .action-step .letter-template {
-  background: #fff;
+  background: var(--color-bg-surface);
 }
 
 .action-step .meeting-grid {
@@ -1931,7 +1931,7 @@ blockquote p {
 
 /* --- Press Quotes — Pull quote cards with extra spacing --- */
 .press-quotes .pull-quote {
-  background: #fff;
+  background: var(--color-bg-surface);
   border: 1px solid var(--d4arf-border);
   border-left: 6px solid var(--d4arf-red);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
@@ -2286,6 +2286,10 @@ html.theme-transition *::after {
 /* --- Stats Bar --- */
 [data-theme="dark"] .stats-bar {
   background-color: var(--color-bg-surface);
+}
+
+[data-theme="dark"] .stats-provenance {
+  border-top-color: var(--d4arf-border);
 }
 
 /* --- Pathway Cards --- */
