@@ -2288,9 +2288,7 @@ html.theme-transition *::after {
   background-color: var(--color-bg-surface);
 }
 
-[data-theme="dark"] .stats-provenance {
-  border-top-color: var(--d4arf-border);
-}
+
 
 /* --- Pathway Cards --- */
 [data-theme="dark"] .pathway-card {
