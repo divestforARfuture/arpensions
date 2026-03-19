@@ -43,7 +43,7 @@ Here's what the record shows:
 
 ## ATRS by the numbers
 
-<div class="stats-grid" style="grid-template-columns: repeat(3, 1fr); gap: 0; max-width: 720px; margin: 0 0 var(--space-xl);">
+<div class="stats-grid" style="max-width: 720px; margin: 0 0 var(--space-xl);">
   <div class="stat-card" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">$23.7B</span>
     <span class="stat-label">Net assets (FY2025)</span>

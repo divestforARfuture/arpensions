@@ -19,7 +19,7 @@ Our requests targeted investment decision records, board meeting materials, corr
 
 ## Document Processing
 
-We received nearly <span class="font-mono">1,098</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across two rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February 2026) added 141 documents from three agencies (Treasury: 118; APERS: 16; ATRS: 7). The Auditor of State's Round 2 response has been received and is under review. Every document was:
+We received <span class="font-mono">1,098</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across two rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February 2026) added 141 documents from three agencies (Treasury: 118; APERS: 16; ATRS: 7). The Auditor of State's Round 2 response has been received and is under review. Every document was:
 
 1. **Cataloged** with metadata including source agency, date, document type, and FOIA request number
 2. **Processed** using optical character recognition (OCR) where necessary to make scanned documents searchable

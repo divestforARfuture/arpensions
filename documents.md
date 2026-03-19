@@ -130,7 +130,7 @@ These are page-range extracts from larger compiled FOIA response documents.
 
 A second round of FOIA requests produced 141 additional documents:
 
-<div class="meeting-grid" style="grid-template-columns: 1fr 1fr;">
+<div class="meeting-grid">
   <div class="meeting-info">
     <p><strong>Treasury</strong></p>
     <ul>
@@ -149,7 +149,7 @@ A second round of FOIA requests produced 141 additional documents:
   </div>
 </div>
 
-<div class="meeting-grid" style="grid-template-columns: 1fr 1fr;">
+<div class="meeting-grid">
   <div class="meeting-info">
     <p><strong>ATRS</strong></p>
     <ul>
