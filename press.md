@@ -40,8 +40,8 @@ The campaign is calling for a pause on new purchases, independent financial anal
 <h3 class="timeline-year">2017</h3>
 <ul class="timeline">
   <li class="timeline-event">
-    <time>2017</time>
-    <h3>Arkansas first purchases Israel Bonds</h3>
+    <time datetime="2017">2017</time>
+    <strong>Arkansas first purchases Israel Bonds</strong>
     <p>State Treasury purchases through outreach from Israel Bonds representatives to then-Treasurer Dennis Milligan.</p>
   </li>
 </ul>
@@ -49,8 +49,8 @@ The campaign is calling for a pause on new purchases, independent financial anal
 <h3 class="timeline-year">2023</h3>
 <ul class="timeline">
   <li class="timeline-event timeline-event--highlight">
-    <time>October 2023</time>
-    <h3>$10M purchase after October 7</h3>
+    <time datetime="2023-10">October 2023</time>
+    <strong>$10M purchase after October 7</strong>
     <p>State Board of Finance approves purchase. Treasurer Walther: &ldquo;Those who bless Israel will be blessed, and those who curse Israel will be cursed.&rdquo;</p>
   </li>
 </ul>
@@ -58,38 +58,38 @@ The campaign is calling for a pause on new purchases, independent financial anal
 <h3 class="timeline-year">2024</h3>
 <ul class="timeline">
   <li class="timeline-event timeline-event--highlight">
-    <time>February 2024</time>
-    <h3>Moody&rsquo;s downgrade: A1 &rarr; A2</h3>
+    <time datetime="2024-02">February 2024</time>
+    <strong>Moody&rsquo;s downgrade: A1 &rarr; A2</strong>
     <p>First major credit downgrade, with negative outlook.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>April 2024</time>
-    <h3>S&amp;P downgrade: AA- &rarr; A+</h3>
+    <time datetime="2024-04">April 2024</time>
+    <strong>S&amp;P downgrade: AA- &rarr; A+</strong>
     <p>S&amp;P downgrades Israel&rsquo;s sovereign credit rating, with negative outlook.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>August 2024</time>
-    <h3>Fitch downgrade: A+ &rarr; A</h3>
+    <time datetime="2024-08">August 2024</time>
+    <strong>Fitch downgrade: A+ &rarr; A</strong>
     <p>Third major agency downgrades Israel, with negative outlook.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>September 2024</time>
-    <h3>Moody&rsquo;s second downgrade: A2 &rarr; Baa1</h3>
+    <time datetime="2024-09">September 2024</time>
+    <strong>Moody&rsquo;s second downgrade: A2 &rarr; Baa1</strong>
     <p>Moody&rsquo;s further downgrades Israel, with negative outlook.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>October 2024</time>
-    <h3>S&amp;P second downgrade: A+ &rarr; A</h3>
+    <time datetime="2024-10">October 2024</time>
+    <strong>S&amp;P second downgrade: A+ &rarr; A</strong>
     <p>S&amp;P further downgrades Israel, with negative outlook.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>Late 2024</time>
-    <h3>Internal memo recommends against new purchases</h3>
+    <time datetime="2024">Late 2024</time>
+    <strong>Internal memo recommends against new purchases</strong>
     <p>Senior Treasury investment manager cites credit downgrades, recommends holding positions and letting $17M roll off.</p>
   </li>
   <li class="timeline-event">
-    <time>November 2024</time>
-    <h3>Auditor arranges Israel Bonds meetings</h3>
+    <time datetime="2024-11">November 2024</time>
+    <strong>Auditor arranges Israel Bonds meetings</strong>
     <p>State Auditor Milligan arranges for Israel Bonds representatives to meet with state officials.</p>
   </li>
 </ul>
@@ -97,43 +97,43 @@ The campaign is calling for a pause on new purchases, independent financial anal
 <h3 class="timeline-year">2025</h3>
 <ul class="timeline">
   <li class="timeline-event timeline-event--highlight">
-    <time>April 2025</time>
-    <h3>Israel Bonds representatives meet state officials</h3>
+    <time datetime="2025-04">April 2025</time>
+    <strong>Israel Bonds representatives meet state officials</strong>
     <p>Sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>May 2025</time>
-    <h3>$20M Treasury purchase; APERS authorizes $25&ndash;50M</h3>
+    <time datetime="2025-05">May 2025</time>
+    <strong>$20M Treasury purchase; APERS authorizes $25&ndash;50M</strong>
     <p>Treasury purchases two new $10M Israel Bonds, bringing holdings to $55M. APERS Investment Subcommittee unanimously authorizes $25&ndash;50M.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>June 2, 2025</time>
-    <h3>ATRS Board authorizes up to $50M</h3>
+    <time datetime="2025-06-02">June 2, 2025</time>
+    <strong>ATRS Board authorizes up to $50M</strong>
     <p>Board adopts Resolution 2025-22. Board Chair Danny Knight casts lone &ldquo;no&rdquo; vote, warning the process departs from standard practice.</p>
   </li>
   <li class="timeline-event">
-    <time>June 11, 2025</time>
-    <h3>APERS full board approves $25&ndash;50M</h3>
+    <time datetime="2025-06-11">June 11, 2025</time>
+    <strong>APERS full board approves $25&ndash;50M</strong>
     <p>Jason Brady introduces Israel Bonds citing Treasury&rsquo;s $55 million holdings. Board approves without independent financial analysis.</p>
   </li>
   <li class="timeline-event">
-    <time>July 2025</time>
-    <h3>Arkansas Times investigation published</h3>
+    <time datetime="2025-07">July 2025</time>
+    <strong>Arkansas Times investigation published</strong>
     <p>&ldquo;Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on.&rdquo;</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>August 2025</time>
-    <h3>Governor celebrates bond purchases</h3>
+    <time datetime="2025-08">August 2025</time>
+    <strong>Governor celebrates bond purchases</strong>
     <p>Governor Sanders: &ldquo;Arkansas puts its money where its mouth is and is investing millions in Israeli bonds!&rdquo;</p>
   </li>
   <li class="timeline-event">
-    <time>September 2025</time>
-    <h3>ATRS formalizes investment guidelines</h3>
+    <time datetime="2025-09">September 2025</time>
+    <strong>ATRS formalizes investment guidelines</strong>
     <p>Establishes written guidelines for &ldquo;Israeli Jubilee bond account&rdquo; managed by Reams Asset Management &mdash; four months after board authorization.</p>
   </li>
   <li class="timeline-event">
-    <time>November 2025</time>
-    <h3>APERS confirms purchase</h3>
+    <time datetime="2025-11">November 2025</time>
+    <strong>APERS confirms purchase</strong>
     <p>APERS receives first Israel Bonds statement, confirming a purchase eventually occurred.</p>
   </li>
 </ul>
@@ -141,28 +141,28 @@ The campaign is calling for a pause on new purchases, independent financial anal
 <h3 class="timeline-year">2026</h3>
 <ul class="timeline">
   <li class="timeline-event">
-    <time>February 5, 2026</time>
-    <h3>FOIA Round 2 submitted</h3>
+    <time datetime="2026-02-05">February 5, 2026</time>
+    <strong>FOIA Round 2 submitted</strong>
     <p>Second round of FOIA requests submitted to all four agencies.</p>
   </li>
   <li class="timeline-event">
-    <time>February 19, 2026</time>
-    <h3>Treasury delivers Round 2 response</h3>
+    <time datetime="2026-02-19">February 19, 2026</time>
+    <strong>Treasury delivers Round 2 response</strong>
     <p>118 documents, 2,526 pages.</p>
   </li>
   <li class="timeline-event">
-    <time>February 27, 2026</time>
-    <h3>APERS delivers Round 2 response</h3>
+    <time datetime="2026-02-27">February 27, 2026</time>
+    <strong>APERS delivers Round 2 response</strong>
     <p>16 documents including 8,648-page production.</p>
   </li>
   <li class="timeline-event">
-    <time>March 3, 2026</time>
-    <h3>ATRS delivers partial Round 2 response</h3>
+    <time datetime="2026-03-03">March 3, 2026</time>
+    <strong>ATRS delivers partial Round 2 response</strong>
     <p>7 documents. General Counsel Jennifer Kelly confirms full original scope will be honored.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
-    <time>March 2026</time>
-    <h3>Investigation corpus complete: 1,098 documents</h3>
+    <time datetime="2026-03">March 2026</time>
+    <strong>Investigation corpus complete: 1,098 documents</strong>
     <p>Auditor of State&rsquo;s Round 2 response received via flash drive from General Counsel TJ Fowler. Total: 1,098 documents across four agencies, two FOIA rounds.</p>
   </li>
 </ul>
