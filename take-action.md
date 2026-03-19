@@ -78,9 +78,9 @@ The 2027 Arkansas legislative session is an opportunity to establish stronger pe
 
 **Text RESIST to 50409** to reach your Arkansas state legislators through Resistbot. Ask them to:
 
-- Support pension transparency legislation in the 2027 session
+- Support the **[Pension Investment Transparency Act](/legislators/)** in the 2027 session — issuer-neutral legislation requiring independent analysis before pension funds commit to non-tradable sovereign debt
 - Require independent credit analysis before large new bond purchases
-- Ensure that Arkansas's pecuniary-only standard is enforced — for purchases and sales alike
+- Ensure that Arkansas's pecuniary-factors standard applies to purchases and sales alike
 
 You can also find your legislators at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/).
 
