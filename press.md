@@ -35,30 +35,137 @@ The campaign is calling for a pause on new purchases, independent financial anal
 
 ## Timeline of key events
 
-<div class="issue-agency-table issue-agency-table--fact-detail" markdown="1">
+<div class="timeline-wrapper">
 
-| Date | Event |
-|------|-------|
-| **2017** | Arkansas first purchases Israel Bonds through the State Treasury, following outreach from Israel Bonds representatives to then-Treasurer Dennis Milligan |
-| **October 2023** | State Board of Finance approves $10M additional Israel Bonds purchase; Treasurer Walther states "Those who bless Israel will be blessed, and those who curse Israel will be cursed" |
-| **February 2024** | Moody's downgrades Israel's sovereign credit rating from A1 to A2, with "Negative" outlook |
-| **April 2024** | S&P downgrades Israel's sovereign credit rating from AA- to A+, with "Negative" outlook |
-| **August 2024** | Fitch downgrades Israel's sovereign credit rating from A+ to A, with "Negative" outlook |
-| **September 2024** | Moody's further downgrades Israel from A2 to Baa1, with "Negative" outlook |
-| **October 2024** | S&P further downgrades Israel from A+ to A, with "Negative" outlook |
-| **Late 2024** | Internal Treasury memo from senior investment manager recommends holding off on new Israel Bonds purchases due to credit-rating downgrades |
-| **November 2024** | State Auditor Milligan arranges for Israel Bonds representatives to meet with state officials |
-| **April 2025** | Israel Bonds sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor |
-| **May 2025** | State Treasury purchases two new $10M Israel Bonds ($20M total), bringing holdings to $55M. APERS Investment Subcommittee unanimously authorizes $25–50M in Israel Bonds |
-| **June 2, 2025** | ATRS Board adopts Resolution 2025-22 authorizing up to $50M in Israel Bonds. Board Chair Danny Knight casts lone "no" vote |
-| **June 11, 2025** | APERS full board approves $25–50 million Israel Bonds authorization, following Jason Brady's introduction citing Treasury's $55 million holdings |
-| **July 2025** | Arkansas Times publishes in-depth investigation: "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on" |
-| **August 2025** | Governor Sanders publicly celebrates the bond purchases: "Arkansas puts its money where its mouth is" |
-| **September 2025** | ATRS establishes formal investment guidelines for "Israeli Jubilee bond account" managed by Reams Asset Management |
-| **November 2025** | APERS receives first Israel Bonds statement, confirming purchase occurred |
-| **February 5, 2026** | Second round of FOIA requests submitted to all four agencies |
-| **February 19, 2026** | Treasury delivers Round 2 response (118 documents, 2,526 pages) |
-| **February 27, 2026** | APERS delivers Round 2 response (16 documents including 8,648-page production) |
+<h3 class="timeline-year">2017</h3>
+<ul class="timeline">
+  <li class="timeline-event">
+    <time datetime="2017">2017</time>
+    <strong>Arkansas first purchases Israel Bonds</strong>
+    <p>State Treasury purchases through outreach from Israel Bonds representatives to then-Treasurer Dennis Milligan.</p>
+  </li>
+</ul>
+
+<h3 class="timeline-year">2023</h3>
+<ul class="timeline">
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2023-10">October 2023</time>
+    <strong>$10M purchase after October 7</strong>
+    <p>State Board of Finance approves purchase. Treasurer Walther: &ldquo;Those who bless Israel will be blessed, and those who curse Israel will be cursed.&rdquo;</p>
+  </li>
+</ul>
+
+<h3 class="timeline-year">2024</h3>
+<ul class="timeline">
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2024-02">February 2024</time>
+    <strong>Moody&rsquo;s downgrade: A1 &rarr; A2</strong>
+    <p>First major credit downgrade, with negative outlook.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2024-04">April 2024</time>
+    <strong>S&amp;P downgrade: AA- &rarr; A+</strong>
+    <p>S&amp;P downgrades Israel&rsquo;s sovereign credit rating, with negative outlook.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2024-08">August 2024</time>
+    <strong>Fitch downgrade: A+ &rarr; A</strong>
+    <p>Third major agency downgrades Israel, with negative outlook.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2024-09">September 2024</time>
+    <strong>Moody&rsquo;s second downgrade: A2 &rarr; Baa1</strong>
+    <p>Moody&rsquo;s further downgrades Israel, with negative outlook.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2024-10">October 2024</time>
+    <strong>S&amp;P second downgrade: A+ &rarr; A</strong>
+    <p>S&amp;P further downgrades Israel, with negative outlook.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2024">Late 2024</time>
+    <strong>Internal memo recommends against new purchases</strong>
+    <p>Senior Treasury investment manager cites credit downgrades, recommends holding positions and letting $17M roll off.</p>
+  </li>
+  <li class="timeline-event">
+    <time datetime="2024-11">November 2024</time>
+    <strong>Auditor arranges Israel Bonds meetings</strong>
+    <p>State Auditor Milligan arranges for Israel Bonds representatives to meet with state officials.</p>
+  </li>
+</ul>
+
+<h3 class="timeline-year">2025</h3>
+<ul class="timeline">
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2025-04">April 2025</time>
+    <strong>Israel Bonds representatives meet state officials</strong>
+    <p>Sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2025-05">May 2025</time>
+    <strong>$20M Treasury purchase; APERS authorizes $25&ndash;50M</strong>
+    <p>Treasury purchases two new $10M Israel Bonds, bringing holdings to $55M. APERS Investment Subcommittee unanimously authorizes $25&ndash;50M.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2025-06-02">June 2, 2025</time>
+    <strong>ATRS Board authorizes up to $50M</strong>
+    <p>Board adopts Resolution 2025-22. Board Chair Danny Knight casts lone &ldquo;no&rdquo; vote, warning the process departs from standard practice.</p>
+  </li>
+  <li class="timeline-event">
+    <time datetime="2025-06-11">June 11, 2025</time>
+    <strong>APERS full board approves $25&ndash;50M</strong>
+    <p>Jason Brady introduces Israel Bonds citing Treasury&rsquo;s $55 million holdings. Board approves without independent financial analysis.</p>
+  </li>
+  <li class="timeline-event">
+    <time datetime="2025-07">July 2025</time>
+    <strong>Arkansas Times investigation published</strong>
+    <p>&ldquo;Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on.&rdquo;</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2025-08">August 2025</time>
+    <strong>Governor celebrates bond purchases</strong>
+    <p>Governor Sanders: &ldquo;Arkansas puts its money where its mouth is and is investing millions in Israeli bonds!&rdquo;</p>
+  </li>
+  <li class="timeline-event">
+    <time datetime="2025-09">September 2025</time>
+    <strong>ATRS formalizes investment guidelines</strong>
+    <p>Establishes written guidelines for &ldquo;Israeli Jubilee bond account&rdquo; managed by Reams Asset Management &mdash; four months after board authorization.</p>
+  </li>
+  <li class="timeline-event">
+    <time datetime="2025-11">November 2025</time>
+    <strong>APERS confirms purchase</strong>
+    <p>APERS receives first Israel Bonds statement, confirming a purchase eventually occurred.</p>
+  </li>
+</ul>
+
+<h3 class="timeline-year">2026</h3>
+<ul class="timeline">
+  <li class="timeline-event">
+    <time datetime="2026-02-05">February 5, 2026</time>
+    <strong>FOIA Round 2 submitted</strong>
+    <p>Second round of FOIA requests submitted to all four agencies.</p>
+  </li>
+  <li class="timeline-event">
+    <time datetime="2026-02-19">February 19, 2026</time>
+    <strong>Treasury delivers Round 2 response</strong>
+    <p>118 documents, 2,526 pages.</p>
+  </li>
+  <li class="timeline-event">
+    <time datetime="2026-02-27">February 27, 2026</time>
+    <strong>APERS delivers Round 2 response</strong>
+    <p>16 documents including 8,648-page production.</p>
+  </li>
+  <li class="timeline-event">
+    <time datetime="2026-03-03">March 3, 2026</time>
+    <strong>ATRS delivers partial Round 2 response</strong>
+    <p>7 documents. General Counsel Jennifer Kelly confirms full original scope will be honored.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2026-03">March 2026</time>
+    <strong>Investigation corpus complete: 1,098 documents</strong>
+    <p>Auditor of State&rsquo;s Round 2 response received via flash drive from General Counsel TJ Fowler. Total: 1,098 documents across four agencies, two FOIA rounds.</p>
+  </li>
+</ul>
 
 </div>
 
@@ -168,6 +275,17 @@ Key evidence points:
 - **Credit ratings:** Moody's downgraded Israel from A1 to Baa1 (via A2); S&P downgraded from AA- to A (via A+); Fitch downgraded from A+ to A (August 2024); all three maintained negative outlook
 - **Prior press coverage:** Jennifer Lenow, "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on," *Arkansas Times*, July 11, 2025
 - **Source documents:** [Browse the full FOIA document archive](/documents/) — key evidence documents published for public review
+
+</div>
+
+<div class="press-resources" markdown="1">
+
+## Resources for download
+
+- [Policy brief — Pension Investment Transparency Act](/legislators/)
+- [Full evidence summary with source documents](/evidence/)
+- [FOIA document archive](/documents/)
+- [Media contact: divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=Media%20Inquiry)
 
 </div>
 
