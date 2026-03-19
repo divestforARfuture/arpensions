@@ -36,10 +36,6 @@ Our demands are narrow and rooted in existing Arkansas law:
 
 </div>
 
-## Our legislative strategy
-
-For the **2027 Arkansas legislative session**, we are proposing the **Pension Investment Transparency Act** — issuer-neutral legislation that would require independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
-
 <div class="faq-section" markdown="1">
 
 ## Frequently asked questions
