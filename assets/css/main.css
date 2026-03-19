@@ -679,20 +679,23 @@ article > section:first-child {
 .stat-card--zero {
   background: var(--d4arf-red-light);
   border-radius: 8px;
+  border: 2px solid var(--d4arf-red);
 }
 
 .stat-card--zero .stat-number {
   position: relative;
   display: inline-block;
+  font-size: clamp(3rem, 8vw, var(--text-5xl));
+  font-weight: 700;
 }
 
 .stat-card--zero .stat-number::after {
   content: '';
   position: absolute;
-  bottom: -6px;
+  bottom: -8px;
   left: 50%;
   transform: translateX(-50%);
-  width: 1.5rem;
+  width: 2rem;
   height: 3px;
   background: var(--d4arf-red);
   border-radius: 2px;
@@ -725,9 +728,26 @@ article > section:first-child {
   display: none;
 }
 
+/* Provenance annotation below stats */
+.stats-provenance {
+  text-align: center;
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.stats-provenance p {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-text-secondary);
+  letter-spacing: 0.02em;
+  margin: 0;
+  max-width: none;
+}
+
 @media (max-width: 600px) {
   .stats-bar {
-    padding: 3rem 1.5rem;
+    padding: var(--space-2xl) var(--space-lg);
   }
 
   .stats-grid {
@@ -736,12 +756,19 @@ article > section:first-child {
   }
 
   .stat-card {
-    padding: 1.5rem 1rem;
-    border-bottom: 1px solid var(--d4arf-border);
+    padding: var(--space-lg) var(--space-md);
   }
 
+  /* Transform vertical dividers into horizontal on mobile */
   .stat-card + .stat-card::before {
-    display: none;
+    position: static;
+    display: block;
+    width: 3rem;
+    height: 2px;
+    margin: 0 auto var(--space-lg);
+    transform: none;
+    top: auto;
+    left: auto;
   }
 
   .stat-card:last-child {
@@ -750,6 +777,11 @@ article > section:first-child {
 
   .stat-card--zero {
     border-bottom: none;
+  }
+
+  /* Re-show divider next to zero card on mobile since it's now horizontal */
+  .stat-card.stat-card--zero::before {
+    display: block;
   }
 }
 
