@@ -22,7 +22,15 @@ These are excerpts and key documents from nearly 1,100 public records obtained b
 
 All documents were provided by the agencies in response to lawful FOIA requests. Where noted, page ranges have been extracted from larger compiled document sets. No content has been altered.
 
+<div class="key-finding" markdown="1">
+
+**1,098 documents** obtained across two FOIA rounds from four Arkansas state agencies. 8 requests filed. Every claim on this site traces back to these records.
+
+</div>
+
 ---
+
+<span class="section-label">Primary sources</span>
 
 ## Key evidence documents
 
@@ -61,6 +69,8 @@ All documents were provided by the agencies in response to lawful FOIA requests.
 
 ---
 
+<span class="section-label">Extracted records</span>
+
 ## Excerpts from compiled records
 
 These are page-range extracts from larger compiled FOIA response documents.
@@ -95,6 +105,8 @@ These are page-range extracts from larger compiled FOIA response documents.
 
 ---
 
+<span class="section-label">Reference materials</span>
+
 ## Reference documents
 
 <ul class="document-list">
@@ -112,17 +124,48 @@ These are page-range extracts from larger compiled FOIA response documents.
 
 ---
 
+<span class="section-label">Second FOIA round</span>
+
 ## Round 2 FOIA responses (February 2026)
 
 A second round of FOIA requests produced 141 additional documents:
 
-**Treasury (118 documents, 2,526 pages):** Daily trading dashboards, ROI reports, Israel Bonds cash flow projections, a 412-page redacted communications compilation, custodial statements, SFOF conference materials, portfolio snapshots, Israel Bonds marketing materials, and management signoff records.
+<div class="meeting-grid" style="grid-template-columns: 1fr 1fr;">
+  <div class="meeting-info">
+    <p><strong>Treasury</strong></p>
+    <ul>
+      <li><strong>Documents:</strong> 118</li>
+      <li><strong>Pages:</strong> 2,526</li>
+      <li><strong>Contents:</strong> Daily trading dashboards, ROI reports, Israel Bonds cash flow projections, 412-page redacted communications compilation, custodial statements, SFOF conference materials, portfolio snapshots, marketing materials, management signoff records</li>
+    </ul>
+  </div>
+  <div class="meeting-info">
+    <p><strong>APERS</strong></p>
+    <ul>
+      <li><strong>Documents:</strong> 16</li>
+      <li><strong>Pages:</strong> 9,241 total</li>
+      <li><strong>Contents:</strong> Four quarterly board packets (March–December 2025), four Investment Finance Committee subcommittee packets, 8,648-page comprehensive FOIA production, six sets of meeting minutes</li>
+    </ul>
+  </div>
+</div>
 
-**APERS (16 documents, 9,241 total pages):** Four quarterly board packets (March–December 2025), four Investment Finance Committee subcommittee packets, an 8,648-page comprehensive FOIA production containing emails, internal communications, board materials, and news articles, plus six sets of meeting minutes (currently being processed).
-
-**ATRS (7 documents, 51 pages — partial response):** Investment guidelines for the "Israeli Jubilee bond account" managed by Reams Asset Management, contract documents, sign-in sheets, and email files. ATRS General Counsel confirmed the full original scope in writing, but only a partial response has been delivered to date.
-
-**Auditor of State:** Round 2 response received and under review.
+<div class="meeting-grid" style="grid-template-columns: 1fr 1fr;">
+  <div class="meeting-info">
+    <p><strong>ATRS</strong></p>
+    <ul>
+      <li><strong>Documents:</strong> 7 (partial response)</li>
+      <li><strong>Pages:</strong> 51</li>
+      <li><strong>Contents:</strong> Investment guidelines for "Israeli Jubilee bond account" managed by Reams Asset Management, contract documents, sign-in sheets, email files</li>
+      <li><strong>Status:</strong> Full scope confirmed in writing by ATRS General Counsel; full response not yet delivered</li>
+    </ul>
+  </div>
+  <div class="meeting-info">
+    <p><strong>Auditor of State</strong></p>
+    <ul>
+      <li><strong>Status:</strong> Round 2 response received and under review</li>
+    </ul>
+  </div>
+</div>
 
 Additional source documents are available upon request. Contact [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me).
 
