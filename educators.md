@@ -37,11 +37,26 @@ Here's what the record shows:
 
 <div class="callout" markdown="1">
 
-**The key question:** Israel Bonds would account for less than one-quarter of one percent of ATRS's $22.45 billion portfolio, but they represent a concentrated bet on a single foreign government and are less liquid than many standard fixed-income options. Was this trade-off made based on sound financial analysis — or political pressure?
+**The key question:** Israel Bonds would account for less than one-quarter of one percent of ATRS's $23.7 billion portfolio, but they represent a concentrated bet on a single foreign government and are less liquid than many standard fixed-income options. Was this trade-off made based on sound financial analysis — or political pressure?
 
 </div>
 
 ## ATRS by the numbers
+
+<div class="stats-grid" style="max-width: 720px; margin: 0 0 var(--space-xl);">
+  <div class="stat-card" style="padding: 1rem 0.75rem;">
+    <span class="stat-number" style="font-size: var(--text-2xl);">$23.7B</span>
+    <span class="stat-label">Net assets (FY2025)</span>
+  </div>
+  <div class="stat-card" style="padding: 1rem 0.75rem;">
+    <span class="stat-number" style="font-size: var(--text-2xl);">84%</span>
+    <span class="stat-label">Funded ratio</span>
+  </div>
+  <div class="stat-card" style="padding: 1rem 0.75rem;">
+    <span class="stat-number" style="font-size: var(--text-2xl);">#17</span>
+    <span class="stat-label">National ranking</span>
+  </div>
+</div>
 
 According to ATRS's own FY2025 Annual Report, the system holds **$23.7 billion in net assets** (and has since crossed $24 billion), posted a **9.8% investment return** for FY2025, and carries an overall funded ratio of approximately **84%** — meaning for every dollar owed to current and future retirees, the system has about 84 cents on hand. The unfunded liability stands at approximately **$4.1 billion**, with a **21-year amortization period** to close the gap.
 
