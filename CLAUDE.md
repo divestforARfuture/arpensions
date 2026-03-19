@@ -56,7 +56,9 @@ What the site is NOT: a protest site, a boycott campaign, partisan, or anti-Isra
 --color-cta: var(--d4arf-red);
 ```
 
-Fonts: Lora (editorial serif) + Inter (UI sans) + IBM Plex Mono (data) via Google Fonts. Logo: assets/images/d4arf-logo.png (40x40 nav, 48x48 footer).
+Fonts: Lora (editorial serif, headings only) + Inter (body text and UI) + IBM Plex Mono (data) via Google Fonts. Logo: assets/images/d4arf-logo.png (40x40 nav, 48x48 footer).
+
+Spacing tokens: `--space-xs` (0.25rem) through `--space-4xl` (6rem). Use these instead of ad-hoc values.
 
 ## Technical Constraints (Non-Negotiable)
 
@@ -67,9 +69,31 @@ Fonts: Lora (editorial serif) + Inter (UI sans) + IBM Plex Mono (data) via Googl
 5. WCAG AA accessibility. Semantic HTML, screen reader friendly, proper contrast. The current codebase has good a11y foundations — don't regress.
 6. No external JS dependencies beyond what's already loaded. Keep it fast and minimal.
 
+## CSS Component Library
+
+Key CSS components in `assets/css/main.css`:
+
+* `.evidence-card` — teal-bordered finding card with citation footer
+* `.pull-quote` — red-bordered quote with decorative open-quote mark
+* `.section-label` — teal uppercase wayfinding label
+* `.issue-agency-table` — red-header responsive data table (card-stacks on mobile)
+* `.issue-demands` — numbered demand cards with red circles
+* `.issue-symmetry` — gray panel for argumentative sections
+* `.issue-red-flags` — red left accent bar on bold-lead paragraphs
+* `.meeting-grid` — side-by-side info cards
+* `.letter-template` — styled letter with copy button (`.letter-template--compact` variant)
+* `.action-step` — numbered action card with effort-tier labels
+* `.action-nav` — pill-style jump navigation for action steps
+* `.action-tier-label` — effort tier badges (`--quick`, `--medium`, `--ongoing`)
+* `.timeline-wrapper` + `.timeline` — vertical timeline with year headers and highlight dots
+* `.evidence-timeline` — simpler vertical timeline (evidence page)
+* `.press-quotes` — pull-quote collection for press kit
+* `.press-resources` — compact reference/download card
+* `.callout` — bordered highlight box
+
 ## Design Direction
 
-The site currently looks like a competent template. It needs to feel like it was designed by a professional agency for a credible civic organization. The aesthetic direction: editorial/investigative journalism meets civic engagement.
+The aesthetic direction: editorial/investigative journalism meets civic engagement.
 
 Key principles:
 
@@ -124,3 +148,14 @@ Each PR should be a coherent, reviewable improvement:
 * A content update
 
 Don't rewrite everything in one PR. Small, reviewable chunks.
+
+## Website Current State (Post Redesign PRs)
+
+* **CSS foundation:** spacing tokens, Inter body text, Lora headings, color token consistency, dark mode support
+* **Homepage:** refined hero with $155M anchor stat, elevated stats bar with provenance annotation
+* **Evidence page:** section labels, evidence cards, sub-finding grouping
+* **Legislators page:** policy brief treatment with elevated provisions
+* **Audience pages:** refined letter templates, action steps, meeting info
+* **The-issue page:** component classes applied, section labels, symmetry pull quote
+* **Take-action page:** meeting grid, jump navigation, Transparency Act reference
+* **Press page:** vertical timeline, pull-quote components, download section
