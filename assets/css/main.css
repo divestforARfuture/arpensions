@@ -45,7 +45,7 @@
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'IBM Plex Mono', 'Cascadia Code', 'Fira Code', monospace;
   --font-display: var(--font-serif);
-  --font-body: var(--font-serif);
+  --font-body: var(--font-sans);
 
   /* Modular scale — 1.2 ratio (Minor Third) */
   --text-xs: 0.694rem;
@@ -58,11 +58,21 @@
   --text-3xl: 2.488rem;
   --text-4xl: 2.986rem;
   --text-5xl: 3.583rem;
+
+  /* Spacing scale — consistent rhythm */
+  --space-xs: 0.25rem;   /* 4px */
+  --space-sm: 0.5rem;    /* 8px */
+  --space-md: 1rem;      /* 16px */
+  --space-lg: 1.5rem;    /* 24px */
+  --space-xl: 2rem;      /* 32px */
+  --space-2xl: 3rem;     /* 48px */
+  --space-3xl: 4rem;     /* 64px */
+  --space-4xl: 6rem;     /* 96px */
 }
 
 /* --- Pico Overrides --- */
 :root {
-  --pico-font-family: var(--font-serif);
+  --pico-font-family: var(--font-body);
   --pico-font-size: 100%;
   --pico-line-height: 1.65;
   --pico-color: var(--d4arf-black);
@@ -88,7 +98,7 @@
 
 /* --- Base --- */
 body {
-  font-family: var(--font-serif);
+  font-family: var(--font-body);
   color: var(--color-text-primary);
   background-color: var(--color-bg-page);
 }
@@ -217,13 +227,13 @@ a:hover {
 .container {
   max-width: 64rem;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 var(--space-lg);
 }
 
 .container-prose {
   max-width: 720px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 var(--space-lg);
 }
 
 /* Body text constraint — prevent long lines (only at widths where container is wide enough to matter) */
@@ -572,7 +582,7 @@ article > section:first-child {
    STATS BAR — Impact numbers with scroll counter animation
    ========================================================================== */
 .stats-bar {
-  padding: 4rem 1.5rem;
+  padding: var(--space-3xl) var(--space-lg);
   background-color: var(--color-bg-surface);
 }
 
@@ -586,7 +596,7 @@ article > section:first-child {
 
 .stat-card {
   text-align: center;
-  padding: 2rem 1.5rem;
+  padding: var(--space-xl) var(--space-lg);
   position: relative;
 }
 
@@ -707,16 +717,16 @@ article > section:first-child {
    PATHWAY CARDS — Audience conversion paths
    ========================================================================== */
 .pathways {
-  padding: 4rem 1.5rem 5rem;
+  padding: var(--space-3xl) var(--space-lg) var(--space-4xl);
   background-color: var(--d4arf-gray-light);
 }
 
 .section-heading {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: var(--space-2xl);
   font-size: clamp(1.5rem, 3vw, 2rem);
   position: relative;
-  padding-bottom: 1rem;
+  padding-bottom: var(--space-md);
 }
 
 .section-heading::after {
@@ -734,7 +744,7 @@ article > section:first-child {
 .pathway-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: var(--space-lg);
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -742,7 +752,7 @@ article > section:first-child {
 .pathway-card {
   display: flex;
   flex-direction: column;
-  padding: 2rem 1.75rem;
+  padding: var(--space-xl) var(--space-lg);
   background: var(--color-bg-surface);
   border-radius: 8px;
   border: 1px solid var(--color-border);
@@ -829,7 +839,7 @@ article > section:first-child {
    ABOUT SECTION (Homepage)
    ========================================================================== */
 .about-section {
-  padding: 4rem 1.5rem 5rem;
+  padding: var(--space-3xl) var(--space-lg) var(--space-4xl);
 }
 
 .about-section .container-prose h2 {
@@ -1096,7 +1106,7 @@ blockquote p {
 .site-footer {
   background: var(--d4arf-black);
   color: #d1d5db;
-  padding: 4rem 0 2rem;
+  padding: var(--space-3xl) 0 var(--space-xl);
   margin-top: 0;
 }
 
