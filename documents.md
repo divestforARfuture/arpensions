@@ -122,7 +122,7 @@ A second round of FOIA requests produced 141 additional documents:
 
 **ATRS (7 documents, 51 pages — partial response):** Investment guidelines for the "Israeli Jubilee bond account" managed by Reams Asset Management, contract documents, sign-in sheets, and email files. ATRS General Counsel confirmed the full original scope in writing, but only a partial response has been delivered to date.
 
-**Auditor of State:** Round 2 response pending.
+**Auditor of State:** Round 2 response received and under review.
 
 Additional source documents are available upon request. Contact [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me).
 
