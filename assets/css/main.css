@@ -208,12 +208,6 @@ a:hover {
   border-radius: 6px;
 }
 
-.pathway-card:focus-visible {
-  outline-offset: -2px;
-  border-color: var(--d4arf-red);
-  box-shadow: 0 2px 8px rgba(185, 28, 28, 0.1);
-}
-
 .btn:focus-visible {
   outline-offset: 3px;
 }
@@ -482,40 +476,42 @@ article > section:first-child {
   text-align: left;
 }
 
-/* Hero anchor stat — a single striking number */
-.hero-stat {
-  display: inline-flex;
-  align-items: baseline;
-  gap: var(--space-sm);
-  margin-bottom: var(--space-xl);
-  padding: var(--space-sm) var(--space-md);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.05);
+/* Hero display stat — dramatic standalone number */
+.hero-display-stat {
+  margin-bottom: var(--space-lg);
 }
 
-.hero-stat-number {
-  font-family: var(--font-mono);
-  font-size: var(--text-2xl);
-  font-weight: 600;
-  color: var(--d4arf-red);
-  letter-spacing: -0.02em;
-  font-variant-numeric: tabular-nums;
+.hero-display-number {
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 8vw + 1rem, 5rem);
+  font-weight: 700;
+  color: var(--d4arf-accent);
   line-height: 1;
+  letter-spacing: -0.03em;
+  display: block;
 }
 
-/* In dark mode hero is always dark — pin red to the light-mode value */
-[data-theme="dark"] .hero-stat-number {
-  color: #EF4444;
+/* Hero is always dark bg — pin teal to the light value for contrast */
+[data-theme="dark"] .hero-display-number {
+  color: #5ec4d4;
 }
 
-.hero-stat-label {
+.hero-display-unit {
+  font-size: 0.45em;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-left: 0.15em;
+  vertical-align: baseline;
+}
+
+.hero-display-context {
   font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: rgba(255, 255, 255, 0.55);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 600;
+  font-size: var(--text-base);
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  margin-top: var(--space-xs);
+  max-width: 32rem;
+  line-height: 1.5;
 }
 
 .hero-cta {
@@ -534,8 +530,8 @@ article > section:first-child {
     align-items: flex-start;
   }
 
-  .hero-stat {
-    margin-bottom: var(--space-lg);
+  .hero-display-stat {
+    margin-bottom: var(--space-md);
   }
 }
 
@@ -788,7 +784,10 @@ article > section:first-child {
 /* ==========================================================================
    PATHWAY CARDS — Audience conversion paths
    ========================================================================== */
-.pathways {
+/* ==========================================================================
+   AUDIENCE GATEWAY — Unified audience routing cards
+   ========================================================================== */
+.audience-gateway {
   padding: var(--space-3xl) var(--space-lg) var(--space-4xl);
   background-color: var(--d4arf-gray-light);
 }
@@ -813,96 +812,107 @@ article > section:first-child {
   border-radius: 2px;
 }
 
-.pathway-grid {
+.audience-gateway-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-lg);
-  max-width: 1000px;
+  max-width: 64rem;
   margin: 0 auto;
 }
 
-.pathway-card {
+.audience-card {
   display: flex;
   flex-direction: column;
-  padding: var(--space-xl) var(--space-lg);
+  padding: var(--space-lg);
   background: var(--color-bg-surface);
-  border-radius: 8px;
   border: 1px solid var(--color-border);
-  border-left: 4px solid transparent;
+  border-left: 4px solid var(--d4arf-accent);
+  border-radius: 0 4px 4px 0;
   text-decoration: none;
-  color: var(--d4arf-black);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  color: var(--color-text-primary);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.pathway-card:hover {
-  border-left-color: var(--d4arf-red);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+.audience-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
-  color: var(--d4arf-black);
+  color: var(--color-text-primary);
 }
 
-.pathway-icon {
-  width: 48px;
-  height: 48px;
+.audience-card:focus-visible {
+  outline: 2px solid var(--d4arf-accent);
+  outline-offset: -2px;
+}
+
+.audience-card-icon {
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--d4arf-red-light);
-  border-radius: 10px;
-  margin-bottom: 1.25rem;
+  background: var(--d4arf-accent-light);
+  border-radius: 8px;
+  margin-bottom: var(--space-sm);
   flex-shrink: 0;
 }
 
-.pathway-icon svg {
-  color: var(--d4arf-red);
-  width: 24px;
-  height: 24px;
+.audience-card-icon svg {
+  color: var(--d4arf-accent);
+  width: 20px;
+  height: 20px;
 }
 
-.pathway-card h3 {
-  font-size: 1.15rem;
+.audience-card-label {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--d4arf-accent);
+  display: block;
   margin-bottom: 0.5rem;
 }
 
-.pathway-card p {
-  font-size: 0.95rem;
-  color: var(--d4arf-gray);
+.audience-card p {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
   margin: 0;
   line-height: 1.6;
   flex-grow: 1;
 }
 
-.pathway-arrow {
+.audience-card-link {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  font-size: 0.85rem;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
   font-weight: 600;
-  color: var(--d4arf-red);
-  margin-top: 1.25rem;
+  color: var(--d4arf-accent);
+  margin-top: var(--space-md);
   transition: gap 0.2s ease;
 }
 
-.pathway-arrow svg {
+.audience-card-link svg {
   width: 14px;
   height: 14px;
   transition: transform 0.2s ease;
 }
 
-.pathway-card:hover .pathway-arrow {
+.audience-card:hover .audience-card-link {
   gap: 0.55rem;
 }
 
-.pathway-card:hover .pathway-arrow svg {
+.audience-card:hover .audience-card-link svg {
   transform: translateX(2px);
 }
 
 @media (max-width: 768px) {
-  .pathway-grid {
+  .audience-gateway-grid {
     grid-template-columns: 1fr;
   }
 
-  .pathways {
+  .audience-gateway {
     padding: 3rem 1.5rem 4rem;
   }
 }
@@ -2237,22 +2247,22 @@ html.theme-transition *::after {
   --d4arf-accent: #5ec4d4;
   --d4arf-accent-light: #1a2f35;
   --d4arf-black: #E5E7EB;
-  --d4arf-white: #121218;
+  --d4arf-white: #1C1917;
 
   --d4arf-red-light: rgba(239, 68, 68, 0.12);
   --d4arf-green-light: rgba(34, 197, 94, 0.12);
   --d4arf-gray: #9CA3AF;
-  --d4arf-gray-light: #1E1E28;
-  --d4arf-border: #2D2D3A;
+  --d4arf-gray-light: #252220;
+  --d4arf-border: #302C28;
 
-  --color-bg-page: #121218;
-  --color-bg-panel: #1E1E28;
-  --color-bg-surface: #15151D;
+  --color-bg-page: #1C1917;
+  --color-bg-panel: #252220;
+  --color-bg-surface: #1E1C1A;
   --color-link: #5ec4d4;
   --color-link-hover: #7dd4e0;
   --color-text-primary: #E5E7EB;
   --color-text-secondary: #9CA3AF;
-  --color-border: #2D2D3A;
+  --color-border: #302C28;
 
   --d4arf-link: var(--color-link);
   --d4arf-link-hover: var(--color-link-hover);
@@ -2264,9 +2274,9 @@ html.theme-transition *::after {
   --pico-primary-hover: var(--d4arf-link-hover);
   --pico-muted-color: var(--d4arf-gray);
   --pico-muted-border-color: var(--d4arf-border);
-  --pico-card-background-color: #1A1A24;
+  --pico-card-background-color: #211F1C;
   --pico-card-border-color: var(--d4arf-border);
-  --pico-card-sectioning-background-color: #1E1E28;
+  --pico-card-sectioning-background-color: #252220;
 }
 
 /* ==========================================================================
@@ -2275,7 +2285,7 @@ html.theme-transition *::after {
 
 /* --- Navigation --- */
 [data-theme="dark"] .site-nav {
-  background: #15151D;
+  background: #1E1C1A;
   border-bottom-color: var(--d4arf-border);
 }
 
@@ -2287,7 +2297,7 @@ html.theme-transition *::after {
 
 @media (max-width: 768px) {
   [data-theme="dark"] .nav-links {
-    background: #15151D;
+    background: #1E1C1A;
     border-bottom-color: var(--d4arf-border);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
@@ -2321,21 +2331,21 @@ html.theme-transition *::after {
 
 
 
-/* --- Pathway Cards --- */
-[data-theme="dark"] .pathway-card {
-  background: #1A1A24;
-  border-color: var(--d4arf-border);
-  color: var(--d4arf-black);
+/* --- Audience Gateway Cards --- */
+[data-theme="dark"] .audience-card {
+  background: var(--color-bg-surface);
+  border-color: var(--color-border);
+  border-left-color: var(--d4arf-accent);
 }
 
-[data-theme="dark"] .pathway-card:hover {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-  color: var(--d4arf-black);
+[data-theme="dark"] .audience-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  color: var(--color-text-primary);
 }
 
 /* --- Letter Template --- */
 [data-theme="dark"] .letter-template {
-  background-color: #1A1A24;
+  background-color: #211F1C;
   border-color: var(--d4arf-border);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
@@ -2347,37 +2357,37 @@ html.theme-transition *::after {
 
 /* --- Issue Questions --- */
 [data-theme="dark"] .issue-questions {
-  background: #1A1A24;
+  background: #211F1C;
   border-color: var(--d4arf-border);
 }
 
 /* --- Script Card --- */
 [data-theme="dark"] .script-card {
-  background: #1A1A24;
+  background: #211F1C;
   border-color: var(--d4arf-border);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* --- Email Callout --- */
 [data-theme="dark"] .email-callout {
-  background: #1A1A24;
+  background: #211F1C;
   border-color: var(--d4arf-border);
 }
 
 /* --- Press Quotes --- */
 [data-theme="dark"] .press-quotes .pull-quote {
-  background: #1A1A24;
+  background: #211F1C;
   border-color: var(--d4arf-border);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
 }
 
 /* --- Action Steps (nested white backgrounds) --- */
 [data-theme="dark"] .action-step .callout {
-  background: #1A1A24;
+  background: #211F1C;
 }
 
 [data-theme="dark"] .action-step .letter-template {
-  background: #1A1A24;
+  background: #211F1C;
 }
 
 /* --- Footer: already dark, minor adjustments for dark-on-dark --- */
@@ -2386,7 +2396,7 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .footer-bottom {
-  border-top-color: #1E1E28;
+  border-top-color: #252220;
 }
 
 /* --- Blockquote --- */
@@ -2479,7 +2489,7 @@ html.theme-transition *::after {
 
 /* --- Audience Sub-Nav (dark mode) --- */
 [data-theme="dark"] .audience-nav {
-  background: #15151D;
+  background: #1E1C1A;
   border-bottom-color: var(--d4arf-border);
 }
 
@@ -2594,7 +2604,7 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .timeline .timeline-event::before {
-  border-color: #121218;
+  border-color: #1C1917;
 }
 
 .timeline .timeline-event.timeline-event--highlight::before {
@@ -2762,7 +2772,7 @@ html.theme-transition *::after {
   }
 
   [data-theme="dark"] .mobile-cta-bar {
-    background: #15151D;
+    background: #1E1C1A;
     border-top-color: rgba(255, 255, 255, 0.08);
   }
 
@@ -2856,85 +2866,7 @@ hr.section-break {
   background: var(--color-bg-surface);
 }
 
-/* ==========================================================================
-   ROLE CTA CARDS — Audience-segmented actions
-   ========================================================================== */
-.role-ctas {
-  padding: 4rem 0;
-  background: var(--color-bg-panel);
-}
-
-.role-ctas-heading {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.role-ctas-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  max-width: 64rem;
-  margin: 0 auto;
-}
-
-.role-card {
-  display: block;
-  padding: 1.5rem;
-  background: var(--color-bg-surface);
-  border: 1px solid var(--color-border);
-  border-left: 4px solid var(--d4arf-accent);
-  border-radius: 0 4px 4px 0;
-  text-decoration: none;
-  color: var(--color-text-primary);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.role-card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transform: translateY(-2px);
-  color: var(--color-text-primary);
-}
-
-.role-card-label {
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--d4arf-accent);
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.role-card p {
-  font-size: var(--text-base);
-  color: var(--color-text-secondary);
-  margin-bottom: 1rem;
-  max-width: none;
-}
-
-.role-card-link {
-  font-family: var(--font-sans);
-  font-weight: 600;
-  color: var(--d4arf-accent);
-  font-size: var(--text-sm);
-}
-
-[data-theme="dark"] .role-card {
-  background: var(--color-bg-surface);
-  border-color: var(--color-border);
-  border-left-color: var(--d4arf-accent);
-}
-
-[data-theme="dark"] .role-card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
-  color: var(--color-text-primary);
-}
-
-.role-card:focus-visible {
-  outline: 2px solid var(--d4arf-accent);
-  outline-offset: -2px;
-}
+/* Role CTA cards removed — replaced by audience-gateway */
 
 /* ==========================================================================
    LAYOUT — Section spacing and alternating backgrounds
@@ -2996,12 +2928,11 @@ hr.section-break {
   .copy-letter-btn,
   .skip-link,
   .btn,
-  .pathway-grid,
+  .audience-gateway-grid,
   .audience-nav,
   .theme-toggle-btn,
   .page-flow,
-  .mobile-cta-bar,
-  .role-ctas {
+  .mobile-cta-bar {
     display: none !important;
   }
 

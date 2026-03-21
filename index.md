@@ -8,9 +8,7 @@ description: "Arkansas pension funds authorized up to $155 million in Israel Bon
 
 {% include stats-bar.html %}
 
-{% include pathway-cards.html %}
-
-{% include role-ctas.html %}
+{% include audience-gateway.html %}
 
 <section class="about-section">
   <div class="container-prose">
