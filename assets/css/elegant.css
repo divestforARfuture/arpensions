@@ -79,6 +79,7 @@
   font-weight: 300;
   font-size: 1.05rem;
   line-height: 1.5;
+  /* Matches --pico-muted-color / footer nav link base color */
   color: #9ca3af;
 }
 
@@ -100,9 +101,9 @@
   left: 0;
 }
 
-/* Lighter link color on hover — teal instead of white */
+/* Footer link hover: light teal with adequate contrast on dark bg (~7:1 on #1b2127) */
 .footer-nav-col a:hover {
-  color: var(--d4arf-accent);
+  color: #5ec4d4;
 }
 
 /* Contact email — mono for consistency */
@@ -178,6 +179,7 @@
   margin-bottom: 0.75rem;
 }
 
+/* Center the dash only when the heading itself is centered (text-align inherits) */
 .section-heading[style*="text-align: center"]::before,
 .pathways .section-heading::before {
   margin-left: auto;
@@ -300,6 +302,7 @@
   text-decoration: none;
 }
 
+/* Focus: teal ring — currentColor matches the hero bg, so use brand accent instead */
 .hero .btn-primary-hero:focus-visible {
   outline: 2px solid var(--d4arf-accent);
   outline-offset: 3px;
@@ -599,6 +602,7 @@
   color: var(--d4arf-accent);
 }
 
+/* Remove bottom border on last row (desktop: 2-col, so last 2 items) */
 .role-link:nth-last-child(-n+2) {
   border-bottom: none;
 }
@@ -612,10 +616,12 @@
     border-right: none;
   }
 
+  /* Restore border on second-to-last (was suppressed by desktop nth-last-child rule) */
   .role-link:nth-last-child(-n+2) {
     border-bottom: 0.5px solid var(--color-border);
   }
 
+  /* Only the very last item is borderless */
   .role-link:last-child {
     border-bottom: none;
   }
@@ -699,14 +705,6 @@
 
   .pathways {
     padding: 2rem var(--space-lg) 2.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav-cta .btn-nav-cta {
-    border-color: var(--d4arf-accent);
-    color: var(--d4arf-accent);
-    background: transparent;
   }
 }
 
