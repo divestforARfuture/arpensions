@@ -4,6 +4,7 @@ title: "Evidence — Key Findings from 1,098 Arkansas Public Records"
 description: "Key findings from nearly 1,100 public records obtained through two rounds of FOIA requests to four Arkansas state agencies"
 permalink: /evidence/
 charts: true
+apexcharts: true
 ---
 
 <div class="evidence-page" markdown="1">
@@ -189,6 +190,23 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 <p class="bar-chart-note"><em>Treasury figure reflects current holdings (~0.5% of the Treasury's $11 billion portfolio), including $20M purchased since May 2025. ATRS authorization (~0.2% of ATRS's $23.7 billion portfolio) per Resolution 2025-22, June 2, 2025. APERS authorization (~0.2–0.4% of APERS's $11.82 billion portfolio) per Investment Subcommittee (May 15, 2025) and full board (June 11, 2025); at least one purchase confirmed by November 2025, exact amount unknown.</em></p>
 
 <p><em>While these percentages are small, the investigation concerns whether standard fiduciary process was followed — not portfolio materiality. Hover over each bar for detail.</em></p>
+
+---
+
+<div class="decision-window-section" data-aos="fade-up">
+
+## The decision window
+
+<p class="decision-window-sub">Three independent state agencies authorized up to $155 million within 49 days of the same April 2025 sales tour. The solid bars show how fast each agency moved from sales contact to board vote. The lighter bars show the gap between authorization and first investment action — in every case, months longer than the decision itself.</p>
+
+<div class="decision-window-container">
+  <div id="decision-window-chart" aria-label="Timeline range chart showing the compressed decision window: Treasury authorized in 1 month, APERS in 2 months, ATRS in 7 weeks after the April 2025 sales tour. Execution gaps ranged from immediate (Treasury) to 5 months (APERS)." role="img"></div>
+  <div id="decision-window-legend" class="decision-window-legend" aria-hidden="true"></div>
+</div>
+
+<p class="decision-window-note">Solid bars: sales tour to board authorization. Light bars: authorization to first confirmed investment action. Dashed lines mark the internal memo recommending a hold (Dec 2024) and the April sales tour. Hover over bars for exact dates and durations. All dates from FOIA source documents.</p>
+
+</div>
 
 ---
 
