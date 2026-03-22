@@ -1,12 +1,125 @@
 /* ========================================================================
    Elegant Redesign Layer
    Cormorant Garamond, theme-inverted hero, typographic stats,
-   pure-text pathways, teal-dash section headings
+   pure-text pathways, teal-dash section headings,
+   refined header + footer
    Loaded after main.css — overrides by cascade order
    ======================================================================== */
 
 :root {
   --font-elegant: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+}
+
+/* ========================================================================
+   NAVIGATION — Lighter weight, teal accents, restrained CTA
+   ======================================================================== */
+
+.nav-logo {
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.nav-title {
+  font-family: var(--font-elegant);
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 0;
+}
+
+.nav-links a {
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+}
+
+.nav-links a:hover,
+.nav-links a[aria-current="page"] {
+  color: var(--d4arf-accent);
+  background-color: var(--d4arf-accent-light);
+}
+
+/* CTA button: teal outline instead of red filled pill */
+.nav-cta .btn-nav-cta {
+  background: transparent;
+  color: var(--d4arf-accent);
+  border: 1px solid var(--d4arf-accent);
+  text-transform: none;
+  font-family: var(--font-elegant);
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  padding: 0.45rem 1.1rem;
+  border-radius: 2px;
+}
+
+.nav-cta .btn-nav-cta:hover,
+.nav-cta .btn-nav-cta:focus-visible {
+  background: var(--d4arf-accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Thinner nav border */
+.site-nav {
+  border-bottom: 0.5px solid var(--color-border);
+}
+
+[data-theme="dark"] .site-nav {
+  border-bottom: 0.5px solid var(--d4arf-border);
+}
+
+/* ========================================================================
+   FOOTER — Cormorant tagline, teal dashes on column headings
+   ======================================================================== */
+
+.footer-tagline {
+  font-family: var(--font-elegant);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  /* Matches --pico-muted-color / footer nav link base color */
+  color: #9ca3af;
+}
+
+/* Column headings: add teal dash above */
+.footer-heading {
+  position: relative;
+  padding-top: 0.75rem;
+}
+
+.footer-heading::before {
+  content: '';
+  display: block;
+  width: 0.75rem;
+  height: 1px;
+  background: var(--d4arf-accent);
+  margin-bottom: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Footer link hover: light teal with adequate contrast on dark bg (~7:1 on #1b2127) */
+.footer-nav-col a:hover {
+  color: #5ec4d4;
+}
+
+/* Contact email — mono for consistency */
+.footer-contact-email a {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+}
+
+/* Bottom bar refinement */
+.footer-bottom {
+  border-top-color: rgba(255, 255, 255, 0.06);
+}
+
+.footer-bottom p {
+  font-size: 0.75rem;
+  letter-spacing: 0.01em;
 }
 
 /* ========================================================================
