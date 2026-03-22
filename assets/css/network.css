@@ -4,108 +4,27 @@
    ========================================================================== */
 
 /* --- Override Pico container for full-width layout --- */
-.network-page main {
-  max-width: none;
-  padding: 0;
-  margin: 0;
-}
+.network-page main { max-width: none; padding: 0; margin: 0; }
 
 /* ==========================================================================
    HERO — Compact, editorial header with Cormorant typography
    ========================================================================== */
-.network-hero {
-  background-color: var(--d4arf-black);
-  padding: 3rem 1.5rem 2.5rem;
-  position: relative;
-  overflow: hidden;
-}
+.network-hero { background-color: var(--d4arf-black); padding: 3rem 1.5rem 2.5rem; position: relative; overflow: hidden; }
+.network-hero::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px); background-size: 48px 48px; pointer-events: none; }
+.network-hero::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: var(--d4arf-accent); }
+.network-hero .container { position: relative; z-index: 1; max-width: 1120px; margin: 0 auto; }
+.network-hero-content { max-width: 720px; }
+.network-eyebrow { color: rgba(255, 255, 255, 0.6); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.7rem; font-weight: 400; font-family: var(--font-mono); margin: 0 0 1.75rem; padding-left: 1.75rem; position: relative; }
+.network-eyebrow::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 1rem; height: 1px; background: var(--d4arf-accent); }
+.network-hero h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); color: #fff; margin-bottom: 1rem; line-height: 1.15; letter-spacing: -0.3px; font-family: var(--font-elegant); font-weight: 300; }
+.network-hero-sub { font-size: clamp(0.95rem, 1.5vw, 1.05rem); color: rgba(255, 255, 255, 0.6); max-width: 600px; margin: 0; line-height: 1.7; }
+.network-hero-sub strong { color: rgba(255, 255, 255, 0.9); }
 
-.network-hero::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-  background-size: 48px 48px;
-  pointer-events: none;
-}
-
-.network-hero::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: var(--d4arf-accent);
-}
-
-.network-hero .container {
-  position: relative;
-  z-index: 1;
-  max-width: 1120px;
-  margin: 0 auto;
-}
-
-.network-hero-content {
-  max-width: 720px;
-}
-
-.network-eyebrow {
-  color: rgba(255, 255, 255, 0.6);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.7rem;
-  font-weight: 400;
-  font-family: var(--font-mono);
-  margin: 0 0 1.75rem;
-  padding-left: 1.75rem;
-  position: relative;
-}
-
-.network-eyebrow::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 1rem;
-  height: 1px;
-  background: var(--d4arf-accent);
-}
-
-.network-hero h1 {
-  font-size: clamp(1.75rem, 4vw, 2.5rem);
-  color: #fff;
-  margin-bottom: 1rem;
-  line-height: 1.15;
-  letter-spacing: -0.3px;
-  font-family: var(--font-elegant);
-  font-weight: 300;
-}
-
-.network-hero-sub {
-  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
-  color: rgba(255, 255, 255, 0.6);
-  max-width: 600px;
-  margin: 0;
-  line-height: 1.7;
-}
-
-.network-hero-sub strong {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-/* ==========================================================================
-   NETWORK APP LAYOUT
-   ========================================================================== */
+/* === LAYOUT === */
 .network-app { background: var(--d4arf-white); }
 .network-layout { display: grid; grid-template-columns: 260px 1fr 320px; min-height: calc(100vh - 60px); }
 
-/* ==========================================================================
-   SIDEBAR
-   ========================================================================== */
+/* === SIDEBAR === */
 .network-sidebar { background: #fff; border-right: 0.5px solid var(--d4arf-border); padding: 1.5rem 1.25rem; overflow-y: auto; max-height: calc(100vh - 60px); position: sticky; top: 60px; }
 .sidebar-section { margin-bottom: 1.75rem; padding-bottom: 1.5rem; border-bottom: 0.5px solid var(--d4arf-border); }
 .sidebar-section:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
@@ -141,6 +60,7 @@
 .pathfinding-select:focus { border-color: var(--d4arf-accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--d4arf-accent) 15%, transparent); }
 .pathfinding-swap { align-self: center; width: 28px; height: 22px; display: flex; align-items: center; justify-content: center; background: none; border: 1px solid var(--d4arf-border); border-radius: 2px; color: var(--d4arf-gray); cursor: pointer; margin: 0.1rem 0; }
 .pathfinding-swap:hover { background: var(--d4arf-gray-light); color: var(--d4arf-accent); }
+.pathfinding-swap:focus-visible { outline: 2px solid var(--d4arf-accent); outline-offset: 2px; }
 .pathfinding-actions { display: flex; gap: 0.5rem; margin-top: 0.25rem; }
 .pathfinding-btn { padding: 0.4rem 0.75rem; font-family: var(--font-body); font-weight: 600; font-size: 0.8rem; border-radius: 2px; cursor: pointer; border: 1px solid var(--d4arf-border); background: #fff; color: var(--d4arf-gray); transition: background-color 0.15s, color 0.15s; }
 .pathfinding-btn:hover { background: var(--d4arf-gray-light); color: var(--d4arf-black); }
@@ -155,6 +75,7 @@
 .path-step:last-child { border-left-color: transparent; }
 .path-step-node { display: inline-flex; align-items: center; gap: 0.35rem; background: none; border: none; padding: 0.15rem 0; cursor: pointer; font-family: var(--font-body); font-size: 0.8rem; font-weight: 600; color: var(--d4arf-accent); text-align: left; }
 .path-step-node:hover { text-decoration: underline; }
+.path-step-node:focus-visible { outline: 2px solid var(--d4arf-accent); outline-offset: 2px; border-radius: 2px; }
 .path-step-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
 .path-step-edge { display: block; font-size: 0.7rem; color: var(--d4arf-gray); font-family: var(--font-mono); padding: 0.15rem 0 0.1rem 1.4rem; }
 .path-error { font-size: 0.8rem; color: var(--d4arf-gray); font-style: italic; margin: 0; }
@@ -173,9 +94,7 @@
 .legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8rem; color: var(--d4arf-gray); }
 .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 
-/* ==========================================================================
-   GRAPH AREA
-   ========================================================================== */
+/* === GRAPH AREA === */
 .network-graph-area { position: relative; background: #F8F7F5; overflow: hidden; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06); }
 .network-graph-area::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px); background-size: 64px 64px; pointer-events: none; z-index: 1; }
 .network-graph-area::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 50%, transparent 50%, rgba(0, 0, 0, 0.03) 100%); pointer-events: none; z-index: 2; }
@@ -194,9 +113,7 @@
 .graph-hint.hidden { opacity: 0; }
 .graph-hint p { font-size: 0.8rem; color: var(--d4arf-gray); font-family: var(--font-body); background: rgba(255, 255, 255, 0.8); border: 1px solid var(--d4arf-border); padding: 0.35rem 0.75rem; border-radius: 2px; margin: 0; }
 
-/* ==========================================================================
-   DETAIL PANEL
-   ========================================================================== */
+/* === DETAIL PANEL === */
 .network-detail { background: #fff; border-left: 0.5px solid var(--d4arf-border); overflow-y: auto; max-height: calc(100vh - 60px); position: sticky; top: 60px; }
 .detail-empty { padding: 3rem 1.5rem; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 300px; }
 .detail-empty-icon { color: var(--d4arf-border); margin-bottom: 1rem; }
@@ -212,7 +129,7 @@
 .detail-section { margin-bottom: 1.25rem; }
 .detail-section-heading { font-family: var(--font-mono); font-size: 0.7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--d4arf-gray); margin: 0 0 0.5rem; padding-bottom: 0.35rem; border-bottom: 0.5px solid var(--d4arf-border); }
 .detail-observations { list-style: none; padding: 0; margin: 0; }
-.detail-observations li { font-size: 0.85rem; color: var(--d4arf-gray); line-height: 1.55; padding: 0.4rem 0; border-bottom: 0.5px solid var(--d4arf-gray-light); padding-left: 0.75rem; position: relative; }
+.detail-observations li { font-size: 0.85rem; color: var(--d4arf-gray); line-height: 1.55; padding: 0.4rem 0 0.4rem 0.75rem; border-bottom: 0.5px solid var(--d4arf-gray-light); position: relative; }
 .detail-observations li::before { content: ''; position: absolute; left: 0; top: 0.7rem; width: 4px; height: 4px; background: var(--d4arf-accent); border-radius: 50%; }
 .detail-observations li:last-child { border-bottom: none; }
 .detail-connections { list-style: none; padding: 0; margin: 0; }
@@ -222,9 +139,7 @@
 .detail-connection-link:hover { text-decoration: underline; }
 .detail-connection-type { color: var(--d4arf-gray); font-size: 0.75rem; display: block; margin-top: 0.1rem; }
 
-/* ==========================================================================
-   TOUR NARRATION
-   ========================================================================== */
+/* === TOUR NARRATION === */
 .tour-narration { position: absolute; bottom: 4rem; left: 50%; transform: translateX(-50%); z-index: 25; background: #fff; border: 1px solid var(--d4arf-border); border-left: 4px solid var(--d4arf-accent); border-radius: 0 2px 2px 0; padding: 1rem 1.25rem; max-width: 480px; width: calc(100% - 2rem); box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); display: none; }
 .tour-narration.visible { display: block; }
 .tour-narration-step { font-size: 0.7rem; color: var(--d4arf-gray); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 500; font-family: var(--font-mono); margin: 0 0 0.35rem; }
@@ -237,14 +152,10 @@
 .tour-nav-btn.tour-exit { background: none; border: none; color: var(--d4arf-gray); font-size: 0.75rem; }
 .tour-nav-btn.tour-exit:hover { color: var(--d4arf-accent); }
 
-/* ==========================================================================
-   SCREEN-READER ONLY
-   ========================================================================== */
+/* === SCREEN-READER ONLY === */
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
-/* ==========================================================================
-   RESPONSIVE
-   ========================================================================== */
+/* === RESPONSIVE === */
 @media (max-width: 1024px) {
   .network-layout { grid-template-columns: 1fr; grid-template-rows: auto 70vh auto; }
   .network-sidebar { position: static; max-height: none; border-right: none; border-bottom: 0.5px solid var(--d4arf-border); display: grid; grid-template-columns: 1fr 1fr; gap: 0 1.5rem; padding: 1.25rem; }
@@ -255,7 +166,6 @@
   .network-detail { position: static; max-height: none; border-left: none; border-top: 0.5px solid var(--d4arf-border); }
   .tour-narration { bottom: 1rem; max-width: calc(100% - 2rem); }
 }
-
 @media (max-width: 600px) {
   .network-hero { padding: 2rem 1.5rem 1.5rem; }
   .network-hero h1 { font-size: 1.5rem; }
@@ -267,9 +177,7 @@
   .graph-control-btn--wide { width: 36px; padding: 0; }
 }
 
-/* ==========================================================================
-   DARK MODE
-   ========================================================================== */
+/* === DARK MODE === */
 [data-theme="dark"] .network-hero { background-color: #0D0D12; }
 [data-theme="dark"] .network-app { background: var(--d4arf-white); }
 [data-theme="dark"] .network-sidebar { background: #15151D; border-right-color: var(--d4arf-border); }
@@ -279,11 +187,10 @@
 [data-theme="dark"] .type-filter.active { background: var(--d4arf-accent-light); }
 [data-theme="dark"] .node-search { background: #1A1A24; border-color: var(--d4arf-border); color: var(--d4arf-black); }
 [data-theme="dark"] .node-search::placeholder { color: #6B7280; }
-[data-theme="dark"] .node-search:focus { border-color: var(--d4arf-accent); box-shadow: 0 0 0 2px color-mix(in srgb, var(--d4arf-accent) 15%, transparent); }
+[data-theme="dark"] .node-search:focus { border-color: var(--d4arf-accent); }
 [data-theme="dark"] .search-results { background: #1A1A24; border-color: var(--d4arf-border); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); }
 [data-theme="dark"] .search-result-item { color: var(--d4arf-black); }
 [data-theme="dark"] .search-result-item:hover, [data-theme="dark"] .search-result-item:focus, [data-theme="dark"] .search-result-item.active { background: var(--d4arf-accent-light); }
-/* Dark: Path-finding */
 [data-theme="dark"] .pathfinding-select { background: #1A1A24; border-color: var(--d4arf-border); color: var(--d4arf-black); }
 [data-theme="dark"] .pathfinding-select:focus { border-color: var(--d4arf-accent); }
 [data-theme="dark"] .pathfinding-swap { border-color: var(--d4arf-border); color: var(--d4arf-gray); }
@@ -294,19 +201,16 @@
 [data-theme="dark"] .path-result { border-top-color: var(--d4arf-border); }
 [data-theme="dark"] .path-step { border-left-color: var(--d4arf-accent); }
 [data-theme="dark"] .path-step:last-child { border-left-color: transparent; }
-/* Dark: Tours */
 [data-theme="dark"] .tour-btn { background: var(--d4arf-gray-light); border-color: var(--d4arf-border); }
 [data-theme="dark"] .tour-btn:hover { background: #1A1A24; }
 [data-theme="dark"] .tour-btn.tour-active { background: var(--d4arf-accent-light); }
 [data-theme="dark"] .tour-btn-title { color: var(--d4arf-black); }
-/* Dark: Graph area */
 [data-theme="dark"] .network-graph-area { background: #16161E; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); }
 [data-theme="dark"] .network-graph-area::before { background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px); }
 [data-theme="dark"] .network-graph-area::after { background: radial-gradient(ellipse at 50% 50%, transparent 50%, rgba(0, 0, 0, 0.15) 100%); }
 [data-theme="dark"] .graph-control-btn { background: #1A1A24; border-color: var(--d4arf-border); color: var(--d4arf-gray); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
 [data-theme="dark"] .graph-control-btn:hover { background: var(--d4arf-gray-light); color: var(--d4arf-black); }
 [data-theme="dark"] .graph-hint p { background: rgba(18, 18, 24, 0.85); border-color: var(--d4arf-border); color: var(--d4arf-gray); }
-/* Dark: Detail panel */
 [data-theme="dark"] .network-detail { background: #15151D; border-left-color: var(--d4arf-border); }
 [data-theme="dark"] .detail-close { border-color: var(--d4arf-border); color: var(--d4arf-gray); }
 [data-theme="dark"] .detail-close:hover { background: var(--d4arf-gray-light); color: var(--d4arf-black); }
@@ -314,7 +218,6 @@
 [data-theme="dark"] .detail-section-heading { border-bottom-color: var(--d4arf-border); }
 [data-theme="dark"] .detail-observations li { border-bottom-color: var(--d4arf-gray-light); }
 [data-theme="dark"] .detail-connections li { border-bottom-color: var(--d4arf-gray-light); }
-/* Dark: Tour narration */
 [data-theme="dark"] .tour-narration { background: #1A1A24; border-color: var(--d4arf-border); box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.15); }
 [data-theme="dark"] .tour-nav-btn { border-color: var(--d4arf-border); background: #1A1A24; color: var(--d4arf-gray); }
 [data-theme="dark"] .tour-nav-btn:hover { background: var(--d4arf-gray-light); color: var(--d4arf-black); }
@@ -324,9 +227,7 @@
   [data-theme="dark"] .network-detail { border-top-color: var(--d4arf-border); border-left: none; }
 }
 
-/* ==========================================================================
-   PRINT
-   ========================================================================== */
+/* === PRINT === */
 @media print {
   .network-sidebar, .graph-controls, .graph-hint, .tour-narration { display: none; }
   .network-layout { grid-template-columns: 1fr; }
