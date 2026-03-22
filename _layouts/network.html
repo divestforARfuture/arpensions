@@ -13,7 +13,15 @@
   {% include footer.html %}
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/d3.v7.min.js' | relative_url }}"></script>
+  <!-- Cytoscape.js core -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.33.1/cytoscape.min.js"></script>
+  <!-- Layout extensions -->
+  <script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
+  <script src="https://unpkg.com/cytoscape-dagre@2.5.0/cytoscape-dagre.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cytoscape-fcose@2/cytoscape-fcose.min.js"></script>
+  <!-- Fuzzy search -->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js"></script>
+  <!-- Network visualization -->
   <script src="{{ '/assets/js/network.js' | relative_url }}" data-graph-url="{{ '/assets/js/network-graph.json' | relative_url }}"></script>
 </body>
 </html>
