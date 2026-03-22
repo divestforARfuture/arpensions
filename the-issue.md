@@ -3,6 +3,7 @@ layout: page
 title: "The Issue — Up to $100M in Pension Fund Exposure Authorized Without Independent Analysis"
 description: "Up to $100 million in Arkansas pension fund exposure authorized for Israel Bonds despite credit downgrades, internal advice against new purchases, and no independent analysis."
 permalink: /the-issue/
+d3sankey: true
 ---
 
 <div class="issue-page" markdown="1">
@@ -57,6 +58,49 @@ These authorizations came in rapid succession — and under circumstances that r
 **What changed between the late-2024 recommendation to hold and the spring 2025 buying spree?** Not the credit ratings — those continued to decline. Not the financial outlook — the risks identified in the internal memo remained. The only thing that changed was the political pressure.
 
 </div>
+
+---
+
+<div class="influence-flow-section" data-aos="fade-up">
+
+<span class="section-label">The influence chain</span>
+
+## How did it happen?
+
+The diagram below traces the documented connections from our FOIA investigation. Two sources of influence — Dennis Milligan (the former Treasurer who became Auditor of State) and Israel Bonds sales representatives — flow through intermediaries to reach three state agencies and an interstate replication network. Hover over any connection to see the specific relationship documented in public records.
+
+<div class="influence-sankey-container">
+  <div id="influence-sankey"></div>
+</div>
+
+<div class="sankey-legend" aria-hidden="true">
+  <span class="sankey-legend-item">
+    <span class="sankey-legend-dot" style="background: #B91C1C;"></span>
+    Political origin
+  </span>
+  <span class="sankey-legend-item">
+    <span class="sankey-legend-dot" style="background: #B45309;"></span>
+    Bond seller
+  </span>
+  <span class="sankey-legend-item">
+    <span class="sankey-legend-dot" style="background: #6B7280;"></span>
+    Conduit
+  </span>
+  <span class="sankey-legend-item">
+    <span class="sankey-legend-dot" style="background: #0C7489;"></span>
+    Agency authorization
+  </span>
+  <span class="sankey-legend-item">
+    <span class="sankey-legend-dot" style="background: #4F46E5;"></span>
+    Interstate replication
+  </span>
+</div>
+
+<p class="influence-flow-note">Every connection shown is documented in FOIA records obtained from four Arkansas state agencies. Link thickness represents relative influence weight, not dollar amounts. For the full evidence chain, see our <a href="/evidence/">evidence page</a> and <a href="/network/">interactive network graph</a>.</p>
+
+</div>
+
+---
 
 <div class="issue-red-flags" markdown="1">
 
