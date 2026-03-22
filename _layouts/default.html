@@ -3,7 +3,7 @@
 <head>
   {% include head.html %}
   {% if page.apexcharts %}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/5.3.5/apexcharts.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/5.3.5/apexcharts.min.css" integrity="sha256-4Zth5NP7MRgieYU9e/ytyyN9QruBn8LvToQJDxm9PP4=" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ '/assets/css/decision-window.css' | relative_url }}">
   {% endif %}
 </head>
@@ -36,7 +36,7 @@
   {% endif %}
   {% if page.apexcharts %}
   <!-- ApexCharts (loaded only on pages with apexcharts: true) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/5.3.5/apexcharts.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/5.3.5/apexcharts.min.js" integrity="sha256-bkRsdYypJxkldg2rVXbAmKR6KTKYSANR3TiVKo2Y7Tg=" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/decision-window.js' | relative_url }}"></script>
   {% endif %}
 </body>

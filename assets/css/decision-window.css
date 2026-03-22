@@ -57,12 +57,12 @@
 }
 
 .dw-legend-swatch--solid {
-  background: var(--d4arf-accent);
+  background: var(--d4arf-black);
 }
 
 .dw-legend-swatch--light {
-  background: var(--d4arf-accent);
-  opacity: 0.3;
+  background: var(--d4arf-black);
+  opacity: 0.25;
 }
 
 .dw-legend-swatch--annot {
@@ -82,8 +82,9 @@
 }
 
 /* --- Dark mode --- */
+/* Soften the section divider in dark mode */
 [data-theme="dark"] .decision-window-section {
-  border-top-color: var(--d4arf-border);
+  border-top-color: rgba(255, 255, 255, 0.08);
 }
 
 /* --- Responsive --- */

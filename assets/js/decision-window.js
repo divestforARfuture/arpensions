@@ -148,11 +148,12 @@
           };
           var days = Math.round((y2 - y1) / (1000 * 60 * 60 * 24));
           var durationLabel = days <= 2 ? 'Immediate' : days + ' days';
+          var tc = getColors();
           return '<div style="padding:10px 14px;font-family:Inter,system-ui,sans-serif;font-size:12px;' +
-            'background:' + getColors().tooltipBg + ';color:' + getColors().text + ';' +
-            'border:1px solid ' + getColors().gridLine + ';border-radius:2px;">' +
+            'background:' + tc.tooltipBg + ';color:' + tc.text + ';' +
+            'border:1px solid ' + tc.gridLine + ';border-radius:2px;">' +
             '<strong>' + seriesName + '</strong><br>' +
-            '<span style="font-family:IBM Plex Mono,monospace;font-size:11px;color:' + getColors().textMuted + '">' +
+            '<span style="font-family:IBM Plex Mono,monospace;font-size:11px;color:' + tc.textMuted + '">' +
             fmt(y1) + ' \u2192 ' + fmt(y2) + ' (' + durationLabel + ')' +
             '</span></div>';
         }
