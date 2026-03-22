@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
   {% include head.html %}
+  {% if page.apexcharts %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/5.3.5/apexcharts.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ '/assets/css/decision-window.css' | relative_url }}">
+  {% endif %}
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -29,6 +33,11 @@
   <!-- Chart.js (loaded only on pages with charts: true) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.8/chart.umd.min.js" integrity="sha256-VffZ6ZuOLU4OGTsvAnVQHm2cHr0pytvqag2kioWH4+A=" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/charts.js' | relative_url }}"></script>
+  {% endif %}
+  {% if page.apexcharts %}
+  <!-- ApexCharts (loaded only on pages with apexcharts: true) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/5.3.5/apexcharts.min.js" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/js/decision-window.js' | relative_url }}"></script>
   {% endif %}
 </body>
 </html>
