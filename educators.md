@@ -4,6 +4,7 @@ title: "ATRS & Israel Bonds — What Arkansas Teachers Should Know"
 description: "What Arkansas teachers and retired educators need to know about ATRS pension investments in Israel Bonds."
 permalink: /educators/
 audience_nav: true
+charts: true
 ---
 
 ## What's happening with YOUR pension
@@ -43,14 +44,18 @@ Here's what the record shows:
 
 ## ATRS by the numbers
 
+<div style="max-width: 280px; margin: 0 auto 1.5rem;" data-aos="fade-up">
+  <canvas id="atrs-funded-gauge" aria-label="ATRS funded ratio: approximately 84 percent" role="img"></canvas>
+</div>
+
 <div class="stats-grid" style="max-width: 720px; margin: 0 0 var(--space-xl);">
   <div class="stat-card" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">$23.7B</span>
     <span class="stat-label">Net assets (FY2025)</span>
   </div>
   <div class="stat-card" style="padding: 1rem 0.75rem;">
-    <span class="stat-number" style="font-size: var(--text-2xl);">84%</span>
-    <span class="stat-label">Funded ratio</span>
+    <span class="stat-number" style="font-size: var(--text-2xl);">9.8%</span>
+    <span class="stat-label">FY2025 return</span>
   </div>
   <div class="stat-card" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">#17</span>
