@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/5.3.5/apexcharts.min.css" integrity="sha256-4Zth5NP7MRgieYU9e/ytyyN9QruBn8LvToQJDxm9PP4=" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ '/assets/css/decision-window.css' | relative_url }}">
   {% endif %}
+  {% if page.d3sankey %}
+  <link rel="stylesheet" href="{{ '/assets/css/influence-sankey.css' | relative_url }}">
+  {% endif %}
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -38,6 +41,12 @@
   <!-- ApexCharts (loaded only on pages with apexcharts: true) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/5.3.5/apexcharts.min.js" integrity="sha256-bkRsdYypJxkldg2rVXbAmKR6KTKYSANR3TiVKo2Y7Tg=" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/decision-window.js' | relative_url }}"></script>
+  {% endif %}
+  {% if page.d3sankey %}
+  <!-- D3.js + d3-sankey (loaded only on pages with d3sankey: true) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha256-8glLv2FBs1lyLE/kVOtsSw8OQswQzHr5IfwVj864ZTk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-sankey/0.12.3/d3-sankey.min.js" integrity="sha256-gobbXWqgScxuilRnCJQ7ed+02q77DM9Cr2dOwO5Mhr4=" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/js/influence-sankey.js' | relative_url }}"></script>
   {% endif %}
 </body>
 </html>
