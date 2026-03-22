@@ -1,0 +1,443 @@
+/* ========================================================================
+   Elegant Redesign Layer
+   Cormorant Garamond, theme-inverted hero, typographic stats
+   Loaded after main.css — overrides by cascade order
+   ======================================================================== */
+
+:root {
+  --font-elegant: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+}
+
+/* ========================================================================
+   HERO — Theme-inverted, ghost watermark, thin serif typography
+   ======================================================================== */
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-top: none;
+  padding: 3.5rem var(--space-lg) 3rem;
+}
+
+.hero::before,
+.hero::after {
+  display: none;
+}
+
+/* Ghost watermark */
+.hero-ghost {
+  position: absolute;
+  font-family: var(--font-elegant);
+  font-weight: 300;
+  font-size: clamp(8rem, 20vw, 11rem);
+  line-height: 1;
+  pointer-events: none;
+  right: var(--space-lg);
+  top: 0.5rem;
+  letter-spacing: -3px;
+  user-select: none;
+}
+
+/* Eyebrow */
+.hero-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  margin: 0 0 1.75rem;
+  padding-left: 1.75rem;
+  position: relative;
+}
+
+.hero-eyebrow::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1rem;
+  height: 1px;
+  background: #0C7489;
+}
+
+/* Headline */
+.hero h1 {
+  font-family: var(--font-elegant);
+  font-weight: 300;
+  font-size: clamp(1.75rem, 4vw + 0.5rem, 2.6rem);
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+  margin-bottom: 1.25rem;
+  max-width: 520px;
+}
+
+/* Subtitle */
+.hero-sub,
+.hero-subtitle {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  max-width: 440px;
+  margin: 0 0 2rem;
+}
+
+/* Buttons */
+.btn-primary-hero {
+  font-family: var(--font-elegant) !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  padding: 0.65rem 1.5rem;
+  border-radius: 2px;
+  text-decoration: none;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+.btn-primary-hero:hover {
+  opacity: 0.88;
+  text-decoration: none;
+}
+
+.btn-secondary-hero {
+  font-family: var(--font-elegant) !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  padding: 0.65rem 1.5rem;
+  border-radius: 2px;
+  text-decoration: none;
+  background: transparent;
+  transition: opacity 0.2s;
+}
+
+.btn-secondary-hero:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Hide old hero stat block if it appears */
+.hero-stat {
+  display: none;
+}
+
+/* --- Light theme: dark hero --- */
+[data-theme="light"] .hero {
+  background-color: #1b2127;
+}
+
+[data-theme="light"] .hero-ghost {
+  color: rgba(248, 247, 245, 0.04);
+}
+
+[data-theme="light"] .hero-eyebrow {
+  color: rgba(248, 247, 245, 0.4);
+}
+
+[data-theme="light"] .hero h1 {
+  color: #F8F7F5;
+}
+
+[data-theme="light"] .hero-sub,
+[data-theme="light"] .hero-subtitle {
+  color: rgba(248, 247, 245, 0.55);
+}
+
+[data-theme="light"] .btn-primary-hero {
+  background: #F8F7F5;
+  color: #1b2127;
+}
+
+[data-theme="light"] .btn-primary-hero:hover {
+  color: #1b2127;
+}
+
+[data-theme="light"] .btn-secondary-hero {
+  border: 1px solid rgba(248, 247, 245, 0.2);
+  color: rgba(248, 247, 245, 0.7);
+}
+
+[data-theme="light"] .btn-secondary-hero:hover {
+  color: rgba(248, 247, 245, 0.7);
+}
+
+/* --- Dark theme: cream hero --- */
+[data-theme="dark"] .hero {
+  background-color: #F8F7F5;
+}
+
+[data-theme="dark"] .hero-ghost {
+  color: rgba(27, 33, 39, 0.045);
+}
+
+[data-theme="dark"] .hero-eyebrow {
+  color: rgba(27, 33, 39, 0.35);
+}
+
+[data-theme="dark"] .hero h1 {
+  color: #1b2127;
+}
+
+[data-theme="dark"] .hero-sub,
+[data-theme="dark"] .hero-subtitle {
+  color: rgba(27, 33, 39, 0.5);
+}
+
+[data-theme="dark"] .btn-primary-hero {
+  background: #1b2127;
+  color: #F8F7F5;
+}
+
+[data-theme="dark"] .btn-primary-hero:hover {
+  color: #F8F7F5;
+}
+
+[data-theme="dark"] .btn-secondary-hero {
+  border: 1px solid rgba(27, 33, 39, 0.15);
+  color: rgba(27, 33, 39, 0.5);
+}
+
+[data-theme="dark"] .btn-secondary-hero:hover {
+  color: rgba(27, 33, 39, 0.5);
+}
+
+/* --- Fallback (no data-theme set): dark hero --- */
+:root:not([data-theme]) .hero {
+  background-color: #1b2127;
+}
+
+:root:not([data-theme]) .hero-ghost {
+  color: rgba(248, 247, 245, 0.04);
+}
+
+:root:not([data-theme]) .hero-eyebrow {
+  color: rgba(248, 247, 245, 0.4);
+}
+
+:root:not([data-theme]) .hero h1 {
+  color: #F8F7F5;
+}
+
+:root:not([data-theme]) .hero-sub {
+  color: rgba(248, 247, 245, 0.55);
+}
+
+:root:not([data-theme]) .btn-primary-hero {
+  background: #F8F7F5;
+  color: #1b2127;
+}
+
+:root:not([data-theme]) .btn-secondary-hero {
+  border: 1px solid rgba(248, 247, 245, 0.2);
+  color: rgba(248, 247, 245, 0.7);
+}
+
+/* ========================================================================
+   STATS BAR — Pure typography, no cards, no boxes
+   ======================================================================== */
+
+.stats-bar {
+  padding: 2.5rem var(--space-lg) 1.75rem;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.stat {
+  flex: 1;
+}
+
+.stat .stat-number {
+  display: block;
+  font-family: var(--font-elegant);
+  font-weight: 300;
+  font-size: clamp(2.5rem, 5vw, 3.25rem);
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.stat-rule {
+  display: block;
+  width: 1.5rem;
+  height: 1px;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat .stat-label {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  max-width: 180px;
+  margin: 0;
+  text-align: left;
+}
+
+/* Remove old stat-card zero treatment */
+.stat-card--zero {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+
+.stat-card--zero .stat-number::after {
+  display: none;
+}
+
+/* Provenance */
+.stats-provenance {
+  text-align: left;
+  max-width: 720px;
+  margin: 1rem auto 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.stats-provenance p {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.03em;
+}
+
+/* --- Light theme: cream stats --- */
+[data-theme="light"] .stats-bar {
+  background-color: #F8F7F5;
+}
+
+[data-theme="light"] .stat .stat-number {
+  color: #1b2127;
+}
+
+[data-theme="light"] .stat--zero .stat-number {
+  color: #B91C1C;
+}
+
+[data-theme="light"] .stat-rule {
+  background: rgba(27, 33, 39, 0.12);
+}
+
+[data-theme="light"] .stat--zero .stat-rule {
+  background: rgba(185, 28, 28, 0.3);
+}
+
+[data-theme="light"] .stat .stat-label {
+  color: #73726c;
+}
+
+[data-theme="light"] .stats-provenance p {
+  color: rgba(27, 33, 39, 0.3);
+}
+
+/* --- Dark theme: dark stats --- */
+[data-theme="dark"] .stats-bar {
+  background-color: #1b2127;
+}
+
+[data-theme="dark"] .stat .stat-number {
+  color: #F8F7F5;
+}
+
+[data-theme="dark"] .stat--zero .stat-number {
+  color: #e85d5d;
+}
+
+[data-theme="dark"] .stat-rule {
+  background: rgba(248, 247, 245, 0.1);
+}
+
+[data-theme="dark"] .stat--zero .stat-rule {
+  background: rgba(232, 93, 93, 0.3);
+}
+
+[data-theme="dark"] .stat .stat-label {
+  color: rgba(248, 247, 245, 0.45);
+}
+
+[data-theme="dark"] .stats-provenance p {
+  color: rgba(248, 247, 245, 0.2);
+}
+
+/* --- Fallback (no data-theme) --- */
+:root:not([data-theme]) .stats-bar {
+  background-color: #F8F7F5;
+}
+
+:root:not([data-theme]) .stat .stat-number {
+  color: #1b2127;
+}
+
+:root:not([data-theme]) .stat--zero .stat-number {
+  color: #B91C1C;
+}
+
+:root:not([data-theme]) .stat-rule {
+  background: rgba(27, 33, 39, 0.12);
+}
+
+:root:not([data-theme]) .stat--zero .stat-rule {
+  background: rgba(185, 28, 28, 0.3);
+}
+
+:root:not([data-theme]) .stat .stat-label {
+  color: #73726c;
+}
+
+:root:not([data-theme]) .stats-provenance p {
+  color: rgba(27, 33, 39, 0.3);
+}
+
+/* ========================================================================
+   MOBILE
+   ======================================================================== */
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 2.5rem var(--space-lg) 2rem;
+  }
+
+  .hero-ghost {
+    font-size: 6rem;
+    right: 0.5rem;
+    top: 0;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .stats-grid {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .stat .stat-label {
+    max-width: 280px;
+  }
+}
+
+/* ========================================================================
+   PRINT
+   ======================================================================== */
+
+@media print {
+  .hero-ghost {
+    display: none;
+  }
+
+  .hero h1 {
+    font-family: Georgia, serif;
+    font-weight: 300;
+  }
+
+  .stat .stat-number {
+    font-family: Georgia, serif;
+  }
+}
