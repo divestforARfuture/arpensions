@@ -3,6 +3,7 @@ layout: page
 title: "Evidence — Key Findings from 1,098 Arkansas Public Records"
 description: "Key findings from nearly 1,100 public records obtained through two rounds of FOIA requests to four Arkansas state agencies"
 permalink: /evidence/
+charts: true
 ---
 
 <div class="evidence-page" markdown="1">
@@ -164,6 +165,11 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 ## Authorized or committed exposure by agency
 
+<div class="chart-container" data-aos="fade-up" style="position: relative; max-width: 640px; height: 200px; margin-bottom: 1.25rem;">
+  <canvas id="exposure-chart" aria-label="Bar chart: Arkansas Treasury $55M, ATRS up to $50M, APERS $25–50M in Israel Bonds exposure" role="img"></canvas>
+</div>
+
+<noscript>
 <ul class="bar-chart" role="list" aria-label="Israel Bonds authorized or committed exposure by agency">
   <li>
     <div class="bar-chart-label"><span>Arkansas Treasury</span><span>$55M</span></div>
@@ -178,10 +184,11 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <div class="bar-chart-bar bar-chart-bar--tertiary" style="width: 91%" aria-hidden="true"></div>
   </li>
 </ul>
+</noscript>
 
-<p class="bar-chart-note"><em>Treasury figure reflects current holdings (~0.5% of the Treasury's $11 billion portfolio), including $20M purchased since May 2025. ATRS authorization (~0.2% of ATRS's $22.45 billion portfolio) per Resolution 2025-22, June 2, 2025. APERS authorization (~0.2–0.4% of APERS's $11.92 billion portfolio) per Investment Subcommittee (May 15, 2025) and full board (June 11, 2025); at least one purchase confirmed by November 2025, exact amount unknown.</em></p>
+<p class="bar-chart-note"><em>Treasury figure reflects current holdings (~0.5% of the Treasury's $11 billion portfolio), including $20M purchased since May 2025. ATRS authorization (~0.2% of ATRS's $23.7 billion portfolio) per Resolution 2025-22, June 2, 2025. APERS authorization (~0.2–0.4% of APERS's $11.82 billion portfolio) per Investment Subcommittee (May 15, 2025) and full board (June 11, 2025); at least one purchase confirmed by November 2025, exact amount unknown.</em></p>
 
-<p><em>While these percentages are small, the investigation concerns whether standard fiduciary process was followed — not portfolio materiality.</em></p>
+<p><em>While these percentages are small, the investigation concerns whether standard fiduciary process was followed — not portfolio materiality. Hover over each bar for detail.</em></p>
 
 ---
 
