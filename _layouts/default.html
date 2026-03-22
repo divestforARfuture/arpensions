@@ -25,5 +25,10 @@
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
   <!-- Scroll animations: AOS init + animated counters -->
   <script src="{{ '/assets/js/scroll-animations.js' | relative_url }}"></script>
+  {% if page.charts %}
+  <!-- Chart.js (loaded only on pages with charts: true) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.8/chart.umd.min.js" integrity="sha256-VffZ6ZuOLU4OGTsvAnVQHm2cHr0pytvqag2kioWH4+A=" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/js/charts.js' | relative_url }}"></script>
+  {% endif %}
 </body>
 </html>
