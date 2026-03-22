@@ -106,6 +106,18 @@
 
   var height = 420;
 
+  // --- Sync legend dot colors with current theme ---
+  function syncLegendColors(c) {
+    var catColors = {
+      origin: c.origin, seller: c.seller, conduit: c.conduit,
+      agency: c.agency, external: c.external
+    };
+    document.querySelectorAll('.sankey-legend-dot[data-category]').forEach(function (dot) {
+      var cat = dot.getAttribute('data-category');
+      if (catColors[cat]) dot.style.background = catColors[cat];
+    });
+  }
+
   // --- Render ---
   function render() {
     var c = getColors();
@@ -176,12 +188,21 @@
       .on('mouseenter', function (event, d) {
         d3.select(this).attr('stroke-opacity', c.linkHover);
         var tc = getColors();
-        tooltip
-          .style('display', 'block')
-          .html(
-            '<strong>' + d.source.name + ' \u2192 ' + d.target.name + '</strong>' +
-            '<br><span style="color:' + tc.textMuted + '">' + d.desc + '</span>'
-          );
+
+        // Build tooltip via DOM (safe against future dynamic data)
+        var tipNode = tooltip.node();
+        tipNode.innerHTML = '';
+        var strong = document.createElement('strong');
+        strong.textContent = d.source.name + ' \u2192 ' + d.target.name;
+        var br = document.createElement('br');
+        var span = document.createElement('span');
+        span.style.color = tc.textMuted;
+        span.textContent = d.desc;
+        tipNode.appendChild(strong);
+        tipNode.appendChild(br);
+        tipNode.appendChild(span);
+
+        tooltip.style('display', 'block');
       })
       .on('mousemove', function (event) {
         var rect = container.getBoundingClientRect();
@@ -254,6 +275,9 @@
         .ease(d3.easeCubicOut)
         .attr('opacity', 1);
     }
+
+    // Sync legend colors after render
+    syncLegendColors(c);
   }
 
   // --- Init ---

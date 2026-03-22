@@ -31,7 +31,7 @@
 .influence-sankey-container {
   position: relative;
   max-width: 780px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 #influence-sankey svg {
@@ -43,7 +43,7 @@
   position: absolute;
   z-index: 20;
   pointer-events: none;
-  background: #fff;
+  background: var(--color-bg-surface, #fff);
   border: 1px solid var(--d4arf-border);
   border-left: 3px solid var(--d4arf-accent);
   border-radius: 0 2px 2px 0;
@@ -106,7 +106,6 @@
 @media (max-width: 600px) {
   .influence-sankey-container {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
   }
 
   #influence-sankey svg {

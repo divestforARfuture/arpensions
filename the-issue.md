@@ -75,23 +75,23 @@ The diagram below traces the documented connections from our FOIA investigation.
 
 <div class="sankey-legend" aria-hidden="true">
   <span class="sankey-legend-item">
-    <span class="sankey-legend-dot" style="background: #B91C1C;"></span>
+    <span class="sankey-legend-dot" data-category="origin"></span>
     Political origin
   </span>
   <span class="sankey-legend-item">
-    <span class="sankey-legend-dot" style="background: #B45309;"></span>
+    <span class="sankey-legend-dot" data-category="seller"></span>
     Bond seller
   </span>
   <span class="sankey-legend-item">
-    <span class="sankey-legend-dot" style="background: #6B7280;"></span>
+    <span class="sankey-legend-dot" data-category="conduit"></span>
     Conduit
   </span>
   <span class="sankey-legend-item">
-    <span class="sankey-legend-dot" style="background: #0C7489;"></span>
+    <span class="sankey-legend-dot" data-category="agency"></span>
     Agency authorization
   </span>
   <span class="sankey-legend-item">
-    <span class="sankey-legend-dot" style="background: #4F46E5;"></span>
+    <span class="sankey-legend-dot" data-category="external"></span>
     Interstate replication
   </span>
 </div>
