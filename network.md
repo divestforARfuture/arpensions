@@ -22,9 +22,7 @@ permalink: /network/
     <aside class="network-sidebar" aria-label="Filters and guided tours">
       <div class="sidebar-section">
         <h2 class="sidebar-heading">Entity Types</h2>
-        <div id="type-filters" class="type-filters" role="group" aria-label="Filter by entity type">
-          <!-- Populated by JS -->
-        </div>
+        <div id="type-filters" class="type-filters" role="group" aria-label="Filter by entity type"></div>
       </div>
 
       <div class="sidebar-section">
@@ -32,6 +30,30 @@ permalink: /network/
         <div class="search-wrapper">
           <input type="search" id="node-search" class="node-search" placeholder="Search entities... (press /)" aria-label="Search entities by name" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
           <div id="search-results" class="search-results" role="listbox" aria-label="Search results"></div>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <h2 class="sidebar-heading">Find Path</h2>
+        <div class="pathfinding-form" role="group" aria-label="Find shortest path between two entities">
+          <div class="pathfinding-selects">
+            <label for="path-source" class="pathfinding-label">From</label>
+            <select id="path-source" class="pathfinding-select" aria-label="Source entity">
+              <option value="">Select source...</option>
+            </select>
+            <button id="path-swap-btn" class="pathfinding-swap" aria-label="Swap source and target" title="Swap">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="7 3 7 21"/><polyline points="3 7 7 3 11 7"/><polyline points="17 21 17 3"/><polyline points="13 17 17 21 21 17"/></svg>
+            </button>
+            <label for="path-target" class="pathfinding-label">To</label>
+            <select id="path-target" class="pathfinding-select" aria-label="Target entity">
+              <option value="">Select target...</option>
+            </select>
+          </div>
+          <div class="pathfinding-actions">
+            <button id="path-find-btn" class="pathfinding-btn pathfinding-btn--find">Find path</button>
+            <button id="path-clear-btn" class="pathfinding-btn pathfinding-btn--clear" style="display:none;">Clear</button>
+          </div>
+          <div id="path-result" class="path-result" style="display:none;" aria-live="polite"></div>
         </div>
       </div>
 
@@ -59,9 +81,7 @@ permalink: /network/
 
       <div class="sidebar-section sidebar-legend">
         <h2 class="sidebar-heading">Legend</h2>
-        <div id="legend" class="legend-list">
-          <!-- Populated by JS -->
-        </div>
+        <div id="legend" class="legend-list"></div>
       </div>
     </aside>
 
@@ -126,7 +146,5 @@ permalink: /network/
   </div>
 
   <!-- Screen-reader accessible data table -->
-  <div id="sr-data-table" class="sr-only" aria-label="Accessible table of all network entities and their connections">
-    <!-- Populated by JS from the same JSON data -->
-  </div>
+  <div id="sr-data-table" class="sr-only" aria-label="Accessible table of all network entities and their connections"></div>
 </section>
