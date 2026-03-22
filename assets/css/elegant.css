@@ -2,7 +2,7 @@
    Elegant Redesign Layer
    Cormorant Garamond, theme-inverted hero, typographic stats,
    pure-text pathways, teal-dash section headings,
-   refined header + footer
+   refined header + footer, inner page components
    Loaded after main.css — overrides by cascade order
    ======================================================================== */
 
@@ -39,7 +39,6 @@
   background-color: var(--d4arf-accent-light);
 }
 
-/* CTA button: teal outline instead of red filled pill */
 .nav-cta .btn-nav-cta {
   background: transparent;
   color: var(--d4arf-accent);
@@ -60,7 +59,6 @@
   text-decoration: none;
 }
 
-/* Thinner nav border */
 .site-nav {
   border-bottom: 0.5px solid var(--color-border);
 }
@@ -83,7 +81,6 @@
   color: #9ca3af;
 }
 
-/* Column headings: add teal dash above */
 .footer-heading {
   position: relative;
   padding-top: 0.75rem;
@@ -106,13 +103,11 @@
   color: #5ec4d4;
 }
 
-/* Contact email — mono for consistency */
 .footer-contact-email a {
   font-family: var(--font-mono);
   font-size: 0.85rem;
 }
 
-/* Bottom bar refinement */
 .footer-bottom {
   border-top-color: rgba(255, 255, 255, 0.06);
 }
@@ -124,7 +119,6 @@
 
 /* ========================================================================
    SECTION HEADINGS — Teal dash above, Cormorant Garamond weight 300
-   Sitewide: replaces the red underline bar pattern
    ======================================================================== */
 
 .elegant-heading {
@@ -157,7 +151,6 @@
   margin-right: auto;
 }
 
-/* Override old section-heading red bar */
 .section-heading {
   font-family: var(--font-elegant);
   font-weight: 300;
@@ -186,7 +179,6 @@
   margin-right: auto;
 }
 
-/* Override headings inside about section */
 .about-section h2 {
   font-family: var(--font-elegant);
   font-weight: 300;
@@ -208,11 +200,362 @@
   margin: 0 auto 0.75rem;
 }
 
-/* Landing page hero headings */
 .landing-hero h1 {
   font-family: var(--font-elegant);
   font-weight: 300;
   letter-spacing: -0.3px;
+}
+
+/* ========================================================================
+   PAGE HEADERS — Inner page titles (the-issue, evidence, about, etc.)
+   ======================================================================== */
+
+.page-header {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.page-header h1 {
+  font-family: var(--font-elegant);
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+}
+
+/* Inner page h2 headings — Cormorant weight 300 */
+.page-content h2,
+.landing-content h2 {
+  font-family: var(--font-elegant);
+  font-weight: 300;
+  letter-spacing: -0.2px;
+  font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+}
+
+.page-content h3,
+.landing-content h3 {
+  font-family: var(--font-elegant);
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+}
+
+/* ========================================================================
+   AGENCY TABLES — Teal header, refined borders
+   ======================================================================== */
+
+.issue-agency-table thead {
+  background: var(--d4arf-accent);
+}
+
+.issue-agency-table th {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.issue-agency-table tbody tr:last-child td {
+  border-bottom: 2px solid var(--d4arf-accent);
+}
+
+.issue-agency-table td strong {
+  font-family: var(--font-elegant);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Dark mode table header: darken the accent via color-mix to maintain contrast with white text */
+[data-theme="dark"] .issue-agency-table thead {
+  background: color-mix(in srgb, var(--d4arf-accent) 60%, black);
+}
+
+@media (max-width: 600px) {
+  .issue-agency-table tbody tr {
+    border-left-color: var(--d4arf-accent);
+  }
+}
+
+/* ========================================================================
+   PULL QUOTES — Cormorant italic, teal border
+   Uses var(--d4arf-accent) and var(--d4arf-accent-light) which
+   auto-adapt in dark mode via main.css token redefinition
+   ======================================================================== */
+
+.pull-quote {
+  border-left: 4px solid var(--d4arf-accent);
+  background-color: var(--d4arf-accent-light);
+  border-radius: 0;
+}
+
+.pull-quote p {
+  font-family: var(--font-elegant);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.65;
+}
+
+.pull-quote::before {
+  color: var(--d4arf-accent);
+  opacity: 0.2;
+}
+
+/* ========================================================================
+   BLOCKQUOTES — Teal border, lighter background
+   ======================================================================== */
+
+blockquote {
+  border-left-color: var(--d4arf-accent);
+  background-color: var(--d4arf-accent-light);
+}
+
+/* ========================================================================
+   CALLOUT BOXES — Teal accent, lighter background
+   ======================================================================== */
+
+.callout {
+  border-left-color: var(--d4arf-accent);
+  background-color: var(--d4arf-accent-light);
+}
+
+/* ========================================================================
+   RED FLAG SECTIONS — Thinner teal accent bars
+   ======================================================================== */
+
+.issue-red-flags > p:has(> strong:first-child) {
+  border-left: 2px solid var(--d4arf-accent);
+}
+
+.issue-red-flags > p:has(> strong:first-child) + p:has(> strong:first-child) {
+  border-top-color: var(--color-border);
+}
+
+/* ========================================================================
+   DEMANDS / ACTION STEPS — Teal numbered circles
+   ======================================================================== */
+
+.issue-demands ol li::before {
+  background: var(--d4arf-accent);
+}
+
+.action-step h2::before {
+  background: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   CTA BOXES — Teal accent border
+   ======================================================================== */
+
+.cta-box {
+  border-left-color: var(--d4arf-accent);
+  background-color: var(--d4arf-accent-light);
+}
+
+/* ========================================================================
+   TIMELINE — Teal dots and line
+   Uses color-mix() so the accent variable auto-adapts in dark mode
+   ======================================================================== */
+
+.timeline-wrapper::before {
+  background: color-mix(in srgb, var(--d4arf-accent) 20%, transparent);
+}
+
+.timeline .timeline-event::before {
+  background: var(--d4arf-accent);
+}
+
+.timeline .timeline-event.timeline-event--highlight::before {
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--d4arf-accent) 20%, transparent);
+}
+
+.timeline .timeline-event time {
+  color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   AUDIENCE NAV — Teal active state
+   Uses var(--d4arf-accent) which auto-adapts in dark mode
+   ======================================================================== */
+
+.audience-nav-list a:hover {
+  color: var(--d4arf-accent);
+}
+
+.audience-nav-list a[aria-current="page"] {
+  color: var(--d4arf-accent);
+  border-bottom-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   DOCUMENT ITEMS — Teal left border
+   ======================================================================== */
+
+.document-item {
+  border-left-color: var(--d4arf-accent);
+}
+
+.document-item a.doc-title:hover {
+  color: var(--d4arf-accent);
+}
+
+.doc-icon {
+  color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   LETTER TEMPLATES — Neutral border, no shadow
+   ======================================================================== */
+
+.letter-template {
+  border: 1px solid var(--color-border);
+  box-shadow: none;
+}
+
+.letter-template .letter-heading {
+  border-bottom-color: var(--color-border);
+}
+
+/* ========================================================================
+   LEGAL REFERENCE — Teal accent, lighter background
+   ======================================================================== */
+
+.legal-reference {
+  background: var(--d4arf-accent-light);
+}
+
+.legal-reference h2 {
+  border-bottom-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   EVIDENCE FINDINGS — Teal accent
+   ======================================================================== */
+
+.evidence-findings h3 {
+  border-left-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   EVIDENCE CARD — Teal top border
+   ======================================================================== */
+
+.evidence-card {
+  border-top-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   CALLOUT BOX (The Markup pattern) — Refined
+   ======================================================================== */
+
+.callout-box {
+  border-color: var(--color-border);
+  box-shadow: 3px 3px 0 var(--color-border);
+}
+
+[data-theme="dark"] .callout-box {
+  border-color: var(--color-border);
+  box-shadow: 3px 3px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* ========================================================================
+   SYMMETRY SECTION — Subtle background
+   ======================================================================== */
+
+.issue-symmetry {
+  background: var(--color-bg-panel);
+}
+
+/* ========================================================================
+   ISSUE QUESTIONS BOX — Teal border
+   ======================================================================== */
+
+.issue-questions {
+  border-left-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   MEETING INFO — Teal accent
+   ======================================================================== */
+
+.meeting-info {
+  border-left-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   SCRIPT CARD — Teal accent
+   ======================================================================== */
+
+.script-card {
+  border-left-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   ACTION NAV PILLS — Teal
+   ======================================================================== */
+
+.action-nav a {
+  color: var(--d4arf-accent);
+  border-color: var(--d4arf-accent);
+}
+
+.action-nav a:hover,
+.action-nav a:focus-visible {
+  background: var(--d4arf-accent);
+  color: #fff;
+  outline-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   APPROACH PILLARS — Teal accent bar
+   ======================================================================== */
+
+.approach-pillars > p:has(> strong:first-child) {
+  border-left-color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   KEY FINDING / SECTION LABELS — Teal
+   ======================================================================== */
+
+.key-finding strong:first-child {
+  color: var(--d4arf-accent);
+}
+
+.section-label {
+  color: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   BAR CHART — Teal primary bar
+   ======================================================================== */
+
+.bar-chart-bar {
+  background: var(--d4arf-accent);
+}
+
+/* ========================================================================
+   LANDING HERO — Refined to match elegant system
+   ======================================================================== */
+
+.landing-hero {
+  background-color: var(--color-bg-panel);
+  padding: 3rem 1.5rem 2.5rem;
+}
+
+.landing-hero::after {
+  height: 2px;
+  background: var(--d4arf-accent);
+}
+
+.landing-hero h1 {
+  font-family: var(--font-elegant);
+  font-weight: 300;
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  letter-spacing: -0.3px;
+}
+
+.landing-description {
+  font-size: 1rem;
 }
 
 /* ========================================================================
@@ -536,7 +879,7 @@
 }
 
 /* ========================================================================
-   ROLE CTAs — Refined text list, matching pathway pattern
+   ROLE CTAs — Refined text list
    ======================================================================== */
 
 .role-ctas {
@@ -650,28 +993,21 @@
 }
 
 /* ========================================================================
-   LANDING PAGE HERO — Refined to match elegant system
+   BUTTONS — Sitewide refinement (only novel property: border-radius)
    ======================================================================== */
 
-.landing-hero {
-  background-color: var(--color-bg-panel);
-  padding: 3rem 1.5rem 2.5rem;
+.btn-primary,
+.btn-secondary {
+  border-radius: 2px;
 }
 
-.landing-hero::after {
-  height: 2px;
-  background: var(--d4arf-accent);
+.btn-text {
+  color: var(--d4arf-accent);
 }
 
-.landing-hero h1 {
-  font-family: var(--font-elegant);
-  font-weight: 300;
-  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
-  letter-spacing: -0.3px;
-}
-
-.landing-description {
-  font-size: 1rem;
+.btn-text:hover,
+.btn-text:focus-visible {
+  border-bottom-color: var(--d4arf-accent);
 }
 
 /* ========================================================================
@@ -719,12 +1055,19 @@
 
   .hero h1,
   .elegant-heading,
-  .section-heading {
+  .section-heading,
+  .page-header h1,
+  .page-content h2,
+  .landing-content h2 {
     font-family: Georgia, serif;
     font-weight: 300;
   }
 
   .stat .stat-number {
+    font-family: Georgia, serif;
+  }
+
+  .pull-quote p {
     font-family: Georgia, serif;
   }
 }

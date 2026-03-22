@@ -56,60 +56,58 @@ What the site is NOT: a protest site, a boycott campaign, partisan, or anti-Isra
 --color-cta: var(--d4arf-red);
 ```
 
-Fonts: Lora (editorial serif, headings only) + Inter (body text and UI) + IBM Plex Mono (data) via Google Fonts. Logo: assets/images/d4arf-logo.png (40x40 nav, 48x48 footer).
+Fonts: Cormorant Garamond (editorial serif, headings and display text, weights 300/500 via `--font-elegant`) + Inter (body text and UI via `--font-body`) + IBM Plex Mono (data via `--font-mono`) via Google Fonts. The elegant redesign layer (`assets/css/elegant.css`) applies Cormorant Garamond sitewide for headings, hero, stats, pull quotes, and navigation title. Logo: assets/images/d4arf-logo.png (40x40 nav, 48x48 footer).
+
+Design system: Teal (`--d4arf-accent`) is the primary accent color for borders, section markers, timeline dots, table headers, pull quotes, and interactive states. Red is reserved for semantic urgency: the "0" stat, `.btn-primary` (action/conversion), skip link, and mobile CTA bar. This restraint gives red genuine meaning when it appears.
 
 Spacing tokens: `--space-xs` (0.25rem) through `--space-4xl` (6rem). Use these instead of ad-hoc values.
 
 ## Technical Constraints (Non-Negotiable)
 
 1. Jekyll + GitHub Pages only. No custom plugins beyond what github-pages gem supports. No server-side logic. No Node.js build step.
-2. Pico CSS is the base layer (CDN). Custom overrides in assets/css/main.css. Can build on top of it or consider replacing if it fights the design.
+2. Pico CSS is the base layer (CDN). Custom overrides in assets/css/main.css. Elegant redesign layer in assets/css/elegant.css (loaded after main.css, overrides by cascade).
 3. No tracking. No Google Analytics, no Facebook Pixel, no third-party cookies. Deliberate privacy choice.
 4. Content Security Policy is set in _includes/head.html. Update if adding new CDN sources.
 5. WCAG AA accessibility. Semantic HTML, screen reader friendly, proper contrast. The current codebase has good a11y foundations — don't regress.
 6. No external JS dependencies beyond what's already loaded. Keep it fast and minimal.
 
-## CSS Component Library
+## CSS Architecture
 
-Key CSS components in `assets/css/main.css`:
+Two CSS files:
 
-* `.evidence-card` — teal-bordered finding card with citation footer
-* `.pull-quote` — red-bordered quote with decorative open-quote mark
-* `.section-label` — teal uppercase wayfinding label
-* `.issue-agency-table` — red-header responsive data table (card-stacks on mobile)
-* `.issue-demands` — numbered demand cards with red circles
-* `.issue-symmetry` — gray panel for argumentative sections
-* `.issue-red-flags` — red left accent bar on bold-lead paragraphs
-* `.meeting-grid` — side-by-side info cards
-* `.letter-template` — styled letter with copy button (`.letter-template--compact` variant)
-* `.action-step` — numbered action card with effort-tier labels
-* `.action-nav` — pill-style jump navigation for action steps
-* `.action-tier-label` — effort tier badges (`--quick`, `--medium`, `--ongoing`)
-* `.timeline-wrapper` + `.timeline` — vertical timeline with year headers and highlight dots
-* `.evidence-timeline` — simpler vertical timeline (evidence page)
-* `.press-quotes` — pull-quote collection for press kit
-* `.press-resources` — compact reference/download card
-* `.callout` — bordered highlight box
+* `assets/css/main.css` (~70KB) — Foundation layer. Pico CSS overrides, design tokens, dark mode tokens, all original component styles. Do not edit unless consolidating.
+* `assets/css/elegant.css` (~18KB) — Redesign layer. Cormorant Garamond typography, theme-inverted hero, typographic stats bar, pure-text pathways, teal-dash section headings, refined header/footer, inner page component overrides. Loaded after main.css; overrides by cascade order.
+
+Key CSS components:
+
+* `.elegant-heading` — Cormorant weight 300 with teal dash above (centered variant: `.elegant-heading--center`)
+* `.hero-ghost` — ghost watermark element, theme-adaptive opacity
+* `.btn-primary-hero` / `.btn-secondary-hero` — hero-specific buttons with Cormorant font
+* `.pathway-link` — pure text navigation links with thin rules
+* `.role-link` — 2×2 text grid role cards
+* `.stat` / `.stat-rule` / `.stat--zero` — typographic stat display
+* All legacy components from main.css (`.evidence-card`, `.pull-quote`, `.issue-agency-table`, etc.) are restyled via elegant.css overrides
 
 ## Design Direction
 
-The aesthetic direction: editorial/investigative journalism meets civic engagement.
+The aesthetic: restrained elegance. LaTeX-inspired thin serifs (Cormorant Garamond weight 300), maximum whitespace, typography as the primary design element. The site should feel like a museum exhibition — the evidence is on display, and the design gets out of the way.
 
 Key principles:
 
 * Earn instant credibility — a journalist landing here should think "these people are serious" within 3 seconds
-* Feel designed, not templated — distinctive enough that it doesn't look like every other Jekyll site
+* Feel designed, not templated — the Cormorant/teal system is distinctive without being flashy
+* Theme inversion — light mode gets dark hero, dark mode gets cream hero. Ghost watermark adapts.
 * Drive action — every page makes it easy and compelling to do the next thing
 * Handle complexity gracefully — dense evidence made scannable without dumbing it down
 * Work flawlessly on mobile — many educators will see this on phones during lunch
 * Load fast — minimal dependencies, no bloat, performant CSS
 
-Red is the dominant accent (D4ARF brand + Arkansas's color), with restrained green for trust/success signals.
+Teal is the dominant accent. Red appears only for urgency/action.
 
 ## Current Architecture
 
 ```
-11 pages, 4 layouts, 9 includes
+14+ pages, 4 layouts, 9+ includes
 ├── index.md              (default layout — hero, stats, pathways, about)
 ├── the-issue.md          (page layout — core explainer)
 ├── evidence.md           (page layout — key findings, timeline, legal standards)
@@ -119,17 +117,23 @@ Red is the dominant accent (D4ARF brand + Arkansas's color), with restrained gre
 ├── legislators.md        (landing layout — policy brief)
 ├── press.md              (page layout — press kit)
 ├── about.md              (page layout — mission, approach, FAQ)
+├── documents.md          (page layout — FOIA document archive)
+├── network.md            (network layout — D3 relationship graph)
 └── news.md               (page layout — campaign milestones timeline)
 ```
 
 ## Key Facts for Content (Use These Numbers)
 
-* $155 million total Arkansas exposure to Israel Bonds across 3 agencies
+* Up to $100 million in authorized pension fund exposure (ATRS $50M + APERS up to $50M)
+* $55 million in State Treasury holdings (separate entity, governed by Act 411)
+* ~$155 million total authorized Arkansas exposure across all three agencies
 * 1,098 public records analyzed across two FOIA rounds
 * 8 FOIA requests across 2 rounds to 4 agencies (Treasury, ATRS, APERS, Auditor)
 * 0 independent credit analyses found in the entire document corpus
 * 3 major credit agencies downgraded Israel's rating
 * The campaign's rhetorical core: Arkansas's own Act 710 says investments must use financial merit standards — the same standard should apply to purchases, not just divestment decisions
+
+**Important:** Headlines and hooks use the $100M pension number (maps to the Pension Investment Transparency Act's legislative target). The $155M total appears in body text where the three-entity breakdown is explicit. Do not call the full $155M "pension fund exposure" — $55M of that is Treasury.
 
 ## Git Workflow
 
@@ -149,13 +153,11 @@ Each PR should be a coherent, reviewable improvement:
 
 Don't rewrite everything in one PR. Small, reviewable chunks.
 
-## Website Current State (Post Redesign PRs)
+## Website Current State (Post Elegant Redesign)
 
-* **CSS foundation:** spacing tokens, Inter body text, Lora headings, color token consistency, dark mode support
-* **Homepage:** refined hero with $155M anchor stat, elevated stats bar with provenance annotation
-* **Evidence page:** section labels, evidence cards, sub-finding grouping
-* **Legislators page:** policy brief treatment with elevated provisions
-* **Audience pages:** refined letter templates, action steps, meeting info
-* **The-issue page:** component classes applied, section labels, symmetry pull quote
-* **Take-action page:** meeting grid, jump navigation, Transparency Act reference
-* **Press page:** vertical timeline, pull-quote components, download section
+* **CSS architecture:** Two-layer system — main.css (foundation) + elegant.css (redesign overrides)
+* **Homepage:** Cormorant Garamond hero with ghost watermark, theme-inverted (dark on light, cream on dark), typographic stats bar, pure-text pathway links, 2×2 role CTA grid, teal-dash section headings
+* **Header:** Cormorant logo text, teal outline CTA button, weight-500 nav links
+* **Footer:** Cormorant italic tagline, teal dashes on column headings
+* **Inner pages:** Cormorant headings (h1–h3), teal table headers, teal pull quote borders with Cormorant italic, teal timeline dots, teal accent on all component borders
+* **Color system:** Teal dominant accent; red reserved for urgency (zero stat, primary CTA, skip link, mobile CTA)
