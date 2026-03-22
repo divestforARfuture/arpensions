@@ -30,7 +30,7 @@ permalink: /network/
       <div class="sidebar-section">
         <h2 class="sidebar-heading">Search</h2>
         <div class="search-wrapper">
-          <input type="search" id="node-search" class="node-search" placeholder="Search entities..." aria-label="Search entities by name" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
+          <input type="search" id="node-search" class="node-search" placeholder="Search entities... (press /)" aria-label="Search entities by name" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
           <div id="search-results" class="search-results" role="listbox" aria-label="Search results"></div>
         </div>
       </div>
@@ -77,14 +77,19 @@ permalink: /network/
         <button id="zoom-reset" class="graph-control-btn" aria-label="Reset view" title="Reset view">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
         </button>
+        <div class="graph-control-divider"></div>
+        <button id="layout-toggle" class="graph-control-btn graph-control-btn--wide" aria-label="Switch to hierarchical layout" title="Switch to hierarchical layout">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><line x1="12" y1="7" x2="5" y2="17"/><line x1="12" y1="7" x2="19" y2="17"/></svg>
+          <span class="layout-label">Force</span>
+        </button>
       </div>
-      <div id="network-graph" class="network-graph" role="img" aria-label="Force-directed network graph of FOIA investigation entities and their relationships">
+      <div id="network-graph" class="network-graph" role="img" aria-label="Network graph of FOIA investigation entities and their relationships. An accessible data table is available below.">
         <div class="graph-loading" id="graph-loading">
           <p>Loading investigation network...</p>
         </div>
       </div>
       <div class="graph-hint" id="graph-hint">
-        <p>Click a node to inspect it. Drag to reposition. Scroll to zoom.</p>
+        <p>Click a node to inspect it. Scroll to zoom. Drag to pan. Press / to search.</p>
       </div>
     </div>
 
@@ -103,6 +108,7 @@ permalink: /network/
         <div class="detail-header">
           <span class="detail-type-badge" id="detail-type"></span>
           <h2 class="detail-name" id="detail-name"></h2>
+          <p class="detail-conn-count" id="detail-conn-count"></p>
         </div>
         <div class="detail-body">
           <div class="detail-section">
@@ -117,5 +123,10 @@ permalink: /network/
       </div>
     </aside>
 
+  </div>
+
+  <!-- Screen-reader accessible data table -->
+  <div id="sr-data-table" class="sr-only" aria-label="Accessible table of all network entities and their connections">
+    <!-- Populated by JS from the same JSON data -->
   </div>
 </section>

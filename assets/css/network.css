@@ -1,6 +1,6 @@
 /* ==========================================================================
    NETWORK VISUALIZATION PAGE — Investigation Knowledge Graph
-   Matches D4ARF elegant design system: Cormorant Garamond + teal accent
+   Cytoscape.js — matches D4ARF elegant design system
    ========================================================================== */
 
 /* --- Override Pico container for full-width layout --- */
@@ -52,8 +52,6 @@
   max-width: 720px;
 }
 
-/* Eyebrow: 0.6 opacity gives ~6.8:1 contrast on #1b2127 — preserves
-   headroom at the small 0.7rem / 11px text size */
 .network-eyebrow {
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
@@ -149,7 +147,6 @@
   position: relative;
 }
 
-/* Teal dash above sidebar headings — matches footer column headings */
 .sidebar-heading::before {
   content: '';
   display: block;
@@ -250,7 +247,7 @@
   border-radius: 0 0 2px 2px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   z-index: 50;
-  max-height: 200px;
+  max-height: 260px;
   overflow-y: auto;
   display: none;
 }
@@ -275,7 +272,8 @@
 }
 
 .search-result-item:hover,
-.search-result-item:focus {
+.search-result-item:focus,
+.search-result-item.active {
   background: var(--d4arf-accent-light);
 }
 
@@ -284,6 +282,15 @@
   height: 8px;
   border-radius: 50%;
   flex-shrink: 0;
+}
+
+.search-result-type {
+  margin-left: auto;
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  color: var(--d4arf-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 /* --- Guided Tours --- */
@@ -366,7 +373,7 @@
 }
 
 /* ==========================================================================
-   GRAPH AREA — Light editorial canvas with controls
+   GRAPH AREA — Cytoscape.js canvas with editorial backdrop
    ========================================================================== */
 .network-graph-area {
   position: relative;
@@ -375,7 +382,7 @@
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-/* Subtle grid texture — graph-paper grounding on light background */
+/* Subtle grid texture */
 .network-graph-area::before {
   content: '';
   position: absolute;
@@ -388,7 +395,7 @@
   z-index: 1;
 }
 
-/* Vignette — very subtle inward shadow to frame content */
+/* Vignette */
 .network-graph-area::after {
   content: '';
   position: absolute;
@@ -406,12 +413,6 @@
   z-index: 3;
 }
 
-.network-graph svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
 /* --- Loading state --- */
 .graph-loading {
   position: absolute;
@@ -419,6 +420,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
 }
 
 .graph-loading p {
@@ -462,6 +464,34 @@
   color: var(--d4arf-black);
 }
 
+.graph-control-btn:focus-visible {
+  outline: 2px solid var(--d4arf-accent);
+  outline-offset: 2px;
+}
+
+/* Layout toggle — wider button with text label */
+.graph-control-btn--wide {
+  width: auto;
+  padding: 0.35rem 0.6rem;
+  gap: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.layout-label {
+  display: inline;
+}
+
+.graph-control-divider {
+  width: 100%;
+  height: 0;
+  border-top: 0.5px solid var(--d4arf-border);
+  margin: 0.15rem 0;
+}
+
 /* --- Graph hint --- */
 .graph-hint {
   position: absolute;
@@ -486,72 +516,6 @@
   padding: 0.35rem 0.75rem;
   border-radius: 2px;
   margin: 0;
-}
-
-/* --- Graph node styles (applied via JS) --- */
-.node-label {
-  font-family: var(--font-body);
-  font-size: 11px;
-  font-weight: 600;
-  fill: #374151;
-  pointer-events: none;
-  text-anchor: middle;
-  dominant-baseline: central;
-}
-
-.node-label-bg {
-  fill: rgba(248, 247, 245, 0.8);
-  pointer-events: none;
-}
-
-.link-line {
-  stroke: rgba(0, 0, 0, 0.08);
-  stroke-width: 1;
-  fill: none;
-}
-
-.link-line.highlighted {
-  stroke: color-mix(in srgb, var(--d4arf-accent) 50%, transparent);
-  stroke-width: 2;
-}
-
-.link-line.tour-highlight {
-  stroke: var(--d4arf-accent);
-  stroke-width: 2;
-  opacity: 0.6;
-  stroke-dasharray: none;
-}
-
-.node-circle {
-  cursor: pointer;
-  transition: r 0.15s;
-  stroke: #fff;
-  stroke-width: 2;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.12));
-}
-
-.node-circle.selected {
-  stroke: var(--d4arf-accent);
-  stroke-width: 3;
-  filter: drop-shadow(0 2px 6px color-mix(in srgb, var(--d4arf-accent) 30%, transparent));
-}
-
-.node-circle.dimmed {
-  opacity: 0.12;
-}
-
-.node-circle.tour-highlight {
-  stroke: var(--d4arf-accent);
-  stroke-width: 3;
-  filter: drop-shadow(0 0 8px color-mix(in srgb, var(--d4arf-accent) 25%, transparent));
-}
-
-.node-label.dimmed {
-  opacity: 0.06;
-}
-
-.link-line.dimmed {
-  opacity: 0.03;
 }
 
 /* ==========================================================================
@@ -650,6 +614,13 @@
   line-height: 1.25;
 }
 
+.detail-conn-count {
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  color: var(--d4arf-gray);
+  margin: 0.25rem 0 0;
+}
+
 .detail-section {
   margin-bottom: 1.25rem;
 }
@@ -738,7 +709,7 @@
 }
 
 /* ==========================================================================
-   TOUR NARRATION — Floating tour step
+   TOUR NARRATION — Floating tour step overlay
    ========================================================================== */
 .tour-narration {
   position: absolute;
@@ -803,7 +774,6 @@
   color: var(--d4arf-black);
 }
 
-/* Next button stays red — it's an action, not context */
 .tour-nav-btn.tour-next {
   background: var(--d4arf-red);
   color: #fff;
@@ -823,6 +793,21 @@
 
 .tour-nav-btn.tour-exit:hover {
   color: var(--d4arf-accent);
+}
+
+/* ==========================================================================
+   SCREEN-READER ONLY — Accessible data table
+   ========================================================================== */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* ==========================================================================
@@ -901,6 +886,15 @@
     top: 0.5rem;
     right: 0.5rem;
   }
+
+  .layout-label {
+    display: none;
+  }
+
+  .graph-control-btn--wide {
+    width: 36px;
+    padding: 0;
+  }
 }
 
 /* ==========================================================================
@@ -964,7 +958,8 @@
 }
 
 [data-theme="dark"] .search-result-item:hover,
-[data-theme="dark"] .search-result-item:focus {
+[data-theme="dark"] .search-result-item:focus,
+[data-theme="dark"] .search-result-item.active {
   background: var(--d4arf-accent-light);
 }
 
@@ -1022,40 +1017,6 @@
   color: var(--d4arf-gray);
 }
 
-/* Node labels */
-[data-theme="dark"] .node-label {
-  fill: #F3F4F6;
-}
-
-[data-theme="dark"] .node-label-bg {
-  fill: rgba(22, 22, 30, 0.85);
-}
-
-/* Link lines */
-[data-theme="dark"] .link-line {
-  stroke: #6B7280;
-  stroke-opacity: 0.5;
-}
-
-[data-theme="dark"] .link-line.highlighted {
-  stroke: var(--d4arf-accent);
-  stroke-opacity: 0.7;
-}
-
-[data-theme="dark"] .link-line.tour-highlight {
-  stroke: var(--d4arf-accent);
-  stroke-opacity: 0.9;
-}
-
-/* Node circles */
-[data-theme="dark"] .node-circle {
-  stroke: #1A1A24;
-}
-
-[data-theme="dark"] .node-circle.selected {
-  stroke: var(--d4arf-accent);
-}
-
 /* --- Detail panel --- */
 [data-theme="dark"] .network-detail {
   background: #15151D;
@@ -1106,7 +1067,6 @@
   color: var(--d4arf-black);
 }
 
-/* Next button stays red in dark mode too */
 [data-theme="dark"] .tour-nav-btn.tour-next {
   background: var(--d4arf-red);
   color: #fff;
