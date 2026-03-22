@@ -709,6 +709,58 @@
   margin: 0;
 }
 
+/* --- Node tooltip (hover preview) --- */
+.network-tooltip {
+  position: absolute;
+  z-index: 20;
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid var(--d4arf-border);
+  border-left: 3px solid var(--d4arf-accent);
+  border-radius: 0 2px 2px 0;
+  padding: 0.6rem 0.75rem;
+  max-width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: var(--font-body);
+}
+
+.tooltip-type {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.1rem 0.35rem;
+  border-radius: 2px;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.tooltip-name {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--d4arf-black);
+  margin-bottom: 0.15rem;
+  line-height: 1.25;
+}
+
+.tooltip-conn {
+  display: block;
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  color: var(--d4arf-gray);
+  margin-bottom: 0.3rem;
+}
+
+.tooltip-obs {
+  font-size: 0.75rem;
+  color: var(--d4arf-gray);
+  line-height: 1.45;
+  margin: 0;
+  border-top: 0.5px solid var(--d4arf-border);
+  padding-top: 0.3rem;
+}
+
 /* ==========================================================================
    DETAIL PANEL — Entity inspection
    ========================================================================== */
@@ -1050,6 +1102,10 @@
     bottom: 1rem;
     max-width: calc(100% - 2rem);
   }
+
+  .network-tooltip {
+    display: none !important;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1255,6 +1311,13 @@
   background: rgba(18, 18, 24, 0.85);
   border-color: var(--d4arf-border);
   color: var(--d4arf-gray);
+}
+
+/* Tooltip */
+[data-theme="dark"] .network-tooltip {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* --- Detail panel --- */
