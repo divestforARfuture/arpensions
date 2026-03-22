@@ -266,10 +266,16 @@
 
 /* ========================================================================
    INNER PAGE STAT CARDS — Pure typography (matches homepage stats)
-   Applies to .landing-stats on educators and public-employees pages
+   Scoped to .landing-content which wraps the stats on educators and
+   public-employees pages (the landing layout content wrapper)
    ======================================================================== */
 
-.landing-stats {
+.landing-content .stats-grid,
+.landing-content .stat-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  max-width: 100%;
   background: transparent;
   padding: 2rem 0;
   border-top: 0.5px solid var(--color-border);
@@ -277,15 +283,7 @@
   margin: 2rem 0;
 }
 
-.landing-stats .stats-grid,
-.landing-stats .stat-grid {
-  display: flex;
-  justify-content: space-between;
-  gap: 2.5rem;
-  max-width: 100%;
-}
-
-.landing-stats .stat-card {
+.landing-content .stat-card {
   background: transparent;
   border: none;
   box-shadow: none;
@@ -294,8 +292,8 @@
   flex: 1;
 }
 
-.landing-stats .stat-card .stat-number,
-.landing-stats .stat-card [data-count] {
+.landing-content .stat-card .stat-number,
+.landing-content .stat-card [data-count] {
   font-family: var(--font-elegant);
   font-weight: 300;
   font-size: clamp(2rem, 4vw, 2.75rem);
@@ -304,7 +302,7 @@
   color: var(--color-text-primary);
 }
 
-.landing-stats .stat-card .stat-label {
+.landing-content .stat-card .stat-label {
   font-family: var(--font-body);
   font-size: 0.75rem;
   line-height: 1.5;
@@ -313,13 +311,13 @@
 }
 
 /* Suppress counter animation — show final value immediately */
-.landing-stats .stat-card [data-count]::after {
+.landing-content .stat-card [data-count]::after {
   display: none;
 }
 
 @media (max-width: 600px) {
-  .landing-stats .stats-grid,
-  .landing-stats .stat-grid {
+  .landing-content .stats-grid,
+  .landing-content .stat-grid {
     flex-direction: column;
     gap: 1.5rem;
   }
@@ -340,16 +338,17 @@
 
 /* ========================================================================
    CONTINUE READING NAV — Styled page-turn moment
+   Matches .page-flow (the-issue) and aria-label="Continue reading"
    ======================================================================== */
 
-.page-nav,
+.page-flow,
 nav[aria-label="Continue reading"] {
   border-top: 0.5px solid var(--color-border);
   padding-top: 1.5rem;
   margin-top: 3rem;
 }
 
-.page-nav a,
+.page-flow a,
 nav[aria-label="Continue reading"] a {
   display: inline-flex;
   align-items: baseline;
@@ -361,12 +360,12 @@ nav[aria-label="Continue reading"] a {
   transition: color 0.15s;
 }
 
-.page-nav a:hover,
+.page-flow a:hover,
 nav[aria-label="Continue reading"] a:hover {
   color: var(--d4arf-accent);
 }
 
-.page-nav a:focus-visible,
+.page-flow a:focus-visible,
 nav[aria-label="Continue reading"] a:focus-visible {
   outline: 2px solid var(--d4arf-accent);
   outline-offset: 2px;
@@ -374,10 +373,11 @@ nav[aria-label="Continue reading"] a:focus-visible {
 
 /* ========================================================================
    LETTER TEMPLATE COPY BUTTON — Mono, teal, matches nav CTA
+   .copy-letter-btn is the actual class used in the letter template include
    ======================================================================== */
 
 .letter-template button,
-.letter-template .copy-btn {
+.letter-template .copy-letter-btn {
   font-family: var(--font-mono);
   font-size: 0.75rem;
   letter-spacing: 0.03em;
@@ -391,33 +391,32 @@ nav[aria-label="Continue reading"] a:focus-visible {
 }
 
 .letter-template button:hover,
-.letter-template .copy-btn:hover {
+.letter-template .copy-letter-btn:hover {
   background: var(--d4arf-accent);
   color: #fff;
 }
 
 .letter-template button:focus-visible,
-.letter-template .copy-btn:focus-visible {
+.letter-template .copy-letter-btn:focus-visible {
   outline: 2px solid var(--d4arf-accent);
   outline-offset: 2px;
 }
 
 /* ========================================================================
    SIDEBAR CTA BOX — Teal-light background (was red-light)
-   Red button inside is preserved for action urgency
+   Red button inside is preserved for action urgency.
+   aside.cta-box is the canonical class from _includes/cta-box.html.
+   article > aside[role="complementary"] catches any complementary aside.
    ======================================================================== */
 
-aside[aria-label="Take Action"],
-aside.cta-sidebar,
-.page-content > aside,
+aside.cta-box,
 article > aside[role="complementary"] {
   background: var(--d4arf-accent-light);
   border-left: 4px solid var(--d4arf-accent);
   border-radius: 0;
 }
 
-aside[aria-label="Take Action"] h3,
-aside.cta-sidebar h3,
+aside.cta-box h3,
 article > aside[role="complementary"] h3 {
   font-family: var(--font-elegant);
   font-weight: 500;
