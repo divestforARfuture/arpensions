@@ -1,6 +1,6 @@
 /* ==========================================================================
    NETWORK VISUALIZATION PAGE — Investigation Knowledge Graph
-   Matches D4ARF design system: Bitter + Source Sans 3, #B91C1C red
+   Matches D4ARF elegant design system: Cormorant Garamond + teal accent
    ========================================================================== */
 
 /* --- Override Pico container for full-width layout --- */
@@ -11,7 +11,7 @@
 }
 
 /* ==========================================================================
-   HERO — Compact, editorial header
+   HERO — Compact, editorial header with Cormorant typography
    ========================================================================== */
 .network-hero {
   background-color: var(--d4arf-black);
@@ -37,8 +37,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 4px;
-  background: var(--d4arf-red);
+  height: 2px;
+  background: var(--d4arf-accent);
 }
 
 .network-hero .container {
@@ -52,14 +52,16 @@
   max-width: 720px;
 }
 
+/* Eyebrow: 0.6 opacity gives ~6.8:1 contrast on #1b2127 — preserves
+   headroom at the small 0.7rem / 11px text size */
 .network-eyebrow {
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  font-size: 0.8rem;
-  font-weight: 600;
-  font-family: var(--font-body);
-  margin: 0 0 1rem;
+  letter-spacing: 0.1em;
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-family: var(--font-mono);
+  margin: 0 0 1.75rem;
   padding-left: 1.75rem;
   position: relative;
 }
@@ -71,8 +73,8 @@
   top: 50%;
   transform: translateY(-50%);
   width: 1rem;
-  height: 2px;
-  background: var(--d4arf-red);
+  height: 1px;
+  background: var(--d4arf-accent);
 }
 
 .network-hero h1 {
@@ -80,13 +82,14 @@
   color: #fff;
   margin-bottom: 1rem;
   line-height: 1.15;
-  letter-spacing: -0.015em;
-  font-family: var(--font-display);
+  letter-spacing: -0.3px;
+  font-family: var(--font-elegant);
+  font-weight: 300;
 }
 
 .network-hero-sub {
   font-size: clamp(0.95rem, 1.5vw, 1.05rem);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.6);
   max-width: 600px;
   margin: 0;
   line-height: 1.7;
@@ -114,7 +117,7 @@
    ========================================================================== */
 .network-sidebar {
   background: #fff;
-  border-right: 1px solid var(--d4arf-border);
+  border-right: 0.5px solid var(--d4arf-border);
   padding: 1.5rem 1.25rem;
   overflow-y: auto;
   max-height: calc(100vh - 60px);
@@ -125,7 +128,7 @@
 .sidebar-section {
   margin-bottom: 1.75rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 0.5px solid var(--d4arf-border);
 }
 
 .sidebar-section:last-child {
@@ -135,13 +138,27 @@
 }
 
 .sidebar-heading {
-  font-family: var(--font-display);
-  font-size: 0.85rem;
-  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--d4arf-gray);
   margin: 0 0 0.75rem;
+  padding-top: 0.5rem;
+  position: relative;
+}
+
+/* Teal dash above sidebar headings — matches footer column headings */
+.sidebar-heading::before {
+  content: '';
+  display: block;
+  width: 0.75rem;
+  height: 1px;
+  background: var(--d4arf-accent);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* --- Type Filters --- */
@@ -156,7 +173,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.35rem 0.5rem;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
   font-size: 0.85rem;
   font-family: var(--font-body);
@@ -173,7 +190,7 @@
 }
 
 .type-filter.active {
-  background: var(--d4arf-gray-light);
+  background: var(--d4arf-accent-light);
   font-weight: 600;
 }
 
@@ -192,6 +209,7 @@
   font-size: 0.75rem;
   color: var(--d4arf-gray);
   font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono);
 }
 
 /* --- Search --- */
@@ -203,7 +221,7 @@
   width: 100%;
   padding: 0.5rem 0.75rem;
   border: 1px solid var(--d4arf-border);
-  border-radius: 6px;
+  border-radius: 2px;
   font-family: var(--font-body);
   font-size: 0.85rem;
   color: var(--d4arf-black);
@@ -213,8 +231,8 @@
 }
 
 .node-search:focus {
-  border-color: var(--d4arf-red);
-  box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.1);
+  border-color: var(--d4arf-accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--d4arf-accent) 15%, transparent);
 }
 
 .node-search::placeholder {
@@ -229,7 +247,7 @@
   background: #fff;
   border: 1px solid var(--d4arf-border);
   border-top: none;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 2px 2px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   z-index: 50;
   max-height: 200px;
@@ -258,7 +276,7 @@
 
 .search-result-item:hover,
 .search-result-item:focus {
-  background: var(--d4arf-gray-light);
+  background: var(--d4arf-accent-light);
 }
 
 .search-result-dot {
@@ -284,8 +302,8 @@
   padding: 0.65rem 0.75rem;
   background: var(--d4arf-gray-light);
   border: 1px solid var(--d4arf-border);
-  border-left: 3px solid var(--d4arf-red);
-  border-radius: 0 6px 6px 0;
+  border-left: 3px solid var(--d4arf-accent);
+  border-radius: 0 2px 2px 0;
   cursor: pointer;
   text-align: left;
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, background-color 0.15s ease;
@@ -294,20 +312,20 @@
 
 .tour-btn:hover {
   transform: translateY(-2px);
-  border-left-color: var(--d4arf-red);
-  border-color: var(--d4arf-red);
+  border-left-color: var(--d4arf-accent);
+  border-color: var(--d4arf-accent);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   background: #fff;
 }
 
 .tour-btn:focus-visible {
-  outline: 3px solid var(--d4arf-red);
+  outline: 2px solid var(--d4arf-accent);
   outline-offset: 2px;
 }
 
 .tour-btn.tour-active {
-  background: var(--d4arf-red-light);
-  border-left-color: var(--d4arf-red);
+  background: var(--d4arf-accent-light);
+  border-left-color: var(--d4arf-accent);
 }
 
 .tour-btn-title {
@@ -432,7 +450,7 @@
   justify-content: center;
   background: #fff;
   border: 1px solid var(--d4arf-border);
-  border-radius: 6px;
+  border-radius: 2px;
   color: var(--d4arf-gray);
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -466,7 +484,7 @@
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid var(--d4arf-border);
   padding: 0.35rem 0.75rem;
-  border-radius: 4px;
+  border-radius: 2px;
   margin: 0;
 }
 
@@ -493,12 +511,12 @@
 }
 
 .link-line.highlighted {
-  stroke: rgba(185, 28, 28, 0.5);
+  stroke: color-mix(in srgb, var(--d4arf-accent) 50%, transparent);
   stroke-width: 2;
 }
 
 .link-line.tour-highlight {
-  stroke: var(--d4arf-red);
+  stroke: var(--d4arf-accent);
   stroke-width: 2;
   opacity: 0.6;
   stroke-dasharray: none;
@@ -513,9 +531,9 @@
 }
 
 .node-circle.selected {
-  stroke: var(--d4arf-red);
+  stroke: var(--d4arf-accent);
   stroke-width: 3;
-  filter: drop-shadow(0 2px 6px rgba(185, 28, 28, 0.3));
+  filter: drop-shadow(0 2px 6px color-mix(in srgb, var(--d4arf-accent) 30%, transparent));
 }
 
 .node-circle.dimmed {
@@ -523,9 +541,9 @@
 }
 
 .node-circle.tour-highlight {
-  stroke: var(--d4arf-red);
+  stroke: var(--d4arf-accent);
   stroke-width: 3;
-  filter: drop-shadow(0 0 8px rgba(185, 28, 28, 0.25));
+  filter: drop-shadow(0 0 8px color-mix(in srgb, var(--d4arf-accent) 25%, transparent));
 }
 
 .node-label.dimmed {
@@ -541,7 +559,7 @@
    ========================================================================== */
 .network-detail {
   background: #fff;
-  border-left: 1px solid var(--d4arf-border);
+  border-left: 0.5px solid var(--d4arf-border);
   overflow-y: auto;
   max-height: calc(100vh - 60px);
   position: sticky;
@@ -564,7 +582,8 @@
 }
 
 .detail-empty-text {
-  font-family: var(--font-display);
+  font-family: var(--font-elegant);
+  font-weight: 400;
   font-size: 1rem;
   color: var(--d4arf-gray);
   margin: 0 0 0.35rem;
@@ -592,7 +611,7 @@
   justify-content: center;
   background: none;
   border: 1px solid var(--d4arf-border);
-  border-radius: 4px;
+  border-radius: 2px;
   font-size: 1.1rem;
   color: var(--d4arf-gray);
   cursor: pointer;
@@ -607,7 +626,7 @@
 .detail-header {
   margin-bottom: 1.25rem;
   padding-bottom: 1rem;
-  border-bottom: 2px solid var(--d4arf-red);
+  border-bottom: 2px solid var(--d4arf-accent);
 }
 
 .detail-type-badge {
@@ -617,13 +636,14 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 0.2rem 0.5rem;
-  border-radius: 3px;
+  border-radius: 2px;
   margin-bottom: 0.5rem;
   color: #fff;
 }
 
 .detail-name {
-  font-family: var(--font-display);
+  font-family: var(--font-elegant);
+  font-weight: 400;
   font-size: 1.15rem;
   color: var(--d4arf-black);
   margin: 0;
@@ -635,15 +655,15 @@
 }
 
 .detail-section-heading {
-  font-family: var(--font-display);
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--d4arf-gray);
   margin: 0 0 0.5rem;
   padding-bottom: 0.35rem;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 0.5px solid var(--d4arf-border);
 }
 
 .detail-observations {
@@ -657,7 +677,7 @@
   color: var(--d4arf-gray);
   line-height: 1.55;
   padding: 0.4rem 0;
-  border-bottom: 1px solid var(--d4arf-gray-light);
+  border-bottom: 0.5px solid var(--d4arf-gray-light);
   padding-left: 0.75rem;
   position: relative;
 }
@@ -669,7 +689,7 @@
   top: 0.7rem;
   width: 4px;
   height: 4px;
-  background: var(--d4arf-red);
+  background: var(--d4arf-accent);
   border-radius: 50%;
 }
 
@@ -686,7 +706,7 @@
 .detail-connections li {
   font-size: 0.85rem;
   padding: 0.35rem 0;
-  border-bottom: 1px solid var(--d4arf-gray-light);
+  border-bottom: 0.5px solid var(--d4arf-gray-light);
   line-height: 1.5;
 }
 
@@ -695,7 +715,7 @@
 }
 
 .detail-connection-link {
-  color: var(--d4arf-red);
+  color: var(--d4arf-accent);
   cursor: pointer;
   font-weight: 600;
   text-decoration: none;
@@ -728,8 +748,8 @@
   z-index: 25;
   background: #fff;
   border: 1px solid var(--d4arf-border);
-  border-left: 4px solid var(--d4arf-red);
-  border-radius: 0 8px 8px 0;
+  border-left: 4px solid var(--d4arf-accent);
+  border-radius: 0 2px 2px 0;
   padding: 1rem 1.25rem;
   max-width: 480px;
   width: calc(100% - 2rem);
@@ -746,7 +766,8 @@
   color: var(--d4arf-gray);
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: var(--font-mono);
   margin: 0 0 0.35rem;
 }
 
@@ -769,7 +790,7 @@
   font-family: var(--font-body);
   font-weight: 600;
   font-size: 0.8rem;
-  border-radius: 4px;
+  border-radius: 2px;
   cursor: pointer;
   border: 1px solid var(--d4arf-border);
   background: #fff;
@@ -782,6 +803,7 @@
   color: var(--d4arf-black);
 }
 
+/* Next button stays red — it's an action, not context */
 .tour-nav-btn.tour-next {
   background: var(--d4arf-red);
   color: #fff;
@@ -789,7 +811,7 @@
 }
 
 .tour-nav-btn.tour-next:hover {
-  background: var(--d4arf-link-hover);
+  opacity: 0.9;
 }
 
 .tour-nav-btn.tour-exit {
@@ -800,7 +822,7 @@
 }
 
 .tour-nav-btn.tour-exit:hover {
-  color: var(--d4arf-red);
+  color: var(--d4arf-accent);
 }
 
 /* ==========================================================================
@@ -816,7 +838,7 @@
     position: static;
     max-height: none;
     border-right: none;
-    border-bottom: 1px solid var(--d4arf-border);
+    border-bottom: 0.5px solid var(--d4arf-border);
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0 1.5rem;
@@ -845,7 +867,7 @@
     position: static;
     max-height: none;
     border-left: none;
-    border-top: 1px solid var(--d4arf-border);
+    border-top: 0.5px solid var(--d4arf-border);
   }
 
   .tour-narration {
@@ -885,12 +907,10 @@
    DARK MODE — Network page overrides
    ========================================================================== */
 
-/* --- Network hero: already visually dark, pin background --- */
 [data-theme="dark"] .network-hero {
   background-color: #0D0D12;
 }
 
-/* --- App layout background --- */
 [data-theme="dark"] .network-app {
   background: var(--d4arf-white);
 }
@@ -905,7 +925,6 @@
   border-bottom-color: var(--d4arf-border);
 }
 
-/* Type filter buttons */
 [data-theme="dark"] .type-filter {
   color: var(--d4arf-black);
 }
@@ -915,7 +934,7 @@
 }
 
 [data-theme="dark"] .type-filter.active {
-  background: var(--d4arf-gray-light);
+  background: var(--d4arf-accent-light);
 }
 
 /* Search */
@@ -930,8 +949,8 @@
 }
 
 [data-theme="dark"] .node-search:focus {
-  border-color: var(--d4arf-red);
-  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.15);
+  border-color: var(--d4arf-accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--d4arf-accent) 15%, transparent);
 }
 
 [data-theme="dark"] .search-results {
@@ -946,7 +965,7 @@
 
 [data-theme="dark"] .search-result-item:hover,
 [data-theme="dark"] .search-result-item:focus {
-  background: var(--d4arf-gray-light);
+  background: var(--d4arf-accent-light);
 }
 
 /* Tour buttons */
@@ -960,7 +979,7 @@
 }
 
 [data-theme="dark"] .tour-btn.tour-active {
-  background: var(--d4arf-red-light);
+  background: var(--d4arf-accent-light);
 }
 
 [data-theme="dark"] .tour-btn-title {
@@ -1003,7 +1022,7 @@
   color: var(--d4arf-gray);
 }
 
-/* Node labels — JS sets fill, but CSS class overrides */
+/* Node labels */
 [data-theme="dark"] .node-label {
   fill: #F3F4F6;
 }
@@ -1019,12 +1038,12 @@
 }
 
 [data-theme="dark"] .link-line.highlighted {
-  stroke: rgba(239, 68, 68, 0.7);
-  stroke-opacity: 0.9;
+  stroke: var(--d4arf-accent);
+  stroke-opacity: 0.7;
 }
 
 [data-theme="dark"] .link-line.tour-highlight {
-  stroke: var(--d4arf-red);
+  stroke: var(--d4arf-accent);
   stroke-opacity: 0.9;
 }
 
@@ -1034,7 +1053,7 @@
 }
 
 [data-theme="dark"] .node-circle.selected {
-  stroke: var(--d4arf-red);
+  stroke: var(--d4arf-accent);
 }
 
 /* --- Detail panel --- */
@@ -1054,7 +1073,7 @@
 }
 
 [data-theme="dark"] .detail-header {
-  border-bottom-color: var(--d4arf-red);
+  border-bottom-color: var(--d4arf-accent);
 }
 
 [data-theme="dark"] .detail-section-heading {
@@ -1087,6 +1106,7 @@
   color: var(--d4arf-black);
 }
 
+/* Next button stays red in dark mode too */
 [data-theme="dark"] .tour-nav-btn.tour-next {
   background: var(--d4arf-red);
   color: #fff;
