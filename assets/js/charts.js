@@ -23,6 +23,9 @@
     };
   }
 
+  // --- Respect prefers-reduced-motion ---
+  var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
   // Store chart instances for theme-change rebuild
   var instances = {};
 
@@ -61,7 +64,7 @@
         responsive: true,
         maintainAspectRatio: false,
         animation: {
-          duration: 800,
+          duration: reducedMotion ? 0 : 800,
           easing: 'easeOutCubic'
         },
         plugins: {
@@ -104,7 +107,8 @@
               color: c.textMuted,
               font: { family: 'IBM Plex Mono, monospace', size: 11 }
             },
-            grid: { color: c.gridLine, drawBorder: false }
+            grid: { color: c.gridLine },
+            border: { display: false }
           },
           y: {
             ticks: {
@@ -183,7 +187,7 @@
         aspectRatio: 2,
         cutout: '72%',
         animation: {
-          duration: 1000,
+          duration: reducedMotion ? 0 : 1000,
           easing: 'easeOutCubic'
         },
         plugins: {
