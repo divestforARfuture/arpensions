@@ -151,6 +151,7 @@
     var nodeFontColor = dark ? '#E5E7EB' : '#374151';
     var edgeColor = dark ? 'rgba(107, 114, 128, 0.35)' : 'rgba(0, 0, 0, 0.08)';
     var nodeStroke = dark ? '#1A1A24' : '#ffffff';
+    var edgeLabelBg = dark ? 'rgba(22, 22, 30, 0.9)' : 'rgba(248, 247, 245, 0.9)';
 
     return [
       { selector: 'node', style: {
@@ -173,7 +174,8 @@
       { selector: 'node[connections < 3]', style: { 'font-size': '0px', 'text-opacity': 0 }},
       { selector: 'edge', style: {
         'width': 1, 'line-color': edgeColor, 'curve-style': 'bezier',
-        'opacity': 0.7, 'target-arrow-shape': 'none'
+        'opacity': 0.7, 'target-arrow-shape': 'none',
+        'label': 'data(label)', 'font-size': '0px', 'text-opacity': 0
       }},
       { selector: 'node:selected', style: {
         'border-color': '#0C7489', 'border-width': 3,
@@ -182,14 +184,35 @@
       }},
       { selector: '.highlighted', style: { 'opacity': 1, 'z-index': 50 }},
       { selector: 'node.highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
-      { selector: 'edge.highlighted', style: { 'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.8, 'z-index': 50 }},
+      { selector: 'edge.highlighted', style: {
+        'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.8, 'z-index': 50,
+        'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
+        'font-family': 'IBM Plex Mono, monospace', 'text-rotation': 'autorotate', 'text-margin-y': -8,
+        'text-background-color': edgeLabelBg,
+        'text-background-opacity': 1, 'text-background-padding': '2px',
+        'text-background-shape': 'roundrectangle'
+      }},
       { selector: '.tour-highlighted', style: { 'opacity': 1, 'z-index': 60 }},
       { selector: 'node.tour-highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
-      { selector: 'edge.tour-highlighted', style: { 'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.7 }},
+      { selector: 'edge.tour-highlighted', style: {
+        'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.7,
+        'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
+        'font-family': 'IBM Plex Mono, monospace', 'text-rotation': 'autorotate', 'text-margin-y': -8,
+        'text-background-color': edgeLabelBg,
+        'text-background-opacity': 1, 'text-background-padding': '2px',
+        'text-background-shape': 'roundrectangle'
+      }},
       // Path-finding highlight (Phase 2)
       { selector: '.path-highlighted', style: { 'opacity': 1, 'z-index': 70 }},
       { selector: 'node.path-highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
-      { selector: 'edge.path-highlighted', style: { 'line-color': '#0C7489', 'width': 3, 'opacity': 0.9, 'z-index': 70 }},
+      { selector: 'edge.path-highlighted', style: {
+        'line-color': '#0C7489', 'width': 3, 'opacity': 0.9, 'z-index': 70,
+        'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
+        'font-family': 'IBM Plex Mono, monospace', 'text-rotation': 'autorotate', 'text-margin-y': -8,
+        'text-background-color': edgeLabelBg,
+        'text-background-opacity': 1, 'text-background-padding': '2px',
+        'text-background-shape': 'roundrectangle'
+      }},
       { selector: '.path-endpoint', style: {
         'border-color': '#0C7489', 'border-width': 4,
         'overlay-opacity': 0.12, 'overlay-color': '#0C7489',
@@ -198,7 +221,15 @@
       { selector: '.faded', style: { 'opacity': 0.08 }},
       { selector: '.dimmed', style: { 'opacity': 0.1 }},
       { selector: '.neighbor', style: { 'opacity': 1, 'font-size': '10px', 'text-opacity': 1, 'z-index': 40 }},
-      { selector: 'edge.neighbor', style: { 'line-color': 'rgba(12, 116, 137, 0.4)', 'width': 2, 'opacity': 0.7 }}
+      { selector: 'edge.neighbor', style: {
+        'line-color': 'rgba(12, 116, 137, 0.4)', 'width': 2, 'opacity': 0.7,
+        'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.8,
+        'font-family': 'IBM Plex Mono, monospace', 'font-weight': 500,
+        'color': nodeFontColor, 'text-rotation': 'autorotate', 'text-margin-y': -8,
+        'text-background-color': edgeLabelBg,
+        'text-background-opacity': 1, 'text-background-padding': '2px',
+        'text-background-shape': 'roundrectangle'
+      }}
     ];
   }
 
@@ -304,6 +335,77 @@
         }
         return;
       }
+    });
+
+    // --- Node hover tooltip ---
+    var tooltipEl = document.createElement('div');
+    tooltipEl.className = 'network-tooltip';
+    tooltipEl.style.display = 'none';
+    document.querySelector('.network-graph-area').appendChild(tooltipEl);
+    var tooltipHideTimer = null;
+
+    cy.on('mouseover', 'node', function (evt) {
+      if (state.activeTour || state.pathResult) return;
+      clearTimeout(tooltipHideTimer);
+
+      var node = evt.target;
+      var data = node.data();
+      var typeConfig = TYPE_CONFIG[data.type] || {};
+      var typeColor = isDarkMode()
+        ? (typeConfig.darkColor || '#999')
+        : (typeConfig.color || '#999');
+      var typeLabel = typeConfig.label || data.type;
+      var connCount = node.connectedEdges().length;
+      var firstObs = (data.observations && data.observations.length > 0)
+        ? data.observations[0]
+        : '';
+      if (firstObs.length > 120) {
+        firstObs = firstObs.substring(0, 117) + '\u2026';
+      }
+
+      tooltipEl.innerHTML =
+        '<span class="tooltip-type" style="background:' + typeColor + '">' +
+          escapeHtml(typeLabel) + '</span>' +
+        '<strong class="tooltip-name">' + escapeHtml(data.label) + '</strong>' +
+        '<span class="tooltip-conn">' + connCount + ' connections</span>' +
+        (firstObs
+          ? '<p class="tooltip-obs">' + escapeHtml(firstObs) + '</p>'
+          : '');
+
+      // Position relative to graph container
+      var container = document.getElementById('network-graph');
+      var containerRect = container.getBoundingClientRect();
+      var pos = node.renderedPosition();
+      var tooltipX = pos.x + 15;
+      var tooltipY = pos.y - 10;
+
+      tooltipEl.style.display = 'block';
+
+      // Clamp to container bounds
+      var tipRect = tooltipEl.getBoundingClientRect();
+      if (tooltipX + tipRect.width > containerRect.width) {
+        tooltipX = pos.x - tipRect.width - 15;
+      }
+      if (tooltipY + tipRect.height > containerRect.height) {
+        tooltipY = containerRect.height - tipRect.height - 10;
+      }
+      if (tooltipY < 0) {
+        tooltipY = 10;
+      }
+
+      tooltipEl.style.left = tooltipX + 'px';
+      tooltipEl.style.top = tooltipY + 'px';
+    });
+
+    cy.on('mouseout', 'node', function () {
+      tooltipHideTimer = setTimeout(function () {
+        tooltipEl.style.display = 'none';
+      }, 100);
+    });
+
+    cy.on('tap', function () {
+      clearTimeout(tooltipHideTimer);
+      tooltipEl.style.display = 'none';
     });
 
     // Dismiss hint on interaction
