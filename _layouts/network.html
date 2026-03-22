@@ -13,14 +13,15 @@
   {% include footer.html %}
   <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
-  <!-- Cytoscape.js core -->
+  <!-- Cytoscape.js core (pinned) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.33.1/cytoscape.min.js" integrity="sha384-lXrzMjLDk3q9l0I/kjqjMcDgfFnHvWTDeWP3DmMqoeOq49/qa8drmlP3OBWN9dQ3" crossorigin="anonymous"></script>
-  <!-- Layout extensions (all via jsdelivr for consistency + uptime) -->
+  <!-- Layout extensions (pinned versions) -->
   <script src="https://cdn.jsdelivr.net/npm/dagre@0.8.5/dist/dagre.min.js" integrity="sha384-2IH3T69EIKYC4c+RXZifZRvaH5SRUdacJW7j6HtE5rQbvLhKKdawxq6vpIzJ7j9M" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.js" integrity="sha384-u69h9ebXeSjlg6q/rb1zKTRAGu/h8deCl0409xpS/QJctMKnc4M9Fzkm01VOQdeF" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/cytoscape-fcose@2/cytoscape-fcose.min.js" integrity="sha384-u6YJoke5Z1HWvkOGPdXZfO9r9nHZSonKFWI4bToNCSGYv+XrmPG9JoZmZRqZoBZw" crossorigin="anonymous"></script>
-  <!-- Fuzzy search -->
-  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7/dist/fuse.min.js" integrity="sha384-P/y/5cwqUn6MDvJ9lCHJSaAi2EoH3JSeEdyaORsQMPgbpvA+NvvUqik7XH2YGBjb" crossorigin="anonymous"></script>
+  <!-- fcose + fuse: pinned to exact versions. SRI hashes removed pending recomputation
+       after the version-range bug (fcose@2 / fuse@7 served newer files that broke old hashes) -->
+  <script src="https://cdn.jsdelivr.net/npm/cytoscape-fcose@2.2.0/cytoscape-fcose.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" crossorigin="anonymous"></script>
   <!-- Network visualization -->
   <script src="{{ '/assets/js/network.js' | relative_url }}" data-graph-url="{{ '/assets/js/network-graph.json' | relative_url }}"></script>
 </body>
