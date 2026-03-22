@@ -187,7 +187,7 @@
       { selector: 'edge.highlighted', style: {
         'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.8, 'z-index': 50,
         'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
-        'font-family': 'IBM Plex Mono, monospace', 'text-rotation': 'autorotate', 'text-margin-y': -8,
+        'font-family': 'IBM Plex Mono, monospace', 'font-weight': 500, 'text-rotation': 'autorotate', 'text-margin-y': -8,
         'text-background-color': edgeLabelBg,
         'text-background-opacity': 1, 'text-background-padding': '2px',
         'text-background-shape': 'roundrectangle'
@@ -197,7 +197,7 @@
       { selector: 'edge.tour-highlighted', style: {
         'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.7,
         'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
-        'font-family': 'IBM Plex Mono, monospace', 'text-rotation': 'autorotate', 'text-margin-y': -8,
+        'font-family': 'IBM Plex Mono, monospace', 'font-weight': 500, 'text-rotation': 'autorotate', 'text-margin-y': -8,
         'text-background-color': edgeLabelBg,
         'text-background-opacity': 1, 'text-background-padding': '2px',
         'text-background-shape': 'roundrectangle'
@@ -208,7 +208,7 @@
       { selector: 'edge.path-highlighted', style: {
         'line-color': '#0C7489', 'width': 3, 'opacity': 0.9, 'z-index': 70,
         'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
-        'font-family': 'IBM Plex Mono, monospace', 'text-rotation': 'autorotate', 'text-margin-y': -8,
+        'font-family': 'IBM Plex Mono, monospace', 'font-weight': 500, 'text-rotation': 'autorotate', 'text-margin-y': -8,
         'text-background-color': edgeLabelBg,
         'text-background-opacity': 1, 'text-background-padding': '2px',
         'text-background-shape': 'roundrectangle'
@@ -340,6 +340,7 @@
     // --- Node hover tooltip ---
     var tooltipEl = document.createElement('div');
     tooltipEl.className = 'network-tooltip';
+    tooltipEl.setAttribute('role', 'tooltip');
     tooltipEl.style.display = 'none';
     document.querySelector('.network-graph-area').appendChild(tooltipEl);
     var tooltipHideTimer = null;
@@ -379,6 +380,7 @@
       var tooltipX = pos.x + 15;
       var tooltipY = pos.y - 10;
 
+      tooltipEl.style.visibility = 'hidden';
       tooltipEl.style.display = 'block';
 
       // Clamp to container bounds
@@ -392,9 +394,13 @@
       if (tooltipY < 0) {
         tooltipY = 10;
       }
+      if (tooltipX < 0) {
+        tooltipX = 10;
+      }
 
       tooltipEl.style.left = tooltipX + 'px';
       tooltipEl.style.top = tooltipY + 'px';
+      tooltipEl.style.visibility = '';
     });
 
     cy.on('mouseout', 'node', function () {
