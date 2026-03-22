@@ -52,8 +52,10 @@
   max-width: 720px;
 }
 
+/* Eyebrow: 0.6 opacity gives ~6.8:1 contrast on #1b2127 — preserves
+   headroom at the small 0.7rem / 11px text size */
 .network-eyebrow {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 0.7rem;
