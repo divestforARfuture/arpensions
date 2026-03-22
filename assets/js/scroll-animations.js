@@ -6,8 +6,9 @@
 (function () {
   'use strict';
 
-  // --- Respect prefers-reduced-motion ---
-  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // --- Respect prefers-reduced-motion (reactive to OS setting changes) ---
+  var motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var prefersReducedMotion = motionQuery.matches;
 
   // --- AOS initialization ---
   if (typeof AOS !== 'undefined') {
@@ -53,7 +54,8 @@
     var target = parseFloat(el.getAttribute('data-countup'));
     var prefix = el.getAttribute('data-countup-prefix') || '';
     var suffix = el.getAttribute('data-countup-suffix') || '';
-    var duration = parseFloat(el.getAttribute('data-countup-duration')) || 2;
+    var durationAttr = el.getAttribute('data-countup-duration');
+    var duration = (durationAttr !== null) ? parseFloat(durationAttr) : 2;
     var rawTarget = el.getAttribute('data-countup');
     var decimals = (rawTarget.indexOf('.') !== -1)
       ? rawTarget.split('.')[1].length
@@ -105,5 +107,19 @@
       counterObserver.observe(el);
     });
   }
+
+  // --- React to OS reduced-motion changes after page load ---
+  motionQuery.addEventListener('change', function (e) {
+    prefersReducedMotion = e.matches;
+    if (typeof AOS !== 'undefined') {
+      AOS.init({
+        duration: 600,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 60,
+        disable: e.matches
+      });
+    }
+  });
 
 })();
