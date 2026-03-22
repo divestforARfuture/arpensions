@@ -187,7 +187,7 @@
           source: l.source,
           target: l.target,
           type: l.type || '',
-          label: l.label || l.type.replace(/_/g, ' ')
+          label: l.label || (l.type ? l.type.replace(/_/g, ' ') : '')
         }
       };
     });
@@ -293,7 +293,7 @@
           'z-index': 50
         }
       },
-      // Tour highlight — slightly different from general highlight
+      // Tour highlight
       {
         selector: '.tour-highlighted',
         style: {
@@ -448,7 +448,7 @@
       }
     });
 
-    // Keyboard: Tab cycles nodes, Enter selects, Escape deselects
+    // Keyboard: / for search, Escape to exit
     document.addEventListener('keydown', function (e) {
       if (e.key === '/' && !e.target.matches('input, textarea')) {
         e.preventDefault();
@@ -484,8 +484,6 @@
     neighborhood.addClass('highlighted');
     neighborhood.edges().addClass('neighbor');
     node.connectedEdges().addClass('neighbor');
-
-    // Show labels on neighbor nodes
     neighborhood.nodes().addClass('neighbor');
   }
 
@@ -499,14 +497,10 @@
     var cy = state.cy;
     state.selectedNodeId = node.id();
 
-    // Unselect previous
     cy.nodes().unselect();
     node.select();
-
-    // Highlight neighborhood
     highlightNeighborhood(node);
 
-    // Populate detail panel
     document.getElementById('detail-empty').style.display = 'none';
     var content = document.getElementById('detail-content');
     content.style.display = 'block';
@@ -519,19 +513,16 @@
 
     document.getElementById('detail-name').textContent = data.label;
 
-    // Connection count
     var connCountEl = document.getElementById('detail-conn-count');
     if (connCountEl) {
       connCountEl.textContent = node.connectedEdges().length + ' connections';
     }
 
-    // Announce to screen readers
     var statusEl = document.getElementById('detail-status');
     if (statusEl) {
       statusEl.textContent = data.label + ' selected, ' + node.connectedEdges().length + ' connections. Details panel opened.';
     }
 
-    // Observations
     var obsList = document.getElementById('detail-observations');
     obsList.innerHTML = '';
     var observations = data.observations || [];
@@ -549,7 +540,6 @@
       obsList.appendChild(more);
     }
 
-    // Connections
     var connList = document.getElementById('detail-connections');
     connList.innerHTML = '';
     node.connectedEdges().forEach(function (edge) {
@@ -570,7 +560,7 @@
       li.appendChild(btn);
       var typeSpan = document.createElement('span');
       typeSpan.className = 'detail-connection-type';
-      typeSpan.textContent = edge.data('type').replace(/_/g, ' ');
+      typeSpan.textContent = (edge.data('type') || '').replace(/_/g, ' ');
       li.appendChild(typeSpan);
       connList.appendChild(li);
     });
@@ -597,7 +587,6 @@
       counts[n.type] = (counts[n.type] || 0) + 1;
     });
 
-    // All button
     var allBtn = document.createElement('button');
     allBtn.className = 'type-filter active';
     allBtn.setAttribute('data-type', 'all');
@@ -710,6 +699,7 @@
       var query = input.value.trim();
       resultsEl.innerHTML = '';
       activeIndex = -1;
+      input.removeAttribute('aria-activedescendant');
 
       if (query.length < 2) {
         resultsEl.classList.remove('open');
@@ -729,7 +719,9 @@
         var item = r.item;
         var btn = document.createElement('button');
         btn.className = 'search-result-item';
+        btn.id = 'search-result-' + idx;
         btn.setAttribute('role', 'option');
+        btn.setAttribute('aria-selected', 'false');
         btn.setAttribute('data-idx', idx);
         btn.innerHTML =
           '<span class="search-result-dot" style="background:' + getTypeColor(item.type) + '"></span>' +
@@ -739,6 +731,7 @@
           navigateToNode(item.id);
           resultsEl.classList.remove('open');
           input.setAttribute('aria-expanded', 'false');
+          input.removeAttribute('aria-activedescendant');
           input.value = item.label;
         });
         resultsEl.appendChild(btn);
@@ -772,6 +765,8 @@
         it.classList.toggle('active', i === activeIndex);
         it.setAttribute('aria-selected', i === activeIndex ? 'true' : 'false');
       });
+      input.setAttribute('aria-activedescendant',
+        activeIndex >= 0 ? 'search-result-' + activeIndex : '');
     }
 
     // Close on click outside
@@ -779,6 +774,7 @@
       if (!e.target.closest('.search-wrapper')) {
         resultsEl.classList.remove('open');
         input.setAttribute('aria-expanded', 'false');
+        input.removeAttribute('aria-activedescendant');
       }
     });
   }
@@ -898,7 +894,7 @@
     var step = tour.steps[state.tourStep];
     var highlightNodeIds = step.nodes;
 
-    // Find Cytoscape nodes matching step node IDs (by label or id)
+    // Find Cytoscape nodes matching step node IDs
     var tourNodes = cy.collection();
     highlightNodeIds.forEach(function (nid) {
       var found = cy.getElementById(nid);
@@ -920,15 +916,16 @@
 
     var tourEles = tourNodes.union(tourEdges);
 
-    // Also try Dijkstra paths between tour nodes for better connectivity
+    // Dijkstra paths between tour nodes for better connectivity.
+    // Compute once per source node (N-1 calls instead of N*(N-1)/2).
     if (tourNodes.length >= 2) {
       for (var i = 0; i < tourNodes.length - 1; i++) {
+        var dijkstra = cy.elements().dijkstra({
+          root: tourNodes[i],
+          directed: false
+        });
         for (var j = i + 1; j < tourNodes.length; j++) {
           try {
-            var dijkstra = cy.elements().dijkstra({
-              root: tourNodes[i],
-              directed: false
-            });
             var path = dijkstra.pathTo(tourNodes[j]);
             if (path && path.length > 0) {
               tourEles = tourEles.union(path);
@@ -1073,7 +1070,6 @@
     table.appendChild(thead);
 
     var tbody = document.createElement('tbody');
-    // Count connections
     var linkCounts = {};
     data.links.forEach(function (l) {
       linkCounts[l.source] = (linkCounts[l.source] || 0) + 1;
@@ -1106,7 +1102,6 @@
     if (!state.cy) return;
     state.cy.style(buildStylesheet());
 
-    // Update filter dots
     document.querySelectorAll('.type-filter[data-type]').forEach(function (btn) {
       var type = btn.getAttribute('data-type');
       if (type === 'all') return;
@@ -1118,7 +1113,6 @@
       var dot = item.querySelector('.legend-dot');
       if (dot) dot.style.background = getTypeColor(type);
     });
-    // Update badge color
     if (state.selectedNodeId) {
       var node = state.cy.getElementById(state.selectedNodeId);
       if (node.nonempty()) {
@@ -1130,7 +1124,6 @@
 
   document.addEventListener('themechange', applyTheme);
 
-  // Also watch for attribute changes on html element
   var themeObserver = new MutationObserver(function (mutations) {
     mutations.forEach(function (m) {
       if (m.attributeName === 'data-theme') applyTheme();
