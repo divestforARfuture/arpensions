@@ -1317,6 +1317,7 @@
 [data-theme="dark"] .network-tooltip {
   background: #1A1A24;
   border-color: var(--d4arf-border);
+  border-left-color: var(--d4arf-accent);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
