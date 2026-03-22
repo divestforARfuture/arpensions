@@ -111,7 +111,7 @@
 }
 
 /* ==========================================================================
-   SIDEBAR — Filters, search, tours, legend
+   SIDEBAR — Filters, search, path-finding, tours, legend
    ========================================================================== */
 .network-sidebar {
   background: #fff;
@@ -291,6 +291,197 @@
   color: var(--d4arf-gray);
   text-transform: uppercase;
   letter-spacing: 0.04em;
+}
+
+/* --- Path-finding (Phase 2) --- */
+.pathfinding-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pathfinding-selects {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.pathfinding-label {
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  color: var(--d4arf-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 0.15rem;
+}
+
+.pathfinding-select {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--d4arf-border);
+  border-radius: 2px;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--d4arf-black);
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.pathfinding-select:focus {
+  border-color: var(--d4arf-accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--d4arf-accent) 15%, transparent);
+}
+
+.pathfinding-swap {
+  align-self: center;
+  width: 28px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid var(--d4arf-border);
+  border-radius: 2px;
+  color: var(--d4arf-gray);
+  cursor: pointer;
+  margin: 0.1rem 0;
+}
+
+.pathfinding-swap:hover {
+  background: var(--d4arf-gray-light);
+  color: var(--d4arf-accent);
+}
+
+.pathfinding-swap:focus-visible {
+  outline: 2px solid var(--d4arf-accent);
+  outline-offset: 2px;
+}
+
+.pathfinding-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.pathfinding-btn {
+  padding: 0.4rem 0.75rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid var(--d4arf-border);
+  background: #fff;
+  color: var(--d4arf-gray);
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.pathfinding-btn:hover {
+  background: var(--d4arf-gray-light);
+  color: var(--d4arf-black);
+}
+
+.pathfinding-btn:focus-visible {
+  outline: 2px solid var(--d4arf-accent);
+  outline-offset: 2px;
+}
+
+.pathfinding-btn--find {
+  background: var(--d4arf-accent);
+  color: #fff;
+  border-color: var(--d4arf-accent);
+  flex: 1;
+}
+
+.pathfinding-btn--find:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.pathfinding-btn--clear {
+  flex: 0;
+}
+
+.path-result {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 0.5px solid var(--d4arf-border);
+}
+
+.path-summary {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--d4arf-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.5rem;
+}
+
+.path-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.path-step {
+  padding: 0.3rem 0;
+  padding-left: 0.5rem;
+  border-left: 2px solid var(--d4arf-accent);
+  margin-left: 0.25rem;
+}
+
+.path-step:last-child {
+  border-left-color: transparent;
+}
+
+.path-step-node {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: none;
+  border: none;
+  padding: 0.15rem 0;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--d4arf-accent);
+  text-align: left;
+}
+
+.path-step-node:hover {
+  text-decoration: underline;
+}
+
+.path-step-node:focus-visible {
+  outline: 2px solid var(--d4arf-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.path-step-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.path-step-edge {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--d4arf-gray);
+  font-family: var(--font-mono);
+  padding: 0.15rem 0 0.1rem 1.4rem;
+}
+
+.path-error {
+  font-size: 0.8rem;
+  color: var(--d4arf-gray);
+  font-style: italic;
+  margin: 0;
 }
 
 /* --- Guided Tours --- */
@@ -961,6 +1152,55 @@
 [data-theme="dark"] .search-result-item:focus,
 [data-theme="dark"] .search-result-item.active {
   background: var(--d4arf-accent-light);
+}
+
+/* Path-finding */
+[data-theme="dark"] .pathfinding-select {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  color: var(--d4arf-black);
+}
+
+[data-theme="dark"] .pathfinding-select:focus {
+  border-color: var(--d4arf-accent);
+}
+
+[data-theme="dark"] .pathfinding-swap {
+  border-color: var(--d4arf-border);
+  color: var(--d4arf-gray);
+}
+
+[data-theme="dark"] .pathfinding-swap:hover {
+  background: var(--d4arf-gray-light);
+}
+
+[data-theme="dark"] .pathfinding-btn {
+  background: #1A1A24;
+  border-color: var(--d4arf-border);
+  color: var(--d4arf-gray);
+}
+
+[data-theme="dark"] .pathfinding-btn:hover {
+  background: var(--d4arf-gray-light);
+  color: var(--d4arf-black);
+}
+
+[data-theme="dark"] .pathfinding-btn--find {
+  background: var(--d4arf-accent);
+  color: #fff;
+  border-color: var(--d4arf-accent);
+}
+
+[data-theme="dark"] .path-result {
+  border-top-color: var(--d4arf-border);
+}
+
+[data-theme="dark"] .path-step {
+  border-left-color: var(--d4arf-accent);
+}
+
+[data-theme="dark"] .path-step:last-child {
+  border-left-color: transparent;
 }
 
 /* Tour buttons */

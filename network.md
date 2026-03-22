@@ -18,13 +18,10 @@ permalink: /network/
 <section class="network-app" aria-label="Network visualization">
   <div class="network-layout">
 
-    <!-- Sidebar: filters + guided tours -->
     <aside class="network-sidebar" aria-label="Filters and guided tours">
       <div class="sidebar-section">
         <h2 class="sidebar-heading">Entity Types</h2>
-        <div id="type-filters" class="type-filters" role="group" aria-label="Filter by entity type">
-          <!-- Populated by JS -->
-        </div>
+        <div id="type-filters" class="type-filters" role="group" aria-label="Filter by entity type"></div>
       </div>
 
       <div class="sidebar-section">
@@ -32,6 +29,30 @@ permalink: /network/
         <div class="search-wrapper">
           <input type="search" id="node-search" class="node-search" placeholder="Search entities... (press /)" aria-label="Search entities by name" aria-expanded="false" aria-controls="search-results" aria-autocomplete="list">
           <div id="search-results" class="search-results" role="listbox" aria-label="Search results"></div>
+        </div>
+      </div>
+
+      <div class="sidebar-section">
+        <h2 class="sidebar-heading">Find Path</h2>
+        <div class="pathfinding-form" role="group" aria-label="Find shortest path between two entities">
+          <div class="pathfinding-selects">
+            <label for="path-source" class="pathfinding-label">From</label>
+            <select id="path-source" class="pathfinding-select">
+              <option value="">Select source...</option>
+            </select>
+            <button id="path-swap-btn" class="pathfinding-swap" aria-label="Swap source and target" title="Swap">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="7 3 7 21"/><polyline points="3 7 7 3 11 7"/><polyline points="17 21 17 3"/><polyline points="13 17 17 21 21 17"/></svg>
+            </button>
+            <label for="path-target" class="pathfinding-label">To</label>
+            <select id="path-target" class="pathfinding-select">
+              <option value="">Select target...</option>
+            </select>
+          </div>
+          <div class="pathfinding-actions">
+            <button id="path-find-btn" class="pathfinding-btn pathfinding-btn--find">Find path</button>
+            <button id="path-clear-btn" class="pathfinding-btn pathfinding-btn--clear" style="display:none;">Clear</button>
+          </div>
+          <div id="path-result" class="path-result" style="display:none;" aria-live="polite"></div>
         </div>
       </div>
 
@@ -59,13 +80,10 @@ permalink: /network/
 
       <div class="sidebar-section sidebar-legend">
         <h2 class="sidebar-heading">Legend</h2>
-        <div id="legend" class="legend-list">
-          <!-- Populated by JS -->
-        </div>
+        <div id="legend" class="legend-list"></div>
       </div>
     </aside>
 
-    <!-- Graph area -->
     <div class="network-graph-area">
       <div class="graph-controls">
         <button id="zoom-in" class="graph-control-btn" aria-label="Zoom in" title="Zoom in">
@@ -84,16 +102,11 @@ permalink: /network/
         </button>
       </div>
       <div id="network-graph" class="network-graph" role="img" aria-label="Network graph of FOIA investigation entities and their relationships. An accessible data table is available below.">
-        <div class="graph-loading" id="graph-loading">
-          <p>Loading investigation network...</p>
-        </div>
+        <div class="graph-loading" id="graph-loading"><p>Loading investigation network...</p></div>
       </div>
-      <div class="graph-hint" id="graph-hint">
-        <p>Click a node to inspect it. Scroll to zoom. Drag to pan. Press / to search.</p>
-      </div>
+      <div class="graph-hint" id="graph-hint"><p>Click a node to inspect it. Scroll to zoom. Drag to pan. Press / to search.</p></div>
     </div>
 
-    <!-- Detail panel -->
     <aside class="network-detail" id="detail-panel" aria-label="Entity details">
       <div id="detail-status" class="sr-only" aria-live="polite" aria-atomic="true"></div>
       <div class="detail-empty" id="detail-empty">
@@ -125,8 +138,5 @@ permalink: /network/
 
   </div>
 
-  <!-- Screen-reader accessible data table -->
-  <div id="sr-data-table" class="sr-only" aria-label="Accessible table of all network entities and their connections">
-    <!-- Populated by JS from the same JSON data -->
-  </div>
+  <div id="sr-data-table" class="sr-only" aria-label="Accessible table of all network entities and their connections"></div>
 </section>

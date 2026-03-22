@@ -1,6 +1,7 @@
 /* ==========================================================================
    D4ARF Network Visualization — Cytoscape.js investigative graph
-   Phase 1: Core migration from D3.js v7 to Cytoscape.js
+   Phase 1: Core Cytoscape migration
+   Phase 2: Path-finding UI + URL hash state
    ========================================================================== */
 
 (function () {
@@ -37,89 +38,38 @@
     'milligan-chain': {
       title: 'The Milligan Chain',
       steps: [
-        {
-          nodes: ['Dennis Milligan'],
-          text: 'Dennis Milligan served as State Treasurer (~2015\u20132019) where he initiated the Israel Bonds program. He later became Auditor of State \u2014 an office with no investment authority.'
-        },
-        {
-          nodes: ['Dennis Milligan', 'Arkansas State Treasury', 'Auditor of State'],
-          text: 'Despite holding no investment authority as Auditor, Milligan used his office to coordinate Israel Bonds advocacy across multiple agencies.'
-        },
-        {
-          nodes: ['Dennis Milligan', 'Jason Brady', 'APERS', 'ATRS'],
-          text: 'Jason Brady \u2014 Milligan\u2019s direct report at the Auditor\u2019s office \u2014 served on the APERS board and initiated the Israel Bonds request at ATRS. He was the operational conduit across both pension systems.'
-        },
-        {
-          nodes: ['Dennis Milligan', 'Jason Brady', 'April 2025 Israel Bonds Tour', 'Lawrence Berman', 'Bradley Young'],
-          text: 'In April 2025, the Auditor\u2019s office organized a 2-day tour of Arkansas state government for Israel Bonds sales reps. Within weeks, both APERS and ATRS authorized up to $50 million each.'
-        },
-        {
-          nodes: ['Dennis Milligan', 'Stacy Peterson', 'SFOF', 'SFOF Conduit Role'],
-          text: 'After the votes, Milligan\u2019s communications director distributed success stories through SFOF to encourage other states to replicate. The full advocacy lifecycle \u2014 from meetings to votes to interstate promotion \u2014 operated from the Auditor\u2019s office.'
-        }
+        { nodes: ['Dennis Milligan'], text: 'Dennis Milligan served as State Treasurer (~2015\u20132019) where he initiated the Israel Bonds program. He later became Auditor of State \u2014 an office with no investment authority.' },
+        { nodes: ['Dennis Milligan', 'Arkansas State Treasury', 'Auditor of State'], text: 'Despite holding no investment authority as Auditor, Milligan used his office to coordinate Israel Bonds advocacy across multiple agencies.' },
+        { nodes: ['Dennis Milligan', 'Jason Brady', 'APERS', 'ATRS'], text: 'Jason Brady \u2014 Milligan\u2019s direct report at the Auditor\u2019s office \u2014 served on the APERS board and initiated the Israel Bonds request at ATRS. He was the operational conduit across both pension systems.' },
+        { nodes: ['Dennis Milligan', 'Jason Brady', 'April 2025 Israel Bonds Tour', 'Lawrence Berman', 'Bradley Young'], text: 'In April 2025, the Auditor\u2019s office organized a 2-day tour of Arkansas state government for Israel Bonds sales reps. Within weeks, both APERS and ATRS authorized up to $50 million each.' },
+        { nodes: ['Dennis Milligan', 'Stacy Peterson', 'SFOF', 'SFOF Conduit Role'], text: 'After the votes, Milligan\u2019s communications director distributed success stories through SFOF to encourage other states to replicate. The full advocacy lifecycle \u2014 from meetings to votes to interstate promotion \u2014 operated from the Auditor\u2019s office.' }
       ]
     },
     'seller-as-analyst': {
       title: 'Seller as Analyst',
       steps: [
-        {
-          nodes: ['Seller as Analyst Problem', 'No Independent Credit Analysis'],
-          text: 'Across 909 FOIA documents from 4 agencies, zero independent credit analyses of Israel Bonds exist. The only "analysis" came from the entity selling the bonds.'
-        },
-        {
-          nodes: ['Lawrence Berman', 'Bradley Young', 'Stuart Garawitz', 'Israel Bonds / DCI'],
-          text: 'Israel Bonds representatives provided all investment materials: rate sheets, economic briefings, marketing emails, and "exclusive" presentations. These same people are responsible for selling $10+ billion in bonds.'
-        },
-        {
-          nodes: ['Aon Hewitt Investment Consulting', 'ATRS No Independent Analysis', 'ATRS'],
-          text: 'ATRS\u2019s own consultant Aon provided comprehensive due diligence for other investments like KKR. For Israel Bonds: nothing. The Executive Director admitted in advance that Aon "will not be making a formal recommendation."'
-        },
-        {
-          nodes: ['Seller as Analyst Problem', 'Arkansas State Treasury', 'APERS', 'ATRS'],
-          text: 'The pattern repeated across all three investing entities. In every case, the bond seller\u2019s materials were the only investment rationale available when decisions were made.'
-        }
+        { nodes: ['Seller as Analyst Problem', 'No Independent Credit Analysis'], text: 'Across 909 FOIA documents from 4 agencies, zero independent credit analyses of Israel Bonds exist. The only "analysis" came from the entity selling the bonds.' },
+        { nodes: ['Lawrence Berman', 'Bradley Young', 'Stuart Garawitz', 'Israel Bonds / DCI'], text: 'Israel Bonds representatives provided all investment materials: rate sheets, economic briefings, marketing emails, and "exclusive" presentations. These same people are responsible for selling $10+ billion in bonds.' },
+        { nodes: ['Aon Hewitt Investment Consulting', 'ATRS No Independent Analysis', 'ATRS'], text: 'ATRS\u2019s own consultant Aon provided comprehensive due diligence for other investments like KKR. For Israel Bonds: nothing. The Executive Director admitted in advance that Aon "will not be making a formal recommendation."' },
+        { nodes: ['Seller as Analyst Problem', 'Arkansas State Treasury', 'APERS', 'ATRS'], text: 'The pattern repeated across all three investing entities. In every case, the bond seller\u2019s materials were the only investment rationale available when decisions were made.' }
       ]
     },
     'sfof-pipeline': {
       title: 'The SFOF Pipeline',
       steps: [
-        {
-          nodes: ['SFOF', 'Derek A. Kreifels'],
-          text: 'The State Financial Officers Foundation (SFOF) is a networking organization connecting state treasurers and financial officers nationally. Derek Kreifels serves as Executive Director.'
-        },
-        {
-          nodes: ['SFOF', 'Dennis Milligan', 'Israel Bonds / DCI'],
-          text: 'Milligan served as SFOF National Chair (~2019\u20132020). SFOF forwarded Israel Bonds events \u2014 including a "Celebration with Prime Minister Netanyahu" \u2014 to state officials. The organization functioned as a marketing channel.'
-        },
-        {
-          nodes: ['SFOF Conduit Role', 'Inter-State Israel Bonds Coordination', 'Glenn Hegar'],
-          text: 'The SFOF network connected Arkansas officials with treasurers from Texas, Arizona, Idaho, North Carolina, and others. Texas Comptroller Hegar used nearly identical political framing for his $140M in Israel Bonds purchases.'
-        },
-        {
-          nodes: ['Stacy Peterson', 'SFOF Conduit Role', 'Adam Schwend'],
-          text: 'After APERS and ATRS voted, Milligan\u2019s communications director emailed SFOF: "Feel free to pass along to any member states you think might be interested. The Auditor has very good contact." The interstate replication pipeline is documented.'
-        }
+        { nodes: ['SFOF', 'Derek A. Kreifels'], text: 'The State Financial Officers Foundation (SFOF) is a networking organization connecting state treasurers and financial officers nationally. Derek Kreifels serves as Executive Director.' },
+        { nodes: ['SFOF', 'Dennis Milligan', 'Israel Bonds / DCI'], text: 'Milligan served as SFOF National Chair (~2019\u20132020). SFOF forwarded Israel Bonds events \u2014 including a "Celebration with Prime Minister Netanyahu" \u2014 to state officials. The organization functioned as a marketing channel.' },
+        { nodes: ['SFOF Conduit Role', 'Inter-State Israel Bonds Coordination', 'Glenn Hegar'], text: 'The SFOF network connected Arkansas officials with treasurers from Texas, Arizona, Idaho, North Carolina, and others. Texas Comptroller Hegar used nearly identical political framing for his $140M in Israel Bonds purchases.' },
+        { nodes: ['Stacy Peterson', 'SFOF Conduit Role', 'Adam Schwend'], text: 'After APERS and ATRS voted, Milligan\u2019s communications director emailed SFOF: "Feel free to pass along to any member states you think might be interested. The Auditor has very good contact." The interstate replication pipeline is documented.' }
       ]
     },
     'authorization-gap': {
       title: 'The Authorization Gap',
       steps: [
-        {
-          nodes: ['Authorization Gap', 'Absence of Normal Fiduciary Processes'],
-          text: 'For a combined potential allocation of $155 million, standard fiduciary processes are completely absent: no independent credit analysis, no risk assessment, no yield comparison, no consultant review.'
-        },
-        {
-          nodes: ['Authorization Gap', 'Arkansas State Treasury', 'Board of Finance'],
-          text: 'Treasury: Purchases authorized by "executive team" with no documented Board of Finance deliberation. The only internal analysis is a 2-page document created years after tens of millions were invested.'
-        },
-        {
-          nodes: ['Authorization Gap', 'ATRS', 'ATRS Resolution 2025-22', 'Danny Knight'],
-          text: 'ATRS: The Board adopted Resolution 2025-22 for $50M based on the Executive Director\u2019s personal opinion, not a formal consultant recommendation. Board Chair Danny Knight signed the resolution.'
-        },
-        {
-          nodes: ['Symmetry Argument', 'Act 710', 'Act 644', 'Arkansas Prudent Investor Standard'],
-          text: 'Arkansas Act 710 requires "financial merit" for divestment. The same standard should apply to purchases. The complete absence of financial merit analysis for Israel Bonds purchases violates the spirit of Arkansas\u2019s own laws.'
-        }
+        { nodes: ['Authorization Gap', 'Absence of Normal Fiduciary Processes'], text: 'For a combined potential allocation of $155 million, standard fiduciary processes are completely absent: no independent credit analysis, no risk assessment, no yield comparison, no consultant review.' },
+        { nodes: ['Authorization Gap', 'Arkansas State Treasury', 'Board of Finance'], text: 'Treasury: Purchases authorized by "executive team" with no documented Board of Finance deliberation. The only internal analysis is a 2-page document created years after tens of millions were invested.' },
+        { nodes: ['Authorization Gap', 'ATRS', 'ATRS Resolution 2025-22', 'Danny Knight'], text: 'ATRS: The Board adopted Resolution 2025-22 for $50M based on the Executive Director\u2019s personal opinion, not a formal consultant recommendation. Board Chair Danny Knight signed the resolution.' },
+        { nodes: ['Symmetry Argument', 'Act 710', 'Act 644', 'Arkansas Prudent Investor Standard'], text: 'Arkansas Act 710 requires "financial merit" for divestment. The same standard should apply to purchases. The complete absence of financial merit analysis for Israel Bonds purchases violates the spirit of Arkansas\u2019s own laws.' }
       ]
     }
   };
@@ -134,7 +84,13 @@
     tourStep: 0,
     tourTriggerEl: null,
     selectedNodeId: null,
-    currentLayout: 'fcose'
+    currentLayout: 'fcose',
+    // Phase 2 state
+    pathSource: null,
+    pathTarget: null,
+    pathResult: null,
+    hashUpdateTimer: null,
+    restoringHash: false
   };
 
   // --- Utility ---
@@ -154,7 +110,6 @@
 
   // --- Transform D3 data to Cytoscape elements ---
   function transformData(data) {
-    // Count links per node
     var linkCounts = {};
     data.links.forEach(function (l) {
       linkCounts[l.source] = (linkCounts[l.source] || 0) + 1;
@@ -166,14 +121,11 @@
       return {
         group: 'nodes',
         data: {
-          id: n.id,
-          label: n.label,
-          type: n.type,
+          id: n.id, label: n.label, type: n.type,
           observations: n.observations || [],
           observationCount: n.observationCount || (n.observations ? n.observations.length : 0),
           connections: linkCounts[n.id] || 0,
-          color: cfg.color || '#999',
-          darkColor: cfg.darkColor || '#999',
+          color: cfg.color || '#999', darkColor: cfg.darkColor || '#999',
           shape: cfg.shape || 'ellipse'
         }
       };
@@ -183,9 +135,7 @@
       return {
         group: 'edges',
         data: {
-          id: 'e' + i,
-          source: l.source,
-          target: l.target,
+          id: 'e' + i, source: l.source, target: l.target,
           type: l.type || '',
           label: l.label || (l.type ? l.type.replace(/_/g, ' ') : '')
         }
@@ -203,153 +153,52 @@
     var nodeStroke = dark ? '#1A1A24' : '#ffffff';
 
     return [
-      // Nodes
-      {
-        selector: 'node',
-        style: {
-          'label': 'data(label)',
-          'background-color': function (ele) {
-            return dark ? ele.data('darkColor') : ele.data('color');
-          },
-          'shape': 'data(shape)',
-          'width': 'mapData(connections, 0, 30, 18, 56)',
-          'height': 'mapData(connections, 0, 30, 18, 56)',
-          'font-family': 'Inter, system-ui, sans-serif',
-          'font-size': '10px',
-          'font-weight': 600,
-          'color': nodeFontColor,
-          'text-valign': 'bottom',
-          'text-halign': 'center',
-          'text-margin-y': 6,
-          'text-max-width': '100px',
-          'text-wrap': 'ellipsis',
-          'border-width': 2,
-          'border-color': nodeStroke,
-          'overlay-padding': 4,
-          'overlay-opacity': 0,
-          'z-index': 10,
-          'min-zoomed-font-size': 8,
-          'text-background-color': dark ? 'rgba(22, 22, 30, 0.85)' : 'rgba(248, 247, 245, 0.85)',
-          'text-background-opacity': 1,
-          'text-background-padding': '2px',
-          'text-background-shape': 'roundrectangle'
-        }
-      },
-      // Only show labels at a reasonable zoom or for high-connection nodes
-      {
-        selector: 'node[connections < 3]',
-        style: {
-          'font-size': '0px',
-          'text-opacity': 0
-        }
-      },
-      // Edges
-      {
-        selector: 'edge',
-        style: {
-          'width': 1,
-          'line-color': edgeColor,
-          'curve-style': 'bezier',
-          'opacity': 0.7,
-          'target-arrow-shape': 'none'
-        }
-      },
-      // Selected node
-      {
-        selector: 'node:selected',
-        style: {
-          'border-color': '#0C7489',
-          'border-width': 3,
-          'overlay-opacity': 0.08,
-          'overlay-color': '#0C7489',
-          'font-size': '11px',
-          'text-opacity': 1,
-          'z-index': 100
-        }
-      },
-      // Highlighted class (for tours and neighbor highlighting)
-      {
-        selector: '.highlighted',
-        style: {
-          'opacity': 1,
-          'z-index': 50
-        }
-      },
-      {
-        selector: 'node.highlighted',
-        style: {
-          'border-color': '#0C7489',
-          'border-width': 3,
-          'font-size': '11px',
-          'text-opacity': 1
-        }
-      },
-      {
-        selector: 'edge.highlighted',
-        style: {
-          'line-color': '#0C7489',
-          'width': 2.5,
-          'opacity': 0.8,
-          'z-index': 50
-        }
-      },
-      // Tour highlight
-      {
-        selector: '.tour-highlighted',
-        style: {
-          'opacity': 1,
-          'z-index': 60
-        }
-      },
-      {
-        selector: 'node.tour-highlighted',
-        style: {
-          'border-color': '#0C7489',
-          'border-width': 3,
-          'font-size': '11px',
-          'text-opacity': 1
-        }
-      },
-      {
-        selector: 'edge.tour-highlighted',
-        style: {
-          'line-color': '#0C7489',
-          'width': 2.5,
-          'opacity': 0.7
-        }
-      },
-      // Faded class
-      {
-        selector: '.faded',
-        style: {
-          'opacity': 0.08
-        }
-      },
-      // Dimmed (filter)
-      {
-        selector: '.dimmed',
-        style: {
-          'opacity': 0.1
-        }
-      },
-      // Neighbor highlight for selected node
-      {
-        selector: '.neighbor',
-        style: {
-          'opacity': 1,
-          'font-size': '10px',
-          'text-opacity': 1,
-          'z-index': 40
-        }
-      },
-      {
-        selector: 'edge.neighbor',
-        style: {
-          'line-color': 'rgba(12, 116, 137, 0.4)',
-          'width': 2,
-          'opacity': 0.7
-        }
-      }
+      { selector: 'node', style: {
+        'label': 'data(label)',
+        'background-color': function (ele) { return dark ? ele.data('darkColor') : ele.data('color'); },
+        'shape': 'data(shape)',
+        'width': 'mapData(connections, 0, 30, 18, 56)',
+        'height': 'mapData(connections, 0, 30, 18, 56)',
+        'font-family': 'Inter, system-ui, sans-serif',
+        'font-size': '10px', 'font-weight': 600, 'color': nodeFontColor,
+        'text-valign': 'bottom', 'text-halign': 'center', 'text-margin-y': 6,
+        'text-max-width': '100px', 'text-wrap': 'ellipsis',
+        'border-width': 2, 'border-color': nodeStroke,
+        'overlay-padding': 4, 'overlay-opacity': 0, 'z-index': 10,
+        'min-zoomed-font-size': 8,
+        'text-background-color': dark ? 'rgba(22, 22, 30, 0.85)' : 'rgba(248, 247, 245, 0.85)',
+        'text-background-opacity': 1, 'text-background-padding': '2px',
+        'text-background-shape': 'roundrectangle'
+      }},
+      { selector: 'node[connections < 3]', style: { 'font-size': '0px', 'text-opacity': 0 }},
+      { selector: 'edge', style: {
+        'width': 1, 'line-color': edgeColor, 'curve-style': 'bezier',
+        'opacity': 0.7, 'target-arrow-shape': 'none'
+      }},
+      { selector: 'node:selected', style: {
+        'border-color': '#0C7489', 'border-width': 3,
+        'overlay-opacity': 0.08, 'overlay-color': '#0C7489',
+        'font-size': '11px', 'text-opacity': 1, 'z-index': 100
+      }},
+      { selector: '.highlighted', style: { 'opacity': 1, 'z-index': 50 }},
+      { selector: 'node.highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
+      { selector: 'edge.highlighted', style: { 'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.8, 'z-index': 50 }},
+      { selector: '.tour-highlighted', style: { 'opacity': 1, 'z-index': 60 }},
+      { selector: 'node.tour-highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
+      { selector: 'edge.tour-highlighted', style: { 'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.7 }},
+      // Path-finding highlight (Phase 2)
+      { selector: '.path-highlighted', style: { 'opacity': 1, 'z-index': 70 }},
+      { selector: 'node.path-highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
+      { selector: 'edge.path-highlighted', style: { 'line-color': '#0C7489', 'width': 3, 'opacity': 0.9, 'z-index': 70 }},
+      { selector: '.path-endpoint', style: {
+        'border-color': '#0C7489', 'border-width': 4,
+        'overlay-opacity': 0.12, 'overlay-color': '#0C7489',
+        'font-size': '12px', 'text-opacity': 1, 'z-index': 80
+      }},
+      { selector: '.faded', style: { 'opacity': 0.08 }},
+      { selector: '.dimmed', style: { 'opacity': 0.1 }},
+      { selector: '.neighbor', style: { 'opacity': 1, 'font-size': '10px', 'text-opacity': 1, 'z-index': 40 }},
+      { selector: 'edge.neighbor', style: { 'line-color': 'rgba(12, 116, 137, 0.4)', 'width': 2, 'opacity': 0.7 }}
     ];
   }
 
@@ -369,11 +218,13 @@
         buildLegend(data);
         initCytoscape(elements);
         initFuseSearch(data);
+        initPathfinding(data);
         bindTours();
         bindZoomControls();
         bindLayoutToggle();
         buildAccessibleTable(data);
         document.getElementById('graph-loading').classList.add('hidden');
+        restoreHashState();
       })
       .catch(function (err) {
         console.error('Failed to load network data:', err);
@@ -384,7 +235,6 @@
 
   // --- Initialize Cytoscape ---
   function initCytoscape(elements) {
-    // Register layout extensions
     if (typeof cytoscapeFcose !== 'undefined') {
       cytoscape.use(cytoscapeFcose);
     }
@@ -397,52 +247,39 @@
       elements: elements,
       style: buildStylesheet(),
       layout: {
-        name: 'fcose',
-        animate: false,
-        quality: 'default',
-        randomize: true,
+        name: 'fcose', animate: false, quality: 'default', randomize: true,
         nodeDimensionsIncludeLabels: false,
         idealEdgeLength: function () { return 120; },
         nodeRepulsion: function () { return 8000; },
         edgeElasticity: function () { return 0.45; },
-        gravity: 0.3,
-        gravityRange: 1.5,
-        numIter: 2500,
-        padding: 50
+        gravity: 0.3, gravityRange: 1.5, numIter: 2500, padding: 50
       },
-      minZoom: 0.15,
-      maxZoom: 4,
-      wheelSensitivity: 0.3,
-      boxSelectionEnabled: false,
-      selectionType: 'single',
-      // Touch
-      touchTapThreshold: 8,
-      desktopTapThreshold: 4
+      minZoom: 0.15, maxZoom: 4, wheelSensitivity: 0.3,
+      boxSelectionEnabled: false, selectionType: 'single',
+      touchTapThreshold: 8, desktopTapThreshold: 4
     });
 
     var cy = state.cy;
 
-    // --- Event handlers ---
     cy.on('tap', 'node', function (evt) {
-      var node = evt.target;
-      selectNode(node);
+      selectNode(evt.target);
     });
 
     cy.on('tap', function (evt) {
       if (evt.target === cy) {
         deselectNode();
-        if (!state.activeTour) clearHighlight();
+        if (!state.activeTour && !state.pathResult) clearHighlight();
       }
     });
 
     cy.on('mouseover', 'node', function (evt) {
-      if (!state.activeTour) {
+      if (!state.activeTour && !state.pathResult) {
         highlightNeighborhood(evt.target);
       }
     });
 
     cy.on('mouseout', 'node', function () {
-      if (!state.activeTour && !state.selectedNodeId) {
+      if (!state.activeTour && !state.selectedNodeId && !state.pathResult) {
         clearHighlight();
         applyFilters();
       }
@@ -450,7 +287,7 @@
 
     // Keyboard: / for search, Escape to exit
     document.addEventListener('keydown', function (e) {
-      if (e.key === '/' && !e.target.matches('input, textarea')) {
+      if (e.key === '/' && !e.target.matches('input, textarea, select')) {
         e.preventDefault();
         document.getElementById('node-search').focus();
         return;
@@ -458,6 +295,8 @@
       if (e.key === 'Escape') {
         if (state.activeTour) {
           exitTour();
+        } else if (state.pathResult) {
+          clearPath();
         } else {
           deselectNode();
           clearHighlight();
@@ -489,7 +328,7 @@
 
   function clearHighlight() {
     if (!state.cy) return;
-    state.cy.elements().removeClass('highlighted neighbor faded tour-highlighted');
+    state.cy.elements().removeClass('highlighted neighbor faded tour-highlighted path-highlighted path-endpoint');
   }
 
   // --- Select node ---
@@ -499,7 +338,7 @@
 
     cy.nodes().unselect();
     node.select();
-    highlightNeighborhood(node);
+    if (!state.pathResult) highlightNeighborhood(node);
 
     document.getElementById('detail-empty').style.display = 'none';
     var content = document.getElementById('detail-content');
@@ -523,6 +362,7 @@
       statusEl.textContent = data.label + ' selected, ' + node.connectedEdges().length + ' connections. Details panel opened.';
     }
 
+    // Observations
     var obsList = document.getElementById('detail-observations');
     obsList.innerHTML = '';
     var observations = data.observations || [];
@@ -540,6 +380,7 @@
       obsList.appendChild(more);
     }
 
+    // Connections
     var connList = document.getElementById('detail-connections');
     connList.innerHTML = '';
     node.connectedEdges().forEach(function (edge) {
@@ -569,7 +410,10 @@
       deselectNode();
       clearHighlight();
       applyFilters();
+      if (state.pathResult) reapplyPathHighlight();
     };
+
+    saveHashState();
   }
 
   function deselectNode() {
@@ -577,6 +421,7 @@
     if (state.cy) state.cy.nodes().unselect();
     document.getElementById('detail-empty').style.display = '';
     document.getElementById('detail-content').style.display = 'none';
+    saveHashState();
   }
 
   // --- Build type filter buttons ---
@@ -643,9 +488,7 @@
       cy.elements().removeClass('dimmed');
       if (hasFilter) {
         cy.nodes().forEach(function (node) {
-          if (!state.activeFilters.has(node.data('type'))) {
-            node.addClass('dimmed');
-          }
+          if (!state.activeFilters.has(node.data('type'))) node.addClass('dimmed');
         });
         cy.edges().forEach(function (edge) {
           var srcType = edge.source().data('type');
@@ -677,9 +520,7 @@
   function initFuseSearch(data) {
     var searchData = data.nodes.map(function (n) {
       return {
-        id: n.id,
-        label: n.label,
-        type: n.type,
+        id: n.id, label: n.label, type: n.type,
         typeLabel: (TYPE_CONFIG[n.type] || {}).label || n.type
       };
     });
@@ -722,7 +563,6 @@
         btn.id = 'search-result-' + idx;
         btn.setAttribute('role', 'option');
         btn.setAttribute('aria-selected', 'false');
-        btn.setAttribute('data-idx', idx);
         btn.innerHTML =
           '<span class="search-result-dot" style="background:' + getTypeColor(item.type) + '"></span>' +
           '<span>' + escapeHtml(item.label) + '</span>' +
@@ -791,7 +631,304 @@
     }, { duration: 500 });
   }
 
-  // --- Zoom controls ---
+  // =========================================================================
+  // PATH-FINDING UI (Phase 2)
+  // =========================================================================
+
+  function initPathfinding(data) {
+    var sourceSelect = document.getElementById('path-source');
+    var targetSelect = document.getElementById('path-target');
+    var findBtn = document.getElementById('path-find-btn');
+    var clearBtn = document.getElementById('path-clear-btn');
+
+    if (!sourceSelect || !targetSelect) return;
+
+    // Populate dropdowns sorted alphabetically
+    var sortedNodes = data.nodes.slice().sort(function (a, b) {
+      return a.label.localeCompare(b.label);
+    });
+
+    sortedNodes.forEach(function (n) {
+      var optA = document.createElement('option');
+      optA.value = n.id;
+      optA.textContent = n.label;
+      sourceSelect.appendChild(optA);
+
+      var optB = document.createElement('option');
+      optB.value = n.id;
+      optB.textContent = n.label;
+      targetSelect.appendChild(optB);
+    });
+
+    findBtn.addEventListener('click', findPath);
+    clearBtn.addEventListener('click', clearPath);
+
+    var swapBtn = document.getElementById('path-swap-btn');
+    if (swapBtn) {
+      swapBtn.addEventListener('click', function () {
+        var tmp = sourceSelect.value;
+        sourceSelect.value = targetSelect.value;
+        targetSelect.value = tmp;
+      });
+    }
+  }
+
+  function findPath() {
+    var cy = state.cy;
+    var sourceId = document.getElementById('path-source').value;
+    var targetId = document.getElementById('path-target').value;
+    var resultEl = document.getElementById('path-result');
+    var clearBtn = document.getElementById('path-clear-btn');
+
+    if (!sourceId || !targetId) {
+      resultEl.innerHTML = '<p class="path-error">Select both a source and target entity.</p>';
+      resultEl.style.display = 'block';
+      return;
+    }
+
+    if (sourceId === targetId) {
+      resultEl.innerHTML = '<p class="path-error">Source and target must be different entities.</p>';
+      resultEl.style.display = 'block';
+      return;
+    }
+
+    var sourceNode = cy.getElementById(sourceId);
+    var targetNode = cy.getElementById(targetId);
+
+    if (sourceNode.empty() || targetNode.empty()) {
+      resultEl.innerHTML = '<p class="path-error">Entity not found in graph.</p>';
+      resultEl.style.display = 'block';
+      return;
+    }
+
+    if (state.activeTour) exitTour();
+
+    try {
+      var dijkstra = cy.elements().dijkstra({ root: sourceNode, directed: false });
+      var dist = dijkstra.distanceTo(targetNode);
+
+      if (dist === Infinity) {
+        resultEl.innerHTML = '<p class="path-error">No path exists between these entities.</p>';
+        resultEl.style.display = 'block';
+        state.pathResult = null;
+        clearHighlight();
+        applyFilters();
+        saveHashState();
+        return;
+      }
+
+      var path = dijkstra.pathTo(targetNode);
+      state.pathSource = sourceId;
+      state.pathTarget = targetId;
+      state.pathResult = path;
+
+      // Highlight path
+      cy.batch(function () {
+        cy.elements().removeClass('highlighted neighbor faded tour-highlighted path-highlighted path-endpoint');
+        cy.elements().not(path).addClass('faded');
+        path.addClass('path-highlighted');
+        sourceNode.addClass('path-endpoint');
+        targetNode.addClass('path-endpoint');
+      });
+
+      cy.animate({ fit: { eles: path, padding: 80 } }, { duration: 600 });
+
+      // Build path narration
+      var pathNodes = path.nodes();
+      var pathEdges = path.edges();
+      var hops = pathEdges.length;
+
+      var html = '<p class="path-summary">' + hops + ' hop' + (hops !== 1 ? 's' : '') + '</p>';
+      html += '<ol class="path-steps">';
+
+      for (var i = 0; i < pathNodes.length; i++) {
+        var pn = pathNodes[i];
+        html += '<li class="path-step">';
+        html += '<button class="path-step-node" data-node-id="' + escapeHtml(pn.id()) + '">';
+        html += '<span class="path-step-dot" style="background:' + getTypeColor(pn.data('type')) + '"></span>';
+        html += escapeHtml(pn.data('label'));
+        html += '</button>';
+        if (i < pathEdges.length) {
+          var edgeLabel = (pathEdges[i].data('type') || '').replace(/_/g, ' ');
+          html += '<span class="path-step-edge">\u2192 ' + escapeHtml(edgeLabel) + '</span>';
+        }
+        html += '</li>';
+      }
+      html += '</ol>';
+
+      resultEl.innerHTML = html;
+      resultEl.style.display = 'block';
+      clearBtn.style.display = '';
+
+      // Bind click handlers on path step nodes
+      resultEl.querySelectorAll('.path-step-node').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var nodeId = btn.getAttribute('data-node-id');
+          var node = cy.getElementById(nodeId);
+          if (node.nonempty()) {
+            selectNode(node);
+            cy.animate({
+              center: { eles: node },
+              zoom: Math.max(cy.zoom(), 1.5)
+            }, { duration: 400 });
+          }
+        });
+      });
+
+      // Screen reader announcement
+      var statusEl = document.getElementById('detail-status');
+      if (statusEl) {
+        statusEl.textContent = 'Path found: ' + hops + ' hops from ' +
+          sourceNode.data('label') + ' to ' + targetNode.data('label') + '.';
+      }
+
+    } catch (e) {
+      resultEl.innerHTML = '<p class="path-error">No path exists between these entities.</p>';
+      resultEl.style.display = 'block';
+      state.pathResult = null;
+    }
+
+    saveHashState();
+  }
+
+  function reapplyPathHighlight() {
+    if (!state.pathResult || !state.cy) return;
+    var cy = state.cy;
+    var path = state.pathResult;
+    var sourceNode = cy.getElementById(state.pathSource);
+    var targetNode = cy.getElementById(state.pathTarget);
+
+    cy.batch(function () {
+      cy.elements().removeClass('highlighted neighbor faded tour-highlighted path-highlighted path-endpoint');
+      cy.elements().not(path).addClass('faded');
+      path.addClass('path-highlighted');
+      if (sourceNode.nonempty()) sourceNode.addClass('path-endpoint');
+      if (targetNode.nonempty()) targetNode.addClass('path-endpoint');
+    });
+  }
+
+  function clearPath() {
+    state.pathSource = null;
+    state.pathTarget = null;
+    state.pathResult = null;
+
+    var sourceSelect = document.getElementById('path-source');
+    var targetSelect = document.getElementById('path-target');
+    var resultEl = document.getElementById('path-result');
+    var clearBtn = document.getElementById('path-clear-btn');
+
+    if (sourceSelect) sourceSelect.value = '';
+    if (targetSelect) targetSelect.value = '';
+    if (resultEl) { resultEl.innerHTML = ''; resultEl.style.display = 'none'; }
+    if (clearBtn) clearBtn.style.display = 'none';
+
+    clearHighlight();
+    applyFilters();
+    saveHashState();
+  }
+
+  // =========================================================================
+  // URL HASH STATE (Phase 2)
+  //
+  // Encodes view state into URL hash for shareable links.
+  // saveHashState() is debounced at 300ms via setTimeout to avoid
+  // thrashing history.replaceState on rapid state changes.
+  //
+  // restoringHash flag prevents save/restore loops during init:
+  // restoreHashState() calls findPath() which calls saveHashState(),
+  // but saves are suppressed until the 1000ms restoration window closes.
+  // =========================================================================
+
+  function saveHashState() {
+    if (state.restoringHash) return;
+    clearTimeout(state.hashUpdateTimer);
+    state.hashUpdateTimer = setTimeout(function () {
+      var params = new URLSearchParams();
+
+      if (state.selectedNodeId) params.set('n', state.selectedNodeId);
+      if (state.currentLayout !== 'fcose') params.set('l', state.currentLayout);
+      if (state.activeTour) {
+        params.set('t', state.activeTour);
+        params.set('s', String(state.tourStep));
+      }
+      if (state.pathSource && state.pathTarget && state.pathResult) {
+        params.set('from', state.pathSource);
+        params.set('to', state.pathTarget);
+      }
+
+      var hash = params.toString();
+      history.replaceState(null, '', window.location.pathname + (hash ? '#' + hash : ''));
+    }, 300);
+  }
+
+  function restoreHashState() {
+    var hash = window.location.hash.replace(/^#/, '');
+    if (!hash) return;
+
+    state.restoringHash = true;
+    var params = new URLSearchParams(hash);
+
+    // Restore layout first — affects node positions for subsequent operations
+    var layout = params.get('l');
+    if (layout === 'dagre' && state.currentLayout !== 'dagre') {
+      var layoutBtn = document.getElementById('layout-toggle');
+      if (layoutBtn) layoutBtn.click();
+    }
+
+    // Restore path (before tour — tour would clear it).
+    // 100ms delay: let layout animation start before running Dijkstra
+    var pathFrom = params.get('from');
+    var pathTo = params.get('to');
+    if (pathFrom && pathTo) {
+      var sourceSelect = document.getElementById('path-source');
+      var targetSelect = document.getElementById('path-target');
+      if (sourceSelect && targetSelect) {
+        sourceSelect.value = pathFrom;
+        targetSelect.value = pathTo;
+        setTimeout(function () { findPath(); }, 100);
+      }
+    }
+
+    // Restore tour
+    var tourId = params.get('t');
+    var tourStep = parseInt(params.get('s'), 10);
+    if (tourId && TOURS[tourId]) {
+      state.activeTour = tourId;
+      state.tourStep = isNaN(tourStep) ? 0 : Math.min(tourStep, TOURS[tourId].steps.length - 1);
+      state.tourTriggerEl = document.querySelector('.tour-btn[data-tour="' + tourId + '"]');
+      document.querySelectorAll('.tour-btn').forEach(function (btn) {
+        btn.classList.toggle('tour-active', btn.getAttribute('data-tour') === tourId);
+      });
+      showTourStep();
+      createTourNarration();
+    }
+
+    // Restore selected node last.
+    // 200ms if no path; 600ms if path (wait for Dijkstra + fit animation)
+    var nodeId = params.get('n');
+    if (nodeId && !tourId) {
+      setTimeout(function () {
+        var node = state.cy.getElementById(nodeId);
+        if (node.nonempty()) {
+          selectNode(node);
+          state.cy.animate({ center: { eles: node }, zoom: 1.2 }, { duration: 400 });
+        }
+      }, pathFrom ? 600 : 200);
+    }
+
+    // Release save-suppression after all restoration completes
+    setTimeout(function () { state.restoringHash = false; }, 1000);
+  }
+
+  // Back/forward nav: reload for clean state (avoids complex state diffing)
+  window.addEventListener('popstate', function () {
+    window.location.reload();
+  });
+
+  // =========================================================================
+  // ZOOM CONTROLS
+  // =========================================================================
+
   function bindZoomControls() {
     var cy = state.cy;
 
@@ -808,7 +945,10 @@
     });
   }
 
-  // --- Layout toggle ---
+  // =========================================================================
+  // LAYOUT TOGGLE
+  // =========================================================================
+
   function bindLayoutToggle() {
     var btn = document.getElementById('layout-toggle');
     if (!btn) return;
@@ -821,14 +961,8 @@
         btn.title = 'Switch to force-directed layout';
         btn.querySelector('.layout-label').textContent = 'Hierarchical';
         cy.layout({
-          name: 'dagre',
-          rankDir: 'TB',
-          nodeSep: 30,
-          rankSep: 60,
-          edgeSep: 10,
-          animate: true,
-          animationDuration: 600,
-          padding: 50
+          name: 'dagre', rankDir: 'TB', nodeSep: 30, rankSep: 60,
+          edgeSep: 10, animate: true, animationDuration: 600, padding: 50
         }).run();
       } else {
         state.currentLayout = 'fcose';
@@ -836,25 +970,22 @@
         btn.title = 'Switch to hierarchical layout';
         btn.querySelector('.layout-label').textContent = 'Force';
         cy.layout({
-          name: 'fcose',
-          animate: true,
-          animationDuration: 600,
-          quality: 'default',
-          randomize: false,
-          nodeDimensionsIncludeLabels: false,
+          name: 'fcose', animate: true, animationDuration: 600,
+          quality: 'default', randomize: false, nodeDimensionsIncludeLabels: false,
           idealEdgeLength: function () { return 120; },
           nodeRepulsion: function () { return 8000; },
           edgeElasticity: function () { return 0.45; },
-          gravity: 0.3,
-          gravityRange: 1.5,
-          numIter: 2500,
-          padding: 50
+          gravity: 0.3, gravityRange: 1.5, numIter: 2500, padding: 50
         }).run();
       }
+      saveHashState();
     });
   }
 
-  // --- Tours ---
+  // =========================================================================
+  // GUIDED TOURS
+  // =========================================================================
+
   function bindTours() {
     document.querySelectorAll('.tour-btn').forEach(function (btn) {
       btn.addEventListener('click', function () {
@@ -871,6 +1002,7 @@
   function startTour(tourId) {
     var tour = TOURS[tourId];
     if (!tour) return;
+    if (state.pathResult) clearPath();
     state.activeTour = tourId;
     state.tourStep = 0;
     state.tourTriggerEl = document.querySelector('.tour-btn[data-tour="' + tourId + '"]');
@@ -881,6 +1013,7 @@
 
     showTourStep();
     createTourNarration();
+    saveHashState();
   }
 
   function showTourStep() {
@@ -939,7 +1072,7 @@
 
     // Apply classes
     cy.batch(function () {
-      cy.elements().removeClass('tour-highlighted faded highlighted neighbor');
+      cy.elements().removeClass('tour-highlighted faded highlighted neighbor path-highlighted path-endpoint');
       cy.elements().not(tourEles).addClass('faded');
       tourEles.addClass('tour-highlighted');
     });
@@ -952,6 +1085,7 @@
     }
 
     updateTourNarration();
+    saveHashState();
   }
 
   function createTourNarration() {
@@ -1047,6 +1181,7 @@
     applyFilters();
 
     if (triggerEl) triggerEl.focus();
+    saveHashState();
   }
 
   // --- Build accessible data table for screen readers ---
