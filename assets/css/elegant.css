@@ -31,7 +31,7 @@
   display: block;
   width: 1rem;
   height: 1px;
-  background: #0C7489;
+  background: var(--d4arf-accent);
   margin-bottom: 0.75rem;
 }
 
@@ -62,8 +62,15 @@
   display: block;
   width: 1rem;
   height: 1px;
-  background: #0C7489;
-  margin: 0 auto 0.75rem;
+  background: var(--d4arf-accent);
+  margin-bottom: 0.75rem;
+}
+
+/* Center the dash only when the heading itself is centered (text-align inherits) */
+.section-heading[style*="text-align: center"]::before,
+.pathways .section-heading::before {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Override headings inside about section */
@@ -84,24 +91,7 @@
   display: block;
   width: 1rem;
   height: 1px;
-  background: #0C7489;
-  margin: 0 auto 0.75rem;
-}
-
-/* Override role-ctas heading */
-.role-ctas-heading {
-  font-family: var(--font-elegant);
-  font-weight: 300;
-  font-size: clamp(1.5rem, 3vw, 1.75rem);
-  letter-spacing: -0.2px;
-}
-
-.role-ctas-heading::before {
-  content: '';
-  display: block;
-  width: 1rem;
-  height: 1px;
-  background: #0C7489;
+  background: var(--d4arf-accent);
   margin: 0 auto 0.75rem;
 }
 
@@ -160,7 +150,7 @@
   transform: translateY(-50%);
   width: 1rem;
   height: 1px;
-  background: #0C7489;
+  background: var(--d4arf-accent);
 }
 
 .hero h1 {
@@ -199,8 +189,9 @@
   text-decoration: none;
 }
 
+/* Focus: teal ring — currentColor matches the hero bg, so use brand accent instead */
 .hero .btn-primary-hero:focus-visible {
-  outline: 2px solid #0C7489;
+  outline: 2px solid var(--d4arf-accent);
   outline-offset: 3px;
 }
 
@@ -379,12 +370,12 @@
 }
 
 .pathway-link:hover {
-  color: #0C7489;
+  color: var(--d4arf-accent);
   text-decoration: none;
 }
 
 .pathway-link:focus-visible {
-  outline: 2px solid #0C7489;
+  outline: 2px solid var(--d4arf-accent);
   outline-offset: 2px;
   border-radius: 2px;
 }
@@ -412,14 +403,18 @@
 
 .pathway-link-arrow {
   font-size: 0.9rem;
-  color: var(--color-text-tertiary, rgba(0,0,0,0.25));
+  color: rgba(0, 0, 0, 0.25);
   flex-shrink: 0;
   margin-left: 1rem;
-  transition: transform 0.2s;
+  transition: transform 0.2s, color 0.2s;
+}
+
+[data-theme="dark"] .pathway-link-arrow {
+  color: rgba(255, 255, 255, 0.2);
 }
 
 .pathway-link:hover .pathway-link-arrow {
-  color: #0C7489;
+  color: var(--d4arf-accent);
   transform: translateX(3px);
 }
 
@@ -453,18 +448,17 @@
   transition: color 0.15s;
 }
 
-/* Vertical divider for left column */
 .role-link:nth-child(odd) {
   border-right: 0.5px solid var(--color-border);
 }
 
 .role-link:hover {
-  color: #0C7489;
+  color: var(--d4arf-accent);
   text-decoration: none;
 }
 
 .role-link:focus-visible {
-  outline: 2px solid #0C7489;
+  outline: 2px solid var(--d4arf-accent);
   outline-offset: -2px;
 }
 
@@ -474,7 +468,7 @@
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #0C7489;
+  color: var(--d4arf-accent);
   margin-bottom: 0.4rem;
 }
 
@@ -492,10 +486,10 @@
   font-family: var(--font-body);
   font-size: 0.8rem;
   font-weight: 500;
-  color: #0C7489;
+  color: var(--d4arf-accent);
 }
 
-/* Remove bottom border on last row */
+/* Remove bottom border on last row (desktop: 2-col, so last 2 items) */
 .role-link:nth-last-child(-n+2) {
   border-bottom: none;
 }
@@ -509,14 +503,12 @@
     border-right: none;
   }
 
-  .role-link:last-child {
-    border-bottom: none;
-  }
-
+  /* Restore border on second-to-last (was suppressed by desktop nth-last-child rule) */
   .role-link:nth-last-child(-n+2) {
     border-bottom: 0.5px solid var(--color-border);
   }
 
+  /* Only the very last item is borderless */
   .role-link:last-child {
     border-bottom: none;
   }
@@ -535,7 +527,6 @@
   line-height: 1.75;
 }
 
-/* About CTA button: elegant serif style */
 .about-section .btn-secondary {
   font-family: var(--font-elegant);
   font-weight: 500;
@@ -556,7 +547,7 @@
 
 .landing-hero::after {
   height: 2px;
-  background: #0C7489;
+  background: var(--d4arf-accent);
 }
 
 .landing-hero h1 {
