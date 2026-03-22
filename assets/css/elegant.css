@@ -264,8 +264,9 @@
   font-size: 1rem;
 }
 
+/* Dark mode table header: darken the accent via color-mix to maintain contrast with white text */
 [data-theme="dark"] .issue-agency-table thead {
-  background: #085041;
+  background: color-mix(in srgb, var(--d4arf-accent) 60%, black);
 }
 
 @media (max-width: 600px) {
@@ -276,6 +277,8 @@
 
 /* ========================================================================
    PULL QUOTES — Cormorant italic, teal border
+   Uses var(--d4arf-accent) and var(--d4arf-accent-light) which
+   auto-adapt in dark mode via main.css token redefinition
    ======================================================================== */
 
 .pull-quote {
@@ -297,21 +300,6 @@
   opacity: 0.2;
 }
 
-.press-quotes .pull-quote {
-  border-left: 4px solid var(--d4arf-accent);
-  background: var(--d4arf-accent-light);
-}
-
-[data-theme="dark"] .pull-quote {
-  background-color: var(--d4arf-accent-light);
-  border-left-color: var(--d4arf-accent);
-}
-
-[data-theme="dark"] .press-quotes .pull-quote {
-  background: var(--d4arf-accent-light);
-  border-color: var(--d4arf-border);
-}
-
 /* ========================================================================
    BLOCKQUOTES — Teal border, lighter background
    ======================================================================== */
@@ -321,21 +309,12 @@ blockquote {
   background-color: var(--d4arf-accent-light);
 }
 
-[data-theme="dark"] blockquote {
-  background-color: var(--d4arf-accent-light);
-  border-left-color: var(--d4arf-accent);
-}
-
 /* ========================================================================
    CALLOUT BOXES — Teal accent, lighter background
    ======================================================================== */
 
 .callout {
   border-left-color: var(--d4arf-accent);
-  background-color: var(--d4arf-accent-light);
-}
-
-[data-theme="dark"] .callout {
   background-color: var(--d4arf-accent-light);
 }
 
@@ -374,10 +353,11 @@ blockquote {
 
 /* ========================================================================
    TIMELINE — Teal dots and line
+   Uses color-mix() so the accent variable auto-adapts in dark mode
    ======================================================================== */
 
 .timeline-wrapper::before {
-  background: rgba(12, 116, 137, 0.2);
+  background: color-mix(in srgb, var(--d4arf-accent) 20%, transparent);
 }
 
 .timeline .timeline-event::before {
@@ -385,27 +365,16 @@ blockquote {
 }
 
 .timeline .timeline-event.timeline-event--highlight::before {
-  box-shadow: 0 0 0 4px rgba(12, 116, 137, 0.2);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--d4arf-accent) 20%, transparent);
 }
 
 .timeline .timeline-event time {
   color: var(--d4arf-accent);
 }
 
-[data-theme="dark"] .timeline-wrapper::before {
-  background: rgba(94, 196, 212, 0.2);
-}
-
-[data-theme="dark"] .timeline .timeline-event::before {
-  background: var(--d4arf-accent);
-}
-
-[data-theme="dark"] .timeline .timeline-event.timeline-event--highlight::before {
-  box-shadow: 0 0 0 4px rgba(94, 196, 212, 0.2);
-}
-
 /* ========================================================================
    AUDIENCE NAV — Teal active state
+   Uses var(--d4arf-accent) which auto-adapts in dark mode
    ======================================================================== */
 
 .audience-nav-list a:hover {
@@ -413,15 +382,6 @@ blockquote {
 }
 
 .audience-nav-list a[aria-current="page"] {
-  color: var(--d4arf-accent);
-  border-bottom-color: var(--d4arf-accent);
-}
-
-[data-theme="dark"] .audience-nav-list a:hover {
-  color: var(--d4arf-accent);
-}
-
-[data-theme="dark"] .audience-nav-list a[aria-current="page"] {
   color: var(--d4arf-accent);
   border-bottom-color: var(--d4arf-accent);
 }
@@ -443,7 +403,7 @@ blockquote {
 }
 
 /* ========================================================================
-   LETTER TEMPLATES — Teal top border, refined
+   LETTER TEMPLATES — Neutral border, no shadow
    ======================================================================== */
 
 .letter-template {
@@ -476,7 +436,7 @@ blockquote {
 }
 
 /* ========================================================================
-   EVIDENCE CARD — Already teal in main.css, just ensure consistency
+   EVIDENCE CARD — Teal top border
    ======================================================================== */
 
 .evidence-card {
@@ -554,16 +514,12 @@ blockquote {
 }
 
 /* ========================================================================
-   KEY FINDING — Already teal in main.css, confirm
+   KEY FINDING / SECTION LABELS — Teal
    ======================================================================== */
 
 .key-finding strong:first-child {
   color: var(--d4arf-accent);
 }
-
-/* ========================================================================
-   SECTION LABELS — Already teal in main.css, confirm
-   ======================================================================== */
 
 .section-label {
   color: var(--d4arf-accent);
@@ -1037,23 +993,12 @@ blockquote {
 }
 
 /* ========================================================================
-   BUTTONS — Sitewide refinement
+   BUTTONS — Sitewide refinement (only novel property: border-radius)
    ======================================================================== */
 
-.btn-primary {
-  border-radius: 2px;
-}
-
+.btn-primary,
 .btn-secondary {
   border-radius: 2px;
-  color: var(--d4arf-accent);
-  border-color: var(--d4arf-accent);
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus-visible {
-  background: var(--d4arf-accent);
-  color: #fff;
 }
 
 .btn-text {
