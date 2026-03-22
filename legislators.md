@@ -1,14 +1,14 @@
 ---
 layout: landing
 title: "Policy Brief — Arkansas Pension Transparency for 2027"
-description: "Policy brief for Arkansas legislators on $155 million in authorized pension fund Israel Bonds exposure and the case for transparency legislation in 2027."
+description: "Policy brief for Arkansas legislators on up to $100 million in authorized pension fund Israel Bonds exposure and the case for transparency legislation in 2027."
 permalink: /legislators/
 audience_nav: true
 ---
 
 ## Executive summary
 
-Arkansas pension funds have authorized up to **$155 million** in Israel Bonds exposure — direct loans to the Israeli government — despite credit downgrades from major rating agencies, an internal Treasury memo recommending against new purchases, and the ATRS Board Chair's dissent over process concerns. No independent credit analysis has been produced to justify these investments. This raises serious questions about fiduciary compliance under existing Arkansas law.
+Arkansas pension funds have authorized up to **$100 million** in Israel Bonds exposure — direct loans to the Israeli government — despite credit downgrades from major rating agencies, an internal Treasury memo recommending against new purchases, and the ATRS Board Chair's dissent over process concerns. No independent credit analysis has been produced to justify these investments. This raises serious questions about fiduciary compliance under existing Arkansas law.
 
 We are asking the General Assembly to strengthen pension transparency requirements so that Arkansans can be confident their retirement savings are managed based on financial merit — as the law already requires.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "The Issue — Up to $155M in Arkansas Pension Funds Authorized Without Independent Analysis"
-description: "Up to $155 million in Arkansas pension funds authorized for Israel Bonds despite credit downgrades, internal advice against new purchases, and no independent analysis."
+title: "The Issue — Up to $100M in Pension Fund Exposure Authorized Without Independent Analysis"
+description: "Up to $100 million in Arkansas pension fund exposure authorized for Israel Bonds despite credit downgrades, internal advice against new purchases, and no independent analysis."
 permalink: /the-issue/
 ---
 

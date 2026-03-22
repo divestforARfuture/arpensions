@@ -8,7 +8,7 @@ audience_nav: true
 
 ## Campaign summary
 
-Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed nearly 1,100 public records revealing approximately $155 million in authorized pension fund exposure to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
+Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed nearly 1,100 public records revealing up to $100 million in authorized pension fund exposure and $55 million in State Treasury holdings — approximately $155 million in total authorized Arkansas exposure to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
 The campaign is calling for a pause on new purchases, independent financial analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
 
