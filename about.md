@@ -102,4 +102,4 @@ Divest for AR Future operates on a shoestring budget through small donations. We
 
 **Email:** [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me)
 
-<p class="campaign-attribution">Divest for AR Future is a campaign of Little Rock Peace for Palestine.</p>
+<p class="campaign-attribution">Divest for AR Future is a grassroots Arkansas campaign supported by community organizations in central Arkansas.</p>
