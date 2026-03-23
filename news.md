@@ -9,6 +9,8 @@ Follow the progress of our investigation and campaign.
 
 ## 2026
 
+**March 17** — Spotlight PA publishes investigation into Pennsylvania Treasurer's Israel Bonds purchases and ethics concerns — independent journalists in another state asking the same fiduciary questions our FOIA investigation has documented in Arkansas. [Read the Spotlight PA report.](https://www.spotlightpa.org/news/2026/03/stacy-garrity-treasurer-governor-election-israel-bonds-ethics-elections/)
+
 **March 1** — Completed assessment of APERS and ATRS Round 2 FOIA responses. Key findings: Brady-as-conduit confirmed with direct quotes; APERS purchase timeline reconstructed; ATRS investment management structure documented.
 
 **February 27** — APERS delivered Round 2 FOIA response — 16 documents including an 8,648-page comprehensive production containing the agency's Israel Bonds records.

@@ -274,6 +274,7 @@ Key evidence points:
 - **Arkansas law:** Ark. Code § 24-2-614 (sole interest rule); Act 411 of 2023 (pecuniary factors only); Ark. Code §§ 24-2-610–619 (prudent investor standard)
 - **Credit ratings:** Moody's downgraded Israel from A1 to Baa1 (via A2); S&P downgraded from AA- to A (via A+); Fitch downgraded from A+ to A (August 2024); all three maintained negative outlook
 - **Prior press coverage:** Jennifer Lenow, "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on," *Arkansas Times*, July 11, 2025
+- **Parallel investigation:** Stephen Caruso, "Treasurer Garrity bought Israel Bonds. Candidate Garrity then campaigned at the firm's gala," [*Spotlight PA*](https://www.spotlightpa.org/news/2026/03/stacy-garrity-treasurer-governor-election-israel-bonds-ethics-elections/), March 17, 2026 — independent journalists in Pennsylvania raising similar fiduciary and ethics questions about state Israel Bonds purchases
 - **Source documents:** [Browse the full FOIA document archive](/documents/) — key evidence documents published for public review
 
 </div>
@@ -299,4 +300,4 @@ For source documents and detailed research findings, contact us directly. All cl
 
 </div>
 
-<p class="campaign-attribution">Divest for AR Future is a campaign of Little Rock Peace for Palestine.</p>
+<p class="campaign-attribution">Divest for AR Future is a grassroots Arkansas campaign for pension transparency and fiduciary accountability.</p>

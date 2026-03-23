@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Take Action — Demand Arkansas Pension Transparency"
-description: "Join Arkansans demanding pension transparency and fiduciary accountability. Here's how you can help."
+title: "Take Action — Support Arkansas Pension Transparency"
+description: "Join Arkansans supporting pension transparency and fiduciary accountability. Here's how you can help."
 permalink: /take-action/
 ---
 
@@ -122,7 +122,7 @@ Public comment at pension board meetings is one of the most direct ways to be he
 **APERS Board Meetings**
 
 - **Location:** APERS Office, 124 W. Capitol Ave., Little Rock
-- **Upcoming 2026 dates:** March 11 and June 10 (9:00 a.m.) — check [apers.org](https://apers.org/) for updates
+- **Upcoming 2026 dates:** Check [apers.org](https://apers.org/) for the current board meeting schedule
 - **Public comment:** Contact the Executive Director's office at [APERS@arkansas.gov](mailto:APERS@arkansas.gov) for sign-up details
 - **Written comment:** Email [APERS@arkansas.gov](mailto:APERS@arkansas.gov) with a subject line referencing the board meeting date
 
