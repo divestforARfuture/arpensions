@@ -17,7 +17,7 @@ Follow the progress of our investigation and campaign.
 
 **February 20** — FOIA Round 2 Treasury response fully ingested — 118 new documents added to the investigation.
 
-**February 19** — Website launched; investigation corpus has grown to more than 1,200 public records across two FOIA rounds.
+**February 19** — Website launched; investigation corpus has grown to more than 1,100 public records across two FOIA rounds.
 
 **February 5** — FOIA Round 2 requests submitted to all four agencies: Treasury, ATRS, APERS, and Auditor of State.
 

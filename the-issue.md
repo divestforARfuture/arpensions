@@ -51,7 +51,9 @@ These authorizations came in rapid succession — and under circumstances that r
 
 **November 2025:** APERS received its first Israel Bonds statement, confirming a purchase had eventually occurred after the months-long delay.
 
-**February 2026:** Second round of FOIA responses received from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). Total investigation corpus now stands at 1,222 documents across four agencies, two FOIA rounds.
+**February 2026:** Second round of FOIA responses received from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). Total investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.
+
+**March 2026:** Auditor of State delivers Round 2 response — 124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) via flash drive from General Counsel TJ Fowler. Total investigation corpus now stands at 1,222 documents across four agencies, two FOIA rounds.
 
 <div class="callout" markdown="1">
 

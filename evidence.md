@@ -11,7 +11,7 @@ apexcharts: true
 
 ## Our research
 
-Divest for AR Future has analyzed **more than 1,200 public records** from two rounds of Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State. The first round (August 2025) covered all four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians). The Auditor of State delivered its second response on March 3, 2026 (124 documents from three custodians via flash drive).
+Divest for AR Future has analyzed **more than 1,200 public records** from two rounds of Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State. The first round (August 2025) covered all four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive).
 
 Every claim on this site is backed by documents in the public record. Below are the key findings.
 
@@ -318,10 +318,8 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event">
     <time>February 2026</time>
     <h3>Second FOIA round responses received</h3>
-    <p>Treasury delivers 118 documents (2,526 pages), APERS delivers 16 documents including an 8,648-page comprehensive production, and ATRS delivers 7 documents (partial response, with Requests 2 and 3 due March 3, 2026). Investigation corpus reaches 1,222 documents across four agencies.</p>
+    <p>Treasury delivers 118 documents (2,526 pages), APERS delivers 16 documents including an 8,648-page comprehensive production, and ATRS delivers 7 documents (partial response). Investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.</p>
   </li>
-</ol>
-<ol class="timeline" role="list" aria-label="March 2026 events">
   <li class="timeline-event">
     <time>March 3, 2026</time>
     <h3>Auditor of State delivers Round 2 response</h3>
