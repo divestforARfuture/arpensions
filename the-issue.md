@@ -30,7 +30,7 @@ Three Arkansas state agencies have committed or authorized significant funds for
 | Agency | Amount | Portfolio Share | Date |
 |--------|--------|----------------|------|
 | **State Treasury** | $55 million in holdings (including $20M purchased since May 2025) | ~0.5% of $11B | Ongoing since 2017 |
-| **ATRS** (Arkansas Teacher Retirement System) | Up to **$50 million** authorized | ~0.2% of $23.7B | June 2, 2025 |
+| **ATRS** (Arkansas Teacher Retirement System) | Up to **$50 million** authorized; full amount deployed Dec 2025 | ~0.2% of $23.7B | June 2, 2025 |
 | **APERS** (Arkansas Public Employees' Retirement System) | **$25–50 million** authorized; purchase confirmed by Nov 2025 | ~0.2–0.4% of $11.92B | May 15, 2025 (subcommittee); June 11, 2025 (full board) |
 
 </div>
@@ -42,7 +42,7 @@ While the portfolio percentages are small, the question is whether standard fidu
 These authorizations came in rapid succession — and under circumstances that raise questions about process:
 
 - **In late 2024**, a senior investment manager in the State Treasurer's office wrote an internal memo advising against new Israel Bonds purchases, citing credit-rating downgrades by major rating agencies. The memo recommended the state "hold our positions and allow for the $17M to roll off."
-- **In April 2025**, Israel Bonds sales representatives [met with the directors of both ATRS and APERS](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf), along with the State Treasurer and State Auditor.
+- **On April 11, 2025**, State Auditor Dennis Milligan personally scheduled a two-day pitch tour for Israel Bonds sales executives — arranging four meetings in 18 minutes with the heads of APERS, ATRS, and the Treasury, all in his own Capitol office (Room 230), all staffed by his deputy Jason Brady. The Auditor has no investment authority over any of these funds, yet convened every decision-maker who would need to approve the purchases.
 - **Within weeks**, the Treasury purchased $20 million in new bonds, and both pension boards voted to authorize up to $100 million more in combined Israel Bonds investments.
 
 **July 2025:** Two months after APERS's board authorized $25–50 million, Executive Director Amy Fecher confirmed no bonds had been purchased: "Still zero for APERS." Staff were still establishing contact with Israel Bonds representatives the next day.
@@ -50,6 +50,8 @@ These authorizations came in rapid succession — and under circumstances that r
 **September 2025:** ATRS formalized its Israel Bonds approach through Reams Asset Management, establishing written investment guidelines for an "Israeli Jubilee bond account" — four months after board authorization.
 
 **November 2025:** APERS received its first Israel Bonds statement, confirming a purchase had eventually occurred after the months-long delay.
+
+**December 2025:** ATRS Deputy Director Rod Graves confirmed in a routine board liquidity update that the full $50 million Israel Bonds mandate had been funded through the Scout (Reams) account — completing the cycle from board authorization (June 2) to investment guidelines (September 25) to deployment (December 2025) without an independent credit analysis at any stage.
 
 **February 2026:** Second round of FOIA responses received from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). Total investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.
 
@@ -126,7 +128,7 @@ Several red flags suggest these standards may not have been followed:
 
 **The investment was championed through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both the ATRS and APERS boards, arranged meetings between Israel Bonds sales representatives and state officials. In a [reply to the Auditor's office](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf), an Israel Bonds executive called Milligan "truly one of a kind" and said he was "forever grateful" for his support — language that describes a political relationship, not a standard financial transaction.
 
-**The conduit chain is now documented.** At the APERS board meeting, Jason Brady — the Auditor of State's appointee — introduced Israel Bonds by telling fellow trustees "it had come to his attention" that the investment was available, citing Treasury's $55 million in holdings. The board approved $25–50 million without independent financial analysis. Brady's appointment traces directly to Milligan, connecting the former Treasurer's Israel Bonds advocacy at Treasury to the pension fund authorizations.
+**The Auditor's office played at least five documented operational roles.** Jason Brady — the Auditor of State's appointee to the APERS board — introduced Israel Bonds to the board, citing Treasury's $55 million in holdings. But Auditor Round 2 records reveal Brady's involvement went far beyond that single board meeting. He served as meeting broker (staffing all four April 2025 pitch meetings), information relay (forwarding ATRS board communications to Milligan's personal email and routing press inquiries from APERS to the Auditor's office), media response coordinator (receiving Fecher's forwarded "Request for comment" from the Arkansas Times), SFOF speechwriter (drafting Milligan's Spring 2025 SFOF speech on Israel Bonds), and physical designee (signing the ATRS board meeting attendance sheet on June 2, 2025 as Milligan's representative). A handwritten note from Brady's files — an undated legal pad page listing "Israel Bonds Trust / 10 ATRS / 130 APERS / ? John Thurston 250 / 505" — shows a single person in the Auditor's office tracking allocations across all three investing entities on one page.
 
 **Public statements emphasized political symbolism, not financial merit.** Governor Sanders publicly stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." Former Treasurer Larry Walther called investing in Israel Bonds "a testament to our longstanding belief in Israel's resiliency [...]" At the APERS Investment Subcommittee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel (former Arkansas Governor Mike Huckabee) as "my and Amy's former boss" and called Israel "the United States' most trusted and dependable ally in a volatile region." None of these are pecuniary factors.
 

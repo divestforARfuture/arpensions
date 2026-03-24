@@ -70,6 +70,8 @@ New records obtained in February 2026 confirm the specific pathway by which Isra
 
 Brady's introduction framed Israel Bonds as already vetted by another state entity, implicitly reducing the perceived need for independent analysis. The chain is direct: Dennis Milligan, the former Treasurer who initiated Israel Bonds purchases at Treasury and then became Auditor of State, appointed Brady to the APERS board. Brady then introduced the same investment to that board.
 
+The Auditor's office also served as APERS's de facto media response coordinator. When Arkansas Times journalist Jennifer Lenow sent APERS a request for comment about the Israel Bonds investments, Executive Director Amy Fecher's first action was not to consult APERS's own communications staff — it was to forward the inquiry to Jason Brady at the Auditor's office with "FYI," CC'ing Spadoni. Separately, when ATRS Executive Director Mark White sent the ATRS board a heads-up about the Arkansas Times investigation, Brady forwarded that email the same evening to Milligan's personal AOL email address — routing state business communications outside the official state email system. The next morning — a Saturday — Brady forwarded the same chain to Stacy Peterson, the Auditor's communications staff.
+
 <div class="callout" markdown="1">
 
 **The conduit chain:** Milligan initiates Israel Bonds at Treasury → becomes Auditor of State → appoints Brady to APERS board → Brady introduces Israel Bonds to APERS citing Treasury holdings → board authorizes $25–50 million without independent analysis.
@@ -101,6 +103,33 @@ The divergent structures raise a common question: in neither case has any indepe
 ### 3d. Agencies were watching each other
 
 APERS's FOIA production contains news articles about ATRS's Israel Bonds investment and its arrangement with Reams Asset Management — articles that APERS staff apparently circulated or received internally. Combined with Brady citing Treasury's $55 million holdings at the APERS board meeting, a pattern emerges: each agency's decision was influenced by awareness of what other state agencies were doing, rather than by independent financial analysis.
+
+---
+
+### 3e. The Auditor arranged a two-day pitch tour in his own office
+
+Records obtained in March 2026 reveal the Auditor of State's office personally orchestrated a coordinated pitch tour for Israel Bonds sales representatives. On Friday, April 11, 2025, Auditor Dennis Milligan and his executive assistant Wendy Spadoni sent four meeting arrangement emails within 18 minutes — scheduling back-to-back meetings for Israel Bonds executives Lawrence Berman and Bradley Young with the heads of all three investing agencies:
+
+- **2:01 PM** — Spadoni to APERS Executive Director Amy Fecher: Monday, April 14 at 9:00 AM
+- **2:02 PM** — Milligan to APERS Investment Subcommittee Chair Daryl Bassett: Monday, April 14 at 1:15 PM
+- **2:18 PM** — Milligan to ATRS Executive Director Mark White: Tuesday, April 15 at 10:00 AM
+- **2:18 PM** — Milligan to State Treasurer John Thurston: Tuesday, April 15 at 11:30 AM
+
+Every meeting was scheduled in the Auditor's own office — Room 230 of the State Capitol. Every email was CC'd to Jason Brady, the Auditor's deputy. Every email attached biographical documents for Berman and Young. A planner note from Spadoni's calendar, dated March 31, 2025, corroborates pre-planning: "★ Larry Berman trip 13th|14th or 15th."
+
+The Auditor of State has no investment authority over any of these funds. The Auditor does not manage pension assets, does not sit on pension investment committees, and plays no formal role in the Treasury's bond purchases. Yet this office — through Milligan personally — convened every decision-maker in the state who would need to approve Israel Bonds purchases, arranged the meetings in his own Capitol office, and staffed them through Brady.
+
+Within weeks of these meetings, all three agencies authorized or purchased Israel Bonds: the Treasury bought $20 million (May 1), APERS authorized $25–50 million (May 15), and ATRS authorized up to $50 million (June 2).
+
+---
+
+### 3f. ATRS deployed the full $50 million by December 2025
+
+On December 29, 2025, ATRS Deputy Director Rod Graves sent a routine "Board Update-Liquidity" email to the ATRS board. Buried in the liquidity accounting was the first post-purchase confirmation in the public record: "December payments since the last Board update consisted of several ATRS obligations including capital calls for various investments of approximately $185 million. This includes the Scout (Reams) mandate of $50 million for Israel Bonds."
+
+The full $50 million authorized by Resolution 2025-22 was deployed in a single transaction through ATRS's investment manager, Reams Asset Management (operating as Scout). This confirms that the authorization moved from board vote (June 2, 2025) to investment guidelines (September 25, 2025) to full deployment (December 2025) — a six-month process in which the financial analysis that should have preceded authorization was never produced.
+
+ATRS's $23.7 billion portfolio now holds $50 million in non-tradable sovereign debt that cannot be sold before maturity, purchased without an independent credit analysis at any stage of the process.
 
 ---
 
@@ -187,7 +216,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 </ul>
 </noscript>
 
-<p class="bar-chart-note"><em>Treasury figure reflects current holdings (~0.5% of the Treasury's $11 billion portfolio), including $20M purchased since May 2025. ATRS authorization (~0.2% of ATRS's $23.7 billion portfolio) per Resolution 2025-22, June 2, 2025. APERS authorization (~0.2–0.4% of APERS's $11.82 billion portfolio) per Investment Subcommittee (May 15, 2025) and full board (June 11, 2025); at least one purchase confirmed by November 2025, exact amount unknown.</em></p>
+<p class="bar-chart-note"><em>Treasury figure reflects current holdings (~0.5% of the Treasury's $11 billion portfolio), including $20M purchased since May 2025. ATRS authorization (~0.2% of ATRS's $23.7 billion portfolio) per Resolution 2025-22, June 2, 2025; full $50M deployed December 2025. APERS authorization (~0.2–0.4% of APERS's $11.82 billion portfolio) per Investment Subcommittee (May 15, 2025) and full board (June 11, 2025); at least one purchase confirmed by November 2025, exact amount unknown.</em></p>
 
 <p><em>While these percentages are small, the investigation concerns whether standard fiduciary process was followed — not portfolio materiality. Hover over each bar for detail.</em></p>
 
@@ -267,9 +296,14 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 <div class="timeline-year">2025</div>
 <ol class="timeline" role="list" aria-label="2025 events">
   <li class="timeline-event timeline-event--highlight">
-    <time>April 2025</time>
+    <time>April 11, 2025</time>
+    <h3>Auditor schedules two-day pitch tour</h3>
+    <p>Auditor Milligan and his executive assistant send four meeting arrangement emails in 18 minutes, scheduling Israel Bonds executives Lawrence Berman and Bradley Young with the heads of APERS, ATRS, and the Treasury — all in the Auditor's own Capitol office, Room 230. Every email is CC'd to deputy Jason Brady and includes biographical documents for the sales representatives.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time>April 14–15, 2025</time>
     <h3>Sales representatives meet with agency directors</h3>
-    <p>Israel Bonds sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor.</p>
+    <p>Israel Bonds sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor in back-to-back meetings at Room 230.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time>May 2025</time>
@@ -310,6 +344,11 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <time>November 2025</time>
     <h3>APERS purchase confirmed</h3>
     <p>APERS staff receive a bond statement, confirming that an Israel Bonds purchase eventually occurred after the months-long delay following the May–June authorization.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time>December 2025</time>
+    <h3>ATRS deploys full $50M</h3>
+    <p>ATRS Deputy Director Rod Graves confirms in a routine board liquidity update that the full $50 million Israel Bonds mandate was funded through the Scout (Reams) account — six months after board authorization and without an independent credit analysis at any stage.</p>
   </li>
 </ol>
 
