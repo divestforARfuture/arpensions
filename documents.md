@@ -18,13 +18,13 @@ permalink: /documents/
 
 ## About these documents
 
-These are excerpts and key documents from nearly 1,100 public records obtained by Divest for AR Future through two rounds of Freedom of Information Act requests to four Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), and the Arkansas Auditor of State.
+These are excerpts and key documents from more than 1,200 public records obtained by Divest for AR Future through two rounds of Freedom of Information Act requests to four Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), and the Arkansas Auditor of State.
 
 All documents were provided by the agencies in response to lawful FOIA requests. Where noted, page ranges have been extracted from larger compiled document sets. No content has been altered.
 
 <div class="key-finding" markdown="1">
 
-**1,098 documents** obtained across two FOIA rounds from four Arkansas state agencies. 8 requests filed. Every claim on this site traces back to these records.
+**1,222 documents** obtained across two FOIA rounds from four Arkansas state agencies. 8 requests filed. Every claim on this site traces back to these records.
 
 </div>
 
@@ -128,7 +128,7 @@ These are page-range extracts from larger compiled FOIA response documents.
 
 ## Round 2 FOIA responses (February 2026)
 
-A second round of FOIA requests produced 141 additional documents:
+A second round of FOIA requests produced 265 additional documents:
 
 <div class="meeting-grid">
   <div class="meeting-info">
@@ -162,7 +162,10 @@ A second round of FOIA requests produced 141 additional documents:
   <div class="meeting-info">
     <p><strong>Auditor of State</strong></p>
     <ul>
-      <li><strong>Status:</strong> Round 2 response received and under review</li>
+      <li><strong>Documents:</strong> 124</li>
+      <li><strong>Pages:</strong> Delivered via flash drive</li>
+      <li><strong>Contents:</strong> Email correspondence from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) covering Israel Bonds coordination, SFOF conference materials, media response chains, and board meeting correspondence</li>
+      <li><strong>Status:</strong> Received March 3, 2026; fully processed</li>
     </ul>
   </div>
 </div>

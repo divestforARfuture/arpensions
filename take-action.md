@@ -38,7 +38,7 @@ The people who make investment decisions for your retirement fund are required b
 
 <div class="callout" markdown="1">
 
-**Keep it professional and focused on fiduciary duty.** The most effective messages are short, specific, and center on pecuniary factors — not politics. Ask for a pause, an independent analysis, and transparency. You can cite that new records confirm no independent credit analysis was found across nearly 1,100 documents from two FOIA rounds, and that the APERS board authorized the investment without independent financial analysis being presented beforehand.
+**Keep it professional and focused on fiduciary duty.** The most effective messages are short, specific, and center on pecuniary factors — not politics. Ask for a pause, an independent analysis, and transparency. You can cite that new records confirm no independent credit analysis was found across more than 1,200 documents from two FOIA rounds, and that the APERS board authorized the investment without independent financial analysis being presented beforehand.
 
 </div>
 

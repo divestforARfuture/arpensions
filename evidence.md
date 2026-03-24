@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Evidence — Key Findings from 1,098 Arkansas Public Records"
-description: "Key findings from nearly 1,100 public records obtained through two rounds of FOIA requests to four Arkansas state agencies"
+title: "Evidence — Key Findings from 1,222 Arkansas Public Records"
+description: "Key findings from more than 1,200 public records obtained through two rounds of FOIA requests to four Arkansas state agencies"
 permalink: /evidence/
 charts: true
 apexcharts: true
@@ -11,7 +11,7 @@ apexcharts: true
 
 ## Our research
 
-Divest for AR Future has analyzed **nearly 1,100 public records** from two rounds of Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State. The first round (August 2025) covered all four agencies; the second round (February 2026) has produced responses from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). The Auditor of State's second response remains pending.
+Divest for AR Future has analyzed **more than 1,200 public records** from two rounds of Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State. The first round (August 2025) covered all four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive).
 
 Every claim on this site is backed by documents in the public record. Below are the key findings.
 
@@ -29,7 +29,7 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 ### 1. No independent credit analysis
 
-Of nearly 1,100 documents reviewed, **zero** contained an independent credit analysis of Israel Bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
+Of more than 1,200 documents reviewed, **zero** contained an independent credit analysis of Israel Bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
 
 Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) both require documented financial analysis before committing member funds to new investment positions. This finding holds across all documents received in Round 2 — including APERS's 8,648-page FOIA production and Treasury's 118-document response. The absence of any independent credit analysis in the entire public record is a significant gap.
 
@@ -318,7 +318,12 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event">
     <time>February 2026</time>
     <h3>Second FOIA round responses received</h3>
-    <p>Treasury delivers 118 documents (2,526 pages), APERS delivers 16 documents including an 8,648-page comprehensive production, and ATRS delivers 7 documents (partial response, with Requests 2 and 3 due March 3, 2026). Investigation corpus surpasses 1,098 documents.</p>
+    <p>Treasury delivers 118 documents (2,526 pages), APERS delivers 16 documents including an 8,648-page comprehensive production, and ATRS delivers 7 documents (partial response). Investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.</p>
+  </li>
+  <li class="timeline-event">
+    <time>March 3, 2026</time>
+    <h3>Auditor of State delivers Round 2 response</h3>
+    <p>124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) received via flash drive from General Counsel TJ Fowler. Total investigation corpus: 1,222 documents.</p>
   </li>
 </ol>
 

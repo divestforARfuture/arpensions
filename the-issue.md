@@ -51,7 +51,9 @@ These authorizations came in rapid succession — and under circumstances that r
 
 **November 2025:** APERS received its first Israel Bonds statement, confirming a purchase had eventually occurred after the months-long delay.
 
-**February 2026:** Second round of FOIA responses received from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). Total investigation corpus now stands at 1,098 documents.
+**February 2026:** Second round of FOIA responses received from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). Total investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.
+
+**March 2026:** Auditor of State delivers Round 2 response — 124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) via flash drive from General Counsel TJ Fowler. Total investigation corpus now stands at 1,222 documents across four agencies, two FOIA rounds.
 
 <div class="callout" markdown="1">
 
@@ -118,7 +120,7 @@ Several red flags suggest these standards may not have been followed:
 
 **The ATRS Board Chair dissented.** Danny Knight, the lone "no" vote on the June 2025 authorization, warned that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members — to recommend specific securities.
 
-**No independent credit analysis was produced.** Our review of nearly 1,100 public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
+**No independent credit analysis was produced.** Our review of more than 1,200 public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
 
 **Two pension funds, no independent analysis either way.** APERS chose to purchase Israel Bonds directly without an external investment manager, with its CIO stating there was "not a need to incur management fees." ATRS, by contrast, hired Reams Asset Management — but established its investment guidelines four months after the board authorized the purchase. Neither approach included independent credit analysis before authorization.
 
