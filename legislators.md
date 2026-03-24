@@ -25,11 +25,11 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 | **Internal staff advice** | A late-2024 Treasury investment memo recommended against new purchases due to credit downgrades |
 | **Board Chair dissent** | ATRS Board Chair Danny Knight cast the sole "no" vote, warning the process departed from ATRS's normal manager-driven practice |
 | **Sales representative involvement** | Israel Bonds representatives met with all three agencies in April 2025; within weeks, new purchases and authorizations followed |
-| **Independent credit analysis** | None found in nearly 1,100 FOIA documents from four state agencies |
+| **Independent credit analysis** | None found in more than 1,200 FOIA documents from four state agencies |
 | **Brady conduit confirmed** | Auditor's appointee Jason Brady introduced Israel Bonds to APERS board citing Treasury's $55M holdings; board approved $25–50M without independent analysis |
 | **APERS two-month purchase delay** | Board authorized in May–June 2025; "Still zero for APERS" confirmed July 30, 2025; staff still establishing contact July 31 |
 | **Divergent management approaches** | APERS: direct purchase, no manager, no fees. ATRS: hired Reams Asset Management, formal guidelines established September 25, 2025 |
-| **Total documents reviewed** | 1,098 across two FOIA rounds to four agencies |
+| **Total documents reviewed** | 1,222 across two FOIA rounds to four agencies |
 
 </div>
 
@@ -82,7 +82,7 @@ We urge the Arkansas General Assembly to consider the **Pension Investment Trans
 
 ### The five provisions
 
-1. **Require independent credit analysis** before any pension fund purchases unrated or non-tradable sovereign debt instruments. Our FOIA investigation found zero independent analyses across 1,098 documents from four agencies.
+1. **Require independent credit analysis** before any pension fund purchases unrated or non-tradable sovereign debt instruments. Our FOIA investigation found zero independent analyses across 1,222 documents from four agencies.
 
 2. **Require that investment recommendations come from the fund's own consultants**, not from the issuer's sales representatives. Israel Bonds representatives provided all investment materials with no independent third-party review.
 

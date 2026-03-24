@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Our Methods — How We Conducted This Investigation"
-description: "How Divest for AR Future obtained, processed, and analyzed nearly 1,100 public records from four Arkansas state agencies."
+description: "How Divest for AR Future obtained, processed, and analyzed more than 1,200 public records from four Arkansas state agencies."
 permalink: /methodology/
 ---
 
@@ -19,7 +19,7 @@ Our requests targeted investment decision records, board meeting materials, corr
 
 ## Document Processing
 
-We received <span class="font-mono">1,098</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across two rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February 2026) added 141 documents from three agencies (Treasury: 118; APERS: 16; ATRS: 7). The Auditor of State's Round 2 response has been received and is under review. Every document was:
+We received <span class="font-mono">1,222</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across two rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February–March 2026) added 265 documents from four agencies (Treasury: 118; APERS: 16; ATRS: 7; Auditor: 124). Every document was:
 
 1. **Cataloged** with metadata including source agency, date, document type, and FOIA request number
 2. **Processed** using optical character recognition (OCR) where necessary to make scanned documents searchable
