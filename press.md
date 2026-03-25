@@ -292,7 +292,7 @@ Key evidence points:
 
 ## National context
 
-Arkansas is part of a broader national pattern. As of early 2026, at least 11 state-level campaigns scrutinize Israel Bonds investments by public entities:
+Arkansas is part of a broader national pattern. As of early 2026, at least nine state- and local-level campaigns — including Arkansas — scrutinize Israel Bonds investments by public entities:
 
 - **Minnesota** — State Board of Investment sold over $13 million in Israel Bonds; holdings dropped from $11.8M to $470K by October 2025.
 - **Michigan** — State treasury declined to reinvest a $10 million Israel Bond that matured in November 2025. FOIA requests revealed that Israel Bonds' national managing director repeatedly emailed the Michigan treasury pleading for reinvestment and offering rates higher than publicly available.
