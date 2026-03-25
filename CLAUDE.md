@@ -4,11 +4,11 @@ sitemap: false
 
 D4ARF Campaign Website — Claude Code Instructions
 
-You are redesigning the Divest for AR Future (D4ARF) campaign website. The site is Jekyll + GitHub Pages, deployed at https://divestforarfuture.github.io.
+You are working on the Divest for AR Future (D4ARF) campaign website. The site is Jekyll + GitHub Pages, deployed at https://divestforarfuture.github.io (custom domain: divestforarfuture.org).
 
 ## What This Is
 
-D4ARF is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. The campaign has processed more than 1,200 government documents (1,222 total, 1,039 active after deduplication) through 8 FOIA requests to 4 state agencies, building a verified fact registry. The site is the public face of this investigation.
+D4ARF is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. The campaign has processed more than 1,200 government documents (1,222 total, 1,039 active after deduplication) through FOIA requests to 4 state agencies, building a verified fact registry. The site is the public face of this investigation.
 
 This is NOT a protest site. It's an evidence-driven, fiduciary accountability campaign — think investigative journalism meets civic engagement. ProPublica's rigor crossed with a well-run ballot initiative's energy.
 
@@ -30,6 +30,8 @@ This is NOT a protest site. It's an evidence-driven, fiduciary accountability ca
 * Empowering — visitors should feel they can do something concrete
 
 What the site is NOT: a protest site, a boycott campaign, partisan, or anti-Israel. It's pro-fiduciary-process.
+
+**Content restrictions:** Never use the word "artifacts" or "AI" in any site content. Use "source materials," "documents," or "findings" instead. Do not reference the January 2025 ARPPP webinar in any public-facing content.
 
 ## Brand Identity
 
@@ -69,7 +71,7 @@ Spacing tokens: `--space-xs` (0.25rem) through `--space-4xl` (6rem). Use these i
 3. No tracking. No Google Analytics, no Facebook Pixel, no third-party cookies. Deliberate privacy choice.
 4. Content Security Policy is set in _includes/head.html. Update if adding new CDN sources.
 5. WCAG AA accessibility. Semantic HTML, screen reader friendly, proper contrast. The current codebase has good a11y foundations — don't regress.
-6. No external JS dependencies beyond what's already loaded. Keep it fast and minimal.
+6. No external JS dependencies beyond what's already loaded (except network page — see below).
 
 ## CSS Architecture
 
@@ -107,20 +109,55 @@ Teal is the dominant accent. Red appears only for urgency/action.
 ## Current Architecture
 
 ```
-14+ pages, 4 layouts, 9+ includes
+16+ pages, 4 layouts, 9+ includes
 ├── index.md              (default layout — hero, stats, pathways, about)
 ├── the-issue.md          (page layout — core explainer)
-├── evidence.md           (page layout — key findings, timeline, legal standards)
+├── evidence.md           (page layout — findings 1-6 + 3a-3i, timeline, legal standards)
 ├── take-action.md        (page layout — 5 action items)
 ├── educators.md          (landing layout — ATRS-specific with letter template)
 ├── public-employees.md   (landing layout — APERS-specific with letter template)
-├── legislators.md        (landing layout — policy brief)
+├── legislators.md        (landing layout — policy brief + Transparency Act)
 ├── press.md              (page layout — press kit)
 ├── about.md              (page layout — mission, approach, FAQ)
 ├── documents.md          (page layout — FOIA document archive)
-├── network.md            (network layout — D3 relationship graph)
-└── news.md               (page layout — campaign milestones timeline)
+├── network.md            (network layout — Cytoscape.js relationship graph)
+├── news.md               (page layout — campaign milestones timeline)
+├── methodology.md        (page layout — research methodology)
+└── llms.txt              (machine-readable site summary)
 ```
+
+### Layouts
+
+* `default.html` — Standard page wrapper (head, nav, content, footer)
+* `page.html` — Extends default, adds page title/description
+* `landing.html` — For audience-specific pages (educators, public-employees, legislators)
+* `network.html` — Full-width layout for the interactive graph (escapes Pico container)
+
+### Network page dependencies (network layout only)
+
+The network page uses Cytoscape.js (not D3) with dagre and fcose layout plugins, plus Fuse.js for fuzzy search. All loaded via CDN with SRI hashes. Network-specific CSS in `assets/css/network.css`. Graph data in `assets/js/network-graph.json` (80 nodes, 176 links as of March 2026). Features: entity type filters, node search, pathfinding between entities, four guided narrative tours, dark mode support.
+
+## Evidence Page Structure (as of PR #82, March 2026)
+
+The evidence page is the most content-dense page on the site. Current section structure:
+
+1. No independent credit analysis
+2. Internal memo recommended against new purchases
+3. Sales representatives met with agencies before authorizations
+   - 3a. How Israel Bonds reached the APERS board
+   - 3b. Board voted before staff had a contact
+   - 3c. Two pension funds, two approaches — neither with independent analysis
+   - 3d. Agencies were watching each other
+   - 3e. The Auditor arranged a two-day pitch tour in his own office
+   - 3f. ATRS deployed the full $50 million by December 2025
+   - 3g. 37 pages of analysis for other investments, zero pages for Israel Bonds
+   - 3h. ATRS leadership present at APERS authorization
+   - 3i. Former Treasurer chaired the subcommittee that authorized Israel Bonds
+4. Board Chair raised process concerns
+5. Public statements confirmed political motivations
+6. First-ever direct foreign sovereign debt
+
+Plus: exposure bar chart (Chart.js), decision window timeline (ApexCharts), chronological timeline, legal standards section, action CTAs.
 
 ## Key Facts for Content (Use These Numbers)
 
@@ -130,16 +167,26 @@ Teal is the dominant accent. Red appears only for urgency/action.
 * 1,222 public records analyzed across two FOIA rounds
 * 8 FOIA requests across 2 rounds to 4 agencies (Treasury, ATRS, APERS, Auditor)
 * 0 independent credit analyses found in the entire document corpus
-* 3 major credit agencies downgraded Israel's rating
+* 3 major credit agencies (Fitch, Moody's, S&P) downgraded Israel's rating — do not reduce to two
 * The campaign's rhetorical core: Arkansas's own Act 710 says investments must use financial merit standards — the same standard should apply to purchases, not just divestment decisions
+* APERS total fund: $11.58B (Q1 FY2025), 43,571 active members
+* ATRS: $23.7B assets (crossed $24B), ~84% funded ratio, 9.8% FY2025 return
+* Network graph: 80 entities, 176 relationships
 
 **Important:** Headlines and hooks use the $100M pension number (maps to the Pension Investment Transparency Act's legislative target). The $155M total appears in body text where the three-entity breakdown is explicit. Do not call the full $155M "pension fund exposure" — $55M of that is Treasury.
+
+**Key factual guardrails:**
+- Act 411 (2023) applies ONLY to the Treasurer of State's investment evaluations — NOT pension boards, NOT divestment. Do not conflate with Act 710.
+- Amy Fecher is APERS Executive Director (not "Jason Fecher"). Danny Knight is ATRS Chairman, not APERS.
+- Rod Graves is ATRS Deputy Director (not APERS).
+- Both ATRS and APERS 2025 authorizations were first-ever DIRECT purchases. Do not single out one.
+- Brady cited Oklahoma, Louisiana, Texas, Mississippi as peer states — NOT Georgia.
 
 ## Git Workflow
 
 * Create a branch for each coherent design change
 * Push and create a PR to main — an automated Claude Code review will run on the PR
-* Do not commit directly to main (except for housekeeping like this CLAUDE.md setup)
+* Do not commit directly to main (except for housekeeping like this CLAUDE.md)
 * Write clear, descriptive commit messages and PR descriptions
 
 ## What "Done" Looks Like
@@ -152,12 +199,3 @@ Each PR should be a coherent, reviewable improvement:
 * A content update
 
 Don't rewrite everything in one PR. Small, reviewable chunks.
-
-## Website Current State (Post Elegant Redesign)
-
-* **CSS architecture:** Two-layer system — main.css (foundation) + elegant.css (redesign overrides)
-* **Homepage:** Cormorant Garamond hero with ghost watermark, theme-inverted (dark on light, cream on dark), typographic stats bar, pure-text pathway links, 2×2 role CTA grid, teal-dash section headings
-* **Header:** Cormorant logo text, teal outline CTA button, weight-500 nav links
-* **Footer:** Cormorant italic tagline, teal dashes on column headings
-* **Inner pages:** Cormorant headings (h1–h3), teal table headers, teal pull quote borders with Cormorant italic, teal timeline dots, teal accent on all component borders
-* **Color system:** Teal dominant accent; red reserved for urgency (zero stat, primary CTA, skip link, mobile CTA)
