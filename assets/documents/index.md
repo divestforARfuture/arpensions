@@ -59,6 +59,12 @@ All documents were provided by the agencies in response to Freedom of Informatio
   Milligan nominated as SFOF National Chair by Indiana Treasurer Kelly Mitchell  
   *Source: TREAS-FEB26-0108*
 
+## ATRS FOIA Response Documents
+
+- **[white-foia-denial-december-2024.pdf](white-foia-denial-december-2024.pdf)** *(pages 5–10 of original)*
+  ATRS Executive Director Mark White denies FOIA request as 'insufficiently specific,' then forwards exchange to Rod Graves
+  *Source: ATRS-JUN25-0006*
+
 ## Reference Documents
 
 - **[treasury-investment-policy-2022.pdf](treasury-investment-policy-2022.pdf)**  

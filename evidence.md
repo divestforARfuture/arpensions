@@ -175,7 +175,7 @@ Also at the same May 15 meeting, Secretary Jim Hudson requested that APERS devel
 
 The May 15, 2025 APERS Investment Subcommittee meeting — where Brady pitched Israel Bonds and the board authorized $25–50 million — was attended by three ATRS officials listed as visitors: Executive Director Mark White, Rod Graves, and Tammy Porter.
 
-White is the same ATRS Executive Director who later narrowed the scope of a D4ARF FOIA request. Both ATRS and APERS authorized first-ever direct Israel Bonds purchases in the same period. The presence of ATRS leadership at the APERS authorization meeting suggests coordination or at minimum awareness of the cross-system initiative.
+White is the same ATRS Executive Director whose office initially denied a FOIA request seeking Israel Bonds records as "insufficiently specific" in December 2024 ([read the response](/assets/documents/white-foia-denial-december-2024.pdf)). Both ATRS and APERS authorized first-ever direct Israel Bonds purchases in the same period. The presence of ATRS leadership at the APERS authorization meeting suggests coordination or at minimum awareness of the cross-system initiative.
 
 The two pension systems also have an established pattern of coordination: in the Five Below securities litigation case (E.D. Pa.), ATRS and APERS hold joint lead plaintiff status, and both pursued the Trade Desk case jointly with MissPERS.
 
@@ -190,7 +190,7 @@ Larry Walther — who served as Arkansas's 40th Treasurer of State from August 2
 
 The former Treasurer who oversaw $55 million in Treasury Israel Bonds holdings now chairs the pension subcommittee that authorized $25–50 million more in the same instrument — and the subcommittee received zero pages of independent analysis before voting.
 
-Additionally, Secretary Bassett had previously appointed Jason Brady to preside over the March 5, 2025 subcommittee meeting, meaning Brady was sometimes the presiding officer of the very committee he later pitched Israel Bonds to.
+Additionally, APERS Board Secretary Daryl Bassett had previously appointed Jason Brady to preside over the March 5, 2025 subcommittee meeting, meaning Brady was sometimes the presiding officer of the very committee he later pitched Israel Bonds to.
 
 *Source: APERS Board Packet for June 11, 2025, pages 8 and 4.*
 
