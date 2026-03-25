@@ -17,7 +17,7 @@ New records obtained in February 2026 — including an 8,648-page APERS FOIA pro
 
 Despite that authorization, APERS purchased zero bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The next day, CIO Carlos Borromeo emailed Stephens Inc. asking them to forward his contact information to an Israel Bonds representative — meaning staff were still establishing the basic operational pathway for purchasing well after the board had voted. A bond statement received in November 2025 confirms that a purchase eventually occurred, though the exact amount has not been disclosed.
 
-Additionally, when Arkansas Times journalist Jennifer Lenow sent APERS a request for comment about the Israel Bonds investments, Executive Director Amy Fecher's first action was not to consult APERS's own communications staff — it was to forward the inquiry to Jason Brady at the Auditor's office with "FYI." The pension system's executive director routed a press question about an APERS investment decision to the office that had orchestrated the investment in the first place.
+Additionally, when Arkansas Times journalist Jennifer Lenow sent APERS a request for comment about the Israel Bonds investments, Executive Director Amy Fecher's first action was not to consult APERS's own communications staff — it was to forward the inquiry to Jason Brady at the Auditor's office with "FYI." The pension system's executive director routed a press question about an APERS investment decision to the office that had arranged the investment in the first place.
 
 <div class="callout" markdown="1">
 
