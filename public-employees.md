@@ -25,7 +25,7 @@ Additionally, when Arkansas Times journalist Jennifer Lenow sent APERS a request
 
 </div>
 
-At the authorized level of $25–50 million, Israel Bonds would represent approximately 0.2–0.4% of APERS's $11.82 billion portfolio. The question is not whether the allocation is large, but whether the decision followed the fiduciary process Arkansas law requires.
+At the authorized level of $25–50 million, Israel Bonds would represent approximately 0.2–0.4% of APERS's $11.58 billion portfolio. The question is not whether the allocation is large, but whether the decision followed the fiduciary process Arkansas law requires.
 
 ## Why it matters
 
@@ -55,17 +55,17 @@ For the full timeline, source quotes, and legal analysis, see our [evidence page
 ## APERS by the numbers
 
 <div style="max-width: 280px; margin: 0 auto 1.5rem;" data-aos="fade-up">
-  <canvas id="apers-funded-gauge" aria-label="APERS funded ratio: approximately 84 percent" role="img"></canvas>
+  <canvas id="apers-funded-gauge" aria-label="APERS funded ratio gauge: approximately 84 percent as of FY2024 actuarial valuation" role="img"></canvas>
 </div>
 
 <div class="stats-grid" style="max-width: 720px; margin: 0 0 var(--space-xl);">
   <div class="stat-card" style="padding: 1rem 0.75rem;">
-    <span class="stat-number" style="font-size: var(--text-2xl);">$11.82B</span>
-    <span class="stat-label">Net position (FY2024)</span>
+    <span class="stat-number" style="font-size: var(--text-2xl);">$11.58B</span>
+    <span class="stat-label">Total fund (Q1 FY2025)</span>
   </div>
   <div class="stat-card" style="padding: 1rem 0.75rem;">
-    <span class="stat-number" style="font-size: var(--text-2xl);">10.4%</span>
-    <span class="stat-label">FY2024 return</span>
+    <span class="stat-number" style="font-size: var(--text-2xl);">-0.79%</span>
+    <span class="stat-label">Q1 2025 return (78th percentile)</span>
   </div>
   <div class="stat-card" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">~$2.6B</span>
@@ -73,11 +73,15 @@ For the full timeline, source quotes, and legal analysis, see our [evidence page
   </div>
 </div>
 
-According to APERS's FY2024 Comprehensive Annual Financial Report, the system holds **$11.82 billion in total net position**, posted a **10.4% investment return** for FY2024, and carries an overall funded ratio of approximately **84%** — up from 81% the prior year. The unfunded actuarial accrued liability stands at approximately **$2.64 billion**, with approximately **44,825 active members** whose retirements depend on disciplined fiduciary management.
+As of March 31, 2025, the APERS total fund stands at **$11.58 billion**, with a Q1 2025 return of **-0.79%** (78th percentile among public fund peers) and a fiscal year-to-date return of **3.02%**. The system serves **43,571 active members** and **39,546 retirees** as of March 2025, with an average annual salary of **$48,794**. The unfunded actuarial accrued liability stands at approximately **$2.6 billion**. Contributions cover **66%** of benefit payouts, reinforcing the importance of disciplined investment management.
 
-These are strong numbers. But even in a well-funded system, bypassing standard investment processes for a novel, illiquid asset class sets a precedent that could affect long-term outcomes. The question is not whether APERS can absorb a $25–50 million Israel Bonds position, but whether the decision was made through the same rigorous process applied to every other investment.
+The fund was underweight in fixed income (18.1% actual vs. 21% target) — the asset class where Israel Bonds would sit — yet neither the CIO nor Callan analyzed how Israel Bonds fit the allocation.
 
-*Sources: [APERS FY2024 Comprehensive Annual Financial Report](https://www.apers.org/annualreport); APERS actuarial valuation (FY2024).*
+The publicly-posted board packets for the May 15 subcommittee and June 11 full board meetings reveal the contrast most clearly. At the same meetings where the board reviewed 37 pages of Callan quarterly analysis covering every asset class in the portfolio, and where three institutional firms presented detailed private credit briefings, the Israel Bonds authorization received zero pages of written analysis. The CIO provided no assessment. Callan — APERS's own investment consultant — was never asked to review the proposed investment.
+
+These are solid numbers. But even in a well-funded system, bypassing standard investment processes for a novel, illiquid asset class sets a precedent that could affect long-term outcomes. The question is not whether APERS can absorb a $25–50 million Israel Bonds position, but whether the decision was made through the same rigorous process applied to every other investment.
+
+*Updated with Q1 FY2025 data from APERS Quarterly Board Meeting packet, June 11, 2025, publicly posted at apers.org. Last updated: March 2026.*
 
 ## What you can do
 
