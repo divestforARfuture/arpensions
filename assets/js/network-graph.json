@@ -10,7 +10,7 @@
         "254 financial reports and 41 spreadsheets form core financial data",
         "Current Treasurer: John Thurston; preceded by Larry Walther (who succeeded Dennis Milligan)",
         "First Israel Bonds purchase initiated by Treasurer Milligan circa 2017",
-        "Three successive Treasurers (Milligan → Walther → Thurston) all continued Israel Bonds purchases",
+        "Three successive Treasurers (Milligan â†’ Walther â†’ Thurston) all continued Israel Bonds purchases",
         "Key operational staff: Celeste Gladden (Investment Manager), Steve Pulley (Senior Investment Officer), Eric Munson (Chief Deputy Treasurer), Steven Kilgore (accounting)",
         "Wire transfers for Israel Bonds processed through Computershare Trust Company, N.A."
       ],
@@ -21,15 +21,15 @@
       "label": "Treasury Israel Bonds Purchase History",
       "type": "investigation_finding",
       "observations": [
-        "PURCHASE 1 — Mar 2018: $20M, 10th Series Jubilee 2-Year Fixed, 2.73%, maturity 3/1/2020, CUSIP 46513XL40 (TREAS-SEP25-0062)",
-        "PURCHASE 2 — Apr 2019: $30M, 11th Series Jubilee 2-Year Fixed, 3.11%, maturity 1/15/2021 (TREAS-SEP25-0059)",
-        "PURCHASE 3 — Jan 2020: Multiple bonds: $5M 5-Year at 2.33%, $10M 10-Year at 2.83% (CUSIP 46513JHA2), plus 5-Year Institutional at 2.48% (TREAS-SEP25-0060)",
-        "PURCHASE 4 — May 2020: $8M 3-Year at 1.57% (CUSIP 46513JCJ8) + $7M 5-Year at 2.03% (CUSIP 46513JRH6) = $15M total (TREAS-SEP25-0064)",
-        "PURCHASE 5 — Feb 2021: Signed investment forms, wire on receipt of bonds (TREAS-SEP25-0061, TREAS-SEP25-0015)",
-        "PURCHASE 6 — Oct 2021: Purchase documented (TREAS-SEP25-0065)",
-        "PURCHASE 7 — Oct/Nov 2023: $10M additional purchase post-10/7 attack, bringing total from $47M to $57M (TREAS-SEP25-0008, TREAS-SEP25-0015)",
-        "PURCHASE 8 — May 2025: $20M, authorized by executive team, two bonds ($10M 3-year + $10M 5-year per pattern), total position now $55M (TREAS-JUL25-0003, TREAS-SEP25-0015)",
-        "PURCHASE 9 — Feb 17, 2026: Wire confirmation sent by Celeste Gladden to Bradley Young/Luis Jimenez/Steve Pulley, cc Lawrence Berman (TREAS-FEB26-0108)",
+        "PURCHASE 1 â€” Mar 2018: $20M, 10th Series Jubilee 2-Year Fixed, 2.73%, maturity 3/1/2020, CUSIP 46513XL40 (TREAS-SEP25-0062)",
+        "PURCHASE 2 â€” Apr 2019: $30M, 11th Series Jubilee 2-Year Fixed, 3.11%, maturity 1/15/2021 (TREAS-SEP25-0059)",
+        "PURCHASE 3 â€” Jan 2020: Multiple bonds: $5M 5-Year at 2.33%, $10M 10-Year at 2.83% (CUSIP 46513JHA2), plus 5-Year Institutional at 2.48% (TREAS-SEP25-0060)",
+        "PURCHASE 4 â€” May 2020: $8M 3-Year at 1.57% (CUSIP 46513JCJ8) + $7M 5-Year at 2.03% (CUSIP 46513JRH6) = $15M total (TREAS-SEP25-0064)",
+        "PURCHASE 5 â€” Feb 2021: Signed investment forms, wire on receipt of bonds (TREAS-SEP25-0061, TREAS-SEP25-0015)",
+        "PURCHASE 6 â€” Oct 2021: Purchase documented (TREAS-SEP25-0065)",
+        "PURCHASE 7 â€” Oct/Nov 2023: $10M additional purchase post-10/7 attack, bringing total from $47M to $57M (TREAS-SEP25-0008, TREAS-SEP25-0015)",
+        "PURCHASE 8 â€” May 2025: $20M, authorized by executive team, two bonds ($10M 3-year + $10M 5-year per pattern), total position now $55M (TREAS-JUL25-0003, TREAS-SEP25-0015)",
+        "PURCHASE 9 â€” Feb 17, 2026: Wire confirmation sent by Celeste Gladden to Bradley Young/Luis Jimenez/Steve Pulley, cc Lawrence Berman (TREAS-FEB26-0108)",
         "8 individual purchase record PDFs in FOIA Round 1 (TREAS-SEP25-0059 through 0066), plus Round 2 communications confirming 2026 purchase",
         "CRITICAL FINDING: No independent credit analysis or risk assessment document found for ANY purchase across all 909 source documents"
       ],
@@ -43,10 +43,10 @@
         "~2017: Program initiated by Treasurer Milligan (exact first purchase date/amount not documented in registry)",
         "Jun 2023: $47M in Israel Bonds per Eric Munson email to Governor's office (TREAS-SEP25-0015)",
         "Oct 25, 2023: Walther told Board of Finance 'we currently have $47 million in Israel bond holdings' and 'are considering some additional purchase' (TREAS-SEP25-0008)",
-        "Oct 27, 2023: +$10M purchase announced, total $57M — press release explicitly cites 'turmoil in the Middle East' (TREAS-SEP25-0015)",
+        "Oct 27, 2023: +$10M purchase announced, total $57M â€” press release explicitly cites 'turmoil in the Middle East' (TREAS-SEP25-0015)",
         "~2024-early 2025: Holdings declined as bonds matured; some not fully reinvested",
         "May 2025: After $20M new purchase, total position $55M per Steve Pulley email (TREAS-JUL25-0003)",
-        "Oct 2024: Speech notes reference $52M total, then updated version references $57M — two versions of same speech exist (TREAS-SEP25-0007 vs TREAS-SEP25-0008)",
+        "Oct 2024: Speech notes reference $52M total, then updated version references $57M â€” two versions of same speech exist (TREAS-SEP25-0007 vs TREAS-SEP25-0008)",
         "Portfolio proportion: Israel Bonds ~$55M of ~$11B portfolio = ~0.5% of total Treasury investments"
       ],
       "observationCount": 8
@@ -56,12 +56,12 @@
       "label": "Treasury Bond Maturities",
       "type": "investigation_finding",
       "observations": [
-        "MATURITY 1 — 3/1/2020: $20M 10th Series Jubilee 2-Year matured (original Mar 2018 purchase) (TREAS-SEP25-0056)",
-        "MATURITY 2 — 1/1/2021: $30M 11th Series 2-Year matured; redemption letter signed by Celeste Gladden on 12/30/2020 for Treasurer Milligan (TREAS-SEP25-0053)",
-        "MATURITY 3 — 5/1/2023: Maturity recorded (TREAS-SEP25-0057)",
-        "MATURITY 4 — 2/1/2024: Maturity recorded; Computershare confirmed release with Luis Jimenez (TREAS-SEP25-0055, TREAS-SEP25-0027)",
-        "MATURITY 5 — 1/1/2025: $10M matured; Celeste Gladden confirmed receipt of FedEx tracking notification (TREAS-JUL25-0003, TREAS-SEP25-0054)",
-        "MATURITY 6 — 5/1/2025: Maturity recorded (TREAS-SEP25-0058)",
+        "MATURITY 1 â€” 3/1/2020: $20M 10th Series Jubilee 2-Year matured (original Mar 2018 purchase) (TREAS-SEP25-0056)",
+        "MATURITY 2 â€” 1/1/2021: $30M 11th Series 2-Year matured; redemption letter signed by Celeste Gladden on 12/30/2020 for Treasurer Milligan (TREAS-SEP25-0053)",
+        "MATURITY 3 â€” 5/1/2023: Maturity recorded (TREAS-SEP25-0057)",
+        "MATURITY 4 â€” 2/1/2024: Maturity recorded; Computershare confirmed release with Luis Jimenez (TREAS-SEP25-0055, TREAS-SEP25-0027)",
+        "MATURITY 5 â€” 1/1/2025: $10M matured; Celeste Gladden confirmed receipt of FedEx tracking notification (TREAS-JUL25-0003, TREAS-SEP25-0054)",
+        "MATURITY 6 â€” 5/1/2025: Maturity recorded (TREAS-SEP25-0058)",
         "6 individual maturity record PDFs in FOIA responses (TREAS-SEP25-0053 through 0058)",
         "Pattern: Treasury consistently reinvested maturity proceeds into new Israel Bonds purchases",
         "Round 2 data: TREAS-FEB26-0027 contains 'Israel Bonds PAR & MATURITY' cash flow spreadsheet through Feb 2026"
@@ -82,7 +82,7 @@
         "CRITICAL GAP: None of the policy documents contain specific criteria for Israel Bonds as an asset class",
         "No policy document establishes a framework for evaluating sovereign bonds from individual foreign nations",
         "Rate of Return target documents exist (TREAS-SEP25-0149, 0174, 0206, 0221, 0236) but do not address Israel Bonds specifically",
-        "SFOF Travel Reimbursement Policy also received (TREAS-FEB26-0112) — connects Treasury staff to SFOF conferences"
+        "SFOF Travel Reimbursement Policy also received (TREAS-FEB26-0112) â€” connects Treasury staff to SFOF conferences"
       ],
       "observationCount": 10
     },
@@ -91,15 +91,15 @@
       "label": "Treasury Political Motivation Evidence",
       "type": "investigation_finding",
       "observations": [
-        "PRESS RELEASE 10/27/2023: 'With the turmoil taking place in the Middle East, the Arkansas Treasurer’s Office announces today that it has increased investment in Israel bond holdings to continue to ...",
-        "WALTHER QUOTE to Board of Finance 10/25/2023: 'we currently have $47 million in Israel bond holdings in our portfolio and we are considering some additional purchase of bonds' — cited Middle East t...",
-        "GOVERNOR SANDERS QUOTE: 'Treasurer Walther’s purchase of $10 million in Israeli bonds allows us to support that country in actions as well as words.",
+        "PRESS RELEASE 10/27/2023: 'With the turmoil taking place in the Middle East, the Arkansas Treasurerâ€™s Office announces today that it has increased investment in Israel bond holdings to continue to ...",
+        "WALTHER QUOTE to Board of Finance 10/25/2023: 'we currently have $47 million in Israel bond holdings in our portfolio and we are considering some additional purchase of bonds' â€” cited Middle East t...",
+        "GOVERNOR SANDERS QUOTE: 'Treasurer Waltherâ€™s purchase of $10 million in Israeli bonds allows us to support that country in actions as well as words.",
         "RELIGIOUS FRAMING: 'Those who bless Israel will be blessed, and those who curse Israel will be cursed.",
         "SPEECH NOTES (Oct 2024): 'Today, we gather to celebrate the strong and enduring relationship between the State of Arkansas and the Nation of Israel.",
         "EXPLICIT POLITICAL FRAMING: 'The Arkansas Treasury has also put our money where our mouth is by purchasing [Israel bonds]' (TREAS-SEP25-0015)",
-        "May 2025 purchase: Celeste Gladden email states 'The executive team authorized the purchase of two more Israel Bonds totaling $20,000,000' — no mention of financial analysis (TREAS-SEP25-0015)",
-        "Israel Bonds congratulated Milligan on re-election, Milligan replied 'A pleasure to work with you' — personal relationship between Treasurer and bond seller (TREAS-SEP25-0015)",
-        "SYMMETRY ARGUMENT APPLICATION: Political motivation documented for purchases, but Act 710 requires financial merit for divestment — same standard should apply to purchases",
+        "May 2025 purchase: Celeste Gladden email states 'The executive team authorized the purchase of two more Israel Bonds totaling $20,000,000' â€” no mention of financial analysis (TREAS-SEP25-0015)",
+        "Israel Bonds congratulated Milligan on re-election, Milligan replied 'A pleasure to work with you' â€” personal relationship between Treasurer and bond seller (TREAS-SEP25-0015)",
+        "SYMMETRY ARGUMENT APPLICATION: Political motivation documented for purchases, but Act 710 requires financial merit for divestment â€” same standard should apply to purchases",
         "EXPANDED ANALYSIS: See 'Political Motivation for Purchases' entity for comprehensive catalog of 11 documented instances of political framing in purchase decisions",
         "See 'Treasury Press Strategy' entity for internal communications revealing coordinated political messaging",
         "See 'Inter-State Israel Bonds Coordination' entity for multi-state pattern of identical political framing",
@@ -113,22 +113,22 @@
       "type": "official",
       "observations": [
         "Former Arkansas State Treasurer (~2015-2018/19), current Auditor of State",
-        "Initiated Israel Bonds program for Arkansas Treasury circa 2017 — first Treasurer to purchase",
+        "Initiated Israel Bonds program for Arkansas Treasury circa 2017 â€” first Treasurer to purchase",
         "Re-elected as Treasurer Nov 2018; congratulated by Bradley Young of Israel Bonds (TREAS-SEP25-0015)",
         "Replied to Israel Bonds congratulations: 'A pleasure to work with you' (TREAS-SEP25-0015)",
         "Active in SFOF (State Financial Officers Foundation) conferences and events (TREAS-FEB26-0108)",
         "As Auditor: Jason Brady (his direct report) forwarded Israel Bonds materials to APERS (AUDIT-JUN25-0182)",
-        "Appears in 247 Treasury source documents — most frequent person in Treasury corpus",
+        "Appears in 247 Treasury source documents â€” most frequent person in Treasury corpus",
         "Recipient of Israel Bonds marketing emails at dennis.milligan@artreasury.gov and Auditor email (AUDIT-JUN25 docs)",
         "SFOF NATIONAL CHAIR: Served as SFOF National Chair ~2019-2020.",
-        "SFOF EXCLUSIVE VIRTUAL MEETING featured Milligan: 'Exclusive Virtual Meeting with Arkansas State Treasurer DENNIS MILLIGAN, Hosted by SFOF President Derek Kreifels' — promotional flyer (TREAS-FEB26...",
+        "SFOF EXCLUSIVE VIRTUAL MEETING featured Milligan: 'Exclusive Virtual Meeting with Arkansas State Treasurer DENNIS MILLIGAN, Hosted by SFOF President Derek Kreifels' â€” promotional flyer (TREAS-FEB26...",
         "SFOF PANEL PARTICIPATION: Panelist on 'Covid-19 Industry Sector Spotlight: Aviation, Healthcare, & Transportation/Logistics' at SFOF Virtual National Meeting April 2020 (TREAS-FEB26-0108 p.144)",
         "As AUDITOR: Arranged in-person meetings for Israel Bonds reps (Berman/Young) with APERS leadership, DHS Secretary Jim Hudson, and House Speaker Evans in April 2025 (AUDIT-JUN25-0264, AUDIT-JUN25-02...",
-        "KEY QUOTE — Capitol Rotunda Speech 10/7/2024: 'I'm proud to be here this morning with my fellow state leaders and show my public support for our friends in Israel and members of the Jewish communit...",
-        "KEY QUOTE — Solidarity message to Israeli Ambassador: 'express his support for Israel and her people – every day, but especially today' (AUDIT-JUN25-0578)",
-        "Jason Brady's personal email (jasonlbrady@hotmail.com) included in SFOF invitations alongside Milligan — personal rather than official channel (TREAS-FEB26-0108 p.146)",
+        "KEY QUOTE â€” Capitol Rotunda Speech 10/7/2024: 'I'm proud to be here this morning with my fellow state leaders and show my public support for our friends in Israel and members of the Jewish communit...",
+        "KEY QUOTE â€” Solidarity message to Israeli Ambassador: 'express his support for Israel and her people â€“ every day, but especially today' (AUDIT-JUN25-0578)",
+        "Jason Brady's personal email (jasonlbrady@hotmail.com) included in SFOF invitations alongside Milligan â€” personal rather than official channel (TREAS-FEB26-0108 p.146)",
         "AUDITOR ISRAEL SPEECH: Authored by Stacy Peterson, delivered at Capitol Rotunda on Oct 7, 2024 (1-year anniversary of Hamas attack).",
-        "$95M CLAIM: In Capitol Rotunda speech, claims 'purchased Israel Bonds $95,000,000' — cumulative figure across all purchases.",
+        "$95M CLAIM: In Capitol Rotunda speech, claims 'purchased Israel Bonds $95,000,000' â€” cumulative figure across all purchases.",
         "SOLIDARITY EMAIL TO ISRAELI AMBASSADOR: Stacy Peterson emailed consular@washington.mfa.gov.il on Oct 7, 2024: 'Dennis Milligan wanted me to reach out on his behalf and express his support for Israe...",
         "CONTINUED ADVOCACY AS AUDITOR: Despite holding NO investment authority as Auditor, Milligan uses Auditor office for: (1) Israel Bonds advocacy speeches, (2) arranging meetings between Israel Bonds ...",
         "SFOF PARTICIPATION AS AUDITOR: AUDIT-JUN25-0228 shows Auditor staff (Spadoni, Peterson, Brady, Underwood) coordinating SFOF logistics including 'Smart Women Smart Money' program.",
@@ -136,16 +136,16 @@
         "AUDITOR COORDINATOR ROLE: Organized comprehensive 2-day Israel Bonds tour of Arkansas state government April 14-15, 2025.",
         "SCOPE OF APRIL 2025 TOUR: His office arranged meetings with APERS ED, House Speaker, state Rep, DHS Secretary, APERS Board Chair, plus 'possibly' Sen.",
         "BOARD MEMBERSHIP: Sits on both APERS and ATRS boards.",
-        "SFOF SPRING 2025 SPEECH: Confirmed as speaker at SFOF spring conference April 23, 2025 — just 9 days after organizing the Israel Bonds tour of Arkansas.",
+        "SFOF SPRING 2025 SPEECH: Confirmed as speaker at SFOF spring conference April 23, 2025 â€” just 9 days after organizing the Israel Bonds tour of Arkansas.",
         "ATRS BOARD MEMBER: Sits on ATRS Board of Trustees.",
         "ATRS MEETING ARRANGED: Personally arranged April 15, 2025 meeting between Israel Bonds reps (Berman/Young) and ATRS Executive Director Mark White at Auditor's Capitol Office Room 230.",
         "ATRS AUTHORIZATION CHAIN: Originated the request that led to ATRS Resolution 2025-22 ($50M authorization).",
         "ATRS BOARD MEMBER: Sits on ATRS Board of Trustees.",
         "ATRS MEETING ARRANGED: Personally arranged April 15, 2025 meeting between Israel Bonds reps (Berman/Young) and Mark White at Auditor's Capitol Office.",
         "ATRS MARKETING RECIPIENT: Received Israel Bonds marketing emails at ATRS-associated addresses from Dec 2024-June 2025, including 'Private & Exclusive Economic Briefing' invites, rate sheets ('Lock ...",
-        "ATRS IMPACT: Stacy Peterson's June 4 email confirmed 'the two pension boards he sits on which recently voted to invest up to $50 million apiece' — Milligan's dual board membership (APERS + ATRS) en...",
-        "PERSONAL AOL EMAIL (dmill36544@aol.com): Brady forwarded ATRS 'Ark Times Article + Congratulations' to this personal AOL address at 7:28 PM Jul 11, 2025 — routing state business outside official email system (AUDIT-MAR26-0109).",
-        "18-MINUTE SCHEDULING BLITZ: On April 11, 2025, Milligan and Spadoni sent 4 meeting arrangement emails within 18 minutes (2:01-2:18 PM) scheduling Berman/Young with Fecher, Bassett, White, and Thurston — all in his Capitol Office Room 230, all CC'd Brady, all with attached bios (AUDIT-JUN25-0263, -0264, -0265, -0266, -0267, -0268)."
+        "ATRS IMPACT: Stacy Peterson's June 4 email confirmed 'the two pension boards he sits on which recently voted to invest up to $50 million apiece' â€” Milligan's dual board membership (APERS + ATRS) en...",
+        "PERSONAL AOL EMAIL (dmill36544@aol.com): Brady forwarded ATRS 'Ark Times Article + Congratulations' to this personal AOL address at 7:28 PM Jul 11, 2025 â€” routing state business outside official email system (AUDIT-MAR26-0109).",
+        "18-MINUTE SCHEDULING BLITZ: On April 11, 2025, Milligan and Spadoni sent 4 meeting arrangement emails within 18 minutes (2:01-2:18 PM) scheduling Berman/Young with Fecher, Bassett, White, and Thurston â€” all in his Capitol Office Room 230, all CC'd Brady, all with attached bios (AUDIT-JUN25-0263, -0264, -0265, -0266, -0267, -0268)."
       ],
       "observationCount": 34
     },
@@ -169,11 +169,11 @@
         "Served as Arkansas State Treasurer between Milligan and Thurston",
         "Announced $10M post-10/7 purchase on Oct 27, 2023, bringing total to $57M (TREAS-SEP25-0008)",
         "Told Board of Finance on Oct 25, 2023: 'we currently have $47 million in Israel bond holdings' (TREAS-SEP25-0008)",
-        "NOTE: Larry Walther IS a real person in Treasury documents — distinguished from the old-pipeline hallucination of 'Larry Walther' as ATRS contact.",
+        "NOTE: Larry Walther IS a real person in Treasury documents â€” distinguished from the old-pipeline hallucination of 'Larry Walther' as ATRS contact.",
         "Recipient of Israel Bonds marketing emails at larry.walther@artreasury.gov (TREAS-SEP25-0021)",
         "Later served as APERS Board Member; asked about investment direction at APERS meeting (APERS-JUL25-0001)",
         "KEY QUOTE in press release: 'Those who bless Israel will be blessed, and those who curse Israel will be cursed.",
-        "Original draft of press statement included: 'The Arkansas Treasury has also put our money where our mouth is by purchasing the additional $10 million in Israel bonds' — flagged for removal by Chief...",
+        "Original draft of press statement included: 'The Arkansas Treasury has also put our money where our mouth is by purchasing the additional $10 million in Israel bonds' â€” flagged for removal by Chief...",
         "Oct 2024: Requested Israel Bonds briefing from investment staff, per Munson relay (TREAS-SEP25-0015)"
       ],
       "observationCount": 9
@@ -185,18 +185,18 @@
       "observations": [
         "Operational conduit between Treasury/Auditor and pension systems for Israel Bonds expansion",
         "Primary org: Arkansas State Treasury in registry; also appears in Auditor of State documents",
-        "At APERS Investment Subcommittee meeting: introduced Israel Bonds, noted 'APERS does not own any Israel bonds, like those held by the state treasurer’s office' (APERS-JUL25-0002)",
+        "At APERS Investment Subcommittee meeting: introduced Israel Bonds, noted 'APERS does not own any Israel bonds, like those held by the state treasurerâ€™s office' (APERS-JUL25-0002)",
         "Shared that State Treasury holds ~$55M in Israel Bonds as part of $11B portfolio (APERS-JUL25-0001)",
         "Described Israel Bonds as 'backed by the full faith and credit of the State of Israel' (APERS-JUL25-0001)",
         "Moved to suggest APERS authorize $25M minimum investment in Israel Bonds (APERS-JUL25-0002)",
         "Forwarded Israel Bonds materials from Auditor address: jason.brady@auditor.ar.gov (AUDIT-JUN25-0182)",
         "Recipient of Israel Bonds marketing at Jason Brady address (AUDIT-JUN25-0364, others)",
-        "Appears in 219 source documents — second most frequent person in Treasury corpus",
-        "Personal email (jasonlbrady@hotmail.com) used in SFOF communications alongside Milligan and Grant Wallace — indicates personal-channel coordination (TREAS-FEB26-0108 p.146)",
+        "Appears in 219 source documents â€” second most frequent person in Treasury corpus",
+        "Personal email (jasonlbrady@hotmail.com) used in SFOF communications alongside Milligan and Grant Wallace â€” indicates personal-channel coordination (TREAS-FEB26-0108 p.146)",
         "SFOF Fall Conference 2020: Registered as Arkansas attendee alongside Milligan (TREAS-FEB26-0108 chunk 271)",
         "Forwarded Israel Bonds presentation to TJ Fowler from auditor.ar.gov email (AUDIT-JUN25-0182)",
         "Arranged meetings between Israel Bonds reps and state officials while at Auditor's office (AUDIT-JUN25-0264, AUDIT-JUN25-0289)",
-        "DUAL ROLE — AUDITOR STAFF + APERS BOARD MEMBER: While working for Auditor Milligan, Brady also serves on the APERS Board of Trustees.",
+        "DUAL ROLE â€” AUDITOR STAFF + APERS BOARD MEMBER: While working for Auditor Milligan, Brady also serves on the APERS Board of Trustees.",
         "APERS BOARD MOTION: Moved to suggest APERS authorize $25M minimum investment in Israel Bonds at Investment Subcommittee (APERS-JUL25-0002).",
         "MEETING COORDINATION: Was operational contact for Israel Bonds reps during April 2025 tour.",
         "RECEIVED GOVERNMENT PURCHASER LIST: Berman forwarded 'List of State/Government Funds of All-time' directly to Brady during the visit (AUDIT-JUN25-0233)",
@@ -204,7 +204,7 @@
         "SFOF ROOM BLOCK: Received SFOF National Meeting room block notifications (AUDIT-JUN25-0331)",
         "ATRS INITIATION EMAIL (Oct 23, 2024): Emailed Mark White (ATRS ED) and Amy Fecher (APERS ED): 'the Auditor in his time as treasurer of state requested the legislature to pass legislation that would...",
         "ATRS CONDUIT ROLE: Brady was operational contact between Auditor's office and ATRS for Israel Bonds.",
-        "CROSS-PENSION PATTERN: Brady initiated Israel Bonds at BOTH pension systems — moved to suggest authorization at APERS Investment Subcommittee AND sent the initial request to ATRS ED Mark White.",
+        "CROSS-PENSION PATTERN: Brady initiated Israel Bonds at BOTH pension systems â€” moved to suggest authorization at APERS Investment Subcommittee AND sent the initial request to ATRS ED Mark White.",
         "ATRS AUTHORIZATION INITIATOR: Oct 23, 2024 email to Mark White (ATRS ED) and Amy Fecher (APERS ED): 'the Auditor in his time as treasurer of state requested the legislature to pass legislation that...",
         "ATRS PRESENTATION: Presented Israel Bonds to ATRS Board at June 2, 2025 meeting 'on behalf of the Auditor' per Mark White's Preview email.",
         "ATRS OPERATIONAL CONTACT: Was the person Berman/Young were told to contact to 'further discuss your trip' during the April 2025 tour that included the Mark White meeting (ATRS-JUN25-0090)",
@@ -213,7 +213,7 @@
         "INFORMATION RELAY via PERSONAL EMAIL: Forwarded ATRS 'Ark Times Article + Congratulations' to Milligan's personal AOL (dmill36544@aol.com) at 7:28 PM Jul 11, 2025 (AUDIT-MAR26-0109).",
         "MEDIA FORWARDING: Forwarded same Ark Times chain to Stacy Peterson at 6:52 AM Saturday Jul 12, 2025 (AUDIT-MAR26-0110).",
         "PRESS INQUIRY RECIPIENT: Amy Fecher forwarded Arkansas Times 'Request for comment' to Brady with 'FYI,' CC'ing Spadoni (AUDIT-MAR26-0039).",
-        "HANDWRITTEN ALLOCATION NOTE: Undated legal pad page listing 'Israel Bonds Trust / 10 ATRS / 130 APERS / ? John Thurston 250 / 505' — single person tracking allocations across all three entities (AUDIT-JUN25-0455).",
+        "HANDWRITTEN ALLOCATION NOTE: Undated legal pad page listing 'Israel Bonds Trust / 10 ATRS / 130 APERS / ? John Thurston 250 / 505' â€” single person tracking allocations across all three entities (AUDIT-JUN25-0455).",
         "SFOF SPEECH DRAFTING: Shared 'really ugly first draft' of Milligan's SFOF Spring 2025 speech with Peterson and Wood Mar 26, updated Apr 3 (AUDIT-JUN25-0392, -0404)."
       ],
       "observationCount": 32
@@ -257,7 +257,7 @@
         "Jun 2023: Told Governor's office 'To my knowledge, I know we hold $47 million in Israel bonds' (TREAS-SEP25-0015)",
         "Received press release about $10M post-10/7 purchase from Heather McKim (TREAS-SEP25-0015)",
         "Email: eric.munson@artreasury.gov",
-        "KEY INSIGHT: Recommended removing 'put our money where our mouth is' from press statement — 'Statement reads well.",
+        "KEY INSIGHT: Recommended removing 'put our money where our mouth is' from press statement â€” 'Statement reads well.",
         "Oct 2024: Relayed Treasurer Walther's request for Israel Bonds briefing to investment staff: 'The Treasurer requested a briefing or summary on Israel bonds sometime this week.",
         "Appears in 7 source documents"
       ],
@@ -271,8 +271,8 @@
         "Arkansas Treasury communications/press staff",
         "Drafted and distributed Oct 27, 2023 press release 'Arkansas Invests an Additional $10 million in Israel Bond Holdings' (TREAS-SEP25-0015)",
         "Oct 2024: Prepared speaking notes for Israel prayer ceremony, attached earlier press statement (TREAS-SEP25-0015)",
-        "Oct 2024: Prepared 'Speaking Notes for Israel Prayer Ceremony' and attached earlier Oct 2023 press statement about $10M purchase — recycled political messaging for religious event (TREAS-SEP25-0015...",
-        "Oct 2023: Sent press release to Treasury staff with 'Please read and respond - Priority' — tight coordination for political messaging about investment (TREAS-SEP25-0015 p.81)"
+        "Oct 2024: Prepared 'Speaking Notes for Israel Prayer Ceremony' and attached earlier Oct 2023 press statement about $10M purchase â€” recycled political messaging for religious event (TREAS-SEP25-0015...",
+        "Oct 2023: Sent press release to Treasury staff with 'Please read and respond - Priority' â€” tight coordination for political messaging about investment (TREAS-SEP25-0015 p.81)"
       ],
       "observationCount": 5
     },
@@ -285,18 +285,18 @@
         "Sells sovereign bonds backed by 'full faith and credit of the State of Israel' (APERS-JUL25-0001)",
         "Key institutional sales team for Arkansas: Lawrence Berman (National MD), Bradley Young (Exec Dir, Atlanta), Luis Jimenez (Associate Dir), Stuart Garawitz",
         "Claimed >$50B in worldwide sales since 1951; >$25B to institutional clients from 500+ customers",
-        "Marketing emphasizes solidarity/support messaging alongside financial returns — 'a powerful act of solidarity, strength, and unwavering support'",
-        "Post-10/7 marketing intensified: 'October 7 changed everything' — claimed $5B in global investments since Oct 7 by June 2025 (ATRS-JUN25-0033, APERS-JUL25-0001)",
-        "Bonds are illiquid — cannot be sold before maturity; physical certificates or book entry only",
+        "Marketing emphasizes solidarity/support messaging alongside financial returns â€” 'a powerful act of solidarity, strength, and unwavering support'",
+        "Post-10/7 marketing intensified: 'October 7 changed everything' â€” claimed $5B in global investments since Oct 7 by June 2025 (ATRS-JUN25-0033, APERS-JUL25-0001)",
+        "Bonds are illiquid â€” cannot be sold before maturity; physical certificates or book entry only",
         "Wire purchases processed through Computershare Trust Company, N.A.",
         "Post-10/7 marketing intensification documented: 'October 7th was the most horrific day in Jewish history since the Holocaust.",
-        "Solidarity parade participation promoted to investors: 'Israel Bonds is proud to once again be part of the world's largest celebration of Israel—the 2025 Israel Day on Fifth Parade.' (AUDIT-JUN25-0...",
-        "'When you buy a bond, you build a bond with Israel' — marketing tagline blending financial and political messaging (TREAS-SEP25-0021)",
-        "Iran missile response marketing: 'An investment in Israel bonds is more than financial—it's a declaration of solidarity and support.' (AUDIT-JUN25-0211)",
+        "Solidarity parade participation promoted to investors: 'Israel Bonds is proud to once again be part of the world's largest celebration of Israelâ€”the 2025 Israel Day on Fifth Parade.' (AUDIT-JUN25-0...",
+        "'When you buy a bond, you build a bond with Israel' â€” marketing tagline blending financial and political messaging (TREAS-SEP25-0021)",
+        "Iran missile response marketing: 'An investment in Israel bonds is more than financialâ€”it's a declaration of solidarity and support.' (AUDIT-JUN25-0211)",
         "Maintained master list of government purchasers shared selectively: 'minus about 10 funds that request we not publicize their purchases' (AUDIT-JUN25-0233)",
         "APRIL 2025 ARKANSAS TOUR: Berman and Young conducted comprehensive 2-day tour of Arkansas state government arranged by Auditor's office.",
         "GOVERNMENT PURCHASER LIST AS SALES TOOL: Maintains 'List of State/Government Funds of All-time' used as social proof.",
-        "BERMAN POST-VISIT ASSESSMENT: Called it 'an extremely successful and fun trip' — the bond seller characterizing government access as both productive and enjoyable.",
+        "BERMAN POST-VISIT ASSESSMENT: Called it 'an extremely successful and fun trip' â€” the bond seller characterizing government access as both productive and enjoyable.",
         "ATRS SALES CAMPAIGN: 88 timeline events in registry show Israel Bonds marketing emails to Dennis Milligan at ATRS addresses from Dec 2024-June 2025: 'Private & Exclusive Economic Briefing' (Dec 26)...",
         "ATRS: Stuart Garawitz sent 'State of Israel Economic Summary' directly to Arkansas officials in connection with ATRS decision (ATRS-JUN25-0055, ATRS-JUN25-0007)",
         "ATRS: Post-10/7 marketing used with ATRS board members: 'October 7 changed everything' and claimed $5B in global investments since Oct 7 by June 2025 (ATRS-JUN25-0033)",
@@ -317,16 +317,16 @@
         "Appears in 25 source documents across multiple agencies",
         "KEY QUOTE to Treasury staff after purchase: 'Thanks again Steve.",
         "KEY QUOTE thanking Auditor team after April 2025 visit: 'Thanks very much Wendy for all your efforts and kind hospitality.",
-        "Sent 'List of State/Government Funds of All-time' to Jason Brady — social proof/peer pressure tool showing which governments have purchased Israel Bonds, 'minus about 10 funds that request we not p...",
+        "Sent 'List of State/Government Funds of All-time' to Jason Brady â€” social proof/peer pressure tool showing which governments have purchased Israel Bonds, 'minus about 10 funds that request we not p...",
         "Scheduled 'Exclusive briefing' for Treasury staff with Israel Bonds economic presentation featuring Yali Rothenberg, Accountant General of Israel's Ministry of Finance (TREAS-SEP25-0027 chunk 1, AU...",
         "APRIL 2025 ARKANSAS TOUR: Visited Arkansas April 14-15 with Bradley Young.",
         "GOVERNMENT PURCHASER LIST: Forwarded 'State and Government Fund List - 2025.xlsx' to Brady on April 15 at 1:15 PM: 'this is the list minus bout 10 funds that request we not publicize their purchase...",
         "POST-VISIT GRATITUDE: Thanked Spadoni: 'extremely successful and fun trip thanks to all the efforts made by you, Jason and of course the Auditor.' (AUDIT-JUN25-0289)",
-        "MINISTRY OF FINANCE BRIEFING: Organized 'exclusive briefing' with Yali Rothenberg (Israel Ministry of Finance Accountant General) for state officials — government official briefing arranged by bond...",
+        "MINISTRY OF FINANCE BRIEFING: Organized 'exclusive briefing' with Yali Rothenberg (Israel Ministry of Finance Accountant General) for state officials â€” government official briefing arranged by bond...",
         "ATRS MEETING: Met with Mark White (ATRS ED) on April 15, 2025 at Auditor's Capitol Office Room 230.",
         "ATRS MARKETING EMAILS: Israel Bonds marketing emails sent to ATRS addresses from Dec 2024-June 2025 including 'You're Invited: A Private & Exclusive Economic Briefing' (Dec 26, 2024), 'Israel's Acc...",
-        "RESUME IN ATRS FILES: 'directly responsible for selling 60 new pension and treasury funds totaling more than $10 billion dollars' (ATRS-JUN25-0084) — the person selling the bonds is the same person...",
-        "ATRS MEETING: Met with Mark White on April 15, 2025 at Auditor's Capitol Office Room 230 — arranged by Milligan personally.",
+        "RESUME IN ATRS FILES: 'directly responsible for selling 60 new pension and treasury funds totaling more than $10 billion dollars' (ATRS-JUN25-0084) â€” the person selling the bonds is the same person...",
+        "ATRS MEETING: Met with Mark White on April 15, 2025 at Auditor's Capitol Office Room 230 â€” arranged by Milligan personally.",
         "ATRS SELLER-AS-ANALYST: Berman/Young meeting with White was the ONLY documented 'analysis' meeting for Israel Bonds."
       ],
       "observationCount": 19
@@ -343,12 +343,12 @@
         "Confirmed receipt of $20M wire for May 2025 purchase: 'wire for the $20m Israel bond purchase was received and will be processed today' (TREAS-SEP25-0015)",
         "Feb 2026: Received wire confirmation from Celeste Gladden for latest purchase (TREAS-FEB26-0108)",
         "Appears in 49 source documents across agencies",
-        "KEY QUOTE — Sales pitch disguised as analysis: 'I wanted to make sure you saw these rates and had an opportunity to participate with the extra spread we are receiving this period...I've added a pre...",
+        "KEY QUOTE â€” Sales pitch disguised as analysis: 'I wanted to make sure you saw these rates and had an opportunity to participate with the extra spread we are receiving this period...I've added a pre...",
         "KEY QUOTE confirming $20M purchase: 'The wire for the $20m Israel bond purchase was received and will be processed today.' Signed with Easter well-wishes, mixing personal/professional.",
         "KEY QUOTE on re-election: 'Congratulations on your re-election...look forward to continuing to work with you to enhance the Israel Bonds portfolio.' (TREAS-SEP25-0015 chunk 10)",
         "APRIL 2025 ARKANSAS TOUR: Accompanied Berman for 2-day visit meeting APERS, House Speaker, state officials.",
         "MEETING FOLLOW-UP CHAIN: Exchanged 'Israel Bond meeting follow up' emails with Spadoni, cc Berman and Brady.",
-        "AUDITOR OFFICE RELATIONSHIP: Correspondence with Spadoni shows ongoing relationship between Israel Bonds and the Auditor's Executive Assistant — scheduling, follow-up, operational details all route...",
+        "AUDITOR OFFICE RELATIONSHIP: Correspondence with Spadoni shows ongoing relationship between Israel Bonds and the Auditor's Executive Assistant â€” scheduling, follow-up, operational details all route...",
         "ATRS MEETING: Accompanied Berman to April 15, 2025 meeting with Mark White (ATRS ED) at Auditor's Capitol Office.",
         "ATRS RATE SHEETS: Sent Israel Bonds rate information to Arkansas officials including ATRS-linked contacts.",
         "ATRS MEETING: Accompanied Berman to April 15, 2025 meeting with Mark White.",
@@ -427,15 +427,15 @@
         "SFOF conferences included 'Corporate Partner Spotlight Meetings' connecting officials with financial industry (TREAS-FEB26-0108)",
         "Framework: sfof_conduit.md analyzes SFOF as intermediary in Israel Bonds relationships",
         "Milligan served as SFOF National Chair ~2019-2020, giving him direct peer access to state treasurers from Arizona, Idaho, North Carolina, Nebraska, Alabama, and others (TREAS-FEB26-0108)",
-        "SFOF emails included 'Corporate Partner Spotlight Meetings' and 'Corporate Partner Resources' on their website — connecting state officials with financial industry partners (TREAS-FEB26-0108 p.138)",
-        "SFOF conferences required pre-registration with monitoring: 'if your name, email, or phone number is not on our registered list you may be removed' — exclusive/controlled access (TREAS-FEB26-0108 c...",
+        "SFOF emails included 'Corporate Partner Spotlight Meetings' and 'Corporate Partner Resources' on their website â€” connecting state officials with financial industry partners (TREAS-FEB26-0108 p.138)",
+        "SFOF conferences required pre-registration with monitoring: 'if your name, email, or phone number is not on our registered list you may be removed' â€” exclusive/controlled access (TREAS-FEB26-0108 c...",
         "2020 Virtual Conference detailed schedule received in FOIA Round 2 (TREAS-FEB26-0003, 4 pages)",
         "SFOF elections email chain shows Milligan's transition from Chair role (TREAS-FEB26-0108 chunk 285)",
         "AUDITOR OFFICE ENGAGEMENT: AUDIT-JUN25-0228 shows Auditor staff (Spadoni, Peterson, Brady, Underwood, Slayton) actively coordinating SFOF logistics including 'Smart Women Smart Money' program.",
         "SPRING 2025 NATIONAL MEETING: Milligan confirmed as speaker April 23, 2025.",
         "ADAM SLAYTON (adam@sfof.com): SFOF staff who coordinated Milligan's speaking logistics (AUDIT-JUN25-0227)",
         "ADAM SCHWEND: SFOF recipient of Peterson's post-vote articles on APERS/ATRS Israel Bonds authorizations (AUDIT-JUN25-0576)",
-        "'Great Connecting at SFOF – Arkansas Retirement Support': Subject line directly linking SFOF meetings to Arkansas pension Israel Bonds expansion (AUDIT-JUN25-0116, AUDIT-JUN25-0229)"
+        "'Great Connecting at SFOF â€“ Arkansas Retirement Support': Subject line directly linking SFOF meetings to Arkansas pension Israel Bonds expansion (AUDIT-JUN25-0116, AUDIT-JUN25-0229)"
       ],
       "observationCount": 17
     },
@@ -445,14 +445,14 @@
       "type": "investigation_finding",
       "observations": [
         "GAP 1: No independent credit analysis or risk assessment for any Israel Bonds purchase in entire 909-document corpus",
-        "GAP 2: First purchase by Milligan ~2017 not precisely documented — no purchase record before Mar 2018 in registry",
+        "GAP 2: First purchase by Milligan ~2017 not precisely documented â€” no purchase record before Mar 2018 in registry",
         "GAP 3: Purchase amounts for Feb 2021 and Oct 2021 not extractable from available records (TREAS-SEP25-0061, 0065 have docs but unclear totals)",
         "GAP 4: 12 empty documents still need OCR (8 from Round 2 TREAS-FEB26 files)",
-        "GAP 5: Round 2 Israel Bonds spreadsheets (TREAS-FEB26-0016, 0027) have 0 facts extracted — .xlsx files may need manual review or special extraction",
+        "GAP 5: Round 2 Israel Bonds spreadsheets (TREAS-FEB26-0016, 0027) have 0 facts extracted â€” .xlsx files may need manual review or special extraction",
         "GAP 6: Quarterly investment reports (31 files in Round 2) contain Israel Bonds positions but data extraction limited by PDF quality",
-        "GAP 7: Internal credit overview (TREAS-SEP25-0006, 2 pages) and Israel comments (TREAS-SEP25-0007, 1 page) are the ONLY documents resembling internal analysis — both very brief",
+        "GAP 7: Internal credit overview (TREAS-SEP25-0006, 2 pages) and Israel comments (TREAS-SEP25-0007, 1 page) are the ONLY documents resembling internal analysis â€” both very brief",
         "GAP 8: No documented Board of Finance meeting minutes showing deliberation or vote on Israel Bonds purchases",
-        "GAP 9: APERS, ATRS, and Auditor Round 2 responses still pending — may contain additional Treasury-related communications"
+        "GAP 9: APERS, ATRS, and Auditor Round 2 responses still pending â€” may contain additional Treasury-related communications"
       ],
       "observationCount": 9
     },
@@ -461,7 +461,7 @@
       "label": "TREAS-SEP25-0015",
       "type": "key_document",
       "observations": [
-        "Massive Treasury email chain — the single most important document for investigation",
+        "Massive Treasury email chain â€” the single most important document for investigation",
         "Contains purchase communications, press releases, internal emails, SFOF coordination, and political framing",
         "Key contents: Oct 2023 press release ($10M post-10/7), May 2025 $20M purchase authorization, Milligan re-election congratulations from Israel Bonds, Eric Munson $47M confirmation, Governor Sanders ...",
         "Multiple Israel Bonds purchase/maturity email threads with Celeste Gladden, Bradley Young, Lawrence Berman, Luis Jimenez, Steve Pulley",
@@ -469,7 +469,7 @@
         "Contains the critical Munson 'omit the sentence' email about 'money where mouth is' (p.189)",
         "Contains Heather McKim press release draft + review chain (pp.77-82, 189, 194, 201)",
         "Contains Governor Sanders quote coordinated for press release",
-        "Contains Texas Comptroller Hegar press statements (p.71) — evidence of interstate messaging patterns",
+        "Contains Texas Comptroller Hegar press statements (p.71) â€” evidence of interstate messaging patterns",
         "Contains Milligan re-election congratulations from Brad Young + Berman (p.19)"
       ],
       "observationCount": 10
@@ -479,7 +479,7 @@
       "label": "TREAS-FEB26-0108",
       "type": "key_document",
       "observations": [
-        "Major Round 2 document — large email compilation from Treasury",
+        "Major Round 2 document â€” large email compilation from Treasury",
         "Contains Feb 2026 purchase wire confirmation, SFOF conference emails with Milligan/Kreifels, speech notes for Israel prayer ceremony, Arkansas Democrat-Gazette articles",
         "Duplicate of speech notes also found in TREAS-SEP25-0007 and TREAS-SEP25-0008",
         "SFOF coordination emails between Kreifels, Milligan, Grant Wallace, and other state treasurers",
@@ -495,7 +495,7 @@
       "label": "TREAS-SEP25-0006",
       "type": "key_document",
       "observations": [
-        "'Israel Internal Credit overview 10-8-24' — only 2 pages, 5 facts extracted",
+        "'Israel Internal Credit overview 10-8-24' â€” only 2 pages, 5 facts extracted",
         "One of only TWO documents that could constitute internal analysis of Israel Bonds",
         "Dated one year after 10/7 attack, during period of active purchases",
         "Critical question: Does this constitute adequate independent risk analysis for tens of millions in investments?"
@@ -508,14 +508,14 @@
       "type": "investigation_finding",
       "observations": [
         "CENTRAL FINDING: Across 367 active Treasury documents (254 financial reports, 41 spreadsheets), zero contain independent credit analysis for Israel Bonds",
-        "Only TREAS-SEP25-0006 ('Israel Internal Credit overview', 2 pages) and TREAS-SEP25-0007 ('Israel comments', 1 page) approach internal analysis — both are extremely brief",
-        "Israel Bonds' own marketing materials (prospectuses in purchase docs) serve as the only 'analysis' in the file — the seller's materials are the only evaluation",
-        "Framework: seller_as_analyst.md addresses this pattern — the entity selling the bonds is the same entity providing the investment rationale",
+        "Only TREAS-SEP25-0006 ('Israel Internal Credit overview', 2 pages) and TREAS-SEP25-0007 ('Israel comments', 1 page) approach internal analysis â€” both are extremely brief",
+        "Israel Bonds' own marketing materials (prospectuses in purchase docs) serve as the only 'analysis' in the file â€” the seller's materials are the only evaluation",
+        "Framework: seller_as_analyst.md addresses this pattern â€” the entity selling the bonds is the same entity providing the investment rationale",
         "Contrast with standard Treasury practice: $11B portfolio managed with custodial statements, performance audits, target rate of return tracking for other investments",
-        "Texas comparison in email: Texas purchased $140M under Comptroller Hegar — no evidence Arkansas conducted comparative due diligence (TREAS-SEP25-0015)",
+        "Texas comparison in email: Texas purchased $140M under Comptroller Hegar â€” no evidence Arkansas conducted comparative due diligence (TREAS-SEP25-0015)",
         "This absence strengthens the investigation's core argument more than any single piece of evidence could",
         "SELLER AS ANALYST: See 'Seller as Analyst Problem' entity for comprehensive catalog of Israel Bonds sales materials received by Treasury vs.",
-        "Rate sheets and economic briefings from Israel Bonds reps are the ONLY investment materials in Treasury files — no competing analysis, no independent credit review, no consultant reports"
+        "Rate sheets and economic briefings from Israel Bonds reps are the ONLY investment materials in Treasury files â€” no competing analysis, no independent credit review, no consultant reports"
       ],
       "observationCount": 9
     },
@@ -524,31 +524,31 @@
       "label": "Political Motivation for Purchases",
       "type": "investigation_finding",
       "observations": [
-        "PRESS RELEASE 10/27/2023 — Heather McKim drafted: 'With the turmoil taking place in the Middle East, the Arkansas Treasurer's Office announces today that it has increased investment in Israel bond ...",
+        "PRESS RELEASE 10/27/2023 â€” Heather McKim drafted: 'With the turmoil taking place in the Middle East, the Arkansas Treasurer's Office announces today that it has increased investment in Israel bond ...",
         "GOVERNOR SANDERS QUOTE in press release: 'Since Hamas terrorists launched a brutal, unprovoked attack on Israeli civilians earlier this month, Arkansas state government has taken any action in our ...",
         "WALTHER RELIGIOUS FRAMING: 'Those who bless Israel will be blessed, and those who curse Israel will be cursed.",
         "WALTHER 'MONEY WHERE MOUTH IS': Original press draft included 'The Arkansas Treasury has also put our money where our mouth is by purchasing the additional $10 million in Israel bonds.' Chief Deput...",
-        "SPEECH NOTES — 'Celebrating Arkansas' Support for Israel': 'Today, we gather to celebrate the strong and enduring relationship between the State of Arkansas and the Nation of Israel.",
-        "SPEECH NOTES continued: 'This decision was influenced by the ongoing turmoil in the Middle East, highlighting our unwavering support for Israel during challenging times.' — Explicit admission that ...",
+        "SPEECH NOTES â€” 'Celebrating Arkansas' Support for Israel': 'Today, we gather to celebrate the strong and enduring relationship between the State of Arkansas and the Nation of Israel.",
+        "SPEECH NOTES continued: 'This decision was influenced by the ongoing turmoil in the Middle East, highlighting our unwavering support for Israel during challenging times.' â€” Explicit admission that ...",
         "MILLIGAN CAPITOL ROTUNDA SPEECH 10/7/2024: 'I'm proud to be here this morning with my fellow state leaders and show my public support for our friends in Israel.' Drafted by Stacy Peterson (Auditor ...",
-        "MILLIGAN SOLIDARITY EMAIL to Israeli Ambassador: 'Dennis Milligan wanted me to reach out on his behalf and express his support for Israel and her people – every day, but especially today on the ann...",
+        "MILLIGAN SOLIDARITY EMAIL to Israeli Ambassador: 'Dennis Milligan wanted me to reach out on his behalf and express his support for Israel and her people â€“ every day, but especially today on the ann...",
         "OCT 2024 WALTHER PURCHASE REQUEST: Eric Munson email: 'The Treasurer requested a briefing or summary on Israel bonds sometime this week.",
-        "ZERO FINANCIAL RATIONALE IN ANY PURCHASE AUTHORIZATION: May 2025 email states only 'The executive team authorized the purchase of two more Israel Bonds totaling $20,000,000' — no mention of credit ...",
+        "ZERO FINANCIAL RATIONALE IN ANY PURCHASE AUTHORIZATION: May 2025 email states only 'The executive team authorized the purchase of two more Israel Bonds totaling $20,000,000' â€” no mention of credit ...",
         "PATTERN: Every documented purchase decision references Israel support/solidarity/turmoil.",
-        "AUDITOR-SOURCED EVIDENCE — $95M CUMULATIVE CLAIM: Milligan's Capitol Rotunda speech (AUDIT-JUN25-0526, 0567, 0574) claims '$95,000,000' in Israel Bonds purchases.",
-        "AUDITOR-SOURCED EVIDENCE — DIPLOMATIC OUTREACH: Stacy Peterson used Auditor office email to contact Israeli Ambassador on Oct 7, 2024 anniversary, expressing Milligan's 'support for Israel and her ...",
-        "AUDITOR-SOURCED EVIDENCE — ISRAEL BONDS LEADERSHIP ACCESS: Full Israel Bonds C-suite (Berman, Young, Behling, Stern, Naveh, Garawitz) corresponded with Auditor communications director Stacy Peterso...",
-        "KEY PATTERN: Milligan's political advocacy continued UNINTERRUPTED across two state offices — as Treasurer (investment authority) and as Auditor (no investment authority).",
+        "AUDITOR-SOURCED EVIDENCE â€” $95M CUMULATIVE CLAIM: Milligan's Capitol Rotunda speech (AUDIT-JUN25-0526, 0567, 0574) claims '$95,000,000' in Israel Bonds purchases.",
+        "AUDITOR-SOURCED EVIDENCE â€” DIPLOMATIC OUTREACH: Stacy Peterson used Auditor office email to contact Israeli Ambassador on Oct 7, 2024 anniversary, expressing Milligan's 'support for Israel and her ...",
+        "AUDITOR-SOURCED EVIDENCE â€” ISRAEL BONDS LEADERSHIP ACCESS: Full Israel Bonds C-suite (Berman, Young, Behling, Stern, Naveh, Garawitz) corresponded with Auditor communications director Stacy Peterso...",
+        "KEY PATTERN: Milligan's political advocacy continued UNINTERRUPTED across two state offices â€” as Treasurer (investment authority) and as Auditor (no investment authority).",
         "ATRS EVIDENCE: Jason Brady's Oct 2024 email explicitly frames ATRS Israel Bonds as Auditor Milligan's political initiative: 'the Auditor in his time as treasurer of state requested the legislature ...",
-        "ATRS SOCIAL PROOF: Mark White's Preview email used APERS precedent as justification: 'APERS Board's Investment Committee approved an investment of between $25 and $50 million' — political/social pr...",
+        "ATRS SOCIAL PROOF: Mark White's Preview email used APERS precedent as justification: 'APERS Board's Investment Committee approved an investment of between $25 and $50 million' â€” political/social pr...",
         "ATRS PECUNIARY OPINION vs ANALYSIS: White's 'From a pecuniary standpoint, it appears to [be a worthy investment]' is his personal opinion, not independent analysis.",
-        "ATRS EVIDENCE — JASON BRADY OCT 23 EMAIL: Explicitly frames Israel Bonds as Auditor Milligan's political initiative: 'the Auditor in his time as treasurer of state requested the legislature to pass...",
-        "ATRS EVIDENCE — APERS AS SOCIAL PROOF: Mark White's Preview email used APERS's prior authorization ('APERS Board's Investment Committee approved an investment of between $25 and $50 million') to no...",
-        "ATRS EVIDENCE — 'PECUNIARY STANDPOINT': White's personal opinion ('From a pecuniary standpoint, it appears to [be a worthy investment]') substituted for formal investment analysis.",
+        "ATRS EVIDENCE â€” JASON BRADY OCT 23 EMAIL: Explicitly frames Israel Bonds as Auditor Milligan's political initiative: 'the Auditor in his time as treasurer of state requested the legislature to pass...",
+        "ATRS EVIDENCE â€” APERS AS SOCIAL PROOF: Mark White's Preview email used APERS's prior authorization ('APERS Board's Investment Committee approved an investment of between $25 and $50 million') to no...",
+        "ATRS EVIDENCE â€” 'PECUNIARY STANDPOINT': White's personal opinion ('From a pecuniary standpoint, it appears to [be a worthy investment]') substituted for formal investment analysis.",
         "CROSS-AGENCY SYNTHESIS: Political motivation evidence spans all 4 agencies: Treasury (press releases, speech notes, internal emails), Auditor (speeches, embassy outreach, SFOF promotion), ATRS (Bra...",
         "QUOTES DATABASE CONFIRMATION: Registry quotes table captures 5 entries matching political/solidarity/support Israel keywords.",
         "KEY STRATEGIC INSIGHT: The investigation does NOT need to prove political motivation directly.",
-        "PATTERN ACROSS ALL 3 INVESTING ENTITIES: TREASURY — post-10/7 purchase explicitly cited 'turmoil in the Middle East' (TREAS-SEP25-0015)."
+        "PATTERN ACROSS ALL 3 INVESTING ENTITIES: TREASURY â€” post-10/7 purchase explicitly cited 'turmoil in the Middle East' (TREAS-SEP25-0015)."
       ],
       "observationCount": 25
     },
@@ -562,21 +562,21 @@
         "YOUNG SALES PITCH embedded in rate info: 'I've added a presentation that shows just how strong the Israel economy has performed despite the conflict.",
         "ECONOMIC BRIEFINGS from seller: Stuart Garawitz distributed 'State of Israel: Economic Overview' PowerPoint to Arkansas officials.",
         "'EXCLUSIVE BRIEFING' from seller: Berman invited Treasury staff to 'Israel Bonds' Private & Exclusive Economic Briefing on Israel's 2025 Outlook' with Israel's Ministry of Finance official.",
-        "IDF SPOKESPERSON briefing: Israel Bonds hosted 'Exclusive Briefing with IDF Spokesperson' for investors — military briefing blended with investment sales.",
+        "IDF SPOKESPERSON briefing: Israel Bonds hosted 'Exclusive Briefing with IDF Spokesperson' for investors â€” military briefing blended with investment sales.",
         "MARKETING EMAILS as ongoing 'analysis': Treasurer Walther and Brady received constant Israel Bonds marketing: 'Israel bonds are a meaningful way to support Israel while aligning with your financial...",
-        "ACCREDITED INVESTOR LETTER: TREAS-FEB26-0022 — Israel Bonds' own accredited investor certification, not independent due diligence.",
-        "CONTRAST: Only TREAS-SEP25-0006 ('Israel Internal Credit overview', 2 pages) exists as anything resembling internal Treasury analysis — and it was created Oct 2024, years after the program began an...",
-        "LIST OF PURCHASERS: Berman sent Brady 'List of State/Government Funds of All-time' — Israel Bonds maintains its own investor list as marketing tool, shared with prospective and existing government ...",
-        "ATRS EVIDENCE: Israel Bonds representatives provided ALL investment materials to ATRS — rate sheets, economic briefings from Stuart Garawitz (ATRS-JUN25-0055, ATRS-JUN25-0007), 'exclusive briefing'...",
+        "ACCREDITED INVESTOR LETTER: TREAS-FEB26-0022 â€” Israel Bonds' own accredited investor certification, not independent due diligence.",
+        "CONTRAST: Only TREAS-SEP25-0006 ('Israel Internal Credit overview', 2 pages) exists as anything resembling internal Treasury analysis â€” and it was created Oct 2024, years after the program began an...",
+        "LIST OF PURCHASERS: Berman sent Brady 'List of State/Government Funds of All-time' â€” Israel Bonds maintains its own investor list as marketing tool, shared with prospective and existing government ...",
+        "ATRS EVIDENCE: Israel Bonds representatives provided ALL investment materials to ATRS â€” rate sheets, economic briefings from Stuart Garawitz (ATRS-JUN25-0055, ATRS-JUN25-0007), 'exclusive briefing'...",
         "ATRS SMOKING GUN: Mark White sought 'information as to the characteristics, performance, and risk profile' from Aon/State Street but KNEW they wouldn't formally recommend (ATRS-JUN25-0008).",
         "ATRS BERMAN RESUME: Lawrence Berman's resume embedded in Israel Bonds materials sent to ATRS states he is 'directly responsible for selling 60 new pension and treasury funds totaling more than $10 ...",
         "ATRS CONTRAST: Aon provided full operational due diligence for KKR and other investments (ATRS-JUL25-0001).",
-        "ATRS EVIDENCE — STRONGEST CASE: Mark White's 5/8/2025 email proves he KNEW Aon would not formally recommend Israel Bonds ('I know they will not be making a formal recommendation') yet proceeded any...",
+        "ATRS EVIDENCE â€” STRONGEST CASE: Mark White's 5/8/2025 email proves he KNEW Aon would not formally recommend Israel Bonds ('I know they will not be making a formal recommendation') yet proceeded any...",
         "ATRS CONTRAST: Aon conducted full due diligence for other ATRS investments.",
-        "ATRS: The ONLY Israel Bonds 'analysis' materials in ATRS documents are marketing emails, rate sheets, economic summaries from Israel Bonds reps, and Berman/Young bios — all produced by the seller.",
+        "ATRS: The ONLY Israel Bonds 'analysis' materials in ATRS documents are marketing emails, rate sheets, economic summaries from Israel Bonds reps, and Berman/Young bios â€” all produced by the seller.",
         "CROSS-AGENCY SYNTHESIS: Israel Bonds/DCI personnel appear across ALL 4 agencies' documents as the ONLY source of 'investment analysis.' Berman appears in 25 docs, Young in 49 docs, Garawitz in 27 d...",
         "TREASURY EVIDENCE: Brad Young sent rate sheets with sales pitch ('I wanted to make sure you saw these rates...I've added a presentation that shows just how strong the Israel economy has performed' ...",
-        "ATRS EVIDENCE: Mark White's ONLY documented Israel Bonds 'analysis' meeting was with Berman/Young on April 15, 2025 — a meeting with the bond SELLERS arranged by the Auditor.",
+        "ATRS EVIDENCE: Mark White's ONLY documented Israel Bonds 'analysis' meeting was with Berman/Young on April 15, 2025 â€” a meeting with the bond SELLERS arranged by the Auditor.",
         "APERS EVIDENCE: Brady presented Israel Bonds to Investment Subcommittee using Israel Bonds' own materials.",
         "AUDITOR EVIDENCE: Garawitz sent 'State of Israel Economic Summary' to Milligan (AUDIT-JUN25-0096).",
         "SFOF-KREIFELS CONNECTION: Derek Kreifels (SFOF ED) forwarded 'Israel Bonds Celebration with Prime Minister Netanyahu' invitation directly to 'SFOF State Leaders' cc'ing Garawitz and Berman (TREAS-S...",
@@ -589,14 +589,14 @@
       "label": "Communication Chains - Treasury Israel Bonds",
       "type": "investigation_finding",
       "observations": [
-        "DECISION CHAIN: Treasurer (Milligan/Walther/Thurston) authorizes → Eric Munson (Chief Deputy) communicates → Celeste Gladden executes wire → Steve Pulley tracks positions → Israel Bonds (Young/Berm...",
+        "DECISION CHAIN: Treasurer (Milligan/Walther/Thurston) authorizes â†’ Eric Munson (Chief Deputy) communicates â†’ Celeste Gladden executes wire â†’ Steve Pulley tracks positions â†’ Israel Bonds (Young/Berm...",
         "INITIATION PATTERN: Israel Bonds reps (Young, Berman) proactively send rate sheets and sales materials to Treasury staff, creating purchase opportunities.",
-        "Brad Young → Celeste Gladden/Holly Beaver/Steven Kilgore: Rate sheet forwarding with sales pitch (TREAS-SEP25-0015 p.33)",
-        "Lawrence Berman → Steve Pulley/Bill Huffman/Kenneth Burleson: 'Exclusive briefing' invitations and maturity coordination (TREAS-SEP25-0027 chunk 1, TREAS-JUL25-0003 chunk 87)",
-        "Celeste Gladden → Bradley Young/Luis Jimenez (cc: Lawrence Berman, Steve Pulley): Purchase wire confirmations (TREAS-SEP25-0015, TREAS-FEB26-0108)",
+        "Brad Young â†’ Celeste Gladden/Holly Beaver/Steven Kilgore: Rate sheet forwarding with sales pitch (TREAS-SEP25-0015 p.33)",
+        "Lawrence Berman â†’ Steve Pulley/Bill Huffman/Kenneth Burleson: 'Exclusive briefing' invitations and maturity coordination (TREAS-SEP25-0027 chunk 1, TREAS-JUL25-0003 chunk 87)",
+        "Celeste Gladden â†’ Bradley Young/Luis Jimenez (cc: Lawrence Berman, Steve Pulley): Purchase wire confirmations (TREAS-SEP25-0015, TREAS-FEB26-0108)",
         "CROSS-AGENCY CONDUIT: Jason Brady served at both Treasury and Auditor.",
-        "Dennis Milligan → Auditor's office: As Auditor, arranged meetings for Berman/Young with APERS leadership (Amy Fecher), DHS Secretary (Jim Hudson), and House Speaker (Evans).",
-        "SFOF → Milligan/Wallace/Brady: Derek Kreifels organized SFOF events connecting state financial officers, with Milligan and staff as regular attendees.",
+        "Dennis Milligan â†’ Auditor's office: As Auditor, arranged meetings for Berman/Young with APERS leadership (Amy Fecher), DHS Secretary (Jim Hudson), and House Speaker (Evans).",
+        "SFOF â†’ Milligan/Wallace/Brady: Derek Kreifels organized SFOF events connecting state financial officers, with Milligan and staff as regular attendees.",
         "KEY FINDING: Communication flows are seller-initiated, not buyer-initiated."
       ],
       "observationCount": 9
@@ -608,9 +608,9 @@
       "observations": [
         "TWO VERSIONS OF SPEECH NOTES: 'Celebrating Arkansas' Support for Israel' exists in at least 3 documents with variations.",
         "INTERNAL PRESS REVIEW: Heather McKim sent draft press release to Steve Pulley and Eric Munson with 'Please read and respond - Priority.' Munson recommended removing 'put our money where our mouth i...",
-        "COORDINATED GOVERNOR QUOTE: Press release included Governor Sanders' quote supporting the purchase as political solidarity — indicates coordination between Treasurer's office and Governor's office ...",
+        "COORDINATED GOVERNOR QUOTE: Press release included Governor Sanders' quote supporting the purchase as political solidarity â€” indicates coordination between Treasurer's office and Governor's office ...",
         "ARKANSAS DEMOCRAT-GAZETTE COVERAGE: ADG article 10/28/2023 reported: 'state Treasurer Larry Walther announced Friday, citing the turmoil in the Middle East for the increased state investment in Isr...",
-        "PRAYER CEREMONY SPEAKING NOTES: Oct 2024, Heather McKim prepared 'Speaking Notes for Israel Prayer Ceremony' and attached the earlier press statement — recycled political messaging for religious ev...",
+        "PRAYER CEREMONY SPEAKING NOTES: Oct 2024, Heather McKim prepared 'Speaking Notes for Israel Prayer Ceremony' and attached the earlier press statement â€” recycled political messaging for religious ev...",
         "DISCREPANCY: Public framing emphasizes solidarity/support/turmoil.",
         "MILLIGAN USES BOTH OFFICES: As Auditor, Milligan's communications director Stacy Peterson drafted and sent Israel solidarity messaging, then Milligan as Auditor arranged Israel Bonds rep meetings w..."
       ],
@@ -626,7 +626,7 @@
         "SFOF AS COORDINATION MECHANISM: Derek Kreifels organized conferences connecting state treasurers.",
         "MILLIGAN AS SFOF CHAIR: Milligan served as SFOF National Chair, with 'full confidence' expressed by Kreifels for Milligan's leadership.",
         "SFOF EXCLUSIVE VIRTUAL MEETING with Milligan: Flyer shows 'Exclusive Virtual Meeting...with Arkansas State Treasurer DENNIS MILLIGAN, Hosted by SFOF President Derek Kreifels.' Milligan featured as ...",
-        "BERMAN's GOVERNMENT FUND LIST: Lawrence Berman shared 'List of State/Government Funds of All-time' with Jason Brady — Israel Bonds maintains a master list of government purchasers, creating social ...",
+        "BERMAN's GOVERNMENT FUND LIST: Lawrence Berman shared 'List of State/Government Funds of All-time' with Jason Brady â€” Israel Bonds maintains a master list of government purchasers, creating social ...",
         "PATTERN: Multiple state treasurers use near-identical political framing ('support ally', 'stand with Israel', 'solidarity') for purchases."
       ],
       "observationCount": 7
@@ -638,16 +638,16 @@
       "observations": [
         "Director of Communications, Arkansas Auditor of State Dennis Milligan",
         "Contact: 501.371.2118 office, 501.519.3650 cell, Stacy.Peterson@auditor.ar.gov",
-        "Drafted Milligan's 'Support of Israel Speech – 10/7/24 – Capitol Rotunda' — Milligan approved with 'Good job!!' (AUDIT-JUN25-0526)",
+        "Drafted Milligan's 'Support of Israel Speech â€“ 10/7/24 â€“ Capitol Rotunda' â€” Milligan approved with 'Good job!!' (AUDIT-JUN25-0526)",
         "Sent solidarity email to Israeli Ambassador on Milligan's behalf: 'Dennis Milligan wanted me to reach out on his behalf and express his support for Israel and her people' (AUDIT-JUN25-0578)",
         "Reported that 'Christian and Jewish leaders came together this morning for a press conference announcing unwavering support for Israel' (AUDIT-JUN25-0516)",
         "Drafted speech closing: 'I have and always will stand in solidarity with the State of Israel.",
         "ISRAEL BONDS LEADERSHIP CONTACT: Lawrence Berman sent email directly to Peterson cc'ing Ethan Behling, Shiri Stern, Bradley Young, Dani Naveh, Stuart Garawitz (AUDIT-JUN25-0516).",
-        "Kurt Underwood exchanged emails with Peterson about 'Image' and 'Heade' (AUDIT-JUN25-0571) — likely graphics/branding materials for Israel-related communications.",
+        "Kurt Underwood exchanged emails with Peterson about 'Image' and 'Heade' (AUDIT-JUN25-0571) â€” likely graphics/branding materials for Israel-related communications.",
         "SFOF SPRING 2025 SPEECH PREP: Confirmed to Adam Slayton (SFOF) on March 10, 2025 that Milligan will speak at SFOF spring conference Thursday morning.",
         "POST-VOTE SFOF PROMOTION: On June 4, 2025, emailed Adam Schwend at SFOF with articles about APERS (5/17/25) and ATRS (6/3/25) Israel Bonds votes.",
-        "PATTERN: Peterson functions as Israel Bonds communications/distribution hub — drafts speeches, sends solidarity messages to Israeli embassy, and distributes pension board vote results through SFOF ...",
-        "Appears in 63 source documents across agencies (primarily Auditor)",
+        "PATTERN: Peterson functions as Israel Bonds communications/distribution hub â€” drafts speeches, sends solidarity messages to Israeli embassy, and distributes pension board vote results through SFOF ...",
+        "DOCUMENT FREQUENCY: Appears in 63 source documents across agencies (primarily Auditor)",
         "SATURDAY MORNING MEDIA RELAY: Received Brady's forward of ATRS 'Ark Times Article + Congratulations' chain at 6:52 AM Saturday Jul 12, 2025 (AUDIT-MAR26-0110).",
         "SFOF SPEECH COLLABORATION: Received Brady's 'really ugly first draft' of Milligan's SFOF Spring 2025 speech alongside Wood on Mar 26, 2025 (AUDIT-JUN25-0392)."
       ],
@@ -672,7 +672,7 @@
       "type": "official",
       "observations": [
         "Executive Assistant to Treasurer Dennis Milligan (holly.beaver@artreasury.gov, 501.682.1423)",
-        "Managed logistics for SFOF conference participation — 'Thanks so much for all your help!!!!!' to Kreifels (TREAS-FEB26-0108 p.197)",
+        "Managed logistics for SFOF conference participation â€” 'Thanks so much for all your help!!!!!' to Kreifels (TREAS-FEB26-0108 p.197)",
         "Forwarded SFOF event registrations for Milligan and arranged travel (TREAS-FEB26-0108)",
         "Received Israel Bonds rate sheet forwarding from Brad Young alongside Celeste Gladden and Steven Kilgore (TREAS-SEP25-0015 p.33)"
       ],
@@ -687,8 +687,8 @@
         "Arranged Israel Bonds representative meetings: sent Larry Berman and Brad Young bios to APERS Executive Director Amy Fecher for April 14, 2025 meeting (AUDIT-JUN25-0264)",
         "Exchanged emails with Brad Young about 'Israel Bond meeting follow up' (AUDIT-JUN25-0290)",
         "Lawrence Berman thanked her: 'It was wonderful to spend a couple of days with you and the Auditor's team.",
-        "Organized 'Israel Bonds – Private & Exclusive Economic Briefing' calendar invite for Milligan and Brady (AUDIT-JUN25-0019)",
-        "APRIL 2025 TOUR LOGISTICS: Organized all calendar invites for Israel Bonds meetings — APERS/Fecher (AUDIT-JUN25-0264), Hudson/DHS (AUDIT-JUN25-0002), Speaker Evans via Voss (coordinated with AUDIT-...",
+        "Organized 'Israel Bonds â€“ Private & Exclusive Economic Briefing' calendar invite for Milligan and Brady (AUDIT-JUN25-0019)",
+        "APRIL 2025 TOUR LOGISTICS: Organized all calendar invites for Israel Bonds meetings â€” APERS/Fecher (AUDIT-JUN25-0264), Hudson/DHS (AUDIT-JUN25-0002), Speaker Evans via Voss (coordinated with AUDIT-...",
         "BIOS AND HARD COPIES: Prepared biographies of 'all the Arkansas leaders' Berman/Young were scheduled to meet and had hard copies available (ATRS-JUN25-0090).",
         "MEETING FOLLOW-UP CORRESPONDENCE: Exchanged multiple rounds of 'Israel Bond meeting follow up' emails with Bradley Young, cc Berman and Brady (AUDIT-JUN25-0287-0290).",
         "SFOF COORDINATION: Asked Adam Slayton (SFOF) about Milligan's presentation time at SFOF National Meeting April 23 (AUDIT-JUN25-0227)."
@@ -704,7 +704,7 @@
         "Purchased $140M in Israel Bonds during tenure; purchased $20M post-10/7 attack (TREAS-SEP25-0015 p.71)",
         "Quoted: 'Texas has long had a deep spiritual, political and economic connection to Israel and the Israeli people' (TREAS-SEP25-0015 p.71)",
         "Quoted: 'For nearly 30 years, Israel bonds have been a key component of our investment portfolio...I am proud to support our ally' (TREAS-SEP25-0015 p.71)",
-        "Texas press statement found in Arkansas Treasury email chain — suggests these were shared as models between states or provided by Israel Bonds as templates",
+        "Texas press statement found in Arkansas Treasury email chain â€” suggests these were shared as models between states or provided by Israel Bonds as templates",
         "Appears in 5 source documents"
       ],
       "observationCount": 6
@@ -715,14 +715,14 @@
       "type": "investigation_finding",
       "observations": [
         "At least TWO distinct Milligan Israel speech contexts exist: (1) Capitol Rotunda 10/7/2024 anniversary speech, and (2) SFOF conference speech(es).",
-        "CAPITOL ROTUNDA SPEECH — 3 document variants found: AUDIT-JUN25-0526, AUDIT-JUN25-0567, AUDIT-JUN25-0574.",
+        "CAPITOL ROTUNDA SPEECH â€” 3 document variants found: AUDIT-JUN25-0526, AUDIT-JUN25-0567, AUDIT-JUN25-0574.",
         "ALL THREE Auditor speech docs claim $95,000,000 purchased: 'Auditor of State purchased Israel Bonds $95,000,000.00' extracted as structured fact from each of AUDIT-JUN25-0526, 0567, 0574.",
-        "DISCREPANCY WITH TREASURY SPEECH NOTES: Treasury-prepared 'Celebrating Arkansas' Support for Israel' notes show $52M (TREAS-SEP25-0007) or $57M (TREAS-SEP25-0008) — these reflect current holdings.",
+        "DISCREPANCY WITH TREASURY SPEECH NOTES: Treasury-prepared 'Celebrating Arkansas' Support for Israel' notes show $52M (TREAS-SEP25-0007) or $57M (TREAS-SEP25-0008) â€” these reflect current holdings.",
         "POLITICAL FRAMING in Capitol speech: 'Good morning.",
-        "Jason Rapert appears in all 3 speech docs (AUDIT-JUN25-0526, 0567, 0574) — mentioned in the speech as the legislator behind Act 644.",
-        "Stacy Peterson AUTHORED the speech — Milligan replied 'Good job!!' from his iPhone (AUDIT-JUN25-0574 chunk 1).",
+        "Jason Rapert appears in all 3 speech docs (AUDIT-JUN25-0526, 0567, 0574) â€” mentioned in the speech as the legislator behind Act 644.",
+        "Stacy Peterson AUTHORED the speech â€” Milligan replied 'Good job!!' from his iPhone (AUDIT-JUN25-0574 chunk 1).",
         "SFOF SPEECH GAP: Doc IDs AUDIT-JUN25-0521 and AUDIT-JUN25-0553 were queried but returned no structured facts in this analysis.",
-        "SFOF LOGISTICS: AUDIT-JUN25-0228 confirms Auditor office active in SFOF coordination — Spadoni forwarded SFOF materials (including 'Smart Women Smart Money' program) to Peterson, Brady, Underwood, ..."
+        "SFOF LOGISTICS: AUDIT-JUN25-0228 confirms Auditor office active in SFOF coordination â€” Spadoni forwarded SFOF materials (including 'Smart Women Smart Money' program) to Peterson, Brady, Underwood, ..."
       ],
       "observationCount": 9
     },
@@ -731,7 +731,7 @@
       "label": "Act 644",
       "type": "legislation",
       "observations": [
-        "Arkansas Act 644 of 2017 — authorized Arkansas state entities to invest in Israel Bonds.",
+        "Arkansas Act 644 of 2017 â€” authorized Arkansas state entities to invest in Israel Bonds.",
         "Jason Rapert is the legislator associated with Act 644 per speech documents (AUDIT-JUN25-0526, 0567, 0574).",
         "MILLIGAN'S CLAIMED ROLE: In SFOF speech(es), Milligan reportedly describes connecting 'the developers' (Israel Bonds sales representatives) with Senator Jason Rapert to initiate the legislation.",
         "Act 644 narrative NOT directly captured in extracted text from AUDIT-JUN25-0521 or 0553 (SFOF speech docs).",
@@ -740,8 +740,8 @@
         "SYMMETRY ARGUMENT: Act 644 authorized purchases, while Act 710 (anti-BDS, 2017) prohibited politically motivated divestment.",
         "BOARD OF FINANCE RECORD (TREAS-FEB26-0108 chunk 400): Brady told the Board of Finance that Act 644 was championed by Treasurer Milligan, who 'passed it along to the Governor's office because it was...",
         "SCOPE: Act 644 authorized not just the Treasury but ALL state entities including cities, counties, and municipalities to invest in Israel Bonds.",
-        "BOARD OF FINANCE AGENDA (TREAS-FEB26-0108 chunk 1): State Board of Finance met May 9, 2017 — same legislative session as Act 644 passage.",
-        "FIDUCIARY SAFEGUARDS: Act 644 contains NO documented fiduciary requirements — no independent analysis mandate, no risk assessment requirement, no yield comparison requirement, no investment committ...",
+        "BOARD OF FINANCE AGENDA (TREAS-FEB26-0108 chunk 1): State Board of Finance met May 9, 2017 â€” same legislative session as Act 644 passage.",
+        "FIDUCIARY SAFEGUARDS: Act 644 contains NO documented fiduciary requirements â€” no independent analysis mandate, no risk assessment requirement, no yield comparison requirement, no investment committ...",
         "THREE SUCCESSIVE TREASURERS: Brady confirmed at APERS board (APERS-JUL25-0001 chunk 718) that since Act 644's passage, 'both Treasurer Milligan and his successors, Treasurer Walther and Treasurer ...",
         "HB1464 REFERENCE (TREAS-FEB26-0108 chunk 390, 392): Board of Finance discussed whether four-year universities should be included as eligible entities to invest."
       ],
@@ -752,8 +752,8 @@
       "label": "Auditor of State",
       "type": "agency",
       "observations": [
-        "Arkansas Auditor of State, current officeholder: Dennis Milligan.",
-        "434 active Auditor documents in registry (of 909 total).",
+        "AGENCY: Arkansas Auditor of State, current officeholder: Dennis Milligan.",
+        "DOCUMENT CORPUS: 434 active Auditor documents in registry (of 909 total).",
         "KEY STAFF: Stacy Peterson (Director of Communications, 501.371.2118/501.519.3650), Wendy Spadoni (Executive Assistant to the Auditor), Jason Brady (operational role, also previously at Treasury), K...",
         "NO INVESTMENT AUTHORITY: The Auditor of State has no authority over state investment decisions.",
         "ISRAEL BONDS ADVOCACY HUB: Despite no investment authority, the Auditor's office under Milligan serves as: (1) speech/messaging platform for Israel Bonds advocacy, (2) meeting coordinator between I...",
@@ -764,8 +764,8 @@
         "APRIL 2025 TOUR HOST: Auditor's Capitol Office Room 230 served as physical base for Israel Bonds meetings with state officials.",
         "SFOF SPRING 2025 ENGAGEMENT: Milligan confirmed as SFOF spring conference speaker April 23, 2025.",
         "POST-VOTE SFOF DISTRIBUTION: Peterson used Auditor email to distribute APERS/ATRS Israel Bonds vote articles through SFOF for interstate replication.",
-        "FULL ADVOCACY LIFECYCLE DOCUMENTED: (1) Arrange meetings between Israel Bonds reps and pension officials → (2) Brady introduces Israel Bonds at pension board meetings → (3) Boards vote to authorize...",
-        "FIVE OPERATIONAL ROLES (Auditor R2): (1) meeting broker — scheduling DCI pitch meetings for all three agencies, (2) information relay — Brady as conduit between pension boards and Milligan, (3) media response coordinator — APERS routing press inquiries to Auditor's office, (4) communications producer — Peterson preparing speeches and outreach, (5) SFOF national network liaison — distributing pension vote results.",
+        "FULL ADVOCACY LIFECYCLE DOCUMENTED: (1) Arrange meetings between Israel Bonds reps and pension officials â†’ (2) Brady introduces Israel Bonds at pension board meetings â†’ (3) Boards vote to authorize...",
+        "FIVE OPERATIONAL ROLES (Auditor R2): (1) meeting broker â€” scheduling DCI pitch meetings for all three agencies, (2) information relay â€” Brady as conduit between pension boards and Milligan, (3) media response coordinator â€” APERS routing press inquiries to Auditor's office, (4) communications producer â€” Peterson preparing speeches and outreach, (5) SFOF national network liaison â€” distributing pension vote results.",
         "MEDIA ROUTING HUB: APERS ED Fecher forwarded Arkansas Times press inquiry to Brady (not APERS comms staff), and Brady forwarded ATRS media coverage to both Milligan's personal AOL and Peterson (AUDIT-MAR26-0039, -0109, -0110).",
         "ROUND 2 RESPONSE: 124 documents from three custodians (Milligan, Brady, Spadoni) delivered March 3, 2026 via flash drive from General Counsel TJ Fowler."
       ],
@@ -777,18 +777,18 @@
       "type": "investigation_finding",
       "observations": [
         "CORE FINDING: Dennis Milligan as Auditor of State (NO investment authority) used his office to coordinate Israel Bonds representative access to Arkansas state agencies and pension fund leadership i...",
-        "MEETING 1 — APERS: Wendy Spadoni (Auditor's Executive Assistant) emailed Amy Fecher (APERS Executive Director) to arrange meeting with Berman and Young.",
-        "MEETING 2 — DHS: Dennis Milligan personally emailed DHS Secretary Jim Hudson to arrange meeting with Larry Berman.",
-        "MEETING 3 — HOUSE SPEAKER: Robin Voss (Speaker Evans' staff) coordinated 15-minute meeting with Berman for Speaker Brian Evans and Rep.",
-        "MEETING 4 — POSSIBLE SENATOR: Calendar invite includes 'possibly Bart Hester' for April 14 9:00 AM meeting at Auditor's Capitol Office Room 230.",
-        "MEETING 5 — SECRETARY BASSETT: Darryl Bassett (Chair of APERS board / state official) scheduled April 14 at 1:15-1:30.",
+        "MEETING 1 â€” APERS: Wendy Spadoni (Auditor's Executive Assistant) emailed Amy Fecher (APERS Executive Director) to arrange meeting with Berman and Young.",
+        "MEETING 2 â€” DHS: Dennis Milligan personally emailed DHS Secretary Jim Hudson to arrange meeting with Larry Berman.",
+        "MEETING 3 â€” HOUSE SPEAKER: Robin Voss (Speaker Evans' staff) coordinated 15-minute meeting with Berman for Speaker Brian Evans and Rep.",
+        "MEETING 4 â€” POSSIBLE SENATOR: Calendar invite includes 'possibly Bart Hester' for April 14 9:00 AM meeting at Auditor's Capitol Office Room 230.",
+        "MEETING 5 â€” SECRETARY BASSETT: Darryl Bassett (Chair of APERS board / state official) scheduled April 14 at 1:15-1:30.",
         "LOGISTICS HUB: Auditor's Capitol Office Room 230 (500 Woodlane, Suite 230) served as physical base for the meetings.",
         "OPERATIONAL TEAM: Milligan (principal), Brady (operational conduit/introduced Israel Bonds to pension boards), Spadoni (logistics/scheduling), Peterson (communications/SFOF promotion)",
         "POST-VISIT FOLLOW-UP: Berman sent government purchaser list to Brady during visit (April 15, 1:15 PM).",
         "CROSS-AGENCY IMPACT: By May 2025, APERS voted to authorize up to $50M in Israel Bonds.",
         "KEY PATTERN: A state official with NO investment authority used his office to: (1) open doors for a bond salesman to meet agency heads, (2) have his direct report (Brady) introduce the product at p...",
         "ATRS COORDINATION: Milligan's office arranged the April 15, 2025 meeting between Berman/Young and ATRS ED Mark White, completing the pattern across BOTH pension systems.",
-        "ATRS RESULT: June 2, 2025 — ATRS Board adopted Resolution 2025-22 authorizing $50M."
+        "ATRS RESULT: June 2, 2025 â€” ATRS Board adopted Resolution 2025-22 authorizing $50M."
       ],
       "observationCount": 13
     },
@@ -798,17 +798,17 @@
       "type": "investigation_finding",
       "observations": [
         "SFOF (State Financial Officers Foundation) serves as the networking venue where Milligan, Brady, and Israel Bonds representatives connect with other state treasurers to promote Israel Bonds purchases.",
-        "'Great Connecting at SFOF – Arkansas Retirement Support' — subject line indicates SFOF meetings directly linked to Arkansas pension Israel Bonds expansion.",
+        "'Great Connecting at SFOF â€“ Arkansas Retirement Support' â€” subject line indicates SFOF meetings directly linked to Arkansas pension Israel Bonds expansion.",
         "MILLIGAN SFOF SPEECH April 23, 2025: Spadoni asked Adam Slayton (adam@sfof.com) for Milligan's presentation time at SFOF National Meeting.",
         "MILLIGAN CONFIRMED AS SFOF SPEAKER: Stacy Peterson emailed Adam Slayton March 10, 2025 confirming Milligan will speak on Thursday morning at SFOF spring conference.",
         "POST-VOTE PROMOTION VIA SFOF: On June 4, 2025, Peterson emailed Adam Schwend attaching APERS (5/17/25) and ATRS (6/3/25) Israel Bonds articles, stating: 'Attached are two articles detailing Auditor...",
         "SFOF AS REPLICATION PIPELINE: The pattern is: (1) Milligan uses Auditor office to get pension boards to vote for Israel Bonds, (2) Peterson distributes success stories through SFOF to encourage rep...",
-        "AUDITOR STAFF AT SFOF: Five Auditor office staff involved in SFOF logistics — Spadoni, Peterson, Brady, Underwood, Slayton (AUDIT-JUN25-0228).",
-        "SFOF ROOM BLOCKS sent to both Milligan (AUDIT-JUN25-0160) and Melissa Corrigan (AUDIT-JUN25-0432) and Brady (AUDIT-JUN25-0331) — multiple Auditor staff receiving SFOF event emails.",
+        "AUDITOR STAFF AT SFOF: Five Auditor office staff involved in SFOF logistics â€” Spadoni, Peterson, Brady, Underwood, Slayton (AUDIT-JUN25-0228).",
+        "SFOF ROOM BLOCKS sent to both Milligan (AUDIT-JUN25-0160) and Melissa Corrigan (AUDIT-JUN25-0432) and Brady (AUDIT-JUN25-0331) â€” multiple Auditor staff receiving SFOF event emails.",
         "CROSS-AGENCY SYNTHESIS: SFOF appears in documents from 3 of 4 agencies (Treasury, Auditor, ATRS via SFOF-linked correspondence).",
-        "DIRECT EVIDENCE — KREIFELS-ISRAEL BONDS LINK: Derek Kreifels forwarded 'Israel Bonds Celebration with Prime Minister Netanyahu and Ambassador Dermer' to 'SFOF State Leaders' with Garawitz and Berma...",
+        "DIRECT EVIDENCE â€” KREIFELS-ISRAEL BONDS LINK: Derek Kreifels forwarded 'Israel Bonds Celebration with Prime Minister Netanyahu and Ambassador Dermer' to 'SFOF State Leaders' with Garawitz and Berma...",
         "MULTI-STATE REACH: SFOF email lists show state treasurers/officers from Arizona (Fareed/Yee), Idaho (Ellsworth), North Carolina (Folwell), Nebraska (Murante), Alabama, and others in communications ...",
-        "REPLICATION PIPELINE DOCUMENTED: (1) Milligan uses Auditor office to drive APERS/ATRS authorizations → (2) Peterson distributes success articles through SFOF: 'Feel free to pass along to any member...",
+        "REPLICATION PIPELINE DOCUMENTED: (1) Milligan uses Auditor office to drive APERS/ATRS authorizations â†’ (2) Peterson distributes success articles through SFOF: 'Feel free to pass along to any member...",
         "WHICH OTHER STATES REFERENCED: Brady's APERS presentation listed neighboring states Oklahoma, Louisiana, Mississippi + Texas holding Israel Bonds (APERS-JUL25-0002 chunk 26).",
         "SFOF AS FORMALIZED CONDUIT: Unlike informal networking, SFOF is a structured organization with conferences, corporate partners, exclusive events, and pre-registration requirements."
       ],
@@ -819,7 +819,7 @@
       "label": "Israel Bonds Government Purchaser List",
       "type": "investigation_finding",
       "observations": [
-        "Lawrence Berman forwarded 'List of State/Government Funds of All-time' to Jason Brady on April 15, 2025 at 1:15 PM — during the Israel Bonds visit to Arkansas.",
+        "Lawrence Berman forwarded 'List of State/Government Funds of All-time' to Jason Brady on April 15, 2025 at 1:15 PM â€” during the Israel Bonds visit to Arkansas.",
         "BERMAN QUOTE: 'Jason, this is the list minus bout 10 funds that request we not publicize their purchases.' (AUDIT-JUN25-0233)",
         "IMPLICATIONS: (1) Israel Bonds maintains a master list of government purchasers as a sales tool.",
         "TIMING: Shared during the Auditor-organized visit, likely as supporting material for meetings with APERS, Speaker Evans, and other officials.",
@@ -836,13 +836,13 @@
         "MONDAY APRIL 14, 2025: 9:00-9:30 Amy Fecher (APERS ED), 9:45-10:15 Speaker Brian Evans and Rep.",
         "TUESDAY APRIL 15, 2025: 3:00-3:30 PM Meeting with Larry Berman, Secretary Jim Hudson, Dennis Milligan, Jason Brady at Auditor's Capitol Office Room 230.",
         "ALSO TUESDAY APRIL 15: Berman emailed government purchaser list to Brady at 1:15 PM.",
-        "ORGANIZED BY: Auditor's office — Spadoni handled calendar invites and logistics, Brady was operational contact for Israel Bonds reps.",
-        "SCOPE: In two days, Israel Bonds reps met with APERS leadership, House Speaker, a state legislator, a cabinet secretary (DHS), another cabinet-level official (Bassett), and the Auditor — a comprehe...",
+        "ORGANIZED BY: Auditor's office â€” Spadoni handled calendar invites and logistics, Brady was operational contact for Israel Bonds reps.",
+        "SCOPE: In two days, Israel Bonds reps met with APERS leadership, House Speaker, a state legislator, a cabinet secretary (DHS), another cabinet-level official (Bassett), and the Auditor â€” a comprehe...",
         "POST-TOUR: Berman thanked Spadoni for 'all your efforts and kind hospitality.",
         "ATRS MEETING ADDED: Mark White (ATRS Executive Director) met with Berman and Young on April 15, 2025.",
         "ATRS IMPACT: Within 7 weeks of the April 15 meeting, White decided to proceed (May 8), previewed to Board (May 22), and Board voted $50M authorization (June 2).",
         "ATRS MEETING (APRIL 15): Mark White met with Berman/Young at Auditor's Capitol Office.",
-        "ATRS TIMELINE: Dec 10, 2024 (White confirms no Israel Bonds) → April 15, 2025 (White meets Berman/Young via Milligan) → May 8, 2025 (White directs Graves to prep Board presentation, knowing Aon won..."
+        "ATRS TIMELINE: Dec 10, 2024 (White confirms no Israel Bonds) â†’ April 15, 2025 (White meets Berman/Young via Milligan) â†’ May 8, 2025 (White directs Graves to prep Board presentation, knowing Aon won..."
       ],
       "observationCount": 11
     },
@@ -858,8 +858,8 @@
         "Responded to Israel Bonds correspondence, cc Auditor Milligan and Spadoni (AUDIT-JUN25-0023)",
         "Signed APERS board meeting agendas alongside Board Chair Darryl Bassett (APERS-JUL25-0001)",
         "Appears in 25 source documents",
-        "MEDIA ROUTING TO AUDITOR: When Arkansas Times journalist Jennifer Lenow sent request for comment, Fecher's first action was forwarding to Jason Brady at Auditor's office with 'FYI,' CC'ing Spadoni — not APERS own communications staff (AUDIT-MAR26-0039).",
-        "APRIL 14 MEETING: Spadoni sent meeting arrangement to Fecher at 2:01 PM Apr 11 for Monday Apr 14 at 9:00 AM in Room 230 — Fecher replied 'Thank you, Wendy!' at 2:17 PM (APERS-JUL25-0002 Email 27, AUDIT-JUN25-0264)."
+        "MEDIA ROUTING TO AUDITOR: When Arkansas Times journalist Jennifer Lenow sent request for comment, Fecher's first action was forwarding to Jason Brady at Auditor's office with 'FYI,' CC'ing Spadoni â€” not APERS own communications staff (AUDIT-MAR26-0039).",
+        "APRIL 14 MEETING: Spadoni sent meeting arrangement to Fecher at 2:01 PM Apr 11 for Monday Apr 14 at 9:00 AM in Room 230 â€” Fecher replied 'Thank you, Wendy!' at 2:17 PM (APERS-JUL25-0002 Email 27, AUDIT-JUN25-0264)."
       ],
       "observationCount": 9
     },
@@ -909,7 +909,7 @@
         "Scheduled to meet with Berman during April 2025 Israel Bonds tour, April 14 at 1:15-1:30 PM (ATRS-JUN25-0090)",
         "APRIL 14 MEETING RECIPIENT: Milligan personally emailed Bassett at 2:02 PM Apr 11 to arrange meeting with Berman/Young for Monday Apr 14 at 1:15 PM in Room 230, CC'd Brady, attached Berman/Young bios (AUDIT-JUN25-0263, -0265, -0266).",
         "APERS INVESTMENT SUBCOMMITTEE CHAIR: Chaired the May 15, 2025 subcommittee meeting where Brady introduced Israel Bonds and moved to suggest $25M minimum authorization.",
-        "DUAL ROLE: Secretary of Department of Transformation and Shared Services AND APERS Board Chair — met with Israel Bonds reps in both capacities."
+        "DUAL ROLE: Secretary of Department of Transformation and Shared Services AND APERS Board Chair â€” met with Israel Bonds reps in both capacities."
       ],
       "observationCount": 6
     },
@@ -956,18 +956,18 @@
         "Executive Director, Arkansas Teacher Retirement System (ATRS) (markw@artrs.gov) (AUDIT-JUN25-0020, AUDIT-JUN25-0093)",
         "Sent Israel Bonds-related email to Amy Fecher (APERS ED) and Jason Brady, cc Auditor Milligan and Spadoni (AUDIT-JUN25-0020)",
         "Sent Board Report to ATRS Board Members Group containing Israel Bonds holdings data: $20K, $10M, $40M, $65K, $50M figures (AUDIT-JUN25-0093)",
-        "Confirmed to FOIA requester that ATRS has never made a direct purchase of Israel Bonds — Israel exposure was through SSgA Aggregate Bond Index Fund only (ATRS-JUN25-0001)",
+        "Confirmed to FOIA requester that ATRS has never made a direct purchase of Israel Bonds â€” Israel exposure was through SSgA Aggregate Bond Index Fund only (ATRS-JUN25-0001)",
         "Associated with Egan-Jones ratings discussion in board context (AUDIT-JUN25-0093)",
         "TITLE CORRECTION: Executive Director of ATRS (not consultant).",
-        "KEY EMAIL 5/8/2025 to Rod Graves: 'Let’s go ahead and plan to move forward with a proposal to the Board in June.",
-        "SMOKING GUN ADMISSION: 'I know they will not be making a formal recommendation' — White KNEW in advance that Aon would not formally recommend Israel Bonds, yet proceeded to present it to the Board ...",
-        "KEY EMAIL 12/10/2024: Confirmed to FOIA requester that ATRS had no direct Israel Bonds: 'I’m aware of the Israel bonds issued by the Development Corporation for Israel, and no, we do not have any d...",
-        "PREVIEW OF JUNE 2 MEETING (ATRS-JUN25-0064): White told Board that Jason Brady would be 'making this request on behalf of the Auditor' and 'APERS Board’s Investment Committee approved an investment...",
+        "KEY EMAIL 5/8/2025 to Rod Graves: 'Letâ€™s go ahead and plan to move forward with a proposal to the Board in June.",
+        "SMOKING GUN ADMISSION: 'I know they will not be making a formal recommendation' â€” White KNEW in advance that Aon would not formally recommend Israel Bonds, yet proceeded to present it to the Board ...",
+        "KEY EMAIL 12/10/2024: Confirmed to FOIA requester that ATRS had no direct Israel Bonds: 'Iâ€™m aware of the Israel bonds issued by the Development Corporation for Israel, and no, we do not have any d...",
+        "PREVIEW OF JUNE 2 MEETING (ATRS-JUN25-0064): White told Board that Jason Brady would be 'making this request on behalf of the Auditor' and 'APERS Boardâ€™s Investment Committee approved an investment...",
         "PREVIEW OF JUNE 2 MEETING continued: 'From a pecuniary standpoint, it appears to [be a worthy investment].",
-        "Met with Israel Bonds reps (Berman/Young) on April 15, 2025 at Auditor’s Capitol Office.",
+        "Met with Israel Bonds reps (Berman/Young) on April 15, 2025 at Auditorâ€™s Capitol Office.",
         "Forwarded FOIA requests about Israel Bonds to Rod Graves for response (ATRS-JUN25-0006)",
         "Confirmed SSgA Aggregate Bond Index Fund holds Israel sovereign debt along with Poland, Philippines, Peru, Panama, Korea, Italy, Indonesia, Hungary, Chile (ATRS-JUN25-0001)",
-        "PUBLIC RESPONSE: Rod Graves (at White’s direction) told constituent Karla Byrne: 'The ATRS Board recently approved an investment of up to $50 million in Israel bonds using one of our current invest...",
+        "PUBLIC RESPONSE: Rod Graves (at Whiteâ€™s direction) told constituent Karla Byrne: 'The ATRS Board recently approved an investment of up to $50 million in Israel bonds using one of our current invest...",
         "Appears in 31 source documents (primarily ATRS)",
         "APRIL 15 MEETING RECIPIENT: Milligan personally emailed White at 2:18 PM Apr 11 to arrange meeting with Berman/Young for Tuesday Apr 15 at 10:00 AM in Room 230, CC'd Brady, attached Berman/Young bios (AUDIT-JUN25-0268, ATRS-JUN25-0089)."
       ],
@@ -982,7 +982,7 @@
         "Received inquiry from Gar Chung about ATRS board's Israel Bonds decision on June 3, 2025 (ATRS-JUN25-0009)",
         "Chung asked: 'Can you comment on why the board decided to invest in Israel bonds? How will this mandate be funded?' (ATRS-JUN25-0009)",
         "ENTITY RESOLUTION ERROR: Listed as APERS in registry (primary_org = 'APERS').",
-        "Received Mark White’s 5/8/2025 directive to talk with Aon/State Street about Israel Bonds Board presentation (ATRS-JUN25-0008)",
+        "Received Mark Whiteâ€™s 5/8/2025 directive to talk with Aon/State Street about Israel Bonds Board presentation (ATRS-JUN25-0008)",
         "Provided Israel Bonds holdings data to Mark White: '$19 million direct + ~$5M passive + $22.4B total portfolio as of 5/14/25' (ATRS-JUN25-0008)",
         "Corrected State Street index fund Israel Bonds estimate from initial figure to 'around $1 million' (ATRS-JUN25-0008)",
         "Fielded press/public inquiries about ATRS Israel Bonds decision.",
@@ -998,10 +998,10 @@
       "type": "official",
       "observations": [
         "Received Israel Bonds forwarded materials from Jason Brady at Jason.Brady@auditor.ar.gov (AUDIT-JUN25-0182)",
-        "Brady forwarded Israel Bonds presentation from Auditor email address — using Auditor office for Israel Bonds advocacy",
+        "Brady forwarded Israel Bonds presentation from Auditor email address â€” using Auditor office for Israel Bonds advocacy",
         "Appears in 6 source documents",
-        "GENERAL COUNSEL, Auditor of State — delivered Auditor Round 2 FOIA response (124 documents via flash drive, March 3, 2026).",
-        "BRADY 'israel' EMAIL: Received one-word subject 'israel' email with empty body and 2 PDF attachments from Brady on June 10, 2025 — 8 days after ATRS board adopted Investment Guidelines (AUDIT-MAR26-0112, Round 1 version in AUDIT-JUN25-0182)."
+        "GENERAL COUNSEL, Auditor of State â€” delivered Auditor Round 2 FOIA response (124 documents via flash drive, March 3, 2026).",
+        "BRADY 'israel' EMAIL: Received one-word subject 'israel' email with empty body and 2 PDF attachments from Brady on June 10, 2025 â€” 8 days after ATRS board adopted Investment Guidelines (AUDIT-MAR26-0112, Round 1 version in AUDIT-JUN25-0182)."
       ],
       "observationCount": 5
     },
@@ -1043,7 +1043,7 @@
         "Executive Director: Mark White (markw@artrs.gov)",
         "Staff: Rod Graves (rodg@artrs.gov)",
         "June 3, 2025: Board voted to invest in Israel Bonds (ATRS-JUN25-0009, AUDIT-JUN25-0576)",
-        "Mark White confirmed to FOIA requester that ATRS had never made a direct Israel Bonds purchase before the June 2025 board vote — prior $390K exposure was through SSgA Aggregate Bond Index Fund (ATR...",
+        "Mark White confirmed to FOIA requester that ATRS had never made a direct Israel Bonds purchase before the June 2025 board vote â€” prior $390K exposure was through SSgA Aggregate Bond Index Fund (ATR...",
         "Board authorized up to $50M in Israel Bonds (AUDIT-JUN25-0576)",
         "Total portfolio: ~$22.4 billion as of 5/14/2025 (ATRS-JUN25-0008, Rod Graves email)",
         "Israel Bonds direct holdings: ~$19 million as of 5/14/2025; plus ~$5M estimated through SSgA Aggregate Bond Index Fund (passive) (ATRS-JUN25-0008)",
@@ -1054,7 +1054,7 @@
         "Danny Knight served as Board Chair who signed Resolution 2025-22 (ATRS-JUL25-0001)",
         "General Investment Consultant: Aon Hewitt Investment Consulting (PJ Kelly and Katie Comstock provided performance reports) (ATRS-JUL25-0002)",
         "111 active ATRS documents in registry, including 2 massive Board of Trustees packets (517 pages and 246 pages), Investment Committee packet (402 pages), 17 policy documents, and numerous email chains",
-        "ATRS manages retirement for Arkansas teachers — ~80,000+ members referenced in APERS-linked coverage",
+        "ATRS manages retirement for Arkansas teachers â€” ~80,000+ members referenced in APERS-linked coverage",
         "Israel Bonds as proportion of portfolio: $19M of $22.4B = 0.085% currently; proposed $50M would be 0.22%"
       ],
       "observationCount": 17
@@ -1067,15 +1067,15 @@
         "CORE FINDING: Across all three Arkansas entities (Treasury, APERS, ATRS), Israel Bonds purchases were authorized without normal fiduciary review processes.",
         "TREASURY: Purchases authorized by executive team with no documented credit analysis.",
         "APERS: Jason Brady (Auditor staff/APERS board member) introduced Israel Bonds and moved to suggest $25-50M authorization at Investment Subcommittee.",
-        "ATRS: Authorization chain flowed from Auditor Milligan → Jason Brady → Mark White (ATRS ED) → Board.",
+        "ATRS: Authorization chain flowed from Auditor Milligan â†’ Jason Brady â†’ Mark White (ATRS ED) â†’ Board.",
         "PATTERN: In all three cases, the authorization originated from political advocacy (Milligan), was operationalized through an intermediary (Brady), and was processed through normal-seeming channels ...",
         "SYMMETRY ARGUMENT: Arkansas Act 710 requires financial merit for divestment decisions.",
         "CROSS-AGENCY SYNTHESIS: Three distinct authorization chains, all originating from political advocacy rather than fiduciary analysis.",
-        "TREASURY AUTHORIZATION: Treasurer's discretion — no board vote required.",
+        "TREASURY AUTHORIZATION: Treasurer's discretion â€” no board vote required.",
         "APERS AUTHORIZATION: Brady (Auditor staff/APERS board member) introduced Israel Bonds at Investment Subcommittee, noting 'it had come to his attention' that APERS doesn't hold any (APERS-JUL25-0001).",
-        "ATRS AUTHORIZATION: Full chain documented: Milligan → Brady (Oct 2024 email 'on behalf of the Auditor') → White (April 2025 meeting with Berman/Young) → Board (June 2025 Resolution 2025-22).",
+        "ATRS AUTHORIZATION: Full chain documented: Milligan â†’ Brady (Oct 2024 email 'on behalf of the Auditor') â†’ White (April 2025 meeting with Berman/Young) â†’ Board (June 2025 Resolution 2025-22).",
         "COMMON PATTERN: All three authorizations share: (1) initiation from political advocacy not investment staff, (2) Israel Bonds sales materials as only 'analysis', (3) normal consultant review bypass...",
-        "TIMING ACCELERATION: Treasury — program started ~2017, ongoing."
+        "TIMING ACCELERATION: Treasury â€” program started ~2017, ongoing."
       ],
       "observationCount": 12
     },
@@ -1085,15 +1085,15 @@
       "type": "investigation_finding",
       "observations": [
         "CORE FINDING: Across 909 active FOIA source documents from 4 Arkansas agencies, ZERO independent credit analysis of Israel Bonds exists.",
-        "TREASURY: Only TREAS-SEP25-0006 ('Israel Internal Credit overview', 2 pages) exists as anything resembling internal analysis — created Oct 2024, years after tens of millions invested.",
+        "TREASURY: Only TREAS-SEP25-0006 ('Israel Internal Credit overview', 2 pages) exists as anything resembling internal analysis â€” created Oct 2024, years after tens of millions invested.",
         "APERS: No Aon/consultant analysis of Israel Bonds in any APERS document.",
-        "ATRS — SMOKING GUN: Mark White's 5/8/2025 email to Rod Graves: 'I know they will not be making a formal recommendation, but I would like to have some information from them as to the characteristics...",
-        "ATRS — CONTRAST WITH NORMAL PROCESS: Aon conducted full due diligence for other ATRS investments.",
-        "ATRS — NO FORMAL DOCUMENTS: Zero Aon recommendation memo, zero State Street analysis, zero independent credit review, zero risk assessment, zero yield comparison, zero alternative investment evalua...",
+        "ATRS â€” SMOKING GUN: Mark White's 5/8/2025 email to Rod Graves: 'I know they will not be making a formal recommendation, but I would like to have some information from them as to the characteristics...",
+        "ATRS â€” CONTRAST WITH NORMAL PROCESS: Aon conducted full due diligence for other ATRS investments.",
+        "ATRS â€” NO FORMAL DOCUMENTS: Zero Aon recommendation memo, zero State Street analysis, zero independent credit review, zero risk assessment, zero yield comparison, zero alternative investment evalua...",
         "FIDUCIARY SIGNIFICANCE: Arkansas pension systems manage retirement for tens of thousands of public employees and teachers.",
         "CROSS-AGENCY SYNTHESIS: Across 909 active FOIA documents from 4 agencies (367 Treasury, 434 Auditor, 106 ATRS, 2 APERS), SQL query for facts containing 'credit analysis', 'risk assessment', or 'due...",
         "WHAT SHOULD EXIST: For a multi-million dollar fixed-income allocation ($55M Treasury + $50M ATRS authorized + $25-50M APERS authorized = up to $155M combined), standard fiduciary practice requires:...",
-        "AGENCY-BY-AGENCY ABSENCE: TREASURY (367 docs): Only TREAS-SEP25-0006 (2 pages, Oct 2024) approaches analysis — created years after tens of millions invested.",
+        "AGENCY-BY-AGENCY ABSENCE: TREASURY (367 docs): Only TREAS-SEP25-0006 (2 pages, Oct 2024) approaches analysis â€” created years after tens of millions invested.",
         "CONTRAST WITH NORMAL PRACTICE: Aon provided ATRS with comprehensive due diligence for KKR fund (ATRS-JUL25-0001 chunk 235): 'Aon Investments, USA's Operational Due Diligence team has reviewed the F...",
         "RHETORICAL SIGNIFICANCE: The ABSENCE of analysis is stronger evidence than any single political motivation quote."
       ],
@@ -1104,12 +1104,12 @@
       "label": "ATRS Authorization Chain",
       "type": "investigation_finding",
       "observations": [
-        "FULL CHAIN: Milligan (political advocate, no investment authority as Auditor) → Brady (operational conduit, Auditor staff + APERS board member) → Mark White (ATRS Executive Director who knew adviso...",
-        "STEP 1 — INITIATION: Jason Brady's Oct 23, 2024 email to Mark White and Amy Fecher: 'the Auditor in his time as treasurer of state requested the legislature to pass legislation that would allow the...",
-        "STEP 2 — MEETING: Auditor Milligan personally arranged April 15, 2025 meeting between Israel Bonds reps (Berman/Young) and Mark White at Auditor's Capitol Office Room 230.",
-        "STEP 3 — WHITE DECIDES TO PROCEED: 5/8/2025 email to Graves: 'Let's go ahead and plan to move forward with a proposal to the Board in June.' Despite KNOWING 'they will not be making a formal recomm...",
-        "STEP 4 — PREVIEW TO BOARD: 5/22/2025 email to board members framing it as Auditor's request, citing APERS precedent, and providing his personal financial opinion ('From a pecuniary standpoint, it a...",
-        "STEP 5 — BOARD VOTE: June 2, 2025 — Board adopted Resolution 2025-22.",
+        "FULL CHAIN: Milligan (political advocate, no investment authority as Auditor) â†’ Brady (operational conduit, Auditor staff + APERS board member) â†’ Mark White (ATRS Executive Director who knew adviso...",
+        "STEP 1 â€” INITIATION: Jason Brady's Oct 23, 2024 email to Mark White and Amy Fecher: 'the Auditor in his time as treasurer of state requested the legislature to pass legislation that would allow the...",
+        "STEP 2 â€” MEETING: Auditor Milligan personally arranged April 15, 2025 meeting between Israel Bonds reps (Berman/Young) and Mark White at Auditor's Capitol Office Room 230.",
+        "STEP 3 â€” WHITE DECIDES TO PROCEED: 5/8/2025 email to Graves: 'Let's go ahead and plan to move forward with a proposal to the Board in June.' Despite KNOWING 'they will not be making a formal recomm...",
+        "STEP 4 â€” PREVIEW TO BOARD: 5/22/2025 email to board members framing it as Auditor's request, citing APERS precedent, and providing his personal financial opinion ('From a pecuniary standpoint, it a...",
+        "STEP 5 â€” BOARD VOTE: June 2, 2025 â€” Board adopted Resolution 2025-22.",
         "AT NO POINT in this chain was there independent fiduciary analysis.",
         "TIMELINE: Dec 10, 2024 White confirmed ATRS had NO direct Israel Bonds."
       ],
@@ -1128,7 +1128,7 @@
         "MANAGER: Scout Investments Inc.",
         "FIRST DIRECT PURCHASE: ATRS never made a direct Israel Bonds purchase before June 2025.",
         "PRIOR EXPOSURE: $390K Israel Bonds from passive index fund (SSgA), not an active choice.",
-        "NOTE: The $19M figure and $50M authorization raise a discrepancy — if ATRS never bought direct Israel Bonds before June 2025, yet held $19M in May 2025, the $19M may reflect the managed account inc..."
+        "NOTE: The $19M figure and $50M authorization raise a discrepancy â€” if ATRS never bought direct Israel Bonds before June 2025, yet held $19M in May 2025, the $19M may reflect the managed account inc..."
       ],
       "observationCount": 9
     },
@@ -1149,7 +1149,7 @@
       "type": "organization",
       "observations": [
         "General Investment Consultant to ATRS.",
-        "Provided full due diligence for OTHER ATRS investments — e.g., KKR fund analysis: 'Aon Investments, USA's Operational Due Diligence team has reviewed the Firm from an operating perspective...We bel...",
+        "Provided full due diligence for OTHER ATRS investments â€” e.g., KKR fund analysis: 'Aon Investments, USA's Operational Due Diligence team has reviewed the Firm from an operating perspective...We bel...",
         "DID NOT provide formal recommendation for Israel Bonds.",
         "White's request to Graves: 'Please talk with Aon and/or State Street to see what they can present to the Board' for 'information...",
         "The contrast between Aon's comprehensive analysis of other investments and its absence for Israel Bonds is the strongest evidence of differential treatment in the ATRS corpus."
@@ -1163,7 +1163,7 @@
       "observations": [
         "Selected as third-party investment manager to execute ATRS Israel Bonds purchases per Resolution 2025-22 (ATRS-JUL25-0002, ATRS-JUN25-0003)",
         "Resolution text: 'the ATRS Board approves an investment of up to $50 million dollars ($50,000,000.00) in Israel Bonds.",
-        "Already an existing ATRS investment manager — described as 'one of our current investment managers' by Rod Graves in response to constituent inquiry (ATRS-JUN25-0001)"
+        "Already an existing ATRS investment manager â€” described as 'one of our current investment managers' by Rod Graves in response to constituent inquiry (ATRS-JUN25-0001)"
       ],
       "observationCount": 3
     },
@@ -1174,10 +1174,10 @@
       "observations": [
         "Adopted June 2, 2025 by ATRS Board of Trustees.",
         "Authorizes investment of up to $50 million in Israel Bonds managed by Scout Investments Inc.",
-        "Key language: 'the Board has reviewed the advice of its general investment staff regarding the use of a qualified third-party investment manager for a potential investment in Israel Bonds' — NOTE: ...",
+        "Key language: 'the Board has reviewed the advice of its general investment staff regarding the use of a qualified third-party investment manager for a potential investment in Israel Bonds' â€” NOTE: ...",
         "Grants Executive Director discretion: 'The total investment amount is to be determined by the Executive Director based upon the allocation available to ATRS and the overall investment objectives'",
         "Implementation plan: up to $10 million per year over 5 years per Mark White's recommendation (ATRS-JUN25-0064)",
-        "ATRS's FIRST EVER direct Israel Bonds authorization — prior exposure was only ~$390K through passive index fund"
+        "ATRS's FIRST EVER direct Israel Bonds authorization â€” prior exposure was only ~$390K through passive index fund"
       ],
       "observationCount": 6
     },
@@ -1186,11 +1186,11 @@
       "label": "ATRS No Independent Analysis",
       "type": "investigation_finding",
       "observations": [
-        "SMOKING GUN: Mark White 5/8/2025 email: 'I know they will not be making a formal recommendation' — Executive Director acknowledged in advance that Aon/State Street would NOT formally recommend Isra...",
+        "SMOKING GUN: Mark White 5/8/2025 email: 'I know they will not be making a formal recommendation' â€” Executive Director acknowledged in advance that Aon/State Street would NOT formally recommend Isra...",
         "ZERO Aon Hewitt recommendation memo for Israel Bonds across all 111 ATRS documents.",
         "AON DUE DILIGENCE CONTRAST: For KKR fund, Aon provided: 'Aon Investments, USA's Operational Due Diligence team has reviewed the Firm from an operating perspective...We believe that the merits of th...",
         "EXECUTIVE DIRECTOR'S OPINION AS SUBSTITUTE: Mark White's 'From a pecuniary standpoint, it appears to [be a worthy investment]' (ATRS-JUN25-0064) is his personal assessment, not professional analysis.",
-        "RESOLUTION TEXT GAP: Resolution 2025-22 states 'the Board has reviewed the advice of its general investment staff regarding the use of a qualified third-party investment manager' — but NO written a...",
+        "RESOLUTION TEXT GAP: Resolution 2025-22 states 'the Board has reviewed the advice of its general investment staff regarding the use of a qualified third-party investment manager' â€” but NO written a...",
         "SELLER MATERIALS AS ONLY 'ANALYSIS': Israel Bonds rate sheets, economic briefings from Garawitz, Berman/Young bios, and marketing emails constitute the ONLY investment-related materials in the ATRS...",
         "NO EVIDENCE of: performance comparison vs alternative fixed income, analysis of Israel Bonds returns vs ATRS actuarial requirements, risk assessment of illiquidity, evaluation of concentration risk..."
       ],
@@ -1202,8 +1202,8 @@
       "type": "key_document",
       "observations": [
         "Mark White's 'Preview of June 2 Meeting' email to ATRS Board members, May 22, 2025 (3 pages, 27 facts extracted)",
-        "Contains 3 critical admissions: (1) 'Jason Brady will be making this request on behalf of the Auditor' — request originated with Milligan, not ATRS investment staff; (2) 'APERS Board's Investment C...",
-        "White's recommendation: 'up to $50 million spread over 5 years, with up to $10 million per year' — 'based on my conversations with Aon' (informal phone calls, not written analysis)",
+        "Contains 3 critical admissions: (1) 'Jason Brady will be making this request on behalf of the Auditor' â€” request originated with Milligan, not ATRS investment staff; (2) 'APERS Board's Investment C...",
+        "White's recommendation: 'up to $50 million spread over 5 years, with up to $10 million per year' â€” 'based on my conversations with Aon' (informal phone calls, not written analysis)",
         "KEY CONTEXT: White sent this to Board members BEFORE the June 2 meeting, establishing the narrative framework in advance."
       ],
       "observationCount": 4
@@ -1213,12 +1213,12 @@
       "label": "ATRS-JUN25-0008",
       "type": "key_document",
       "observations": [
-        "'Emails3.pdf' — 39 pages, 158 facts extracted.",
-        "Mark White 5/8/2025 email to Rod Graves: Contains the 'I know they will not be making a formal recommendation' admission — the single most important ATRS evidence item",
+        "'Emails3.pdf' â€” 39 pages, 158 facts extracted.",
+        "Mark White 5/8/2025 email to Rod Graves: Contains the 'I know they will not be making a formal recommendation' admission â€” the single most important ATRS evidence item",
         "Rod Graves 5/14/2025 reply: Provides holdings data ($19M direct + ~$5M passive, $22.4B total portfolio)",
         "Graves corrected State Street index fund Israel Bonds estimate to 'around $1 million'",
         "Contains additional email chains about Israel Bonds logistics and FOIA responses",
-        "INVESTIGATION SIGNIFICANCE: This document proves the Executive Director knew Aon would not formally recommend Israel Bonds and proceeded anyway — the smoking gun for the authorization gap and absen..."
+        "INVESTIGATION SIGNIFICANCE: This document proves the Executive Director knew Aon would not formally recommend Israel Bonds and proceeded anyway â€” the smoking gun for the authorization gap and absen..."
       ],
       "observationCount": 6
     },
@@ -1228,14 +1228,14 @@
       "type": "investigation_finding",
       "observations": [
         "CORE FINDING: For a combined potential allocation of up to $155M ($55M Treasury + $50M ATRS authorized + $25-50M APERS authorized), the following standard fiduciary processes are COMPLETELY ABSENT ...",
-        "MISSING PROCESS 1 — Independent Credit Analysis: Zero independent credit reports from Aon, State Street, or any third-party consultant.",
-        "MISSING PROCESS 2 — Risk Assessment: No documented assessment of Israel Bonds' specific risks: illiquidity (bonds cannot be sold before maturity), single-sovereign concentration risk, geopolitical ...",
-        "MISSING PROCESS 3 — Yield Comparison with Alternatives: No documented comparison of Israel Bonds yields vs.",
-        "MISSING PROCESS 4 — Investment Committee Review: Treasury has no documented Board of Finance deliberation on Israel Bonds.",
-        "MISSING PROCESS 5 — Ongoing Monitoring: No documented periodic review of Israel Bonds performance, credit status, or portfolio fit.",
-        "MISSING PROCESS 6 — Suitability Analysis: No documented assessment of how Israel Bonds serve the specific actuarial needs of teacher or public employee retirement systems.",
+        "MISSING PROCESS 1 â€” Independent Credit Analysis: Zero independent credit reports from Aon, State Street, or any third-party consultant.",
+        "MISSING PROCESS 2 â€” Risk Assessment: No documented assessment of Israel Bonds' specific risks: illiquidity (bonds cannot be sold before maturity), single-sovereign concentration risk, geopolitical ...",
+        "MISSING PROCESS 3 â€” Yield Comparison with Alternatives: No documented comparison of Israel Bonds yields vs.",
+        "MISSING PROCESS 4 â€” Investment Committee Review: Treasury has no documented Board of Finance deliberation on Israel Bonds.",
+        "MISSING PROCESS 5 â€” Ongoing Monitoring: No documented periodic review of Israel Bonds performance, credit status, or portfolio fit.",
+        "MISSING PROCESS 6 â€” Suitability Analysis: No documented assessment of how Israel Bonds serve the specific actuarial needs of teacher or public employee retirement systems.",
         "382 INVESTIGATION GAPS: Registry contains 382 documented gaps: 317 portfolio_snapshot gaps, 38 empty_document gaps, 20 unmatched_figure gaps, 7 timeline_gap gaps.",
-        "AGENCY-SPECIFIC GAPS: TREASURY — No Board of Finance minutes for Israel Bonds.",
+        "AGENCY-SPECIFIC GAPS: TREASURY â€” No Board of Finance minutes for Israel Bonds.",
         "CONTRAST WITH COMPARABLE INVESTMENTS: ATRS Aon due diligence for KKR fund (ATRS-JUL25-0001): comprehensive operational review, risk/merit assessment, formal recommendation.",
         "SYMMETRY ARGUMENT APPLICATION: Arkansas Act 710 requires 'financial merit' for divestment decisions to prevent politically motivated divestment."
       ],
@@ -1246,10 +1246,10 @@
       "label": "Act 710",
       "type": "legislation",
       "observations": [
-        "Arkansas Act 710 of 2017 (anti-BDS law) — prohibits the state and other state entities from investing in companies or countries that boycott the Nation of Israel.",
+        "Arkansas Act 710 of 2017 (anti-BDS law) â€” prohibits the state and other state entities from investing in companies or countries that boycott the Nation of Israel.",
         "BOARD OF FINANCE RECORD (TREAS-FEB26-0108 chunk 400): Brady told the Board of Finance that Act 710 'prohibits the state and other entities of the state to invest in companies or countries that boyc...",
         "SAME SESSION AS ACT 644: Both Act 710 (anti-BDS) and Act 644 (Israel Bonds authorization) passed in the 2017 Arkansas legislative session.",
-        "ANTI-DIVESTMENT STANDARD: Act 710 requires 'financial merit' as the basis for divestment decisions — entities cannot divest for political/boycott reasons unless there is financial justification.",
+        "ANTI-DIVESTMENT STANDARD: Act 710 requires 'financial merit' as the basis for divestment decisions â€” entities cannot divest for political/boycott reasons unless there is financial justification.",
         "APERS POLICY IMPLEMENTATION (APERS-JUL25-0001 chunk 164): APERS investment policy includes anti-BDS provision: 'the System shall not divest from an investment that it has with a financial services ...",
         "STRATEGIC SIGNIFICANCE: Act 710's requirement of financial merit for divestment is the foundation of D4ARF's symmetry argument.",
         "BROADER ANTI-ESG FRAMEWORK: Act 710 is part of a suite of Arkansas anti-ESG legislation including Ark."
@@ -1276,7 +1276,7 @@
       "type": "organization",
       "observations": [
         "The State Board of Finance oversees Arkansas Treasury investment operations.",
-        "MAY 2017 MEETING (TREAS-FEB26-0108 chunk 1): Board agenda included Milligan's Treasury Investment Performance Report, quarterly motions, and target rate of return — the same session where Act 644 w...",
+        "MAY 2017 MEETING (TREAS-FEB26-0108 chunk 1): Board agenda included Milligan's Treasury Investment Performance Report, quarterly motions, and target rate of return â€” the same session where Act 644 w...",
         "BRADY PRESENTATION (TREAS-FEB26-0108 chunks 390, 392, 400): Brady presented to the Board about Israel Bonds legislation (Act 644 and Act 710).",
         "NO DELIBERATIVE RECORD ON ISRAEL BONDS PURCHASES: The Board of Finance meeting records do not show any vote, resolution, or formal approval of Israel Bonds purchases.",
         "OVERSIGHT GAP: The Board of Finance is the natural body to provide investment oversight for Treasury, yet no record shows the Board requesting or receiving independent analysis of Israel Bonds befo..."
@@ -1293,7 +1293,7 @@
         "LEGAL GROUNDING: Arkansas Code Ann.",
         "WHAT FIDUCIARY DUTY REQUIRES: For a $155M allocation across three entities: (1) independent credit analysis, (2) risk assessment vs alternatives, (3) yield comparison with comparable instruments, (...",
         "CAMPAIGN APPLICATION: All 9 deliverables use fiduciary-first framing.",
-        "2027 LEGISLATIVE STRATEGY: Proposed transparency legislation would require documented financial analysis before pension fund investment in any non-standard instrument — applies neutrally to all inv..."
+        "2027 LEGISLATIVE STRATEGY: Proposed transparency legislation would require documented financial analysis before pension fund investment in any non-standard instrument â€” applies neutrally to all inv..."
       ],
       "observationCount": 6
     },
@@ -1307,7 +1307,7 @@
         "ATRS PRUDENT INVESTOR RULE (APERS-JUL25-0001 chunk 83): 'All investments made by ATRS must conform to the prudent investor rule, meaning that the [Board] shall exercise the judgment and care under ...",
         "PECUNIARY FACTORS REQUIREMENT: Ark.",
         "ACT 411 OF 2023: Created the ESG Oversight Committee which 'completed its work during the 2024 fiscal year, restricting state investments in twelve entities' (APERS-JUL25-0001 chunk 86).",
-        "APPLICATION TO ISRAEL BONDS: The prudent investor rule and pecuniary factors requirement apply to ALL investment decisions — purchases and sales alike.",
+        "APPLICATION TO ISRAEL BONDS: The prudent investor rule and pecuniary factors requirement apply to ALL investment decisions â€” purchases and sales alike.",
         "CONTRAST WITH STANDARD PRACTICE: ATRS used Aon Investments for comprehensive due diligence on KKR private equity (ATRS-JUL25-0001 chunk 235)."
       ],
       "observationCount": 7
@@ -1320,7 +1320,7 @@
         "Filed by Joshua Dunlap as a private citizen under Arkansas FOIA Act (Ark.",
         "RESPONSES RECEIVED: ATRS Jun 18, 2025 (104 docs, 1,093 pages) + Jul 3, 2025 (2 docs, 763 pages).",
         "TOTAL ROUND 1: 792 active documents after dedup from 4 agencies, approximately 35,220 pages, ~4.6 GB.",
-        "YIELD ASSESSMENT: Auditor response (434 docs) was richest for investigation — contained Milligan speeches, SFOF correspondence, Brady coordination emails, Israel Bonds marketing to state officials.",
+        "YIELD ASSESSMENT: Auditor response (434 docs) was richest for investigation â€” contained Milligan speeches, SFOF correspondence, Brady coordination emails, Israel Bonds marketing to state officials.",
         "KEY EVIDENCE DISCOVERED IN ROUND 1: Brady-Milligan coordination chain, White 'I know they will not be making formal recommendation' email, Seller-organized meetings substituting for independent ana..."
       ],
       "observationCount": 5
@@ -1331,10 +1331,10 @@
       "type": "foia_request",
       "observations": [
         "Filed February 13, 2026 by Joshua Dunlap targeting all 4 agencies with refined requests based on Round 1 evidence gaps.",
-        "AGENCY STATUS AS OF FEB 22, 2026: Treasury — received Feb 19, 2026 (118 active docs after dedup, 2,526 pages, 906 MB).",
+        "AGENCY STATUS AS OF FEB 22, 2026: Treasury â€” received Feb 19, 2026 (118 active docs after dedup, 2,526 pages, 906 MB).",
         "TREASURY ROUND 2 CONTENTS: 81 PDFs, 35 xlsx files, 1 docx.",
         "DEDUP RESULTS: 246 duplicate files detected and skipped during ingestion (Treasury had significant file overlap with Round 1 response).",
-        "7 EMPTY DOCUMENTS: TREAS-FEB26-0030, 0036, 0114, 0115, 0116, 0117, 0118 — all scanned PDFs returning 0 extracted characters.",
+        "7 EMPTY DOCUMENTS: TREAS-FEB26-0030, 0036, 0114, 0115, 0116, 0117, 0118 â€” all scanned PDFs returning 0 extracted characters.",
         "NEW EVIDENCE YIELD: 1,932 new facts (1,195 communication, 575 organization, 104 investment_action, 58 policy)."
       ],
       "observationCount": 6
@@ -1346,7 +1346,7 @@
       "observations": [
         "STATUS: Fully ingested and processed through extraction pipeline.",
         "KEY NEW EVIDENCE CATEGORIES: (1) Individual purchase records 2018-2025 provide transaction-level detail previously missing.",
-        "DELIVERABLE SPECS NEEDING UPDATE: Factsheets (ATRS/APERS) — may need updated dollar figures from quarterly inventories.",
+        "DELIVERABLE SPECS NEEDING UPDATE: Factsheets (ATRS/APERS) â€” may need updated dollar figures from quarterly inventories.",
         "CRITICAL NEW DOCUMENT: TREAS-FEB26-0108 is one of the most investigation-significant documents in the entire corpus.",
         "QUARTERLY INVENTORIES: 31 reports from Q4 2017 through Q1 2025 provide near-continuous portfolio tracking of Israel Bonds positions in Treasury."
       ],
@@ -1359,10 +1359,10 @@
       "observations": [
         "TIMING: Not yet filed.",
         "GAP-DRIVEN TARGETING: 382 investigation gaps in registry inform Round 3 priorities.",
-        "PRIORITY 1 — BOARD OF FINANCE MINUTES: Complete set of State Board of Finance meeting minutes from 2017-2025.",
-        "PRIORITY 2 — INVESTMENT COMMITTEE RECORDS: Any Treasury internal investment committee records, decision memos, or authorization documents for Israel Bonds purchases.",
-        "PRIORITY 3 — CONSULTANT COMMUNICATIONS: Any communications between state agencies and their investment consultants (Aon for ATRS, Stephens for APERS) regarding Israel Bonds.",
-        "PRIORITY 4 — SFOF CONFERENCE MATERIALS: Agendas, attendee lists, presentation materials from SFOF conferences where Israel Bonds were discussed.",
+        "PRIORITY 1 â€” BOARD OF FINANCE MINUTES: Complete set of State Board of Finance meeting minutes from 2017-2025.",
+        "PRIORITY 2 â€” INVESTMENT COMMITTEE RECORDS: Any Treasury internal investment committee records, decision memos, or authorization documents for Israel Bonds purchases.",
+        "PRIORITY 3 â€” CONSULTANT COMMUNICATIONS: Any communications between state agencies and their investment consultants (Aon for ATRS, Stephens for APERS) regarding Israel Bonds.",
+        "PRIORITY 4 â€” SFOF CONFERENCE MATERIALS: Agendas, attendee lists, presentation materials from SFOF conferences where Israel Bonds were discussed.",
         "STRATEGY: Round 3 requests should be narrowly targeted to fill specific evidence gaps rather than broad."
       ],
       "observationCount": 7
@@ -1374,7 +1374,7 @@
       "observations": [
         "TOTAL: 382 investigation gaps identified across the 909 active source documents.",
         "PORTFOLIO SNAPSHOTS (317 gaps, 83%): These represent Israel Bonds positions appearing in quarterly inventory reports and custodial statements without accompanying decision-making context.",
-        "EMPTY DOCUMENTS (38 gaps, 10%): Documents that failed text extraction — scanned images, protected PDFs, or corrupted files.",
+        "EMPTY DOCUMENTS (38 gaps, 10%): Documents that failed text extraction â€” scanned images, protected PDFs, or corrupted files.",
         "UNMATCHED FIGURES (20 gaps, 5%): Dollar amounts appearing in documents that could not be matched to specific transactions or authorizations.",
         "TIMELINE GAPS (7 gaps, 2%): All 7 gaps reference pre-2008 dates (1935-2008) and appear to derive from Israel Bonds historical marketing materials rather than Arkansas-specific operational records.",
         "AGGREGATE PICTURE: The dominant gap type (portfolio_snapshot at 83%) tells a consistent story: the investigation has substantial evidence of WHAT was purchased and WHEN, but almost no evidence of W...",
