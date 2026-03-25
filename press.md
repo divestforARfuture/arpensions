@@ -19,7 +19,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
 | Figure | Detail |
 |--------|--------|
 | **$55M** | Current Arkansas State Treasury holdings in Israel Bonds (including $20M purchased since May 2025) |
-| **$50M** | ATRS (teacher retirement) authorization for Israel Bonds (June 2, 2025; Board Chair cast lone "no" vote) |
+| **$50M** | ATRS (teacher retirement) authorization for Israel Bonds (June 2, 2025; Board Chair cast lone "no" vote); full $50M deployed December 2025 |
 | **$25–50M** | APERS (public employee retirement) authorization for Israel Bonds (May 15, 2025) |
 | **$155M** | Total authorized Arkansas exposure — Treasury holdings plus pension fund authorizations combined |
 | **1,222** | Public records obtained and analyzed across two FOIA rounds to four state agencies |
@@ -97,9 +97,14 @@ The campaign is calling for a pause on new purchases, independent financial anal
 <h3 class="timeline-year">2025</h3>
 <ul class="timeline">
   <li class="timeline-event timeline-event--highlight">
-    <time datetime="2025-04">April 2025</time>
+    <time datetime="2025-04-11">April 11, 2025</time>
+    <strong>Auditor schedules two-day pitch tour in 18 minutes</strong>
+    <p>Auditor Milligan and executive assistant Wendy Spadoni send four meeting arrangement emails within 18 minutes, scheduling Israel Bonds executives with the heads of APERS, ATRS, and the Treasury — all in Room 230 of the Auditor&rsquo;s Capitol office, all CC&rsquo;d to deputy Jason Brady.</p>
+  </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2025-04-14">April 14–15, 2025</time>
     <strong>Israel Bonds representatives meet state officials</strong>
-    <p>Sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor.</p>
+    <p>Sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor in back-to-back meetings at Room 230.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time datetime="2025-05">May 2025</time>
@@ -136,6 +141,11 @@ The campaign is calling for a pause on new purchases, independent financial anal
     <strong>APERS confirms purchase</strong>
     <p>APERS receives first Israel Bonds statement, confirming a purchase eventually occurred.</p>
   </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time datetime="2025-12">December 2025</time>
+    <strong>ATRS deploys full $50M</strong>
+    <p>ATRS Deputy Director Rod Graves confirms in a board liquidity update that the full $50 million Israel Bonds mandate was funded through the Scout (Reams) account — without independent credit analysis at any stage.</p>
+  </li>
 </ul>
 
 <h3 class="timeline-year">2026</h3>
@@ -157,13 +167,8 @@ The campaign is calling for a pause on new purchases, independent financial anal
   </li>
   <li class="timeline-event">
     <time datetime="2026-03-03">March 3, 2026</time>
-    <strong>ATRS delivers partial Round 2 response</strong>
-    <p>7 documents. General Counsel Jennifer Kelly confirms full original scope will be honored.</p>
-  </li>
-  <li class="timeline-event timeline-event--highlight">
-    <time datetime="2026-03">March 2026</time>
-    <strong>Investigation corpus complete: 1,222 documents</strong>
-    <p>Auditor of State&rsquo;s Round 2 response received via flash drive from General Counsel TJ Fowler (124 documents from three custodians). Total: 1,222 documents across four agencies, two FOIA rounds.</p>
+    <strong>ATRS delivers partial Round 2 response; Auditor delivers via flash drive</strong>
+    <p>ATRS: 7 documents. Auditor of State: 124 documents from three custodians (Milligan, Brady, Spadoni) via General Counsel TJ Fowler. Total corpus: 1,222 documents.</p>
   </li>
 </ul>
 
@@ -253,7 +258,9 @@ Key evidence points:
 
 **The ATRS Board Chair warned the process was irregular and voted against it.** Danny Knight's dissent noted the request departed from the normal manager-driven process.
 
-**The investments were arranged through a state official with stated non-financial motivations.** State Auditor Dennis Milligan arranged meetings between Israel Bonds representatives and agency heads.
+**The Auditor arranged a two-day pitch tour from his own office.** On April 11, 2025, State Auditor Dennis Milligan scheduled four meetings in 18 minutes — arranging Israel Bonds sales executives to meet with the heads of APERS, ATRS, and the Treasury in Room 230 of his Capitol office. The Auditor has no investment authority over any of these funds.
+
+**The Auditor's office played at least five documented operational roles.** Deputy Auditor Jason Brady served as meeting broker, information relay (forwarding board communications to Milligan's personal AOL email), media response coordinator (receiving APERS's forwarded press inquiries), State Financial Officers Foundation (SFOF) speechwriter, and physical designee at the ATRS board vote. A handwritten note from Brady's files tracked allocations across all three investing entities on a single page.
 
 **Public statements by the Governor, Treasurer, and other officials framed the purchases in political — not financial — terms.** The Governor celebrated them as proof Arkansas "puts its money where its mouth is."
 
@@ -264,6 +271,8 @@ Key evidence points:
 **The board voted before staff were ready.** APERS authorized $25–50 million but purchased nothing for two months. The CIO was still establishing contact with Israel Bonds in late July 2025.
 
 **Two pension funds, zero independent credit analyses.** APERS chose direct purchase with no manager; ATRS hired a manager but created investment guidelines four months after authorization. Neither produced independent analysis before the board vote.
+
+**The full $50 million ATRS authorization was deployed by December 2025.** A routine board liquidity update confirmed the entire mandate was funded through Reams Asset Management — without independent credit analysis at any stage of the six-month process from vote to deployment.
 
 </div>
 
