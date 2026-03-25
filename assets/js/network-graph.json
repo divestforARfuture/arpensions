@@ -971,9 +971,10 @@
         "Confirmed SSgA Aggregate Bond Index Fund holds Israel sovereign debt along with Poland, Philippines, Peru, Panama, Korea, Italy, Indonesia, Hungary, Chile (ATRS-JUN25-0001)",
         "PUBLIC RESPONSE: Rod Graves (at White’s direction) told constituent Karla Byrne: 'The ATRS Board recently approved an investment of up to $50 million in Israel bonds using one of our current invest...",
         "Appears in 31 source documents (primarily ATRS)",
-        "APRIL 15 MEETING RECIPIENT: Milligan personally emailed White at 2:18 PM Apr 11 to arrange meeting with Berman/Young for Tuesday Apr 15 at 10:00 AM in Room 230, CC'd Brady, attached Berman/Young bios (AUDIT-JUN25-0268, ATRS-JUN25-0089)."
+        "APRIL 15 MEETING RECIPIENT: Milligan personally emailed White at 2:18 PM Apr 11 to arrange meeting with Berman/Young for Tuesday Apr 15 at 10:00 AM in Room 230, CC'd Brady, attached Berman/Young bios (AUDIT-JUN25-0268, ATRS-JUN25-0089).",
+        "Attended APERS Investment Subcommittee meeting May 15, 2025 as visitor alongside Rod Graves and Tammy Porter — present when Brady pitched Israel Bonds and APERS authorized $25–50M. Both ATRS and APERS authorized first-ever direct Israel Bonds purchases in the same period (APERS Board Packet June 11, 2025, page 8)."
       ],
-      "observationCount": 17
+      "observationCount": 18
     },
     {
       "id": "Rod Graves",
@@ -983,7 +984,7 @@
         "ATRS staff (rodg@artrs.gov)",
         "Received inquiry from Gar Chung about ATRS board's Israel Bonds decision on June 3, 2025 (ATRS-JUN25-0009)",
         "Chung asked: 'Can you comment on why the board decided to invest in Israel bonds? How will this mandate be funded?' (ATRS-JUN25-0009)",
-        "ENTITY RESOLUTION ERROR: Listed as APERS in registry (primary_org = 'APERS').",
+        "Attended APERS Investment Subcommittee meeting May 15, 2025 as visitor — present when Brady pitched Israel Bonds and board authorized $25–50M (APERS Board Packet June 11, 2025, page 8).",
         "Received Mark White’s 5/8/2025 directive to talk with Aon/State Street about Israel Bonds Board presentation (ATRS-JUN25-0008)",
         "Provided Israel Bonds holdings data to Mark White: '$19 million direct + ~$5M passive + $22.4B total portfolio as of 5/14/25' (ATRS-JUN25-0008)",
         "Corrected State Street index fund Israel Bonds estimate from initial figure to 'around $1 million' (ATRS-JUN25-0008)",
@@ -2255,6 +2256,16 @@
       "source": "TJ Fowler",
       "target": "Auditor of State",
       "type": "general_counsel_of"
+    },
+    {
+      "source": "Mark White",
+      "target": "APERS",
+      "type": "attended_apers_israel_bonds_subcommittee"
+    },
+    {
+      "source": "Rod Graves",
+      "target": "APERS",
+      "type": "attended_apers_israel_bonds_subcommittee"
     }
   ],
   "entityTypes": [
@@ -2273,7 +2284,7 @@
   ],
   "metadata": {
     "totalNodes": 80,
-    "totalLinks": 174,
-    "generated": "2026-03-24"
+    "totalLinks": 176,
+    "generated": "2026-03-25"
   }
 }
