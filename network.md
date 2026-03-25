@@ -1,7 +1,7 @@
 ---
 layout: network
 title: "Investigation Network — Who, What, and How They Connect"
-description: "Interactive visualization of 80 entities and 167 relationships discovered across nearly 1,100 FOIA documents from four Arkansas state agencies."
+description: "Interactive visualization of 80 entities and 174 relationships discovered across more than 1,200 FOIA documents from four Arkansas state agencies."
 permalink: /network/
 ---
 
@@ -10,7 +10,7 @@ permalink: /network/
     <div class="network-hero-content">
       <p class="network-eyebrow">Interactive Investigation Map</p>
       <h1>Follow the connections</h1>
-      <p class="network-hero-sub">This graph maps <strong>80 entities</strong> and <strong>167 relationships</strong> extracted from nearly 1,100 public records obtained through FOIA requests to four Arkansas state agencies. Click any node to inspect it. Use the filters to focus on what matters.</p>
+      <p class="network-hero-sub">This graph maps <strong>80 entities</strong> and <strong>174 relationships</strong> extracted from more than 1,200 public records obtained through FOIA requests to four Arkansas state agencies. Click any node to inspect it. Use the filters to focus on what matters.</p>
     </div>
   </div>
 </section>
@@ -140,3 +140,5 @@ permalink: /network/
 
   <div id="sr-data-table" class="sr-only" aria-label="Accessible table of all network entities and their connections"></div>
 </section>
+
+
