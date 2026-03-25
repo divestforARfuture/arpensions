@@ -37,7 +37,7 @@ Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor ru
 
 ### 2. Internal memo recommended against new purchases
 
-In late 2024, a senior investment manager in the State Treasurer's office wrote an internal memo raising concerns about Israel Bonds. The memo noted that major credit-rating agencies — specifically Moody's and S&P — had downgraded Israel's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026." (For the investment standards that should have governed this decision, see the [Treasury investment policy](/assets/documents/treasury-investment-policy-2022.pdf).)
+On October 8, 2024, Steve Pulley, a Senior Investment Officer in the State Treasurer's office, wrote an internal memo raising concerns about Israel Bonds. The memo noted that major credit-rating agencies — specifically Moody's and S&P — had downgraded Israel's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026." (For the investment standards that should have governed this decision, see the [Treasury investment policy](/assets/documents/treasury-investment-policy-2022.pdf).)
 
 Instead, by the time that $17 million matured in May 2025, the state purchased two new $10 million bonds — bringing total Treasury holdings to $55 million. What changed was not the credit outlook, but the political calculus.
 
@@ -311,7 +311,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event">
     <time>2017</time>
     <h3>Israel Bonds outreach begins</h3>
-    <p>State Treasurer Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds. This led to the state's first Israel Bonds purchases through the Treasury.</p>
+    <p>State Treasurer Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds. This led to the state's first Israel Bonds purchases through the Treasury. Rapert now chairs Christian outreach for Israel Bonds (<a href="https://projects.propublica.org/nonprofits/organizations/136085033">DCI filings, ProPublica Nonprofit Explorer</a>) — the legislator who created the legal authority now works for the bond seller.</p>
   </li>
 </ol>
 
@@ -345,9 +345,9 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 <div class="timeline-year">2024</div>
 <ol class="timeline" role="list" aria-label="2024 events">
   <li class="timeline-event timeline-event--highlight">
-    <time>Late 2024</time>
+    <time>October 8, 2024</time>
     <h3>Internal memo recommends against new purchases</h3>
-    <p>Senior Treasury investment manager writes internal memo recommending against new Israel Bonds purchases, citing credit downgrades from major rating agencies.</p>
+    <p>Senior Investment Officer Steve Pulley writes internal memo recommending against new Israel Bonds purchases, citing credit downgrades from major rating agencies.</p>
   </li>
   <li class="timeline-event">
     <time>November 2024</time>
