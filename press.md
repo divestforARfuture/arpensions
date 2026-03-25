@@ -10,7 +10,7 @@ audience_nav: true
 
 Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed more than 1,200 public records revealing up to $100 million in authorized pension fund exposure and $55 million in State Treasury holdings — approximately $155 million in total authorized Arkansas exposure to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
-The campaign is calling for a pause on new purchases, independent financial analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
+The campaign is calling for independent financial review of existing positions, a halt to further purchases pending analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
 
 ## Key statistics
 
@@ -99,7 +99,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
   <li class="timeline-event timeline-event--highlight">
     <time datetime="2025-04-11">April 11, 2025</time>
     <strong>Auditor schedules two-day pitch tour in 18 minutes</strong>
-    <p>Auditor Milligan and executive assistant Wendy Spadoni send four meeting arrangement emails within 18 minutes, scheduling Israel Bonds executives with the heads of APERS, ATRS, and the Treasury — all in Room 230 of the Auditor&rsquo;s Capitol office, all CC&rsquo;d to deputy Jason Brady.</p>
+    <p>Auditor Milligan and executive assistant Wendy Spadoni send four meeting arrangement emails within 18 minutes, scheduling Israel Bonds executives with the heads of APERS, ATRS, and the Treasury &mdash; all in Room 230 of the Auditor&rsquo;s Capitol office, all CC&rsquo;d to deputy Jason Brady.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time datetime="2025-04-14">April 14–15, 2025</time>
@@ -144,7 +144,7 @@ The campaign is calling for a pause on new purchases, independent financial anal
   <li class="timeline-event timeline-event--highlight">
     <time datetime="2025-12">December 2025</time>
     <strong>ATRS deploys full $50M</strong>
-    <p>ATRS Deputy Director Rod Graves confirms in a board liquidity update that the full $50 million Israel Bonds mandate was funded through the Scout (Reams) account — without independent credit analysis at any stage.</p>
+    <p>ATRS Deputy Director Rod Graves confirms in a board liquidity update that the full $50 million Israel Bonds mandate was funded through the Scout (Reams) account &mdash; without independent credit analysis at any stage.</p>
   </li>
 </ul>
 
@@ -258,7 +258,7 @@ Key evidence points:
 
 **The ATRS Board Chair warned the process was irregular and voted against it.** Danny Knight's dissent noted the request departed from the normal manager-driven process.
 
-**The Auditor arranged a two-day pitch tour from his own office.** On April 11, 2025, State Auditor Dennis Milligan scheduled four meetings in 18 minutes — arranging Israel Bonds sales executives to meet with the heads of APERS, ATRS, and the Treasury in Room 230 of his Capitol office. The Auditor has no investment authority over any of these funds.
+**The Auditor arranged a two-day pitch tour from his own office.** On April 11, 2025, State Auditor Dennis Milligan, through his office, scheduled four meetings in 18 minutes — arranging Israel Bonds sales executives to meet with the heads of APERS, ATRS, and the Treasury in Room 230 of his Capitol office. The Auditor has no investment authority over any of these funds.
 
 **The Auditor's office played at least five documented operational roles.** Deputy Auditor Jason Brady served as meeting broker, information relay (forwarding board communications to Milligan's personal AOL email), media response coordinator (receiving APERS's forwarded press inquiries), State Financial Officers Foundation (SFOF) speechwriter, and physical designee at the ATRS board vote. A handwritten note from Brady's files tracked allocations across all three investing entities on a single page.
 
