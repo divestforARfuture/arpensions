@@ -85,7 +85,7 @@ The campaign is calling for independent financial review of existing positions, 
   <li class="timeline-event timeline-event--highlight">
     <time datetime="2024">Late 2024</time>
     <strong>Internal memo recommends against new purchases</strong>
-    <p>Senior Treasury investment manager cites credit downgrades, recommends holding positions and letting $17M roll off.</p>
+    <p>Senior Investment Officer Steve Pulley cites credit downgrades, recommends holding positions and letting $17M roll off.</p>
   </li>
   <li class="timeline-event">
     <time datetime="2024-11">November 2024</time>
@@ -182,7 +182,7 @@ The campaign is calling for independent financial review of existing positions, 
 
 "Both S&P Global Ratings and Moody's downgraded Israel's credit ratings due to heightened security risks and weakened economic prospects. The outlook remains negative... It is crucial for Israel to manage these risks effectively."
 
-<span class="pull-quote-attribution">— Senior investment manager, Arkansas State Treasurer's Office (internal memo, late 2024)</span>
+<span class="pull-quote-attribution">— Steve Pulley, Senior Investment Officer, Arkansas State Treasurer's Office (internal memo, October 8, 2024; <a href="https://arktimes.com/arkansas-blog/2025/07/11/arkansas-taxpayers-are-loaning-israel-millions-of-dollars-as-its-war-in-gaza-grinds-on">identified by the Arkansas Times</a>)</span>
 
 </div>
 
@@ -252,7 +252,7 @@ Arkansas law requires pension investments to be based solely on "pecuniary facto
 
 Key evidence points:
 
-**An internal Treasury memo recommended against new purchases.** The Treasurer's senior investment manager wrote that the state should hold existing positions and let maturing bonds roll off.
+**An internal Treasury memo recommended against new purchases.** Senior Investment Officer Steve Pulley wrote that the state should hold existing positions and let maturing bonds roll off.
 
 **No independent credit analysis has been produced.** A review of more than 1,200 public records from four state agencies found zero independent credit analyses.
 
@@ -282,9 +282,28 @@ Key evidence points:
 
 - **Arkansas law:** Ark. Code § 24-2-614 (sole interest rule); Act 411 of 2023 (pecuniary factors only); Ark. Code §§ 24-2-610–619 (prudent investor standard)
 - **Credit ratings:** Moody's downgraded Israel from A1 to Baa1 (via A2); S&P downgraded from AA- to A (via A+); Fitch downgraded from A+ to A (August 2024); all three maintained negative outlook
-- **Prior press coverage:** Jennifer Lenow, "Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on," *Arkansas Times*, July 11, 2025
+- **Prior press coverage:** Jennifer Lenow, ["Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on,"](https://arktimes.com/arkansas-blog/2025/07/11/arkansas-taxpayers-are-loaning-israel-millions-of-dollars-as-its-war-in-gaza-grinds-on) *Arkansas Times*, July 11, 2025
 - **Parallel investigation:** Stephen Caruso, "Treasurer Garrity bought Israel Bonds. Candidate Garrity then campaigned at the firm's gala," [*Spotlight PA*](https://www.spotlightpa.org/news/2026/03/stacy-garrity-treasurer-governor-election-israel-bonds-ethics-elections/), March 17, 2026 — independent journalists in Pennsylvania raising similar fiduciary and ethics questions about state Israel Bonds purchases
 - **Source documents:** [Browse the full FOIA document archive](/documents/) — key evidence documents published for public review
+
+</div>
+
+<div class="press-resources" markdown="1">
+
+## National context
+
+Arkansas is part of a broader national pattern. As of early 2026, at least 11 state-level campaigns scrutinize Israel Bonds investments by public entities:
+
+- **Minnesota** — State Board of Investment sold over $13 million in Israel Bonds; holdings dropped from $11.8M to $470K by October 2025.
+- **Michigan** — State treasury declined to reinvest a $10 million Israel Bond that matured in November 2025. FOIA requests revealed that Israel Bonds' national managing director repeatedly emailed the Michigan treasury pleading for reinvestment and offering rates higher than publicly available.
+- **Pennsylvania** — [Spotlight PA investigation](https://www.spotlightpa.org/news/2026/03/stacy-garrity-treasurer-governor-election-israel-bonds-ethics-elections/) documented Treasurer Stacy Garrity's $45 million in purchases since October 7 and her attendance at an Israel Bonds gala — paralleling the political-financial blurring documented in Arkansas.
+- **Palm Beach County, FL** — Holds approximately $1 billion in Israel Bonds (15–18% of portfolio). Two lawsuits filed over concentration risk; Florida passed a law exempting Israel Bonds from minimum bond rating requirements.
+- **New York** — Former NYC Comptroller let ~$39M in Israel Bonds lapse. New York State's Common Retirement Fund held $352 million as of March 2024.
+- **Texas** — Acting Comptroller doubled Texas's investment from ~$140M to $280M in February 2026.
+- **Illinois** — SB2449 would remove the State Treasurer's authority to invest in foreign government bonds. Ethics complaint filed by SEIU Local 73 members over $100M in purchases.
+- **North Carolina** — State pension fund sold $6.7 million in Israeli government bonds in October 2025.
+
+The successful campaigns share three characteristics: FOIA-driven transparency, fiduciary-first framing focused on credit downgrades and illiquidity, and refusal to be characterized as boycott-motivated.
 
 </div>
 

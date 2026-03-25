@@ -48,11 +48,11 @@ Arkansas law is clear about how pension investments must be made:
 
 The pattern in the public record raises questions about whether these standards were met:
 
-**The idea originated through political channels.** State Auditor Dennis Milligan, an ex officio trustee on both boards, arranged meetings between Israel Bonds sales representatives and state officials. In [correspondence with the Auditor's office](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf), an Israel Bonds executive called Milligan "truly one of a kind" and expressed he was "forever grateful" for his support.
+**The idea originated through political channels.** State Auditor Dennis Milligan, an ex officio trustee with voting rights on both boards (Ark. Code § 24-7-301), arranged meetings between Israel Bonds sales representatives and state officials. In [correspondence with the Auditor's office](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf), an Israel Bonds executive called Milligan "truly one of a kind" and expressed he was "forever grateful" for his support.
 
 **The conduit chain is now documented.** New records confirm the specific mechanism. Jason Brady, appointed to the APERS board by Auditor Dennis Milligan, introduced Israel Bonds by telling the board "it had come to his attention" that the investment was available, and cited Treasury's $55 million in holdings. The board approved $25–50 million following Brady's presentation. The chain — Milligan as former Treasurer initiating Treasury purchases, then as Auditor placing his appointee on the APERS board to introduce the same investment — is documented across multiple independent FOIA responses.
 
-**Internal financial advice was overridden.** The Treasurer's senior investment manager recommended holding off, citing credit downgrades. The state purchased $20 million more anyway.
+**Internal financial advice was overridden.** Senior Investment Officer Steve Pulley recommended holding off, citing credit downgrades. The state purchased $20 million more anyway.
 
 **Public statements emphasized political symbolism.** Governor Sanders stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." At the APERS committee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel as "my and Amy's former boss." None of these are pecuniary factors.
 
@@ -72,6 +72,7 @@ Unlike U.S. Treasury bonds and most fixed-income instruments available to pensio
 - **Declining credit quality** — all three major agencies (Moody's, S&P, and Fitch) have downgraded Israel's rating since 2024, with negative outlooks citing ongoing military operations and economic uncertainty
 - **Lower yields relative to risk** — press analysis has noted that the bond market "brims with other offerings that have higher credit ratings and that are liquid," asking "So why Israeli bonds?"
 - **Concentrated sovereign exposure** — Israel Bonds represent a direct, single-country government debt position
+- **Sold by a broker-dealer with three enforcement events** — DCI (FINRA CRD# 11148) has been censured by the SEC for currency reporting violations (1983), ordered to make rescission offers for selling securities while unregistered in North Carolina (1984), and fined $9,500 by NASD for operating with an unregistered principal (1997–98). In 2000, NASD granted DCI special accommodations on suitability requirements. [Full regulatory record (PDF)](https://files.brokercheck.finra.org/firm/firm_11148.pdf)
 
 These are not inherently disqualifying characteristics, but they demand exactly the kind of independent, documented financial analysis that appears to be missing from the record.
 
@@ -97,7 +98,18 @@ We urge the Arkansas General Assembly to consider the **Pension Investment Trans
 
 ### The committee pathway
 
-This legislation would go through the **Joint Committee on Public Retirement & Social Security Programs**, which has legislative oversight of all public retirement systems in the state. Three of four Democratic seats on that committee are turning over due to term limits in November 2026, creating a window for early engagement with incoming members.
+This legislation would go through the **Joint Committee on Public Retirement & Social Security Programs**, which has legislative oversight of all public retirement systems in the state. The committee consists of 20 members (10 senators, 10 representatives) with an approximately 14–6 Republican supermajority.
+
+**Committee leadership:**
+
+- **Senate Co-Chair: Sen. Jim Dotson (R, SD-34)** — co-authored Act 710 (2017), the state's anti-boycott law. Any transparency legislation must demonstrate it is about fiduciary process, not about boycotting Israel.
+- **House Co-Chair: Rep. Les Warren (R, HD-84)** — co-sponsored Act 411 (2023, pecuniary factors). FOIA records place Warren at the April 14, 2025 meeting where Israel Bonds sales executives pitched state officials in the Auditor's Capitol office — the same meeting that preceded the pension fund authorizations. Warren attended alongside Speaker Brian Evans and Israel Bonds National Managing Director Lawrence Berman.
+
+Five current committee members co-sponsored Act 411, which requires that the Treasurer's investment evaluations be based "only on pecuniary factors." The Transparency Act extends that same standard to pension board sovereign debt acquisitions — an argument that aligns with, rather than contradicts, the committee's existing legislative record.
+
+**Rep. Kendon Underwood (R, HD-16)** is the most promising pathway for bipartisan support. Despite co-sponsoring Act 411, Underwood also authored Act 994 (2025) on campaign contribution transparency — demonstrating openness to transparency-focused governance reform.
+
+Three committee members will depart before the 2027 session: Sen. Fredrick Love and Sen. Reginald Murdock are term-limited, and Sen. Kim Hammer is running for Secretary of State. Their replacements represent both uncertainty and opportunity for early engagement.
 
 ### The symmetry argument
 
