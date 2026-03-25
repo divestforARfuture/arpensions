@@ -31,7 +31,7 @@ Three Arkansas state agencies have committed or authorized significant funds for
 |--------|--------|----------------|------|
 | **State Treasury** | $55 million in holdings (including $20M purchased since May 2025) | ~0.5% of $11B | Ongoing since 2017 |
 | **ATRS** (Arkansas Teacher Retirement System) | Up to **$50 million** authorized; full amount deployed Dec 2025 | ~0.2% of $23.7B | June 2, 2025 |
-| **APERS** (Arkansas Public Employees' Retirement System) | **$25–50 million** authorized; purchase confirmed by Nov 2025 | ~0.2–0.4% of $11.92B | May 15, 2025 (subcommittee); June 11, 2025 (full board) |
+| **APERS** (Arkansas Public Employees' Retirement System) | **$25–50 million** authorized; purchase confirmed by Nov 2025 | ~0.2–0.4% of $11.58B | May 15, 2025 (subcommittee); June 11, 2025 (full board) |
 
 </div>
 
@@ -122,7 +122,7 @@ Several red flags suggest these standards may not have been followed:
 
 **The ATRS Board Chair dissented.** Danny Knight, the lone "no" vote on the June 2025 authorization, warned that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members — to recommend specific securities.
 
-**No independent credit analysis was produced.** Our review of more than 1,200 public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
+**No independent credit analysis was produced.** Our review of more than 1,200 public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. The same APERS meetings that produced 37 pages of Callan analysis for other investments contained zero pages of analysis for the Israel Bonds authorization. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
 
 **Two pension funds, no independent analysis either way.** APERS chose to purchase Israel Bonds directly without an external investment manager, with its CIO stating there was "not a need to incur management fees." ATRS, by contrast, hired Reams Asset Management — but established its investment guidelines four months after the board authorized the purchase. Neither approach included independent credit analysis before authorization.
 
@@ -190,6 +190,8 @@ Our requests are straightforward:
 </div>
 
 ---
+
+*Last updated: March 2026.*
 
 <nav class="page-flow" aria-label="Continue reading">
   <a href="{{ '/evidence/' | relative_url }}" class="btn-text">Next: See the Evidence</a>

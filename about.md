@@ -15,7 +15,7 @@ Divest for AR Future is a grassroots campaign using public records and Arkansas 
 
 We believe the strongest advocacy is built on evidence, not rhetoric. Our campaign rests on three pillars:
 
-**Public records research.** We have filed two rounds of Freedom of Information Act requests with four Arkansas state agencies — the State Treasury, ATRS, APERS, and the Auditor of State — and analyzed more than 1,200 public records. Every claim we make is sourced from these documents and other public information. FOIA requests are a fundamental right under Arkansas law, and we exercise that right to ensure Arkansans can see how their pension dollars are being managed.
+**Public records research.** We have filed three rounds of Freedom of Information Act requests — two completed rounds to four Arkansas state agencies (the State Treasury, ATRS, APERS, and the Auditor of State) and a third round filed in March 2026 to ASHERS and LOPFI — and analyzed more than 1,200 public records. Every claim we make is sourced from these documents and other public information. FOIA requests are a fundamental right under Arkansas law, and we exercise that right to ensure Arkansans can see how their pension dollars are being managed.
 
 **Fiduciary-first framing.** We lead with financial analysis and legal standards, not political arguments. Arkansas law requires that pension investments be made based solely on "pecuniary factors" — financial merit. That's the standard we hold decision-makers to. Our questions are straightforward: Was an independent credit analysis performed? Were internal staff recommendations followed? Does the investment process meet the prudent-investor standard? These are the questions the law requires pension fiduciaries to answer.
 

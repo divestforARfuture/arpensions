@@ -133,6 +133,69 @@ ATRS's $23.7 billion portfolio now holds $50 million in non-tradable sovereign d
 
 ---
 
+### 3g. 37 pages of analysis for other investments, zero pages for Israel Bonds
+{: #3g-dual-fiduciary-standard }
+
+The publicly-posted APERS board packets for the May 15 Investment Subcommittee and June 11 Full Board meetings reveal a stark contrast in how the board handled different investment decisions at the same meetings.
+
+For secondary infrastructure investments (up to $100 million each in three funds), the board received:
+
+- 8 slides of CIO analysis from Carlos Borromeo on portfolio positioning and risk/return characteristics
+- 32 pages of Callan analysis evaluating six finalists (Ares, Blackstone, HarbourVest, Macquarie, Pantheon, Partners Group) with quantitative screening, performance comparisons, and fee analysis
+- Presentations from three institutional firms (HarbourVest, Neuberger Berman, Stephens Inc.)
+- Board member questions about due diligence methodology (Jim Hudson) and recommended direction (Larry Walther to CIO)
+
+For private credit (discussed at the same May 15 meeting):
+
+- Written briefings from Stephens (quantitative performance data: 8.8% average return for direct lending vs. 4.4% for high-yield bonds), HarbourVest, and Neuberger Berman
+- Board discussion of allocation percentages and portfolio fit
+
+For the $25–50 million Israel Bonds authorization (also at the May 15 meeting):
+
+- Zero pages of written analysis
+- Zero involvement from CIO Carlos Borromeo
+- Zero Callan review (Callan analyzed every other investment in the packet)
+- No credit analysis, yield comparison, liquidity assessment, or consultant recommendation
+- One board member's verbal pitch — Jason Brady, the Auditor's proxy
+- No recorded questions from any board member
+- Motion, second, carried without dissent
+
+The June 11 full board packet — the 88-page document every board member received before ratifying the subcommittee's actions — contains 15 slides of CIO market analysis, 37 pages of Callan quarterly performance reporting with peer rankings and investment manager returns, and 5 pages of Stephens private equity reporting. The Israel Bonds authorization appears only in the embedded subcommittee minutes (4 pages) and a two-paragraph summary in the subcommittee chair report. No Israel Bonds analysis of any kind accompanies it.
+
+At the same meeting, the CIO's own MSCI EAFE country performance chart showed Israel returning -1.97% for Q1 2025 — one of only three negative-return countries in the 21-country index. This data was presented to the same board that was ratifying the Israel Bonds authorization. No one connected the data points.
+
+Also at the same May 15 meeting, Secretary Jim Hudson requested that APERS develop a competitive RFP for investment advisor services — insisting on competitive bidding for who advises the fund, while accepting no competitive analysis for what the fund invests in.
+
+*Source: APERS Board Packet for June 11, 2025, publicly posted at [apers.org](https://apers.org). Also exists in the FOIA registry as APERS-FEB26-0002.*
+
+---
+
+### 3h. ATRS leadership present at APERS authorization
+{: #3h-atrs-leadership-at-apers }
+
+The May 15, 2025 APERS Investment Subcommittee meeting — where Brady pitched Israel Bonds and the board authorized $25–50 million — was attended by three ATRS officials listed as visitors: Executive Director Mark White, Rod Graves, and Tammy Porter.
+
+White is the same ATRS Executive Director who later narrowed the scope of a D4ARF FOIA request. Both ATRS and APERS authorized first-ever direct Israel Bonds purchases in the same period. The presence of ATRS leadership at the APERS authorization meeting suggests coordination or at minimum awareness of the cross-system initiative.
+
+The two pension systems also have an established pattern of coordination: in the Five Below securities litigation case (E.D. Pa.), ATRS and APERS hold joint lead plaintiff status, and both pursued the Trade Desk case jointly with MissPERS.
+
+*Source: APERS Board Packet for June 11, 2025, page 8 (May 15 subcommittee attendee list) and page 75 (securities litigation case status).*
+
+---
+
+### 3i. Former Treasurer chaired the subcommittee that authorized Israel Bonds
+{: #3i-walther-subcommittee-chair }
+
+Larry Walther — who served as Arkansas's 40th Treasurer of State from August 2023 to January 2025 and maintained the Treasury's Israel Bonds position throughout his tenure — chaired the Investment Finance Subcommittee that authorized APERS's first-ever Israel Bonds purchase. The May 15, 2025 subcommittee minutes record "Mr. Larry Walther presided" as Chair of the Investment Finance Sub-Committee.
+
+The former Treasurer who oversaw $55 million in Treasury Israel Bonds holdings now chairs the pension subcommittee that authorized $25–50 million more in the same instrument — and the subcommittee received zero pages of independent analysis before voting.
+
+Additionally, Secretary Bassett had previously appointed Jason Brady to preside over the March 5, 2025 subcommittee meeting, meaning Brady was sometimes the presiding officer of the very committee he later pitched Israel Bonds to.
+
+*Source: APERS Board Packet for June 11, 2025, pages 8 and 4.*
+
+---
+
 ### 4. Board Chair raised process concerns
 
 ATRS Board Chair Danny Knight cast the sole "no" vote on Resolution 2025-22 (June 2, 2025), warning that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members or their proxies — to recommend specific securities.
@@ -216,7 +279,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 </ul>
 </noscript>
 
-<p class="bar-chart-note"><em>Treasury figure reflects current holdings (~0.5% of the Treasury's $11 billion portfolio), including $20M purchased since May 2025. ATRS authorization (~0.2% of ATRS's $23.7 billion portfolio) per Resolution 2025-22, June 2, 2025; full $50M deployed December 2025. APERS authorization (~0.2–0.4% of APERS's $11.82 billion portfolio) per Investment Subcommittee (May 15, 2025) and full board (June 11, 2025); at least one purchase confirmed by November 2025, exact amount unknown.</em></p>
+<p class="bar-chart-note"><em>Treasury figure reflects current holdings (~0.5% of the Treasury's $11 billion portfolio), including $20M purchased since May 2025. ATRS authorization (~0.2% of ATRS's $23.7 billion portfolio) per Resolution 2025-22, June 2, 2025; full $50M deployed December 2025. APERS authorization (~0.2–0.4% of APERS's $11.58 billion portfolio) per Investment Subcommittee (May 15, 2025) and full board (June 11, 2025); at least one purchase confirmed by November 2025, exact amount unknown.</em></p>
 
 <p><em>While these percentages are small, the investigation concerns whether standard fiduciary process was followed — not portfolio materiality. Hover over each bar for detail.</em></p>
 
@@ -364,6 +427,11 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <h3>Auditor of State delivers Round 2 response</h3>
     <p>124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) received via flash drive from General Counsel TJ Fowler. Total investigation corpus: 1,222 documents.</p>
   </li>
+  <li class="timeline-event timeline-event--highlight">
+    <time>March 2026</time>
+    <h3>Board packet analysis reveals dual fiduciary standard; FOIA Round 3 filed</h3>
+    <p>Analysis of the publicly-posted APERS board packets reveals that 37 pages of Callan analysis were prepared for infrastructure investments while zero pages of analysis accompanied the Israel Bonds authorization — at the same meetings. FOIA Round 3 filed with ASHERS and LOPFI, expanding the investigation to two previously uninvestigated pension systems. Interstate outreach sent to parallel investigations in five states.</p>
+  </li>
 </ol>
 
 </div>
@@ -401,6 +469,8 @@ Browse our [source document archive](/documents/) to read the primary evidence y
 ---
 
 *For additional source documents and detailed findings, contact us at [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me).*
+
+*Last updated: March 2026.*
 
 ---
 

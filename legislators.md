@@ -29,6 +29,9 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 | **Brady conduit confirmed** | Auditor's appointee Jason Brady introduced Israel Bonds to APERS board citing Treasury's $55M holdings; board approved $25–50M without independent analysis |
 | **APERS two-month purchase delay** | Board authorized in May–June 2025; "Still zero for APERS" confirmed July 30, 2025; staff still establishing contact July 31 |
 | **Divergent management approaches** | APERS: direct purchase, no manager, no fees. ATRS: hired Reams Asset Management, formal guidelines established September 25, 2025 |
+| **Dual fiduciary standard** | Same APERS meetings: 37 pages of Callan analysis for other investments, 0 pages for Israel Bonds |
+| **Cross-system coordination** | ATRS Executive Director attended the APERS subcommittee meeting where Israel Bonds were authorized |
+| **Subcommittee chair conflict** | Larry Walther, former Treasurer who maintained $55M in Treasury Israel Bonds, chaired the APERS subcommittee that authorized $25–50M more |
 | **Total documents reviewed** | 1,222 across two FOIA rounds to four agencies |
 
 </div>
@@ -90,7 +93,7 @@ We urge the Arkansas General Assembly to consider the **Pension Investment Trans
 
 4. **Require board-level documentation of the financial rationale** for any sovereign debt purchase, particularly instruments that lack a secondary market. At ATRS, Board Chair Danny Knight dissented, warning the process departed from standard practice.
 
-5. **Extend the pecuniary-factors standard** that Act 411 of 2023 applies to the Treasurer's investment evaluations to pension board sovereign debt acquisitions. Act 411 currently covers only the Treasurer of State; pension boards like ATRS and APERS have no equivalent procedural requirement.
+5. **Extend the pecuniary-factors standard** that Act 411 of 2023 applies to the Treasurer's investment evaluations to pension board sovereign debt acquisitions. Act 411 currently covers only the Treasurer of State; pension boards like ATRS and APERS have no equivalent procedural requirement. The publicly-posted APERS board packet demonstrates precisely why Provision 5 is needed. At the same meetings, the board applied full consultant review to infrastructure and private credit investments while authorizing $25–50 million in Israel Bonds based solely on one board member's verbal pitch. Provision 5 would require that sovereign debt acquisitions receive the same level of documented pecuniary-factors analysis that every other investment class already receives.
 
 ### The committee pathway
 
@@ -121,5 +124,7 @@ For the full timeline and detailed source documentation, see our [evidence page]
 For detailed findings, source documents, and a full research briefing, contact us at **[divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=Legislative%20Briefing%20Request)**.
 
 We are available to meet with legislators and staff to discuss these findings in detail. All claims in this brief are backed by public records obtained through FOIA requests to four Arkansas state agencies.
+
+*Last updated: March 2026.*
 
 </div>
