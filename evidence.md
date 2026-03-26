@@ -39,7 +39,7 @@ Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor ru
 
 On October 8, 2024, Steve Pulley, a Senior Investment Officer in the State Treasurer's office, wrote an internal memo raising concerns about Israel Bonds. The memo noted that major credit-rating agencies — specifically Moody's and S&P — had downgraded Israel's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026." (For the investment standards that should have governed this decision, see the [Treasury investment policy](/assets/documents/treasury-investment-policy-2022.pdf).)
 
-Instead, by the time that $17 million matured in May 2025, the state purchased two new $10 million bonds — bringing total Treasury holdings to $55 million. What changed was not the credit outlook, but the political calculus.
+Instead, even as bonds matured in accordance with the memo's recommendation, the state purchased $20 million in new Israel Bonds. By May 2025, Senior Investment Officer Steve Pulley confirmed the Treasury held $55 million in Israel Bonds — roughly the same exposure that the memo had recommended reducing. What changed was not the credit outlook, but the political calculus.
 
 ---
 
