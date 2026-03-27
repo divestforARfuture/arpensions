@@ -26,7 +26,7 @@ Every Arkansan whose retirement is managed by a state pension fund has a stake i
 
 We're building a list of Arkansans — educators, public employees, retirees, and concerned taxpayers — who believe pension investments should be based solely on financial merit.
 
-**Add your name** by emailing **[divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=I%20support%20pension%20transparency&body=I%20am%20an%20Arkansan%20who%20supports%20pension%20transparency%20and%20fiduciary%20accountability.%0A%0AName%3A%20%0ACity%3A%20%0AReason%20I%20care%3A%20)** with your name, city, and why you care.
+**Add your name** by emailing **[info@arpensions.org](mailto:info@arpensions.org?subject=I%20support%20pension%20transparency&body=I%20am%20an%20Arkansan%20who%20supports%20pension%20transparency%20and%20fiduciary%20accountability.%0A%0AName%3A%20%0ACity%3A%20%0AReason%20I%20care%3A%20)** with your name, city, and why you care.
 
 </section>
 
@@ -148,7 +148,7 @@ We need Arkansans across the state — especially educators and public employees
 - **Communications** — Help with writing, social media, and media outreach
 - **Legislative advocacy** — Contact and meet with legislators ahead of the 2027 session
 
-**Email [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=I%20want%20to%20volunteer&body=Name%3A%20%0ACity%3A%20%0AI%27m%20interested%20in%3A%20%5Bresearch%20%2F%20outreach%20%2F%20communications%20%2F%20legislative%20advocacy%5D%0A)** to get started.
+**Email [info@arpensions.org](mailto:info@arpensions.org?subject=I%20want%20to%20volunteer&body=Name%3A%20%0ACity%3A%20%0AI%27m%20interested%20in%3A%20%5Bresearch%20%2F%20outreach%20%2F%20communications%20%2F%20legislative%20advocacy%5D%0A)** to get started.
 
 </section>
 </div>

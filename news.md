@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Campaign Updates"
-description: "Milestones and progress in the Divest for AR Future investigation."
+description: "Milestones and progress in the Arkansans for Retirement Transparency investigation."
 permalink: /news/
 ---
 

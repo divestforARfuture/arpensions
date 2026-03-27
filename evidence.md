@@ -11,7 +11,7 @@ apexcharts: true
 
 ## Our research
 
-Divest for AR Future has analyzed **more than 1,200 public records** from two rounds of Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State. The first round (August 2025) covered all four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive).
+Arkansans for Retirement Transparency has analyzed **more than 1,200 public records** from two rounds of Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State. The first round (August 2025) covered all four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive).
 
 Every claim on this site is backed by documents in the public record. Below are the key findings.
 
@@ -468,7 +468,7 @@ Browse our [source document archive](/documents/) to read the primary evidence y
 
 ---
 
-*For additional source documents and detailed findings, contact us at [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me).*
+*For additional source documents and detailed findings, contact us at [info@arpensions.org](mailto:info@arpensions.org).*
 
 *Last updated: March 2026.*
 

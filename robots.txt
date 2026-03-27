@@ -1,16 +1,9 @@
-# Allow all standard crawlers
+# https://arpensions.org/robots.txt
+
 User-agent: *
 Allow: /
 
-# Allow OpenAI search inclusion (ChatGPT search citations)
-User-agent: OAI-SearchBot
-Allow: /
-
-# Allow Perplexity search inclusion
-User-agent: PerplexityBot
-Allow: /
-
-# Opt out of AI training crawls (not search)
+# Opt out of AI training (not search)
 User-agent: GPTBot
 Disallow: /
 
@@ -20,4 +13,8 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
-Sitemap: https://divestforarfuture.github.io/sitemap.xml
+Sitemap: https://arpensions.org/sitemap.xml
+
+# Disallow crawling of admin/development paths
+Disallow: /assets/data/
+Disallow: /*.json$
