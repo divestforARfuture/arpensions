@@ -1,5 +1,5 @@
 /* ==========================================================================
-   D4ARF Charts — Chart.js visualizations for evidence and audience pages
+   ART Charts — Chart.js visualizations for evidence and audience pages
    Loaded conditionally on pages with front matter `charts: true`
    ========================================================================== */
 

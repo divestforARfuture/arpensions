@@ -1,6 +1,6 @@
 /* ==========================================================================
    NETWORK VISUALIZATION PAGE — Investigation Knowledge Graph
-   Cytoscape.js — matches D4ARF elegant design system
+   Cytoscape.js — matches ART elegant design system
    ========================================================================== */
 
 /* --- Override Pico container for full-width layout --- */
@@ -573,7 +573,6 @@
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
-/* Subtle grid texture */
 .network-graph-area::before {
   content: '';
   position: absolute;
@@ -586,7 +585,6 @@
   z-index: 1;
 }
 
-/* Vignette */
 .network-graph-area::after {
   content: '';
   position: absolute;
@@ -604,7 +602,6 @@
   z-index: 3;
 }
 
-/* --- Loading state --- */
 .graph-loading {
   position: absolute;
   inset: 0;
@@ -624,7 +621,6 @@
   display: none;
 }
 
-/* --- Graph controls --- */
 .graph-controls {
   position: absolute;
   top: 1rem;
@@ -660,7 +656,6 @@
   outline-offset: 2px;
 }
 
-/* Layout toggle — wider button with text label */
 .graph-control-btn--wide {
   width: auto;
   padding: 0.35rem 0.6rem;
@@ -683,7 +678,6 @@
   margin: 0.15rem 0;
 }
 
-/* --- Graph hint --- */
 .graph-hint {
   position: absolute;
   bottom: 1rem;
@@ -709,7 +703,6 @@
   margin: 0;
 }
 
-/* --- Node tooltip (hover preview) --- */
 .network-tooltip {
   position: absolute;
   z-index: 20;
@@ -1156,7 +1149,6 @@
   background: var(--art-white);
 }
 
-/* --- Sidebar --- */
 [data-theme="dark"] .network-sidebar {
   background: #15151D;
   border-right-color: var(--art-border);
@@ -1178,7 +1170,6 @@
   background: var(--art-accent-light);
 }
 
-/* Search */
 [data-theme="dark"] .node-search {
   background: #1A1A24;
   border-color: var(--art-border);
@@ -1210,7 +1201,6 @@
   background: var(--art-accent-light);
 }
 
-/* Path-finding */
 [data-theme="dark"] .pathfinding-select {
   background: #1A1A24;
   border-color: var(--art-border);
@@ -1259,7 +1249,6 @@
   border-left-color: transparent;
 }
 
-/* Tour buttons */
 [data-theme="dark"] .tour-btn {
   background: var(--art-gray-light);
   border-color: var(--art-border);
@@ -1277,7 +1266,6 @@
   color: var(--art-black);
 }
 
-/* --- Graph area --- */
 [data-theme="dark"] .network-graph-area {
   background: #16161E;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -1293,7 +1281,6 @@
   background: radial-gradient(ellipse at 50% 50%, transparent 50%, rgba(0, 0, 0, 0.15) 100%);
 }
 
-/* Graph controls */
 [data-theme="dark"] .graph-control-btn {
   background: #1A1A24;
   border-color: var(--art-border);
@@ -1306,14 +1293,12 @@
   color: var(--art-black);
 }
 
-/* Graph hint */
 [data-theme="dark"] .graph-hint p {
   background: rgba(18, 18, 24, 0.85);
   border-color: var(--art-border);
   color: var(--art-gray);
 }
 
-/* Tooltip */
 [data-theme="dark"] .network-tooltip {
   background: #1A1A24;
   border-color: var(--art-border);
@@ -1321,7 +1306,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* --- Detail panel --- */
 [data-theme="dark"] .network-detail {
   background: #15151D;
   border-left-color: var(--art-border);
@@ -1353,7 +1337,6 @@
   border-bottom-color: var(--art-gray-light);
 }
 
-/* --- Tour narration --- */
 [data-theme="dark"] .tour-narration {
   background: #1A1A24;
   border-color: var(--art-border);
@@ -1377,7 +1360,6 @@
   border-color: var(--art-red);
 }
 
-/* --- Responsive overrides --- */
 @media (max-width: 1024px) {
   [data-theme="dark"] .network-sidebar {
     border-bottom-color: var(--art-border);
