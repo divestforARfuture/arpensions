@@ -30,10 +30,12 @@
     var lights = document.querySelectorAll('.logo-light');
     var darks = document.querySelectorAll('.logo-dark');
     for (var i = 0; i < lights.length; i++) {
-      lights[i].setAttribute('aria-hidden', isDark ? 'true' : 'false');
+      if (isDark) lights[i].setAttribute('aria-hidden', 'true');
+      else lights[i].removeAttribute('aria-hidden');
     }
     for (var i = 0; i < darks.length; i++) {
-      darks[i].setAttribute('aria-hidden', isDark ? 'false' : 'true');
+      if (isDark) darks[i].removeAttribute('aria-hidden');
+      else darks[i].setAttribute('aria-hidden', 'true');
     }
   }
 
