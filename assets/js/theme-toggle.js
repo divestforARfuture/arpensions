@@ -14,6 +14,7 @@
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem(STORAGE_KEY, theme);
     updateToggleButton(theme);
+    updateLogoAria(theme);
     document.dispatchEvent(new CustomEvent('themechange', { detail: { theme: theme } }));
   }
 
@@ -22,6 +23,20 @@
     if (!btn) return;
     var isDark = theme === 'dark';
     btn.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+  }
+
+  function updateLogoAria(theme) {
+    var isDark = theme === 'dark';
+    var lights = document.querySelectorAll('.logo-light');
+    var darks = document.querySelectorAll('.logo-dark');
+    for (var i = 0; i < lights.length; i++) {
+      if (isDark) lights[i].setAttribute('aria-hidden', 'true');
+      else lights[i].removeAttribute('aria-hidden');
+    }
+    for (var i = 0; i < darks.length; i++) {
+      if (isDark) darks[i].removeAttribute('aria-hidden');
+      else darks[i].setAttribute('aria-hidden', 'true');
+    }
   }
 
   function toggleTheme() {
@@ -46,6 +61,7 @@
     // Theme attribute already set by inline FOUC script, but ensure consistency
     document.documentElement.setAttribute('data-theme', theme);
     updateToggleButton(theme);
+    updateLogoAria(theme);
 
     var btn = document.getElementById('theme-toggle');
     if (btn) {

@@ -1,44 +1,44 @@
 /* ==========================================================================
-   D4ARF Custom Theme — Pico CSS Overrides + Campaign Branding
+   ART Custom Theme — Pico CSS Overrides + Campaign Branding
    ========================================================================== */
 
 /* --- Design Tokens --- */
 :root {
   /* Primary palette — WCAG AA compliant on white */
-  --d4arf-red: #B91C1C;
-  --d4arf-green: #166534;
+  --art-red: #B91C1C;
+  --art-green: #166534;
 
   /* Teal accent for links, borders, section markers */
-  --d4arf-accent: #0C7489;
-  --d4arf-accent-light: #E0F2F7;
+  --art-accent: #0C7489;
+  --art-accent-light: #E0F2F7;
 
   /* Warm neutrals */
-  --d4arf-black: #1b2127;
-  --d4arf-white: #f8f7f5;
-  --d4arf-gray: #556068;
-  --d4arf-gray-light: #f0efec;
-  --d4arf-border: #dee3e6;
+  --art-black: #1b2127;
+  --art-white: #f8f7f5;
+  --art-gray: #556068;
+  --art-gray-light: #f0efec;
+  --art-border: #dee3e6;
 
   /* Functional colors */
-  --d4arf-red-light: #FEE2E2;
-  --d4arf-green-light: #DCFCE7;
+  --art-red-light: #FEE2E2;
+  --art-green-light: #DCFCE7;
 
   /* Semantic tokens */
-  --color-text-primary: var(--d4arf-black);
-  --color-text-secondary: var(--d4arf-gray);
-  --color-bg-page: var(--d4arf-white);
-  --color-bg-panel: var(--d4arf-gray-light);
+  --color-text-primary: var(--art-black);
+  --color-text-secondary: var(--art-gray);
+  --color-bg-page: var(--art-white);
+  --color-bg-panel: var(--art-gray-light);
   --color-bg-surface: #ffffff; /* Pure white for card elevation against warm off-white page */
-  --color-link: var(--d4arf-accent);
+  --color-link: var(--art-accent);
   --color-link-hover: #095c6e;
-  --color-cta: var(--d4arf-red);
+  --color-cta: var(--art-red);
   --color-cta-hover: #991b1b;
-  --color-success: var(--d4arf-green);
-  --color-border: var(--d4arf-border);
+  --color-success: var(--art-green);
+  --color-border: var(--art-border);
 
   /* Link styling */
-  --d4arf-link: var(--color-link);
-  --d4arf-link-hover: var(--color-link-hover);
+  --art-link: var(--color-link);
+  --art-link-hover: var(--color-link-hover);
 
   /* Typography */
   --font-serif: 'Lora', Georgia, 'Times New Roman', serif;
@@ -75,26 +75,46 @@
   --pico-font-family: var(--font-body);
   --pico-font-size: 100%;
   --pico-line-height: 1.65;
-  --pico-color: var(--d4arf-black);
+  --pico-color: var(--art-black);
   --pico-background-color: var(--color-bg-page);
-  --pico-primary: var(--d4arf-red);
+  --pico-primary: var(--art-red);
   --pico-primary-hover: var(--color-link-hover);
 }
 
-/* --- Logo theme swap — CSS only, no flash --- */
-[data-theme="light"] .logo-dark,
-[data-theme="dark"] .logo-light {
-  display: none;
+/* --- Logo theme swap — opacity crossfade, no layout reflow --- */
+/* Both images stay in DOM; dark logo is absolutely stacked on top of light. */
+.logo-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
-[data-theme="light"] .logo-light,
-[data-theme="dark"] .logo-dark {
-  display: block;
+.logo-light,
+.logo-dark {
+  transition: opacity 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-light,
+  .logo-dark {
+    transition: none;
+  }
+}
+
+[data-theme="dark"] .logo-light,
+[data-theme="light"] .logo-dark {
+  opacity: 0;
+}
+
+[data-theme="dark"] .logo-dark,
+[data-theme="light"] .logo-light {
+  opacity: 1;
 }
 
 /* Fallback: show light logo if data-theme hasn't been set (JS disabled) */
-:root:not([data-theme]) .logo-light { display: block; }
-:root:not([data-theme]) .logo-dark  { display: none; }
+:root:not([data-theme]) .logo-light { opacity: 1; }
+:root:not([data-theme]) .logo-dark  { opacity: 0; }
 
 /* --- Base --- */
 body {
@@ -175,7 +195,7 @@ a:hover {
   top: -100%;
   left: 0;
   padding: 0.5rem 1rem;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   color: #fff;
   z-index: 1000;
   font-weight: 600;
@@ -183,7 +203,7 @@ a:hover {
 
 .skip-link:focus {
   top: 0;
-  outline: 3px solid var(--d4arf-black);
+  outline: 3px solid var(--art-black);
   outline-offset: 2px;
 }
 
@@ -199,7 +219,7 @@ a:hover {
 
 /* --- Focus States (a11y) --- */
 :focus-visible {
-  outline: 3px solid var(--d4arf-red);
+  outline: 3px solid var(--art-red);
   outline-offset: 2px;
 }
 
@@ -210,7 +230,7 @@ a:hover {
 
 .pathway-card:focus-visible {
   outline-offset: -2px;
-  border-color: var(--d4arf-red);
+  border-color: var(--art-red);
   box-shadow: 0 2px 8px rgba(185, 28, 28, 0.1);
 }
 
@@ -286,6 +306,7 @@ article > section:first-child {
   font-family: var(--font-sans);
   font-weight: 700;
   font-size: 1.1rem;
+  position: relative;
 }
 
 .nav-logo img {
@@ -298,7 +319,7 @@ article > section:first-child {
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  color: var(--d4arf-black);
+  color: var(--art-black);
 }
 
 .nav-links {
@@ -314,7 +335,7 @@ article > section:first-child {
   display: block;
   padding: 0.5rem 0.75rem;
   text-decoration: none;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   font-weight: 600;
   font-size: 0.95rem;
   border-radius: 6px;
@@ -323,8 +344,8 @@ article > section:first-child {
 
 .nav-links a:hover,
 .nav-links a[aria-current="page"] {
-  color: var(--d4arf-red);
-  background-color: var(--d4arf-red-light);
+  color: var(--art-red);
+  background-color: var(--art-red-light);
 }
 
 /* Mobile nav */
@@ -395,8 +416,8 @@ article > section:first-child {
    HERO — Dark editorial hero with geometric texture
    ========================================================================== */
 .hero {
-  background-color: var(--d4arf-black);
-  border-top: 3px solid var(--d4arf-red);
+  background-color: var(--art-black);
+  border-top: 3px solid var(--art-red);
   padding: var(--space-4xl) var(--space-lg) var(--space-3xl);
   position: relative;
   overflow: hidden;
@@ -422,7 +443,7 @@ article > section:first-child {
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--d4arf-red);
+  background: var(--art-red);
 }
 
 .hero .container {
@@ -454,7 +475,7 @@ article > section:first-child {
   transform: translateY(-50%);
   width: 1rem;
   height: 2px;
-  background: var(--d4arf-red);
+  background: var(--art-red);
 }
 
 .hero h1 {
@@ -498,7 +519,7 @@ article > section:first-child {
   font-family: var(--font-mono);
   font-size: var(--text-2xl);
   font-weight: 600;
-  color: var(--d4arf-red);
+  color: var(--art-red);
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
   line-height: 1;
@@ -575,20 +596,20 @@ article > section:first-child {
 
 .btn-secondary {
   background: transparent;
-  color: var(--d4arf-accent);
-  border: 2px solid var(--d4arf-accent);
+  color: var(--art-accent);
+  border: 2px solid var(--art-accent);
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus-visible {
-  background: var(--d4arf-accent);
+  background: var(--art-accent);
   color: #fff;
   text-decoration: none;
 }
 
 /* --- Text Button (tertiary CTA) --- */
 .btn-text {
-  color: var(--d4arf-accent);
+  color: var(--art-accent);
   font-family: var(--font-sans);
   font-weight: 600;
   text-decoration: none;
@@ -598,7 +619,7 @@ article > section:first-child {
 
 .btn-text:hover,
 .btn-text:focus-visible {
-  border-bottom-color: var(--d4arf-accent);
+  border-bottom-color: var(--art-accent);
 }
 
 .btn-text::after {
@@ -648,7 +669,7 @@ article > section:first-child {
   top: 20%;
   height: 60%;
   width: 2px;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   opacity: 0.2;
   border-radius: 1px;
 }
@@ -658,7 +679,7 @@ article > section:first-child {
   font-family: var(--font-mono);
   font-size: clamp(2.5rem, 6vw, var(--text-4xl));
   font-weight: 600;
-  color: var(--d4arf-red);
+  color: var(--art-red);
   line-height: 1;
   margin-bottom: 0.5rem;
   letter-spacing: -0.02em;
@@ -677,9 +698,9 @@ article > section:first-child {
 
 /* Zero stat — the most damning finding */
 .stat-card--zero {
-  background: var(--d4arf-red-light);
+  background: var(--art-red-light);
   border-radius: 8px;
-  border: 2px solid var(--d4arf-red);
+  border: 2px solid var(--art-red);
 }
 
 .stat-card--zero .stat-number {
@@ -697,13 +718,13 @@ article > section:first-child {
   transform: translateX(-50%);
   width: 2rem;
   height: 3px;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   border-radius: 2px;
 }
 
 .stat-card--zero .stat-label {
   font-weight: 600;
-  color: var(--d4arf-black);
+  color: var(--art-black);
 }
 
 /* Zero pulse animation */
@@ -790,7 +811,7 @@ article > section:first-child {
    ========================================================================== */
 .pathways {
   padding: var(--space-3xl) var(--space-lg) var(--space-4xl);
-  background-color: var(--d4arf-gray-light);
+  background-color: var(--art-gray-light);
 }
 
 .section-heading {
@@ -809,7 +830,7 @@ article > section:first-child {
   transform: translateX(-50%);
   width: 3rem;
   height: 3px;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   border-radius: 2px;
 }
 
@@ -830,15 +851,15 @@ article > section:first-child {
   border: 1px solid var(--color-border);
   border-left: 4px solid transparent;
   text-decoration: none;
-  color: var(--d4arf-black);
+  color: var(--art-black);
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .pathway-card:hover {
-  border-left-color: var(--d4arf-red);
+  border-left-color: var(--art-red);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
   transform: translateY(-2px);
-  color: var(--d4arf-black);
+  color: var(--art-black);
 }
 
 .pathway-icon {
@@ -847,14 +868,14 @@ article > section:first-child {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--d4arf-red-light);
+  background: var(--art-red-light);
   border-radius: 10px;
   margin-bottom: 1.25rem;
   flex-shrink: 0;
 }
 
 .pathway-icon svg {
-  color: var(--d4arf-red);
+  color: var(--art-red);
   width: 24px;
   height: 24px;
 }
@@ -866,7 +887,7 @@ article > section:first-child {
 
 .pathway-card p {
   font-size: 0.95rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   margin: 0;
   line-height: 1.6;
   flex-grow: 1;
@@ -878,7 +899,7 @@ article > section:first-child {
   gap: 0.35rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--d4arf-red);
+  color: var(--art-red);
   margin-top: 1.25rem;
   transition: gap 0.2s ease;
 }
@@ -943,12 +964,12 @@ article > section:first-child {
   transform: translateX(-50%);
   width: 3rem;
   height: 3px;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   border-radius: 2px;
 }
 
 .about-section p {
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   font-size: 1.05rem;
   line-height: 1.7;
 }
@@ -961,7 +982,7 @@ article > section:first-child {
 .page-header {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 3px solid var(--d4arf-red);
+  border-bottom: 3px solid var(--art-red);
 }
 
 .page-header h1 {
@@ -970,7 +991,7 @@ article > section:first-child {
 
 .page-description {
   font-size: 1.1rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   margin: 0;
 }
 
@@ -985,7 +1006,7 @@ article > section:first-child {
 }
 
 .page-content tbody tr:nth-child(even) {
-  background-color: var(--d4arf-gray-light);
+  background-color: var(--art-gray-light);
 }
 
 [data-theme="dark"] .page-content tbody tr:nth-child(even) {
@@ -994,7 +1015,7 @@ article > section:first-child {
 
 [data-theme="dark"] .page-content th {
   background-color: rgba(255, 255, 255, 0.08);
-  color: var(--d4arf-black);
+  color: var(--art-black);
 }
 
 @media (max-width: 768px) {
@@ -1011,7 +1032,7 @@ article > section:first-child {
 .post-header {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 3px solid var(--d4arf-red);
+  border-bottom: 3px solid var(--art-red);
 }
 
 .post-header h1 {
@@ -1020,12 +1041,12 @@ article > section:first-child {
 
 .post-header time {
   font-size: 0.95rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
 }
 
 /* --- Landing Page --- */
 .landing-hero {
-  background-color: var(--d4arf-gray-light);
+  background-color: var(--art-gray-light);
   padding: 3.5rem 1.5rem 3rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -1038,7 +1059,7 @@ article > section:first-child {
 
 .landing-description {
   font-size: 1.15rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   margin: 0.75rem auto 0;
   max-width: 600px;
   line-height: 1.7;
@@ -1052,8 +1073,8 @@ article > section:first-child {
 .cta-box {
   margin-top: 3rem;
   padding: 2rem;
-  background-color: var(--d4arf-red-light);
-  border-left: 4px solid var(--d4arf-red);
+  background-color: var(--art-red-light);
+  border-left: 4px solid var(--art-red);
   border-radius: 0 8px 8px 0;
 }
 
@@ -1064,7 +1085,7 @@ article > section:first-child {
 
 .cta-box p {
   margin-bottom: 1rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
 }
 
 /* --- Letter Template --- */
@@ -1072,7 +1093,7 @@ article > section:first-child {
   margin: 1.5rem 0;
   padding: 2rem;
   background-color: var(--color-bg-surface);
-  border: 2px solid var(--d4arf-border);
+  border: 2px solid var(--art-border);
   border-radius: 8px;
   position: relative;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
@@ -1082,12 +1103,12 @@ article > section:first-child {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   margin: -2rem -2rem 1.5rem;
   padding: 0.75rem 6rem 0.75rem 2rem;
-  background: var(--d4arf-gray-light);
+  background: var(--art-gray-light);
   border-radius: 6px 6px 0 0;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 1px solid var(--art-border);
 }
 
 .letter-template p,
@@ -1106,10 +1127,10 @@ article > section:first-child {
 
 /* === Blockquotes — evidence/source quotes === */
 blockquote {
-  border-left: 4px solid var(--d4arf-red);
+  border-left: 4px solid var(--art-red);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  background-color: var(--d4arf-red-light);
+  background-color: var(--art-red-light);
   border-radius: 0 4px 4px 0;
   font-style: normal;
 }
@@ -1120,10 +1141,10 @@ blockquote p {
 
 /* --- Callout / Pull Quote --- */
 .callout {
-  border-left: 4px solid var(--d4arf-green);
+  border-left: 4px solid var(--art-green);
   padding: 1rem 1.5rem;
   margin: 1.5rem 0;
-  background-color: var(--d4arf-green-light);
+  background-color: var(--art-green-light);
   border-radius: 0 4px 4px 0;
 }
 
@@ -1133,8 +1154,8 @@ blockquote p {
 
 /* === Key Finding highlight box === */
 .key-finding {
-  border-left: 4px solid var(--d4arf-accent);
-  background: var(--d4arf-accent-light);
+  border-left: 4px solid var(--art-accent);
+  background: var(--art-accent-light);
   padding: 1.25rem 1.5rem;
   margin: 1.5rem 0;
   border-radius: 0 4px 4px 0;
@@ -1147,14 +1168,14 @@ blockquote p {
   font-family: var(--font-serif);
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
-  color: var(--d4arf-accent);
+  color: var(--art-accent);
 }
 
 /* --- Social Share --- */
 .social-share {
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--d4arf-border);
+  border-top: 1px solid var(--art-border);
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -1163,7 +1184,7 @@ blockquote p {
 .share-label {
   font-weight: 600;
   font-size: 0.9rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
 }
 
 .share-link {
@@ -1176,7 +1197,7 @@ blockquote p {
 
 /* --- Footer --- */
 .site-footer {
-  background: var(--d4arf-black);
+  background: var(--art-black);
   color: #d1d5db;
   padding: var(--space-3xl) 0 var(--space-xl);
   margin-top: 0;
@@ -1187,6 +1208,10 @@ blockquote p {
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   gap: 2rem 3rem;
   margin-bottom: 3rem;
+}
+
+.footer-brand {
+  position: relative;
 }
 
 .footer-brand img {
@@ -1203,7 +1228,7 @@ blockquote p {
 }
 
 .footer-contact-email { margin-top: 0.75rem; }
-.footer-contact-email a { color: var(--d4arf-accent); }
+.footer-contact-email a { color: var(--art-accent); }
 .footer-contact-email a:hover { color: #5ec4d4; }
 
 .footer-heading {
@@ -1261,7 +1286,7 @@ blockquote p {
 .post-list li {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 1px solid var(--art-border);
 }
 
 .post-list li:last-child {
@@ -1278,12 +1303,12 @@ blockquote p {
 
 .post-list time {
   font-size: 0.9rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
 }
 
 .post-list p {
   margin-top: 0.5rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
 }
 
 /* ==========================================================================
@@ -1293,7 +1318,7 @@ blockquote p {
 /* --- Evidence Findings — Visual hierarchy for numbered findings --- */
 .evidence-findings h3 {
   padding-left: 1rem;
-  border-left: 4px solid var(--d4arf-red);
+  border-left: 4px solid var(--art-red);
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   padding-top: 0.15rem;
@@ -1307,15 +1332,15 @@ blockquote p {
 /* Separator between findings */
 .evidence-findings hr {
   border: none;
-  border-top: 1px solid var(--d4arf-border);
+  border-top: 1px solid var(--art-border);
   margin: 2.5rem 0;
 }
 
 /* --- Pull Quote — Elevated callout for official statements --- */
 .pull-quote {
   padding: 1.75rem 1.75rem 1.75rem 2rem;
-  background-color: var(--d4arf-gray-light);
-  border-left: 6px solid var(--d4arf-red);
+  background-color: var(--art-gray-light);
+  border-left: 6px solid var(--art-red);
   border-radius: 0 8px 8px 0;
   margin: 2rem 0;
   position: relative;
@@ -1331,7 +1356,7 @@ blockquote p {
   left: 0.75rem;
   font-size: 4rem;
   font-family: var(--font-display);
-  color: var(--d4arf-red);
+  color: var(--art-red);
   opacity: 0.12;
   line-height: 1;
   pointer-events: none;
@@ -1349,7 +1374,7 @@ blockquote p {
 .pull-quote-attribution {
   display: block;
   font-size: 0.85rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   font-style: normal;
   margin-top: 0.25rem;
 }
@@ -1389,9 +1414,9 @@ blockquote p {
   top: 0.35rem;
   width: 10px;
   height: 10px;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   border-radius: 50%;
-  border: 2px solid var(--d4arf-white);
+  border: 2px solid var(--art-white);
   box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.2);
 }
 
@@ -1399,13 +1424,13 @@ blockquote p {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.95rem;
-  color: var(--d4arf-red);
+  color: var(--art-red);
   margin-bottom: 0.35rem;
 }
 
 .timeline-content {
   font-size: 0.95rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   line-height: 1.65;
 }
 
@@ -1419,11 +1444,11 @@ blockquote p {
 }
 
 .timeline-event--escalation .timeline-content {
-  background: var(--d4arf-red-light);
+  background: var(--art-red-light);
   padding: 0.75rem 1rem;
   border-radius: 6px;
-  border-left: 3px solid var(--d4arf-red);
-  color: var(--d4arf-black);
+  border-left: 3px solid var(--art-red);
+  color: var(--art-black);
 }
 
 .timeline-event--escalation .timeline-date {
@@ -1451,7 +1476,7 @@ blockquote p {
 
 /* --- Legal Reference Block — Highlighted legal standards sidebar --- */
 .legal-reference {
-  background: var(--d4arf-red-light);
+  background: var(--art-red-light);
   border-radius: 8px;
   padding: 2rem;
   margin: 1.5rem 0 2rem;
@@ -1462,7 +1487,7 @@ blockquote p {
   margin-top: 0;
   margin-bottom: 1.25rem;
   padding-bottom: 0.75rem;
-  border-bottom: 2px solid var(--d4arf-red);
+  border-bottom: 2px solid var(--art-red);
 }
 
 .legal-reference ul {
@@ -1483,13 +1508,13 @@ blockquote p {
 }
 
 .legal-reference li strong {
-  color: var(--d4arf-black);
+  color: var(--art-black);
 }
 
 .legal-reference p {
   margin-top: 1.25rem;
   margin-bottom: 0;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   line-height: 1.65;
 }
 
@@ -1509,7 +1534,7 @@ blockquote p {
 }
 
 .issue-agency-table thead {
-  background: var(--d4arf-red);
+  background: var(--art-red);
   color: #fff;
 }
 
@@ -1525,17 +1550,17 @@ blockquote p {
 
 .issue-agency-table td {
   padding: 0.85rem 1rem;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 1px solid var(--art-border);
   line-height: 1.5;
   vertical-align: top;
 }
 
 .issue-agency-table tbody tr:last-child td {
-  border-bottom: 2px solid var(--d4arf-red);
+  border-bottom: 2px solid var(--art-red);
 }
 
 .issue-agency-table td strong {
-  color: var(--d4arf-black);
+  color: var(--art-black);
   font-size: 1rem;
 }
 
@@ -1559,8 +1584,8 @@ blockquote p {
   }
 
   .issue-agency-table tbody tr {
-    background: var(--d4arf-gray-light);
-    border-left: 4px solid var(--d4arf-red);
+    background: var(--art-gray-light);
+    border-left: 4px solid var(--art-red);
     border-radius: 0 8px 8px 0;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -1582,13 +1607,13 @@ blockquote p {
     font-size: 1rem;
     padding-bottom: 0.5rem;
     margin-bottom: 0.35rem;
-    border-bottom: 1px solid var(--d4arf-border);
+    border-bottom: 1px solid var(--art-border);
   }
 
   .issue-agency-table td:nth-child(2)::before {
     content: 'Amount: ';
     font-weight: 600;
-    color: var(--d4arf-gray);
+    color: var(--art-gray);
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -1597,7 +1622,7 @@ blockquote p {
   .issue-agency-table td:nth-child(3)::before {
     content: 'Date: ';
     font-weight: 600;
-    color: var(--d4arf-gray);
+    color: var(--art-gray);
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -1608,7 +1633,7 @@ blockquote p {
 
 /* Red accent bar on finding paragraphs (those starting with bold lead-in) */
 .issue-red-flags > p:has(> strong:first-child) {
-  border-left: 4px solid var(--d4arf-red);
+  border-left: 4px solid var(--art-red);
   padding-left: 1.25rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1619,12 +1644,12 @@ blockquote p {
 /* Separator between red flag items */
 .issue-red-flags > p:has(> strong:first-child) + p:has(> strong:first-child) {
   padding-top: 1.75rem;
-  border-top: 1px solid var(--d4arf-border);
+  border-top: 1px solid var(--art-border);
 }
 
 /* --- Symmetry Section — Visually distinct argument section --- */
 .issue-symmetry {
-  background: var(--d4arf-gray-light);
+  background: var(--art-gray-light);
   margin: 2.5rem -1.5rem 2.5rem;
   padding: 2.5rem 1.5rem 2rem;
   border-radius: 8px;
@@ -1637,8 +1662,8 @@ blockquote p {
 /* Questions summary box */
 .issue-questions {
   background: var(--color-bg-surface);
-  border: 1px solid var(--d4arf-border);
-  border-left: 4px solid var(--d4arf-red);
+  border: 1px solid var(--art-border);
+  border-left: 4px solid var(--art-red);
   border-radius: 0 8px 8px 0;
   padding: 1.25rem 1.5rem;
   margin: 1.5rem 0;
@@ -1652,11 +1677,11 @@ blockquote p {
 .issue-questions li {
   padding: 0.4rem 0;
   line-height: 1.6;
-  color: var(--d4arf-black);
+  color: var(--art-black);
 }
 
 .issue-questions li + li {
-  border-top: 1px solid var(--d4arf-border);
+  border-top: 1px solid var(--art-border);
 }
 
 /* --- Demands — Numbered action list with visual weight --- */
@@ -1671,9 +1696,9 @@ blockquote p {
   position: relative;
   padding: 1.25rem 1.25rem 1.25rem 4rem;
   margin-bottom: 1rem;
-  background: var(--d4arf-gray-light);
+  background: var(--art-gray-light);
   border-radius: 8px;
-  border: 1px solid var(--d4arf-border);
+  border: 1px solid var(--art-border);
   line-height: 1.65;
 }
 
@@ -1687,7 +1712,7 @@ blockquote p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   color: #fff;
   font-family: var(--font-display);
   font-weight: 700;
@@ -1697,7 +1722,7 @@ blockquote p {
 }
 
 .issue-demands ol li strong {
-  color: var(--d4arf-black);
+  color: var(--art-black);
 }
 
 @media (max-width: 600px) {
@@ -1732,7 +1757,7 @@ blockquote p {
   left: 0;
   right: 0;
   height: 4px;
-  background: var(--d4arf-red);
+  background: var(--art-red);
 }
 
 /* --- Copy to Clipboard Button --- */
@@ -1745,8 +1770,8 @@ blockquote p {
   font-weight: 600;
   font-size: 0.8rem;
   background: transparent;
-  color: var(--d4arf-red);
-  border: 2px solid var(--d4arf-red);
+  color: var(--art-red);
+  border: 2px solid var(--art-red);
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
@@ -1756,20 +1781,20 @@ blockquote p {
 }
 
 .copy-letter-btn:hover {
-  background: var(--d4arf-red);
+  background: var(--art-red);
   color: #fff;
 }
 
 .copy-letter-btn:focus-visible {
-  outline: 3px solid var(--d4arf-red);
+  outline: 3px solid var(--art-red);
   outline-offset: 2px;
 }
 
 .copy-letter-btn--copied,
 .copy-letter-btn--copied:hover {
-  background: var(--d4arf-green);
+  background: var(--art-green);
   color: #fff;
-  border-color: var(--d4arf-green);
+  border-color: var(--art-green);
 }
 
 /* --- Compact Letter Template (shorter letters on take-action page) --- */
@@ -1788,15 +1813,15 @@ blockquote p {
 /* --- Email Callout — Distinct shorter-version styling --- */
 .email-callout {
   background: var(--color-bg-surface);
-  border: 1px solid var(--d4arf-border);
-  border-left: 4px solid var(--d4arf-green);
+  border: 1px solid var(--art-border);
+  border-left: 4px solid var(--art-green);
   font-size: 0.95rem;
 }
 
 /* --- Meeting Info Card — Accent-bordered details card --- */
 .meeting-info {
-  border-left: 4px solid var(--d4arf-red);
-  background: var(--d4arf-gray-light);
+  border-left: 4px solid var(--art-red);
+  background: var(--art-gray-light);
   border-radius: 0 8px 8px 0;
   padding: 1.25rem 1.5rem 1rem;
   margin: 1.5rem 0;
@@ -1810,7 +1835,7 @@ blockquote p {
 
 .meeting-info li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 1px solid var(--art-border);
   line-height: 1.6;
   font-size: 0.95rem;
 }
@@ -1828,7 +1853,7 @@ blockquote p {
   margin-top: 0;
   margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 1px solid var(--art-border);
 }
 
 /* --- Meeting Grid — Side-by-side on desktop, stacked on mobile --- */
@@ -1853,8 +1878,8 @@ blockquote p {
 /* --- Script Card — Rehearsal card for public comment scripts --- */
 .script-card {
   background: var(--color-bg-surface);
-  border: 2px solid var(--d4arf-border);
-  border-left: 6px solid var(--d4arf-red);
+  border: 2px solid var(--art-border);
+  border-left: 6px solid var(--art-red);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   padding: 1.5rem 1.5rem 1.5rem 1.75rem;
 }
@@ -1884,9 +1909,9 @@ blockquote p {
 
 .action-nav a:hover,
 .action-nav a:focus-visible {
-  background: var(--d4arf-accent);
+  background: var(--art-accent);
   color: #fff;
-  outline: 2px solid var(--d4arf-accent);
+  outline: 2px solid var(--art-accent);
   outline-offset: 2px;
 }
 
@@ -1898,8 +1923,8 @@ blockquote p {
 .action-step {
   counter-increment: action-steps;
   position: relative;
-  background: var(--d4arf-gray-light);
-  border: 1px solid var(--d4arf-border);
+  background: var(--art-gray-light);
+  border: 1px solid var(--art-border);
   border-radius: 8px;
   padding: 2rem 2rem 1.5rem 4.5rem;
   margin-bottom: 2rem;
@@ -1920,7 +1945,7 @@ blockquote p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   color: #fff;
   font-family: var(--font-display);
   font-weight: 700;
@@ -1963,21 +1988,21 @@ blockquote p {
 /* --- Press Quotes — Pull quote cards with extra spacing --- */
 .press-quotes .pull-quote {
   background: var(--color-bg-surface);
-  border: 1px solid var(--d4arf-border);
-  border-left: 6px solid var(--d4arf-red);
+  border: 1px solid var(--art-border);
+  border-left: 6px solid var(--art-red);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
   margin: 1.5rem 0;
 }
 
 .press-quotes .pull-quote-attribution {
   font-size: 0.85rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   font-style: italic;
 }
 
 /* --- Press Resources — Compact reference card --- */
 .press-resources {
-  background: var(--d4arf-gray-light);
+  background: var(--art-gray-light);
   border-radius: 8px;
   padding: 1.5rem 1.75rem;
   margin: 2rem 0;
@@ -1987,7 +2012,7 @@ blockquote p {
   margin-top: 0;
   font-size: clamp(1.15rem, 2vw, 1.35rem);
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--d4arf-border);
+  border-bottom: 2px solid var(--art-border);
   margin-bottom: 1rem;
 }
 
@@ -1999,7 +2024,7 @@ blockquote p {
 
 .press-resources li {
   padding: 0.6rem 0;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 1px solid var(--art-border);
   line-height: 1.6;
   font-size: 0.95rem;
 }
@@ -2011,7 +2036,7 @@ blockquote p {
 
 /* --- Approach Pillars — Gray accent bar on bold-lead paragraphs --- */
 .approach-pillars > p:has(> strong:first-child) {
-  border-left: 4px solid var(--d4arf-gray);
+  border-left: 4px solid var(--art-gray);
   padding-left: 1.25rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -2021,13 +2046,13 @@ blockquote p {
 
 .approach-pillars > p:has(> strong:first-child) + p:has(> strong:first-child) {
   padding-top: 1.75rem;
-  border-top: 1px solid var(--d4arf-border);
+  border-top: 1px solid var(--art-border);
 }
 
 /* --- FAQ Section — Visually distinct Q&A pairs --- */
 .faq-section .faq-item {
   padding: 1.5rem 0;
-  border-bottom: 1px solid var(--d4arf-border);
+  border-bottom: 1px solid var(--art-border);
 }
 
 .faq-section .faq-item:first-of-type {
@@ -2042,12 +2067,12 @@ blockquote p {
 .faq-section .faq-item > p:first-child {
   font-family: var(--font-display);
   font-size: 1.1rem;
-  color: var(--d4arf-black);
+  color: var(--art-black);
   margin-bottom: 0.5rem;
 }
 
 .faq-section .faq-item > p:last-child {
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   margin-bottom: 0;
   line-height: 1.7;
 }
@@ -2055,18 +2080,18 @@ blockquote p {
 /* --- Campaign Attribution — Subtle footer note --- */
 .campaign-attribution {
   font-size: 0.85rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   margin-top: 2.5rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--d4arf-border);
+  border-top: 1px solid var(--art-border);
 }
 
 /* ==========================================================================
    AUDIENCE SUB-NAV — Cross-links between audience pages
    ========================================================================== */
 .audience-nav {
-  background: var(--d4arf-gray-light);
-  border-bottom: 1px solid var(--d4arf-border);
+  background: var(--art-gray-light);
+  border-bottom: 1px solid var(--art-border);
 }
 
 .audience-nav .container {
@@ -2089,7 +2114,7 @@ blockquote p {
   font-family: var(--font-sans);
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   text-decoration: none;
   white-space: nowrap;
   border-bottom: 3px solid transparent;
@@ -2097,12 +2122,12 @@ blockquote p {
 }
 
 .audience-nav-list a:hover {
-  color: var(--d4arf-red);
+  color: var(--art-red);
 }
 
 .audience-nav-list a[aria-current="page"] {
-  color: var(--d4arf-red);
-  border-bottom-color: var(--d4arf-red);
+  color: var(--art-red);
+  border-bottom-color: var(--art-red);
 }
 
 @media (max-width: 600px) {
@@ -2115,7 +2140,7 @@ blockquote p {
 .page-flow {
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--d4arf-border);
+  border-top: 1px solid var(--art-border);
   text-align: right;
 }
 
@@ -2126,20 +2151,20 @@ blockquote p {
 /* === Source Citations === */
 .source-citation {
   font-size: 0.85rem;
-  color: var(--d4arf-gray);
-  border-left: 3px solid var(--d4arf-border);
+  color: var(--art-gray);
+  border-left: 3px solid var(--art-border);
   padding-left: 0.75rem;
   margin-top: 0.5rem;
   font-style: italic;
 }
 
 .source-citation a {
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   text-decoration: underline;
 }
 
 .source-citation a:hover {
-  color: var(--d4arf-red);
+  color: var(--art-red);
 }
 
 /* --- Fact/Detail table mobile labels (legislators, press kit) --- */
@@ -2171,19 +2196,19 @@ blockquote p {
   background: none;
   border: 1px solid transparent;
   border-radius: 6px;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   cursor: pointer;
   transition: color 0.15s, background-color 0.15s, border-color 0.15s;
 }
 
 .theme-toggle-btn:hover {
-  color: var(--d4arf-black);
-  background: var(--d4arf-gray-light);
-  border-color: var(--d4arf-border);
+  color: var(--art-black);
+  background: var(--art-gray-light);
+  border-color: var(--art-border);
 }
 
 .theme-toggle-btn:focus-visible {
-  outline: 3px solid var(--d4arf-red);
+  outline: 3px solid var(--art-red);
   outline-offset: 2px;
 }
 
@@ -2225,25 +2250,26 @@ html.theme-transition *::after {
               color 0.3s ease,
               border-color 0.3s ease,
               box-shadow 0.3s ease,
-              fill 0.3s ease !important;
+              fill 0.3s ease,
+              opacity 0.3s ease !important;
 }
 
 /* ==========================================================================
    DARK MODE — Design Tokens
    ========================================================================== */
 [data-theme="dark"] {
-  --d4arf-red: #EF4444;
-  --d4arf-green: #22C55E;
-  --d4arf-accent: #5ec4d4;
-  --d4arf-accent-light: #1a2f35;
-  --d4arf-black: #E5E7EB;
-  --d4arf-white: #121218;
+  --art-red: #EF4444;
+  --art-green: #22C55E;
+  --art-accent: #5ec4d4;
+  --art-accent-light: #1a2f35;
+  --art-black: #E5E7EB;
+  --art-white: #121218;
 
-  --d4arf-red-light: rgba(239, 68, 68, 0.12);
-  --d4arf-green-light: rgba(34, 197, 94, 0.12);
-  --d4arf-gray: #9CA3AF;
-  --d4arf-gray-light: #1E1E28;
-  --d4arf-border: #2D2D3A;
+  --art-red-light: rgba(239, 68, 68, 0.12);
+  --art-green-light: rgba(34, 197, 94, 0.12);
+  --art-gray: #9CA3AF;
+  --art-gray-light: #1E1E28;
+  --art-border: #2D2D3A;
 
   --color-bg-page: #121218;
   --color-bg-panel: #1E1E28;
@@ -2254,18 +2280,18 @@ html.theme-transition *::after {
   --color-text-secondary: #9CA3AF;
   --color-border: #2D2D3A;
 
-  --d4arf-link: var(--color-link);
-  --d4arf-link-hover: var(--color-link-hover);
+  --art-link: var(--color-link);
+  --art-link-hover: var(--color-link-hover);
 
   /* Pico overrides for dark */
-  --pico-color: var(--d4arf-black);
+  --pico-color: var(--art-black);
   --pico-background-color: var(--color-bg-page);
-  --pico-primary: var(--d4arf-red);
-  --pico-primary-hover: var(--d4arf-link-hover);
-  --pico-muted-color: var(--d4arf-gray);
-  --pico-muted-border-color: var(--d4arf-border);
+  --pico-primary: var(--art-red);
+  --pico-primary-hover: var(--art-link-hover);
+  --pico-muted-color: var(--art-gray);
+  --pico-muted-border-color: var(--art-border);
   --pico-card-background-color: #1A1A24;
-  --pico-card-border-color: var(--d4arf-border);
+  --pico-card-border-color: var(--art-border);
   --pico-card-sectioning-background-color: #1E1E28;
 }
 
@@ -2276,32 +2302,32 @@ html.theme-transition *::after {
 /* --- Navigation --- */
 [data-theme="dark"] .site-nav {
   background: #15151D;
-  border-bottom-color: var(--d4arf-border);
+  border-bottom-color: var(--art-border);
 }
 
 [data-theme="dark"] .nav-links a:hover,
 [data-theme="dark"] .nav-links a[aria-current="page"] {
-  color: var(--d4arf-red);
-  background-color: var(--d4arf-red-light);
+  color: var(--art-red);
+  background-color: var(--art-red-light);
 }
 
 @media (max-width: 768px) {
   [data-theme="dark"] .nav-links {
     background: #15151D;
-    border-bottom-color: var(--d4arf-border);
+    border-bottom-color: var(--art-border);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
 }
 
 /* --- Skip Link --- */
-/* Dark-mode --d4arf-red is #EF4444 which gives only ~3.7:1 against #fff.
+/* Dark-mode --art-red is #EF4444 which gives only ~3.7:1 against #fff.
    Pin to the light-mode red (#B91C1C → 5.7:1 ratio) for WCAG AA. */
 [data-theme="dark"] .skip-link {
   background: #B91C1C;
 }
 
 [data-theme="dark"] .skip-link:focus {
-  outline-color: var(--d4arf-red);
+  outline-color: var(--art-red);
 }
 
 /* --- Focus States --- */
@@ -2324,50 +2350,50 @@ html.theme-transition *::after {
 /* --- Pathway Cards --- */
 [data-theme="dark"] .pathway-card {
   background: #1A1A24;
-  border-color: var(--d4arf-border);
-  color: var(--d4arf-black);
+  border-color: var(--art-border);
+  color: var(--art-black);
 }
 
 [data-theme="dark"] .pathway-card:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-  color: var(--d4arf-black);
+  color: var(--art-black);
 }
 
 /* --- Letter Template --- */
 [data-theme="dark"] .letter-template {
   background-color: #1A1A24;
-  border-color: var(--d4arf-border);
+  border-color: var(--art-border);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 [data-theme="dark"] .letter-template .letter-heading {
-  background: var(--d4arf-gray-light);
-  border-bottom-color: var(--d4arf-border);
+  background: var(--art-gray-light);
+  border-bottom-color: var(--art-border);
 }
 
 /* --- Issue Questions --- */
 [data-theme="dark"] .issue-questions {
   background: #1A1A24;
-  border-color: var(--d4arf-border);
+  border-color: var(--art-border);
 }
 
 /* --- Script Card --- */
 [data-theme="dark"] .script-card {
   background: #1A1A24;
-  border-color: var(--d4arf-border);
+  border-color: var(--art-border);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* --- Email Callout --- */
 [data-theme="dark"] .email-callout {
   background: #1A1A24;
-  border-color: var(--d4arf-border);
+  border-color: var(--art-border);
 }
 
 /* --- Press Quotes --- */
 [data-theme="dark"] .press-quotes .pull-quote {
   background: #1A1A24;
-  border-color: var(--d4arf-border);
+  border-color: var(--art-border);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
 }
 
@@ -2392,8 +2418,8 @@ html.theme-transition *::after {
 /* --- Blockquote --- */
 [data-theme="dark"] blockquote {
   background-color: rgba(185, 28, 28, 0.1);
-  border-left-color: var(--d4arf-red);
-  color: var(--d4arf-gray);
+  border-left-color: var(--art-red);
+  color: var(--art-gray);
 }
 
 /* --- Callout --- */
@@ -2403,26 +2429,26 @@ html.theme-transition *::after {
 
 /* --- Key Finding --- */
 [data-theme="dark"] .key-finding {
-  background: var(--d4arf-accent-light);
-  border-left-color: var(--d4arf-accent);
+  background: var(--art-accent-light);
+  border-left-color: var(--art-accent);
 }
 
 /* --- Tables --- */
 [data-theme="dark"] .issue-agency-table td {
-  border-bottom-color: var(--d4arf-border);
+  border-bottom-color: var(--art-border);
 }
 
 [data-theme="dark"] .issue-agency-table tbody tr:last-child td {
-  border-bottom-color: var(--d4arf-red);
+  border-bottom-color: var(--art-red);
 }
 
 @media (max-width: 600px) {
   [data-theme="dark"] .issue-agency-table tbody tr {
-    background: var(--d4arf-gray-light);
+    background: var(--art-gray-light);
   }
 
   [data-theme="dark"] .issue-agency-table td:first-child {
-    border-bottom-color: var(--d4arf-border);
+    border-bottom-color: var(--art-border);
   }
 }
 
@@ -2434,7 +2460,7 @@ html.theme-transition *::after {
 
 /* --- Legal Reference --- */
 [data-theme="dark"] .legal-reference {
-  background: var(--d4arf-red-light);
+  background: var(--art-red-light);
 }
 
 [data-theme="dark"] .legal-reference li {
@@ -2447,7 +2473,7 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .timeline-marker {
-  border-color: var(--d4arf-white);
+  border-color: var(--art-white);
   box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25);
 }
 
@@ -2456,55 +2482,55 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .timeline-event--escalation .timeline-content {
-  background: var(--d4arf-red-light);
-  color: var(--d4arf-black);
+  background: var(--art-red-light);
+  color: var(--art-black);
 }
 
 /* --- Hero and Landing Hero: already dark or using variables, verify --- */
-/* The hero uses --d4arf-black as bg, which is now light text in dark mode.
+/* The hero uses --art-black as bg, which is now light text in dark mode.
    The hero is always visually dark, so pin it. */
 [data-theme="dark"] .hero {
   background-color: #0D0D12;
 }
 
 [data-theme="dark"] .landing-hero {
-  background-color: var(--d4arf-gray-light);
+  background-color: var(--art-gray-light);
 }
 
 /* --- Graph hint (used on graph page but has generic background) --- */
 [data-theme="dark"] .graph-hint p {
   background: rgba(18, 18, 24, 0.85);
-  border-color: var(--d4arf-border);
+  border-color: var(--art-border);
 }
 
 /* --- Audience Sub-Nav (dark mode) --- */
 [data-theme="dark"] .audience-nav {
   background: #15151D;
-  border-bottom-color: var(--d4arf-border);
+  border-bottom-color: var(--art-border);
 }
 
 [data-theme="dark"] .audience-nav-list a {
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
 }
 
 [data-theme="dark"] .audience-nav-list a:hover {
-  color: var(--d4arf-red);
+  color: var(--art-red);
 }
 
 [data-theme="dark"] .audience-nav-list a[aria-current="page"] {
-  color: var(--d4arf-red);
-  border-bottom-color: var(--d4arf-red);
+  color: var(--art-red);
+  border-bottom-color: var(--art-red);
 }
 
 /* --- 404 Page (dark mode) --- */
 [data-theme="dark"] .not-found-message {
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
 }
 
 /* --- Document Items (dark mode) --- */
 [data-theme="dark"] .document-item {
-  background: var(--d4arf-gray-light);
-  border-left-color: var(--d4arf-red);
+  background: var(--art-gray-light);
+  border-left-color: var(--art-red);
 }
 
 [data-theme="dark"] .document-item:hover {
@@ -2512,8 +2538,8 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .doc-source {
-  background: var(--d4arf-border);
-  color: var(--d4arf-gray);
+  background: var(--art-border);
+  color: var(--art-gray);
 }
 
 /* ==========================================================================
@@ -2526,7 +2552,7 @@ html.theme-transition *::after {
 }
 
 .not-found-message {
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
@@ -2553,7 +2579,7 @@ html.theme-transition *::after {
   top: 0;
   bottom: 0;
   width: 3px;
-  background: var(--d4arf-border);
+  background: var(--art-border);
 }
 
 .timeline {
@@ -2571,7 +2597,7 @@ html.theme-transition *::after {
   top: 0;
   bottom: 0;
   width: 3px;
-  background: var(--d4arf-border);
+  background: var(--art-border);
 }
 
 .timeline .timeline-event {
@@ -2588,8 +2614,8 @@ html.theme-transition *::after {
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--d4arf-red);
-  border: 3px solid var(--d4arf-white);
+  background: var(--art-red);
+  border: 3px solid var(--art-white);
   z-index: 1;
 }
 
@@ -2614,7 +2640,7 @@ html.theme-transition *::after {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.9rem;
-  color: var(--d4arf-red);
+  color: var(--art-red);
   margin-bottom: 0.25rem;
 }
 
@@ -2627,7 +2653,7 @@ html.theme-transition *::after {
 
 .timeline .timeline-event p {
   font-size: 0.95rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   margin: 0;
 }
 
@@ -2635,7 +2661,7 @@ html.theme-transition *::after {
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.4rem;
-  color: var(--d4arf-black);
+  color: var(--art-black);
   padding-left: 3rem;
   margin: 2.5rem 0 1rem;
   position: sticky;
@@ -2676,8 +2702,8 @@ html.theme-transition *::after {
 }
 
 .action-tier-label--quick {
-  background: var(--d4arf-green-light);
-  color: var(--d4arf-green);
+  background: var(--art-green-light);
+  color: var(--art-green);
 }
 
 .action-tier-label--medium {
@@ -2686,8 +2712,8 @@ html.theme-transition *::after {
 }
 
 .action-tier-label--ongoing {
-  background: var(--d4arf-red-light);
-  color: var(--d4arf-red);
+  background: var(--art-red-light);
+  color: var(--art-red);
 }
 
 [data-theme="dark"] .action-tier-label--quick {
@@ -2726,17 +2752,17 @@ html.theme-transition *::after {
 
 .bar-chart-bar {
   height: 2rem;
-  background: var(--d4arf-red);
+  background: var(--art-red);
   border-radius: 4px;
   position: relative;
 }
 
 .bar-chart-bar--secondary {
-  background: var(--d4arf-green);
+  background: var(--art-green);
 }
 
 .bar-chart-bar--tertiary {
-  background: var(--d4arf-gray);
+  background: var(--art-gray);
 }
 
 /* ==========================================================================
@@ -2753,8 +2779,8 @@ html.theme-transition *::after {
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--d4arf-white);
-    border-top: 1px solid var(--d4arf-border);
+    background: var(--art-white);
+    border-top: 1px solid var(--art-border);
     padding: 0.75rem 1rem;
     z-index: 100;
     text-align: center;
@@ -2788,7 +2814,7 @@ html.theme-transition *::after {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--d4arf-accent);
+  color: var(--art-accent);
   margin-bottom: 0.5rem;
   display: block;
 }
@@ -2796,7 +2822,7 @@ html.theme-transition *::after {
 /* --- Section Break Rule (short, colored bar) --- */
 hr.section-break {
   border: none;
-  border-top: 3px solid var(--d4arf-accent);
+  border-top: 3px solid var(--art-accent);
   max-width: 4rem;
   margin: 3rem 0;
 }
@@ -2806,7 +2832,7 @@ hr.section-break {
    ========================================================================== */
 .evidence-card {
   border: 1px solid var(--color-border);
-  border-top: 3px solid var(--d4arf-accent);
+  border-top: 3px solid var(--art-accent);
   padding: 1.5rem 2rem;
   background: var(--color-bg-surface);
   margin: 2rem 0;
@@ -2832,15 +2858,15 @@ hr.section-break {
 [data-theme="dark"] .evidence-card {
   background: var(--color-bg-surface);
   border-color: var(--color-border);
-  border-top-color: var(--d4arf-accent);
+  border-top-color: var(--art-accent);
 }
 
 /* ==========================================================================
    CALLOUT BOX — Hard-edge, The Markup pattern
    ========================================================================== */
 .callout-box {
-  border: 2px solid var(--d4arf-black);
-  box-shadow: 4px 4px 0 var(--d4arf-black);
+  border: 2px solid var(--art-black);
+  box-shadow: 4px 4px 0 var(--art-black);
   padding: 1.5rem 2rem;
   background: var(--color-bg-surface);
   margin: 2rem 0;
@@ -2882,7 +2908,7 @@ hr.section-break {
   padding: 1.5rem;
   background: var(--color-bg-surface);
   border: 1px solid var(--color-border);
-  border-left: 4px solid var(--d4arf-accent);
+  border-left: 4px solid var(--art-accent);
   border-radius: 0 4px 4px 0;
   text-decoration: none;
   color: var(--color-text-primary);
@@ -2901,7 +2927,7 @@ hr.section-break {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--d4arf-accent);
+  color: var(--art-accent);
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -2916,14 +2942,14 @@ hr.section-break {
 .role-card-link {
   font-family: var(--font-sans);
   font-weight: 600;
-  color: var(--d4arf-accent);
+  color: var(--art-accent);
   font-size: var(--text-sm);
 }
 
 [data-theme="dark"] .role-card {
   background: var(--color-bg-surface);
   border-color: var(--color-border);
-  border-left-color: var(--d4arf-accent);
+  border-left-color: var(--art-accent);
 }
 
 [data-theme="dark"] .role-card:hover {
@@ -2932,7 +2958,7 @@ hr.section-break {
 }
 
 .role-card:focus-visible {
-  outline: 2px solid var(--d4arf-accent);
+  outline: 2px solid var(--art-accent);
   outline-offset: -2px;
 }
 
@@ -2975,17 +3001,17 @@ hr.section-break {
 @media print {
   /* Force light-mode design tokens for print */
   :root {
-    --d4arf-red: #B91C1C;
-    --d4arf-green: #166534;
-    --d4arf-black: #1A1A1A;
-    --d4arf-white: #FAFAFA;
-    --d4arf-red-light: #FEE2E2;
-    --d4arf-green-light: #DCFCE7;
-    --d4arf-gray: #4B5563;
-    --d4arf-gray-light: #F3F4F6;
-    --d4arf-border: #E5E7EB;
-    --d4arf-link: #B91C1C;
-    --d4arf-link-hover: #991B1B;
+    --art-red: #B91C1C;
+    --art-green: #166534;
+    --art-black: #1A1A1A;
+    --art-white: #FAFAFA;
+    --art-red-light: #FEE2E2;
+    --art-green-light: #DCFCE7;
+    --art-gray: #4B5563;
+    --art-gray-light: #F3F4F6;
+    --art-border: #E5E7EB;
+    --art-link: #B91C1C;
+    --art-link-hover: #991B1B;
   }
 
   /* Hide non-content elements */
@@ -3097,7 +3123,7 @@ hr.section-break {
 
   /* Footer attribution */
   body::after {
-    content: "divestforarfuture.github.io";
+    content: "arpensions.org";
     display: block;
     text-align: center;
     margin-top: 2rem;
@@ -3118,8 +3144,8 @@ hr.section-break {
 .document-item {
   padding: 1.25rem 1.5rem;
   margin-bottom: 1rem;
-  background: var(--d4arf-gray-light);
-  border-left: 4px solid var(--d4arf-red);
+  background: var(--art-gray-light);
+  border-left: 4px solid var(--art-red);
   border-radius: 0 8px 8px 0;
 }
 
@@ -3152,7 +3178,7 @@ hr.section-break {
   width: 16px;
   height: 16px;
   margin-top: 0.2rem;
-  color: var(--d4arf-red);
+  color: var(--art-red);
 }
 
 /* ==========================================================================
@@ -3162,7 +3188,7 @@ hr.section-break {
   display: block;
   font-size: 0.9rem;
   font-weight: 400;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   line-height: 1.5;
   margin-top: 0.25rem;
 }
@@ -3172,10 +3198,10 @@ hr.section-break {
   font-size: 0.75rem;
   font-family: var(--font-sans);
   font-weight: 600;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  background: var(--d4arf-gray-light);
+  background: var(--art-gray-light);
   padding: 0.15rem 0.5rem;
   border-radius: 3px;
   margin-top: 0.35rem;

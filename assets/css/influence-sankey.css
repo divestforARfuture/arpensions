@@ -7,21 +7,21 @@
 .influence-flow-section {
   margin: 2.5rem 0;
   padding: 1.5rem 0;
-  border-top: 0.5px solid var(--d4arf-border);
+  border-top: 0.5px solid var(--art-border);
 }
 
 .influence-flow-heading {
   font-family: var(--font-elegant);
   font-weight: 400;
   font-size: 1.25rem;
-  color: var(--d4arf-black);
+  color: var(--art-black);
   margin: 0 0 0.35rem;
   line-height: 1.3;
 }
 
 .influence-flow-sub {
   font-size: 0.85rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   margin: 0 0 1.25rem;
   line-height: 1.55;
   max-width: 640px;
@@ -44,15 +44,15 @@
   z-index: 20;
   pointer-events: none;
   background: var(--color-bg-surface, #fff);
-  border: 1px solid var(--d4arf-border);
-  border-left: 3px solid var(--d4arf-accent);
+  border: 1px solid var(--art-border);
+  border-left: 3px solid var(--art-accent);
   border-radius: 0 2px 2px 0;
   padding: 0.5rem 0.7rem;
   max-width: 280px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-family: var(--font-body);
   font-size: 0.8rem;
-  color: var(--d4arf-black);
+  color: var(--art-black);
   line-height: 1.45;
 }
 
@@ -71,7 +71,7 @@
   gap: 0.4rem;
   font-size: 0.7rem;
   font-family: var(--font-mono);
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
 }
 
 .sankey-legend-dot {
@@ -84,7 +84,7 @@
 /* --- Note --- */
 .influence-flow-note {
   font-size: 0.8rem;
-  color: var(--d4arf-gray);
+  color: var(--art-gray);
   line-height: 1.55;
   margin: 0.75rem 0 0;
   font-style: italic;
@@ -97,8 +97,8 @@
 
 [data-theme="dark"] .sankey-tooltip {
   background: #1A1A24;
-  border-color: var(--d4arf-border);
-  border-left-color: var(--d4arf-accent);
+  border-color: var(--art-border);
+  border-left-color: var(--art-accent);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
