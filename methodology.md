@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Our Methods — How We Conducted This Investigation"
-description: "How Divest for AR Future obtained, processed, and analyzed more than 1,200 public records from four Arkansas state agencies."
+description: "How Arkansans for Retirement Transparency obtained, processed, and analyzed more than 1,200 public records from four Arkansas state agencies."
 permalink: /methodology/
 ---
 
@@ -66,4 +66,4 @@ Some documents in Round 2 responses — including six sets of APERS board and co
 
 ## Verify Our Work
 
-We encourage journalists, researchers, and officials to verify any claim we make. Our [evidence page](/evidence/) cites specific documents for each finding. Our [documents archive](/documents/) provides access to key source materials. For questions about specific claims or methodology, contact us at [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me).
+We encourage journalists, researchers, and officials to verify any claim we make. Our [evidence page](/evidence/) cites specific documents for each finding. Our [documents archive](/documents/) provides access to key source materials. For questions about specific claims or methodology, contact us at [info@arpensions.org](mailto:info@arpensions.org).
