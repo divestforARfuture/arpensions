@@ -1,6 +1,6 @@
-title: Divest for AR Future
-description: "Protecting Arkansas pensions through transparency and accountability"
-url: "https://divestforarfuture.github.io"
+title: Arkansans for Retirement Transparency
+description: "Your Retirement. Your Right to Know."
+url: "https://arpensions.org"
 baseurl: ""
 permalink: /:title/
 locale: en_US
@@ -9,7 +9,7 @@ locale: en_US
 twitter:
   card: summary_large_image
 social:
-  name: Divest for AR Future
+  name: Arkansans for Retirement Transparency
 
 # Build settings
 markdown: kramdown

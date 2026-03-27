@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "About — Our Investigation, Approach, and Frequently Asked Questions"
-description: "Divest for AR Future is a grassroots Arkansas campaign fighting for pension transparency and fiduciary accountability."
+description: "Arkansans for Retirement Transparency (ART) is a grassroots Arkansas campaign fighting for pension transparency and fiduciary accountability."
 permalink: /about/
 ---
 
 ## Our mission
 
-Divest for AR Future is a grassroots campaign using public records and Arkansas law to hold pension decision-makers accountable to the fiduciary standards they are required to follow. When investment decisions bypass independent analysis and override internal staff recommendations, pension beneficiaries deserve answers.
+Arkansans for Retirement Transparency (ART) is a grassroots campaign using public records and Arkansas law to hold pension decision-makers accountable to the fiduciary standards they are required to follow. When investment decisions bypass independent analysis and override internal staff recommendations, pension beneficiaries deserve answers.
 
 <div class="approach-pillars" markdown="1">
 
@@ -84,7 +84,7 @@ Absolutely. Freedom of Information Act requests are a fundamental right under Ar
 
 **How is this campaign funded?**
 
-Divest for AR Future operates on a shoestring budget through small donations. We have no institutional funding and no paid staff. This is a volunteer-driven campaign.
+Arkansans for Retirement Transparency operates on a shoestring budget through small donations. We have no institutional funding and no paid staff. This is a volunteer-driven campaign.
 
 </div>
 
@@ -100,6 +100,6 @@ Divest for AR Future operates on a shoestring budget through small donations. We
 
 ## Contact
 
-**Email:** [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me)
+**Email:** [info@arpensions.org](mailto:info@arpensions.org)
 
-<p class="campaign-attribution">Divest for AR Future is a grassroots Arkansas campaign supported by community organizations in central Arkansas.</p>
+<p class="campaign-attribution">Arkansans for Retirement Transparency (ART) is a grassroots Arkansas campaign supported by community organizations in central Arkansas.</p>
