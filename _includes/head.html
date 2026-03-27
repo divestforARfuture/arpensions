@@ -10,7 +10,7 @@
 <!-- Critical paint: prevents flash while external CSS loads.
      Covers dark-mode background + logo swap (opacity stacking).
      Values hardcoded — keep in sync with main.css tokens. -->
-<style>html[data-theme="dark"]{background-color:#121218;color:#E5E7EB}html[data-theme="dark"] body{background-color:#121218}html[data-theme="dark"] .site-nav{background:#15151D}.logo-dark{position:absolute;top:0;left:0}[data-theme="dark"] .logo-light,[data-theme="light"] .logo-dark,:root:not([data-theme]) .logo-dark{opacity:0}</style>
+<style>html[data-theme="dark"]{background-color:#121218;color:#E5E7EB}html[data-theme="dark"] body{background-color:#121218}html[data-theme="dark"] .site-nav{background:#15151D}.logo-dark{position:absolute;top:0;left:0;pointer-events:none}[data-theme="dark"] .logo-light,[data-theme="light"] .logo-dark,:root:not([data-theme]) .logo-dark{opacity:0}[data-theme="dark"] .logo-dark,[data-theme="light"] .logo-light{opacity:1}</style>
 
 {% seo %}
 {% include jsonld.html %}
