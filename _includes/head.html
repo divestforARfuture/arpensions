@@ -7,9 +7,10 @@
 
 <!-- Anti-FOUC: set theme before any rendering (hash: sha256-cZT94bZPw+pFqDBmCYQS0gK6kqN0BbDKUcWKYcXZyoQ=) -->
 <script>(function(){var t=localStorage.getItem('art-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);})()</script>
-<!-- Critical dark-mode paint: prevents white flash while external CSS loads.
-     Values hardcoded — keep in sync with [data-theme="dark"] tokens in assets/css/main.css -->
-<style>html[data-theme="dark"]{background-color:#121218;color:#E5E7EB}html[data-theme="dark"] body{background-color:#121218}html[data-theme="dark"] .site-nav{background:#15151D}</style>
+<!-- Critical paint: prevents flash while external CSS loads.
+     Covers dark-mode background + logo swap (opacity stacking).
+     Values hardcoded — keep in sync with main.css tokens. -->
+<style>html[data-theme="dark"]{background-color:#121218;color:#E5E7EB}html[data-theme="dark"] body{background-color:#121218}html[data-theme="dark"] .site-nav{background:#15151D}.logo-dark{position:absolute;top:0;left:0}[data-theme="dark"] .logo-light,[data-theme="light"] .logo-dark,:root:not([data-theme]) .logo-dark{opacity:0}</style>
 
 {% seo %}
 {% include jsonld.html %}
