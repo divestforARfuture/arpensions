@@ -46,7 +46,9 @@ This is the public-facing campaign website for Arkansans for Retirement Transpar
 - Body: Inter
 - Data/mono: IBM Plex Mono
 
-**Logo:** "ART" wordmark with red underline on the A
+**Logo:** "ART" wordmark — Cormorant Garamond Medium (500) glyph outlines with red underline bar. Extracted via fonttools from CormorantGaramond-Medium.ttf (SIL OFL). Two variants: `art-logo.svg` (light, #1b2127) and `art-logo-dark.svg` (dark, #f8f7f5). ViewBox: 0 0 1994 747.
+
+**CSS custom properties:** All use `--art-*` prefix (e.g. `--art-red`, `--art-accent`). Renamed from `--d4arf-*` in PR #4.
 
 ## Development
 
@@ -60,8 +62,8 @@ bundle exec jekyll serve
 - `_config.yml` — site configuration
 - `_includes/` — nav, footer, head, components
 - `_layouts/` — default, page, post, landing
-- `assets/css/main.css` — core styles
-- `assets/css/elegant.css` — design layer
+- `assets/css/main.css` — core styles (~71KB, `--art-*` tokens)
+- `assets/css/elegant.css` — design layer (~33KB)
 - `assets/js/` — nav, theme toggle, animations
 
 ## Content Guidelines
@@ -76,9 +78,11 @@ bundle exec jekyll serve
 
 - WCAG AA compliance target
 - Skip links, semantic HTML, ARIA labels
-- Dark mode support
+- Dark mode support with opacity-based logo crossfade
 - Keyboard navigation
 - Focus indicators
+- `prefers-reduced-motion` respected for all transitions
+- `aria-hidden` managed dynamically on inactive logo variants
 
 ## Campaign Affiliation
 
@@ -88,19 +92,37 @@ Arkansans for Retirement Transparency operates as a campaign of Little Rock Peac
 
 ## Audit Log — March 27, 2026
 
-### Fixes applied (PR: fix/audit-critical-and-high-priority)
+### PR #2: Critical structural fixes
 
-**CRITICAL-1 — Nav HTML/CSS mismatch:** `_includes/nav.html` had been restructured with new CSS class names (`.nav-brand`, `.nav-container`, `.nav-menu`, `.nav-dropdown`, `.theme-toggle`, `.theme-icon`, `.nav-toggle-icon`) that had ZERO CSS definitions in `main.css` or `elegant.css`. Reverted to the reference site's HTML structure (which uses `.nav-logo`, `.nav-links`, `.nav-cta`, `.btn-nav-cta`, `.theme-toggle-btn`, `.icon-moon`, `.icon-sun` — all fully defined in existing CSS). Only logo src/alt/dimensions and aria-labels changed for the ART rebrand.
+**CRITICAL-1 — Nav HTML/CSS mismatch:** `nav.html` had been restructured with CSS classes that had zero definitions. Reverted to reference site structure with ART brand changes only.
 
-**CRITICAL-2 — Dark mode broken:** Two independent failures. (A) The theme toggle button lost its `id="theme-toggle"` attribute, so `theme-toggle.js` couldn't find it via `getElementById`. Fixed by nav.html revert. (B) The anti-FOUC script in `head.html` reads `localStorage.getItem('art-theme')` but `theme-toggle.js` was writing `d4arf-theme`. Fixed by updating the STORAGE_KEY in `theme-toggle.js`.
+**CRITICAL-2 — Dark mode broken:** Theme toggle button missing `id` attribute + localStorage key mismatch (`art-theme` vs `d4arf-theme`). Both fixed.
 
-**MEDIUM — robots.txt:** Restored OAI-SearchBot and PerplexityBot allow rules for AI search discoverability.
+**MEDIUM — robots.txt:** Restored OAI-SearchBot and PerplexityBot allow rules.
 
-**LOW — Cleanup:** Removed unused `d4arf-logo.png` and `d4arf-logo-dark.png` (230KB dead weight).
+**LOW:** Removed unused d4arf-logo PNG files.
 
-### Known remaining items (not in this PR)
+### PR #3: Logo replacement
 
-- `og-default.png` still shows D4ARF branding — needs design work (Yousra)
+Replaced hand-drawn geometric SVG with Cormorant Garamond Medium (500) glyph outlines extracted via fonttools. Red underline bar height set to 55 units (renders ~2px at nav size). Trailing newlines added to all files.
+
+### PR #4: Theme polish + CSS rename
+
+**Logo crossfade:** Changed from `display:none/block` to `opacity:0/1` with absolute positioning. Eliminates layout shift during toggle and between-page logo flash.
+
+**Anti-FOUC inline style:** Expanded to cover logo stacking, pointer-events, and explicit opacity values.
+
+**CSS rename:** Full `--d4arf-*` → `--art-*` custom property rename across all 5 CSS files.
+
+**JS improvements:** `prefers-reduced-motion` guard skips `theme-transition` class entirely. `updateLogoAria()` manages `aria-hidden` on inactive logo. Uses `removeAttribute` (not `"false"`).
+
+**Print URL:** `divestforarfuture.github.io` → `arpensions.org`.
+
+### PR #5: Final comment cleanup
+
+Renamed "D4ARF" → "ART" in source code comments: `charts.js` line 2, `network.css` line 3, `network.js` line 2.
+
+### Known remaining items
+
+- `og-default.png` still shows D4ARF branding — needs design work
 - `favicon.ico` still shows D4ARF branding — needs design work
-- The "For You" dropdown nav and reordered nav links (About, The Issue, Evidence, [For You], News) can be implemented as a follow-up PR once supporting CSS is written
-- Nav logo width may need CSS adjustment for the wider SVG wordmark — check rendered appearance

@@ -1,99 +1,102 @@
 /* ==========================================================================
-   D4ARF Charts — Chart.js visualizations for evidence and audience pages
+   ART Charts — Chart.js visualizations for evidence and audience pages
    Loaded conditionally on pages with front matter `charts: true`
    ========================================================================== */
 
 (function () {
   'use strict';
 
+  // Wait for Chart.js to be available
   if (typeof Chart === 'undefined') return;
 
-  // --- Theme-aware color palette ---
+  // --- Design tokens (matches main.css) ---
+  var COLORS = {
+    red: '#B91C1C',
+    redLight: '#FEE2E2',
+    green: '#166534',
+    greenLight: '#DCFCE7',
+    accent: '#0C7489',
+    accentLight: '#E0F2F7',
+    gray: '#556068',
+    grayLight: '#f0efec',
+    border: '#dee3e6',
+    black: '#1b2127',
+    white: '#f8f7f5'
+  };
+
+  var DARK_COLORS = {
+    red: '#EF4444',
+    redLight: 'rgba(239, 68, 68, 0.12)',
+    green: '#22C55E',
+    greenLight: 'rgba(34, 197, 94, 0.12)',
+    accent: '#5ec4d4',
+    accentLight: '#1a2f35',
+    gray: '#9CA3AF',
+    grayLight: '#1E1E28',
+    border: '#2D2D3A',
+    black: '#E5E7EB',
+    white: '#121218'
+  };
+
   function getColors() {
-    var dark = document.documentElement.getAttribute('data-theme') === 'dark';
-    return {
-      red:        dark ? '#EF4444' : '#B91C1C',
-      teal:       dark ? '#34D399' : '#0C7489',
-      amber:      dark ? '#F59E0B' : '#B45309',
-      grayFill:   dark ? '#1F2937' : '#E5E7EB',
-      text:       dark ? '#E5E7EB' : '#374151',
-      textMuted:  dark ? '#9CA3AF' : '#6B7280',
-      tooltipBg:  dark ? '#1A1A24' : '#FFFFFF',
-      gridLine:   dark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)'
-    };
+    var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    return isDark ? DARK_COLORS : COLORS;
   }
 
-  // --- Respect prefers-reduced-motion ---
-  var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // --- Font settings ---
+  Chart.defaults.font.family = "'Inter', system-ui, -apple-system, sans-serif";
+  Chart.defaults.font.size = 13;
+  Chart.defaults.color = COLORS.gray;
 
-  // Store chart instances for theme-change rebuild
-  var instances = {};
+  // --- Chart instances (for theme updates) ---
+  var chartInstances = [];
 
-  // =========================================================================
-  // EXPOSURE BAR CHART (evidence page)
-  // =========================================================================
+  // --- Theme change listener ---
+  document.addEventListener('themechange', function () {
+    chartInstances.forEach(function (chart) {
+      if (chart.updateColors) chart.updateColors();
+    });
+  });
 
+  // ==========================================================================
+  // EXPOSURE BAR CHART — Agency-level Israel Bonds exposure
+  // ==========================================================================
   function initExposureChart() {
     var canvas = document.getElementById('exposure-chart');
     if (!canvas) return;
 
-    var c = getColors();
     var ctx = canvas.getContext('2d');
+    var colors = getColors();
 
-    if (instances.exposure) instances.exposure.destroy();
-
-    instances.exposure = new Chart(ctx, {
+    var chart = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: [
-          'Arkansas Treasury',
-          'ATRS (Teachers)',
-          'APERS (Public Employees)'
-        ],
+        labels: ['State Treasury', 'ATRS', 'APERS'],
         datasets: [{
+          label: 'Exposure ($ millions)',
           data: [55, 50, 50],
-          backgroundColor: [c.red, c.teal, c.amber],
-          borderWidth: 0,
-          borderRadius: 2,
-          barPercentage: 0.6,
-          categoryPercentage: 0.8
+          backgroundColor: [colors.red, colors.accent, colors.green],
+          borderColor: [colors.red, colors.accent, colors.green],
+          borderWidth: 1,
+          borderRadius: 4,
+          barPercentage: 0.65
         }]
       },
       options: {
         indexAxis: 'y',
         responsive: true,
         maintainAspectRatio: false,
-        animation: {
-          duration: reducedMotion ? 0 : 800,
-          easing: 'easeOutCubic'
-        },
         plugins: {
           legend: { display: false },
           tooltip: {
-            backgroundColor: c.tooltipBg,
-            titleColor: c.text,
-            bodyColor: c.textMuted,
-            borderColor: c.gridLine,
-            borderWidth: 1,
+            backgroundColor: colors.black,
+            titleFont: { family: "'Inter', sans-serif", weight: '600' },
+            bodyFont: { family: "'IBM Plex Mono', monospace" },
             padding: 12,
-            cornerRadius: 2,
-            titleFont: {
-              family: 'Inter, system-ui, sans-serif',
-              size: 13,
-              weight: '600'
-            },
-            bodyFont: {
-              family: 'IBM Plex Mono, monospace',
-              size: 11
-            },
+            cornerRadius: 4,
             callbacks: {
               label: function (context) {
-                var details = [
-                  '$55M current holdings (~0.5% of $11B portfolio)',
-                  'Up to $50M authorized (~0.2% of $23.7B portfolio)',
-                  '$25\u201350M authorized (~0.2\u20130.4% of $11.8B portfolio)'
-                ];
-                return details[context.dataIndex] || '';
+                return '$' + context.parsed.x + 'M';
               }
             }
           }
@@ -102,146 +105,126 @@
           x: {
             beginAtZero: true,
             max: 60,
+            grid: { color: colors.border, lineWidth: 0.5 },
             ticks: {
               callback: function (value) { return '$' + value + 'M'; },
-              color: c.textMuted,
-              font: { family: 'IBM Plex Mono, monospace', size: 11 }
-            },
-            grid: { color: c.gridLine },
-            border: { display: false }
+              font: { family: "'IBM Plex Mono', monospace", size: 12 },
+              color: colors.gray
+            }
           },
           y: {
+            grid: { display: false },
             ticks: {
-              color: c.text,
-              font: {
-                family: 'Inter, system-ui, sans-serif',
-                size: 12,
-                weight: '500'
-              }
-            },
-            grid: { display: false }
+              font: { family: "'Inter', sans-serif", size: 13, weight: '600' },
+              color: colors.black
+            }
           }
         }
       }
     });
-  }
 
-  // =========================================================================
-  // FUNDED RATIO GAUGE (half-doughnut for audience pages)
-  // =========================================================================
-
-  function initFundedGauge(canvasId, ratio, label) {
-    var canvas = document.getElementById(canvasId);
-    if (!canvas) return;
-
-    var c = getColors();
-    var ctx = canvas.getContext('2d');
-
-    if (instances[canvasId]) instances[canvasId].destroy();
-
-    // Plugin: draw percentage + label text in the center of the half-doughnut
-    var centerTextPlugin = {
-      id: 'gaugeCenter_' + canvasId,
-      afterDraw: function (chart) {
-        var w = chart.width;
-        var h = chart.height;
-        var cx = chart.ctx;
-        var colors = getColors();
-
-        cx.save();
-
-        // Big percentage number
-        var pctSize = Math.max(28, Math.round(w * 0.13));
-        cx.font = '600 ' + pctSize + 'px Inter, system-ui, sans-serif';
-        cx.fillStyle = colors.text;
-        cx.textAlign = 'center';
-        cx.textBaseline = 'bottom';
-        cx.fillText(ratio + '%', w / 2, h * 0.82);
-
-        // Label below
-        var labelSize = Math.max(10, Math.round(w * 0.045));
-        cx.font = '500 ' + labelSize + 'px "IBM Plex Mono", monospace';
-        cx.fillStyle = colors.textMuted;
-        cx.textBaseline = 'top';
-        cx.fillText(label || 'Funded ratio', w / 2, h * 0.82 + 4);
-
-        cx.restore();
-      }
+    chart.updateColors = function () {
+      var c = getColors();
+      chart.data.datasets[0].backgroundColor = [c.red, c.accent, c.green];
+      chart.data.datasets[0].borderColor = [c.red, c.accent, c.green];
+      chart.options.scales.x.grid.color = c.border;
+      chart.options.scales.x.ticks.color = c.gray;
+      chart.options.scales.y.ticks.color = c.black;
+      chart.options.plugins.tooltip.backgroundColor = c.black;
+      chart.update('none');
     };
 
-    instances[canvasId] = new Chart(ctx, {
-      type: 'doughnut',
+    chartInstances.push(chart);
+  }
+
+  // ==========================================================================
+  // YIELD COMPARISON CHART — Israel Bonds vs alternatives
+  // ==========================================================================
+  function initYieldChart() {
+    var canvas = document.getElementById('yield-chart');
+    if (!canvas) return;
+
+    var ctx = canvas.getContext('2d');
+    var colors = getColors();
+
+    var chart = new Chart(ctx, {
+      type: 'bar',
       data: {
-        labels: ['Funded', 'Unfunded gap'],
+        labels: ['Israel Bonds (Jubilee)', 'US Treasury 10yr', 'AA Corp Bond', 'Muni Bond (AA)'],
         datasets: [{
-          data: [ratio, 100 - ratio],
-          backgroundColor: [c.teal, c.grayFill],
-          borderWidth: 0,
-          circumference: 180,
-          rotation: 270
+          label: 'Approximate Yield (%)',
+          data: [4.41, 4.25, 4.60, 3.80],
+          backgroundColor: [colors.red, colors.accent, colors.green, colors.gray],
+          borderColor: [colors.red, colors.accent, colors.green, colors.gray],
+          borderWidth: 1,
+          borderRadius: 4,
+          barPercentage: 0.6
         }]
       },
       options: {
         responsive: true,
-        maintainAspectRatio: true,
-        aspectRatio: 2,
-        cutout: '72%',
-        animation: {
-          duration: reducedMotion ? 0 : 1000,
-          easing: 'easeOutCubic'
-        },
+        maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
           tooltip: {
-            backgroundColor: c.tooltipBg,
-            titleColor: c.text,
-            bodyColor: c.textMuted,
-            borderColor: c.gridLine,
-            borderWidth: 1,
-            padding: 10,
-            cornerRadius: 2,
-            bodyFont: { family: 'IBM Plex Mono, monospace', size: 11 },
+            backgroundColor: colors.black,
+            titleFont: { family: "'Inter', sans-serif", weight: '600' },
+            bodyFont: { family: "'IBM Plex Mono', monospace" },
+            padding: 12,
+            cornerRadius: 4,
             callbacks: {
               label: function (context) {
-                if (context.dataIndex === 0) {
-                  return ratio + '% funded \u2014 assets on hand per dollar owed';
-                }
-                return (100 - ratio) + '% unfunded liability gap';
+                return context.parsed.y.toFixed(2) + '%';
               }
             }
           }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 6,
+            grid: { color: colors.border, lineWidth: 0.5 },
+            ticks: {
+              callback: function (value) { return value + '%'; },
+              font: { family: "'IBM Plex Mono', monospace", size: 12 },
+              color: colors.gray
+            }
+          },
+          x: {
+            grid: { display: false },
+            ticks: {
+              font: { family: "'Inter', sans-serif", size: 11 },
+              color: colors.black,
+              maxRotation: 0
+            }
+          }
         }
-      },
-      plugins: [centerTextPlugin]
+      }
     });
+
+    chart.updateColors = function () {
+      var c = getColors();
+      chart.data.datasets[0].backgroundColor = [c.red, c.accent, c.green, c.gray];
+      chart.data.datasets[0].borderColor = [c.red, c.accent, c.green, c.gray];
+      chart.options.scales.y.grid.color = c.border;
+      chart.options.scales.y.ticks.color = c.gray;
+      chart.options.scales.x.ticks.color = c.black;
+      chart.options.plugins.tooltip.backgroundColor = c.black;
+      chart.update('none');
+    };
+
+    chartInstances.push(chart);
   }
 
-  // =========================================================================
-  // INIT + THEME OBSERVER
-  // =========================================================================
-
-  function initAll() {
+  // --- Initialize on DOM ready ---
+  function init() {
     initExposureChart();
-    initFundedGauge('atrs-funded-gauge', 84, 'ATRS funded ratio');
-    initFundedGauge('apers-funded-gauge', 84, 'APERS funded ratio');
+    initYieldChart();
   }
 
-  // Rebuild all charts on theme change (colors update)
-  var themeObs = new MutationObserver(function (mutations) {
-    mutations.forEach(function (m) {
-      if (m.attributeName === 'data-theme') initAll();
-    });
-  });
-  themeObs.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ['data-theme']
-  });
-
-  // Boot
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initAll);
+    document.addEventListener('DOMContentLoaded', init);
   } else {
-    initAll();
+    init();
   }
-
 })();
