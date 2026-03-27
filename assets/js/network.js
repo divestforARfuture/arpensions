@@ -1,5 +1,5 @@
 /* ==========================================================================
-   D4ARF Network Visualization — Cytoscape.js investigative graph
+   ART Network Visualization — Cytoscape.js investigative graph
    Phase 1: Core Cytoscape migration
    Phase 2: Path-finding UI + URL hash state
    ========================================================================== */
