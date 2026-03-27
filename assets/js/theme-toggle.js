@@ -1,8 +1,8 @@
-// Dark mode / Light mode toggle for D4ARF
+// Dark mode / Light mode toggle for ART
 (function () {
   'use strict';
 
-  var STORAGE_KEY = 'd4arf-theme';
+  var STORAGE_KEY = 'art-theme';
 
   function getTheme() {
     var saved = localStorage.getItem(STORAGE_KEY);
