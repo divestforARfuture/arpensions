@@ -63,7 +63,7 @@
 
   links.forEach(function(link) {
     var href = (link.getAttribute('href') || '').replace(/\/+$/, '') || '/';
-    if (path === href) {
+    if (path === href || (href !== '/' && path.indexOf(href) === 0)) {
       link.setAttribute('aria-current', 'page');
     } else {
       link.removeAttribute('aria-current');
