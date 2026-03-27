@@ -1,5 +1,5 @@
 /* ==========================================================================
-   D4ARF Custom Theme — Pico CSS Overrides + Campaign Branding
+   ART Custom Theme — Pico CSS Overrides + Campaign Branding
    ========================================================================== */
 
 /* --- Design Tokens --- */
@@ -81,20 +81,40 @@
   --pico-primary-hover: var(--color-link-hover);
 }
 
-/* --- Logo theme swap — CSS only, no flash --- */
-[data-theme="light"] .logo-dark,
-[data-theme="dark"] .logo-light {
-  display: none;
+/* --- Logo theme swap — opacity crossfade, no layout reflow --- */
+/* Both images stay in DOM; dark logo is absolutely stacked on top of light. */
+.logo-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
 
-[data-theme="light"] .logo-light,
-[data-theme="dark"] .logo-dark {
-  display: block;
+.logo-light,
+.logo-dark {
+  transition: opacity 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-light,
+  .logo-dark {
+    transition: none;
+  }
+}
+
+[data-theme="dark"] .logo-light,
+[data-theme="light"] .logo-dark {
+  opacity: 0;
+}
+
+[data-theme="dark"] .logo-dark,
+[data-theme="light"] .logo-light {
+  opacity: 1;
 }
 
 /* Fallback: show light logo if data-theme hasn't been set (JS disabled) */
-:root:not([data-theme]) .logo-light { display: block; }
-:root:not([data-theme]) .logo-dark  { display: none; }
+:root:not([data-theme]) .logo-light { opacity: 1; }
+:root:not([data-theme]) .logo-dark  { opacity: 0; }
 
 /* --- Base --- */
 body {
@@ -286,6 +306,7 @@ article > section:first-child {
   font-family: var(--font-sans);
   font-weight: 700;
   font-size: 1.1rem;
+  position: relative;
 }
 
 .nav-logo img {
@@ -1187,6 +1208,10 @@ blockquote p {
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   gap: 2rem 3rem;
   margin-bottom: 3rem;
+}
+
+.footer-brand {
+  position: relative;
 }
 
 .footer-brand img {
@@ -2225,7 +2250,8 @@ html.theme-transition *::after {
               color 0.3s ease,
               border-color 0.3s ease,
               box-shadow 0.3s ease,
-              fill 0.3s ease !important;
+              fill 0.3s ease,
+              opacity 0.3s ease !important;
 }
 
 /* ==========================================================================
@@ -3097,7 +3123,7 @@ hr.section-break {
 
   /* Footer attribution */
   body::after {
-    content: "divestforarfuture.github.io";
+    content: "arpensions.org";
     display: block;
     text-align: center;
     margin-top: 2rem;
