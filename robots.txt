@@ -3,6 +3,14 @@
 User-agent: *
 Allow: /
 
+# Allow AI search inclusion (ChatGPT search citations)
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow Perplexity search inclusion
+User-agent: PerplexityBot
+Allow: /
+
 # Opt out of AI training (not search)
 User-agent: GPTBot
 Disallow: /
@@ -15,6 +23,7 @@ Disallow: /
 
 Sitemap: https://arpensions.org/sitemap.xml
 
-# Disallow crawling of admin/development paths
+# Disallow crawling of data files
+User-agent: *
 Disallow: /assets/data/
 Disallow: /*.json$

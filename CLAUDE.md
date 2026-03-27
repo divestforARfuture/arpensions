@@ -83,3 +83,24 @@ bundle exec jekyll serve
 ## Campaign Affiliation
 
 Arkansans for Retirement Transparency operates as a campaign of Little Rock Peace for Palestine, a member organization of Citizens First Congress.
+
+---
+
+## Audit Log — March 27, 2026
+
+### Fixes applied (PR: fix/audit-critical-and-high-priority)
+
+**CRITICAL-1 — Nav HTML/CSS mismatch:** `_includes/nav.html` had been restructured with new CSS class names (`.nav-brand`, `.nav-container`, `.nav-menu`, `.nav-dropdown`, `.theme-toggle`, `.theme-icon`, `.nav-toggle-icon`) that had ZERO CSS definitions in `main.css` or `elegant.css`. Reverted to the reference site's HTML structure (which uses `.nav-logo`, `.nav-links`, `.nav-cta`, `.btn-nav-cta`, `.theme-toggle-btn`, `.icon-moon`, `.icon-sun` — all fully defined in existing CSS). Only logo src/alt/dimensions and aria-labels changed for the ART rebrand.
+
+**CRITICAL-2 — Dark mode broken:** Two independent failures. (A) The theme toggle button lost its `id="theme-toggle"` attribute, so `theme-toggle.js` couldn't find it via `getElementById`. Fixed by nav.html revert. (B) The anti-FOUC script in `head.html` reads `localStorage.getItem('art-theme')` but `theme-toggle.js` was writing `d4arf-theme`. Fixed by updating the STORAGE_KEY in `theme-toggle.js`.
+
+**MEDIUM — robots.txt:** Restored OAI-SearchBot and PerplexityBot allow rules for AI search discoverability.
+
+**LOW — Cleanup:** Removed unused `d4arf-logo.png` and `d4arf-logo-dark.png` (230KB dead weight).
+
+### Known remaining items (not in this PR)
+
+- `og-default.png` still shows D4ARF branding — needs design work (Yousra)
+- `favicon.ico` still shows D4ARF branding — needs design work
+- The "For You" dropdown nav and reordered nav links (About, The Issue, Evidence, [For You], News) can be implemented as a follow-up PR once supporting CSS is written
+- Nav logo width may need CSS adjustment for the wider SVG wordmark — check rendered appearance
