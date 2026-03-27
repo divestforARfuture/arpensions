@@ -58,7 +58,7 @@ The pattern in the public record raises questions about whether these standards 
 
 **The normal investment process was bypassed.** ATRS Board Chair Danny Knight warned that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members — to recommend specific securities.
 
-The process divergence extends further: APERS chose to purchase Israel Bonds directly without any external manager, while ATRS hired Reams Asset Management and established a dedicated "Israeli Jubilee bond account" with written investment guidelines — but only four months after the board authorized the purchase. In neither case was independent credit analysis completed before authorization.
+The process divergence extends further: APERS chose to purchase Israel Bonds directly without an external manager, while ATRS hired Reams Asset Management and established a dedicated "Israeli Jubilee bond account" with written investment guidelines — but only four months after the board authorized the purchase. In neither case was independent credit analysis completed before authorization.
 
 </div>
 
@@ -133,7 +133,7 @@ For the full timeline and detailed source documentation, see our [evidence page]
 
 ### Request a briefing
 
-For detailed findings, source documents, and a full research briefing, contact us at **[divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=Legislative%20Briefing%20Request)**.
+For detailed findings, source documents, and a full research briefing, contact us at **[info@arpensions.org](mailto:info@arpensions.org?subject=Legislative%20Briefing%20Request)**.
 
 We are available to meet with legislators and staff to discuss these findings in detail. All claims in this brief are backed by public records obtained through FOIA requests to four Arkansas state agencies.
 
