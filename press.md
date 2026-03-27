@@ -8,7 +8,7 @@ audience_nav: true
 
 ## Campaign summary
 
-Divest for AR Future is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed more than 1,200 public records revealing up to $100 million in authorized pension fund exposure and $55 million in State Treasury holdings — approximately $155 million in total authorized Arkansas exposure to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
+Arkansans for Retirement Transparency (ART) is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed more than 1,200 public records revealing up to $100 million in authorized pension fund exposure and $55 million in State Treasury holdings — approximately $155 million in total authorized Arkansas exposure to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
 The campaign is calling for independent financial review of existing positions, a halt to further purchases pending analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
 
@@ -314,7 +314,7 @@ The successful campaigns share three characteristics: FOIA-driven transparency, 
 - [Policy brief — Pension Investment Transparency Act](/legislators/)
 - [Full evidence summary with source documents](/evidence/)
 - [FOIA document archive](/documents/)
-- [Media contact: divestforarfuture@proton.me](mailto:divestforarfuture@proton.me?subject=Media%20Inquiry)
+- [Media contact: info@arpensions.org](mailto:info@arpensions.org?subject=Media%20Inquiry)
 
 </div>
 
@@ -322,10 +322,10 @@ The successful campaigns share three characteristics: FOIA-driven transparency, 
 
 ### Media contact
 
-**Email:** [divestforarfuture@proton.me](mailto:divestforarfuture@proton.me)
+**Email:** [info@arpensions.org](mailto:info@arpensions.org)
 
 For source documents and detailed research findings, contact us directly. All claims are backed by public records obtained through lawful FOIA requests.
 
 </div>
 
-<p class="campaign-attribution">Divest for AR Future is a grassroots Arkansas campaign for pension transparency and fiduciary accountability.</p>
+<p class="campaign-attribution">Arkansans for Retirement Transparency (ART) is a grassroots Arkansas campaign for pension transparency and fiduciary accountability.</p>

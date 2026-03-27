@@ -3,15 +3,14 @@ layout: default
 title: "Page Not Found"
 permalink: /404.html
 ---
-<div class="container container-prose not-found">
-  <h1>Page not found</h1>
-  <p class="not-found-message">The page you're looking for doesn't exist or has been moved.</p>
-  <p><a href="/" class="btn btn-primary">Go to homepage</a></p>
-  <p class="not-found-links">
-    Looking for something specific?
-    <a href="/evidence/">Evidence</a><span aria-hidden="true"> &middot; </span>
-    <a href="/take-action/">Take Action</a><span aria-hidden="true"> &middot; </span>
-    <a href="/assets/documents/">Documents</a><span aria-hidden="true"> &middot; </span>
-    <a href="/about/">About</a>
-  </p>
-</div>
+
+<section class="error-page">
+  <div class="container-prose" style="text-align: center; padding: 4rem 1rem;">
+    <h1 style="font-size: 4rem; margin-bottom: 0.5rem;">404</h1>
+    <p style="font-size: 1.25rem; color: var(--muted-color); margin-bottom: 2rem;">Page not found</p>
+    <p>The page you're looking for doesn't exist or has been moved.</p>
+    <p style="margin-top: 2rem;">
+      <a href="{{ '/' | relative_url }}" class="btn btn-primary">Return to homepage</a>
+    </p>
+  </div>
+</section>
