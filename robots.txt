@@ -24,5 +24,6 @@ Disallow: /
 Sitemap: https://arpensions.org/sitemap.xml
 
 # Disallow crawling of data files
+User-agent: *
 Disallow: /assets/data/
 Disallow: /*.json$
