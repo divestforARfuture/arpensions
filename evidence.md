@@ -311,7 +311,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event">
     <time>2017</time>
     <h3>Israel Bonds outreach begins</h3>
-    <p>State Treasurer Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds. This led to the state's first Israel Bonds purchases through the Treasury. Rapert now chairs Christian outreach for Israel Bonds (<a href="https://files.brokercheck.finra.org/firm/firm_11148.pdf">DCI, FINRA BrokerCheck</a>) — the legislator who created the legal authority now works for the bond seller.</p>
+    <p>State Treasurer Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds. This led to the state's first Israel Bonds purchases through the Treasury. Rapert now chairs Christian outreach for Israel Bonds (<a href="https://brokercheck.finra.org/firm/summary/11148">DCI, FINRA BrokerCheck</a>) — the legislator who created the legal authority now works for the bond seller.</p>
   </li>
 </ol>
 
