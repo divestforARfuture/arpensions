@@ -81,7 +81,7 @@ For the full timeline, source quotes, and legal analysis, see our [evidence page
 
 The full $50 million has already been deployed. Email the Board to request an independent financial review of the investment and transparent reporting to members.
 
-**Email:** [info@atrs.gov](mailto:info@atrs.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Investment)
+**Email:** [info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Investment)
 
 <div class="letter-template" markdown="1">
 <button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
@@ -123,9 +123,9 @@ Public comment is your right as a pension fund member.
 <div class="meeting-info" markdown="1">
 
 - **Location:** ATRS Board Room, 1400 W. Third St., Little Rock
-- **Public comment:** Contact Board Secretary Tammy Porter at [tammyp@atrs.gov](mailto:tammyp@atrs.gov) to sign up
-- **Written comment:** Email [info@atrs.gov](mailto:info@atrs.gov) with a subject line referencing the board meeting date
-- **Upcoming 2026 dates:** Check the [ATRS Board Calendar](https://www.atrs.gov/board-calendar) for the current schedule
+- **Public comment:** Contact Board Secretary Tammy Porter at [tammyp@artrs.gov](mailto:tammyp@artrs.gov) to sign up
+- **Written comment:** Email [info@artrs.gov](mailto:info@artrs.gov) with a subject line referencing the board meeting date
+- **Upcoming 2026 dates:** Check the [ATRS Board Calendar](https://www.artrs.gov/calendar) for the current schedule
 
 </div>
 
