@@ -470,7 +470,6 @@ Browse our [source document archive](/documents/) to read the primary evidence y
 
 *For additional source documents and detailed findings, contact us at [info@arpensions.org](mailto:info@arpensions.org).*
 
-
 ---
 
 <nav class="page-flow" aria-label="Continue reading">

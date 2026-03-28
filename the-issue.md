@@ -192,7 +192,6 @@ Our requests are straightforward:
 
 ---
 
-
 <nav class="page-flow" aria-label="Continue reading">
   <a href="{{ '/evidence/' | relative_url }}" class="btn-text">Next: See the Evidence</a>
 </nav>
