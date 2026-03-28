@@ -81,7 +81,7 @@ The publicly-posted board packets for the May 15 subcommittee and June 11 full b
 
 These are solid numbers. But even in a well-funded system, bypassing standard investment processes for a novel, illiquid asset class sets a precedent that could affect long-term outcomes. The question is not whether APERS can absorb a $25–50 million Israel Bonds position, but whether the decision was made through the same rigorous process applied to every other investment.
 
-*Updated with Q1 FY2025 data from APERS Quarterly Board Meeting packet, June 11, 2025, publicly posted at apers.org. Last updated: March 2026.*
+*Updated with Q1 FY2025 data from APERS Quarterly Board Meeting packet, June 11, 2025, publicly posted at apers.org.*
 
 ## What you can do
 

@@ -137,6 +137,4 @@ For detailed findings, source documents, and a full research briefing, contact u
 
 We are available to meet with legislators and staff to discuss these findings in detail. All claims in this brief are backed by public records obtained through FOIA requests to four Arkansas state agencies.
 
-*Last updated: March 2026.*
-
 </div>
