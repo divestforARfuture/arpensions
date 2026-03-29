@@ -12,6 +12,7 @@
 
   function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.style.colorScheme = theme;
     localStorage.setItem(STORAGE_KEY, theme);
     updateToggleButton(theme);
     updateLogoAria(theme);
@@ -60,6 +61,7 @@
     var theme = getTheme();
     // Theme attribute already set by inline FOUC script, but ensure consistency
     document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.style.colorScheme = theme;
     updateToggleButton(theme);
     updateLogoAria(theme);
 
