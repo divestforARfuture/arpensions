@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- CSP: sha256 hash whitelists the anti-FOUC inline script below.
      If you change the script content, recompute with:
-     node -e "const c=require('crypto');const s=\`SCRIPT_CONTENT\`;console.log(c.createHash('sha256').update(s,'utf8').digest('base64'))" -->
+     node -e "const c=require('crypto');const s=`SCRIPT_CONTENT`;console.log(c.createHash('sha256').update(s,'utf8').digest('base64'))" -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-cZT94bZPw+pFqDBmCYQS0gK6kqN0BbDKUcWKYcXZyoQ=' https://actionnetwork.org https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'self';">
 
 <!-- Anti-FOUC: set theme before any rendering (hash: sha256-cZT94bZPw+pFqDBmCYQS0gK6kqN0BbDKUcWKYcXZyoQ=) -->
@@ -32,4 +32,5 @@
 <link rel="stylesheet" href="{{ '/assets/css/elegant.css' | relative_url }}">
 
 <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
