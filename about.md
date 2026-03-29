@@ -29,7 +29,7 @@ We believe the strongest advocacy is built on evidence, not rhetoric. Our campai
 
 Our demands are narrow and rooted in existing Arkansas law:
 
-1. **Pause** new purchases of non-tradable sovereign bonds until an independent credit analysis is completed and shared with pension fund members. [What investment? →](/glossary/)
+1. **Pause** new purchases of non-tradable sovereign bonds until an independent credit analysis is completed and shared with pension fund members. [See the financial profile →](/glossary/)
 2. **Transparency** — Publish the financial analysis that justifies these investments, comparing risk, return, and liquidity against comparable alternatives.
 3. **Process review** — Document and explain how recent authorizations complied with Arkansas's pecuniary-only standard and the established manager-driven investment process.
 4. **Pension transparency legislation** — Support the **Pension Investment Transparency Act** for the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
