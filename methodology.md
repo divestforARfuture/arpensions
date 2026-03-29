@@ -13,7 +13,7 @@ Transparency about our own methods is as important as the transparency we demand
 
 We filed <span class="font-mono">11</span> Freedom of Information Act (FOIA) requests across <span class="font-mono">3</span> rounds to <span class="font-mono">7</span> Arkansas state entities: the State Treasury, the Arkansas Teacher Retirement System (ATRS), the Arkansas Public Employees' Retirement System (APERS), the Auditor of State's office, the Arkansas State Highway Employees' Retirement System (ASHERS), the Arkansas State Police Retirement System (ASPRS), and the Local Police and Fire Retirement System (LOPFI).
 
-Our requests targeted investment decision records, board meeting materials, correspondence with bond issuers, credit analyses, and internal memoranda related to Israel Bonds purchases.
+Our requests targeted investment decision records, board meeting materials, correspondence with bond issuers, credit analyses, and internal memoranda related to the sovereign bond purchases under investigation.
 
 <span class="section-label">Processing pipeline</span>
 

@@ -29,8 +29,8 @@ We believe the strongest advocacy is built on evidence, not rhetoric. Our campai
 
 Our demands are narrow and rooted in existing Arkansas law:
 
-1. **Pause** new Israel Bonds purchases until an independent credit analysis is completed and shared with pension fund members.
-2. **Transparency** — Publish the financial analysis that justifies any Israel Bonds investment, comparing its risk, return, and liquidity against comparable alternatives.
+1. **Pause** new purchases of non-tradable sovereign bonds until an independent credit analysis is completed and shared with pension fund members. [See the financial profile →](/glossary/)
+2. **Transparency** — Publish the financial analysis that justifies these investments, comparing risk, return, and liquidity against comparable alternatives.
 3. **Process review** — Document and explain how recent authorizations complied with Arkansas's pecuniary-only standard and the established manager-driven investment process.
 4. **Pension transparency legislation** — Support the **Pension Investment Transparency Act** for the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
 
@@ -50,9 +50,9 @@ No. This is about fiduciary duty and financial risk. Arkansas law requires that 
 
 <div class="faq-item" markdown="1">
 
-**What are Israel Bonds?**
+**What investment are we investigating?**
 
-Israel Bonds are direct loans to the Israeli government. Unlike most bonds, they cannot be sold on a secondary market before maturity, which means pension funds that buy them are locked into the investment. All three major credit rating agencies (Moody's, S&P, and Fitch) have downgraded Israel's credit since 2024. For a detailed explanation, see our [issue explainer](/the-issue/).
+Our investigation focuses on non-marketable foreign sovereign debt — bonds issued by a foreign government that cannot be sold on any secondary market. Unlike most bonds, pension funds that purchase these instruments are locked in until maturity, unable to exit the position if conditions change. All three major credit rating agencies (Moody's, S&P, and Fitch) have downgraded the issuing country's credit since 2024. For a detailed financial profile, see our [glossary](/glossary/). For the full fiduciary analysis, see our [issue explainer](/the-issue/).
 
 </div>
 
@@ -60,7 +60,7 @@ Israel Bonds are direct loans to the Israeli government. Unlike most bonds, they
 
 **Why does this matter for my pension?**
 
-Even though the Israel Bonds allocations are a small percentage of each fund's total assets, the process concerns are significant. If investment decisions can be made through political channels — bypassing independent analysis and overriding internal staff recommendations — what stops it from happening again with a larger amount or a different investment? The fiduciary standards exist to protect your retirement from exactly this kind of decision-making.
+Even though the sovereign bond allocations are a small percentage of each fund's total assets, the process concerns are significant. If investment decisions can be made through political channels — bypassing independent analysis and overriding internal staff recommendations — what stops it from happening again with a larger amount or a different investment? The fiduciary standards exist to protect your retirement from exactly this kind of decision-making.
 
 </div>
 
