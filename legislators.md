@@ -4,6 +4,7 @@ title: "Policy Brief — Arkansas Pension Transparency for 2027"
 description: "Policy brief for Arkansas legislators on up to $100 million in authorized pension fund exposure to non-tradable foreign sovereign debt and the case for transparency legislation in 2027."
 permalink: /legislators/
 audience_nav: true
+breadcrumb: "For Legislators"
 ---
 
 ## Executive summary

@@ -4,6 +4,7 @@ title: "Press Kit — Media Resources for Arkansas Pension Investigation"
 description: "Media resources for journalists covering Arkansas pension investments in non-tradable foreign sovereign debt."
 permalink: /press/
 audience_nav: true
+breadcrumb: "For Media"
 ---
 
 ## Campaign summary
