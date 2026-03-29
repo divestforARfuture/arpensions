@@ -67,7 +67,14 @@ This language describes a political relationship, not a standard financial trans
 
 ---
 
-### 3a. How these bonds reached the APERS board
+<div class="subfindings-block">
+<div class="subfindings-controls">
+  <button class="subfindings-toggle-all" aria-expanded="false">Show all sub-findings</button>
+</div>
+
+<details class="subfinding" id="subfinding-3a">
+<summary><h3>3a. How these bonds reached the APERS board</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 New records obtained in February 2026 confirm the specific pathway by which non-tradable sovereign bonds were introduced at APERS. Jason Brady — the Auditor of State's appointee to the APERS board — told fellow board members that "it had come to his attention" that these bonds were available as an investment, and cited the State Treasury's existing holdings. **From the public record:** "The State Treasury currently holds approximately $55 million in Israel Bonds as part of its $11 billion portfolio." The board subsequently approved an investment of $25–50 million.
 
@@ -81,17 +88,23 @@ The Auditor's office also served as APERS's de facto media response coordinator.
 
 </div>
 
----
+</div>
+</details>
 
-### 3b. Board voted before staff had a contact
+<details class="subfinding" id="subfinding-3b">
+<summary><h3>3b. Board voted before staff had a contact</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 Despite the board's May–June 2025 authorization of $25–50 million, APERS purchased zero non-tradable sovereign bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The following day, CIO Carlos Borromeo emailed Seth Middleton at Stephens Inc. — APERS's investment consultant — asking him to forward contact information to Bradley Young, the bond issuer's Southeast Regional Executive Director.
 
 By November 2025, a bond statement was received by APERS staff, indicating a purchase had eventually occurred. The two-month gap between authorization and purchase — and the fact that staff were still establishing basic contact with the issuer's representatives well after the board vote — suggests the board authorized the investment before operational groundwork was in place.
 
----
+</div>
+</details>
 
-### 3c. Two pension funds, two approaches — neither with independent analysis
+<details class="subfinding" id="subfinding-3c">
+<summary><h3>3c. Two pension funds, two approaches — neither with independent analysis</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 Round 2 records reveal that APERS and ATRS took markedly different paths to the same investment:
 
@@ -101,15 +114,21 @@ Round 2 records reveal that APERS and ATRS took markedly different paths to the 
 
 The divergent structures raise a common question: in neither case has any independent credit analysis of these bonds been produced. Whether purchased directly (APERS) or through a manager (ATRS), the investment arrived at both pension funds through the same political channel — not through the professional investment process each system ordinarily follows.
 
----
+</div>
+</details>
 
-### 3d. Agencies were watching each other
+<details class="subfinding" id="subfinding-3d">
+<summary><h3>3d. Agencies were watching each other</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 APERS's FOIA production contains news articles about ATRS's sovereign bond investment and its arrangement with Reams Asset Management — articles that APERS staff apparently circulated or received internally. Combined with Brady citing Treasury's $55 million holdings at the APERS board meeting, a pattern emerges: each agency's decision was influenced by awareness of what other state agencies were doing, rather than by independent financial analysis.
 
----
+</div>
+</details>
 
-### 3e. The Auditor arranged a two-day pitch tour in his own office
+<details class="subfinding" id="subfinding-3e">
+<summary><h3>3e. The Auditor arranged a two-day pitch tour in his own office</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 Records obtained in March 2026 reveal the Auditor of State's office personally orchestrated a coordinated pitch tour for the bond issuer's sales representatives. On Friday, April 11, 2025, Auditor Dennis Milligan and his executive assistant Wendy Spadoni sent four meeting arrangement emails within 18 minutes — scheduling back-to-back meetings for the issuer's executives Lawrence Berman and Bradley Young with the heads of all three investing agencies:
 
@@ -124,9 +143,12 @@ The Auditor of State has no investment authority over any of these funds. The Au
 
 Within weeks of these meetings, all three agencies authorized or purchased non-tradable sovereign bonds: the Treasury bought $20 million (May 1), APERS authorized $25–50 million (May 15), and ATRS authorized up to $50 million (June 2).
 
----
+</div>
+</details>
 
-### 3f. ATRS deployed the full $50 million by December 2025
+<details class="subfinding" id="subfinding-3f">
+<summary><h3>3f. ATRS deployed the full $50 million by December 2025</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 On December 29, 2025, ATRS Deputy Director Rod Graves sent a routine "Board Update-Liquidity" email to the ATRS board. Buried in the liquidity accounting was the first post-purchase confirmation. **From the public record:** "December payments since the last Board update consisted of several ATRS obligations including capital calls for various investments of approximately $185 million. This includes the Scout (Reams) mandate of $50 million for Israel Bonds."
 
@@ -134,10 +156,12 @@ The full $50 million authorized by Resolution 2025-22 was deployed in a single t
 
 ATRS's $23.7 billion portfolio now holds $50 million in non-tradable sovereign debt that cannot be sold before maturity, purchased without an independent credit analysis at any stage of the process.
 
----
+</div>
+</details>
 
-### 3g. 37 pages of analysis for other investments, zero pages for these bonds
-{: #3g-dual-fiduciary-standard }
+<details class="subfinding" id="subfinding-3g">
+<summary><h3>3g. 37 pages of analysis for other investments, zero pages for these bonds</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 The publicly-posted APERS board packets for the May 15 Investment Subcommittee and June 11 Full Board meetings reveal a stark contrast in how the board handled different investment decisions at the same meetings.
 
@@ -171,10 +195,12 @@ Also at the same May 15 meeting, Secretary Jim Hudson requested that APERS devel
 
 *Source: APERS Board Packet for June 11, 2025, publicly posted at [apers.org](https://apers.org). Also exists in the FOIA registry as APERS-FEB26-0002.*
 
----
+</div>
+</details>
 
-### 3h. ATRS leadership present at APERS authorization
-{: #3h-atrs-leadership-at-apers }
+<details class="subfinding" id="subfinding-3h">
+<summary><h3>3h. ATRS leadership present at APERS authorization</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 The May 15, 2025 APERS Investment Subcommittee meeting — where Brady pitched the sovereign bonds and the board authorized $25–50 million — was attended by three ATRS officials listed as visitors: Executive Director Mark White, Rod Graves, and Tammy Porter.
 
@@ -184,10 +210,12 @@ The two pension systems also have an established pattern of coordination: in the
 
 *Source: APERS Board Packet for June 11, 2025, page 8 (May 15 subcommittee attendee list) and page 75 (securities litigation case status).*
 
----
+</div>
+</details>
 
-### 3i. Former Treasurer chaired the subcommittee that authorized these bonds
-{: #3i-walther-subcommittee-chair }
+<details class="subfinding" id="subfinding-3i">
+<summary><h3>3i. Former Treasurer chaired the subcommittee that authorized these bonds</h3></summary>
+<div class="subfinding-content" markdown="1">
 
 Larry Walther — who served as Arkansas's 40th Treasurer of State from August 2023 to January 2025 and maintained the Treasury's sovereign bond position throughout his tenure — chaired the Investment Finance Subcommittee that authorized APERS's first-ever purchase of these non-tradable sovereign bonds. The May 15, 2025 subcommittee minutes record "Mr. Larry Walther presided" as Chair of the Investment Finance Sub-Committee.
 
@@ -196,6 +224,11 @@ The former Treasurer who oversaw $55 million in Treasury sovereign bond holdings
 Additionally, APERS Board Secretary Daryl Bassett had previously appointed Jason Brady to preside over the March 5, 2025 subcommittee meeting, meaning Brady was sometimes the presiding officer of the very committee he later pitched these bonds to.
 
 *Source: APERS Board Packet for June 11, 2025, pages 8 and 4.*
+
+</div>
+</details>
+
+</div>
 
 ---
 

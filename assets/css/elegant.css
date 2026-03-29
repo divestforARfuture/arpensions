@@ -1741,3 +1741,110 @@ html {
     transition: none;
   }
 }
+
+/* ========================================================================
+   COLLAPSIBLE SUB-FINDINGS (3a–3i)
+   ======================================================================== */
+
+.subfindings-block {
+  margin: 1.5rem 0;
+}
+
+.subfindings-controls {
+  margin-bottom: 1rem;
+}
+
+.subfindings-toggle-all {
+  background: none;
+  border: 1px solid var(--color-border, #e5e5e5);
+  color: var(--art-accent);
+  font-family: var(--font-sans, Inter, sans-serif);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.4rem 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.subfindings-toggle-all:hover {
+  background: var(--art-accent);
+  color: #fff;
+}
+
+.subfinding {
+  border-bottom: 1px solid var(--color-border, #e5e5e5);
+  margin-bottom: 0;
+}
+
+.subfinding > summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  font-family: var(--font-sans, Inter, sans-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--art-accent);
+  cursor: pointer;
+  list-style: none;
+  transition: color 0.15s;
+}
+
+.subfinding > summary::-webkit-details-marker {
+  display: none;
+}
+
+.subfinding > summary::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid var(--art-accent);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.subfinding[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.subfinding > summary > h3 {
+  display: inline;
+  font-size: 1.05rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.subfinding > summary:hover {
+  color: var(--color-text-primary, #1b2127);
+}
+
+.subfinding > summary:focus-visible {
+  outline: 3px solid var(--art-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.subfinding-content {
+  padding: 0 0 1.25rem 1rem;
+  border-left: 2px solid var(--art-accent);
+  margin-left: 3px;
+  animation: subfinding-fade 0.25s ease;
+}
+
+@keyframes subfinding-fade {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .subfinding > summary::before {
+    transition: none;
+  }
+  .subfinding-content {
+    animation: none;
+  }
+}
