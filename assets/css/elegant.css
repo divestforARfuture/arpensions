@@ -2182,3 +2182,50 @@ html {
     animation: none;
   }
 }
+
+/* ========================================================================
+   READING TIME — Subtle metadata below page title
+   ======================================================================== */
+
+.reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-sans, Inter, sans-serif);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-text-secondary, #556068);
+  margin: 0.5rem 0 0;
+}
+
+.reading-time-icon {
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+
+/* ========================================================================
+   BREADCRUMBS — Subtle navigation for audience pages
+   ======================================================================== */
+
+.breadcrumb {
+  font-family: var(--font-sans, Inter, sans-serif);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--color-text-secondary, #556068);
+  margin-bottom: 0.75rem;
+}
+
+.breadcrumb a {
+  color: var(--art-accent);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover,
+.breadcrumb a:focus-visible {
+  text-decoration: underline;
+}
+
+.breadcrumb span[aria-hidden] {
+  margin: 0 0.35rem;
+  opacity: 0.5;
+}

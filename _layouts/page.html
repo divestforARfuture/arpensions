@@ -3,10 +3,18 @@ layout: default
 ---
 <article class="page-content" aria-labelledby="page-heading">
   <div class="container container-prose">
+    {% if page.breadcrumb %}
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">&rarr;</span> <span>{{ page.breadcrumb }}</span>
+    </nav>
+    {% endif %}
     <header class="page-header">
       <h1 id="page-heading">{{ page.title }}</h1>
       {% if page.description %}
       <p class="page-description">{{ page.description }}</p>
+      {% endif %}
+      {% assign words = content | number_of_words %}{% if words > 1000 %}{% assign minutes = words | divided_by: 250 %}
+      <p class="reading-time" aria-label="{{ minutes }} minute read"><svg class="reading-time-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> {{ minutes }} min read</p>
       {% endif %}
     </header>
     <hr class="page-header-rule" aria-hidden="true">

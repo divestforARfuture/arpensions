@@ -4,6 +4,7 @@ title: "Your ATRS Pension — What You Should Know About Non-Tradable Sovereign 
 description: "What Arkansas teachers and retired educators need to know about ATRS pension investments in non-tradable foreign sovereign bonds."
 permalink: /educators/
 audience_nav: true
+breadcrumb: "For Educators"
 charts: true
 ---
 

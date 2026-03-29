@@ -4,6 +4,11 @@ layout: default
 <article class="landing-content" aria-labelledby="landing-heading">
   <section class="landing-hero" aria-labelledby="landing-heading">
     <div class="container container-prose">
+      {% if page.breadcrumb %}
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">&rarr;</span> <span>{{ page.breadcrumb }}</span>
+      </nav>
+      {% endif %}
       <h1 id="landing-heading">{{ page.title }}</h1>
       {% if page.description %}
       <p class="landing-description">{{ page.description }}</p>
