@@ -248,17 +248,75 @@
       .attr('fill', c.text)
       .text(function (d) { return d.name; });
 
-    // Node hover: highlight connected links
-    nodes.selectAll('rect')
-      .on('mouseenter', function(event, d) {
-        linkPaths.attr('stroke-opacity', c.linkBase * 0.3);
-        linkPaths.filter(function(l) {
-          return l.source === d || l.target === d;
-        }).attr('stroke-opacity', c.linkHover);
-      })
-      .on('mouseleave', function() {
+    // --- Touch detection ---
+    var isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+
+    // Node interaction: hover on desktop, tap on mobile
+    if (isTouch) {
+      var activeNode = null;
+      nodes.selectAll('rect')
+        .on('click', function(event, d) {
+          event.stopPropagation();
+          if (activeNode === d) {
+            // Tap again to deselect
+            linkPaths.attr('stroke-opacity', c.linkBase);
+            activeNode = null;
+          } else {
+            linkPaths.attr('stroke-opacity', c.linkBase * 0.3);
+            linkPaths.filter(function(l) {
+              return l.source === d || l.target === d;
+            }).attr('stroke-opacity', c.linkHover);
+            activeNode = d;
+          }
+        });
+      // Tap background to reset
+      d3.select(container).on('click', function() {
         linkPaths.attr('stroke-opacity', c.linkBase);
+        activeNode = null;
       });
+    } else {
+      nodes.selectAll('rect')
+        .on('mouseenter', function(event, d) {
+          linkPaths.attr('stroke-opacity', c.linkBase * 0.3);
+          linkPaths.filter(function(l) {
+            return l.source === d || l.target === d;
+          }).attr('stroke-opacity', c.linkHover);
+        })
+        .on('mouseleave', function() {
+          linkPaths.attr('stroke-opacity', c.linkBase);
+        });
+    }
+
+    // --- Persistent labels on key paths (readable without hover) ---
+    var keyPaths = [
+      { src: 'milligan', tgt: 'auditor-office' },
+      { src: 'auditor-office', tgt: 'sales-tour' },
+      { src: 'brady', tgt: 'apers' },
+      { src: 'sales-tour', tgt: 'atrs' }
+    ];
+
+    var labelGroup = svg.append('g').attr('class', 'sankey-path-labels');
+    graph.links.forEach(function(link) {
+      var isKey = keyPaths.some(function(k) {
+        return link.source.id === k.src && link.target.id === k.tgt;
+      });
+      if (!isKey) return;
+
+      var midX = (link.source.x1 + link.target.x0) / 2;
+      var midY = (link.y0 + link.y1) / 2;
+
+      labelGroup.append('text')
+        .attr('x', midX)
+        .attr('y', midY)
+        .attr('dy', '-0.3em')
+        .attr('text-anchor', 'middle')
+        .attr('font-family', '"IBM Plex Mono", monospace')
+        .attr('font-size', '8px')
+        .attr('font-weight', '500')
+        .attr('fill', c.textMuted)
+        .attr('opacity', 0.7)
+        .text(link.desc.length > 30 ? link.desc.slice(0, 28) + '\u2026' : link.desc);
+    });
 
     // Entrance animation
     if (!reducedMotion) {
