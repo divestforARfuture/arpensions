@@ -567,10 +567,6 @@ blockquote {
   box-shadow: none;
 }
 
-[data-theme="dark"] .timeline .timeline-event::before {
-  border-color: var(--color-bg-page, #121218);
-}
-
 /* Highlighted events: larger node, teal glow, subtle background */
 .timeline .timeline-event.timeline-event--highlight::before {
   width: 12px;
@@ -578,10 +574,6 @@ blockquote {
   left: 0.6rem;
   top: 0.4rem;
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--art-accent) 20%, transparent);
-}
-
-[data-theme="dark"] .timeline .timeline-event.timeline-event--highlight::before {
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--art-accent) 25%, transparent);
 }
 
 .timeline .timeline-event.timeline-event--highlight {
@@ -600,13 +592,13 @@ blockquote {
   color: var(--art-accent);
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   letter-spacing: 0.02em;
 }
 
 /* Year dividers: larger circle marker */
 .timeline-year {
-  position: relative;
+  position: sticky;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 600;
   font-size: 1.1rem;
@@ -626,10 +618,6 @@ blockquote {
   background: var(--art-accent);
   border: 3px solid var(--color-bg-page, #f8f7f5);
   z-index: 2;
-}
-
-[data-theme="dark"] .timeline-year::before {
-  border-color: var(--color-bg-page, #121218);
 }
 
 @media (max-width: 600px) {
