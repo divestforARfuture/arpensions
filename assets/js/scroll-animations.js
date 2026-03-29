@@ -88,6 +88,8 @@
 
       if (progress < 1) {
         requestAnimationFrame(step);
+      } else {
+        el.classList.add('counted');
       }
     }
 
