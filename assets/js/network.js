@@ -256,6 +256,7 @@
         buildAccessibleTable(data);
         document.getElementById('graph-loading').classList.add('hidden');
         restoreHashState();
+        showOnboardingCallout();
       })
       .catch(function (err) {
         console.error('Failed to load network data:', err);
@@ -1373,6 +1374,41 @@
     });
   });
   themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+  // --- First-visit onboarding callout ---
+  function showOnboardingCallout() {
+    var STORAGE_KEY = 'art-network-onboarded';
+    if (localStorage.getItem(STORAGE_KEY)) return;
+
+    var graphContainer = document.getElementById('graph-container');
+    if (!graphContainer) return;
+
+    var callout = document.createElement('div');
+    callout.className = 'network-onboarding';
+    callout.setAttribute('role', 'dialog');
+    callout.setAttribute('aria-label', 'Network graph introduction');
+    callout.innerHTML =
+      '<div class="network-onboarding-inner">' +
+        '<p class="network-onboarding-title">Explore the network</p>' +
+        '<p class="network-onboarding-text">Click any node to see its connections. Use the sidebar to filter by entity type, search for people and organizations, or follow a guided tour.</p>' +
+        '<div class="network-onboarding-actions">' +
+          '<button class="network-onboarding-dismiss" data-persist="false">Got it</button>' +
+          '<button class="network-onboarding-dismiss" data-persist="true">Don\u2019t show again</button>' +
+        '</div>' +
+      '</div>';
+
+    graphContainer.style.position = 'relative';
+    graphContainer.appendChild(callout);
+
+    callout.querySelectorAll('.network-onboarding-dismiss').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (btn.getAttribute('data-persist') === 'true') {
+          localStorage.setItem(STORAGE_KEY, '1');
+        }
+        callout.remove();
+      });
+    });
+  }
 
   // --- Boot ---
   if (document.readyState === 'loading') {
