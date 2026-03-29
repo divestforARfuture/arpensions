@@ -10,9 +10,20 @@
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
   }
 
+  function syncBrowserTheme(theme) {
+    var root = document.documentElement;
+    root.style.colorScheme = theme;
+    root.style.backgroundColor = theme === 'dark' ? '#121218' : '#f8f7f5';
+    root.style.color = theme === 'dark' ? '#E5E7EB' : '#1b2127';
+    var meta = document.querySelector('meta[name="color-scheme"]');
+    if (meta) {
+      meta.setAttribute('content', theme);
+    }
+  }
+
   function setTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
-    document.documentElement.style.colorScheme = theme;
+    syncBrowserTheme(theme);
     localStorage.setItem(STORAGE_KEY, theme);
     updateToggleButton(theme);
     updateLogoAria(theme);
@@ -61,7 +72,7 @@
     var theme = getTheme();
     // Theme attribute already set by inline FOUC script, but ensure consistency
     document.documentElement.setAttribute('data-theme', theme);
-    document.documentElement.style.colorScheme = theme;
+    syncBrowserTheme(theme);
     updateToggleButton(theme);
     updateLogoAria(theme);
 
