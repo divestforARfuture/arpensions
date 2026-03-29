@@ -1,0 +1,11 @@
+# Issuer-neutral terminology for consistent site-wide usage
+instrument_formal: "non-marketable foreign sovereign debt"
+instrument_accessible: "non-tradable sovereign bonds"
+instrument_short: "the bonds"
+issuer_formal: "a foreign government"
+issuer_short: "the issuing country"
+broker_dealer: "the bond issuer's broker-dealer (FINRA CRD# 11148)"
+broker_dealer_short: "the broker-dealer"
+reps_formal: "the bond issuer's sales representatives"
+reps_short: "the issuer's representatives"
+finra_crd: "11148"
