@@ -1811,8 +1811,21 @@ html {
   transform: rotate(90deg);
 }
 
+.subfinding > summary > h3 {
+  display: inline;
+  font-size: 1.05rem;
+  margin: 0;
+  font-weight: 600;
+}
+
 .subfinding > summary:hover {
   color: var(--color-text-primary, #1b2127);
+}
+
+.subfinding > summary:focus-visible {
+  outline: 3px solid var(--art-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 .subfinding-content {

@@ -16,7 +16,9 @@
   }
 
   function updateLabel() {
-    btn.textContent = allOpen() ? 'Collapse all sub-findings' : 'Show all sub-findings';
+    var open = allOpen();
+    btn.textContent = open ? 'Collapse all sub-findings' : 'Show all sub-findings';
+    btn.setAttribute('aria-expanded', open);
   }
 
   btn.addEventListener('click', function () {
@@ -29,4 +31,14 @@
   details.forEach(function (d) {
     d.addEventListener('toggle', updateLabel);
   });
+})();
+
+/* Auto-open a subfinding if its id is the URL hash on page load */
+(function () {
+  var hash = window.location.hash.slice(1);
+  if (!hash) return;
+  var target = document.getElementById(hash);
+  if (target && target.classList.contains('subfinding')) {
+    target.open = true;
+  }
 })();
