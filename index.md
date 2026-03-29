@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Arkansans for Retirement Transparency — Arkansas Pension Transparency Campaign"
-description: "Arkansas pension funds authorized up to $100 million in Israel Bonds exposure while an internal memo recommended against new purchases. We're fighting for transparency and fiduciary accountability."
+description: "Arkansas pension funds authorized up to $100 million in non-tradable foreign sovereign debt while an internal memo recommended against new purchases. We're fighting for transparency and fiduciary accountability."
 ---
 
 {% include hero.html %}

@@ -14,15 +14,15 @@ All documents were provided by the agencies in response to Freedom of Informatio
 ## Key Evidence Documents
 
 - **[milligan-happy-to-help-internal-email-2025.pdf](milligan-happy-to-help-internal-email-2025.pdf)**  
-  Auditor's communications director calls Israel Bonds reps 'friends' in internal email  
+  Auditor's communications director calls the bond issuer's representatives 'friends' in internal email  
   *Source: AUDIT-JUN25-0568*
 
 - **[israel-bonds-marketing-to-milligan-gov-2025.pdf](israel-bonds-marketing-to-milligan-gov-2025.pdf)**  
-  Israel Bonds marketing materials sent to Auditor's .gov email  
+  Bond issuer marketing materials sent to Auditor's .gov email  
   *Source: AUDIT-JUN25-0085*
 
 - **[private-economic-briefing-invitation-2025.pdf](private-economic-briefing-invitation-2025.pdf)**  
-  Israel Bonds 'Private & Exclusive' briefing invitation for Milligan & staff  
+  Bond issuer's 'Private & Exclusive' briefing invitation for Milligan & staff  
   *Source: AUDIT-JUN25-0001*
 
 - **[milligan-oct7-anniversary-berman-reply-2024.pdf](milligan-oct7-anniversary-berman-reply-2024.pdf)**  
@@ -34,7 +34,7 @@ All documents were provided by the agencies in response to Freedom of Informatio
   *Source: TREAS-SEP25-0008*
 
 - **[israel-bonds-purchase-confirmation-nov2023.pdf](israel-bonds-purchase-confirmation-nov2023.pdf)**  
-  Official purchase confirmation — $10M Israel Bond, November 2023 (3-year Jubilee at 5.40%)  
+  Official purchase confirmation — $10M sovereign bond, November 2023 (3-year Jubilee at 5.40%)  
   *Source: TREAS-SEP25-0066*
 
 ## Excerpts from Compiled Records
@@ -72,5 +72,5 @@ All documents were provided by the agencies in response to Freedom of Informatio
   *Source: TREAS-SEP25-0049*
 
 - **[israel-bonds-purchase-confirmation-may2025.pdf](israel-bonds-purchase-confirmation-may2025.pdf)**  
-  Purchase confirmation — $10M Israel Bond, May 2025 (3-year Jubilee at ~4.86%)  
+  Purchase confirmation — $10M sovereign bond, May 2025 (3-year Jubilee at ~4.86%)  
   *Source: TREAS-SEP25-0063*
