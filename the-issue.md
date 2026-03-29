@@ -56,7 +56,9 @@ These authorizations came in rapid succession — and under circumstances that r
 
 **February 2026:** Second round of FOIA responses received from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). Total investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.
 
-**March 2026:** Auditor of State delivers Round 2 response — 124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) via flash drive from General Counsel TJ Fowler. Total investigation corpus now stands at 1,227 documents across five agencies, three FOIA rounds.
+**March 3, 2026:** Auditor of State delivers Round 2 response — 124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) via flash drive from General Counsel TJ Fowler. Investigation corpus reaches 1,222 documents across four agencies, two FOIA rounds.
+
+**March 28, 2026:** ASHERS (Arkansas State Highway Employees' Retirement System) delivers Round 3 response — 5 documents revealing the bond issuer's national sales leadership pitched ASHERS through the same April 2025 tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirms no responsive documents — assets commingled with APERS under Act 1242 of 2009. LOPFI response still pending. Total corpus: 1,227 documents across five agencies, three FOIA rounds.
 
 <div class="callout" markdown="1">
 

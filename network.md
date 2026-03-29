@@ -10,7 +10,7 @@ permalink: /network/
     <div class="network-hero-content">
       <p class="network-eyebrow">Interactive Investigation Map</p>
       <h1>Follow the connections</h1>
-      <p class="network-hero-sub">This graph maps <strong>80 entities</strong> and <strong>176 relationships</strong> extracted from more than 1,200 public records obtained through FOIA requests to five Arkansas state agencies. Click any node to inspect it. Use the filters to focus on what matters.</p>
+      <p class="network-hero-sub">This graph maps <strong>80 entities</strong> and <strong>176 relationships</strong> (graph data predates ASHERS Round 3 — update pending) extracted from more than 1,200 public records obtained through FOIA requests to five Arkansas state agencies. Click any node to inspect it. Use the filters to focus on what matters.</p>
     </div>
   </div>
 </section>

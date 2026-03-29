@@ -193,9 +193,6 @@ A third round of FOIA requests expanded the investigation to previously uninvest
       <li><strong>Contents:</strong> Confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009</li>
     </ul>
   </div>
-</div>
-
-<div class="meeting-grid">
   <div class="meeting-info">
     <p><strong>LOPFI</strong> (Local Police and Fire Retirement System)</p>
     <ul>

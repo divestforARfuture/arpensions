@@ -25,7 +25,7 @@ The campaign is calling for independent financial review of existing positions, 
 | **1,227** | Public records obtained and analyzed across three FOIA rounds to five state agencies |
 | **3** | Major credit agencies (S&P, Moody's, Fitch) that have downgraded Israel's credit rating since 2024 |
 | **0** | Independent credit analyses of Israel Bonds found in the entire document record |
-| **5** | Arkansas state agencies with FOIA responses (Treasury, ATRS, APERS, Auditor of State, ASHERS) |
+| **5** | Arkansas state agencies that produced documents (Treasury, ATRS, APERS, Auditor of State, ASHERS) |
 | **1** | Dissenting vote on the ATRS Board — Chair Danny Knight, who warned the process departed from standard practice |
 | **3** | Rounds of FOIA requests filed (August 2025, February 2026, March 2026) |
 | **265** | New documents received in FOIA Round 2 (118 Treasury, 16 APERS, 7 ATRS, 124 Auditor) |
