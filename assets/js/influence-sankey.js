@@ -314,7 +314,9 @@
         .attr('font-size', '8px')
         .attr('font-weight', '500')
         .attr('fill', c.textMuted)
-        .attr('opacity', 0.7)
+        .attr('opacity', 1)
+        .attr('aria-hidden', 'true')
+        .style('pointer-events', 'none')
         .text(link.desc.length > 30 ? link.desc.slice(0, 28) + '\u2026' : link.desc);
     });
 
