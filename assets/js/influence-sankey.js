@@ -248,6 +248,18 @@
       .attr('fill', c.text)
       .text(function (d) { return d.name; });
 
+    // Node hover: highlight connected links
+    nodes.selectAll('rect')
+      .on('mouseenter', function(event, d) {
+        linkPaths.attr('stroke-opacity', c.linkBase * 0.3);
+        linkPaths.filter(function(l) {
+          return l.source === d || l.target === d;
+        }).attr('stroke-opacity', c.linkHover);
+      })
+      .on('mouseleave', function() {
+        linkPaths.attr('stroke-opacity', c.linkBase);
+      });
+
     // Entrance animation
     if (!reducedMotion) {
       linkPaths

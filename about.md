@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About — Our Investigation, Approach, and Frequently Asked Questions"
-description: "Arkansans for Retirement Transparency (ART) is a grassroots Arkansas campaign fighting for pension transparency and fiduciary accountability."
+description: "Public records. Arkansas law. Fiduciary accountability. That's the whole campaign."
 permalink: /about/
 ---
 

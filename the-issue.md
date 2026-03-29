@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The Issue — Up to $100M in Pension Fund Exposure Authorized Without Independent Analysis"
-description: "Up to $100 million in Arkansas pension fund exposure authorized for non-tradable foreign sovereign debt despite credit downgrades, internal advice against new purchases, and no independent analysis."
+description: "Three agencies. 49 days. No independent analysis."
 permalink: /the-issue/
 d3sankey: true
 ---

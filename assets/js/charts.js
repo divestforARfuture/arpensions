@@ -64,8 +64,8 @@
         responsive: true,
         maintainAspectRatio: false,
         animation: {
-          duration: reducedMotion ? 0 : 800,
-          easing: 'easeOutCubic'
+          duration: reducedMotion ? 0 : 1200,
+          easing: 'easeOutQuart'
         },
         plugins: {
           legend: { display: false },
@@ -220,8 +220,33 @@
   // INIT + THEME OBSERVER
   // =========================================================================
 
+  // --- Scroll-triggered exposure chart ---
+  var exposureChartReady = false;
+
+  function initExposureOnScroll() {
+    var canvas = document.getElementById('exposure-chart');
+    if (!canvas || exposureChartReady) return;
+
+    if ('IntersectionObserver' in window) {
+      var chartObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            exposureChartReady = true;
+            initExposureChart();
+            chartObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.3 });
+      chartObserver.observe(canvas);
+    } else {
+      // Fallback: no IntersectionObserver
+      exposureChartReady = true;
+      initExposureChart();
+    }
+  }
+
   function initAll() {
-    initExposureChart();
+    initExposureOnScroll();
     initFundedGauge('atrs-funded-gauge', 84, 'ATRS funded ratio');
     initFundedGauge('apers-funded-gauge', 84, 'APERS funded ratio');
   }
@@ -229,7 +254,12 @@
   // Rebuild all charts on theme change (colors update)
   var themeObs = new MutationObserver(function (mutations) {
     mutations.forEach(function (m) {
-      if (m.attributeName === 'data-theme') initAll();
+      if (m.attributeName === 'data-theme') {
+        // On theme change, rebuild directly (already visible)
+        if (exposureChartReady) initExposureChart();
+        initFundedGauge('atrs-funded-gauge', 84, 'ATRS funded ratio');
+        initFundedGauge('apers-funded-gauge', 84, 'APERS funded ratio');
+      }
     });
   });
   themeObs.observe(document.documentElement, {

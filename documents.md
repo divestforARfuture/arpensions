@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Documents — FOIA Public Records Archive"
-description: "Primary source documents obtained through FOIA requests to five Arkansas state agencies."
+description: "Every claim traces back to these records. Browse the primary sources yourself."
 permalink: /documents/
 ---
 

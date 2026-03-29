@@ -9,6 +9,7 @@ layout: default
       <p class="page-description">{{ page.description }}</p>
       {% endif %}
     </header>
+    <hr class="page-header-rule" aria-hidden="true">
     {{ content }}
     {% unless page.url == '/take-action/' %}
     {% include cta-box.html heading="Take Action" text="Ready to make a difference? Join Arkansans calling for pension transparency." url="/take-action/" button="Get Involved" %}

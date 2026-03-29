@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Glossary — The Investment Under Investigation"
-description: "What specific investment are we investigating? Financial profile, regulatory status, and terminology used on this site."
+description: "The financial profile of the investment under investigation — and why we describe it by its characteristics, not its name."
 permalink: /glossary/
 ---
 
