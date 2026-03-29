@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: "APERS & Israel Bonds — What State Employees Should Know"
-description: "What Arkansas state employees need to know about APERS pension investments in Israel Bonds."
+title: "Your APERS Pension — What You Should Know About Non-Tradable Sovereign Debt"
+description: "What Arkansas state employees need to know about APERS pension investments in non-tradable foreign sovereign bonds."
 permalink: /public-employees/
 audience_nav: true
 charts: true
@@ -9,44 +9,44 @@ charts: true
 
 ## What's happening with YOUR pension
 
-In May 2025, the Arkansas Public Employees Retirement System (APERS) Investment Subcommittee approved a resolution authorizing a **$25–50 million** purchase of State of Israel Bonds. Around the same period, a late-2024 internal memo from Senior Investment Officer Steve Pulley in the State Treasurer's office recommended holding off on new Israel Bonds because major rating agencies had downgraded Israel's credit.
+In May 2025, the Arkansas Public Employees Retirement System (APERS) Investment Subcommittee approved a resolution authorizing a **$25–50 million** purchase of non-marketable foreign sovereign debt — bonds issued by a foreign government that cannot be sold on any secondary market. Around the same period, a late-2024 internal memo from Senior Investment Officer Steve Pulley in the State Treasurer's office recommended holding off on new purchases of these bonds because major rating agencies had downgraded the issuing country's credit.
 
 That combination of a large, concentrated authorization and a prior caution flag raises straightforward questions about risk, return, and process for every APERS member.
 
-New records obtained in February 2026 — including an 8,648-page APERS FOIA production — reveal exactly how Israel Bonds reached the APERS board. Jason Brady, the Auditor of State's appointee, told fellow board members that "it had come to his attention" that Israel Bonds were available and cited the Treasury's $55 million in holdings as justification. The board subsequently approved $25–50 million.
+New records obtained in February 2026 — including an 8,648-page APERS FOIA production — reveal exactly how these bonds reached the APERS board. Jason Brady, the Auditor of State's appointee, told fellow board members that "it had come to his attention" that these bonds were available and cited the Treasury's $55 million in holdings as justification. The board subsequently approved $25–50 million.
 
-Despite that authorization, APERS purchased zero bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The next day, CIO Carlos Borromeo emailed Stephens Inc. asking them to forward his contact information to an Israel Bonds representative — meaning staff were still establishing the basic operational pathway for purchasing well after the board had voted. A bond statement received in November 2025 confirms that a purchase eventually occurred, though the exact amount has not been disclosed.
+Despite that authorization, APERS purchased zero bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The next day, CIO Carlos Borromeo emailed Stephens Inc. asking them to forward his contact information to a bond issuer representative — meaning staff were still establishing the basic operational pathway for purchasing well after the board had voted. A bond statement received in November 2025 confirms that a purchase eventually occurred, though the exact amount has not been disclosed.
 
-Additionally, when Arkansas Times journalist Jennifer Lenow sent APERS a request for comment about the Israel Bonds investments, Executive Director Amy Fecher's first action was not to consult APERS's own communications staff — it was to forward the inquiry to Jason Brady at the Auditor's office with "FYI." The pension system's executive director routed a press question about an APERS investment decision to the office that had arranged the investment in the first place.
+Additionally, when Arkansas Times journalist Jennifer Lenow sent APERS a request for comment about these sovereign bond investments, Executive Director Amy Fecher's first action was not to consult APERS's own communications staff — it was to forward the inquiry to Jason Brady at the Auditor's office with "FYI." The pension system's executive director routed a press question about an APERS investment decision to the office that had arranged the investment in the first place.
 
 <div class="callout" markdown="1">
 
-**These are direct loans to the Israeli government that cannot be sold before maturity.** Unlike most fixed-income investments, Israel Bonds have no secondary market — once APERS buys them, your pension fund is locked in until the bonds mature.
+**These are direct loans to a foreign government that cannot be sold before maturity.** Unlike most fixed-income investments, these bonds have no secondary market — once APERS buys them, your pension fund is locked in until the bonds mature.
 
 </div>
 
-At the authorized level of $25–50 million, Israel Bonds would represent approximately 0.2–0.4% of APERS's $11.58 billion portfolio. The question is not whether the allocation is large, but whether the decision followed the fiduciary process Arkansas law requires.
+At the authorized level of $25–50 million, these bonds would represent approximately 0.2–0.4% of APERS's $11.58 billion portfolio. The question is not whether the allocation is large, but whether the decision followed the fiduciary process Arkansas law requires.
 
 ## Why it matters
 
 Arkansas law requires state retirement systems to invest and manage assets solely in the interest of members and beneficiaries, based only on "pecuniary factors" — those expected to materially affect risk or return. APERS policy mirrors this duty and incorporates the prudent-investor rule, emphasizing care, skill, diversification, liquidity, and documented due diligence.
 
-The question for APERS is not political: it is whether a sizable, relatively illiquid Israel Bonds position is the best available option on risk-return and liquidity, compared with other fixed-income choices that meet the same credit and duration needs.
+The question for APERS is not political: it is whether a sizable, relatively illiquid sovereign bond position is the best available option on risk-return and liquidity, compared with other fixed-income choices that meet the same credit and duration needs.
 
 Here's what the record shows:
 
-- **The authorization was fast-tracked.** In May 2025, the APERS Investment Subcommittee unanimously advanced a $25–50 million Israel Bonds resolution, with the authorization later referenced in the September 10, 2025 Board packet.
-- **A state official with no investment authority arranged the pitch meetings.** On April 11, 2025, State Auditor Dennis Milligan, through his office, scheduled four meetings in 18 minutes — arranging back-to-back sessions for Israel Bonds sales executives with the heads of APERS, ATRS, and the Treasury, all in the Auditor's Capitol office (Room 230). The Auditor has no investment authority over any of these funds. ([See evidence finding 3e](/evidence/#3e-the-auditor-arranged-a-two-day-pitch-tour-in-his-own-office)) A [thank-you email to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings, while a separate [email to the APERS director](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) used the $20 million Treasury purchase as sales leverage. Within weeks, the Treasury bought $20 million more and both pension funds approved large Israel Bonds allocations.
-- **The Treasurer's own staff recommended against it.** A late-2024 internal memo from Pulley advised holding off on new Israel Bonds because major rating agencies had downgraded Israel's credit, signaling higher risk.
+- **The authorization was fast-tracked.** In May 2025, the APERS Investment Subcommittee unanimously advanced a $25–50 million sovereign bond resolution, with the authorization later referenced in the September 10, 2025 Board packet.
+- **A state official with no investment authority arranged the pitch meetings.** On April 11, 2025, State Auditor Dennis Milligan, through his office, scheduled four meetings in 18 minutes — arranging back-to-back sessions for the bond issuer's sales executives with the heads of APERS, ATRS, and the Treasury, all in the Auditor's Capitol office (Room 230). The Auditor has no investment authority over any of these funds. ([See evidence finding 3e](/evidence/#3e-the-auditor-arranged-a-two-day-pitch-tour-in-his-own-office)) A [thank-you email to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings, while a separate [email to the APERS director](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) used the $20 million Treasury purchase as sales leverage. Within weeks, the Treasury bought $20 million more and both pension funds approved large sovereign bond allocations.
+- **The Treasurer's own staff recommended against it.** A late-2024 internal memo from Pulley advised holding off on new purchases of these bonds because major rating agencies had downgraded the issuing country's credit, signaling higher risk.
 - **Non-financial motivations were stated on the record.** At the Investment Subcommittee meeting, Deputy State Auditor Jason Brady referenced ties to former Governor Mike Huckabee (then U.S. Ambassador to Israel) and called Israel "the United States' most trusted and dependable ally in a volatile region." These are not pecuniary factors.
-- **APERS chose no external oversight.** CIO Carlos Borromeo stated: "APERS intent is to purchase the bonds directly. Staff opinion is that there is not a need to incur management fees." This means APERS has no independent investment manager reviewing its Israel Bonds position — unlike ATRS, which hired Reams Asset Management. The absence of external oversight makes the lack of independent credit analysis even more concerning.
-- **APERS routed press inquiries to the Auditor's office.** When a journalist asked APERS for comment on the Israel Bonds investments, Executive Director Amy Fecher forwarded the inquiry to Jason Brady at the Auditor's office — not to APERS's own communications staff. The pension system's response to public accountability questions was coordinated through the same office that had arranged the investment.
-- **The Stephens Inc. connection.** When APERS staff finally moved to establish contact with Israel Bonds in July 2025, the CIO routed the request through Seth Middleton at Stephens Inc. — APERS's investment consultant. It remains unclear whether Stephens provided any independent assessment of the investment.
-- **Press analysis raises questions.** Reporting has noted that Israel Bonds often offer lower yields and less liquidity than many higher-rated alternatives, and explicitly asked: "So why Israeli bonds?" — underscoring the need for a clear financial rationale.
+- **APERS chose no external oversight.** CIO Carlos Borromeo stated: "APERS intent is to purchase the bonds directly. Staff opinion is that there is not a need to incur management fees." This means APERS has no independent investment manager reviewing its sovereign bond position — unlike ATRS, which hired Reams Asset Management. The absence of external oversight makes the lack of independent credit analysis even more concerning.
+- **APERS routed press inquiries to the Auditor's office.** When a journalist asked APERS for comment on the sovereign bond investments, Executive Director Amy Fecher forwarded the inquiry to Jason Brady at the Auditor's office — not to APERS's own communications staff. The pension system's response to public accountability questions was coordinated through the same office that had arranged the investment.
+- **The Stephens Inc. connection.** When APERS staff finally moved to establish contact with the bond issuer in July 2025, the CIO routed the request through Seth Middleton at Stephens Inc. — APERS's investment consultant. It remains unclear whether Stephens provided any independent assessment of the investment.
+- **Press analysis raises questions.** Reporting has noted that these bonds often offer lower yields and less liquidity than many higher-rated alternatives. From the public record, the Arkansas Times explicitly asked: "So why Israeli bonds?" — underscoring the need for a clear financial rationale.
 
 <div class="callout" markdown="1">
 
-**APERS leadership has stated** that the Israel Bonds investment "follows all applicable state statutes and will result in a good outcome for the members and retirees of APERS." If that's true, a transparent, side-by-side financial analysis is the surest way to confirm it — and members have every right to see one.
+**APERS leadership has stated** that the sovereign bond investment "follows all applicable state statutes and will result in a good outcome for the members and retirees of APERS." If that's true, a transparent, side-by-side financial analysis is the surest way to confirm it — and members have every right to see one.
 
 </div>
 
@@ -75,11 +75,11 @@ For the full timeline, source quotes, and legal analysis, see our [evidence page
 
 As of March 31, 2025, the APERS total fund stands at **$11.58 billion**, with a Q1 2025 return of **-0.79%** (78th percentile among public fund peers) and a fiscal year-to-date return of **3.02%**. The system serves **43,571 active members** and **39,546 retirees** as of March 2025, with an average annual salary of **$48,794**. The unfunded actuarial accrued liability stands at approximately **$2.6 billion**. Contributions cover **66%** of benefit payouts, reinforcing the importance of disciplined investment management.
 
-The fund was underweight in fixed income (18.1% actual vs. 21% target) — the asset class where Israel Bonds would sit — yet neither the CIO nor Callan analyzed how Israel Bonds fit the allocation.
+The fund was underweight in fixed income (18.1% actual vs. 21% target) — the asset class where these bonds would sit — yet neither the CIO nor Callan analyzed how they fit the allocation.
 
-The publicly-posted board packets for the May 15 subcommittee and June 11 full board meetings reveal the contrast most clearly. At the same meetings where the board reviewed 37 pages of Callan quarterly analysis covering every asset class in the portfolio, and where three institutional firms presented detailed private credit briefings, the Israel Bonds authorization received zero pages of written analysis. The CIO provided no assessment. Callan — APERS's own investment consultant — was never asked to review the proposed investment.
+The publicly-posted board packets for the May 15 subcommittee and June 11 full board meetings reveal the contrast most clearly. At the same meetings where the board reviewed 37 pages of Callan quarterly analysis covering every asset class in the portfolio, and where three institutional firms presented detailed private credit briefings, the sovereign bond authorization received zero pages of written analysis. The CIO provided no assessment. Callan — APERS's own investment consultant — was never asked to review the proposed investment.
 
-These are solid numbers. But even in a well-funded system, bypassing standard investment processes for a novel, illiquid asset class sets a precedent that could affect long-term outcomes. The question is not whether APERS can absorb a $25–50 million Israel Bonds position, but whether the decision was made through the same rigorous process applied to every other investment.
+These are solid numbers. But even in a well-funded system, bypassing standard investment processes for a novel, illiquid asset class sets a precedent that could affect long-term outcomes. The question is not whether APERS can absorb a $25–50 million sovereign bond position, but whether the decision was made through the same rigorous process applied to every other investment.
 
 *Updated with Q1 FY2025 data from APERS Quarterly Board Meeting packet, June 11, 2025, publicly posted at apers.org.*
 
@@ -87,9 +87,9 @@ These are solid numbers. But even in a well-funded system, bypassing standard in
 
 ### 1. Write to the APERS Board
 
-At least one Israel Bonds purchase has been confirmed (November 2025 bond statement), though the exact amount has not been disclosed. Email the Board to request an independent financial review and transparent reporting to members.
+At least one purchase of these non-tradable sovereign bonds has been confirmed (November 2025 bond statement), though the exact amount has not been disclosed. Email the Board to request an independent financial review and transparent reporting to members.
 
-**Email:** [APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Investment)
+**Email:** [APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20%E2%80%94%20Sovereign%20Bond%20Investment)
 
 <div class="letter-template" markdown="1">
 <button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
@@ -97,22 +97,24 @@ At least one Israel Bonds purchase has been confirmed (November 2025 bond statem
 #### Letter template — APERS trustees
 {: .letter-heading }
 
-**Subject line:** Public employees request independent review of Israel Bonds investment
+**Subject line:** Public employees request independent review of non-tradable sovereign bond investment
 
 Dear APERS Trustees,
 
 As Arkansas public employees and APERS members, we ask that every investment decision remain strictly fiduciary. State law requires trustees to act "solely in the interest of the members and benefit recipients," and that evaluations be based only on pecuniary factors — those with a material effect on risk or return. That standard — prudence, loyalty, and process — exists to protect our pensions from politics and keep choices focused on risk, return, liquidity, and long-term security. It also reflects the prudent-investor rule requiring care, skill, diversification, and diligence appropriate to the fund's objectives.
 
-In May–June 2025, the APERS Investment Subcommittee and then the full board approved a $25–50 million Israel Bonds authorization. The Auditor of State's appointee to the board introduced the investment by citing Treasury holdings — not independent financial analysis. At least one purchase has since been confirmed, though the exact amount has not been disclosed to members. Around the same period, an internal Treasury memo (late 2024) advised holding off on new Israel Bonds due to credit-rating downgrades, and public comments by some officials framed the bonds in political terms.
+In May–June 2025, the APERS Investment Subcommittee and then the full board approved a $25–50 million non-tradable sovereign bond authorization. The Auditor of State's appointee to the board introduced the investment by citing Treasury holdings — not independent financial analysis. At least one purchase has since been confirmed, though the exact amount has not been disclosed to members. Around the same period, an internal Treasury memo (late 2024) advised holding off on new purchases of these bonds due to credit-rating downgrades, and public comments by some officials framed the investment in political terms.
 
 Now that purchases have been made, we ask you to:
 
-1. Commission and publish an independent analysis of APERS's Israel Bonds position — comparing risk, return, liquidity, and alternatives — and share it with members.
-2. Disclose the current size and terms of APERS's Israel Bonds holdings.
+1. Commission and publish an independent analysis of APERS's sovereign bond position — comparing risk, return, liquidity, and alternatives — and share it with members.
+2. Disclose the current size and terms of APERS's sovereign bond holdings.
 3. Document how the authorization and purchases complied with APERS's pecuniary-only standard.
 4. Ensure that any future sovereign debt commitments include independent analysis and member input before the board votes.
 
 We recognize that APERS has stated the investment complies with statutes and will result in a good outcome for members. A transparent side-by-side comparison is the surest way to confirm that — and members have every right to see one.
+
+For the specific instrument identified in our FOIA investigation and the full financial profile, see arpensions.org/glossary.
 
 Thank you for safeguarding Arkansas public employees' retirements through prudent process and strictly financial analysis.
 
@@ -123,7 +125,7 @@ Sincerely,
 
 <div class="callout email-callout" markdown="1">
 
-**Shorter version for email:** "As an Arkansas public employee and APERS member, I appreciate your work to safeguard our retirement. APERS authorized $25–50 million in Israel Bonds in 2025, and at least one purchase has been confirmed — but the exact amount and terms have not been disclosed to members. I'm asking you to commission and publish an independent review of this investment, disclose the current holdings, and ensure future sovereign debt commitments include independent analysis before the board votes."
+**Shorter version for email:** "As an Arkansas public employee and APERS member, I appreciate your work to safeguard our retirement. APERS authorized $25–50 million in non-tradable sovereign bonds in 2025, and at least one purchase has been confirmed — but the exact amount and terms have not been disclosed to members. I'm asking you to commission and publish an independent review of this investment, disclose the current holdings, and ensure future sovereign debt commitments include independent analysis before the board votes. For the specific instrument and full financial profile, see arpensions.org/glossary."
 
 </div>
 
@@ -142,7 +144,7 @@ Public comment is your right as a pension fund member.
 
 <div class="callout script-card" markdown="1">
 
-**60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas public employee and APERS member. In May 2025, your Investment Subcommittee approved a $25–50 million Israel Bonds authorization. The Auditor's appointee introduced the investment by citing Treasury holdings, not independent analysis. At least one purchase has since been confirmed, but the exact amount hasn't been disclosed to members. The State Treasurer's own senior investment officer had previously recommended pausing new Israel Bonds because of credit-rating downgrades. As members, we're asking for transparency: please commission and publish an independent review of this investment, disclose the current holdings, and ensure future sovereign debt commitments include independent analysis and member input before the board votes."
+**60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas public employee and APERS member. In May 2025, your Investment Subcommittee approved a $25–50 million authorization for non-tradable sovereign bonds. The Auditor's appointee introduced the investment by citing Treasury holdings, not independent analysis. At least one purchase has since been confirmed, but the exact amount hasn't been disclosed to members. The State Treasurer's own senior investment officer had previously recommended pausing new purchases of these bonds because of credit-rating downgrades. As members, we're asking for transparency: please commission and publish an independent review of this investment, disclose the current holdings, and ensure future sovereign debt commitments include independent analysis and member input before the board votes. For the specific investment identified in the FOIA documents, visit arpensions.org/glossary."
 
 </div>
 
