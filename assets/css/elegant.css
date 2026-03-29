@@ -1509,10 +1509,33 @@ hr + * > .section-label:first-child {
    ======================================================================== */
 
 @media print {
-  .hero-ghost {
-    display: none;
+  /* --- Hide interactive / nav elements --- */
+  nav,
+  .site-nav,
+  .site-footer,
+  .scroll-to-top,
+  .scroll-progress,
+  .theme-toggle-btn,
+  .action-nav,
+  .mobile-cta-bar,
+  .cta-bar,
+  .evidence-toc-sidebar,
+  .hero-ghost,
+  .skip-link,
+  .page-flow,
+  .btn-primary,
+  .btn-secondary,
+  .subfindings-controls {
+    display: none !important;
   }
 
+  /* --- Force light colors --- */
+  body, main, article, .page-content, .landing-content {
+    background: white !important;
+    color: var(--art-black, #1b2127) !important;
+  }
+
+  /* --- Typography fallbacks --- */
   .hero h1,
   .elegant-heading,
   .section-heading,
@@ -1529,6 +1552,96 @@ hr + * > .section-label:first-child {
 
   .pull-quote p {
     font-family: Georgia, serif;
+  }
+
+  /* --- Expand all collapsed sections --- */
+  details {
+    display: block !important;
+  }
+  details > summary ~ * {
+    display: revert !important;
+  }
+
+  details > summary::before,
+  details > summary::marker,
+  details > summary::-webkit-details-marker {
+    display: none !important;
+  }
+
+  /* --- Show URLs after external links --- */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #78716C;
+    word-break: break-all;
+  }
+
+  /* Don't show URLs for in-page anchors, mailto, or internal domain links */
+  a[href^="#"]::after,
+  a[href^="mailto"]::after,
+  a[href^="/"]::after,
+  a[href^="https://arpensions.org"]::after {
+    content: none;
+  }
+
+  /* --- Pull-quotes and callouts: visible on paper --- */
+  .pull-quote,
+  blockquote,
+  .callout {
+    border-left: 3px solid #B91C1C !important;
+    background: #f9f9f9 !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* --- Page breaks --- */
+  h2 {
+    break-before: auto;
+    break-after: avoid;
+    page-break-before: auto;
+    page-break-after: avoid;
+  }
+
+  h3, h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .subfinding {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* --- Evidence page: full width without sidebar --- */
+  .evidence-layout {
+    display: block !important;
+  }
+
+  .evidence-content {
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  /* --- Timeline: simplify for print --- */
+  .timeline .timeline-event.timeline-event--highlight {
+    background: #f5f5f5 !important;
+    border-left-color: #B91C1C !important;
+  }
+
+  /* --- Charts: ensure they print --- */
+  .chart-container,
+  .decision-window-container {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* --- Page header: add site URL --- */
+  .page-header::after {
+    content: "arpensions.org";
+    display: block;
+    font-size: 0.75rem;
+    color: #78716C;
+    margin-top: 0.25rem;
   }
 }
 
