@@ -65,7 +65,11 @@
 
     // If reduced motion, just show the final value immediately
     if (prefersReducedMotion) {
-      el.textContent = prefix + target.toFixed(decimals) + suffix;
+      if (decimals === 0) {
+        el.textContent = prefix + Math.round(target).toLocaleString() + suffix;
+      } else {
+        el.textContent = prefix + target.toFixed(decimals) + suffix;
+      }
       return;
     }
 
@@ -77,7 +81,7 @@
       var current = target * easeOutCubic(progress);
 
       if (decimals === 0) {
-        el.textContent = prefix + Math.round(current) + suffix;
+        el.textContent = prefix + Math.round(current).toLocaleString() + suffix;
       } else {
         el.textContent = prefix + current.toFixed(decimals) + suffix;
       }

@@ -52,7 +52,7 @@ In April 2025, the bond issuer's national and regional sales representatives met
 - APERS authorized $25–50 million (May 15, 2025)
 - ATRS authorized up to $50 million (June 2, 2025)
 
-<div class="pull-quote" markdown="1">
+<div class="pull-quote" data-aos="fade-up" markdown="1">
 
 **From the public record:**
 
@@ -202,7 +202,7 @@ Additionally, APERS Board Secretary Daryl Bassett had previously appointed Jason
 
 ATRS Board Chair Danny Knight cast the sole "no" vote on Resolution 2025-22 (June 2, 2025), warning that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members or their proxies — to recommend specific securities.
 
-<div class="pull-quote" markdown="1">
+<div class="pull-quote" data-aos="fade-up" markdown="1">
 
 "Even though this request started with a trustee, we still followed our usual process. Nothing prohibits a trustee from suggesting an investment."
 
@@ -218,7 +218,7 @@ The question remains whether a proposal initiated through political channels and
 
 Multiple state officials made public statements that framed the investments in political — not financial — terms:
 
-<div class="pull-quote" markdown="1">
+<div class="pull-quote" data-aos="fade-up" markdown="1">
 
 **From the public record:**
 
@@ -228,7 +228,7 @@ Multiple state officials made public statements that framed the investments in p
 
 </div>
 
-<div class="pull-quote" markdown="1">
+<div class="pull-quote" data-aos="fade-up" markdown="1">
 
 **From the public record:**
 
@@ -316,7 +316,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="timeline-year">2017</div>
 <ol class="timeline" role="list" aria-label="2017 events">
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>2017</time>
     <h3>Bond issuer outreach begins</h3>
     <p>State Treasurer Dennis Milligan, after being approached by the bond issuer's representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase these bonds. This led to the state's first sovereign bond purchases through the Treasury. Rapert now chairs Christian outreach for the broker-dealer (<a href="https://brokercheck.finra.org/firm/summary/11148">FINRA BrokerCheck, CRD# 11148</a>) — the legislator who created the legal authority now works for the bond seller.</p>
@@ -325,7 +325,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="timeline-year">2018</div>
 <ol class="timeline" role="list" aria-label="2018 events">
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>2018</time>
     <h3>Bond issuer representatives congratulate Milligan on re-election</h3>
     <p>The bond issuer's executives Lawrence Berman and Bradley Young sent congratulations to Dennis Milligan on his re-election as State Treasurer. Milligan replied that he looked "forward to our future together." (<a href="/assets/documents/berman-young-congratulations-milligan-2018.pdf">Read the correspondence</a>)</p>
@@ -334,7 +334,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="timeline-year">2020</div>
 <ol class="timeline" role="list" aria-label="2020 events">
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>2020</time>
     <h3>Milligan nominated as SFOF National Chair</h3>
     <p>Indiana Treasurer Kelly Mitchell nominated Dennis Milligan as National Chair of the State Financial Officers Foundation, praising his service and noting he managed an approximately $4.5 billion portfolio. (<a href="/assets/documents/sfof-nominates-milligan-chair-2020.pdf">Read the nomination</a>)</p>
@@ -343,7 +343,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="timeline-year">2023</div>
 <ol class="timeline" role="list" aria-label="2023 events">
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>October 2023</time>
     <h3>$10M purchase after October 7 attacks</h3>
     <p>State Board of Finance approves $10 million additional purchase of non-tradable sovereign bonds, bringing total holdings to $57 million. Officials frame the purchase in political rather than financial terms.</p>
@@ -352,12 +352,12 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="timeline-year">2024</div>
 <ol class="timeline" role="list" aria-label="2024 events">
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>October 8, 2024</time>
     <h3>Internal memo recommends against new purchases</h3>
     <p>Senior Investment Officer Steve Pulley writes internal memo recommending against new sovereign bond purchases, citing credit downgrades from major rating agencies.</p>
   </li>
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>November 2024</time>
     <h3>Auditor arranges meetings</h3>
     <p>Auditor Milligan arranges meeting between the bond issuer's representatives and state officials.</p>
@@ -366,57 +366,57 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="timeline-year">2025</div>
 <ol class="timeline" role="list" aria-label="2025 events">
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>April 11, 2025</time>
     <h3>Auditor schedules two-day pitch tour</h3>
     <p>Auditor Milligan and his executive assistant send four meeting arrangement emails in 18 minutes, scheduling the bond issuer's executives Lawrence Berman and Bradley Young with the heads of APERS, ATRS, and the Treasury — all in the Auditor's own Capitol office, Room 230. Every email is CC'd to deputy Jason Brady and includes biographical documents for the sales representatives.</p>
   </li>
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>April 14–15, 2025</time>
     <h3>Sales representatives meet with agency directors</h3>
     <p>The bond issuer's sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor in back-to-back meetings at Room 230.</p>
   </li>
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>May 2025</time>
     <h3>$20M Treasury purchase; APERS authorizes $25–50M</h3>
     <p>Treasury purchases $20 million in new non-tradable sovereign bonds; APERS Investment Subcommittee authorizes $25–50 million.</p>
   </li>
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>June 2, 2025</time>
     <h3>ATRS Board authorizes up to $50M</h3>
     <p>ATRS Board adopts Resolution 2025-22 authorizing up to $50 million; Board Chair Danny Knight casts lone "no" vote.</p>
   </li>
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>June 11, 2025</time>
     <h3>APERS full board approves sovereign bond authorization</h3>
     <p>Following Jason Brady's introduction citing Treasury's $55 million holdings, the APERS full board approves the $25–50 million sovereign bond authorization first advanced by the Investment Subcommittee in May.</p>
   </li>
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>July 30, 2025</time>
     <h3>"Still zero for APERS"</h3>
     <p>Two months after authorization, APERS Executive Director Amy Fecher confirms no sovereign bonds have been purchased. The following day, CIO Carlos Borromeo emails Stephens Inc. asking for the bond issuer's contact information.</p>
   </li>
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>July 2025</time>
     <h3>Arkansas Times investigation published</h3>
     <p>Arkansas Times publishes in-depth investigation documenting the timeline, political connections, and fiduciary concerns.</p>
   </li>
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>August 2025</time>
     <h3>Governor's trade mission to the issuing country</h3>
     <p>Governor Sanders participates in a trade mission to the issuing country, publicly citing the state's sovereign bond investments.</p>
   </li>
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>September 25, 2025</time>
     <h3>ATRS establishes investment guidelines</h3>
     <p>ATRS formalizes its sovereign bond approach through Reams Asset Management with written investment guidelines for what the ATRS documents describe as the "Israeli Jubilee bond account" — nearly four months after the board authorized the investment.</p>
   </li>
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>November 2025</time>
     <h3>APERS purchase confirmed</h3>
     <p>APERS staff receive a bond statement, confirming that a sovereign bond purchase eventually occurred after the months-long delay following the May–June authorization.</p>
   </li>
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>December 2025</time>
     <h3>ATRS deploys full $50M</h3>
     <p>ATRS Deputy Director Rod Graves confirms in a routine board liquidity update that the full $50 million sovereign bond mandate was funded through the Scout (Reams) account — six months after board authorization and without an independent credit analysis at any stage.</p>
@@ -425,22 +425,22 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="timeline-year">2026</div>
 <ol class="timeline" role="list" aria-label="2026 events">
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>February 2026</time>
     <h3>Second FOIA round responses received</h3>
     <p>Treasury delivers 118 documents (2,526 pages), APERS delivers 16 documents including an 8,648-page comprehensive production, and ATRS delivers 7 documents (partial response). Investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.</p>
   </li>
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>March 3, 2026</time>
     <h3>Auditor of State delivers Round 2 response</h3>
     <p>124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) received via flash drive from General Counsel TJ Fowler. Round 2 corpus: 1,222 documents.</p>
   </li>
-  <li class="timeline-event timeline-event--highlight">
+  <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>March 2026</time>
     <h3>Board packet analysis reveals dual fiduciary standard; FOIA Round 3 filed</h3>
     <p>Analysis of the publicly-posted APERS board packets reveals that 37 pages of Callan analysis were prepared for infrastructure investments while zero pages of analysis accompanied the sovereign bond authorization — at the same meetings. FOIA Round 3 filed with ASHERS and LOPFI, expanding the investigation to two previously uninvestigated pension systems. Interstate outreach sent to parallel investigations in five states.</p>
   </li>
-  <li class="timeline-event">
+  <li class="timeline-event" data-aos="fade-left">
     <time>March 28, 2026</time>
     <h3>ASHERS delivers Round 3 response; ASPRS confirms null result</h3>
     <p>ASHERS (Arkansas State Highway Employees' Retirement System) delivered 5 documents including email correspondence revealing that the bond issuer's national sales leadership was introduced to ASHERS staff through the same April 2025 pitch tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009. LOPFI response still pending. Investigation corpus now covers 5 state agencies with 1,227 total documents (1,044 active after deduplication).</p>

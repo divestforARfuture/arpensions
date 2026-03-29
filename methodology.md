@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Our Methods — How We Conducted This Investigation"
-description: "How Arkansans for Retirement Transparency obtained, processed, and analyzed more than 1,200 public records from five Arkansas state agencies."
+description: "1,227 documents. Five agencies. Three FOIA rounds. Here's exactly how we did it."
 permalink: /methodology/
 ---
 
