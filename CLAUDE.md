@@ -2,7 +2,7 @@
 
 > **Live site:** [arpensions.org](https://arpensions.org)
 
-This is the public-facing campaign website for Arkansans for Retirement Transparency, a grassroots Arkansas initiative investigating Israel Bonds investments by state pension funds.
+This is the public-facing campaign website for Arkansans for Retirement Transparency, a grassroots Arkansas initiative investigating state pension fund investments in non-marketable foreign sovereign debt.
 
 ## Quick Reference
 
@@ -30,6 +30,7 @@ This is the public-facing campaign website for Arkansans for Retirement Transpar
 /about/              # FAQ + campaign info
 /news/               # Updates + coverage
 /methodology/        # Research methodology
+/glossary/           # Investment profile + terminology
 ```
 
 ## Brand System
@@ -70,7 +71,7 @@ bundle exec jekyll serve
 
 1. **Fiduciary-first framing** — financial merit and legal standards, not political arguments
 2. **Source everything** — every factual claim must trace to a FOIA document
-3. **Issuer-neutral for legislation** — "Pension Investment Transparency Act"
+3. **Issuer-neutral language** — all campaign-voice content uses financial terminology ("non-marketable foreign sovereign debt," "non-tradable sovereign bonds," "the bonds under investigation") rather than naming the bond issuer. Official quotes stay verbatim with "From the public record:" prefix. The glossary page (`/glossary/`) explains the approach and provides the financial profile. See `REFRAME-INSTRUCTIONS.md` for the complete terminology table.
 4. **No BDS self-identification** — this is a transparency and accountability campaign
 5. **Current data only** — keep stats updated (ATRS: $23.7B, ~84% funded; APERS: $11.82B, ~84% funded)
 6. **Corpus state** — 1,227 total documents from 5 agencies (1,044 active after dedup); 11 FOIA requests across 3 rounds to 7 state entities; LOPFI response pending
