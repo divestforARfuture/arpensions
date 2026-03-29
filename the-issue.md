@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The Issue — Up to $100M in Pension Fund Exposure Authorized Without Independent Analysis"
-description: "Up to $100 million in Arkansas pension fund exposure authorized for Israel Bonds despite credit downgrades, internal advice against new purchases, and no independent analysis."
+description: "Up to $100 million in Arkansas pension fund exposure authorized for non-tradable foreign sovereign debt despite credit downgrades, internal advice against new purchases, and no independent analysis."
 permalink: /the-issue/
 d3sankey: true
 ---
@@ -10,21 +10,21 @@ d3sankey: true
 
 <span class="section-label">The instrument</span>
 
-## What are Israel Bonds?
+## What is this investment?
 
-Israel Bonds are direct loans to the Israeli government, sold through the Development Corporation for Israel. Unlike U.S. Treasury bonds and most other fixed-income securities, they have two critical features that matter for pension fund managers:
+The bonds under investigation are non-marketable foreign sovereign debt — direct loans to a foreign government, sold exclusively through a single for-profit broker-dealer (FINRA CRD# 11148). Unlike U.S. Treasury bonds and most other fixed-income securities, they have three critical features that matter for pension fund managers:
 
-1. **No secondary market.** Israel Bonds cannot be sold or traded before maturity (per the bond prospectus — a characteristic of the instrument, not a FOIA finding). A pension fund that purchases them is locked in — unable to exit the position if conditions change, if better opportunities arise, or if the fund needs liquidity.
-2. **Lower credit ratings.** All three major rating agencies — Moody's, S&P, and Fitch — have downgraded Israel's credit rating since 2024, specifically citing economic instability and heightened security risks. This means Israel Bonds carry more risk than many comparable alternatives with similar interest rates.
-3. **Sold by a for-profit broker-dealer with special regulatory accommodations.** Israel Bonds are sold exclusively by the Development Corporation for Israel (DCI), a for-profit New York corporation registered with FINRA (CRD# 11148) since 1955. DCI's sole shareholder is a not-for-profit controlled by the Israeli government, which controls the appointment of DCI's CEO — currently a former Israeli Knesset member and cabinet minister. In 2000, FINRA's predecessor (NASD) granted DCI special accommodations regarding customer suitability requirements, noting that DCI's customer base is "basically limited to those who have some religious, cultural or ideological affinity for Israel." DCI has three regulatory enforcement events on its FINRA record. When state pension funds rely on DCI's own sales materials as their investment analysis, they are relying on a for-profit seller operating under reduced regulatory scrutiny — not an independent financial advisor.
+1. **No secondary market.** These bonds cannot be sold or traded before maturity (per the bond prospectus — a characteristic of the instrument, not a FOIA finding). A pension fund that purchases them is locked in — unable to exit the position if conditions change, if better opportunities arise, or if the fund needs liquidity.
+2. **Declining credit quality.** All three major rating agencies — Moody's, S&P, and Fitch — have downgraded the issuing country's credit rating since 2024, specifically citing economic instability and heightened security risks. These bonds carry more risk than many comparable alternatives with similar interest rates.
+3. **Sold by a for-profit broker-dealer with special regulatory accommodations.** The bonds are sold exclusively by a for-profit New York corporation registered with FINRA (CRD# 11148) since 1955. The broker-dealer's sole shareholder is a not-for-profit controlled by the issuing government, which controls the appointment of the broker-dealer's CEO — currently a former Knesset member and cabinet minister. In 2000, FINRA's predecessor (NASD) granted this broker-dealer special accommodations regarding customer suitability requirements, noting from the regulatory record that the firm's customer base is "basically limited to those who have some religious, cultural or ideological affinity for Israel." The broker-dealer has three regulatory enforcement events on its FINRA record. When state pension funds rely on the broker-dealer's own sales materials as their investment analysis, they are relying on a for-profit seller operating under reduced regulatory scrutiny — not an independent financial advisor.
 
-In practical terms: an Arkansas pension fund that buys Israel Bonds is accepting less liquidity and more risk than it would with many other available fixed-income investments. The question is whether that trade-off was made based on sound financial analysis.
+In practical terms: an Arkansas pension fund that buys these bonds is accepting less liquidity and more risk than it would with many other available fixed-income investments. The question is whether that trade-off was made based on sound financial analysis.
 
 <span class="section-label">The exposure</span>
 
 ## What's happening in Arkansas?
 
-Three Arkansas state agencies have committed or authorized significant funds for Israel Bonds:
+Three Arkansas state agencies have committed or authorized significant funds for non-tradable sovereign bonds:
 
 <div class="issue-agency-table" markdown="1">
 
@@ -42,17 +42,17 @@ While the portfolio percentages are small, the question is whether standard fidu
 
 These authorizations came in rapid succession — and under circumstances that raise questions about process:
 
-- **In late 2024**, Steve Pulley, a senior investment manager in the State Treasurer's office, wrote an internal memo advising against new Israel Bonds purchases, citing credit-rating downgrades by major rating agencies. The memo recommended the state "hold our positions and allow for the $17M to roll off."
-- **On April 11, 2025**, State Auditor Dennis Milligan personally scheduled a two-day pitch tour for Israel Bonds sales executives — arranging four meetings in 18 minutes with the heads of APERS, ATRS, and the Treasury, all in his own Capitol office (Room 230), all staffed by his deputy Jason Brady. ([See evidence finding 3e](/evidence/#3e-the-auditor-arranged-a-two-day-pitch-tour-in-his-own-office)) The Auditor has no investment authority over any of these funds, yet convened every decision-maker who would need to approve the purchases.
-- **Within weeks**, the Treasury purchased $20 million in new bonds, and both pension boards voted to authorize up to $100 million more in combined Israel Bonds investments.
+- **In late 2024**, Steve Pulley, a senior investment manager in the State Treasurer's office, wrote an internal memo advising against new sovereign bond purchases, citing credit-rating downgrades by major rating agencies. The memo recommended the state "hold our positions and allow for the $17M to roll off."
+- **On April 11, 2025**, State Auditor Dennis Milligan personally scheduled a two-day pitch tour for the bond issuer's sales executives — arranging four meetings in 18 minutes with the heads of APERS, ATRS, and the Treasury, all in his own Capitol office (Room 230), all staffed by his deputy Jason Brady. ([See evidence finding 3e](/evidence/#3e-the-auditor-arranged-a-two-day-pitch-tour-in-his-own-office)) The Auditor has no investment authority over any of these funds, yet convened every decision-maker who would need to approve the purchases.
+- **Within weeks**, the Treasury purchased $20 million in new bonds, and both pension boards voted to authorize up to $100 million more in combined sovereign bond investments.
 
-**July 2025:** Two months after APERS's board authorized $25–50 million, Executive Director Amy Fecher confirmed no bonds had been purchased: "Still zero for APERS." Staff were still establishing contact with Israel Bonds representatives the next day.
+**July 2025:** Two months after APERS's board authorized $25–50 million, Executive Director Amy Fecher confirmed no bonds had been purchased: "Still zero for APERS." Staff were still establishing contact with the issuer's representatives the next day.
 
-**September 2025:** ATRS formalized its Israel Bonds approach through Reams Asset Management, establishing written investment guidelines for an "Israeli Jubilee bond account" — four months after board authorization.
+**September 2025:** ATRS formalized its sovereign bond approach through Reams Asset Management, establishing written investment guidelines for what the account documents call an "Israeli Jubilee bond account" — four months after board authorization.
 
-**November 2025:** APERS received its first Israel Bonds statement, confirming a purchase had eventually occurred after the months-long delay.
+**November 2025:** APERS received its first sovereign bond statement, confirming a purchase had eventually occurred after the months-long delay.
 
-**December 2025:** ATRS Deputy Director Rod Graves confirmed in a routine board liquidity update that the full $50 million Israel Bonds mandate had been funded through the Scout (Reams) account — completing the cycle from board authorization (June 2) to investment guidelines (September 25) to deployment (December 2025) without an independent credit analysis at any stage.
+**December 2025:** ATRS Deputy Director Rod Graves confirmed in a routine board liquidity update that the full $50 million sovereign bond mandate had been funded through the Scout (Reams) account — completing the cycle from board authorization (June 2) to investment guidelines (September 25) to deployment (December 2025) without an independent credit analysis at any stage.
 
 **February 2026:** Second round of FOIA responses received from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). Total investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.
 
@@ -74,7 +74,7 @@ These authorizations came in rapid succession — and under circumstances that r
 
 ## How did it happen?
 
-The diagram below traces the documented connections from our FOIA investigation. Two sources of influence — Dennis Milligan (the former Treasurer who became Auditor of State) and Israel Bonds sales representatives — flow through intermediaries to reach three state agencies and an interstate replication network. Hover over any connection to see the specific relationship documented in public records.
+The diagram below traces the documented connections from our FOIA investigation. Two sources of influence — Dennis Milligan (the former Treasurer who became Auditor of State) and the bond issuer's sales representatives — flow through intermediaries to reach three state agencies and an interstate replication network. Hover over any connection to see the specific relationship documented in public records.
 
 <div class="influence-sankey-container">
   <div id="influence-sankey"></div>
@@ -125,15 +125,15 @@ Several red flags suggest these standards may not have been followed:
 
 **The ATRS Board Chair dissented.** Danny Knight, the lone "no" vote on the June 2025 authorization, warned that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members — to recommend specific securities.
 
-**No independent credit analysis was produced.** Our review of more than 1,200 public records obtained through FOIA requests to five state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. The same APERS meetings that produced 37 pages of Callan analysis for other investments contained zero pages of analysis for the Israel Bonds authorization. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
+**No independent credit analysis was produced.** Our review of more than 1,200 public records obtained through FOIA requests to five state agencies found zero independent credit analyses of these bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. The same APERS meetings that produced 37 pages of Callan analysis for other investments contained zero pages of analysis for the sovereign bond authorization. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
 
-**Two pension funds, no independent analysis either way.** APERS chose to purchase Israel Bonds directly without an external investment manager, with its CIO stating there was "not a need to incur management fees." ATRS, by contrast, hired Reams Asset Management — but established its investment guidelines four months after the board authorized the purchase. Neither approach included independent credit analysis before authorization.
+**Two pension funds, no independent analysis either way.** APERS chose to purchase the bonds directly without an external investment manager, with its CIO stating there was "not a need to incur management fees." ATRS, by contrast, hired Reams Asset Management — but established its investment guidelines four months after the board authorized the purchase. Neither approach included independent credit analysis before authorization.
 
-**The investment was championed through political channels.** State Auditor Dennis Milligan, an ex officio trustee with voting rights on both the ATRS and APERS boards (Ark. Code § 24-7-301), arranged meetings between Israel Bonds sales representatives and state officials. In a [reply to the Auditor's office](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf), an Israel Bonds executive called Milligan "truly one of a kind" and said he was "forever grateful" for his support — language that describes a political relationship, not a standard financial transaction.
+**The investment was championed through political channels.** State Auditor Dennis Milligan, an ex officio trustee with voting rights on both the ATRS and APERS boards (Ark. Code § 24-7-301), arranged meetings between the bond issuer's sales representatives and state officials. **From the public record:** In a [reply to the Auditor's office](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf), a senior executive from the issuer's broker-dealer called Milligan "truly one of a kind" and said he was "forever grateful" for his support — language that describes a political relationship, not a standard financial transaction.
 
-**The Auditor's office played at least five documented operational roles.** Jason Brady — the Auditor of State's appointee to the APERS board — introduced Israel Bonds to the board, citing Treasury's $55 million in holdings. But Auditor Round 2 records reveal Brady's involvement went far beyond that single board meeting. He served as meeting broker (staffing all four April 2025 pitch meetings), information relay (forwarding ATRS board communications to Milligan's personal email and routing press inquiries from APERS to the Auditor's office), media response coordinator (receiving Fecher's forwarded "Request for comment" from the Arkansas Times), State Financial Officers Foundation (SFOF) speechwriter (drafting Milligan's Spring 2025 speech to the national conference), and physical designee (signing the ATRS board meeting attendance sheet on June 2, 2025 as Milligan's representative). A handwritten note from Brady's files — an undated legal pad page listing "Israel Bonds Trust / 10 ATRS / 130 APERS / ? John Thurston 250 / 505" — shows a single person in the Auditor's office tracking allocations across all three investing entities on one page. The figures do not match the final authorized amounts, suggesting this was an early working document from before the formal board votes.
+**The Auditor's office played at least five documented operational roles.** Jason Brady — the Auditor of State's appointee to the APERS board — introduced the bonds to the board, citing Treasury's $55 million in holdings. But Auditor Round 2 records reveal Brady's involvement went far beyond that single board meeting. He served as meeting broker (staffing all four April 2025 pitch meetings), information relay (forwarding ATRS board communications to Milligan's personal email and routing press inquiries from APERS to the Auditor's office), media response coordinator (receiving Fecher's forwarded "Request for comment" from the Arkansas Times), State Financial Officers Foundation (SFOF) speechwriter (drafting Milligan's Spring 2025 speech to the national conference), and physical designee (signing the ATRS board meeting attendance sheet on June 2, 2025 as Milligan's representative). **From the public record:** A handwritten note from Brady's files — an undated legal pad page listing "Israel Bonds Trust / 10 ATRS / 130 APERS / ? John Thurston 250 / 505" — shows a single person in the Auditor's office tracking allocations across all three investing entities on one page. The figures do not match the final authorized amounts, suggesting this was an early working document from before the formal board votes.
 
-**Public statements emphasized political symbolism, not financial merit.** Governor Sanders publicly stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." Former Treasurer Larry Walther called investing in Israel Bonds "a testament to our longstanding belief in Israel's resiliency [...]" At the APERS Investment Subcommittee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel (former Arkansas Governor Mike Huckabee) as "my and Amy's former boss" and called Israel "the United States' most trusted and dependable ally in a volatile region." None of these are pecuniary factors.
+**Public statements emphasized political symbolism, not financial merit.** **From the public record:** Governor Sanders publicly stated that "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." Former Treasurer Larry Walther called this investment "a testament to our longstanding belief in Israel's resiliency [...]" At the APERS Investment Subcommittee meeting, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel (former Arkansas Governor Mike Huckabee) as "my and Amy's former boss" and called Israel "the United States' most trusted and dependable ally in a volatile region." None of these are pecuniary factors.
 
 <div class="callout" markdown="1">
 
@@ -184,8 +184,8 @@ These are not political questions. They are fiduciary questions. And Arkansas pe
 
 Our requests are straightforward:
 
-1. **Pause** — Halt new Israel Bonds purchases until an independent credit analysis is completed and shared with pension fund members.
-2. **Transparency** — Publish the financial analysis comparing Israel Bonds' risk, return, and liquidity against comparable fixed-income alternatives.
+1. **Pause** — Halt new purchases of these bonds until an independent credit analysis is completed and shared with pension fund members.
+2. **Transparency** — Publish the financial analysis comparing these bonds' risk, return, and liquidity against comparable fixed-income alternatives.
 3. **Process review** — Document how the recent authorizations complied with Arkansas's pecuniary-only standard and the normal manager-driven investment process.
 4. **Member input** — Invite public comment from the educators, public employees, and retirees whose retirement savings are at stake.
 5. **[Pension Investment Transparency Act](/legislators/)** — Issuer-neutral legislation requiring independent analysis, consultant independence, liquidity disclosure, documented rationale, and consistent application of the pecuniary-factors standard before pension boards commit to non-tradable sovereign debt.
