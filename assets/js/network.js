@@ -256,6 +256,7 @@
         buildAccessibleTable(data);
         document.getElementById('graph-loading').classList.add('hidden');
         restoreHashState();
+        showOnboardingCallout();
       })
       .catch(function (err) {
         console.error('Failed to load network data:', err);
@@ -1373,6 +1374,65 @@
     });
   });
   themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+  // --- First-visit onboarding callout ---
+  function showOnboardingCallout() {
+    var STORAGE_KEY = 'art-network-onboarded';
+    if (localStorage.getItem(STORAGE_KEY)) return;
+
+    var graphContainer = document.getElementById('graph-container');
+    if (!graphContainer) return;
+
+    var callout = document.createElement('div');
+    callout.className = 'network-onboarding';
+    callout.setAttribute('role', 'dialog');
+    callout.setAttribute('aria-modal', 'true');
+    callout.setAttribute('aria-labelledby', 'onboarding-title');
+    callout.innerHTML =
+      '<div class="network-onboarding-inner">' +
+        '<h3 id="onboarding-title" class="network-onboarding-title">Explore the network</h3>' +
+        '<p class="network-onboarding-text">Click any node to see its connections. Use the sidebar to filter by entity type, search for people and organizations, or follow a guided tour.</p>' +
+        '<div class="network-onboarding-actions">' +
+          '<button class="network-onboarding-dismiss" data-persist="false">Got it</button>' +
+          '<button class="network-onboarding-dismiss" data-persist="true">Don\u2019t show again</button>' +
+        '</div>' +
+      '</div>';
+
+    graphContainer.appendChild(callout);
+
+    function dismissCallout(persist) {
+      if (persist) localStorage.setItem(STORAGE_KEY, '1');
+      releaseFocus(callout);
+      callout.removeEventListener('keydown', callout._onKeydown);
+      callout.remove();
+    }
+
+    callout._onKeydown = function (e) {
+      if (e.key === 'Escape') dismissCallout(false);
+    };
+    callout.addEventListener('keydown', callout._onKeydown);
+
+    /* Focus trap: cycle between the two buttons */
+    var focusable = callout.querySelectorAll('button');
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+    callout._focusTrap = function (e) {
+      if (e.key !== 'Tab') return;
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault(); last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault(); first.focus();
+      }
+    };
+    callout.addEventListener('keydown', callout._focusTrap);
+    first.focus();
+
+    callout.querySelectorAll('.network-onboarding-dismiss').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        dismissCallout(btn.getAttribute('data-persist') === 'true');
+      });
+    });
+  }
 
   // --- Boot ---
   if (document.readyState === 'loading') {
