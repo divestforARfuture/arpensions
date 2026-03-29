@@ -29,7 +29,7 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 ### 1. No independent credit analysis
 
-Of more than 1,200 documents reviewed, **zero** contained an independent credit analysis of Israel Bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
+Of more than 1,200 documents reviewed, **zero** contained an independent credit analysis of these non-tradable sovereign bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
 
 Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) both require documented financial analysis before committing member funds to new investment positions. This finding holds across all documents received in Round 2 — including APERS's 8,648-page FOIA production and Treasury's 118-document response. The absence of any independent credit analysis in the entire public record is a significant gap.
 
@@ -37,26 +37,28 @@ Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor ru
 
 ### 2. Internal memo recommended against new purchases
 
-On October 8, 2024, Steve Pulley, a Senior Investment Officer in the State Treasurer's office, wrote an internal memo raising concerns about Israel Bonds. The memo noted that major credit-rating agencies — specifically Fitch, Moody's, and S&P — had downgraded Israel's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026." (For the investment standards that should have governed this decision, see the [Treasury investment policy](/assets/documents/treasury-investment-policy-2022.pdf).)
+On October 8, 2024, Steve Pulley, a Senior Investment Officer in the State Treasurer's office, wrote an internal memo raising concerns about the bonds under investigation. The memo noted that major credit-rating agencies — specifically Fitch, Moody's, and S&P — had downgraded the issuing country's credit rating, citing "heightened security risks and weakened economic prospects." The memo recommended that Arkansas "hold our positions and allow for the $17M to roll off in the first half of 2025 and the $20M maturing in the calendar year 2026." (For the investment standards that should have governed this decision, see the [Treasury investment policy](/assets/documents/treasury-investment-policy-2022.pdf).)
 
-Instead, even as bonds matured in accordance with the memo's recommendation, the state purchased $20 million in new Israel Bonds. By May 2025, Senior Investment Officer Steve Pulley confirmed the Treasury held $55 million in Israel Bonds — roughly the same level the memo had recommended letting decline. What changed was not the credit outlook, but the political calculus.
+Instead, even as bonds matured in accordance with the memo's recommendation, the state purchased $20 million in new non-tradable sovereign bonds. By May 2025, Senior Investment Officer Steve Pulley confirmed the Treasury held $55 million in these bonds — roughly the same level the memo had recommended letting decline. What changed was not the credit outlook, but the political calculus.
 
 ---
 
 ### 3. Sales representatives met with agencies before authorizations
 
-In April 2025, Israel Bonds national and regional sales representatives met with the directors of both ATRS and APERS, along with the State Treasurer and State Auditor. State Auditor Dennis Milligan arranged the meetings. A [thank-you email from Israel Bonds executive Lawrence Berman](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf) later used the Treasury's $20 million purchase as sales leverage on the APERS director. A separate [thank-you email to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings.
+In April 2025, the bond issuer's national and regional sales representatives met with the directors of both ATRS and APERS, along with the State Treasurer and State Auditor. State Auditor Dennis Milligan arranged the meetings. A [thank-you email from the issuer's national managing director, Lawrence Berman](/assets/documents/berman-thank-you-fecher-20m-pitch-2025.pdf), later used the Treasury's $20 million purchase as sales leverage on the APERS director. A separate [thank-you email to APERS staff](/assets/documents/berman-thank-you-apers-staff-2024.pdf) praised their "kind hospitality" and pitched follow-up meetings.
 
 **Within weeks:**
-- The State Treasury purchased $20 million in new Israel Bonds
+- The State Treasury purchased $20 million in new non-tradable sovereign bonds
 - APERS authorized $25–50 million (May 15, 2025)
 - ATRS authorized up to $50 million (June 2, 2025)
 
 <div class="pull-quote" markdown="1">
 
-In reply, an Israel Bonds executive called Milligan "truly one of a kind" and said he was "forever grateful" for his support. ([Read the correspondence](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))
+**From the public record:**
 
-<span class="pull-quote-attribution">— Lawrence Berman, Israel Bonds National Managing Director, replying to the Auditor's office on the October 7 anniversary (source document)</span>
+In reply, the bond issuer's national managing director called Milligan "truly one of a kind" and said he was "forever grateful" for his support. ([Read the correspondence](/assets/documents/milligan-oct7-anniversary-berman-reply-2024.pdf))
+
+<span class="pull-quote-attribution">— Lawrence Berman, the bond issuer's National Managing Director, replying to the Auditor's office on the October 7 anniversary (source document)</span>
 
 </div>
 
@@ -64,17 +66,17 @@ This language describes a political relationship, not a standard financial trans
 
 ---
 
-### 3a. How Israel Bonds reached the APERS board
+### 3a. How these bonds reached the APERS board
 
-New records obtained in February 2026 confirm the specific pathway by which Israel Bonds were introduced at APERS. Jason Brady — the Auditor of State's appointee to the APERS board — told fellow board members that "it had come to his attention" that Israel Bonds were available as an investment, and cited the State Treasury's existing holdings: "The State Treasury currently holds approximately $55 million in Israel Bonds as part of its $11 billion portfolio." The board subsequently approved an investment of $25–50 million.
+New records obtained in February 2026 confirm the specific pathway by which non-tradable sovereign bonds were introduced at APERS. Jason Brady — the Auditor of State's appointee to the APERS board — told fellow board members that "it had come to his attention" that these bonds were available as an investment, and cited the State Treasury's existing holdings. **From the public record:** "The State Treasury currently holds approximately $55 million in Israel Bonds as part of its $11 billion portfolio." The board subsequently approved an investment of $25–50 million.
 
-Brady's introduction framed Israel Bonds as already vetted by another state entity, implicitly reducing the perceived need for independent analysis. The chain is direct: Dennis Milligan, the former Treasurer who initiated Israel Bonds purchases at Treasury and then became Auditor of State, appointed Brady to the APERS board. Brady then introduced the same investment to that board.
+Brady's introduction framed the bonds as already vetted by another state entity, implicitly reducing the perceived need for independent analysis. The chain is direct: Dennis Milligan, the former Treasurer who initiated sovereign bond purchases at Treasury and then became Auditor of State, appointed Brady to the APERS board. Brady then introduced the same investment to that board.
 
-The Auditor's office also served as APERS's de facto media response coordinator. When Arkansas Times journalist Jennifer Lenow sent APERS a request for comment about the Israel Bonds investments, Executive Director Amy Fecher's first action was not to consult APERS's own communications staff — it was to forward the inquiry to Jason Brady at the Auditor's office with "FYI," CC'ing Spadoni. Separately, when ATRS Executive Director Mark White sent the ATRS board a heads-up about the Arkansas Times investigation, Brady forwarded that email the same evening to Milligan's personal AOL email address — routing state business communications outside the official state email system. The next morning — a Saturday — Brady forwarded the same chain to Stacy Peterson, the Auditor's communications staff.
+The Auditor's office also served as APERS's de facto media response coordinator. When Arkansas Times journalist Jennifer Lenow sent APERS a request for comment about the sovereign bond investments, Executive Director Amy Fecher's first action was not to consult APERS's own communications staff — it was to forward the inquiry to Jason Brady at the Auditor's office with "FYI," CC'ing Spadoni. Separately, when ATRS Executive Director Mark White sent the ATRS board a heads-up about the Arkansas Times investigation, Brady forwarded that email the same evening to Milligan's personal AOL email address — routing state business communications outside the official state email system. The next morning — a Saturday — Brady forwarded the same chain to Stacy Peterson, the Auditor's communications staff.
 
 <div class="callout" markdown="1">
 
-**The conduit chain:** Milligan initiates Israel Bonds at Treasury → becomes Auditor of State → appoints Brady to APERS board → Brady introduces Israel Bonds to APERS citing Treasury holdings → board authorizes $25–50 million without independent analysis.
+**The conduit chain:** Milligan initiates sovereign bond purchases at Treasury → becomes Auditor of State → appoints Brady to APERS board → Brady introduces the same bonds to APERS citing Treasury holdings → board authorizes $25–50 million without independent analysis.
 
 </div>
 
@@ -82,9 +84,9 @@ The Auditor's office also served as APERS's de facto media response coordinator.
 
 ### 3b. Board voted before staff had a contact
 
-Despite the board's May–June 2025 authorization of $25–50 million, APERS purchased zero Israel Bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The following day, CIO Carlos Borromeo emailed Seth Middleton at Stephens Inc. — APERS's investment consultant — asking him to forward contact information to Bradley Young, Southeast Regional Executive Director at Israel Bonds.
+Despite the board's May–June 2025 authorization of $25–50 million, APERS purchased zero non-tradable sovereign bonds for at least two months. On July 30, 2025, Executive Director Amy Fecher confirmed: "Still zero for APERS." The following day, CIO Carlos Borromeo emailed Seth Middleton at Stephens Inc. — APERS's investment consultant — asking him to forward contact information to Bradley Young, the bond issuer's Southeast Regional Executive Director.
 
-By November 2025, a bond statement was received by APERS staff, indicating a purchase had eventually occurred. The two-month gap between authorization and purchase — and the fact that staff were still establishing basic contact with Israel Bonds representatives well after the board vote — suggests the board authorized the investment before operational groundwork was in place.
+By November 2025, a bond statement was received by APERS staff, indicating a purchase had eventually occurred. The two-month gap between authorization and purchase — and the fact that staff were still establishing basic contact with the issuer's representatives well after the board vote — suggests the board authorized the investment before operational groundwork was in place.
 
 ---
 
@@ -92,23 +94,23 @@ By November 2025, a bond statement was received by APERS staff, indicating a pur
 
 Round 2 records reveal that APERS and ATRS took markedly different paths to the same investment:
 
-**APERS** chose to purchase Israel Bonds directly, with no external investment manager. CIO Carlos Borromeo stated: "APERS intent is to purchase the bonds directly. Staff opinion is that there is not a need to incur management fees." This means APERS has no independent fiduciary oversight of its Israel Bonds position.
+**APERS** chose to purchase these bonds directly, with no external investment manager. CIO Carlos Borromeo stated: "APERS intent is to purchase the bonds directly. Staff opinion is that there is not a need to incur management fees." This means APERS has no independent fiduciary oversight of its sovereign bond position.
 
-**ATRS**, by contrast, hired Reams Asset Management (a division of Columbus Investments Inc.) and established formal "Investment guidelines for the Arkansas State Teacher Retirement Israeli Jubilee bond account" dated September 25, 2025 — roughly four months after the board authorized the investment. ATRS's approach included a professional manager and written guidelines, but the guidelines were created after the authorization, not before.
+**ATRS**, by contrast, hired Reams Asset Management (a division of Columbus Investments Inc.) and established formal investment guidelines for what the ATRS documents describe as the "Israeli Jubilee bond account," dated September 25, 2025 — roughly four months after the board authorized the investment. ATRS's approach included a professional manager and written guidelines, but the guidelines were created after the authorization, not before.
 
-The divergent structures raise a common question: in neither case has any independent credit analysis of Israel Bonds been produced. Whether purchased directly (APERS) or through a manager (ATRS), the investment arrived at both pension funds through the same political channel — not through the professional investment process each system ordinarily follows.
+The divergent structures raise a common question: in neither case has any independent credit analysis of these bonds been produced. Whether purchased directly (APERS) or through a manager (ATRS), the investment arrived at both pension funds through the same political channel — not through the professional investment process each system ordinarily follows.
 
 ---
 
 ### 3d. Agencies were watching each other
 
-APERS's FOIA production contains news articles about ATRS's Israel Bonds investment and its arrangement with Reams Asset Management — articles that APERS staff apparently circulated or received internally. Combined with Brady citing Treasury's $55 million holdings at the APERS board meeting, a pattern emerges: each agency's decision was influenced by awareness of what other state agencies were doing, rather than by independent financial analysis.
+APERS's FOIA production contains news articles about ATRS's sovereign bond investment and its arrangement with Reams Asset Management — articles that APERS staff apparently circulated or received internally. Combined with Brady citing Treasury's $55 million holdings at the APERS board meeting, a pattern emerges: each agency's decision was influenced by awareness of what other state agencies were doing, rather than by independent financial analysis.
 
 ---
 
 ### 3e. The Auditor arranged a two-day pitch tour in his own office
 
-Records obtained in March 2026 reveal the Auditor of State's office personally orchestrated a coordinated pitch tour for Israel Bonds sales representatives. On Friday, April 11, 2025, Auditor Dennis Milligan and his executive assistant Wendy Spadoni sent four meeting arrangement emails within 18 minutes — scheduling back-to-back meetings for Israel Bonds executives Lawrence Berman and Bradley Young with the heads of all three investing agencies:
+Records obtained in March 2026 reveal the Auditor of State's office personally orchestrated a coordinated pitch tour for the bond issuer's sales representatives. On Friday, April 11, 2025, Auditor Dennis Milligan and his executive assistant Wendy Spadoni sent four meeting arrangement emails within 18 minutes — scheduling back-to-back meetings for the issuer's executives Lawrence Berman and Bradley Young with the heads of all three investing agencies:
 
 - **2:01 PM** — Spadoni to APERS Executive Director Amy Fecher: Monday, April 14 at 9:00 AM
 - **2:02 PM** — Milligan to APERS Investment Subcommittee Chair Daryl Bassett: Monday, April 14 at 1:15 PM
@@ -117,15 +119,15 @@ Records obtained in March 2026 reveal the Auditor of State's office personally o
 
 Every meeting was scheduled in the Auditor's own office — Room 230 of the State Capitol. Every email was CC'd to Jason Brady, the Auditor's deputy. Every email attached biographical documents for Berman and Young. A planner note from Spadoni's calendar, dated March 31, 2025, corroborates pre-planning: "★ Larry Berman trip 13th|14th or 15th."
 
-The Auditor of State has no investment authority over any of these funds. The Auditor does not manage pension assets, does not sit on pension investment committees, and plays no formal role in the Treasury's bond purchases. Yet this office — through Milligan personally — convened every decision-maker in the state who would need to approve Israel Bonds purchases, arranged the meetings in his own Capitol office, and staffed them through Brady.
+The Auditor of State has no investment authority over any of these funds. The Auditor does not manage pension assets, does not sit on pension investment committees, and plays no formal role in the Treasury's bond purchases. Yet this office — through Milligan personally — convened every decision-maker in the state who would need to approve these bond purchases, arranged the meetings in his own Capitol office, and staffed them through Brady.
 
-Within weeks of these meetings, all three agencies authorized or purchased Israel Bonds: the Treasury bought $20 million (May 1), APERS authorized $25–50 million (May 15), and ATRS authorized up to $50 million (June 2).
+Within weeks of these meetings, all three agencies authorized or purchased non-tradable sovereign bonds: the Treasury bought $20 million (May 1), APERS authorized $25–50 million (May 15), and ATRS authorized up to $50 million (June 2).
 
 ---
 
 ### 3f. ATRS deployed the full $50 million by December 2025
 
-On December 29, 2025, ATRS Deputy Director Rod Graves sent a routine "Board Update-Liquidity" email to the ATRS board. Buried in the liquidity accounting was the first post-purchase confirmation in the public record: "December payments since the last Board update consisted of several ATRS obligations including capital calls for various investments of approximately $185 million. This includes the Scout (Reams) mandate of $50 million for Israel Bonds."
+On December 29, 2025, ATRS Deputy Director Rod Graves sent a routine "Board Update-Liquidity" email to the ATRS board. Buried in the liquidity accounting was the first post-purchase confirmation. **From the public record:** "December payments since the last Board update consisted of several ATRS obligations including capital calls for various investments of approximately $185 million. This includes the Scout (Reams) mandate of $50 million for Israel Bonds."
 
 The full $50 million authorized by Resolution 2025-22 was deployed in a single transaction through ATRS's investment manager, Reams Asset Management (operating as Scout). This confirms that the authorization moved from board vote (June 2, 2025) to investment guidelines (September 25, 2025) to full deployment (December 2025) — a six-month process in which the financial analysis that should have preceded authorization was never produced.
 
@@ -133,7 +135,7 @@ ATRS's $23.7 billion portfolio now holds $50 million in non-tradable sovereign d
 
 ---
 
-### 3g. 37 pages of analysis for other investments, zero pages for Israel Bonds
+### 3g. 37 pages of analysis for other investments, zero pages for these bonds
 {: #3g-dual-fiduciary-standard }
 
 The publicly-posted APERS board packets for the May 15 Investment Subcommittee and June 11 Full Board meetings reveal a stark contrast in how the board handled different investment decisions at the same meetings.
@@ -150,7 +152,7 @@ For private credit (discussed at the same May 15 meeting):
 - Written briefings from Stephens (quantitative performance data: 8.8% average return for direct lending vs. 4.4% for high-yield bonds), HarbourVest, and Neuberger Berman
 - Board discussion of allocation percentages and portfolio fit
 
-For the $25–50 million Israel Bonds authorization (also at the May 15 meeting):
+For the $25–50 million sovereign bond authorization (also at the May 15 meeting):
 
 - Zero pages of written analysis
 - Zero involvement from CIO Carlos Borromeo
@@ -160,9 +162,9 @@ For the $25–50 million Israel Bonds authorization (also at the May 15 meeting)
 - No recorded questions from any board member
 - Motion, second, carried without dissent
 
-The June 11 full board packet — the 88-page document every board member received before ratifying the subcommittee's actions — contains 15 slides of CIO market analysis, 37 pages of Callan quarterly performance reporting with peer rankings and investment manager returns, and 5 pages of Stephens private equity reporting. The Israel Bonds authorization appears only in the embedded subcommittee minutes (4 pages) and a two-paragraph summary in the subcommittee chair report. No Israel Bonds analysis of any kind accompanies it.
+The June 11 full board packet — the 88-page document every board member received before ratifying the subcommittee's actions — contains 15 slides of CIO market analysis, 37 pages of Callan quarterly performance reporting with peer rankings and investment manager returns, and 5 pages of Stephens private equity reporting. The sovereign bond authorization appears only in the embedded subcommittee minutes (4 pages) and a two-paragraph summary in the subcommittee chair report. No analysis of these bonds accompanies it.
 
-At the same meeting, the CIO's own MSCI EAFE country performance chart showed Israel returning -1.97% for Q1 2025 — one of only three negative-return countries in the 21-country index. This data was presented to the same board that was ratifying the Israel Bonds authorization. No one connected the data points.
+At the same meeting, the CIO's own MSCI EAFE country performance chart showed the issuing country returning -1.97% for Q1 2025 — one of only three negative-return countries in the 21-country index. This data was presented to the same board that was ratifying the bond authorization. No one connected the data points.
 
 Also at the same May 15 meeting, Secretary Jim Hudson requested that APERS develop a competitive RFP for investment advisor services — insisting on competitive bidding for who advises the fund, while accepting no competitive analysis for what the fund invests in.
 
@@ -173,9 +175,9 @@ Also at the same May 15 meeting, Secretary Jim Hudson requested that APERS devel
 ### 3h. ATRS leadership present at APERS authorization
 {: #3h-atrs-leadership-at-apers }
 
-The May 15, 2025 APERS Investment Subcommittee meeting — where Brady pitched Israel Bonds and the board authorized $25–50 million — was attended by three ATRS officials listed as visitors: Executive Director Mark White, Rod Graves, and Tammy Porter.
+The May 15, 2025 APERS Investment Subcommittee meeting — where Brady pitched the sovereign bonds and the board authorized $25–50 million — was attended by three ATRS officials listed as visitors: Executive Director Mark White, Rod Graves, and Tammy Porter.
 
-White is the same ATRS Executive Director whose office initially denied a FOIA request seeking Israel Bonds records as "insufficiently specific" in December 2024 ([read the response](/assets/documents/white-foia-denial-december-2024.pdf)). Both ATRS and APERS authorized first-ever direct Israel Bonds purchases in the same period. The presence of ATRS leadership at the APERS authorization meeting suggests coordination or at minimum awareness of the cross-system initiative.
+White is the same ATRS Executive Director whose office initially denied a FOIA request seeking records on these bonds as "insufficiently specific" in December 2024 ([read the response](/assets/documents/white-foia-denial-december-2024.pdf)). Both ATRS and APERS authorized first-ever direct sovereign bond purchases in the same period. The presence of ATRS leadership at the APERS authorization meeting suggests coordination or at minimum awareness of the cross-system initiative.
 
 The two pension systems also have an established pattern of coordination: in the Five Below securities litigation case (E.D. Pa.), ATRS and APERS hold joint lead plaintiff status, and both pursued the Trade Desk case jointly with MissPERS.
 
@@ -183,14 +185,14 @@ The two pension systems also have an established pattern of coordination: in the
 
 ---
 
-### 3i. Former Treasurer chaired the subcommittee that authorized Israel Bonds
+### 3i. Former Treasurer chaired the subcommittee that authorized these bonds
 {: #3i-walther-subcommittee-chair }
 
-Larry Walther — who served as Arkansas's 40th Treasurer of State from August 2023 to January 2025 and maintained the Treasury's Israel Bonds position throughout his tenure — chaired the Investment Finance Subcommittee that authorized APERS's first-ever Israel Bonds purchase. The May 15, 2025 subcommittee minutes record "Mr. Larry Walther presided" as Chair of the Investment Finance Sub-Committee.
+Larry Walther — who served as Arkansas's 40th Treasurer of State from August 2023 to January 2025 and maintained the Treasury's sovereign bond position throughout his tenure — chaired the Investment Finance Subcommittee that authorized APERS's first-ever purchase of these non-tradable sovereign bonds. The May 15, 2025 subcommittee minutes record "Mr. Larry Walther presided" as Chair of the Investment Finance Sub-Committee.
 
-The former Treasurer who oversaw $55 million in Treasury Israel Bonds holdings now chairs the pension subcommittee that authorized $25–50 million more in the same instrument — and the subcommittee received zero pages of independent analysis before voting.
+The former Treasurer who oversaw $55 million in Treasury sovereign bond holdings now chairs the pension subcommittee that authorized $25–50 million more in the same instrument — and the subcommittee received zero pages of independent analysis before voting.
 
-Additionally, APERS Board Secretary Daryl Bassett had previously appointed Jason Brady to preside over the March 5, 2025 subcommittee meeting, meaning Brady was sometimes the presiding officer of the very committee he later pitched Israel Bonds to.
+Additionally, APERS Board Secretary Daryl Bassett had previously appointed Jason Brady to preside over the March 5, 2025 subcommittee meeting, meaning Brady was sometimes the presiding officer of the very committee he later pitched these bonds to.
 
 *Source: APERS Board Packet for June 11, 2025, pages 8 and 4.*
 
@@ -218,6 +220,8 @@ Multiple state officials made public statements that framed the investments in p
 
 <div class="pull-quote" markdown="1">
 
+**From the public record:**
+
 **"Treasurer Walther's purchase of $10 million in Israeli bonds allows us to support that country in actions as well as words. Arkansas stands with Israel."** ([Source](/assets/documents/walther-10m-purchase-news-coverage-2023.pdf))
 
 <span class="pull-quote-attribution">— Governor Sarah Sanders, press release (Oct. 2023)</span>
@@ -225,6 +229,8 @@ Multiple state officials made public statements that framed the investments in p
 </div>
 
 <div class="pull-quote" markdown="1">
+
+**From the public record:**
 
 **"Those who bless Israel will be blessed, and those who curse Israel will be cursed. Arkansas unequivocally stands with Israel, as demonstrated by the recent actions of Governor Sarah Sanders and the Arkansas Legislature."**
 
@@ -234,13 +240,15 @@ Multiple state officials made public statements that framed the investments in p
 
 <div class="callout" markdown="1">
 
+**From the public record:**
+
 **Referred to the U.S. Ambassador to Israel as "my and Amy's former boss"** and called Israel "the United States' most trusted and dependable ally in a volatile region."
 
 <span class="pull-quote-attribution">— Deputy Auditor Jason Brady, APERS Investment Subcommittee (May 15, 2025)</span>
 
 </div>
 
-The [purchase confirmation from November 2023](/assets/documents/israel-bonds-purchase-confirmation-nov2023.pdf) — one month after the October 7 attacks — documents the timing of one of these politically framed purchases.
+The [sovereign bond purchase confirmation from November 2023](/assets/documents/israel-bonds-purchase-confirmation-nov2023.pdf) — one month after the October 7 attacks — documents the timing of one of these politically framed purchases.
 
 Under Arkansas's pecuniary-only standard, none of these are lawful bases for an investment decision. They are political statements. The law requires that the evaluation be based "only on pecuniary factors" — those with a material financial effect on risk or return.
 
@@ -259,11 +267,11 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 ## Authorized or committed exposure by agency
 
 <div class="chart-container" data-aos="fade-up" style="position: relative; max-width: 640px; height: 200px; margin-bottom: 1.25rem;">
-  <canvas id="exposure-chart" aria-label="Bar chart: Arkansas Treasury $55M, ATRS up to $50M, APERS $25–50M in Israel Bonds exposure" role="img"></canvas>
+  <canvas id="exposure-chart" aria-label="Bar chart: Arkansas Treasury $55M, ATRS up to $50M, APERS $25–50M in non-tradable sovereign bond exposure" role="img"></canvas>
 </div>
 
 <noscript>
-<ul class="bar-chart" role="list" aria-label="Israel Bonds authorized or committed exposure by agency">
+<ul class="bar-chart" role="list" aria-label="Non-tradable sovereign bond authorized or committed exposure by agency">
   <li>
     <div class="bar-chart-label"><span>Arkansas Treasury</span><span>$55M</span></div>
     <div class="bar-chart-bar" style="width: 100%" aria-hidden="true"></div>
@@ -304,14 +312,14 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 ## The timeline
 
-<div class="timeline-wrapper" aria-label="Timeline of Israel Bonds investment events">
+<div class="timeline-wrapper" aria-label="Timeline of non-tradable sovereign bond investment events">
 
 <div class="timeline-year">2017</div>
 <ol class="timeline" role="list" aria-label="2017 events">
   <li class="timeline-event">
     <time>2017</time>
-    <h3>Israel Bonds outreach begins</h3>
-    <p>State Treasurer Dennis Milligan, after being approached by Israel Bonds representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase Israel Bonds. This led to the state's first Israel Bonds purchases through the Treasury. Rapert now chairs Christian outreach for Israel Bonds (<a href="https://brokercheck.finra.org/firm/summary/11148">DCI, FINRA BrokerCheck</a>) — the legislator who created the legal authority now works for the bond seller.</p>
+    <h3>Bond issuer outreach begins</h3>
+    <p>State Treasurer Dennis Milligan, after being approached by the bond issuer's representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase these bonds. This led to the state's first sovereign bond purchases through the Treasury. Rapert now chairs Christian outreach for the broker-dealer (<a href="https://brokercheck.finra.org/firm/summary/11148">FINRA BrokerCheck, CRD# 11148</a>) — the legislator who created the legal authority now works for the bond seller.</p>
   </li>
 </ol>
 
@@ -319,8 +327,8 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 <ol class="timeline" role="list" aria-label="2018 events">
   <li class="timeline-event">
     <time>2018</time>
-    <h3>Israel Bonds representatives congratulate Milligan on re-election</h3>
-    <p>Israel Bonds executives Lawrence Berman and Bradley Young sent congratulations to Dennis Milligan on his re-election as State Treasurer. Milligan replied that he looked "forward to our future together." (<a href="/assets/documents/berman-young-congratulations-milligan-2018.pdf">Read the correspondence</a>)</p>
+    <h3>Bond issuer representatives congratulate Milligan on re-election</h3>
+    <p>The bond issuer's executives Lawrence Berman and Bradley Young sent congratulations to Dennis Milligan on his re-election as State Treasurer. Milligan replied that he looked "forward to our future together." (<a href="/assets/documents/berman-young-congratulations-milligan-2018.pdf">Read the correspondence</a>)</p>
   </li>
 </ol>
 
@@ -338,7 +346,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event timeline-event--highlight">
     <time>October 2023</time>
     <h3>$10M purchase after October 7 attacks</h3>
-    <p>State Board of Finance approves $10 million additional Israel Bonds purchase, bringing total holdings to $57 million. Officials frame the purchase as Arkansas "standing with Israel."</p>
+    <p>State Board of Finance approves $10 million additional purchase of non-tradable sovereign bonds, bringing total holdings to $57 million. Officials frame the purchase in political rather than financial terms.</p>
   </li>
 </ol>
 
@@ -347,12 +355,12 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event timeline-event--highlight">
     <time>October 8, 2024</time>
     <h3>Internal memo recommends against new purchases</h3>
-    <p>Senior Investment Officer Steve Pulley writes internal memo recommending against new Israel Bonds purchases, citing credit downgrades from major rating agencies.</p>
+    <p>Senior Investment Officer Steve Pulley writes internal memo recommending against new sovereign bond purchases, citing credit downgrades from major rating agencies.</p>
   </li>
   <li class="timeline-event">
     <time>November 2024</time>
     <h3>Auditor arranges meetings</h3>
-    <p>Auditor Milligan arranges meeting between Israel Bonds representatives and state officials.</p>
+    <p>Auditor Milligan arranges meeting between the bond issuer's representatives and state officials.</p>
   </li>
 </ol>
 
@@ -361,17 +369,17 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event timeline-event--highlight">
     <time>April 11, 2025</time>
     <h3>Auditor schedules two-day pitch tour</h3>
-    <p>Auditor Milligan and his executive assistant send four meeting arrangement emails in 18 minutes, scheduling Israel Bonds executives Lawrence Berman and Bradley Young with the heads of APERS, ATRS, and the Treasury — all in the Auditor's own Capitol office, Room 230. Every email is CC'd to deputy Jason Brady and includes biographical documents for the sales representatives.</p>
+    <p>Auditor Milligan and his executive assistant send four meeting arrangement emails in 18 minutes, scheduling the bond issuer's executives Lawrence Berman and Bradley Young with the heads of APERS, ATRS, and the Treasury — all in the Auditor's own Capitol office, Room 230. Every email is CC'd to deputy Jason Brady and includes biographical documents for the sales representatives.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time>April 14–15, 2025</time>
     <h3>Sales representatives meet with agency directors</h3>
-    <p>Israel Bonds sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor in back-to-back meetings at Room 230.</p>
+    <p>The bond issuer's sales representatives meet with directors of ATRS, APERS, the State Treasurer, and the State Auditor in back-to-back meetings at Room 230.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time>May 2025</time>
     <h3>$20M Treasury purchase; APERS authorizes $25–50M</h3>
-    <p>Treasury purchases $20 million in new Israel Bonds; APERS Investment Subcommittee authorizes $25–50 million.</p>
+    <p>Treasury purchases $20 million in new non-tradable sovereign bonds; APERS Investment Subcommittee authorizes $25–50 million.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time>June 2, 2025</time>
@@ -380,13 +388,13 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   </li>
   <li class="timeline-event">
     <time>June 11, 2025</time>
-    <h3>APERS full board approves Israel Bonds</h3>
-    <p>Following Jason Brady's introduction citing Treasury's $55 million holdings, the APERS full board approves the $25–50 million Israel Bonds authorization first advanced by the Investment Subcommittee in May.</p>
+    <h3>APERS full board approves sovereign bond authorization</h3>
+    <p>Following Jason Brady's introduction citing Treasury's $55 million holdings, the APERS full board approves the $25–50 million sovereign bond authorization first advanced by the Investment Subcommittee in May.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time>July 30, 2025</time>
     <h3>"Still zero for APERS"</h3>
-    <p>Two months after authorization, APERS Executive Director Amy Fecher confirms no Israel Bonds have been purchased. The following day, CIO Carlos Borromeo emails Stephens Inc. asking for Israel Bonds contact information.</p>
+    <p>Two months after authorization, APERS Executive Director Amy Fecher confirms no sovereign bonds have been purchased. The following day, CIO Carlos Borromeo emails Stephens Inc. asking for the bond issuer's contact information.</p>
   </li>
   <li class="timeline-event">
     <time>July 2025</time>
@@ -395,23 +403,23 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   </li>
   <li class="timeline-event">
     <time>August 2025</time>
-    <h3>Governor's Israel trade mission</h3>
-    <p>Governor Sanders participates in Israel trade mission, boasts of state's Israel Bonds investments.</p>
+    <h3>Governor's trade mission to the issuing country</h3>
+    <p>Governor Sanders participates in a trade mission to the issuing country, publicly citing the state's sovereign bond investments.</p>
   </li>
   <li class="timeline-event">
     <time>September 25, 2025</time>
     <h3>ATRS establishes investment guidelines</h3>
-    <p>ATRS formalizes its Israel Bonds approach through Reams Asset Management with written "Investment guidelines for the Arkansas State Teacher Retirement Israeli Jubilee bond account" — nearly four months after the board authorized the investment.</p>
+    <p>ATRS formalizes its sovereign bond approach through Reams Asset Management with written investment guidelines for what the ATRS documents describe as the "Israeli Jubilee bond account" — nearly four months after the board authorized the investment.</p>
   </li>
   <li class="timeline-event">
     <time>November 2025</time>
     <h3>APERS purchase confirmed</h3>
-    <p>APERS staff receive a bond statement, confirming that an Israel Bonds purchase eventually occurred after the months-long delay following the May–June authorization.</p>
+    <p>APERS staff receive a bond statement, confirming that a sovereign bond purchase eventually occurred after the months-long delay following the May–June authorization.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time>December 2025</time>
     <h3>ATRS deploys full $50M</h3>
-    <p>ATRS Deputy Director Rod Graves confirms in a routine board liquidity update that the full $50 million Israel Bonds mandate was funded through the Scout (Reams) account — six months after board authorization and without an independent credit analysis at any stage.</p>
+    <p>ATRS Deputy Director Rod Graves confirms in a routine board liquidity update that the full $50 million sovereign bond mandate was funded through the Scout (Reams) account — six months after board authorization and without an independent credit analysis at any stage.</p>
   </li>
 </ol>
 
@@ -430,7 +438,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event timeline-event--highlight">
     <time>March 2026</time>
     <h3>Board packet analysis reveals dual fiduciary standard; FOIA Round 3 filed</h3>
-    <p>Analysis of the publicly-posted APERS board packets reveals that 37 pages of Callan analysis were prepared for infrastructure investments while zero pages of analysis accompanied the Israel Bonds authorization — at the same meetings. FOIA Round 3 filed with ASHERS and LOPFI, expanding the investigation to two previously uninvestigated pension systems. Interstate outreach sent to parallel investigations in five states.</p>
+    <p>Analysis of the publicly-posted APERS board packets reveals that 37 pages of Callan analysis were prepared for infrastructure investments while zero pages of analysis accompanied the sovereign bond authorization — at the same meetings. FOIA Round 3 filed with ASHERS and LOPFI, expanding the investigation to two previously uninvestigated pension systems. Interstate outreach sent to parallel investigations in five states.</p>
   </li>
   <li class="timeline-event">
     <time>March 28, 2026</time>
