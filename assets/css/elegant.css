@@ -1532,7 +1532,7 @@ hr + * > .section-label:first-child {
   /* --- Force light colors --- */
   body, main, article, .page-content, .landing-content {
     background: white !important;
-    color: #1C1917 !important;
+    color: var(--art-black, #1b2127) !important;
   }
 
   /* --- Typography fallbacks --- */
@@ -1555,11 +1555,16 @@ hr + * > .section-label:first-child {
   }
 
   /* --- Expand all collapsed sections --- */
-  details > *:not(summary) {
+  details {
     display: block !important;
   }
+  details > summary ~ * {
+    display: revert !important;
+  }
 
-  details > summary::before {
+  details > summary::before,
+  details > summary::marker,
+  details > summary::-webkit-details-marker {
     display: none !important;
   }
 
@@ -1571,10 +1576,11 @@ hr + * > .section-label:first-child {
     word-break: break-all;
   }
 
-  /* Don't show URLs for in-page anchors or mailto */
+  /* Don't show URLs for in-page anchors, mailto, or internal domain links */
   a[href^="#"]::after,
   a[href^="mailto"]::after,
-  a[href^="/"]::after {
+  a[href^="/"]::after,
+  a[href^="https://arpensions.org"]::after {
     content: none;
   }
 
@@ -1589,15 +1595,19 @@ hr + * > .section-label:first-child {
 
   /* --- Page breaks --- */
   h2 {
+    break-before: auto;
+    break-after: avoid;
     page-break-before: auto;
     page-break-after: avoid;
   }
 
   h3, h4 {
+    break-after: avoid;
     page-break-after: avoid;
   }
 
   .subfinding {
+    break-inside: avoid;
     page-break-inside: avoid;
   }
 
@@ -1620,6 +1630,7 @@ hr + * > .section-label:first-child {
   /* --- Charts: ensure they print --- */
   .chart-container,
   .decision-window-container {
+    break-inside: avoid;
     page-break-inside: avoid;
   }
 
