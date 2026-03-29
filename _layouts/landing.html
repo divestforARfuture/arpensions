@@ -6,7 +6,7 @@ layout: default
     <div class="container container-prose">
       {% if page.breadcrumb %}
       <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">&rarr;</span> <span>{{ page.breadcrumb }}</span>
+        <a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">&rarr;</span> <span aria-current="page">{{ page.breadcrumb }}</span>
       </nav>
       {% endif %}
       <h1 id="landing-heading">{{ page.title }}</h1>
