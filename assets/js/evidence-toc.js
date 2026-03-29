@@ -38,25 +38,32 @@
   }
 
   if ('IntersectionObserver' in window && headingMap.length) {
-    /* rootMargin: trigger when heading crosses a line 20% from the top */
+    /* Persistent set of currently-visible headings (survives across callbacks) */
+    var visibleSet = new Map();
+
     var observer = new IntersectionObserver(
       function (entries) {
-        /* Find the topmost heading that is intersecting */
-        var visible = [];
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            visible.push(entry);
+            visibleSet.set(entry.target.id, entry);
+          } else {
+            visibleSet.delete(entry.target.id);
           }
         });
-        if (visible.length) {
-          /* Pick the one closest to the top */
-          visible.sort(function (a, b) {
-            return a.boundingClientRect.top - b.boundingClientRect.top;
+
+        /* Pick the heading closest to the viewport top */
+        if (visibleSet.size) {
+          var closest = null;
+          visibleSet.forEach(function (entry) {
+            var top = entry.target.getBoundingClientRect().top;
+            if (!closest || top < closest.top) {
+              closest = { id: entry.target.id, top: top };
+            }
           });
-          setActive(visible[0].target.id);
+          if (closest) setActive(closest.id);
         }
       },
-      { rootMargin: '-80px 0px -75% 0px', threshold: 0 }
+      { rootMargin: (window.innerWidth < 1024 ? '-130px' : '-80px') + ' 0px -75% 0px', threshold: 0 }
     );
 
     headingMap.forEach(function (item) {
