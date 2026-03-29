@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="page-content evidence-page-article" aria-labelledby="page-heading">
+  <div class="container container-prose">
+    <header class="page-header">
+      <h1 id="page-heading">{{ page.title }}</h1>
+      {% if page.description %}
+      <p class="page-description">{{ page.description }}</p>
+      {% endif %}
+    </header>
+    <hr class="page-header-rule" aria-hidden="true">
+  </div>
+
+  <div class="evidence-layout container">
+    {% include evidence-toc.html %}
+    <div class="evidence-content container-prose">
+      {{ content }}
+      {% include cta-box.html heading="Take Action" text="Ready to make a difference? Join Arkansans calling for pension transparency." url="/take-action/" button="Get Involved" %}
+    </div>
+  </div>
+</article>

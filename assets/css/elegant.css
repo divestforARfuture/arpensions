@@ -1530,3 +1530,214 @@ html {
     display: none !important;
   }
 }
+
+/* ========================================================================
+   EVIDENCE PAGE — Sidebar TOC + responsive layout
+   ======================================================================== */
+
+/* --- Layout: sidebar + content --- */
+.evidence-layout {
+  display: flex;
+  gap: 2rem;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.evidence-content {
+  flex: 1;
+  min-width: 0;
+}
+
+/* --- Sidebar (desktop ≥1024px) --- */
+.evidence-toc-sidebar {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .evidence-toc-sidebar {
+    display: block;
+    flex: 0 0 250px;
+    position: relative;
+  }
+
+  .evidence-toc-inner {
+    position: sticky;
+    top: 5rem;
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
+    padding-right: 1rem;
+    border-right: 1px solid var(--color-border, #e5e5e5);
+  }
+
+  .evidence-toc-toggle {
+    display: none;
+  }
+
+  .evidence-toc-heading {
+    font-family: var(--font-sans, Inter, sans-serif);
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary, #556068);
+    margin: 0 0 1rem;
+    padding: 0;
+  }
+
+  .evidence-toc-list,
+  .evidence-toc-sub,
+  .evidence-toc-subsub {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .evidence-toc-sub {
+    padding-left: 0.75rem;
+  }
+
+  .evidence-toc-subsub {
+    padding-left: 0.75rem;
+  }
+
+  .evidence-toc-link {
+    display: block;
+    padding: 0.3rem 0.5rem 0.3rem 0.75rem;
+    font-family: var(--font-sans, Inter, sans-serif);
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--color-text-secondary, #556068);
+    text-decoration: none;
+    border-left: 3px solid transparent;
+    border-radius: 0;
+    transition: color 0.15s, border-color 0.15s, background-color 0.15s;
+  }
+
+  .evidence-toc-link[data-toc-depth="sub"] {
+    font-size: 0.75rem;
+  }
+
+  .evidence-toc-link:hover {
+    color: var(--color-text-primary, #1b2127);
+  }
+
+  .evidence-toc-link--active {
+    color: var(--art-accent);
+    border-left-color: var(--art-accent);
+    background-color: var(--art-accent-light, rgba(12, 116, 137, 0.08));
+    font-weight: 500;
+  }
+}
+
+/* --- Mobile TOC (<1024px): dropdown at top of content --- */
+@media (max-width: 1023px) {
+  .evidence-toc-sidebar {
+    display: block;
+    position: sticky;
+    top: 3.5rem;
+    z-index: 50;
+    background: var(--color-bg-page, #f8f7f5);
+    border-bottom: 1px solid var(--color-border, #e5e5e5);
+    margin: 0 -1rem 1.5rem;
+    padding: 0 1rem;
+  }
+
+  [data-theme="dark"] .evidence-toc-sidebar {
+    background: var(--color-bg-page, #121218);
+  }
+
+  .evidence-toc-heading {
+    display: none;
+  }
+
+  .evidence-toc-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 0.75rem 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-sans, Inter, sans-serif);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--art-accent);
+  }
+
+  .evidence-toc-toggle-label {
+    flex-shrink: 0;
+  }
+
+  .evidence-toc-current {
+    flex: 1;
+    text-align: left;
+    color: var(--color-text-secondary, #556068);
+    font-weight: 400;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .evidence-toc-chevron {
+    flex-shrink: 0;
+    transition: transform 0.2s;
+  }
+
+  .evidence-toc-toggle[aria-expanded="true"] .evidence-toc-chevron {
+    transform: rotate(180deg);
+  }
+
+  .evidence-toc-list {
+    display: none;
+    list-style: none;
+    padding: 0 0 0.75rem;
+    margin: 0;
+  }
+
+  .evidence-toc-list--open {
+    display: block;
+  }
+
+  .evidence-toc-sub,
+  .evidence-toc-subsub {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0;
+  }
+
+  .evidence-toc-link {
+    display: block;
+    padding: 0.4rem 0;
+    font-family: var(--font-sans, Inter, sans-serif);
+    font-size: 0.85rem;
+    color: var(--color-text-secondary, #556068);
+    text-decoration: none;
+    border-left: none;
+  }
+
+  .evidence-toc-link[data-toc-depth="sub"] {
+    font-size: 0.8rem;
+  }
+
+  .evidence-toc-link--active {
+    color: var(--art-accent);
+    font-weight: 500;
+  }
+
+  .evidence-layout {
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .evidence-toc-chevron {
+    transition: none;
+  }
+  .evidence-toc-link {
+    transition: none;
+  }
+}
