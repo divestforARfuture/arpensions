@@ -73,6 +73,7 @@ bundle exec jekyll serve
 3. **Issuer-neutral for legislation** — "Pension Investment Transparency Act"
 4. **No BDS self-identification** — this is a transparency and accountability campaign
 5. **Current data only** — keep stats updated (ATRS: $23.7B, ~84% funded; APERS: $11.82B, ~84% funded)
+6. **Corpus state** — 1,227 total documents from 5 agencies (1,044 active after dedup); 11 FOIA requests across 3 rounds to 7 state entities; LOPFI response pending
 
 ## Accessibility
 

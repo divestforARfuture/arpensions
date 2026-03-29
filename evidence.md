@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Evidence — Key Findings from 1,222 Arkansas Public Records"
-description: "Key findings from more than 1,200 public records obtained through two rounds of FOIA requests to four Arkansas state agencies"
+title: "Evidence — Key Findings from 1,227 Arkansas Public Records"
+description: "Key findings from more than 1,200 public records obtained through three rounds of FOIA requests to five Arkansas state agencies"
 permalink: /evidence/
 charts: true
 apexcharts: true
@@ -11,7 +11,7 @@ apexcharts: true
 
 ## Our research
 
-Arkansans for Retirement Transparency has analyzed **more than 1,200 public records** from two rounds of Freedom of Information Act (FOIA) requests to four Arkansas state agencies: the State Treasury, ATRS, APERS, and the Auditor of State. The first round (August 2025) covered all four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive).
+Arkansans for Retirement Transparency has analyzed **more than 1,200 public records** from three rounds of Freedom of Information Act (FOIA) requests to five Arkansas state agencies: the State Treasury, ATRS, APERS, the Auditor of State, and ASHERS. The first round (August 2025) covered four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive). The third round (March 2026) expanded to ASHERS, ASPRS, and LOPFI — ASHERS delivered 5 documents, ASPRS confirmed no responsive records, and LOPFI's response is pending.
 
 Every claim on this site is backed by documents in the public record. Below are the key findings.
 
@@ -425,12 +425,17 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event">
     <time>March 3, 2026</time>
     <h3>Auditor of State delivers Round 2 response</h3>
-    <p>124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) received via flash drive from General Counsel TJ Fowler. Total investigation corpus: 1,222 documents.</p>
+    <p>124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) received via flash drive from General Counsel TJ Fowler. Round 2 corpus: 1,222 documents.</p>
   </li>
   <li class="timeline-event timeline-event--highlight">
     <time>March 2026</time>
     <h3>Board packet analysis reveals dual fiduciary standard; FOIA Round 3 filed</h3>
     <p>Analysis of the publicly-posted APERS board packets reveals that 37 pages of Callan analysis were prepared for infrastructure investments while zero pages of analysis accompanied the Israel Bonds authorization — at the same meetings. FOIA Round 3 filed with ASHERS and LOPFI, expanding the investigation to two previously uninvestigated pension systems. Interstate outreach sent to parallel investigations in five states.</p>
+  </li>
+  <li class="timeline-event">
+    <time>March 28, 2026</time>
+    <h3>ASHERS delivers Round 3 response; ASPRS confirms null result</h3>
+    <p>ASHERS (Arkansas State Highway Employees' Retirement System) delivered 5 documents including email correspondence revealing that the bond issuer's national sales leadership was introduced to ASHERS staff through the same April 2025 pitch tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009. LOPFI response still pending. Investigation corpus now covers 5 state agencies with 1,227 total documents (1,044 active after deduplication).</p>
   </li>
 </ol>
 
