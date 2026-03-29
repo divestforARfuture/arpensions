@@ -44,14 +44,16 @@ The people who make investment decisions for your retirement fund are required b
 
 **For ATRS members (educators and retired educators):**
 
-Write to ATRS trustees at **[info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
+Write to ATRS trustees at **[info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20%E2%80%94%20Sovereign%20Bond%20Authorization)**. You can use or adapt this message:
 
 <div class="letter-template letter-template--compact" markdown="1">
 <button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
 
 Dear ATRS Trustees,
 
-As an Arkansas educator and ATRS member, I appreciate your work to safeguard our retirement. I'm writing to ask you to pause execution of the June 2025 authorization of up to $50 million in Israel Bonds until an independent, written analysis is completed and shared with members. That review should compare risk, return, and liquidity to other fixed-income options and explain how this investment satisfies Arkansas's pecuniary-only and prudent-investor requirements.
+As an Arkansas educator and ATRS member, I appreciate your work to safeguard our retirement. I'm writing to ask you to pause execution of the June 2025 authorization of up to $50 million in non-tradable sovereign bonds until an independent, written analysis is completed and shared with members. That review should compare risk, return, and liquidity to other fixed-income options and explain how this investment satisfies Arkansas's pecuniary-only and prudent-investor requirements.
+
+For the specific instrument identified in our FOIA investigation and the full financial profile, see arpensions.org/glossary.
 
 Sincerely,
 [Your name, role, and city]
@@ -60,14 +62,16 @@ Sincerely,
 
 **For APERS members (public employees and retirees):**
 
-Write to APERS at **[APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20%E2%80%94%20Israel%20Bonds%20Authorization)**. You can use or adapt this message:
+Write to APERS at **[APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20%E2%80%94%20Sovereign%20Bond%20Authorization)**. You can use or adapt this message:
 
 <div class="letter-template letter-template--compact" markdown="1">
 <button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
 
 Dear APERS Trustees,
 
-As an Arkansas public employee and APERS member, I appreciate your work to safeguard our retirement. I'm asking you to pause execution of the 2025 Israel Bonds authorization until you complete and share an independent, written analysis. Please compare risk, return, and liquidity to other fixed-income options and explain how any investment in Israel Bonds meets Arkansas's pecuniary-only standard and prudent-investor duties.
+As an Arkansas public employee and APERS member, I appreciate your work to safeguard our retirement. I'm asking you to pause execution of the 2025 sovereign bond authorization until you complete and share an independent, written analysis. Please compare risk, return, and liquidity to other fixed-income options and explain how this investment meets Arkansas's pecuniary-only standard and prudent-investor duties.
+
+For the specific instrument identified in our FOIA investigation and the full financial profile, see arpensions.org/glossary.
 
 Sincerely,
 [Your name, role / agency, and city]
