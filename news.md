@@ -9,9 +9,11 @@ Follow the progress of our investigation and campaign.
 
 ## 2026
 
+**March 28** — ASHERS (Arkansas State Highway Employees' Retirement System) delivered FOIA Round 3 response — 5 documents including email correspondence revealing that the bond issuer's national sales leadership was introduced to ASHERS staff through the same April 2025 pitch tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009. LOPFI response still pending. Investigation corpus now covers 5 state agencies with 1,227 total documents (1,044 active after deduplication).
+
 **March 25** — Analyzed publicly-posted APERS Board Packet for June 11, 2025 (88 pages). Key finding: the same board meetings that produced 37 pages of Callan quarterly analysis and detailed institutional presentations for infrastructure and private credit investments contained zero pages of analysis for the $25–50 million Israel Bonds authorization. Filed FOIA Round 3 requests to ASHERS (Arkansas State Highway Employees' Retirement System) and LOPFI (Local Police and Fire Retirement System), expanding the investigation to two previously uninvestigated pension systems. Sent first wave of interstate outreach to researchers and journalists in Michigan, Pennsylvania, Florida, Minnesota, and North Carolina investigating similar Israel Bonds patterns.
 
-**March 24** — Completed Auditor Round 2 processing. All four agencies' FOIA responses now fully ingested. Final corpus: 1,222 total documents across 4 agencies (1,039 active after deduplication). Registry passes validation with zero critical findings.
+**March 24** — Completed Auditor Round 2 processing. All four agencies' FOIA responses now fully ingested. Round 2 corpus: 1,222 total documents across 4 agencies (1,039 active after deduplication). Registry passes validation with zero critical findings.
 
 **March 17** — Spotlight PA publishes investigation into Pennsylvania Treasurer's Israel Bonds purchases and ethics concerns — independent journalists in another state asking the same fiduciary questions our FOIA investigation has documented in Arkansas. [Read the Spotlight PA report.](https://www.spotlightpa.org/news/2026/03/stacy-garrity-treasurer-governor-election-israel-bonds-ethics-elections/)
 

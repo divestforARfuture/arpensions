@@ -8,7 +8,7 @@ audience_nav: true
 
 ## Campaign summary
 
-Arkansans for Retirement Transparency (ART) is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to four state agencies, the campaign has obtained and analyzed more than 1,200 public records revealing up to $100 million in authorized pension fund exposure and $55 million in State Treasury holdings — approximately $155 million in total authorized Arkansas exposure to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
+Arkansans for Retirement Transparency (ART) is a grassroots Arkansas campaign investigating Israel Bonds investments by state pension funds. Through FOIA requests to five state agencies, the campaign has obtained and analyzed more than 1,200 public records revealing up to $100 million in authorized pension fund exposure and $55 million in State Treasury holdings — approximately $155 million in total authorized Arkansas exposure to Israel Bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
 The campaign is calling for independent financial review of existing positions, a halt to further purchases pending analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
 
@@ -22,12 +22,12 @@ The campaign is calling for independent financial review of existing positions, 
 | **$50M** | ATRS (teacher retirement) authorization for Israel Bonds (June 2, 2025; Board Chair cast lone "no" vote); full $50M deployed December 2025 |
 | **$25–50M** | APERS (public employee retirement) authorization for Israel Bonds (May 15, 2025) |
 | **$155M** | Total authorized Arkansas exposure — Treasury holdings plus pension fund authorizations combined |
-| **1,222** | Public records obtained and analyzed across two FOIA rounds to four state agencies |
+| **1,227** | Public records obtained and analyzed across three FOIA rounds to five state agencies |
 | **3** | Major credit agencies (S&P, Moody's, Fitch) that have downgraded Israel's credit rating since 2024 |
 | **0** | Independent credit analyses of Israel Bonds found in the entire document record |
-| **4** | Arkansas state agencies that received FOIA requests (Treasury, ATRS, APERS, Auditor of State) |
+| **5** | Arkansas state agencies that produced documents (Treasury, ATRS, APERS, Auditor of State, ASHERS) |
 | **1** | Dissenting vote on the ATRS Board — Chair Danny Knight, who warned the process departed from standard practice |
-| **2** | Rounds of FOIA requests filed (August 2025 and February 2026) |
+| **3** | Rounds of FOIA requests filed (August 2025, February 2026, March 2026) |
 | **265** | New documents received in FOIA Round 2 (118 Treasury, 16 APERS, 7 ATRS, 124 Auditor) |
 | **8,648** | Pages in APERS's Round 2 FOIA production — the single largest response received |
 
@@ -168,7 +168,7 @@ The campaign is calling for independent financial review of existing positions, 
   <li class="timeline-event">
     <time datetime="2026-03-03">March 3, 2026</time>
     <strong>ATRS delivers partial Round 2 response; Auditor delivers via flash drive</strong>
-    <p>ATRS: 7 documents. Auditor of State: 124 documents from three custodians (Milligan, Brady, Spadoni) via General Counsel TJ Fowler. Total corpus: 1,222 documents.</p>
+    <p>ATRS: 7 documents. Auditor of State: 124 documents from three custodians (Milligan, Brady, Spadoni) via General Counsel TJ Fowler. Round 2 corpus: 1,222 documents.</p>
   </li>
 </ul>
 
@@ -254,7 +254,7 @@ Key evidence points:
 
 **An internal Treasury memo recommended against new purchases.** Senior Investment Officer Steve Pulley wrote that the state should hold existing positions and let maturing bonds roll off.
 
-**No independent credit analysis has been produced.** A review of more than 1,200 public records from four state agencies found zero independent credit analyses.
+**No independent credit analysis has been produced.** A review of more than 1,200 public records from five state agencies found zero independent credit analyses.
 
 **The ATRS Board Chair warned the process was irregular and voted against it.** Danny Knight's dissent noted the request departed from the normal manager-driven process.
 

@@ -56,7 +56,9 @@ These authorizations came in rapid succession — and under circumstances that r
 
 **February 2026:** Second round of FOIA responses received from Treasury (118 documents), APERS (16 documents including an 8,648-page production), and ATRS (7 documents, partial response). Total investigation corpus reaches 1,098 documents; Auditor of State Round 2 response pending.
 
-**March 2026:** Auditor of State delivers Round 2 response — 124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) via flash drive from General Counsel TJ Fowler. Total investigation corpus now stands at 1,222 documents across four agencies, two FOIA rounds.
+**March 3, 2026:** Auditor of State delivers Round 2 response — 124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) via flash drive from General Counsel TJ Fowler. Investigation corpus reaches 1,222 documents across four agencies, two FOIA rounds.
+
+**March 28, 2026:** ASHERS (Arkansas State Highway Employees' Retirement System) delivers Round 3 response — 5 documents revealing the bond issuer's national sales leadership pitched ASHERS through the same April 2025 tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirms no responsive documents — assets commingled with APERS under Act 1242 of 2009. LOPFI response still pending. Total corpus: 1,227 documents across five agencies, three FOIA rounds.
 
 <div class="callout" markdown="1">
 
@@ -101,7 +103,7 @@ The diagram below traces the documented connections from our FOIA investigation.
   </span>
 </div>
 
-<p class="influence-flow-note">Every connection shown is documented in FOIA records obtained from four Arkansas state agencies. Link thickness represents relative influence weight, not dollar amounts. For the full evidence chain, see our <a href="/evidence/">evidence page</a> and <a href="/network/">interactive network graph</a>.</p>
+<p class="influence-flow-note">Every connection shown is documented in FOIA records obtained from five Arkansas state agencies. Link thickness represents relative influence weight, not dollar amounts. For the full evidence chain, see our <a href="/evidence/">evidence page</a> and <a href="/network/">interactive network graph</a>.</p>
 
 </div>
 
@@ -123,7 +125,7 @@ Several red flags suggest these standards may not have been followed:
 
 **The ATRS Board Chair dissented.** Danny Knight, the lone "no" vote on the June 2025 authorization, warned that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." ATRS typically relies on professional investment managers — not board members — to recommend specific securities.
 
-**No independent credit analysis was produced.** Our review of more than 1,200 public records obtained through FOIA requests to four state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. The same APERS meetings that produced 37 pages of Callan analysis for other investments contained zero pages of analysis for the Israel Bonds authorization. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
+**No independent credit analysis was produced.** Our review of more than 1,200 public records obtained through FOIA requests to five state agencies found zero independent credit analyses of Israel Bonds prepared before the authorizations. The normal process — where investment consultants provide written recommendations — appears to have been bypassed. The same APERS meetings that produced 37 pages of Callan analysis for other investments contained zero pages of analysis for the Israel Bonds authorization. (The [Treasury's own investment policy](/assets/documents/treasury-investment-policy-2022.pdf) establishes the standards that should have governed this decision.)
 
 **Two pension funds, no independent analysis either way.** APERS chose to purchase Israel Bonds directly without an external investment manager, with its CIO stating there was "not a need to incur management fees." ATRS, by contrast, hired Reams Asset Management — but established its investment guidelines four months after the board authorized the purchase. Neither approach included independent credit analysis before authorization.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Documents — FOIA Public Records Archive"
-description: "Primary source documents obtained through FOIA requests to four Arkansas state agencies."
+description: "Primary source documents obtained through FOIA requests to five Arkansas state agencies."
 permalink: /documents/
 ---
 
@@ -18,13 +18,13 @@ permalink: /documents/
 
 ## About these documents
 
-These are excerpts and key documents from more than 1,200 public records obtained by Arkansans for Retirement Transparency through two rounds of Freedom of Information Act requests to four Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), and the Arkansas Auditor of State.
+These are excerpts and key documents from more than 1,200 public records obtained by Arkansans for Retirement Transparency through three rounds of Freedom of Information Act requests to five Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), the Arkansas Auditor of State, and the Arkansas State Highway Employees' Retirement System (ASHERS).
 
 All documents were provided by the agencies in response to lawful FOIA requests. Where noted, page ranges have been extracted from larger compiled document sets. No content has been altered.
 
 <div class="key-finding" markdown="1">
 
-**1,222 documents** obtained across two FOIA rounds from four Arkansas state agencies. 8 requests filed. Every claim on this site traces back to these records.
+**1,227 documents** obtained across three FOIA rounds from five Arkansas state agencies. 11 requests filed. Every claim on this site traces back to these records.
 
 </div>
 
@@ -166,6 +166,37 @@ A second round of FOIA requests produced 265 additional documents:
       <li><strong>Pages:</strong> Delivered via flash drive</li>
       <li><strong>Contents:</strong> Email correspondence from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) covering Israel Bonds coordination, SFOF conference materials, media response chains, and board meeting correspondence</li>
       <li><strong>Status:</strong> Received March 3, 2026; fully processed</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+<span class="section-label">Third FOIA round</span>
+
+## Round 3 FOIA responses (March 2026)
+
+A third round of FOIA requests expanded the investigation to previously uninvestigated retirement systems:
+
+<div class="meeting-grid">
+  <div class="meeting-info">
+    <p><strong>ASHERS</strong> (Arkansas State Highway Employees' Retirement System)</p>
+    <ul>
+      <li><strong>Documents:</strong> 5</li>
+      <li><strong>Contents:</strong> Email correspondence revealing that the bond issuer's national sales leadership was introduced to ASHERS staff through the same April 2025 pitch tour, but ASHERS declined to invest</li>
+    </ul>
+  </div>
+  <div class="meeting-info">
+    <p><strong>ASPRS</strong> (Arkansas State Police Retirement System)</p>
+    <ul>
+      <li><strong>Documents:</strong> 0 (null result)</li>
+      <li><strong>Contents:</strong> Confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009</li>
+    </ul>
+  </div>
+  <div class="meeting-info">
+    <p><strong>LOPFI</strong> (Local Police and Fire Retirement System)</p>
+    <ul>
+      <li><strong>Status:</strong> Response pending</li>
     </ul>
   </div>
 </div>
