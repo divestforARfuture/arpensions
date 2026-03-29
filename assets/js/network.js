@@ -38,19 +38,19 @@
     'milligan-chain': {
       title: 'The Milligan Chain',
       steps: [
-        { nodes: ['Dennis Milligan'], text: 'Dennis Milligan served as State Treasurer (~2015\u20132019) where he initiated the Israel Bonds program. He later became Auditor of State \u2014 an office with no investment authority.' },
-        { nodes: ['Dennis Milligan', 'Arkansas State Treasury', 'Auditor of State'], text: 'Despite holding no investment authority as Auditor, Milligan used his office to coordinate Israel Bonds advocacy across multiple agencies.' },
-        { nodes: ['Dennis Milligan', 'Jason Brady', 'APERS', 'ATRS'], text: 'Jason Brady \u2014 Milligan\u2019s direct report at the Auditor\u2019s office \u2014 served on the APERS board and initiated the Israel Bonds request at ATRS. He was the operational conduit across both pension systems.' },
-        { nodes: ['Dennis Milligan', 'Jason Brady', 'April 2025 Israel Bonds Tour', 'Lawrence Berman', 'Bradley Young'], text: 'In April 2025, the Auditor\u2019s office organized a 2-day tour of Arkansas state government for Israel Bonds sales reps. Within weeks, both APERS and ATRS authorized up to $50 million each.' },
+        { nodes: ['Dennis Milligan'], text: 'Dennis Milligan served as State Treasurer (~2015\u20132019) where he initiated the sovereign bond purchase program. He later became Auditor of State \u2014 an office with no investment authority.' },
+        { nodes: ['Dennis Milligan', 'Arkansas State Treasury', 'Auditor of State'], text: 'Despite holding no investment authority as Auditor, Milligan used his office to coordinate sovereign bond advocacy across multiple agencies.' },
+        { nodes: ['Dennis Milligan', 'Jason Brady', 'APERS', 'ATRS'], text: 'Jason Brady \u2014 Milligan\u2019s direct report at the Auditor\u2019s office \u2014 served on the APERS board and initiated the sovereign bond request at ATRS. He was the operational conduit across both pension systems.' },
+        { nodes: ['Dennis Milligan', 'Jason Brady', 'April 2025 Israel Bonds Tour', 'Lawrence Berman', 'Bradley Young'], text: 'In April 2025, the Auditor\u2019s office organized a 2-day tour of Arkansas state government for the bond issuer\u2019s sales representatives. Within weeks, both APERS and ATRS authorized up to $50 million each.' },
         { nodes: ['Dennis Milligan', 'Stacy Peterson', 'SFOF', 'SFOF Conduit Role'], text: 'After the votes, Milligan\u2019s communications director distributed success stories through SFOF to encourage other states to replicate. The full advocacy lifecycle \u2014 from meetings to votes to interstate promotion \u2014 operated from the Auditor\u2019s office.' }
       ]
     },
     'seller-as-analyst': {
       title: 'Seller as Analyst',
       steps: [
-        { nodes: ['Seller as Analyst Problem', 'No Independent Credit Analysis'], text: 'Across 909 FOIA documents from 4 agencies, zero independent credit analyses of Israel Bonds exist. The only "analysis" came from the entity selling the bonds.' },
-        { nodes: ['Lawrence Berman', 'Bradley Young', 'Stuart Garawitz', 'Israel Bonds / DCI'], text: 'Israel Bonds representatives provided all investment materials: rate sheets, economic briefings, marketing emails, and "exclusive" presentations. These same people are responsible for selling $10+ billion in bonds.' },
-        { nodes: ['Aon Hewitt Investment Consulting', 'ATRS No Independent Analysis', 'ATRS'], text: 'ATRS\u2019s own consultant Aon provided comprehensive due diligence for other investments like KKR. For Israel Bonds: nothing. The Executive Director admitted in advance that Aon "will not be making a formal recommendation."' },
+        { nodes: ['Seller as Analyst Problem', 'No Independent Credit Analysis'], text: 'Across 1,227 documents from 5 agencies, zero independent credit analyses of these sovereign bonds exist. The only "analysis" came from the entity selling the bonds.' },
+        { nodes: ['Lawrence Berman', 'Bradley Young', 'Stuart Garawitz', 'Israel Bonds / DCI'], text: 'The bond issuer\u2019s representatives provided all investment materials: rate sheets, economic briefings, marketing emails, and "exclusive" presentations. These same people are responsible for selling $10+ billion in bonds.' },
+        { nodes: ['Aon Hewitt Investment Consulting', 'ATRS No Independent Analysis', 'ATRS'], text: 'ATRS\u2019s own consultant Aon provided comprehensive due diligence for other investments like KKR. For these sovereign bonds: nothing. The Executive Director admitted in advance that Aon "will not be making a formal recommendation."' },
         { nodes: ['Seller as Analyst Problem', 'Arkansas State Treasury', 'APERS', 'ATRS'], text: 'The pattern repeated across all three investing entities. In every case, the bond seller\u2019s materials were the only investment rationale available when decisions were made.' }
       ]
     },
@@ -58,8 +58,8 @@
       title: 'The SFOF Pipeline',
       steps: [
         { nodes: ['SFOF', 'Derek A. Kreifels'], text: 'The State Financial Officers Foundation (SFOF) is a networking organization connecting state treasurers and financial officers nationally. Derek Kreifels serves as Executive Director.' },
-        { nodes: ['SFOF', 'Dennis Milligan', 'Israel Bonds / DCI'], text: 'Milligan served as SFOF National Chair (~2019\u20132020). SFOF forwarded Israel Bonds events \u2014 including a "Celebration with Prime Minister Netanyahu" \u2014 to state officials. The organization functioned as a marketing channel.' },
-        { nodes: ['SFOF Conduit Role', 'Inter-State Israel Bonds Coordination', 'Glenn Hegar'], text: 'The SFOF network connected Arkansas officials with treasurers from Texas, Arizona, Idaho, North Carolina, and others. Texas Comptroller Hegar used nearly identical political framing for his $140M in Israel Bonds purchases.' },
+        { nodes: ['SFOF', 'Dennis Milligan', 'Israel Bonds / DCI'], text: 'Milligan served as SFOF National Chair (~2019\u20132020). SFOF forwarded sovereign bond events \u2014 including a "Celebration with Prime Minister Netanyahu" \u2014 to state officials. The organization functioned as a marketing channel.' },
+        { nodes: ['SFOF Conduit Role', 'Inter-State Israel Bonds Coordination', 'Glenn Hegar'], text: 'The SFOF network connected Arkansas officials with treasurers from Texas, Arizona, Idaho, North Carolina, and others. Texas Comptroller Hegar used nearly identical political framing for his $140M in sovereign bond purchases.' },
         { nodes: ['Stacy Peterson', 'SFOF Conduit Role', 'Adam Schwend'], text: 'After APERS and ATRS voted, Milligan\u2019s communications director emailed SFOF: "Feel free to pass along to any member states you think might be interested. The Auditor has very good contact." The interstate replication pipeline is documented.' }
       ]
     },
@@ -69,7 +69,7 @@
         { nodes: ['Authorization Gap', 'Absence of Normal Fiduciary Processes'], text: 'For a combined potential allocation of $155 million, standard fiduciary processes are completely absent: no independent credit analysis, no risk assessment, no yield comparison, no consultant review.' },
         { nodes: ['Authorization Gap', 'Arkansas State Treasury', 'Board of Finance'], text: 'Treasury: Purchases authorized by "executive team" with no documented Board of Finance deliberation. The only internal analysis is a 2-page document created years after tens of millions were invested.' },
         { nodes: ['Authorization Gap', 'ATRS', 'ATRS Resolution 2025-22', 'Danny Knight'], text: 'ATRS: The Board adopted Resolution 2025-22 for $50M based on the Executive Director\u2019s personal opinion, not a formal consultant recommendation. Board Chair Danny Knight signed the resolution.' },
-        { nodes: ['Symmetry Argument', 'Act 710', 'Act 644', 'Arkansas Prudent Investor Standard'], text: 'Arkansas Act 710 requires "financial merit" for divestment. The same standard should apply to purchases. The complete absence of financial merit analysis for Israel Bonds purchases violates the spirit of Arkansas\u2019s own laws.' }
+        { nodes: ['Symmetry Argument', 'Act 710', 'Act 644', 'Arkansas Prudent Investor Standard'], text: 'Arkansas Act 710 requires "financial merit" for divestment. The same standard should apply to purchases. The complete absence of financial merit analysis for these sovereign bond purchases violates the spirit of Arkansas\u2019s own laws.' }
       ]
     }
   };
