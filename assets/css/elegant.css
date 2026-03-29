@@ -1915,3 +1915,103 @@ html {
     animation: none;
   }
 }
+
+/* ========================================================================
+   MICRO-INTERACTIONS — Purposeful hover depth and link refinements
+   ======================================================================== */
+
+/* Card hover lift */
+.action-step,
+.callout {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.document-item {
+  transition: transform 0.2s ease, box-shadow 0.2s ease,
+              background-color 0.2s ease, border-left-width 0.2s ease;
+}
+
+.action-step:hover,
+.document-item:hover,
+.callout:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(27, 33, 39, 0.08);
+}
+
+[data-theme="dark"] .action-step:hover,
+[data-theme="dark"] .document-item:hover,
+[data-theme="dark"] .callout:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* In-text link hover refinement */
+.page-content a:not([class]):hover,
+.landing-content a:not([class]):hover {
+  border-bottom-width: 2px;
+}
+
+/* Nav link bottom-border slide-in */
+.nav-links a {
+  position: relative;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--art-accent);
+  transition: width 0.2s ease, left 0.2s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a[aria-current="page"]::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Pull-quote entrance glow */
+.pull-quote[data-aos].aos-animate {
+  animation: pullquote-glow 1.2s ease forwards;
+}
+
+@keyframes pullquote-glow {
+  0%   { background-color: var(--art-accent-light); }
+  40%  { background-color: color-mix(in srgb, var(--art-accent) 12%, var(--art-accent-light)); }
+  100% { background-color: var(--art-accent-light); }
+}
+
+/* Stats bar countup pulse */
+@keyframes stat-pulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.stat-number.counted {
+  animation: stat-pulse 0.3s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .action-step,
+  .document-item,
+  .callout {
+    transition: none;
+  }
+  .action-step:hover,
+  .document-item:hover,
+  .callout:hover {
+    transform: none;
+  }
+  .nav-links a::after {
+    transition: none;
+  }
+  .pull-quote[data-aos].aos-animate {
+    animation: none;
+  }
+  .stat-number.counted {
+    animation: none;
+  }
+}
