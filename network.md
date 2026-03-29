@@ -61,11 +61,11 @@ permalink: /network/
         <ul class="tour-list">
           <li><button class="tour-btn" data-tour="milligan-chain">
             <span class="tour-btn-title">The Milligan Chain</span>
-            <span class="tour-btn-desc">How one official drove Israel Bonds across three agencies</span>
+            <span class="tour-btn-desc">How one official drove sovereign bond purchases across three agencies</span>
           </button></li>
           <li><button class="tour-btn" data-tour="seller-as-analyst">
             <span class="tour-btn-title">Seller as Analyst</span>
-            <span class="tour-btn-desc">Israel Bonds reps provided the only "analysis"</span>
+            <span class="tour-btn-desc">The bond issuer's reps provided the only "analysis"</span>
           </button></li>
           <li><button class="tour-btn" data-tour="sfof-pipeline">
             <span class="tour-btn-title">The SFOF Pipeline</span>

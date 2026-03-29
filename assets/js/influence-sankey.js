@@ -1,6 +1,6 @@
 /* ==========================================================================
    Influence Flow Sankey — D3.js Sankey diagram showing the conduit chain
-   from Dennis Milligan and Israel Bonds reps through intermediaries to
+   from Dennis Milligan and bond issuer's sales representatives through intermediaries to
    the three agency authorizations and interstate replication.
    Loaded only on the-issue page via `d3sankey: true` front matter.
    ========================================================================== */
@@ -41,7 +41,7 @@
   var graphData = {
     nodes: [
       { id: 'milligan',       label: 'Dennis Milligan',         category: 'origin' },
-      { id: 'bonds-reps',     label: 'Israel Bonds / DCI',      category: 'seller' },
+      { id: 'bonds-reps',     label: 'Bond Issuer / Broker-Dealer', category: 'seller' },
       { id: 'auditor-office', label: 'Auditor\u2019s Office',   category: 'conduit' },
       { id: 'brady',          label: 'Jason Brady',              category: 'conduit' },
       { id: 'sfof',           label: 'SFOF',                     category: 'conduit' },
@@ -55,13 +55,13 @@
       // Milligan as nexus
       { source: 'milligan',       target: 'auditor-office', value: 5, desc: 'Became Auditor of State' },
       { source: 'milligan',       target: 'sfof',           value: 3, desc: 'Served as SFOF National Chair' },
-      { source: 'milligan',       target: 'treasury',       value: 4, desc: 'Initiated Israel Bonds as Treasurer (2017)' },
+      { source: 'milligan',       target: 'treasury',       value: 4, desc: 'Initiated sovereign bond purchases as Treasurer (2017)' },
 
       // Auditor's office channels
       { source: 'auditor-office', target: 'brady',          value: 4, desc: 'Appointed Brady to APERS board' },
       { source: 'auditor-office', target: 'sales-tour',     value: 5, desc: 'Arranged April 2025 meetings' },
 
-      // Israel Bonds reps
+      // Bond issuer reps
       { source: 'bonds-reps',     target: 'sales-tour',     value: 5, desc: 'Sales presentations to all agencies' },
       { source: 'bonds-reps',     target: 'treasury',       value: 2, desc: 'Ongoing bond sales relationship' },
 
@@ -71,7 +71,7 @@
       { source: 'sales-tour',     target: 'atrs',           value: 3, desc: 'Board authorized June 2025' },
 
       // Brady → boards
-      { source: 'brady',          target: 'apers',          value: 4, desc: 'Introduced Israel Bonds, cited Treasury holdings' },
+      { source: 'brady',          target: 'apers',          value: 4, desc: 'Introduced the investment, cited Treasury holdings' },
       { source: 'brady',          target: 'atrs',           value: 3, desc: 'Initiated request as board trustee' },
 
       // SFOF → interstate
@@ -134,7 +134,7 @@
       .attr('width', '100%')
       .attr('height', height)
       .attr('role', 'img')
-      .attr('aria-label', 'Sankey diagram showing the influence flow: Dennis Milligan and Israel Bonds representatives channel influence through the Auditor\u2019s office, Jason Brady, SFOF, and the April 2025 sales tour to reach Treasury ($55M), APERS ($25\u201350M), ATRS ($50M), and interstate replication.')
+      .attr('aria-label', 'Sankey diagram showing the influence flow: Dennis Milligan and the bond issuer\'s sales representatives channel influence through the Auditor\u2019s office, Jason Brady, SFOF, and the April 2025 sales tour to reach Treasury ($55M), APERS ($25\u201350M), ATRS ($50M), and interstate replication.')
       .append('g')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
