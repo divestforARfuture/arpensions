@@ -1,13 +1,16 @@
-<meta name="color-scheme" content="light dark">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- CSP: sha256 hash whitelists the anti-FOUC inline script below.
      If you change the script content, recompute with:
      node -e "const c=require('crypto');const s=`SCRIPT_CONTENT`;console.log(c.createHash('sha256').update(s,'utf8').digest('base64'))" -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-65zFaN80qAUbdPIZ8IOQaSJo6yd9B/tfau8rSIkacnE=' https://actionnetwork.org https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'self';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-DurWRErZGry2dOkqLxpTfdQPTSsx/xvvsNcAvXSy3TI=' https://actionnetwork.org https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com; img-src 'self' data:; object-src 'self';">
 
-<!-- Anti-FOUC: set theme + color-scheme before any rendering (hash: sha256-65zFaN80qAUbdPIZ8IOQaSJo6yd9B/tfau8rSIkacnE=) -->
-<script>(function(){var t=localStorage.getItem('art-theme');if(!t)t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.setAttribute('data-theme',t);document.documentElement.style.colorScheme=t;})()</script>
+<!-- Anti-FOUC: set theme + color-scheme + background/color before any rendering.
+     Also creates an exact-match <meta name="color-scheme"> dynamically
+     (the static meta was removed — it caused a flash by telling the browser
+     "use OS preference" before the script could correct it).
+     CSP hash: sha256-DurWRErZGry2dOkqLxpTfdQPTSsx/xvvsNcAvXSy3TI= -->
+<script>(function(){var d=document.documentElement;var t=localStorage.getItem('art-theme');if(t!=='dark'&&t!=='light')t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';d.setAttribute('data-theme',t);d.style.colorScheme=t;d.style.backgroundColor=t==='dark'?'#121218':'#f8f7f5';d.style.color=t==='dark'?'#E5E7EB':'#1b2127';var m=document.createElement('meta');m.name='color-scheme';m.content=t;document.head.appendChild(m)})()</script>
 <!-- Critical paint: prevents flash while external CSS loads.
      Covers BOTH themes, backgrounds for all visible elements, logo swap.
      Values hardcoded — keep in sync with main.css tokens. -->
@@ -20,6 +23,10 @@ html[data-theme="dark"] .site-nav{background:#15151D}
 html[data-theme="dark"] .site-footer{background:#0f0f15}
 html[data-theme="dark"] main{background-color:#121218}
 html[data-theme="dark"] .mobile-cta-bar{background:#15151D}
+html[data-theme="light"] .site-nav{background:#ffffff}
+html[data-theme="light"] main{background-color:#f8f7f5}
+html[data-theme="light"] .mobile-cta-bar{background:#f8f7f5}
+html[data-theme="light"] .site-footer{background:#1b2127}
 .logo-dark{position:absolute;top:0;left:0;pointer-events:none}
 [data-theme="dark"] .logo-light,[data-theme="light"] .logo-dark,:root:not([data-theme]) .logo-dark{opacity:0}
 [data-theme="dark"] .logo-dark,[data-theme="light"] .logo-light{opacity:1}
