@@ -295,7 +295,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="decision-window-section" data-aos="fade-up">
 
-## The decision window
+<h2>The decision window</h2>
 
 <p class="decision-window-sub">Three independent state agencies authorized up to $155 million within 49 days of the same April 2025 sales tour. The solid bars show how fast each agency moved from sales contact to board vote. The lighter bars show the gap between authorization and first investment action — in every case, months longer than the decision itself.</p>
 

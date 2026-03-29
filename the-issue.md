@@ -72,7 +72,7 @@ These authorizations came in rapid succession — and under circumstances that r
 
 <span class="section-label">The influence chain</span>
 
-## How did it happen?
+<h2>How did it happen?</h2>
 
 The diagram below traces the documented connections from our FOIA investigation. Two sources of influence — Dennis Milligan (the former Treasurer who became Auditor of State) and the bond issuer's sales representatives — flow through intermediaries to reach three state agencies and an interstate replication network. Hover over any connection to see the specific relationship documented in public records.
 
