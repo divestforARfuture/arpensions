@@ -8,6 +8,7 @@
 
 :root {
   --font-elegant: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --nav-height: 5rem;
 }
 
 /* ========================================================================
@@ -148,7 +149,7 @@
    ======================================================================== */
 
 h1, h2, h3, h4, h5, h6 {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: var(--nav-height, 5rem);
 }
 
 /* ========================================================================
@@ -702,7 +703,6 @@ blockquote {
   border-color: var(--art-accent);
   padding: 0.625rem 1.25rem;
   line-height: 1.5;
-  overflow: visible;
   letter-spacing: 0.01em;
   border-radius: 6px;
 }
