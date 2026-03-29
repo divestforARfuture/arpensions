@@ -69,17 +69,38 @@
 }
 
 /* ========================================================================
-   FOOTER — Cormorant tagline, teal dashes on column headings
+   FOOTER — Centered identity, teal top border, 3-col grid
    ======================================================================== */
+
+.site-footer {
+  border-top: 1px solid var(--art-accent);
+}
+
+/* Centered identity block above grid */
+.footer-identity {
+  text-align: center;
+  padding: 2.5rem 0 2rem;
+  border-bottom: 1px solid var(--color-border, rgba(255, 255, 255, 0.06));
+  margin-bottom: 2rem;
+}
+
+.footer-org-name {
+  font-family: var(--font-elegant);
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: -0.2px;
+  margin: 0.75rem 0 0.25rem;
+  color: var(--color-text-primary);
+}
 
 .footer-tagline {
   font-family: var(--font-elegant);
   font-style: italic;
   font-weight: 300;
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.5;
-  /* Matches --pico-muted-color / footer nav link base color */
-  color: #9ca3af;
+  color: var(--color-text-secondary, #9ca3af);
+  margin: 0;
 }
 
 .footer-heading {
@@ -99,23 +120,45 @@
   left: 0;
 }
 
-/* Footer link hover: light teal with adequate contrast on dark bg (~7:1 on #1b2127) */
+/* Footer link hover */
 .footer-nav-col a:hover {
   color: #5ec4d4;
 }
 
-.footer-contact-email a {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-}
-
+/* Bottom row: text + back-to-top */
 .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-top-color: rgba(255, 255, 255, 0.06);
+  padding-top: 1.5rem;
 }
 
 .footer-bottom p {
   font-size: 0.75rem;
   letter-spacing: 0.01em;
+  margin: 0;
+}
+
+.footer-back-to-top {
+  font-family: var(--font-sans, Inter, sans-serif);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--art-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.footer-back-to-top:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+  }
 }
 
 /* ========================================================================
