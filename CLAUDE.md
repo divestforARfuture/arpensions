@@ -124,7 +124,6 @@ Replaced hand-drawn geometric SVG with Cormorant Garamond Medium (500) glyph out
 
 Renamed "D4ARF" → "ART" in source code comments: `charts.js` line 2, `network.css` line 3, `network.js` line 2.
 
-### Known remaining items
+#### Known remaining items
 
-- `og-default.png` still shows D4ARF branding — needs design work
-- `favicon.ico` still shows D4ARF branding — needs design work
+All previously tracked items (og-default.png branding, favicon.ico branding) resolved as of March 29, 2026.
