@@ -1432,7 +1432,7 @@
 }
 
 .network-onboarding-title {
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-weight: 600;
   font-size: 1rem;
   color: var(--color-text-primary, #1b2127);
@@ -1440,7 +1440,7 @@
 }
 
 .network-onboarding-text {
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-size: 0.85rem;
   line-height: 1.5;
   color: var(--color-text-secondary, #556068);
@@ -1453,7 +1453,7 @@
 }
 
 .network-onboarding-dismiss {
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 500;
   padding: 0.4rem 0.9rem;
