@@ -1616,23 +1616,7 @@ hr + * > .section-label:first-child {
   }
 }
 
-/* ========================================================================
-   PULL-QUOTE AOS BORDER ANIMATION — Border grows in on scroll
-   ======================================================================== */
-
-.aos-init .pull-quote[data-aos="fade-up"] {
-  border-left-width: 0;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .pull-quote[data-aos="fade-up"] {
-    transition: border-left-width 0.6s ease 0.3s;
-  }
-}
-
-.pull-quote[data-aos="fade-up"].aos-animate {
-  border-left-width: 4px;
-}
+/* Pull-quote AOS border animation — removed (pull-quote no longer has border-left) */
 
 /* ========================================================================
    PATHWAY CARD HOVER — Reduced-motion safety
@@ -2225,16 +2209,7 @@ html {
   left: 0;
 }
 
-/* Pull-quote entrance glow */
-.pull-quote[data-aos].aos-animate {
-  animation: pullquote-glow 1.2s ease forwards;
-}
-
-@keyframes pullquote-glow {
-  0%   { background-color: var(--art-accent-light); }
-  40%  { background-color: color-mix(in srgb, var(--art-accent) 12%, var(--art-accent-light)); }
-  100% { background-color: var(--art-accent-light); }
-}
+/* Pull-quote entrance glow — removed (pull-quote is now transparent with thin rules) */
 
 /* Stats bar countup pulse */
 @keyframes stat-pulse {
@@ -2261,9 +2236,7 @@ html {
   .nav-links a::after {
     transition: none;
   }
-  .pull-quote[data-aos].aos-animate {
-    animation: none;
-  }
+  /* pull-quote glow animation removed — no override needed */
   .stat-number.counted {
     animation: none;
   }
