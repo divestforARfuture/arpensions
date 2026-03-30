@@ -1803,7 +1803,7 @@ html {
   /* Active state — weight + color shift only, no colored background */
   .evidence-toc-link--active {
     color: var(--text-primary, #1b1b1b);
-    border-left-color: var(--border-medium, #c4c4c4);
+    border-left-color: var(--border-dark, #303030);
     background-color: transparent;
     font-weight: 600;
   }
@@ -1842,7 +1842,7 @@ html {
     font-family: var(--font-sans);
     font-size: 0.85rem;
     font-weight: 500;
-    color: var(--text-secondary, #474747);
+    color: var(--text-primary, #1b1b1b);
   }
 
   .evidence-toc-toggle-label {
