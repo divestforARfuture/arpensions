@@ -32,7 +32,7 @@
 
   /* Functional — NOT for decoration */
   --color-danger: #B91C1C;
-  --color-data-primary: #1a5276;
+  --color-data-primary: var(--accent);
   --color-data-secondary: #B91C1C;
   --color-data-tertiary: #6e6e6e;
 
@@ -120,8 +120,8 @@
   --pico-line-height: var(--lh-body);
   --pico-color: var(--text-primary);
   --pico-background-color: var(--bg-primary);
-  --pico-primary: var(--accent);
-  --pico-primary-hover: var(--accent-hover);
+  --pico-primary: var(--color-danger);
+  --pico-primary-hover: var(--color-cta-hover, #991b1b);
   --pico-muted-color: var(--text-muted);
   --pico-border-color: var(--border-light);
 }
@@ -246,7 +246,9 @@ a:hover {
   color: var(--link-hover);
 }
 
-a:visited {
+/* Visited links — prose content only (prevents nav/footer purple staining) */
+.container-prose a:visited,
+main article a:visited {
   color: var(--link-visited);
 }
 
