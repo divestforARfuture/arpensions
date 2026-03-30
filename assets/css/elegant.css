@@ -524,38 +524,12 @@ article > aside[role="complementary"] h3 {
 }
 
 /* ========================================================================
-   PULL QUOTES — Cormorant italic, teal border
-   Uses var(--art-accent) and var(--art-accent-light) which
-   auto-adapt in dark mode via main.css token redefinition
+   PULL QUOTES — restyled in main.css (editorial: thin rules, display font)
    ======================================================================== */
-
-.pull-quote {
-  border-left: 4px solid var(--art-accent);
-  background-color: var(--art-accent-light);
-  border-radius: 0;
-}
-
-.pull-quote p {
-  font-family: var(--font-elegant);
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1.1rem;
-  line-height: 1.65;
-}
-
-.pull-quote::before {
-  color: var(--art-accent);
-  opacity: 0.2;
-}
 
 /* ========================================================================
-   BLOCKQUOTES — Teal border, lighter background
+   BLOCKQUOTES — restyled in main.css (editorial: bilateral indentation)
    ======================================================================== */
-
-blockquote {
-  border-left-color: var(--art-accent);
-  background-color: var(--art-accent-light);
-}
 
 /* ========================================================================
    CALLOUT BOXES — Teal accent, lighter background
@@ -1530,18 +1504,12 @@ hr + * > .section-label:first-child {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--art-red, #B91C1C);
-  background: rgba(185, 28, 28, 0.06);
-  padding: 0.2em 0.6em;
-  border-radius: 3px;
+  color: var(--text-muted);
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
   margin-bottom: 0.75rem;
   font-style: normal;
-}
-
-[data-theme="dark"] .pull-quote > p:first-child > strong:first-child,
-[data-theme="dark"] .pull-quote > strong:first-child {
-  background: rgba(239, 68, 68, 0.1);
-  color: #EF4444;
 }
 
 /* ========================================================================

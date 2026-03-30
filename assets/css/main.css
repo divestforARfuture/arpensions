@@ -1264,18 +1264,43 @@ hr {
   margin-bottom: 0.5rem;
 }
 
-/* === Blockquotes — evidence/source quotes === */
+/* === Editorial Blockquotes — legal citation style (bilateral indentation) === */
 blockquote {
-  border-left: 4px solid var(--art-red);
-  padding: 1rem 1.5rem;
-  margin: 1.5rem 0;
-  background-color: var(--art-red-light);
-  border-radius: 0 4px 4px 0;
+  margin: 1.75em 2.5em;
+  padding: 0;
+  border-left: none;
+  background-color: transparent;
+  border-radius: 0;
+  font-family: var(--font-serif);
+  font-size: 0.95em;
+  line-height: 1.7;
+  color: var(--text-secondary);
   font-style: normal;
 }
 
 blockquote p {
-  margin: 0;
+  margin: 0 0 0.75em;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote cite,
+blockquote footer {
+  display: block;
+  margin-top: 0.75em;
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-variant-caps: small-caps;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+}
+
+/* Mobile: reduce side margins so quotes don't get too narrow */
+@media (max-width: 640px) {
+  blockquote {
+    margin-inline: 1rem;
+  }
 }
 
 /* --- Callout / Pull Quote --- */
@@ -1475,35 +1500,31 @@ blockquote p {
   margin: 2.5rem 0;
 }
 
-/* --- Pull Quote — Elevated callout for official statements --- */
+/* --- Pull Quote — Editorial emphasis with thin rules --- */
 .pull-quote {
-  padding: 1.75rem 1.75rem 1.75rem 2rem;
-  background-color: var(--art-gray-light);
-  border-left: 6px solid var(--art-red);
-  border-radius: 0 8px 8px 0;
-  margin: 2rem 0;
+  margin: 2.5em 0;
+  padding: 1.5em 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  background-color: transparent;
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 1rem + 1.2vw, 1.75rem);
+  line-height: 1.35;
+  color: var(--text-primary);
+  text-align: center;
   position: relative;
-  font-size: 1.05rem;
-  line-height: 1.7;
 }
 
-/* Decorative open-quote */
+/* Remove decorative open-quote glyph */
 .pull-quote::before {
-  content: '\201C';
-  position: absolute;
-  top: -0.25rem;
-  left: 0.75rem;
-  font-size: 4rem;
-  font-family: var(--font-display);
-  color: var(--art-red);
-  opacity: 0.12;
-  line-height: 1;
-  pointer-events: none;
+  content: none;
 }
 
 .pull-quote p {
-  margin: 0 0 1rem;
-  position: relative;
+  margin: 0 0 0.75rem;
 }
 
 .pull-quote p:last-child {
@@ -1512,10 +1533,13 @@ blockquote p {
 
 .pull-quote-attribution {
   display: block;
-  font-size: 0.85rem;
-  color: var(--art-gray);
-  font-style: normal;
-  margin-top: 0.25rem;
+  margin-top: 0.75em;
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-variant-caps: small-caps;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  text-align: center;
 }
 
 /* --- Evidence Timeline — Vertical timeline component --- */
@@ -2096,17 +2120,13 @@ blockquote p {
 
 /* --- Press Quotes — Pull quote cards with extra spacing --- */
 .press-quotes .pull-quote {
-  background: var(--color-bg-surface);
-  border: 1px solid var(--art-border);
-  border-left: 6px solid var(--art-red);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
   margin: 1.5rem 0;
 }
 
 .press-quotes .pull-quote-attribution {
-  font-size: 0.85rem;
-  color: var(--art-gray);
-  font-style: italic;
+  font-size: var(--fs-small);
+  color: var(--text-muted);
+  font-style: normal;
 }
 
 /* --- Press Resources — Compact reference card --- */
@@ -2532,12 +2552,7 @@ html.theme-transition *::after {
   border-color: var(--art-border);
 }
 
-/* --- Press Quotes --- */
-[data-theme="dark"] .press-quotes .pull-quote {
-  background: var(--bg-surface);
-  border-color: var(--art-border);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
-}
+/* --- Press Quotes — uses semantic tokens, minimal dark override --- */
 
 /* --- Action Steps (nested white backgrounds) --- */
 [data-theme="dark"] .action-step .callout {
@@ -2557,12 +2572,7 @@ html.theme-transition *::after {
   border-top-color: var(--border-light);
 }
 
-/* --- Blockquote --- */
-[data-theme="dark"] blockquote {
-  background-color: rgba(185, 28, 28, 0.1);
-  border-left-color: var(--art-red);
-  color: var(--art-gray);
-}
+/* --- Blockquote — uses semantic tokens, no special dark override needed --- */
 
 /* --- Callout --- */
 [data-theme="dark"] .callout {
