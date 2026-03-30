@@ -7,7 +7,7 @@
    ======================================================================== */
 
 :root {
-  --font-elegant: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-elegant: var(--font-display, 'Cormorant Garamond', 'Source Serif 4', Georgia, serif);
   --nav-height: 5rem;
 }
 
@@ -146,7 +146,7 @@
 }
 
 .footer-back-to-top {
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--art-accent);
@@ -211,9 +211,9 @@ h1, h2, h3, h4, h5, h6 {
    ======================================================================== */
 
 .elegant-heading {
-  font-family: var(--font-elegant);
-  font-weight: 300;
-  font-size: clamp(1.5rem, 3vw, 1.75rem);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: var(--fs-h2, clamp(1.5rem, 1.1rem + 2vw, 2.25rem));
   line-height: 1.25;
   letter-spacing: -0.2px;
   color: var(--color-text-primary);
@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .landing-content .stat-card .stat-number,
 .landing-content .stat-card [data-count] {
-  font-family: var(--font-elegant);
+  font-family: var(--font-display);
   font-weight: 300;
   font-size: clamp(2rem, 4vw, 2.75rem);
   line-height: 1;
@@ -644,7 +644,7 @@ blockquote {
 /* Time label */
 .timeline .timeline-event time {
   color: var(--art-accent);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--font-mono);
   font-weight: 500;
   font-size: 0.9rem;
   letter-spacing: 0.02em;
@@ -653,7 +653,7 @@ blockquote {
 /* Year dividers: larger circle marker */
 .timeline-year {
   position: sticky;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--font-mono);
   font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 0.04em;
@@ -868,7 +868,7 @@ blockquote {
   border-radius: 50%;
   border: 2px solid var(--art-accent);
   background: var(--color-bg-page, #f8f7f5);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--font-mono);
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--art-accent);
@@ -884,7 +884,7 @@ blockquote {
 
 /* Label text */
 .step-ladder-label {
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-size: 0.875rem;
   font-weight: 500;
   color: var(--color-text-secondary, #556068);
@@ -1176,7 +1176,7 @@ blockquote {
 
 .stat .stat-number {
   display: block;
-  font-family: var(--font-elegant);
+  font-family: var(--font-display);
   font-weight: 300;
   font-size: clamp(2.5rem, 5vw, 3.25rem);
   line-height: 1;
@@ -1525,7 +1525,7 @@ hr + * > .section-label:first-child {
 .pull-quote > p:first-child > strong:first-child,
 .pull-quote > strong:first-child {
   display: inline-block;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--font-mono);
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -1714,16 +1714,16 @@ hr + * > .section-label:first-child {
   .page-header h1,
   .page-content h2,
   .landing-content h2 {
-    font-family: Georgia, serif;
+    font-family: Georgia, 'Times New Roman', serif;
     font-weight: 300;
   }
 
   .stat .stat-number {
-    font-family: Georgia, serif;
+    font-family: Georgia, 'Times New Roman', serif;
   }
 
   .pull-quote p {
-    font-family: Georgia, serif;
+    font-family: Georgia, 'Times New Roman', serif;
   }
 
   /* --- Expand all collapsed sections --- */
@@ -1927,7 +1927,7 @@ html {
   }
 
   .evidence-toc-heading {
-    font-family: var(--font-sans, Inter, sans-serif);
+    font-family: var(--font-sans);
     font-weight: 600;
     font-size: 0.7rem;
     letter-spacing: 0.08em;
@@ -1956,7 +1956,7 @@ html {
   .evidence-toc-link {
     display: block;
     padding: 0.3rem 0.5rem 0.3rem 0.75rem;
-    font-family: var(--font-sans, Inter, sans-serif);
+    font-family: var(--font-sans);
     font-weight: 400;
     font-size: 0.8rem;
     line-height: 1.4;
@@ -2013,7 +2013,7 @@ html {
     background: none;
     border: none;
     cursor: pointer;
-    font-family: var(--font-sans, Inter, sans-serif);
+    font-family: var(--font-sans);
     font-size: 0.85rem;
     font-weight: 500;
     color: var(--art-accent);
@@ -2064,7 +2064,7 @@ html {
   .evidence-toc-link {
     display: block;
     padding: 0.4rem 0;
-    font-family: var(--font-sans, Inter, sans-serif);
+    font-family: var(--font-sans);
     font-size: 0.85rem;
     color: var(--color-text-secondary, #556068);
     text-decoration: none;
@@ -2110,7 +2110,7 @@ html {
   background: none;
   border: 1px solid var(--color-border, #e5e5e5);
   color: var(--art-accent);
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 500;
   padding: 0.4rem 0.9rem;
@@ -2134,7 +2134,7 @@ html {
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 0;
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-weight: 600;
   font-size: 1.05rem;
   color: var(--art-accent);
@@ -2309,7 +2309,7 @@ html {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 400;
   color: var(--color-text-secondary, #556068);
@@ -2326,7 +2326,7 @@ html {
    ======================================================================== */
 
 .breadcrumb {
-  font-family: var(--font-sans, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 400;
   color: var(--color-text-secondary, #556068);
