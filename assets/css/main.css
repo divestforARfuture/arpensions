@@ -4,41 +4,70 @@
 
 /* --- Design Tokens --- */
 :root {
-  /* Primary palette — WCAG AA compliant on white */
-  --art-red: #B91C1C;
+  /* === Color Palette — Public Record Elegance === */
+
+  /* Backgrounds */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f6;
+  --bg-surface: #ffffff;
+
+  /* Text */
+  --text-primary: #1b1b1b;
+  --text-secondary: #474747;
+  --text-muted: #6e6e6e;   /* darkened from #777 to pass AA on --bg-secondary */
+
+  /* Accent — single authoritative dark blue */
+  --accent: #1a5276;
+  --accent-hover: #154360;
+
+  /* Links */
+  --link-color: #1a5276;
+  --link-hover: #154360;
+  --link-visited: #4a235a;
+
+  /* Borders */
+  --border-light: #e2e2e2;
+  --border-medium: #c4c4c4;
+  --border-dark: #303030;
+
+  /* Functional — NOT for decoration */
+  --color-danger: #B91C1C;
+  --color-data-primary: #1a5276;
+  --color-data-secondary: #B91C1C;
+  --color-data-tertiary: #6e6e6e;
+
+  /* === Legacy tokens — aliased to new palette (do not remove) === */
+  --art-red: var(--color-danger);        /* #B91C1C unchanged */
   --art-green: #166534;
 
-  /* Teal accent for links, borders, section markers */
-  --art-accent: #0C7489;
-  --art-accent-light: #E0F2F7;
+  --art-accent: var(--accent);           /* was #0C7489 teal → now #1a5276 dark blue */
+  --art-accent-light: #dce8ef;           /* light blue tint (was #E0F2F7 teal tint) */
 
-  /* Warm neutrals */
-  --art-black: #1b2127;
-  --art-white: #f8f7f5;
-  --art-gray: #556068;
-  --art-gray-light: #f0efec;
-  --art-border: #dee3e6;
+  --art-black: var(--text-primary);      /* was #1b2127 → now #1b1b1b */
+  --art-white: var(--bg-primary);        /* was #f8f7f5 → now #ffffff */
+  --art-gray: var(--text-secondary);     /* was #556068 → now #474747 */
+  --art-gray-light: var(--bg-secondary); /* was #f0efec → now #f8f8f6 */
+  --art-border: var(--border-light);     /* was #dee3e6 → now #e2e2e2 */
 
-  /* Functional colors */
   --art-red-light: #FEE2E2;
   --art-green-light: #DCFCE7;
 
-  /* Semantic tokens */
-  --color-text-primary: var(--art-black);
-  --color-text-secondary: var(--art-gray);
-  --color-bg-page: var(--art-white);
-  --color-bg-panel: var(--art-gray-light);
-  --color-bg-surface: #ffffff; /* Pure white for card elevation against warm off-white page */
-  --color-link: var(--art-accent);
-  --color-link-hover: #095c6e;
-  --color-cta: var(--art-red);
+  /* Semantic aliases */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-bg-page: var(--bg-primary);
+  --color-bg-panel: var(--bg-secondary);
+  --color-bg-surface: var(--bg-surface);
+  --color-link: var(--link-color);
+  --color-link-hover: var(--link-hover);
+  --color-cta: var(--color-danger);
   --color-cta-hover: #991b1b;
   --color-success: var(--art-green);
-  --color-border: var(--art-border);
+  --color-border: var(--border-light);
 
   /* Link styling */
-  --art-link: var(--color-link);
-  --art-link-hover: var(--color-link-hover);
+  --art-link: var(--link-color);
+  --art-link-hover: var(--link-hover);
 
   /* Typography — font stacks */
   --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
@@ -89,10 +118,12 @@
   --pico-font-family: var(--font-body);
   --pico-font-size: 100%;
   --pico-line-height: var(--lh-body);
-  --pico-color: var(--art-black);
-  --pico-background-color: var(--color-bg-page);
-  --pico-primary: var(--art-red);
-  --pico-primary-hover: var(--color-link-hover);
+  --pico-color: var(--text-primary);
+  --pico-background-color: var(--bg-primary);
+  --pico-primary: var(--accent);
+  --pico-primary-hover: var(--accent-hover);
+  --pico-muted-color: var(--text-muted);
+  --pico-border-color: var(--border-light);
 }
 
 /* --- Logo theme swap — opacity crossfade, no layout reflow --- */
@@ -135,8 +166,8 @@ body {
   font-family: var(--font-body);
   font-size: var(--fs-body);
   line-height: var(--lh-body);
-  color: var(--color-text-primary);
-  background-color: var(--color-bg-page);
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
 }
 
 /* --- Heading hierarchy --- */
@@ -207,12 +238,16 @@ code, kbd, samp, pre,
 /* Body text line length is now controlled by .container-prose max-width: 65ch */
 
 a {
-  color: var(--color-link);
+  color: var(--link-color);
   transition: color 0.15s ease;
 }
 
 a:hover {
-  color: var(--color-link-hover);
+  color: var(--link-hover);
+}
+
+a:visited {
+  color: var(--link-visited);
 }
 
 /* --- Skip Link (a11y) --- */
