@@ -829,15 +829,12 @@ blockquote {
   margin: 0;
 }
 
-.action-nav a {
-  margin: 0;
-}
-
 .action-nav ul {
   margin-bottom: 0;
 }
 
 .action-nav a {
+  margin: 0;
   color: var(--art-accent);
   border-color: var(--art-accent);
   padding: 0.5rem 1.25rem 0.75rem; /* asymmetric: extra bottom for descenders */
