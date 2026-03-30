@@ -313,18 +313,24 @@ main article a:visited {
   padding: 0 var(--space-lg);
 }
 
+/* === Editorial Grid Layout ===
+   CSS Grid with a centered 65ch prose column and gutters that allow
+   .breakout and .full-width children to escape the reading column.
+   When used as "container container-prose", max-width: none wins over
+   .container's 64rem — the 1fr gutters absorb all remaining viewport width.
+   This is intentional: the grid formula constrains the prose column. */
 .container-prose {
-  max-width: 65ch;
-  margin: 0 auto;
-  padding-inline: 1.5rem;
-}
-@media (min-width: 768px) {
-  .container-prose {
-    padding-inline: 2rem;
-  }
+  display: grid;
+  grid-template-columns: 1fr min(65ch, calc(100% - 3rem)) 1fr;
+  max-width: none;
+  padding-inline: 0;  /* Grid 1fr columns provide the side gutters */
 }
 
-/* List and blockquote line length controlled by .container-prose max-width: 65ch */
+/* All direct children default to the center (prose) column */
+.container-prose > * {
+  grid-column: 2;
+  min-width: 0; /* Prevent grid blowout from wide children */
+}
 
 /* === Section Rhythm === */
 .evidence-finding,
@@ -394,15 +400,22 @@ hr {
   display: block;
 }
 
-/* === Full-width Breakout — Prep classes for PR 6 editorial layout === */
-.full-width {
-  max-width: none;
-  width: 100%;
-}
-.breakout {
+/* === Breakout classes — escape the prose column within the grid ===
+   IMPORTANT: These only work on *direct* children of .container-prose.
+   Nested elements (e.g. inside <section> or <div>) won't get grid placement. */
+.container-prose > .breakout {
+  grid-column: 1 / -1;
   max-width: 90rem;
   margin-inline: auto;
-  /* PR 6 will restructure layout with CSS Grid so this breaks out of the prose column */
+  padding-inline: 1.5rem;
+  width: 100%;
+}
+
+.container-prose > .full-width {
+  grid-column: 1 / -1;
+  max-width: none;
+  width: 100%;
+  padding-inline: 0;
 }
 
 /* --- Navigation --- */
@@ -3210,9 +3223,10 @@ hr.section-break {
     content: none;
   }
 
-  /* Full-width containers */
+  /* Full-width containers — disable grid for print */
   .container,
   .container-prose {
+    display: block;
     max-width: 100%;
     padding: 0;
   }
