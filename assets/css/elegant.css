@@ -861,8 +861,8 @@ article > aside[role="complementary"] h3 {
 .hero h1 { color: var(--text-primary); }
 .hero-sub,
 .hero-subtitle { color: var(--text-secondary); }
-.hero .btn-primary-hero { background: var(--accent); color: #fff; }
-.hero .btn-primary-hero:hover { color: #fff; opacity: 0.88; }
+.hero .btn-primary-hero { background: var(--accent); color: var(--bg-primary); }
+.hero .btn-primary-hero:hover { color: var(--bg-primary); opacity: 0.88; }
 .hero .btn-secondary-hero { border: 1px solid var(--border-medium); color: var(--text-secondary); }
 .hero .btn-secondary-hero:hover { color: var(--text-primary); border-color: var(--border-dark); }
 
@@ -932,7 +932,7 @@ article > aside[role="complementary"] h3 {
 .stat--zero .stat-number { color: var(--color-danger); }
 .stat-rule { background: var(--border-light); }
 .stat--zero .stat-rule { background: var(--color-danger); opacity: 0.3; }
-.stats-provenance p { color: var(--text-muted); opacity: 0.6; }
+.stats-provenance p { color: var(--text-muted); }
 
 /* ========================================================================
    PATHWAY CARDS — Pure text links with thin rules

@@ -2606,10 +2606,7 @@ html.theme-transition *::after {
 
 /* Old footer column focus overrides removed — footer simplified */
 
-/* --- Stats Bar --- */
-[data-theme="dark"] .stats-bar {
-  background-color: var(--color-bg-surface);
-}
+/* Stats bar uses transparent — no dark mode override needed */
 
 
 
