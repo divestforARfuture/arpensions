@@ -2354,41 +2354,74 @@ html.theme-transition *::after {
    DARK MODE — Design Tokens
    ========================================================================== */
 [data-theme="dark"] {
-  --art-red: #EF4444;
+  /* Backgrounds — warm dark, not cold blue-black */
+  --bg-primary: #1b1b1b;
+  --bg-secondary: #242424;
+  --bg-surface: #2a2a2a;
+
+  /* Text — warm near-white, not cool gray */
+  --text-primary: #e8e6e3;
+  --text-secondary: #b0aba5;
+  --text-muted: #8a8480;
+
+  /* Accent — lighter for dark backgrounds */
+  --accent: #5dade2;
+  --accent-hover: #85c1e9;
+
+  /* Links */
+  --link-color: #5dade2;
+  --link-hover: #85c1e9;
+  --link-visited: #bb8fce;
+
+  /* Borders */
+  --border-light: #3a3a3a;
+  --border-medium: #555555;
+  --border-dark: #888888;
+
+  /* Functional */
+  --color-danger: #e74c3c;
+  --color-data-primary: var(--accent);
+  --color-data-secondary: #e74c3c;
+  --color-data-tertiary: #8a8480;
+
+  /* Legacy aliases — dark mode */
+  --art-red: var(--color-danger);
   --art-green: #22C55E;
-  --art-accent: #5ec4d4;
-  --art-accent-light: #1a2f35;
-  --art-black: #E5E7EB;
-  --art-white: #121218;
-
-  --art-red-light: rgba(239, 68, 68, 0.12);
+  --art-accent: var(--accent);
+  --art-accent-light: rgba(93, 173, 226, 0.15);
+  --art-black: var(--text-primary);
+  --art-white: var(--bg-primary);
+  --art-red-light: rgba(231, 76, 60, 0.12);
   --art-green-light: rgba(34, 197, 94, 0.12);
-  --art-gray: #9CA3AF;
-  --art-gray-light: #1E1E28;
-  --art-border: #2D2D3A;
+  --art-gray: var(--text-secondary);
+  --art-gray-light: var(--bg-secondary);
+  --art-border: var(--border-light);
 
-  --color-bg-page: #121218;
-  --color-bg-panel: #1E1E28;
-  --color-bg-surface: #15151D;
-  --color-link: #5ec4d4;
-  --color-link-hover: #7dd4e0;
-  --color-text-primary: #E5E7EB;
-  --color-text-secondary: #9CA3AF;
-  --color-border: #2D2D3A;
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-bg-page: var(--bg-primary);
+  --color-bg-panel: var(--bg-secondary);
+  --color-bg-surface: var(--bg-surface);
+  --color-link: var(--link-color);
+  --color-link-hover: var(--link-hover);
+  --color-border: var(--border-light);
+  --color-cta: var(--color-danger);
+  --color-cta-hover: #c0392b;
 
-  --art-link: var(--color-link);
-  --art-link-hover: var(--color-link-hover);
+  --art-link: var(--link-color);
+  --art-link-hover: var(--link-hover);
 
-  /* Pico overrides for dark */
-  --pico-color: var(--art-black);
-  --pico-background-color: var(--color-bg-page);
-  --pico-primary: var(--art-red);
-  --pico-primary-hover: var(--art-link-hover);
-  --pico-muted-color: var(--art-gray);
-  --pico-muted-border-color: var(--art-border);
-  --pico-card-background-color: #1A1A24;
-  --pico-card-border-color: var(--art-border);
-  --pico-card-sectioning-background-color: #1E1E28;
+  /* Pico dark mode overrides */
+  --pico-color: var(--text-primary);
+  --pico-background-color: var(--bg-primary);
+  --pico-primary: var(--color-danger);
+  --pico-primary-hover: #c0392b;
+  --pico-muted-color: var(--text-muted);
+  --pico-muted-border-color: var(--border-light);
+  --pico-border-color: var(--border-light);
+  --pico-card-background-color: var(--bg-surface);
+  --pico-card-border-color: var(--border-light);
+  --pico-card-sectioning-background-color: var(--bg-secondary);
 }
 
 /* ==========================================================================
