@@ -827,8 +827,8 @@ blockquote {
   content: '';
   position: absolute;
   top: calc(1rem + 13px);
-  left: calc(1.25rem + 14px);
-  right: 14px;
+  left: calc(1.125rem + 10%);
+  right: calc(10% - 0.125rem);
   height: 2px;
   background: color-mix(in srgb, var(--art-accent) 25%, transparent);
   z-index: 0;
@@ -843,7 +843,6 @@ blockquote {
   z-index: 1;
   flex: 1;
   gap: 0.5rem;
-  cursor: pointer;
 }
 
 .step-ladder-item:hover {
@@ -886,7 +885,7 @@ blockquote {
 /* Label text */
 .step-ladder-label {
   font-family: var(--font-sans, Inter, sans-serif);
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   font-weight: 500;
   color: var(--color-text-secondary, #556068);
   text-align: center;
