@@ -1667,9 +1667,9 @@ blockquote footer {
   left: 0.5rem;
   top: 0.5rem;
   bottom: 0.5rem;
-  width: 2px;
-  background: rgba(185, 28, 28, 0.2);
-  border-radius: 1px;
+  width: 1px;
+  background: var(--border-light);
+  border-radius: 0;
 }
 
 .evidence-timeline .timeline-event {
@@ -1684,49 +1684,51 @@ blockquote footer {
 /* Dot marker on the line */
 .timeline-marker {
   position: absolute;
-  left: -2.25rem;
-  top: 0.35rem;
-  width: 10px;
-  height: 10px;
-  background: var(--art-red);
+  left: -2.15rem;
+  top: 0.4em;
+  width: 6px;
+  height: 6px;
+  background: var(--text-muted);
   border-radius: 50%;
-  border: 2px solid var(--art-white);
-  box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.2);
+  border: 1px solid var(--border-medium);
+  box-shadow: none;
 }
 
 .timeline-date {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--art-red);
-  margin-bottom: 0.35rem;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--fs-data);
+  color: var(--text-muted);
+  margin-bottom: 0.25em;
+  letter-spacing: 0.02em;
 }
 
 .timeline-content {
   font-size: 0.95rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   line-height: 1.65;
 }
 
-/* Escalation events — stronger visual treatment */
+/* Escalation events — subtle emphasis only */
 .timeline-event--escalation .timeline-marker {
-  width: 14px;
-  height: 14px;
-  left: -2.375rem;
-  top: 0.25rem;
-  box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.25);
+  width: 8px;
+  height: 8px;
+  left: -2.2rem;
+  top: 0.35em;
+  box-shadow: none;
 }
 
 .timeline-event--escalation .timeline-content {
-  background: var(--art-red-light);
-  padding: 0.75rem 1rem;
-  border-radius: 6px;
-  border-left: 3px solid var(--art-red);
-  color: var(--art-black);
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  border-left: 2px solid var(--border-medium);
+  padding-left: 0.75rem;
+  color: var(--text-primary);
 }
 
 .timeline-event--escalation .timeline-date {
-  font-size: 1rem;
+  font-size: var(--fs-data);
 }
 
 /* Timeline mobile adjustments */
@@ -1736,15 +1738,11 @@ blockquote footer {
   }
 
   .timeline-marker {
-    left: -1.75rem;
+    left: -1.65rem;
   }
 
   .timeline-event--escalation .timeline-marker {
-    left: -1.875rem;
-  }
-
-  .timeline-event--escalation .timeline-content {
-    padding: 0.6rem 0.75rem;
+    left: -1.7rem;
   }
 }
 
@@ -2720,24 +2718,7 @@ html.theme-transition *::after {
   border-bottom-color: rgba(239, 68, 68, 0.15);
 }
 
-/* --- Timeline --- */
-[data-theme="dark"] .evidence-timeline::before {
-  background: rgba(239, 68, 68, 0.25);
-}
-
-[data-theme="dark"] .timeline-marker {
-  border-color: var(--art-white);
-  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25);
-}
-
-[data-theme="dark"] .timeline-event--escalation .timeline-marker {
-  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.3);
-}
-
-[data-theme="dark"] .timeline-event--escalation .timeline-content {
-  background: var(--art-red-light);
-  color: var(--art-black);
-}
+/* --- Timeline — uses semantic tokens, minimal dark overrides --- */
 
 /* --- Hero and Landing Hero: already dark or using variables, verify --- */
 /* The hero uses --art-black as bg, which is now light text in dark mode.
@@ -2831,8 +2812,8 @@ html.theme-transition *::after {
   left: 1rem;
   top: 0;
   bottom: 0;
-  width: 3px;
-  background: var(--art-border);
+  width: 1px;
+  background: var(--border-light);
 }
 
 .timeline {
@@ -2849,8 +2830,8 @@ html.theme-transition *::after {
   left: 1rem;
   top: 0;
   bottom: 0;
-  width: 3px;
-  background: var(--art-border);
+  width: 1px;
+  background: var(--border-light);
 }
 
 .timeline .timeline-event {
@@ -2862,39 +2843,33 @@ html.theme-transition *::after {
 .timeline .timeline-event::before {
   content: '';
   position: absolute;
-  left: 0.55rem;
-  top: 0.35rem;
-  width: 14px;
-  height: 14px;
+  left: calc(1rem - 3px);
+  top: 0.4em;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: var(--art-red);
-  border: 3px solid var(--art-white);
+  background: var(--text-muted);
+  border: 1px solid var(--border-medium);
+  box-shadow: none;
   z-index: 1;
 }
 
-[data-theme="dark"] .timeline .timeline-event::before {
-  border-color: var(--bg-primary);
-}
-
 .timeline .timeline-event.timeline-event--highlight::before {
-  width: 18px;
-  height: 18px;
-  left: 0.4rem;
-  top: 0.25rem;
-  box-shadow: 0 0 0 4px rgba(185, 28, 28, 0.2);
-}
-
-[data-theme="dark"] .timeline .timeline-event.timeline-event--highlight::before {
-  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.25);
+  width: 8px;
+  height: 8px;
+  left: calc(1rem - 4px);
+  top: 0.35em;
+  box-shadow: none;
 }
 
 .timeline .timeline-event time {
   display: block;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.9rem;
-  color: var(--art-red);
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: var(--fs-data);
+  color: var(--text-muted);
   margin-bottom: 0.25rem;
+  letter-spacing: 0.02em;
 }
 
 .timeline .timeline-event h3,
@@ -2906,15 +2881,16 @@ html.theme-transition *::after {
 
 .timeline .timeline-event p {
   font-size: 0.95rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   margin: 0;
 }
 
 .timeline-year {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.4rem;
-  color: var(--art-black);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
   padding-left: 3rem;
   margin: 2.5rem 0 1rem;
   position: sticky;
@@ -2931,7 +2907,8 @@ html.theme-transition *::after {
   .timeline-wrapper::before { left: 0.75rem; }
   .timeline:not(.timeline-wrapper .timeline)::before { left: 0.75rem; }
   .timeline .timeline-event { padding-left: 2.5rem; }
-  .timeline .timeline-event::before { left: 0.35rem; }
+  .timeline .timeline-event::before { left: calc(0.75rem - 3px); }
+  .timeline .timeline-event.timeline-event--highlight::before { left: calc(0.75rem - 4px); }
   .timeline-year { padding-left: 2.5rem; }
 }
 

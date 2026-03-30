@@ -451,90 +451,43 @@ article > aside[role="complementary"] h3 {
 }
 
 /* ========================================================================
-   TIMELINE — Investigative journalism style
-   Teal connecting line, node circles, year chapter markers
+   TIMELINE — restyled in main.css (editorial: thin line, small dots, muted)
    ======================================================================== */
 
-/* Vertical connecting line */
-.timeline-wrapper::before {
-  width: 2px;
-  background: color-mix(in srgb, var(--art-accent) 25%, transparent);
-}
-
-/* Event connector nodes */
-.timeline .timeline-event::before {
-  width: 8px;
-  height: 8px;
-  left: 0.72rem;
-  top: 0.5rem;
-  background: var(--art-accent);
-  border: 2px solid var(--color-bg-page, #f8f7f5);
-  box-shadow: none;
-}
-
-/* Highlighted events: larger node, teal glow, subtle background */
-.timeline .timeline-event.timeline-event--highlight::before {
-  width: 12px;
-  height: 12px;
-  left: 0.6rem;
-  top: 0.4rem;
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--art-accent) 20%, transparent);
-}
-
-.timeline .timeline-event.timeline-event--highlight {
-  background: color-mix(in srgb, var(--art-accent) 6%, transparent);
-  border-radius: 6px;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-right: 0.75rem;
-  margin-left: -0.5rem;
-  padding-left: 3.5rem;
-  border-left: 3px solid color-mix(in srgb, var(--art-accent) 30%, transparent);
-}
-
-/* Time label */
-.timeline .timeline-event time {
-  color: var(--art-accent);
-  font-family: var(--font-mono);
-  font-weight: 500;
-  font-size: 0.9rem;
-  letter-spacing: 0.02em;
-}
-
-/* Year dividers: larger circle marker */
-.timeline-year {
-  position: sticky;
-  font-family: var(--font-mono);
-  font-weight: 600;
-  font-size: 1.1rem;
-  letter-spacing: 0.04em;
-  color: var(--art-accent);
-}
-
+/* Year dividers: small dot instead of large circle */
 .timeline-year::before {
   content: '';
   position: absolute;
-  left: 0.45rem;
+  left: calc(1rem - 3px);
   top: 50%;
   transform: translateY(-50%);
-  width: 16px;
-  height: 16px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  background: var(--art-accent);
-  border: 3px solid var(--color-bg-page, #f8f7f5);
+  background: var(--text-primary);
+  border: none;
   z-index: 2;
 }
 
+/* Highlighted events: subtle left border offset from timeline line */
+.timeline .timeline-event.timeline-event--highlight {
+  background: transparent;
+  border-radius: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0;
+  margin-left: 0.75rem;
+  padding-left: calc(3rem - 0.75rem);
+  border-left: 2px solid var(--border-medium);
+}
+
 @media (max-width: 600px) {
-  .timeline .timeline-event::before {
-    left: 0.47rem;
+  .timeline-year::before {
+    left: calc(0.75rem - 3px);
   }
   .timeline .timeline-event.timeline-event--highlight {
-    margin-left: -0.25rem;
-    padding-left: 2.75rem;
-  }
-  .timeline-year::before {
-    left: 0.2rem;
+    margin-left: 0.5rem;
+    padding-left: calc(2.5rem - 0.5rem);
   }
 }
 
@@ -1620,8 +1573,8 @@ hr + * > .section-label:first-child {
 
   /* --- Timeline: simplify for print --- */
   .timeline .timeline-event.timeline-event--highlight {
-    background: #f5f5f5 !important;
-    border-left-color: #B91C1C !important;
+    background: transparent !important;
+    border-left-color: #303030 !important;
   }
 
   /* --- Charts: ensure they print --- */
