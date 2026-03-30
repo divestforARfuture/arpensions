@@ -1412,7 +1412,7 @@
 
 .network-onboarding-inner {
   background: var(--color-bg-page, #f8f7f5);
-  border: 1px solid var(--art-accent, #0C7489);
+  border: 1px solid var(--art-accent, #1a5276);
   border-radius: 8px;
   padding: 1.25rem 1.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
@@ -1459,12 +1459,12 @@
   padding: 0.4rem 0.9rem;
   border-radius: 4px;
   cursor: pointer;
-  border: 1px solid var(--art-accent, #0C7489);
+  border: 1px solid var(--art-accent, #1a5276);
   transition: background 0.15s, color 0.15s;
 }
 
 .network-onboarding-dismiss[data-persist="false"] {
-  background: var(--art-accent, #0C7489);
+  background: var(--art-accent, #1a5276);
   color: #fff;
 }
 
@@ -1478,8 +1478,8 @@
 }
 
 .network-onboarding-dismiss[data-persist="true"]:hover {
-  color: var(--art-accent, #0C7489);
-  border-color: var(--art-accent, #0C7489);
+  color: var(--art-accent, #1a5276);
+  border-color: var(--art-accent, #1a5276);
 }
 
 @keyframes onboarding-fade-in {

@@ -1558,12 +1558,12 @@ hr + * > .section-label:first-child {
 }
 
 .document-item:hover {
-  background-color: rgba(12, 116, 137, 0.04);
+  background-color: rgba(26, 82, 118, 0.04);
   border-left-width: 6px;
 }
 
 [data-theme="dark"] .document-item:hover {
-  background-color: rgba(12, 116, 137, 0.08);
+  background-color: rgba(26, 82, 118, 0.08);
 }
 
 .document-item:hover .doc-icon {
@@ -1595,7 +1595,7 @@ hr + * > .section-label:first-child {
     padding: 1rem;
     border: 1px solid rgba(85, 96, 104, 0.15);
     border-radius: 8px;
-    background: rgba(12, 116, 137, 0.02);
+    background: rgba(26, 82, 118, 0.02);
   }
 
   .issue-agency-table td {
@@ -1832,16 +1832,16 @@ html {
 }
 
 /* ========================================================================
-   FOCUS-VISIBLE — teal accent, visible in both themes
+   FOCUS-VISIBLE — accent outline, visible in both themes
    ======================================================================== */
 
 :focus-visible {
-  outline: 2px solid var(--art-accent, #0C7489);
+  outline: 2px solid var(--art-accent, #1a5276);
   outline-offset: 2px;
 }
 
 [data-theme="dark"] :focus-visible {
-  outline-color: var(--art-accent, #0C7489);
+  outline-color: var(--art-accent, #1a5276);
 }
 
 /* ========================================================================
@@ -1978,7 +1978,7 @@ html {
   .evidence-toc-link--active {
     color: var(--art-accent);
     border-left-color: var(--art-accent);
-    background-color: var(--art-accent-light, rgba(12, 116, 137, 0.08));
+    background-color: var(--art-accent-light, rgba(26, 82, 118, 0.08));
     font-weight: 500;
   }
 }
