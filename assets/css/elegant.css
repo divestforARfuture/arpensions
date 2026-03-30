@@ -1474,9 +1474,9 @@ hr + * > .section-label:first-child {
   position: fixed;
   top: 0;
   left: 0;
-  height: 3px;
+  height: 2px;
   width: 0%;
-  background: var(--art-red, #B91C1C);
+  background: var(--accent, #1a5276);
   z-index: 9999;
   transition: width 0.1s linear;
   pointer-events: none;
@@ -1743,7 +1743,7 @@ html {
     max-height: calc(100vh - 6rem);
     overflow-y: auto;
     padding-right: 1rem;
-    border-right: 1px solid var(--color-border, #e5e5e5);
+    border-right: 1px solid var(--border-light, #e2e2e2);
   }
 
   .evidence-toc-toggle {
@@ -1752,11 +1752,12 @@ html {
 
   .evidence-toc-heading {
     font-family: var(--font-sans);
+    font-variant-caps: small-caps;
+    letter-spacing: 0.05em;
     font-weight: 600;
-    font-size: 0.7rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--color-text-secondary, #556068);
+    font-size: var(--fs-small, 0.8125rem);
+    text-transform: none;
+    color: var(--text-muted, #6e6e6e);
     margin: 0 0 1rem;
     padding: 0;
   }
@@ -1784,11 +1785,11 @@ html {
     font-weight: 400;
     font-size: 0.8rem;
     line-height: 1.4;
-    color: var(--color-text-secondary, #556068);
+    color: var(--text-muted, #6e6e6e);
     text-decoration: none;
     border-left: 3px solid transparent;
     border-radius: 0;
-    transition: color 0.15s, border-color 0.15s, background-color 0.15s;
+    transition: color 0.15s;
   }
 
   .evidence-toc-link[data-toc-depth="sub"] {
@@ -1796,14 +1797,15 @@ html {
   }
 
   .evidence-toc-link:hover {
-    color: var(--color-text-primary, #1b2127);
+    color: var(--text-primary, #1b1b1b);
   }
 
+  /* Active state — weight + color shift only, no colored background */
   .evidence-toc-link--active {
-    color: var(--art-accent);
-    border-left-color: var(--art-accent);
-    background-color: var(--art-accent-light, rgba(26, 82, 118, 0.08));
-    font-weight: 500;
+    color: var(--text-primary, #1b1b1b);
+    border-left-color: var(--border-medium, #c4c4c4);
+    background-color: transparent;
+    font-weight: 600;
   }
 }
 
@@ -1840,7 +1842,7 @@ html {
     font-family: var(--font-sans);
     font-size: 0.85rem;
     font-weight: 500;
-    color: var(--art-accent);
+    color: var(--text-secondary, #474747);
   }
 
   .evidence-toc-toggle-label {
@@ -1900,8 +1902,8 @@ html {
   }
 
   .evidence-toc-link--active {
-    color: var(--art-accent);
-    font-weight: 500;
+    color: var(--text-primary, #1b1b1b);
+    font-weight: 600;
   }
 
   .evidence-layout {
