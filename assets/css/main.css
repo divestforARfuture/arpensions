@@ -315,7 +315,10 @@ main article a:visited {
 
 /* === Editorial Grid Layout ===
    CSS Grid with a centered 65ch prose column and gutters that allow
-   .breakout and .full-width children to escape the reading column. */
+   .breakout and .full-width children to escape the reading column.
+   When used as "container container-prose", max-width: none wins over
+   .container's 64rem — the 1fr gutters absorb all remaining viewport width.
+   This is intentional: the grid formula constrains the prose column. */
 .container-prose {
   display: grid;
   grid-template-columns: 1fr min(65ch, calc(100% - 3rem)) 1fr;
@@ -397,7 +400,9 @@ hr {
   display: block;
 }
 
-/* === Breakout classes — escape the prose column within the grid === */
+/* === Breakout classes — escape the prose column within the grid ===
+   IMPORTANT: These only work on *direct* children of .container-prose.
+   Nested elements (e.g. inside <section> or <div>) won't get grid placement. */
 .container-prose > .breakout {
   grid-column: 1 / -1;
   max-width: 90rem;
