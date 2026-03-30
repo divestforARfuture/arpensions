@@ -413,7 +413,6 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .callout {
-  border-color: var(--border-light, var(--art-border));
   background: var(--bg-secondary, var(--art-gray-light));
 }
 
@@ -660,7 +659,7 @@ article > aside[role="complementary"] h3 {
 }
 
 .step-ladder-item:hover .step-ladder-node {
-  color: var(--text-primary, var(--art-near-black));
+  color: var(--text-primary);
 }
 
 /* Label text */
@@ -673,7 +672,7 @@ article > aside[role="complementary"] h3 {
 }
 
 .step-ladder-item:hover .step-ladder-label {
-  color: var(--text-primary, var(--art-near-black));
+  color: var(--text-primary);
 }
 
 /* Reduced motion */
