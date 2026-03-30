@@ -1468,85 +1468,91 @@ blockquote footer {
 }
 
 /* --- Footer --- */
+/* === Editorial Footer === */
 .site-footer {
-  background: var(--art-black);
-  color: #d1d5db;
-  padding: var(--space-3xl) 0 var(--space-xl);
+  border-top: 1px solid var(--border-light);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  color: var(--text-muted);
+  background: var(--bg-primary);
   margin-top: 0;
 }
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  gap: 2rem 3rem;
-  margin-bottom: 3rem;
-}
-
-.footer-brand {
-  position: relative;
-}
-
-.footer-brand img {
-  margin-bottom: 1rem;
-  border-radius: 4px;
-}
-
-.footer-brand .footer-tagline {
-  font-family: var(--font-serif);
-  font-size: var(--text-base);
-  color: #d1d5db;
-  margin-top: 1rem;
-  line-height: 1.5;
-}
-
-.footer-contact-email { margin-top: 0.75rem; }
-.footer-contact-email a { color: var(--art-accent); }
-.footer-contact-email a:hover { color: #5ec4d4; }
-
-.footer-heading {
-  font-family: var(--font-sans);
-  font-size: var(--text-xs);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: #f3f4f6;
-  margin-bottom: 1rem;
-}
-
-.footer-nav-col ul { list-style: none; padding: 0; margin: 0; }
-.footer-nav-col li { margin-bottom: 0.5rem; }
-.footer-nav-col a {
-  color: #9ca3af;
+.site-footer a {
+  color: var(--text-secondary);
   text-decoration: none;
-  font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  transition: color 0.2s;
+  transition: color 0.15s;
 }
-.footer-nav-col a:hover { color: #fff; }
+.site-footer a:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
+}
+
+.footer-audience {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.05em;
+}
+
+.footer-identity {
+  margin-bottom: 1.5rem;
+}
+.footer-name {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.25rem;
+}
+.footer-tagline {
+  color: var(--text-muted);
+  font-style: italic;
+  margin: 0 0 0.25rem;
+}
+.footer-parent {
+  font-size: var(--fs-small);
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.footer-utility {
+  margin-bottom: 1.5rem;
+}
 
 .footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.1);
-  padding-top: 1.5rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.footer-bottom p {
-  font-family: var(--font-sans);
-  font-size: var(--text-xs);
-  color: #6b7280;
+.footer-copyright {
+  font-size: 0.75rem;
+  color: var(--text-muted);
   margin: 0;
-  max-width: none;
 }
 
-.footer-bottom a { color: #9ca3af; }
-.footer-bottom a:hover { color: #fff; }
-
-@media (max-width: 768px) {
-  .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+.footer-back-to-top {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.footer-back-to-top:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
 }
 
 @media (max-width: 480px) {
-  .footer-grid { grid-template-columns: 1fr; }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
 }
 
 /* --- News/Blog List --- */
@@ -2605,10 +2611,7 @@ html.theme-transition *::after {
   outline-color: #F87171;
 }
 
-[data-theme="dark"] .footer-nav-col a:focus-visible,
-[data-theme="dark"] .footer-contact-email a:focus-visible {
-  outline-color: #fff;
-}
+/* Old footer column focus overrides removed — footer simplified */
 
 /* --- Stats Bar --- */
 [data-theme="dark"] .stats-bar {
@@ -2671,14 +2674,7 @@ html.theme-transition *::after {
   background: var(--bg-surface);
 }
 
-/* --- Footer: already dark, minor adjustments for dark-on-dark --- */
-[data-theme="dark"] .site-footer {
-  background-color: var(--bg-secondary);
-}
-
-[data-theme="dark"] .footer-bottom {
-  border-top-color: var(--border-light);
-}
+/* --- Footer: uses semantic tokens, minimal dark override --- */
 
 /* --- Blockquote — uses semantic tokens, no special dark override needed --- */
 

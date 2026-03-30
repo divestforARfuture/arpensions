@@ -1,49 +1,34 @@
 <footer class="site-footer" aria-label="Site footer">
   <div class="container">
+    <!-- Audience links — most prominent row -->
+    <div class="footer-audience">
+      <a href="{{ '/legislators/' | relative_url }}">For Legislators</a>
+      <a href="{{ '/press/' | relative_url }}">For Press</a>
+      <a href="{{ '/educators/' | relative_url }}">For Educators</a>
+      <a href="{{ '/public-employees/' | relative_url }}">For Employees</a>
+    </div>
+
+    <!-- Identity block -->
     <div class="footer-identity">
-      <img class="logo-light" src="{{ '/assets/images/art-logo.svg' | relative_url }}" alt="Arkansans for Retirement Transparency logo" width="85" height="32">
-      <img class="logo-dark" src="{{ '/assets/images/art-logo-dark.svg' | relative_url }}" alt="Arkansans for Retirement Transparency logo" width="85" height="32" aria-hidden="true">
-      <p class="footer-org-name">Arkansans for Retirement Transparency</p>
+      <p class="footer-name">Arkansans for Retirement Transparency</p>
       <p class="footer-tagline">Your Retirement. Your Right to Know.</p>
+      <p class="footer-parent">A campaign of <a href="https://littlerockpeaceforpalestine.com">Little Rock Peace for Palestine</a>, a member of Citizens First Congress</p>
     </div>
 
-    <div class="footer-grid">
-      <div class="footer-nav-col">
-        <p class="footer-heading">About</p>
-        <ul role="list">
-          <li><a href="{{ '/the-issue/' | relative_url }}">The Issue</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
-          <li><a href="{{ '/methodology/' | relative_url }}">Our Methods</a></li>
-          <li><a href="{{ '/glossary/' | relative_url }}">Glossary</a></li>
-          <li><a href="mailto:info@arpensions.org">Contact</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-nav-col">
-        <p class="footer-heading">Investigation</p>
-        <ul role="list">
-          <li><a href="{{ '/evidence/' | relative_url }}">Evidence</a></li>
-          <li><a href="{{ '/documents/' | relative_url }}">Documents</a></li>
-          <li><a href="{{ '/network/' | relative_url }}">Network</a></li>
-          <li><a href="{{ '/news/' | relative_url }}">Updates</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-nav-col">
-        <p class="footer-heading">Get Involved</p>
-        <ul role="list">
-          <li><a href="{{ '/take-action/' | relative_url }}">Take Action</a></li>
-          <li><a href="{{ '/educators/' | relative_url }}">For Educators</a></li>
-          <li><a href="{{ '/public-employees/' | relative_url }}">For Public Employees</a></li>
-          <li><a href="{{ '/legislators/' | relative_url }}">For Legislators</a></li>
-          <li><a href="{{ '/press/' | relative_url }}">For Media</a></li>
-        </ul>
-      </div>
+    <!-- Utility links -->
+    <div class="footer-utility">
+      <a href="{{ '/evidence/' | relative_url }}">Evidence</a> ·
+      <a href="{{ '/documents/' | relative_url }}">Documents</a> ·
+      <a href="{{ '/about/' | relative_url }}">About</a> ·
+      <a href="{{ '/glossary/' | relative_url }}">Glossary</a> ·
+      <a href="{{ '/methodology/' | relative_url }}">Methodology</a> ·
+      <a href="mailto:info@arpensions.org">Contact</a>
     </div>
 
+    <!-- Bottom row -->
     <div class="footer-bottom">
-      <p>&copy; {{ 'now' | date: '%Y' }} Arkansans for Retirement Transparency &mdash; An Arkansas pension transparency project</p>
-      <a href="#main-content" class="footer-back-to-top">Back to top</a>
+      <p class="footer-copyright">&copy; {{ 'now' | date: '%Y' }} Arkansans for Retirement Transparency</p>
+      <a href="#main-content" class="footer-back-to-top">Back to top &uarr;</a>
     </div>
   </div>
 </footer>
