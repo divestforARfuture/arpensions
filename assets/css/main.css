@@ -2354,41 +2354,74 @@ html.theme-transition *::after {
    DARK MODE — Design Tokens
    ========================================================================== */
 [data-theme="dark"] {
-  --art-red: #EF4444;
+  /* Backgrounds — warm dark, not cold blue-black */
+  --bg-primary: #1b1b1b;
+  --bg-secondary: #242424;
+  --bg-surface: #2a2a2a;
+
+  /* Text — warm near-white, not cool gray */
+  --text-primary: #e8e6e3;
+  --text-secondary: #b0aba5;
+  --text-muted: #8a8480;
+
+  /* Accent — lighter for dark backgrounds */
+  --accent: #5dade2;
+  --accent-hover: #85c1e9;
+
+  /* Links */
+  --link-color: #5dade2;
+  --link-hover: #85c1e9;
+  --link-visited: #bb8fce;
+
+  /* Borders */
+  --border-light: #3a3a3a;
+  --border-medium: #555555;
+  --border-dark: #888888;
+
+  /* Functional */
+  --color-danger: #e74c3c;
+  --color-data-primary: var(--accent);
+  --color-data-secondary: #e74c3c;
+  --color-data-tertiary: #8a8480;
+
+  /* Legacy aliases — dark mode */
+  --art-red: var(--color-danger);
   --art-green: #22C55E;
-  --art-accent: #5ec4d4;
-  --art-accent-light: #1a2f35;
-  --art-black: #E5E7EB;
-  --art-white: #121218;
-
-  --art-red-light: rgba(239, 68, 68, 0.12);
+  --art-accent: var(--accent);
+  --art-accent-light: rgba(93, 173, 226, 0.15);
+  --art-black: var(--text-primary);
+  --art-white: var(--bg-primary);
+  --art-red-light: rgba(231, 76, 60, 0.12);
   --art-green-light: rgba(34, 197, 94, 0.12);
-  --art-gray: #9CA3AF;
-  --art-gray-light: #1E1E28;
-  --art-border: #2D2D3A;
+  --art-gray: var(--text-secondary);
+  --art-gray-light: var(--bg-secondary);
+  --art-border: var(--border-light);
 
-  --color-bg-page: #121218;
-  --color-bg-panel: #1E1E28;
-  --color-bg-surface: #15151D;
-  --color-link: #5ec4d4;
-  --color-link-hover: #7dd4e0;
-  --color-text-primary: #E5E7EB;
-  --color-text-secondary: #9CA3AF;
-  --color-border: #2D2D3A;
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-bg-page: var(--bg-primary);
+  --color-bg-panel: var(--bg-secondary);
+  --color-bg-surface: var(--bg-surface);
+  --color-link: var(--link-color);
+  --color-link-hover: var(--link-hover);
+  --color-border: var(--border-light);
+  --color-cta: var(--color-danger);
+  --color-cta-hover: #c0392b;
 
-  --art-link: var(--color-link);
-  --art-link-hover: var(--color-link-hover);
+  --art-link: var(--link-color);
+  --art-link-hover: var(--link-hover);
 
-  /* Pico overrides for dark */
-  --pico-color: var(--art-black);
-  --pico-background-color: var(--color-bg-page);
-  --pico-primary: var(--art-red);
-  --pico-primary-hover: var(--art-link-hover);
-  --pico-muted-color: var(--art-gray);
-  --pico-muted-border-color: var(--art-border);
-  --pico-card-background-color: #1A1A24;
-  --pico-card-border-color: var(--art-border);
-  --pico-card-sectioning-background-color: #1E1E28;
+  /* Pico dark mode overrides */
+  --pico-color: var(--text-primary);
+  --pico-background-color: var(--bg-primary);
+  --pico-primary: var(--color-danger);
+  --pico-primary-hover: var(--color-cta-hover);
+  --pico-muted-color: var(--text-muted);
+  --pico-muted-border-color: var(--border-light);
+  --pico-border-color: var(--border-light);
+  --pico-card-background-color: var(--bg-surface);
+  --pico-card-border-color: var(--border-light);
+  --pico-card-sectioning-background-color: var(--bg-secondary);
 }
 
 /* ==========================================================================
@@ -2397,7 +2430,7 @@ html.theme-transition *::after {
 
 /* --- Navigation --- */
 [data-theme="dark"] .site-nav {
-  background: #15151D;
+  background: var(--bg-secondary);
   border-bottom-color: var(--art-border);
 }
 
@@ -2409,7 +2442,7 @@ html.theme-transition *::after {
 
 @media (max-width: 768px) {
   [data-theme="dark"] .nav-links {
-    background: #15151D;
+    background: var(--bg-secondary);
     border-bottom-color: var(--art-border);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
@@ -2445,7 +2478,7 @@ html.theme-transition *::after {
 
 /* --- Pathway Cards --- */
 [data-theme="dark"] .pathway-card {
-  background: #1A1A24;
+  background: var(--bg-surface);
   border-color: var(--art-border);
   color: var(--art-black);
 }
@@ -2457,7 +2490,7 @@ html.theme-transition *::after {
 
 /* --- Letter Template --- */
 [data-theme="dark"] .letter-template {
-  background-color: #1A1A24;
+  background-color: var(--bg-surface);
   border-color: var(--art-border);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
@@ -2469,46 +2502,46 @@ html.theme-transition *::after {
 
 /* --- Issue Questions --- */
 [data-theme="dark"] .issue-questions {
-  background: #1A1A24;
+  background: var(--bg-surface);
   border-color: var(--art-border);
 }
 
 /* --- Script Card --- */
 [data-theme="dark"] .script-card {
-  background: #1A1A24;
+  background: var(--bg-surface);
   border-color: var(--art-border);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* --- Email Callout --- */
 [data-theme="dark"] .email-callout {
-  background: #1A1A24;
+  background: var(--bg-surface);
   border-color: var(--art-border);
 }
 
 /* --- Press Quotes --- */
 [data-theme="dark"] .press-quotes .pull-quote {
-  background: #1A1A24;
+  background: var(--bg-surface);
   border-color: var(--art-border);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
 }
 
 /* --- Action Steps (nested white backgrounds) --- */
 [data-theme="dark"] .action-step .callout {
-  background: #1A1A24;
+  background: var(--bg-surface);
 }
 
 [data-theme="dark"] .action-step .letter-template {
-  background: #1A1A24;
+  background: var(--bg-surface);
 }
 
 /* --- Footer: already dark, minor adjustments for dark-on-dark --- */
 [data-theme="dark"] .site-footer {
-  background-color: #0D0D12;
+  background-color: var(--bg-secondary);
 }
 
 [data-theme="dark"] .footer-bottom {
-  border-top-color: #1E1E28;
+  border-top-color: var(--border-light);
 }
 
 /* --- Blockquote --- */
@@ -2586,7 +2619,7 @@ html.theme-transition *::after {
 /* The hero uses --art-black as bg, which is now light text in dark mode.
    The hero is always visually dark, so pin it. */
 [data-theme="dark"] .hero {
-  background-color: #0D0D12;
+  background-color: var(--bg-secondary);
 }
 
 [data-theme="dark"] .landing-hero {
@@ -2595,13 +2628,13 @@ html.theme-transition *::after {
 
 /* --- Graph hint (used on graph page but has generic background) --- */
 [data-theme="dark"] .graph-hint p {
-  background: rgba(18, 18, 24, 0.85);
+  background: rgba(27, 27, 27, 0.85);
   border-color: var(--art-border);
 }
 
 /* --- Audience Sub-Nav (dark mode) --- */
 [data-theme="dark"] .audience-nav {
-  background: #15151D;
+  background: var(--bg-secondary);
   border-bottom-color: var(--art-border);
 }
 
@@ -2716,7 +2749,7 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .timeline .timeline-event::before {
-  border-color: #121218;
+  border-color: var(--bg-primary);
 }
 
 .timeline .timeline-event.timeline-event--highlight::before {
@@ -2884,7 +2917,7 @@ html.theme-transition *::after {
   }
 
   [data-theme="dark"] .mobile-cta-bar {
-    background: #15151D;
+    background: var(--bg-secondary);
     border-top-color: rgba(255, 255, 255, 0.08);
   }
 
