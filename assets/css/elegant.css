@@ -351,8 +351,8 @@ nav[aria-label="Continue reading"] a:focus-visible {
 
 aside.cta-box,
 article > aside[role="complementary"] {
-  background: var(--art-accent-light);
-  border-left: 4px solid var(--art-accent);
+  background: var(--bg-secondary, var(--art-gray-light));
+  border-left: 4px solid var(--art-border);
   border-radius: 0;
 }
 
@@ -413,8 +413,8 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .callout {
-  border-left-color: var(--art-accent);
-  background-color: var(--art-accent-light);
+  border-color: var(--border-light, var(--art-border));
+  background: var(--bg-secondary, var(--art-gray-light));
 }
 
 /* ========================================================================
@@ -438,7 +438,7 @@ article > aside[role="complementary"] h3 {
 }
 
 .action-step h2::before {
-  background: var(--art-accent);
+  background: none;
 }
 
 /* ========================================================================
@@ -446,8 +446,8 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .cta-box {
-  border-left-color: var(--art-accent);
-  background-color: var(--art-accent-light);
+  border-left-color: var(--art-border);
+  background-color: var(--bg-secondary, var(--art-gray-light));
 }
 
 /* ========================================================================
@@ -614,76 +614,53 @@ article > aside[role="complementary"] h3 {
    to avoid Pico CSS v2's nav-element negative margins entirely.
    ======================================================================== */
 
+/* === Step Ladder — pill-shaped links, inline monospace numbers === */
 .step-ladder {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  position: relative;
-  border-left: 3px solid var(--art-accent);
-  padding-left: 1.25rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
   margin: 1.5rem 0 var(--space-2xl, 3rem);
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
-/* Horizontal connecting line */
+/* Remove connecting line */
 .step-ladder::before {
-  content: '';
-  position: absolute;
-  top: calc(1rem + 13px);
-  left: calc(1.125rem + 10%);
-  right: calc(10% - 0.125rem);
-  height: 2px;
-  background: color-mix(in srgb, var(--art-accent) 25%, transparent);
-  z-index: 0;
+  content: none;
 }
 
 .step-ladder-item {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   align-items: center;
-  text-decoration: none;
-  position: relative;
-  z-index: 1;
-  flex: 1;
   gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 1px solid var(--border-light, var(--art-border));
+  border-radius: 2px;
+  transition: border-color 0.15s, color 0.15s;
 }
 
 .step-ladder-item:hover {
   text-decoration: none;
+  border-color: var(--border-dark, var(--art-gray));
 }
 
 .step-ladder-item:focus-visible {
-  outline: none;
+  outline: 2px solid var(--art-accent);
+  outline-offset: 2px;
 }
 
-.step-ladder-item:focus-visible .step-ladder-node {
-  outline: 3px solid var(--art-accent);
-  outline-offset: 3px;
-}
-
-/* Node circle */
+/* Node — inline monospace number, not a circle */
 .step-ladder-node {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  border: 2px solid var(--art-accent);
-  background: var(--color-bg-page, #f8f7f5);
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  color: var(--art-accent);
-  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
-  flex-shrink: 0;
+  color: var(--text-muted, var(--art-gray));
+  line-height: 1;
 }
 
 .step-ladder-item:hover .step-ladder-node {
-  background: var(--art-accent);
-  color: #fff;
-  transform: scale(1.1);
+  color: var(--text-primary, var(--art-near-black));
 }
 
 /* Label text */
@@ -691,70 +668,31 @@ article > aside[role="complementary"] h3 {
   font-family: var(--font-sans);
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--color-text-secondary, #556068);
-  text-align: center;
+  color: var(--text-secondary, var(--art-gray));
   line-height: 1.3;
-  transition: color 0.2s ease;
-  max-width: 100px;
 }
 
 .step-ladder-item:hover .step-ladder-label {
-  color: var(--art-accent);
+  color: var(--text-primary, var(--art-near-black));
 }
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  .step-ladder-node,
-  .step-ladder-label {
+  .step-ladder-item {
     transition: none;
-  }
-  .step-ladder-item:hover .step-ladder-node {
-    transform: none;
   }
 }
 
-/* --- Mobile: vertical mini-timeline --- */
+/* --- Mobile: vertical stack --- */
 @media (max-width: 767px) {
   .step-ladder {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 0;
-    padding-left: 0;
-    border-left: none;
-  }
-
-  .step-ladder::before {
-    top: 14px;
-    bottom: 14px;
-    left: 13px;
-    right: auto;
-    width: 2px;
-    height: auto;
+    gap: 0.375rem;
   }
 
   .step-ladder-item {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.5rem 0;
-    flex: none;
+    width: 100%;
   }
-
-  .step-ladder-label {
-    text-align: left;
-    max-width: none;
-    font-size: 0.9rem;
-  }
-}
-
-/* --- Dark mode --- */
-[data-theme="dark"] .step-ladder-node {
-  background: var(--color-bg-page, #121218);
-}
-
-[data-theme="dark"] .step-ladder-item:hover .step-ladder-node {
-  background: var(--art-accent);
-  color: #fff;
 }
 
 /* ========================================================================
@@ -1984,9 +1922,8 @@ html {
    MICRO-INTERACTIONS — Purposeful hover depth and link refinements
    ======================================================================== */
 
-/* Card hover lift */
-.action-step,
-.callout {
+/* Card hover lift — action-step and document-item only (callout is not interactive) */
+.action-step {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -1996,15 +1933,13 @@ html {
 }
 
 .action-step:hover,
-.document-item:hover,
-.callout:hover {
+.document-item:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(27, 33, 39, 0.08);
 }
 
 [data-theme="dark"] .action-step:hover,
-[data-theme="dark"] .document-item:hover,
-[data-theme="dark"] .callout:hover {
+[data-theme="dark"] .document-item:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
 
@@ -2054,13 +1989,11 @@ html {
 
 @media (prefers-reduced-motion: reduce) {
   .action-step,
-  .document-item,
-  .callout {
+  .document-item {
     transition: none;
   }
   .action-step:hover,
-  .document-item:hover,
-  .callout:hover {
+  .document-item:hover {
     transform: none;
   }
   .nav-links > li > a::after {

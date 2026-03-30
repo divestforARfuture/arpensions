@@ -1410,11 +1410,11 @@ blockquote footer {
 
 /* --- Callout / Pull Quote --- */
 .callout {
-  border-left: 4px solid var(--art-green);
-  padding: 1rem 1.5rem;
+  border: 1px solid var(--art-border);
+  padding: 1.25rem 1.5rem;
   margin: 1.5rem 0;
-  background-color: var(--art-green-light);
-  border-radius: 0 4px 4px 0;
+  background: var(--bg-secondary, var(--art-gray-light));
+  border-radius: 2px;
 }
 
 .callout p {
@@ -2165,34 +2165,34 @@ blockquote footer {
 .action-step {
   counter-increment: action-steps;
   position: relative;
-  background: var(--art-gray-light);
+  background: transparent;
   border: 1px solid var(--art-border);
-  border-radius: 8px;
-  padding: 2rem 2rem 1.5rem 4.5rem;
-  margin-bottom: 2rem;
+  border-radius: 2px;
+  padding: 1.5rem 1.5rem 1.25rem 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .action-step h2 {
   margin-top: 0;
-  font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .action-step h2::before {
   content: counter(action-steps);
   position: absolute;
-  left: 1.25rem;
-  top: 1.85rem;
-  width: 2.25rem;
-  height: 2.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--art-red);
-  color: #fff;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1rem;
-  border-radius: 50%;
+  left: 1rem;
+  top: 1.5rem;
+  width: auto;
+  height: auto;
+  display: block;
+  background: none;
+  color: var(--text-muted, var(--art-gray));
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.8rem;
+  border-radius: 0;
   line-height: 1;
 }
 
@@ -2211,15 +2211,13 @@ blockquote footer {
 
 @media (max-width: 600px) {
   .action-step {
-    padding: 1.5rem 1.25rem 1.25rem 3.5rem;
+    padding: 1.25rem 1rem 1rem 2.75rem;
   }
 
   .action-step h2::before {
     left: 0.75rem;
-    top: 1.35rem;
-    width: 2rem;
-    height: 2rem;
-    font-size: 0.9rem;
+    top: 1.25rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -2675,7 +2673,7 @@ html.theme-transition *::after {
 
 /* --- Callout --- */
 [data-theme="dark"] .callout {
-  background-color: rgba(22, 101, 52, 0.1);
+  background-color: var(--bg-surface, rgba(255, 255, 255, 0.03));
 }
 
 /* --- Key Finding --- */
