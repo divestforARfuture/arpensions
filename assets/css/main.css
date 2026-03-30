@@ -2719,11 +2719,7 @@ html.theme-transition *::after {
 /* --- Timeline — uses semantic tokens, minimal dark overrides --- */
 
 /* --- Hero and Landing Hero: already dark or using variables, verify --- */
-/* The hero uses --art-black as bg, which is now light text in dark mode.
-   The hero is always visually dark, so pin it. */
-[data-theme="dark"] .hero {
-  background-color: var(--bg-secondary);
-}
+/* Hero uses transparent background — no dark mode override needed */
 
 [data-theme="dark"] .landing-hero {
   background-color: var(--art-gray-light);

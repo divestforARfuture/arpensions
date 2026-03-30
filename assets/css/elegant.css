@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 1rem;
   height: 1px;
-  background: var(--art-accent);
+  background: var(--border-medium);
   margin-bottom: 0.75rem;
 }
 
@@ -762,16 +762,7 @@ article > aside[role="complementary"] h3 {
 }
 
 .hero-ghost {
-  position: absolute;
-  font-family: var(--font-elegant);
-  font-weight: 300;
-  font-size: clamp(8rem, 20vw, 11rem);
-  line-height: 1;
-  pointer-events: none;
-  right: var(--space-lg);
-  top: 0.5rem;
-  letter-spacing: -3px;
-  user-select: none;
+  display: none; /* Ghost watermark hidden in editorial redesign */
 }
 
 .hero-eyebrow {
@@ -793,7 +784,7 @@ article > aside[role="complementary"] h3 {
   transform: translateY(-50%);
   width: 1rem;
   height: 1px;
-  background: var(--art-accent);
+  background: var(--border-medium);
 }
 
 .hero h1 {
@@ -864,38 +855,16 @@ article > aside[role="complementary"] h3 {
   display: none;
 }
 
-/* --- Light theme: dark hero --- */
-[data-theme="light"] .hero { background-color: #1b2127; }
-[data-theme="light"] .hero-ghost { color: rgba(248, 247, 245, 0.04); }
-[data-theme="light"] .hero-eyebrow { color: rgba(248, 247, 245, 0.4); }
-[data-theme="light"] .hero h1 { color: #F8F7F5; }
-[data-theme="light"] .hero-sub,
-[data-theme="light"] .hero-subtitle { color: rgba(248, 247, 245, 0.6); }
-[data-theme="light"] .hero .btn-primary-hero { background: #F8F7F5; color: #1b2127; }
-[data-theme="light"] .hero .btn-primary-hero:hover { color: #1b2127; }
-[data-theme="light"] .hero .btn-secondary-hero { border: 1px solid rgba(248, 247, 245, 0.2); color: rgba(248, 247, 245, 0.7); }
-[data-theme="light"] .hero .btn-secondary-hero:hover { color: rgba(248, 247, 245, 0.7); }
-
-/* --- Dark theme: cream hero --- */
-[data-theme="dark"] .hero { background-color: #F8F7F5; }
-[data-theme="dark"] .hero-ghost { color: rgba(27, 33, 39, 0.045); }
-[data-theme="dark"] .hero-eyebrow { color: rgba(27, 33, 39, 0.35); }
-[data-theme="dark"] .hero h1 { color: #1b2127; }
-[data-theme="dark"] .hero-sub,
-[data-theme="dark"] .hero-subtitle { color: rgba(27, 33, 39, 0.5); }
-[data-theme="dark"] .hero .btn-primary-hero { background: #1b2127; color: #F8F7F5; }
-[data-theme="dark"] .hero .btn-primary-hero:hover { color: #F8F7F5; }
-[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(27, 33, 39, 0.15); color: rgba(27, 33, 39, 0.5); }
-[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(27, 33, 39, 0.5); }
-
-/* --- Fallback (no data-theme set): dark hero --- */
-:root:not([data-theme]) .hero { background-color: #1b2127; }
-:root:not([data-theme]) .hero-ghost { color: rgba(248, 247, 245, 0.04); }
-:root:not([data-theme]) .hero-eyebrow { color: rgba(248, 247, 245, 0.4); }
-:root:not([data-theme]) .hero h1 { color: #F8F7F5; }
-:root:not([data-theme]) .hero-sub { color: rgba(248, 247, 245, 0.6); }
-:root:not([data-theme]) .hero .btn-primary-hero { background: #F8F7F5; color: #1b2127; }
-:root:not([data-theme]) .hero .btn-secondary-hero { border: 1px solid rgba(248, 247, 245, 0.2); color: rgba(248, 247, 245, 0.7); }
+/* --- Hero: token-based colors (no more light/dark inversion) --- */
+.hero { background-color: transparent; }
+.hero-eyebrow { color: var(--text-muted); }
+.hero h1 { color: var(--text-primary); }
+.hero-sub,
+.hero-subtitle { color: var(--text-secondary); }
+.hero .btn-primary-hero { background: var(--accent); color: #fff; }
+.hero .btn-primary-hero:hover { color: #fff; opacity: 0.88; }
+.hero .btn-secondary-hero { border: 1px solid var(--border-medium); color: var(--text-secondary); }
+.hero .btn-secondary-hero:hover { color: var(--text-primary); border-color: var(--border-dark); }
 
 /* ========================================================================
    STATS BAR — Pure typography, no cards, no boxes
@@ -915,11 +884,12 @@ article > aside[role="complementary"] h3 {
 
 .stat .stat-number {
   display: block;
-  font-family: var(--font-display);
-  font-weight: 300;
-  font-size: clamp(2.5rem, 5vw, 3.25rem);
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: clamp(1.75rem, 1.5rem + 1.5vw, 2.5rem);
   line-height: 1;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
+  color: var(--text-primary);
 }
 
 .stat-rule {
@@ -932,12 +902,15 @@ article > aside[role="complementary"] h3 {
 
 .stat .stat-label {
   display: block;
-  font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-family: var(--font-sans);
+  font-variant-caps: small-caps;
+  font-size: var(--fs-small);
+  letter-spacing: 0.05em;
   line-height: 1.5;
   max-width: 180px;
   margin: 0;
   text-align: left;
+  color: var(--text-muted);
 }
 
 .stats-provenance {
@@ -954,32 +927,12 @@ article > aside[role="complementary"] h3 {
   letter-spacing: 0.03em;
 }
 
-/* Light */
-[data-theme="light"] .stats-bar { background-color: #F8F7F5; }
-[data-theme="light"] .stat .stat-number { color: #1b2127; }
-[data-theme="light"] .stat--zero .stat-number { color: #B91C1C; }
-[data-theme="light"] .stat-rule { background: rgba(27, 33, 39, 0.12); }
-[data-theme="light"] .stat--zero .stat-rule { background: rgba(185, 28, 28, 0.3); }
-[data-theme="light"] .stat .stat-label { color: #73726c; }
-[data-theme="light"] .stats-provenance p { color: rgba(27, 33, 39, 0.3); }
-
-/* Dark */
-[data-theme="dark"] .stats-bar { background-color: #1b2127; }
-[data-theme="dark"] .stat .stat-number { color: #F8F7F5; }
-[data-theme="dark"] .stat--zero .stat-number { color: #e85d5d; }
-[data-theme="dark"] .stat-rule { background: rgba(248, 247, 245, 0.1); }
-[data-theme="dark"] .stat--zero .stat-rule { background: rgba(232, 93, 93, 0.3); }
-[data-theme="dark"] .stat .stat-label { color: rgba(248, 247, 245, 0.6); }
-[data-theme="dark"] .stats-provenance p { color: rgba(248, 247, 245, 0.2); }
-
-/* Fallback */
-:root:not([data-theme]) .stats-bar { background-color: #F8F7F5; }
-:root:not([data-theme]) .stat .stat-number { color: #1b2127; }
-:root:not([data-theme]) .stat--zero .stat-number { color: #B91C1C; }
-:root:not([data-theme]) .stat-rule { background: rgba(27, 33, 39, 0.12); }
-:root:not([data-theme]) .stat--zero .stat-rule { background: rgba(185, 28, 28, 0.3); }
-:root:not([data-theme]) .stat .stat-label { color: #73726c; }
-:root:not([data-theme]) .stats-provenance p { color: rgba(27, 33, 39, 0.3); }
+/* Stats bar: token-based colors (replaces light/dark/fallback hardcoded values) */
+.stats-bar { background-color: transparent; border-top: 1px solid var(--border-light); border-bottom: 1px solid var(--border-light); }
+.stat--zero .stat-number { color: var(--color-danger); }
+.stat-rule { background: var(--border-light); }
+.stat--zero .stat-rule { background: var(--color-danger); opacity: 0.3; }
+.stats-provenance p { color: var(--text-muted); opacity: 0.6; }
 
 /* ========================================================================
    PATHWAY CARDS — Pure text links with thin rules
@@ -1013,12 +966,12 @@ article > aside[role="complementary"] h3 {
 }
 
 .pathway-link:hover {
-  color: var(--art-accent);
+  color: var(--accent);
   text-decoration: none;
 }
 
 .pathway-link:focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: 2px;
 }
@@ -1057,7 +1010,7 @@ article > aside[role="complementary"] h3 {
 }
 
 .pathway-link:hover .pathway-link-arrow {
-  color: var(--art-accent);
+  color: var(--accent);
   transform: translateX(3px);
 }
 
@@ -1096,22 +1049,22 @@ article > aside[role="complementary"] h3 {
 }
 
 .role-link:hover {
-  color: var(--art-accent);
+  color: var(--accent);
   text-decoration: none;
 }
 
 .role-link:focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--accent);
   outline-offset: -2px;
 }
 
 .role-link-label {
   display: block;
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--art-accent);
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-variant-caps: small-caps;
+  letter-spacing: 0.05em;
+  color: var(--text-primary);
   margin-bottom: 0.4rem;
 }
 
@@ -1126,10 +1079,10 @@ article > aside[role="complementary"] h3 {
 }
 
 .role-link-arrow {
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 500;
-  color: var(--art-accent);
+  color: var(--text-muted);
 }
 
 /* Remove bottom border on last row (desktop: 2-col, so last 2 items) */
