@@ -2988,7 +2988,7 @@ html.theme-transition *::after {
   font-size: var(--fs-small);
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
   color: var(--text-muted);
 }
 
@@ -3000,6 +3000,7 @@ html.theme-transition *::after {
 
 /* Filing-style dateline */
 .dateline {
+  display: block;
   margin-bottom: 1.5em;
 }
 
