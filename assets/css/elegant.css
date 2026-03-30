@@ -483,7 +483,7 @@ article > aside[role="complementary"] h3 {
 
 @media (max-width: 600px) {
   .timeline-year::before {
-    left: 0.47rem;
+    left: calc(0.75rem - 3px);
   }
   .timeline .timeline-event.timeline-event--highlight {
     margin-left: 0.5rem;

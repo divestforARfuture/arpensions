@@ -2907,7 +2907,7 @@ html.theme-transition *::after {
   .timeline-wrapper::before { left: 0.75rem; }
   .timeline:not(.timeline-wrapper .timeline)::before { left: 0.75rem; }
   .timeline .timeline-event { padding-left: 2.5rem; }
-  .timeline .timeline-event::before { left: 0.35rem; }
+  .timeline .timeline-event::before { left: calc(0.75rem - 3px); }
   .timeline-year { padding-left: 2.5rem; }
 }
 
