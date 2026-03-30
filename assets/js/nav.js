@@ -14,9 +14,9 @@
   function openMenu() {
     toggle.setAttribute('aria-expanded', 'true');
     menu.classList.add('nav-open');
-    // Move focus to first menu link for keyboard users
-    var firstLink = menu.querySelector('a');
-    if (firstLink) firstLink.focus();
+    // Move focus to first visible interactive element for keyboard users
+    var firstItem = menu.querySelector('summary, li > a');
+    if (firstItem) firstItem.focus();
   }
 
   function isOpen() {
@@ -78,7 +78,11 @@
       dropdowns.forEach(function(d) {
         if (d.open) {
           d.open = false;
-          d.querySelector('summary').focus();
+          // Don't fight mobile menu Escape handler for focus
+          var mobileOpen = document.querySelector('.nav-toggle');
+          if (!mobileOpen || mobileOpen.getAttribute('aria-expanded') !== 'true') {
+            d.querySelector('summary').focus();
+          }
         }
       });
     }

@@ -2163,10 +2163,7 @@ html {
   position: relative;
 }
 
-.nav-links > li > a::after,
-.nav-links > li > .nav-dropdown > summary::after {
-  /* Dropdown summaries use the ▾/▴ pseudo-element — skip underline on them */
-}
+/* .nav-dropdown summary::after — arrow indicator handled by main.css, no underline animation */
 
 .nav-links > li > a::after {
   content: '';
