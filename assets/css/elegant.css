@@ -28,36 +28,11 @@
   letter-spacing: 0;
 }
 
-.nav-links a {
+.nav-links a,
+.nav-dropdown summary {
   font-weight: 500;
   font-size: 0.875rem;
   letter-spacing: 0.01em;
-}
-
-.nav-links a:hover,
-.nav-links a[aria-current="page"] {
-  color: var(--art-accent);
-  background-color: var(--art-accent-light);
-}
-
-.nav-cta .btn-nav-cta {
-  background: transparent;
-  color: var(--art-accent);
-  border: 1px solid var(--art-accent);
-  text-transform: none;
-  font-family: var(--font-elegant);
-  font-weight: 500;
-  font-size: 0.9rem;
-  letter-spacing: 0.01em;
-  padding: 0.45rem 1.1rem;
-  border-radius: 2px;
-}
-
-.nav-cta .btn-nav-cta:hover,
-.nav-cta .btn-nav-cta:focus-visible {
-  background: var(--art-accent);
-  color: #fff;
-  text-decoration: none;
 }
 
 .site-nav {
@@ -2183,23 +2158,29 @@ html {
 }
 
 /* Nav link bottom-border slide-in */
-.nav-links a {
+.nav-links > li > a,
+.nav-links > li > .nav-dropdown > summary {
   position: relative;
 }
 
-.nav-links a::after {
+.nav-links > li > a::after,
+.nav-links > li > .nav-dropdown > summary::after {
+  /* Dropdown summaries use the ▾/▴ pseudo-element — skip underline on them */
+}
+
+.nav-links > li > a::after {
   content: '';
   position: absolute;
   bottom: -2px;
   left: 50%;
   width: 0;
   height: 2px;
-  background: var(--art-accent);
+  background: var(--accent);
   transition: width 0.2s ease, left 0.2s ease;
 }
 
-.nav-links a:hover::after,
-.nav-links a[aria-current="page"]::after {
+.nav-links > li > a:hover::after,
+.nav-links > li > a[aria-current="page"]::after {
   width: 100%;
   left: 0;
 }
@@ -2228,7 +2209,7 @@ html {
   .callout:hover {
     transform: none;
   }
-  .nav-links a::after {
+  .nav-links > li > a::after {
     transition: none;
   }
   /* pull-quote glow animation removed — no override needed */
