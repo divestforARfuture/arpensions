@@ -213,7 +213,7 @@ label, .label, .badge, .tag,
 .btn,
 figcaption,
 footer, .meta, .section-label, .stat-label, .nav-title,
-.hero-eyebrow, .footer-heading, .evidence-source, .card-label,
+.hero-eyebrow, .evidence-source, .card-label,
 .table-caption, caption {
   font-family: var(--font-sans);
 }
@@ -311,10 +311,7 @@ main article a:visited {
   outline-offset: 3px;
 }
 
-.footer-nav-col a:focus-visible,
-.footer-contact-email a:focus-visible {
-  outline-color: #fff;
-}
+/* Dead footer focus selectors removed — footer simplified */
 
 /* --- Container --- */
 .container {
