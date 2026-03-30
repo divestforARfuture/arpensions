@@ -14,9 +14,9 @@
   function openMenu() {
     toggle.setAttribute('aria-expanded', 'true');
     menu.classList.add('nav-open');
-    // Move focus to first menu link for keyboard users
-    var firstLink = menu.querySelector('a');
-    if (firstLink) firstLink.focus();
+    // Move focus to first visible interactive element for keyboard users
+    var firstItem = menu.querySelector('summary, li > a');
+    if (firstItem) firstItem.focus();
   }
 
   function isOpen() {
@@ -56,6 +56,46 @@
   });
 })();
 
+// Nav dropdown enhancements — close-on-outside-click, close-on-escape, one-open-at-a-time
+(function() {
+  var dropdowns = document.querySelectorAll('.nav-dropdown');
+  if (!dropdowns.length) return;
+
+  // Only one dropdown open at a time
+  dropdowns.forEach(function(details) {
+    details.addEventListener('toggle', function() {
+      if (details.open) {
+        dropdowns.forEach(function(other) {
+          if (other !== details) other.open = false;
+        });
+      }
+    });
+  });
+
+  // Close dropdowns on Escape
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      dropdowns.forEach(function(d) {
+        if (d.open) {
+          d.open = false;
+          // Don't fight mobile menu Escape handler for focus
+          var mobileOpen = document.querySelector('.nav-toggle');
+          if (!mobileOpen || mobileOpen.getAttribute('aria-expanded') !== 'true') {
+            d.querySelector('summary').focus();
+          }
+        }
+      });
+    }
+  });
+
+  // Close dropdowns when clicking outside
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.nav-dropdown')) {
+      dropdowns.forEach(function(d) { d.open = false; });
+    }
+  });
+})();
+
 // Active nav highlighting — reinforce server-side aria-current with client-side path matching
 (function() {
   var path = window.location.pathname.replace(/\/+$/, '') || '/';
@@ -65,6 +105,13 @@
     var href = (link.getAttribute('href') || '').replace(/\/+$/, '') || '/';
     if (path === href || (href !== '/' && path.indexOf(href) === 0)) {
       link.setAttribute('aria-current', 'page');
+      // Mark parent dropdown summary as active
+      var dropdown = link.closest('.nav-dropdown');
+      if (dropdown) {
+        var summary = dropdown.querySelector('summary');
+        if (summary) summary.setAttribute('aria-current', 'true');
+        dropdown.setAttribute('data-has-active', 'true');
+      }
     } else {
       link.removeAttribute('aria-current');
     }

@@ -6,13 +6,40 @@
     </a>
 
     <ul id="nav-menu" class="nav-links" role="list">
-      <li><a href="{{ '/the-issue/' | relative_url }}"{% if page.url == '/the-issue/' or page.url contains '/the-issue/' %} aria-current="page"{% endif %}>The Issue</a></li>
-      <li><a href="{{ '/evidence/' | relative_url }}"{% if page.url == '/evidence/' or page.url contains '/evidence/' %} aria-current="page"{% endif %}>Evidence</a></li>
-      <li><a href="{{ '/network/' | relative_url }}"{% if page.url == '/network/' or page.url contains '/network/' %} aria-current="page"{% endif %}>Network</a></li>
-      <li><a href="{{ '/documents/' | relative_url }}"{% if page.url == '/documents/' or page.url contains '/documents/' %} aria-current="page"{% endif %}>Documents</a></li>
-      <li><a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' or page.url contains '/about/' %} aria-current="page"{% endif %}>About</a></li>
-      <li><a href="{{ '/glossary/' | relative_url }}"{% if page.url == '/glossary/' or page.url contains '/glossary/' %} aria-current="page"{% endif %}>Glossary</a></li>
-      <li class="nav-cta"><a href="{{ '/take-action/' | relative_url }}" class="btn-nav-cta">Take Action</a></li>
+      {% assign inv_pages = "/evidence/,/documents/,/network/,/news/" | split: "," %}
+      {% assign inv_active = false %}
+      {% for p in inv_pages %}{% if page.url == p or page.url contains p %}{% assign inv_active = true %}{% endif %}{% endfor %}
+      <li>
+        <details class="nav-dropdown"{% if inv_active %} data-has-active="true"{% endif %}>
+          <summary class="nav-item"{% if inv_active %} aria-current="true"{% endif %}>Investigation</summary>
+          <div class="nav-dropdown-menu">
+            <a href="{{ '/evidence/' | relative_url }}"{% if page.url == '/evidence/' or page.url contains '/evidence/' %} aria-current="page"{% endif %}>Evidence</a>
+            <a href="{{ '/documents/' | relative_url }}"{% if page.url == '/documents/' or page.url contains '/documents/' %} aria-current="page"{% endif %}>Documents</a>
+            <a href="{{ '/network/' | relative_url }}"{% if page.url == '/network/' or page.url contains '/network/' %} aria-current="page"{% endif %}>Network</a>
+            <a href="{{ '/news/' | relative_url }}"{% if page.url == '/news/' or page.url contains '/news/' %} aria-current="page"{% endif %}>News</a>
+          </div>
+        </details>
+      </li>
+
+      <li><a href="{{ '/the-issue/' | relative_url }}" class="nav-item"{% if page.url == '/the-issue/' or page.url contains '/the-issue/' %} aria-current="page"{% endif %}>The Issue</a></li>
+
+      {% assign gi_pages = "/take-action/,/educators/,/public-employees/,/legislators/,/press/" | split: "," %}
+      {% assign gi_active = false %}
+      {% for p in gi_pages %}{% if page.url == p or page.url contains p %}{% assign gi_active = true %}{% endif %}{% endfor %}
+      <li>
+        <details class="nav-dropdown"{% if gi_active %} data-has-active="true"{% endif %}>
+          <summary class="nav-item"{% if gi_active %} aria-current="true"{% endif %}>Get Involved</summary>
+          <div class="nav-dropdown-menu">
+            <a href="{{ '/take-action/' | relative_url }}"{% if page.url == '/take-action/' or page.url contains '/take-action/' %} aria-current="page"{% endif %}>Take Action</a>
+            <a href="{{ '/educators/' | relative_url }}"{% if page.url == '/educators/' or page.url contains '/educators/' %} aria-current="page"{% endif %}>For Educators</a>
+            <a href="{{ '/public-employees/' | relative_url }}"{% if page.url == '/public-employees/' or page.url contains '/public-employees/' %} aria-current="page"{% endif %}>For Public Employees</a>
+            <a href="{{ '/legislators/' | relative_url }}"{% if page.url == '/legislators/' or page.url contains '/legislators/' %} aria-current="page"{% endif %}>For Legislators</a>
+            <a href="{{ '/press/' | relative_url }}"{% if page.url == '/press/' or page.url contains '/press/' %} aria-current="page"{% endif %}>For Press</a>
+          </div>
+        </details>
+      </li>
+
+      <li><a href="{{ '/about/' | relative_url }}" class="nav-item"{% if page.url == '/about/' or page.url contains '/about/' %} aria-current="page"{% endif %}>About</a></li>
     </ul>
 
     <div class="nav-end">

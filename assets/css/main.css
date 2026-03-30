@@ -493,8 +493,80 @@ hr {
 
 .nav-links a:hover,
 .nav-links a[aria-current="page"] {
-  color: var(--art-red);
-  background-color: var(--art-red-light);
+  color: var(--accent);
+  background-color: var(--bg-secondary);
+}
+
+/* === Nav Dropdowns === */
+.nav-dropdown {
+  position: relative;
+}
+.nav-dropdown summary {
+  cursor: pointer;
+  list-style: none;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-sans);
+  /* font-weight and font-size set by elegant.css (500 / 0.875rem) */
+  color: var(--text-secondary);
+  border-radius: 6px;
+  transition: color 0.15s, background-color 0.15s;
+  user-select: none;
+}
+.nav-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+.nav-dropdown summary::after {
+  content: ' ▾';
+  font-size: 0.7em;
+  opacity: 0.5;
+}
+.nav-dropdown[open] summary::after {
+  content: ' ▴';
+}
+.nav-dropdown summary:hover,
+.nav-dropdown[open] summary,
+.nav-dropdown summary[aria-current="true"] {
+  color: var(--accent);
+  background-color: var(--bg-secondary);
+}
+
+/* Desktop dropdown menu */
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  min-width: 14rem;
+  padding: 0.5rem 0;
+  z-index: 200;
+  border-radius: 4px;
+}
+.nav-dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1.25rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: background-color 0.1s, color 0.1s;
+  border-radius: 0;
+}
+.nav-dropdown-menu a:hover {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+.nav-dropdown-menu a[aria-current="page"] {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Dark mode dropdown */
+[data-theme="dark"] .nav-dropdown-menu {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 /* Mobile nav */
@@ -546,6 +618,32 @@ hr {
     min-height: 48px;
     display: flex;
     align-items: center;
+  }
+
+  /* Mobile dropdown — inline accordion, not absolute overlay */
+  .nav-dropdown summary {
+    padding: 0.85rem 0.75rem;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    padding: 0 0 0 1rem;
+    min-width: 0;
+    border-radius: 0;
+  }
+
+  .nav-dropdown-menu a {
+    padding: 0.6rem 0.75rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
   }
 
   .nav-links {
@@ -3393,48 +3491,4 @@ hr.section-break {
   margin-top: 0.35rem;
 }
 
-/* === Nav CTA Button === */
-.nav-cta {
-  margin-left: auto;
-  padding-left: 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-.nav-cta .btn-nav-cta {
-  display: inline-block;
-  background: var(--color-cta);
-  color: #fff;
-  padding: 0.5rem 1.25rem;
-  font-family: var(--font-sans);
-  font-weight: 600;
-  font-size: var(--text-sm);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background 0.2s ease;
-  white-space: nowrap;
-}
-
-.nav-cta .btn-nav-cta:hover,
-.nav-cta .btn-nav-cta:focus-visible {
-  background: var(--color-cta-hover);
-  color: #fff;
-  text-decoration: none;
-}
-
-/* On mobile, make CTA full-width inside the dropdown */
-@media (max-width: 768px) {
-  .nav-cta {
-    margin-left: 0;
-    margin-top: 0.5rem;
-    padding-left: 0;
-    border-left: none;
-  }
-
-  .btn-nav-cta {
-    display: block;
-    text-align: center;
-    padding: 0.75rem 1.1rem;
-  }
-}
+/* Nav CTA button styles removed — "Take Action" is now inside the Get Involved dropdown */
