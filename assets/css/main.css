@@ -204,11 +204,7 @@ code, kbd, samp, pre,
   font-variant-numeric: tabular-nums;
 }
 
-/* Constrain body text for optimal line length (50-70 chars) */
-article p, article ul, article ol, article blockquote,
-.container-prose p, .container-prose ul, .container-prose ol {
-  max-width: 38rem;
-}
+/* Body text line length is now controlled by .container-prose max-width: 65ch */
 
 a {
   color: var(--color-link);
@@ -281,18 +277,17 @@ a:hover {
 }
 
 .container-prose {
-  max-width: 720px;
+  max-width: 65ch;
   margin: 0 auto;
-  padding: 0 var(--space-lg);
+  padding-inline: 1.5rem;
 }
-
-/* Body text constraint — prevent long lines (only at widths where container is wide enough to matter) */
-@media (min-width: 800px) {
-  .container-prose li,
-  .container-prose blockquote {
-    max-width: 38rem;
+@media (min-width: 768px) {
+  .container-prose {
+    padding-inline: 2rem;
   }
 }
+
+/* List and blockquote line length controlled by .container-prose max-width: 65ch */
 
 /* === Section Rhythm === */
 .evidence-finding,
@@ -307,6 +302,69 @@ article section {
 article > section:first-child {
   margin-top: 0;
   padding-top: 0;
+}
+
+/* === Vertical Rhythm — Prose Content === */
+
+/* Paragraph spacing — generous for serif readability */
+.container-prose p {
+  margin-bottom: 1.25em;
+}
+
+/* Heading spacing — breathing room above, tighter below */
+.container-prose h2 {
+  margin-top: 2.5em;
+  margin-bottom: 0.75em;
+}
+.container-prose h3 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+.container-prose h4 {
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+}
+
+/* First heading after page title shouldn't have extra top margin */
+.container-prose > h2:first-child,
+.page-header + hr + h2,
+.page-header + h2,
+.page-header-rule + h2 {
+  margin-top: 0;
+}
+
+/* Lists */
+.container-prose li {
+  margin-bottom: 0.35em;
+}
+
+/* Blockquote */
+.container-prose blockquote {
+  margin-block: 1.75em;
+}
+
+/* === Editorial Horizontal Rule === */
+hr {
+  border: none;
+  border-top: 1px solid var(--color-border, #dee3e6);
+  margin-block: 3rem;
+}
+
+/* === Table Overflow — Fallback for JS wrapper === */
+.container-prose table {
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+/* === Full-width Breakout — Prep classes for PR 6 editorial layout === */
+.full-width {
+  max-width: none;
+  width: 100%;
+}
+.breakout {
+  max-width: 90rem;
+  margin-inline: auto;
 }
 
 /* --- Navigation --- */
