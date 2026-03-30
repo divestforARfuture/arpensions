@@ -1884,7 +1884,7 @@ blockquote p {
   padding: 1.5rem 1.5rem 1.5rem 1.75rem;
 }
 
-/* --- Action Jump Nav — Pill-style anchor links --- */
+/* --- Action Jump Nav — LEGACY (replaced by .step-ladder in elegant.css) --- */
 .action-nav ul {
   display: flex;
   flex-wrap: wrap;
