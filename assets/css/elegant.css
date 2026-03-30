@@ -815,6 +815,15 @@ blockquote {
   margin-bottom: var(--space-2xl, 3rem);
 }
 
+/* Pico CSS v2 overflow safety — prevents descender clipping.
+   Pico styles bare HTML elements from CDN; these overrides are intentional. */
+.action-nav,
+.action-nav ul,
+.action-nav li,
+.action-nav a {
+  overflow: visible;
+}
+
 .action-nav ul {
   margin-bottom: 0;
 }
@@ -822,7 +831,7 @@ blockquote {
 .action-nav a {
   color: var(--art-accent);
   border-color: var(--art-accent);
-  padding: 0.625rem 1.25rem;
+  padding: 0.5rem 1.25rem 0.75rem; /* asymmetric: extra bottom for descenders */
   line-height: 1.5;
   letter-spacing: 0.01em;
   border-radius: 6px;
