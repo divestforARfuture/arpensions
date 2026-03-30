@@ -235,6 +235,16 @@ code, kbd, samp, pre,
   font-variant-numeric: tabular-nums;
 }
 
+/* Document ID and statutory citation chips */
+.doc-id,
+.statute-ref {
+  font-size: var(--fs-data);
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
 /* Body text line length is now controlled by .container-prose max-width: 65ch */
 
 a {
@@ -2958,17 +2968,39 @@ html.theme-transition *::after {
 }
 
 /* ==========================================================================
-   SECTION LABELS — ProPublica/Texas Tribune pattern
+   METADATA CONVENTIONS — Small caps, datelines, document IDs
    ========================================================================== */
-.section-label {
+
+/* Small-caps utility for section labels and metadata */
+.section-label,
+.dateline,
+.metadata-label {
   font-family: var(--font-sans);
-  font-size: var(--text-xs);
+  font-variant-caps: small-caps;
+  letter-spacing: 0.05em;
+  font-size: var(--fs-small);
+  color: var(--text-muted);
+}
+
+/* Opt-in uppercase for label-style headings (replaces removed global h4 uppercase) */
+.overline {
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--art-accent);
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.section-label {
+  font-weight: 600;
   margin-bottom: 0.5rem;
   display: block;
+}
+
+/* Filing-style dateline */
+.dateline {
+  margin-bottom: 1.5em;
 }
 
 /* --- Section Break Rule (short, colored bar) --- */
@@ -2998,11 +3030,11 @@ hr.section-break {
 
 .evidence-card .evidence-source {
   font-family: var(--font-sans);
-  font-size: var(--text-xs);
-  text-transform: uppercase;
+  font-size: var(--fs-small);
+  font-variant-caps: small-caps;
   letter-spacing: 0.05em;
-  color: var(--color-text-secondary);
-  border-top: 1px solid var(--color-border);
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-light);
   padding-top: 0.75rem;
   margin-top: 1rem;
 }

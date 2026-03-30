@@ -943,9 +943,7 @@ article > aside[role="complementary"] h3 {
   color: var(--art-accent);
 }
 
-.section-label {
-  color: var(--art-accent);
-}
+/* .section-label color — now uses var(--text-muted) from main.css metadata conventions */
 
 /* ========================================================================
    BAR CHART — Teal primary bar
@@ -1487,10 +1485,7 @@ hr + * > .section-label:first-child {
   margin-top: var(--space-xl, 2rem);
 }
 
-.section-label {
-  display: block;
-  margin-bottom: 0.25rem;
-}
+/* .section-label display/margin now set in main.css metadata conventions */
 
 /* ========================================================================
    "FROM THE PUBLIC RECORD:" CHIP — Red monospace label in pull-quotes
@@ -2251,9 +2246,9 @@ html {
   align-items: center;
   gap: 0.35rem;
   font-family: var(--font-sans);
-  font-size: 0.8rem;
+  font-size: var(--fs-small);
   font-weight: 400;
-  color: var(--color-text-secondary, #556068);
+  color: var(--text-muted);
   margin: 0.5rem 0 0;
 }
 
