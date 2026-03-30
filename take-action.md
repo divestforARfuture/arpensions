@@ -7,7 +7,7 @@ permalink: /take-action/
 
 Every Arkansan whose retirement is managed by a state pension fund has a stake in how that money is invested. Here's how you can make your voice heard — starting today.
 
-<nav class="action-nav" aria-label="Action steps">
+<div class="action-nav" role="navigation" aria-label="Action steps">
   <ul>
     <li><a href="#sign-on">Sign on</a></li>
     <li><a href="#write-trustees">Write to trustees</a></li>
@@ -15,7 +15,7 @@ Every Arkansan whose retirement is managed by a state pension fund has a stake i
     <li><a href="#attend-meeting">Attend a meeting</a></li>
     <li><a href="#volunteer">Volunteer</a></li>
   </ul>
-</nav>
+</div>
 
 <div class="action-tier" markdown="1">
 <span class="action-tier-label action-tier-label--quick">5 Minutes</span>
