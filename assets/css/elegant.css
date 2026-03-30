@@ -7,7 +7,7 @@
    ======================================================================== */
 
 :root {
-  --font-elegant: var(--font-display, 'Cormorant Garamond', Georgia, serif);
+  --font-elegant: var(--font-display, 'Cormorant Garamond', 'Source Serif 4', Georgia, serif);
   --nav-height: 5rem;
 }
 
