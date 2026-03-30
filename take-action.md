@@ -7,14 +7,27 @@ permalink: /take-action/
 
 Every Arkansan whose retirement is managed by a state pension fund has a stake in how that money is invested. Here's how you can make your voice heard — starting today.
 
-<div class="action-nav" role="navigation" aria-label="Action steps">
-  <ul>
-    <li><a href="#sign-on">Sign on</a></li>
-    <li><a href="#write-trustees">Write to trustees</a></li>
-    <li><a href="#contact-legislators">Contact legislators</a></li>
-    <li><a href="#attend-meeting">Attend a meeting</a></li>
-    <li><a href="#volunteer">Volunteer</a></li>
-  </ul>
+<div class="step-ladder" role="navigation" aria-label="Action steps">
+  <a href="#sign-on" class="step-ladder-item">
+    <span class="step-ladder-node">1</span>
+    <span class="step-ladder-label">Sign on</span>
+  </a>
+  <a href="#write-trustees" class="step-ladder-item">
+    <span class="step-ladder-node">2</span>
+    <span class="step-ladder-label">Write to trustees</span>
+  </a>
+  <a href="#contact-legislators" class="step-ladder-item">
+    <span class="step-ladder-node">3</span>
+    <span class="step-ladder-label">Contact legislators</span>
+  </a>
+  <a href="#attend-meeting" class="step-ladder-item">
+    <span class="step-ladder-node">4</span>
+    <span class="step-ladder-label">Attend a meeting</span>
+  </a>
+  <a href="#volunteer" class="step-ladder-item">
+    <span class="step-ladder-node">5</span>
+    <span class="step-ladder-label">Volunteer</span>
+  </a>
 </div>
 
 <div class="action-tier" markdown="1">
