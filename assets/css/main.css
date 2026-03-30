@@ -343,7 +343,7 @@ article > section:first-child {
   margin-block: 1.75em;
 }
 
-/* === Editorial Horizontal Rule === */
+/* === Editorial Horizontal Rule — site-wide default === */
 hr {
   border: none;
   border-top: 1px solid var(--color-border, #dee3e6);
@@ -365,6 +365,7 @@ hr {
 .breakout {
   max-width: 90rem;
   margin-inline: auto;
+  /* PR 6 will restructure layout with CSS Grid so this breaks out of the prose column */
 }
 
 /* --- Navigation --- */
