@@ -211,9 +211,9 @@ h1, h2, h3, h4, h5, h6 {
    ======================================================================== */
 
 .elegant-heading {
-  font-family: var(--font-elegant);
-  font-weight: 300;
-  font-size: clamp(1.5rem, 3vw, 1.75rem);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: var(--fs-h2, clamp(1.5rem, 1.1rem + 2vw, 2.25rem));
   line-height: 1.25;
   letter-spacing: -0.2px;
   color: var(--color-text-primary);
@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .landing-content .stat-card .stat-number,
 .landing-content .stat-card [data-count] {
-  font-family: var(--font-elegant);
+  font-family: var(--font-display);
   font-weight: 300;
   font-size: clamp(2rem, 4vw, 2.75rem);
   line-height: 1;
@@ -1176,7 +1176,7 @@ blockquote {
 
 .stat .stat-number {
   display: block;
-  font-family: var(--font-elegant);
+  font-family: var(--font-display);
   font-weight: 300;
   font-size: clamp(2.5rem, 5vw, 3.25rem);
   line-height: 1;
