@@ -3,6 +3,7 @@ layout: page
 title: "Take Action — Support Arkansas Pension Transparency"
 description: "Join Arkansans supporting pension transparency and fiduciary accountability. Here's how you can help."
 permalink: /take-action/
+hide_rule: true
 ---
 
 Every Arkansan whose retirement is managed by a state pension fund has a stake in how that money is invested. Here's how you can make your voice heard — starting today.

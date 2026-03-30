@@ -17,7 +17,7 @@ layout: default
       <p class="reading-time" aria-label="{{ minutes }} minute read"><svg class="reading-time-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> {{ minutes }} min read</p>
       {% endif %}
     </header>
-    <hr class="page-header-rule" aria-hidden="true">
+    {% unless page.hide_rule %}<hr class="page-header-rule" aria-hidden="true">{% endunless %}
     {{ content }}
     {% unless page.url == '/take-action/' %}
     {% include cta-box.html heading="Take Action" text="Ready to make a difference? Join Arkansans calling for pension transparency." url="/take-action/" button="Get Involved" %}
