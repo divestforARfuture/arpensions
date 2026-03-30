@@ -2843,7 +2843,7 @@ html.theme-transition *::after {
 .timeline .timeline-event::before {
   content: '';
   position: absolute;
-  left: 0.72rem;
+  left: calc(1rem - 3px);
   top: 0.4em;
   width: 6px;
   height: 6px;
@@ -2857,7 +2857,7 @@ html.theme-transition *::after {
 .timeline .timeline-event.timeline-event--highlight::before {
   width: 8px;
   height: 8px;
-  left: 0.66rem;
+  left: calc(1rem - 4px);
   top: 0.35em;
   box-shadow: none;
 }
