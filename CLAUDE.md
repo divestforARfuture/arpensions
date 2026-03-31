@@ -35,21 +35,24 @@ This is the public-facing campaign website for Arkansans for Retirement Transpar
 
 ## Brand System
 
-**Colors:**
-- Primary red: `#B91C1C` (accent, CTAs)
-- Teal: `#0C7489` (links, secondary accent)
-- Near-black: `#1b2127` (text)
-- Warm off-white: `#f8f7f5` (backgrounds)
-- Gray: `#556068` (secondary text)
+**Colors (Public Record Elegance palette):**
+- Primary red: `#B91C1C` (CTAs, danger states only)
+- Dark blue: `#1a5276` (accent, links) — replaced teal `#0C7489`
+- Near-black: `#1b1b1b` (text)
+- White: `#ffffff` (backgrounds) — replaced warm off-white `#f8f7f5`
+- Secondary text: `#474747`
+- Muted text: `#6e6e6e`
+- Borders: `#e2e2e2`
 
 **Typography:**
-- Display: Lora Bold
-- Body: Inter
+- Display: Cormorant Garamond (h1, h2)
+- Body: Source Serif 4 (prose) — replaced Inter for body text
+- UI/nav: Inter (sans-serif)
 - Data/mono: IBM Plex Mono
 
 **Logo:** "ART" wordmark — Cormorant Garamond Medium (500) glyph outlines with red underline bar. Extracted via fonttools from CormorantGaramond-Medium.ttf (SIL OFL). Two variants: `art-logo.svg` (light, #1b2127) and `art-logo-dark.svg` (dark, #f8f7f5). ViewBox: 0 0 1994 747.
 
-**CSS custom properties:** All use `--art-*` prefix (e.g. `--art-red`, `--art-accent`). Renamed from `--d4arf-*` in PR #4.
+**CSS custom properties:** New semantic tokens use `--bg-*`, `--text-*`, `--accent`, `--border-*`, `--link-*` prefixes. Legacy `--art-*` tokens aliased to new values for backwards compatibility.
 
 ## Development
 

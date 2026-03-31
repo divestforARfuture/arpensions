@@ -1322,7 +1322,7 @@ hr + * > .section-label:first-child {
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    color: var(--art-near-black, #1b2127);
+    color: var(--text-primary);
   }
 
   .issue-agency-table td:before {
@@ -1554,7 +1554,7 @@ html {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--art-near-black, #1b2127);
+  background: var(--text-primary);
   color: var(--art-off-white, #f8f7f5);
   border: none;
   cursor: pointer;
@@ -1573,7 +1573,7 @@ html {
 
 [data-theme="dark"] .scroll-to-top {
   background: var(--art-off-white, #f8f7f5);
-  color: var(--art-near-black, #1b2127);
+  color: var(--text-primary);
 }
 
 @media (prefers-reduced-motion: reduce) {
