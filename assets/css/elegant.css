@@ -1584,8 +1584,6 @@ html {
 .evidence-content {
   flex: 1;
   min-width: 0;
-  font-size: 0.9375rem;
-  line-height: 1.7;
 }
 
 /* --- Sidebar (desktop ≥1024px) --- */
