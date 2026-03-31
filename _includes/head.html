@@ -39,6 +39,51 @@ html[data-theme="light"] .pathways{background:#ffffff}
 html[data-theme="dark"] .pathways{background:#1b1b1b}
 html[data-theme="light"] .role-ctas{background:#f8f8f6}
 html[data-theme="dark"] .role-ctas{background:#242424}
+html[data-theme="light"] .stats-bar{background:transparent;border-color:#e2e2e2}
+html[data-theme="dark"] .stats-bar{background:transparent;border-color:#3a3a3a}
+html[data-theme="light"] .page-header{background:#ffffff}
+html[data-theme="dark"] .page-header{background:#1b1b1b}
+html[data-theme="light"] .evidence-toc-sidebar{background:#f8f8f6}
+html[data-theme="dark"] .evidence-toc-sidebar{background:#1b1b1b}
+html[data-theme="light"] .callout{background:#f8f8f6}
+html[data-theme="dark"] .callout{background:#242424}
+html[data-theme="light"] .cta-box{background:#f8f8f6}
+html[data-theme="dark"] .cta-box{background:#242424}
+html[data-theme="light"] .issue-symmetry{background:#f8f8f6}
+html[data-theme="dark"] .issue-symmetry{background:#242424}
+html[data-theme="light"] .about-section{background:#ffffff}
+html[data-theme="dark"] .about-section{background:#1b1b1b}
+/* Neutralize Pico's @media (prefers-color-scheme: dark) when site theme disagrees */
+@media (prefers-color-scheme: dark) {
+  html[data-theme="light"] { color-scheme: light !important; background: #ffffff !important; color: #1b1b1b !important; }
+  html[data-theme="light"] body { background: #ffffff !important; }
+  html[data-theme="light"] main { background: #ffffff !important; }
+  html[data-theme="light"] .site-nav { background: #ffffff !important; }
+  html[data-theme="light"] .site-footer { background: #1b1b1b !important; }
+  html[data-theme="light"] .mobile-cta-bar { background: #ffffff !important; }
+  html[data-theme="light"] .stats-bar { background: transparent !important; border-color: #e2e2e2 !important; }
+  html[data-theme="light"] .page-header { background: #ffffff !important; }
+  html[data-theme="light"] .evidence-toc-sidebar { background: #f8f8f6 !important; }
+  html[data-theme="light"] .callout { background: #f8f8f6 !important; }
+  html[data-theme="light"] .cta-box { background: #f8f8f6 !important; }
+  html[data-theme="light"] .issue-symmetry { background: #f8f8f6 !important; }
+  html[data-theme="light"] .about-section { background: #ffffff !important; }
+}
+@media (prefers-color-scheme: light) {
+  html[data-theme="dark"] { color-scheme: dark !important; background: #1b1b1b !important; color: #e8e6e3 !important; }
+  html[data-theme="dark"] body { background: #1b1b1b !important; }
+  html[data-theme="dark"] main { background: #1b1b1b !important; }
+  html[data-theme="dark"] .site-nav { background: #242424 !important; }
+  html[data-theme="dark"] .site-footer { background: #f8f7f5 !important; }
+  html[data-theme="dark"] .mobile-cta-bar { background: #242424 !important; }
+  html[data-theme="dark"] .stats-bar { background: transparent !important; border-color: #3a3a3a !important; }
+  html[data-theme="dark"] .page-header { background: #1b1b1b !important; }
+  html[data-theme="dark"] .evidence-toc-sidebar { background: #1b1b1b !important; }
+  html[data-theme="dark"] .callout { background: #242424 !important; }
+  html[data-theme="dark"] .cta-box { background: #242424 !important; }
+  html[data-theme="dark"] .issue-symmetry { background: #242424 !important; }
+  html[data-theme="dark"] .about-section { background: #1b1b1b !important; }
+}
 @view-transition{navigation:auto}
 </style>
 
@@ -62,7 +107,6 @@ html[data-theme="dark"] .role-ctas{background:#242424}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <!-- Elegant redesign layer -->
 <link rel="stylesheet" href="{{ '/assets/css/elegant.css' | relative_url }}">
-
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
