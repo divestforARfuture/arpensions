@@ -266,19 +266,17 @@ a:hover {
   color: var(--link-hover);
 }
 
-/* Prevent purple visited links in body content and footer — exclude buttons */
-.page-content a:visited:not([class*="btn"]),
-.landing-content a:visited:not([class*="btn"]),
-.site-footer a:visited {
-  color: inherit;
-}
-
+/* Prevent purple visited links in nav and footer */
 .site-nav a:visited {
   color: var(--art-gray);
 }
 
-/* Source-order override: prose visited links keep editorial visited color */
-article.page-content .container-prose a:visited {
+.site-footer a:visited {
+  color: inherit;
+}
+
+/* Editorial prose links keep visited color; everything else inherits */
+.container-prose a:visited {
   color: var(--link-visited);
 }
 
@@ -1277,7 +1275,7 @@ hr {
 
 .page-header {
   margin-bottom: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0;
   border-bottom: none;
 }
 
