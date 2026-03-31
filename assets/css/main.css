@@ -275,17 +275,16 @@ a:hover {
 }
 
 /* Visited links — prose content only (prevents nav/footer purple staining) */
-.container-prose a:visited,
-main article a:visited {
+article.page-content .container-prose a:visited {
   color: var(--link-visited);
 }
 
 /* Evidence TOC specific */
-.evidence-toc-link:visited {
+article.page-content .evidence-toc-link:visited {
   color: var(--text-muted);
 }
 
-.evidence-toc-link--active:visited {
+article.page-content .evidence-toc-link--active:visited {
   color: var(--text-primary);
 }
 
