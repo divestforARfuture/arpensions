@@ -1338,9 +1338,23 @@ hr {
 }
 
 .cta-box .btn-primary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  font-family: var(--font-sans);
+  font-weight: 500;
+  border-radius: 2px;
+  transition: background-color 0.15s, color 0.15s;
+}
+.cta-box .btn-primary:hover {
   background: var(--accent);
   color: var(--bg-primary);
-  border: none;
+}
+.cta-box .btn-primary:focus-visible {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg-primary);
+  box-shadow: 0 0 0 3px rgba(26, 82, 118, 0.4);
 }
 
 /* --- Letter Template --- */
@@ -1658,7 +1672,7 @@ blockquote footer {
 /* --- Evidence Findings — Visual hierarchy for numbered findings --- */
 .evidence-findings h3 {
   padding-left: 1rem;
-  border-left: 4px solid var(--art-red);
+  border-left: 2px solid var(--border-dark);
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   padding-top: 0.15rem;
