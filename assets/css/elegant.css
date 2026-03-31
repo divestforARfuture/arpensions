@@ -1579,6 +1579,16 @@ html {
   min-width: 0;
 }
 
+.evidence-content p {
+  font-size: clamp(0.9375rem, 0.85rem + 0.35vw, 1rem);
+  line-height: 1.7;
+}
+
+.evidence-content li {
+  font-size: clamp(0.9375rem, 0.85rem + 0.35vw, 1rem);
+  line-height: 1.7;
+}
+
 /* --- Sidebar (desktop ≥1024px) --- */
 .evidence-toc-sidebar {
   display: none;
@@ -1825,8 +1835,8 @@ html {
   gap: 0.5rem;
   padding: 0.75rem 0;
   font-family: var(--font-sans);
-  font-weight: 500;
-  font-size: 1.05rem;
+  font-weight: 400;
+  font-size: 0.9375rem;
   color: var(--art-accent);
   cursor: pointer;
   list-style: none;
@@ -1855,9 +1865,9 @@ html {
 
 .subfinding > summary > h3 {
   display: inline;
-  font-size: 1.05rem;
+  font-size: 0.9375rem;
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .subfinding > summary:hover {
@@ -1875,6 +1885,19 @@ html {
   border-left: 2px solid var(--art-accent);
   margin-left: 3px;
   animation: subfinding-fade 0.25s ease;
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--text-secondary, #474747);
+}
+
+.subfinding-content p {
+  font-size: inherit;
+  margin-bottom: 1rem;
+}
+
+.subfinding-content .pull-quote {
+  font-size: clamp(1.1rem, 0.9rem + 0.75vw, 1.35rem);
+  color: var(--text-primary);
 }
 
 @keyframes subfinding-fade {
