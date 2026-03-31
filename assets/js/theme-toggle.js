@@ -13,8 +13,8 @@
   function syncBrowserTheme(theme) {
     var root = document.documentElement;
     root.style.colorScheme = theme;
-    root.style.backgroundColor = theme === 'dark' ? '#121218' : '#f8f7f5';
-    root.style.color = theme === 'dark' ? '#E5E7EB' : '#1b2127';
+    root.style.backgroundColor = theme === 'dark' ? '#1b1b1b' : '#ffffff';
+    root.style.color = theme === 'dark' ? '#e8e6e3' : '#1b1b1b';
     var meta = document.querySelector('meta[name="color-scheme"]');
     if (meta) {
       meta.setAttribute('content', theme);
