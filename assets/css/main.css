@@ -277,6 +277,11 @@ a:hover {
 .site-footer a:visited,
 .site-nav a:visited {
   color: inherit;
+.page-content a:visited:not([class*="btn"]),
+.landing-content a:visited:not([class*="btn"]),
+.site-footer a:visited,
+.site-nav a:visited {
+  color: inherit;
 }
 
 /* Visited links — prose content only (prevents nav/footer purple staining) */
