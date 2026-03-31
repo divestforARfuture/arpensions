@@ -472,7 +472,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
   <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
     <time>March 2026</time>
     <h3>Board packet analysis reveals dual fiduciary standard; FOIA Round 3 filed</h3>
-    <p>Analysis of the publicly-posted APERS board packets reveals that 37 pages of Callan analysis were prepared for infrastructure investments while zero pages of analysis accompanied the sovereign bond authorization — at the same meetings. FOIA Round 3 filed with ASHERS and LOPFI, expanding the investigation to two previously uninvestigated pension systems. Interstate outreach sent to parallel investigations in five states.</p>
+    <p>Analysis of the publicly-posted APERS board packets reveals that 37 pages of Callan analysis were prepared for infrastructure investments while zero pages of analysis accompanied the sovereign bond authorization — at the same meetings. FOIA Round 3 filed with ASHERS and LOPFI, expanding the investigation to two previously uninvestigated pension systems.</p>
   </li>
   <li class="timeline-event" data-aos="fade-left">
     <time>March 28, 2026</time>
