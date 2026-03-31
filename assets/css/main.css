@@ -167,6 +167,7 @@ body {
   font-size: var(--fs-body);
   line-height: var(--lh-body);
   color: var(--text-primary);
+  background-color: var(--bg-primary);
 }
 
 /* Global emphasis: weight 500 instead of default 700 for editorial elegance */
@@ -177,7 +178,6 @@ strong, b {
 /* Muted list markers sitewide */
 ::marker {
   color: var(--text-muted);
-  background-color: var(--bg-primary);
 }
 
 /* --- Heading hierarchy --- */
