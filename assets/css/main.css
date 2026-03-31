@@ -266,9 +266,12 @@ a:hover {
   color: var(--link-hover);
 }
 
-/* Prevent browser default purple visited links — reset to standard link color */
-a:visited {
-  color: var(--link-color);
+/* Prevent purple visited links in body content and footer — exclude buttons */
+.page-content a:visited:not([class*="btn"]),
+.landing-content a:visited:not([class*="btn"]),
+.site-footer a:visited,
+.site-nav a:visited {
+  color: inherit;
 }
 
 /* Visited links — prose content only (prevents nav/footer purple staining) */
