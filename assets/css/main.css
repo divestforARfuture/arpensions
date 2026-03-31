@@ -2616,6 +2616,28 @@ html.theme-transition *::after {
 }
 
 /* ==========================================================================
+   SMOOTH PAGE TRANSITIONS (Chrome 126+, progressive enhancement)
+   Eliminates white flash between pages on static site navigation.
+   Unsupported browsers ignore @view-transition entirely — no fallback needed.
+   ========================================================================== */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.15s;
+  animation-timing-function: ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 0s;
+  }
+}
+
+/* ==========================================================================
    DARK MODE — Design Tokens
    ========================================================================== */
 [data-theme="dark"] {
