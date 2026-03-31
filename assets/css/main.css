@@ -1552,6 +1552,49 @@ blockquote footer {
   }
 }
 
+/* --- Inverted Footer — dark in light mode, cream in dark mode (matches hero) --- */
+[data-theme="light"] .site-footer {
+  background-color: var(--text-primary);
+  color: rgba(255, 255, 255, 0.7);
+  border-top-color: transparent;
+}
+[data-theme="light"] .site-footer a { color: rgba(255, 255, 255, 0.7); }
+[data-theme="light"] .site-footer a:hover { color: rgba(255, 255, 255, 0.95); }
+[data-theme="light"] .footer-name { color: rgba(255, 255, 255, 0.9); }
+[data-theme="light"] .footer-audience a { color: rgba(255, 255, 255, 0.6); }
+[data-theme="light"] .footer-audience a:hover { color: rgba(255, 255, 255, 0.9); }
+[data-theme="light"] .footer-tagline { color: rgba(255, 255, 255, 0.45); }
+[data-theme="light"] .footer-parent { color: rgba(255, 255, 255, 0.4); }
+[data-theme="light"] .footer-parent a { color: rgba(255, 255, 255, 0.55); }
+[data-theme="light"] .footer-utility a { color: rgba(255, 255, 255, 0.5); }
+[data-theme="light"] .footer-utility a:hover { color: rgba(255, 255, 255, 0.85); }
+[data-theme="light"] .footer-copyright { color: rgba(255, 255, 255, 0.4); }
+[data-theme="light"] .footer-back-to-top { color: rgba(255, 255, 255, 0.5); }
+[data-theme="light"] .footer-back-to-top:hover { color: rgba(255, 255, 255, 0.9); }
+
+[data-theme="dark"] .site-footer {
+  background-color: #F8F7F5;
+  color: rgba(27, 27, 27, 0.7);
+  border-top-color: transparent;
+}
+[data-theme="dark"] .site-footer a { color: rgba(27, 27, 27, 0.7); }
+[data-theme="dark"] .site-footer a:hover { color: rgba(27, 27, 27, 0.95); }
+[data-theme="dark"] .footer-name { color: rgba(27, 27, 27, 0.9); }
+[data-theme="dark"] .footer-audience a { color: rgba(27, 27, 27, 0.6); }
+[data-theme="dark"] .footer-audience a:hover { color: rgba(27, 27, 27, 0.9); }
+[data-theme="dark"] .footer-tagline { color: rgba(27, 27, 27, 0.45); }
+[data-theme="dark"] .footer-parent { color: rgba(27, 27, 27, 0.4); }
+[data-theme="dark"] .footer-utility a { color: rgba(27, 27, 27, 0.5); }
+[data-theme="dark"] .footer-copyright { color: rgba(27, 27, 27, 0.4); }
+[data-theme="dark"] .footer-back-to-top { color: rgba(27, 27, 27, 0.5); }
+[data-theme="dark"] .footer-back-to-top:hover { color: rgba(27, 27, 27, 0.9); }
+
+:root:not([data-theme]) .site-footer {
+  background-color: var(--text-primary);
+  color: rgba(255, 255, 255, 0.7);
+  border-top-color: transparent;
+}
+
 /* --- News/Blog List --- */
 .post-list {
   list-style: none;
