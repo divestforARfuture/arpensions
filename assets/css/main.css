@@ -279,7 +279,7 @@ article.page-content .container-prose a:visited {
   color: var(--link-visited);
 }
 
-/* Evidence TOC specific */
+/* Evidence TOC specific (intentional specificity to outrank elegant.css base TOC visited styles) */
 article.page-content .evidence-toc-link:visited {
   color: var(--text-muted);
 }
