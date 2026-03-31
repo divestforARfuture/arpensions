@@ -39,6 +39,19 @@ html[data-theme="light"] .pathways{background:#ffffff}
 html[data-theme="dark"] .pathways{background:#1b1b1b}
 html[data-theme="light"] .role-ctas{background:#f8f8f6}
 html[data-theme="dark"] .role-ctas{background:#242424}
+html[data-theme="light"] .stats-bar{background:transparent;border-color:#e2e2e2}
+html[data-theme="dark"] .stats-bar{background:transparent;border-color:#3a3a3a}
+html[data-theme="light"] .page-header{background:#ffffff}
+html[data-theme="dark"] .page-header{background:#1b1b1b}
+html[data-theme="dark"] .evidence-toc-sidebar{background:#1b1b1b}
+html[data-theme="light"] .callout{background:#f8f8f6}
+html[data-theme="dark"] .callout{background:#242424}
+html[data-theme="light"] .cta-box{background:#f8f8f6}
+html[data-theme="dark"] .cta-box{background:#242424}
+html[data-theme="light"] .issue-symmetry{background:#f8f8f6}
+html[data-theme="dark"] .issue-symmetry{background:#242424}
+html[data-theme="light"] .about-section{background:#ffffff}
+html[data-theme="dark"] .about-section{background:#1b1b1b}
 @view-transition{navigation:auto}
 </style>
 
@@ -50,9 +63,6 @@ html[data-theme="dark"] .role-ctas{background:#242424}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-<!-- Pico CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-
 <!-- AOS (Animate On Scroll) — deferred: animations can start after first paint -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"></noscript>
@@ -62,6 +72,8 @@ html[data-theme="dark"] .role-ctas{background:#242424}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <!-- Elegant redesign layer -->
 <link rel="stylesheet" href="{{ '/assets/css/elegant.css' | relative_url }}">
+<!-- Pico CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
 
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">

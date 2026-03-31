@@ -266,10 +266,24 @@ a:hover {
   color: var(--link-hover);
 }
 
+/* Prevent browser default purple visited links */
+a:visited {
+  color: inherit;
+}
+
 /* Visited links — prose content only (prevents nav/footer purple staining) */
 .container-prose a:visited,
 main article a:visited {
   color: var(--link-visited);
+}
+
+/* Evidence TOC specific */
+.evidence-toc-link:visited {
+  color: var(--text-muted);
+}
+
+.evidence-toc-link--active:visited {
+  color: var(--text-primary);
 }
 
 /* --- Skip Link (a11y) --- */
