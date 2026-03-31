@@ -1574,11 +1574,16 @@ html {
   padding: 0 1rem;
 }
 
+/* Universal content text — smaller, thinner, elegant */
+.page-content,
+.landing-content {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+}
+
 .evidence-content {
   flex: 1;
   min-width: 0;
-  font-size: 0.9375rem;
-  line-height: 1.7;
 }
 
 /* --- Sidebar (desktop ≥1024px) --- */

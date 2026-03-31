@@ -2606,6 +2606,15 @@ html.theme-transition *::after {
               opacity 0.3s ease !important;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html.theme-transition,
+  html.theme-transition *,
+  html.theme-transition *::before,
+  html.theme-transition *::after {
+    transition: none !important;
+  }
+}
+
 /* ==========================================================================
    DARK MODE — Design Tokens
    ========================================================================== */
