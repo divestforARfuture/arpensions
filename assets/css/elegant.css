@@ -428,13 +428,7 @@ article > aside[role="complementary"] h3 {
   border-top-color: var(--color-border);
 }
 
-/* ========================================================================
-   DEMANDS / ACTION STEPS — Teal numbered circles
-   ======================================================================== */
-
-.issue-demands ol li::before {
-  background: var(--art-accent);
-}
+/* DEMANDS — restyled in main.css (elegant inline numbers, no circles) */
 
 .action-step h2::before {
   background: none;
