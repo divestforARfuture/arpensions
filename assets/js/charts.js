@@ -12,13 +12,13 @@
   function getColors() {
     var dark = document.documentElement.getAttribute('data-theme') === 'dark';
     return {
-      red:        dark ? '#EF4444' : '#B91C1C',
-      teal:       dark ? '#34D399' : '#0C7489',
+      red:        dark ? '#e74c3c' : '#B91C1C',
+      teal:       dark ? '#5dade2' : '#1a5276',
       amber:      dark ? '#F59E0B' : '#B45309',
-      grayFill:   dark ? '#1F2937' : '#E5E7EB',
-      text:       dark ? '#E5E7EB' : '#374151',
-      textMuted:  dark ? '#9CA3AF' : '#6B7280',
-      tooltipBg:  dark ? '#1A1A24' : '#FFFFFF',
+      grayFill:   dark ? '#242424' : '#e2e2e2',
+      text:       dark ? '#b0aba5' : '#474747',
+      textMuted:  dark ? '#8a8480' : '#6e6e6e',
+      tooltipBg:  dark ? '#2a2a2a' : '#ffffff',
       gridLine:   dark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)'
     };
   }
