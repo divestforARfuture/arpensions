@@ -1201,7 +1201,7 @@ article > aside[role="complementary"] h3 {
   border: none;
   border-top: 1px solid var(--border-medium);
   opacity: 1;
-  margin: 1rem 0 2rem;
+  margin: 0.75rem 0 1.25rem;
   max-width: 1.5rem;
 }
 
@@ -1309,7 +1309,7 @@ hr + * > .section-label:first-child {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--art-gray, #556068);
+    color: var(--art-gray, #474747);
     margin-bottom: 0.15rem;
   }
 
@@ -1648,12 +1648,17 @@ html {
     font-size: 0.75rem;
   }
 
+  .evidence-toc-link:visited {
+    color: var(--text-muted, #6e6e6e);
+  }
+
   .evidence-toc-link:hover {
     color: var(--text-primary, #1b1b1b);
   }
 
   /* Active state — weight + color + subtle accent border */
-  .evidence-toc-link--active {
+  .evidence-toc-link--active,
+  .evidence-toc-link--active:visited {
     color: var(--text-primary, #1b1b1b);
     border-left-color: var(--accent, #1a5276);
     background-color: transparent;
@@ -1704,7 +1709,7 @@ html {
   .evidence-toc-current {
     flex: 1;
     text-align: left;
-    color: var(--color-text-secondary, #556068);
+    color: var(--color-text-secondary, #474747);
     font-weight: 400;
     font-size: 0.8rem;
     white-space: nowrap;
@@ -1744,7 +1749,7 @@ html {
     padding: 0.4rem 0;
     font-family: var(--font-sans);
     font-size: 0.85rem;
-    color: var(--color-text-secondary, #556068);
+    color: var(--color-text-secondary, #474747);
     text-decoration: none;
     border-left: none;
   }
@@ -1753,7 +1758,12 @@ html {
     font-size: 0.8rem;
   }
 
-  .evidence-toc-link--active {
+  .evidence-toc-link:visited {
+    color: var(--color-text-secondary, #474747);
+  }
+
+  .evidence-toc-link--active,
+  .evidence-toc-link--active:visited {
     color: var(--text-primary, #1b1b1b);
     font-weight: 600;
   }
@@ -1813,7 +1823,7 @@ html {
   gap: 0.5rem;
   padding: 0.75rem 0;
   font-family: var(--font-sans);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.05rem;
   color: var(--art-accent);
   cursor: pointer;
@@ -1845,7 +1855,7 @@ html {
   display: inline;
   font-size: 1.05rem;
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .subfinding > summary:hover {
@@ -1994,7 +2004,7 @@ html {
   font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 400;
-  color: var(--color-text-secondary, #556068);
+  color: var(--color-text-secondary, #474747);
   margin-bottom: 0.75rem;
 }
 
