@@ -100,7 +100,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elegant-heading::before {
-  display: none; /* Decorative dash removed — Cormorant headings stand alone */
+  content: '';
+  display: block;
+  width: 1.5rem;
+  height: 1px;
+  background: var(--border-medium);
+  margin-bottom: 0.5rem;
 }
 
 .elegant-heading--center {
@@ -127,10 +132,10 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading::before {
   content: '';
   display: block;
-  width: 1rem;
+  width: 1.5rem;
   height: 1px;
-  background: var(--art-accent);
-  margin-bottom: 0.75rem;
+  background: var(--border-medium);
+  margin-bottom: 0.5rem;
 }
 
 /* Center the dash only when the heading itself is centered (text-align inherits) */
@@ -155,10 +160,10 @@ h1, h2, h3, h4, h5, h6 {
 .about-section h2::before {
   content: '';
   display: block;
-  width: 1rem;
+  width: 1.5rem;
   height: 1px;
-  background: var(--art-accent);
-  margin: 0 auto 0.75rem;
+  background: var(--border-medium);
+  margin: 0 auto 0.5rem;
 }
 
 .landing-hero h1 {
@@ -1194,10 +1199,10 @@ article > aside[role="complementary"] h3 {
 
 .page-header-rule {
   border: none;
-  border-top: 1px solid var(--art-gray, #556068);
-  opacity: 0.2;
-  margin: var(--space-lg, 1.5rem) 0 var(--space-xl, 2rem);
-  max-width: 120px;
+  border-top: 1px solid var(--border-medium);
+  opacity: 1;
+  margin: 1rem 0 2rem;
+  max-width: 1.5rem;
 }
 
 /* ========================================================================
