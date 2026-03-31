@@ -1573,7 +1573,7 @@ html {
 
 [data-theme="dark"] .scroll-to-top {
   background: var(--art-off-white, #f8f7f5);
-  color: var(--text-primary);
+  color: var(--bg-primary);
 }
 
 @media (prefers-reduced-motion: reduce) {
