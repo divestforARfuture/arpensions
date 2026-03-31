@@ -524,13 +524,7 @@ article > aside[role="complementary"] h3 {
 
 /* LEGAL REFERENCE — restyled in main.css (neutral bg, gray borders) */
 
-/* ========================================================================
-   EVIDENCE FINDINGS — Teal accent
-   ======================================================================== */
-
-.evidence-findings h3 {
-  border-left-color: var(--art-accent);
-}
+/* EVIDENCE FINDINGS — restyled in main.css (gray border, no accent) */
 
 /* ========================================================================
    EVIDENCE CARD — Teal top border
