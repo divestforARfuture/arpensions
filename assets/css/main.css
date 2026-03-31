@@ -275,7 +275,10 @@ a:hover {
 }
 
 /* Visited links — prose content only (prevents nav/footer purple staining) */
-article.page-content .container-prose a:visited {
+article.page-content .container-prose a:visited,
+article.post-content .container-prose a:visited {
+  color: var(--link-visited);
+}
   color: var(--link-visited);
 }
 
