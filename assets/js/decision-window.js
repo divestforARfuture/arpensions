@@ -20,21 +20,20 @@
     var dark = document.documentElement.getAttribute('data-theme') === 'dark';
     return {
       // Decision window bars (solid)
-      red:       dark ? '#EF4444' : '#B91C1C',
+      red:       dark ? '#e74c3c' : '#B91C1C',
       amber:     dark ? '#F59E0B' : '#B45309',
-      teal:      dark ? '#34D399' : '#0C7489',
+      blue:      dark ? '#5dade2' : '#1a5276',
       // Execution gap bars (lighter)
-      redLight:   dark ? 'rgba(239, 68, 68, 0.35)' : 'rgba(185, 28, 28, 0.25)',
+      redLight:   dark ? 'rgba(231, 76, 60, 0.35)' : 'rgba(185, 28, 28, 0.25)',
       amberLight: dark ? 'rgba(245, 158, 11, 0.35)' : 'rgba(180, 83, 9, 0.25)',
-      tealLight:  dark ? 'rgba(52, 211, 153, 0.35)' : 'rgba(12, 116, 137, 0.25)',
+      blueLight:  dark ? 'rgba(93, 173, 226, 0.35)' : 'rgba(26, 82, 118, 0.25)',
       // UI
-      text:      dark ? '#E5E7EB' : '#374151',
-      textMuted: dark ? '#9CA3AF' : '#6B7280',
+      text:      dark ? '#b0aba5' : '#474747',
+      textMuted: dark ? '#8a8480' : '#6e6e6e',
       gridLine:  dark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)',
-      tooltipBg: dark ? '#1A1A24' : '#FFFFFF',
-      annotLine: dark ? '#EF4444' : '#B91C1C',
-      annotBg:   dark ? '#1A1A24' : '#FFF7ED',
-      bg:        dark ? '#121218' : '#F8F7F5'
+      tooltipBg: dark ? '#2a2a2a' : '#ffffff',
+      annotLine: dark ? '#e74c3c' : '#B91C1C',
+      annotBg:   dark ? '#2a2a2a' : '#FFF7ED'
     };
   }
 
@@ -70,8 +69,8 @@
         }
       },
       colors: [
-        c.red, c.amber, c.teal,
-        c.redLight, c.amberLight, c.tealLight
+        c.red, c.amber, c.blue,
+        c.redLight, c.amberLight, c.blueLight
       ],
       fill: { type: 'solid', opacity: 1 },
       series: [
@@ -185,12 +184,12 @@
           {
             x: d('2025-04-15'),
             strokeDashArray: 3,
-            borderColor: c.teal,
+            borderColor: c.blue,
             opacity: 0.5,
             label: {
               text: 'April sales tour',
               orientation: 'horizontal',
-              borderColor: c.teal,
+              borderColor: c.blue,
               borderWidth: 1,
               borderRadius: 2,
               style: {

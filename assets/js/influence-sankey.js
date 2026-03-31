@@ -21,17 +21,17 @@
     var dark = document.documentElement.getAttribute('data-theme') === 'dark';
     return {
       // Node categories
-      origin:    dark ? '#EF4444' : '#B91C1C',
+      origin:    dark ? '#e74c3c' : '#B91C1C',
       seller:    dark ? '#F59E0B' : '#B45309',
-      conduit:   dark ? '#9CA3AF' : '#6B7280',
-      agency:    dark ? '#34D399' : '#0C7489',
+      conduit:   dark ? '#8a8480' : '#6e6e6e',
+      agency:    dark ? '#5dade2' : '#1a5276',
       external:  dark ? '#818CF8' : '#4F46E5',
       // UI
-      text:      dark ? '#E5E7EB' : '#374151',
-      textMuted: dark ? '#9CA3AF' : '#6B7280',
+      text:      dark ? '#b0aba5' : '#474747',
+      textMuted: dark ? '#8a8480' : '#6e6e6e',
       linkBase:  dark ? 0.2 : 0.15,
       linkHover: dark ? 0.45 : 0.35,
-      bg:        dark ? '#121218' : '#F8F7F5'
+      bg:        dark ? '#1b1b1b' : '#ffffff'
     };
   }
 

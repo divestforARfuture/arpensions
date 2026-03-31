@@ -148,10 +148,12 @@
   // --- Build Cytoscape stylesheet ---
   function buildStylesheet() {
     var dark = isDarkMode();
-    var nodeFontColor = dark ? '#E5E7EB' : '#374151';
-    var edgeColor = dark ? 'rgba(107, 114, 128, 0.35)' : 'rgba(0, 0, 0, 0.08)';
-    var nodeStroke = dark ? '#1A1A24' : '#ffffff';
-    var edgeLabelBg = dark ? 'rgba(22, 22, 30, 0.9)' : 'rgba(248, 247, 245, 0.9)';
+    var nodeFontColor = dark ? '#b0aba5' : '#474747';
+    var edgeColor = dark ? 'rgba(138, 132, 128, 0.25)' : 'rgba(0, 0, 0, 0.08)';
+    var nodeStroke = dark ? '#1b1b1b' : '#ffffff';
+    var edgeLabelBg = dark ? 'rgba(27, 27, 27, 0.9)' : 'rgba(255, 255, 255, 0.9)';
+    var accentColor = dark ? '#5dade2' : '#1a5276';
+    var accentRgba = dark ? 'rgba(93, 173, 226, 0.4)' : 'rgba(26, 82, 118, 0.4)';
 
     return [
       { selector: 'node', style: {
@@ -167,7 +169,7 @@
         'border-width': 2, 'border-color': nodeStroke,
         'overlay-padding': 4, 'overlay-opacity': 0, 'z-index': 10,
         'min-zoomed-font-size': 8,
-        'text-background-color': dark ? 'rgba(22, 22, 30, 0.85)' : 'rgba(248, 247, 245, 0.85)',
+        'text-background-color': dark ? 'rgba(27, 27, 27, 0.85)' : 'rgba(255, 255, 255, 0.85)',
         'text-background-opacity': 1, 'text-background-padding': '2px',
         'text-background-shape': 'roundrectangle'
       }},
@@ -178,14 +180,14 @@
         'label': 'data(label)', 'font-size': '0px', 'text-opacity': 0
       }},
       { selector: 'node:selected', style: {
-        'border-color': '#0C7489', 'border-width': 3,
-        'overlay-opacity': 0.08, 'overlay-color': '#0C7489',
+        'border-color': accentColor, 'border-width': 3,
+        'overlay-opacity': 0.08, 'overlay-color': accentColor,
         'font-size': '11px', 'text-opacity': 1, 'z-index': 100
       }},
       { selector: '.highlighted', style: { 'opacity': 1, 'z-index': 50 }},
-      { selector: 'node.highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
+      { selector: 'node.highlighted', style: { 'border-color': accentColor, 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
       { selector: 'edge.highlighted', style: {
-        'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.8, 'z-index': 50,
+        'line-color': accentColor, 'width': 2.5, 'opacity': 0.8, 'z-index': 50,
         'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
         'font-family': 'IBM Plex Mono, monospace', 'font-weight': 500, 'text-rotation': 'autorotate', 'text-margin-y': -8,
         'text-background-color': edgeLabelBg,
@@ -193,9 +195,9 @@
         'text-background-shape': 'roundrectangle'
       }},
       { selector: '.tour-highlighted', style: { 'opacity': 1, 'z-index': 60 }},
-      { selector: 'node.tour-highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
+      { selector: 'node.tour-highlighted', style: { 'border-color': accentColor, 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
       { selector: 'edge.tour-highlighted', style: {
-        'line-color': '#0C7489', 'width': 2.5, 'opacity': 0.7,
+        'line-color': accentColor, 'width': 2.5, 'opacity': 0.7,
         'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
         'font-family': 'IBM Plex Mono, monospace', 'font-weight': 500, 'text-rotation': 'autorotate', 'text-margin-y': -8,
         'text-background-color': edgeLabelBg,
@@ -204,9 +206,9 @@
       }},
       // Path-finding highlight (Phase 2)
       { selector: '.path-highlighted', style: { 'opacity': 1, 'z-index': 70 }},
-      { selector: 'node.path-highlighted', style: { 'border-color': '#0C7489', 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
+      { selector: 'node.path-highlighted', style: { 'border-color': accentColor, 'border-width': 3, 'font-size': '11px', 'text-opacity': 1 }},
       { selector: 'edge.path-highlighted', style: {
-        'line-color': '#0C7489', 'width': 3, 'opacity': 0.9, 'z-index': 70,
+        'line-color': accentColor, 'width': 3, 'opacity': 0.9, 'z-index': 70,
         'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.7,
         'font-family': 'IBM Plex Mono, monospace', 'font-weight': 500, 'text-rotation': 'autorotate', 'text-margin-y': -8,
         'text-background-color': edgeLabelBg,
@@ -214,15 +216,15 @@
         'text-background-shape': 'roundrectangle'
       }},
       { selector: '.path-endpoint', style: {
-        'border-color': '#0C7489', 'border-width': 4,
-        'overlay-opacity': 0.12, 'overlay-color': '#0C7489',
+        'border-color': accentColor, 'border-width': 4,
+        'overlay-opacity': 0.12, 'overlay-color': accentColor,
         'font-size': '12px', 'text-opacity': 1, 'z-index': 80
       }},
       { selector: '.faded', style: { 'opacity': 0.08 }},
       { selector: '.dimmed', style: { 'opacity': 0.1 }},
       { selector: '.neighbor', style: { 'opacity': 1, 'font-size': '10px', 'text-opacity': 1, 'z-index': 40 }},
       { selector: 'edge.neighbor', style: {
-        'line-color': 'rgba(12, 116, 137, 0.4)', 'width': 2, 'opacity': 0.7,
+        'line-color': accentRgba, 'width': 2, 'opacity': 0.7,
         'label': 'data(label)', 'font-size': '8px', 'text-opacity': 0.8,
         'font-family': 'IBM Plex Mono, monospace', 'font-weight': 500,
         'color': nodeFontColor, 'text-rotation': 'autorotate', 'text-margin-y': -8,
