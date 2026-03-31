@@ -1309,7 +1309,7 @@ hr + * > .section-label:first-child {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--art-gray, #556068);
+    color: var(--art-gray, #474747);
     margin-bottom: 0.15rem;
   }
 
@@ -1709,7 +1709,7 @@ html {
   .evidence-toc-current {
     flex: 1;
     text-align: left;
-    color: var(--color-text-secondary, #556068);
+    color: var(--color-text-secondary, #474747);
     font-weight: 400;
     font-size: 0.8rem;
     white-space: nowrap;
@@ -1749,7 +1749,7 @@ html {
     padding: 0.4rem 0;
     font-family: var(--font-sans);
     font-size: 0.85rem;
-    color: var(--color-text-secondary, #556068);
+    color: var(--color-text-secondary, #474747);
     text-decoration: none;
     border-left: none;
   }
@@ -1759,7 +1759,7 @@ html {
   }
 
   .evidence-toc-link:visited {
-    color: var(--color-text-secondary, #556068);
+    color: var(--color-text-secondary, #474747);
   }
 
   .evidence-toc-link--active,
@@ -2004,7 +2004,7 @@ html {
   font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 400;
-  color: var(--color-text-secondary, #556068);
+  color: var(--color-text-secondary, #474747);
   margin-bottom: 0.75rem;
 }
 
