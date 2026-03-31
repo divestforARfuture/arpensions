@@ -3271,7 +3271,13 @@ hr.section-break {
   .theme-toggle-btn,
   .page-flow,
   .mobile-cta-bar,
-  .role-ctas {
+  .role-ctas,
+  .nav-dropdown-menu,
+  .nav-toggle,
+  .reading-progress,
+  .scroll-progress,
+  .scroll-to-top,
+  .hero-ghost {
     display: none !important;
   }
 
@@ -3284,7 +3290,7 @@ hr.section-break {
     color: #000;
     background: #fff;
     font-size: 12pt;
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
     line-height: 1.5;
   }
 
@@ -3332,6 +3338,15 @@ hr.section-break {
     max-width: 100%;
     padding: 0;
   }
+
+  /* Hero prints as simple text */
+  .hero {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 1rem 0;
+  }
+  .hero h1 { color: #000 !important; }
+  .hero-eyebrow { color: #666 !important; }
 
   /* Prevent page breaks inside key elements */
   .letter-template,
@@ -3453,3 +3468,19 @@ hr.section-break {
 }
 
 /* Nav CTA button styles removed — "Take Action" is now inside the Get Involved dropdown */
+
+/* ==========================================================================
+   GLOBAL REDUCED MOTION — Belt-and-suspenders kill switch
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .scroll-progress,
+  .reading-progress {
+    display: none;
+  }
+}
