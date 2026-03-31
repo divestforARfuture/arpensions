@@ -269,9 +269,12 @@ a:hover {
 /* Prevent purple visited links in body content and footer — exclude buttons */
 .page-content a:visited:not([class*="btn"]),
 .landing-content a:visited:not([class*="btn"]),
-.site-footer a:visited,
-.site-nav a:visited {
+.site-footer a:visited {
   color: inherit;
+}
+
+.site-nav a:visited {
+  color: var(--art-gray);
 }
 
 /* Source-order override: prose visited links keep editorial visited color */
