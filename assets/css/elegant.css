@@ -879,14 +879,14 @@ article > aside[role="complementary"] h3 {
 /* --- Dark theme: cream hero (inverted from dark page) --- */
 [data-theme="dark"] .hero { background-color: #F8F7F5; }
 [data-theme="dark"] .hero-ghost { color: rgba(27, 27, 27, 0.045); }
-[data-theme="dark"] .hero-eyebrow { color: rgba(27, 27, 27, 0.35); }
+[data-theme="dark"] .hero-eyebrow { color: rgba(27, 27, 27, 0.6); }
 [data-theme="dark"] .hero h1 { color: #1b1b1b; }
 [data-theme="dark"] .hero-sub,
 [data-theme="dark"] .hero-subtitle { color: rgba(27, 27, 27, 0.7); }
 [data-theme="dark"] .hero .btn-primary-hero { background: #1b1b1b; color: #F8F7F5; }
 [data-theme="dark"] .hero .btn-primary-hero:hover { color: #F8F7F5; }
 [data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(27, 27, 27, 0.25); color: rgba(27, 27, 27, 0.7); }
-[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(27, 27, 27, 0.7); }
+[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(27, 27, 27, 0.88); }
 
 /* --- Fallback (no data-theme set): dark hero --- */
 :root:not([data-theme]) .hero { background-color: var(--text-primary); }
