@@ -1577,6 +1577,8 @@ html {
 .evidence-content {
   flex: 1;
   min-width: 0;
+  font-size: 0.9375rem;
+  line-height: 1.7;
 }
 
 /* --- Sidebar (desktop ≥1024px) --- */
@@ -1825,8 +1827,8 @@ html {
   gap: 0.5rem;
   padding: 0.75rem 0;
   font-family: var(--font-sans);
-  font-weight: 500;
-  font-size: 1.05rem;
+  font-weight: 400;
+  font-size: 0.9375rem;
   color: var(--art-accent);
   cursor: pointer;
   list-style: none;
@@ -1855,9 +1857,7 @@ html {
 
 .subfinding > summary > h3 {
   display: inline;
-  font-size: 1.05rem;
   margin: 0;
-  font-weight: 500;
 }
 
 .subfinding > summary:hover {
@@ -1875,6 +1875,12 @@ html {
   border-left: 2px solid var(--art-accent);
   margin-left: 3px;
   animation: subfinding-fade 0.25s ease;
+  color: var(--text-secondary, #474747);
+}
+
+.subfinding-content p,
+.subfinding-content li {
+  margin-bottom: 1rem;
 }
 
 @keyframes subfinding-fade {
