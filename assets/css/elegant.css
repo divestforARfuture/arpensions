@@ -100,12 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elegant-heading::before {
-  content: '';
-  display: block;
-  width: 1rem;
-  height: 1px;
-  background: var(--border-medium);
-  margin-bottom: 0.75rem;
+  display: none; /* Decorative dash removed — Cormorant headings stand alone */
 }
 
 .elegant-heading--center {
@@ -527,17 +522,7 @@ article > aside[role="complementary"] h3 {
   border-bottom-color: var(--color-border);
 }
 
-/* ========================================================================
-   LEGAL REFERENCE — Teal accent, lighter background
-   ======================================================================== */
-
-.legal-reference {
-  background: var(--art-accent-light);
-}
-
-.legal-reference h2 {
-  border-bottom-color: var(--art-accent);
-}
+/* LEGAL REFERENCE — restyled in main.css (neutral bg, gray borders) */
 
 /* ========================================================================
    EVIDENCE FINDINGS — Teal accent
@@ -700,9 +685,7 @@ article > aside[role="complementary"] h3 {
    KEY FINDING / SECTION LABELS — Teal
    ======================================================================== */
 
-.key-finding strong:first-child {
-  color: var(--art-accent);
-}
+/* .key-finding strong color — now uses var(--text-primary) from main.css */
 
 /* .section-label color — now uses var(--text-muted) from main.css metadata conventions */
 
@@ -1670,10 +1653,10 @@ html {
     color: var(--text-primary, #1b1b1b);
   }
 
-  /* Active state — weight + color shift only, no colored background */
+  /* Active state — weight + color + subtle accent border */
   .evidence-toc-link--active {
     color: var(--text-primary, #1b1b1b);
-    border-left-color: var(--border-dark, #303030);
+    border-left-color: var(--accent, #1a5276);
     background-color: transparent;
     font-weight: 600;
   }

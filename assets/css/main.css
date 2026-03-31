@@ -1434,11 +1434,11 @@ blockquote footer {
 
 /* === Key Finding highlight box === */
 .key-finding {
-  border-left: 4px solid var(--art-accent);
-  background: var(--art-accent-light);
+  border-left: 2px solid var(--border-medium);
+  background: var(--bg-secondary);
   padding: 1.25rem 1.5rem;
   margin: 1.5rem 0;
-  border-radius: 0 4px 4px 0;
+  border-radius: 2px;
 }
 
 .key-finding p:last-child { margin-bottom: 0; }
@@ -1448,7 +1448,7 @@ blockquote footer {
   font-family: var(--font-serif);
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
-  color: var(--art-accent);
+  color: var(--text-primary);
 }
 
 /* --- Social Share --- */
@@ -1609,11 +1609,11 @@ blockquote footer {
 [data-theme="dark"] .footer-name { color: rgba(27, 27, 27, 0.9); }
 [data-theme="dark"] .footer-audience a { color: rgba(27, 27, 27, 0.65); }
 [data-theme="dark"] .footer-audience a:hover { color: rgba(27, 27, 27, 0.9); }
-[data-theme="dark"] .footer-tagline { color: rgba(27, 27, 27, 0.6); }
-[data-theme="dark"] .footer-parent { color: rgba(27, 27, 27, 0.6); }
+[data-theme="dark"] .footer-tagline { color: rgba(27, 27, 27, 0.65); }
+[data-theme="dark"] .footer-parent { color: rgba(27, 27, 27, 0.65); }
 [data-theme="dark"] .footer-parent a { color: rgba(27, 27, 27, 0.7); }
 [data-theme="dark"] .footer-utility a { color: rgba(27, 27, 27, 0.65); }
-[data-theme="dark"] .footer-copyright { color: rgba(27, 27, 27, 0.6); }
+[data-theme="dark"] .footer-copyright { color: rgba(27, 27, 27, 0.65); }
 [data-theme="dark"] .footer-back-to-top { color: rgba(27, 27, 27, 0.65); }
 [data-theme="dark"] .footer-back-to-top:hover { color: rgba(27, 27, 27, 0.9); }
 
@@ -1813,8 +1813,9 @@ blockquote footer {
 
 /* --- Legal Reference Block — Highlighted legal standards sidebar --- */
 .legal-reference {
-  background: var(--art-red-light);
-  border-radius: 8px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: 2px;
   padding: 2rem;
   margin: 1.5rem 0 2rem;
 }
@@ -1824,7 +1825,7 @@ blockquote footer {
   margin-top: 0;
   margin-bottom: 1.25rem;
   padding-bottom: 0.75rem;
-  border-bottom: 2px solid var(--art-red);
+  border-bottom: 1px solid var(--border-light);
 }
 
 .legal-reference ul {
@@ -1835,7 +1836,7 @@ blockquote footer {
 
 .legal-reference li {
   padding: 0.75rem 0;
-  border-bottom: 1px solid rgba(185, 28, 28, 0.12);
+  border-bottom: 1px solid var(--border-light);
   line-height: 1.65;
 }
 
@@ -2737,11 +2738,7 @@ html.theme-transition *::after {
   background-color: var(--bg-surface, rgba(255, 255, 255, 0.03));
 }
 
-/* --- Key Finding --- */
-[data-theme="dark"] .key-finding {
-  background: var(--art-accent-light);
-  border-left-color: var(--art-accent);
-}
+/* Key finding uses semantic tokens — no dark override needed */
 
 /* --- Tables --- */
 [data-theme="dark"] .issue-agency-table td {
@@ -2768,14 +2765,7 @@ html.theme-transition *::after {
   background: #991B1B;
 }
 
-/* --- Legal Reference --- */
-[data-theme="dark"] .legal-reference {
-  background: var(--art-red-light);
-}
-
-[data-theme="dark"] .legal-reference li {
-  border-bottom-color: rgba(239, 68, 68, 0.15);
-}
+/* Legal reference uses semantic tokens — no dark override needed */
 
 /* --- Timeline — uses semantic tokens, minimal dark overrides --- */
 
