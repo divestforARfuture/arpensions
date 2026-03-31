@@ -1278,7 +1278,7 @@ hr {
 .page-header {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 3px solid var(--art-red);
+  border-bottom: none;
 }
 
 .page-header h1 {
