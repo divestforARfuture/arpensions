@@ -480,6 +480,7 @@ hr {
 
 .nav-links {
   display: flex;
+  align-items: center;
   list-style: none;
   gap: 0.25rem;
   margin: 0;
@@ -487,8 +488,14 @@ hr {
   padding: 0;
 }
 
+.nav-links > li {
+  display: flex;
+  align-items: center;
+}
+
 .nav-links a {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 0.5rem 0.75rem;
   text-decoration: none;
   color: var(--art-gray);
@@ -506,30 +513,40 @@ hr {
 
 /* === Nav Dropdowns === */
 .nav-dropdown {
+  display: flex;
+  align-items: center;
   position: relative;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 .nav-dropdown summary {
   cursor: pointer;
   list-style: none;
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 0.5rem 0.75rem;
-  font-family: var(--font-sans);
-  /* font-weight and font-size set by elegant.css (500 / 0.875rem) */
+  /* font-family, font-weight, font-size set by elegant.css */
   color: var(--text-secondary);
   border-radius: 6px;
   transition: color 0.15s, background-color 0.15s;
   user-select: none;
+  line-height: 1;
 }
 .nav-dropdown summary::-webkit-details-marker {
   display: none;
 }
 .nav-dropdown summary::after {
-  content: ' ▾';
+  content: '▾';
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.3em;
   font-size: 0.7em;
+  line-height: 1;
   opacity: 0.5;
 }
 .nav-dropdown[open] summary::after {
-  content: ' ▴';
+  content: '▴';
 }
 .nav-dropdown summary:hover,
 .nav-dropdown[open] summary,
@@ -593,6 +610,7 @@ hr {
     left: 0;
     right: 0;
     flex-direction: column;
+    align-items: stretch;
     background: var(--color-bg-surface);
     border-bottom: 1px solid var(--color-border);
     padding: 0.5rem 1rem 1rem;
@@ -618,6 +636,11 @@ hr {
     .nav-links.nav-open {
       animation: navSlideDown 0.25s ease-out;
     }
+  }
+
+  .nav-links > li > a,
+  .nav-links > li > .nav-dropdown {
+    flex: 1;
   }
 
   .nav-links a {
