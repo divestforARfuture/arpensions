@@ -100,12 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .elegant-heading::before {
-  content: '';
-  display: block;
-  width: 1rem;
-  height: 1px;
-  background: var(--border-medium);
-  margin-bottom: 0.75rem;
+  display: none; /* Decorative dash removed — Cormorant headings stand alone */
 }
 
 .elegant-heading--center {
@@ -428,13 +423,7 @@ article > aside[role="complementary"] h3 {
   border-top-color: var(--color-border);
 }
 
-/* ========================================================================
-   DEMANDS / ACTION STEPS — Teal numbered circles
-   ======================================================================== */
-
-.issue-demands ol li::before {
-  background: var(--art-accent);
-}
+/* DEMANDS — restyled in main.css (elegant inline numbers, no circles) */
 
 .action-step h2::before {
   background: none;
@@ -533,17 +522,7 @@ article > aside[role="complementary"] h3 {
   border-bottom-color: var(--color-border);
 }
 
-/* ========================================================================
-   LEGAL REFERENCE — Teal accent, lighter background
-   ======================================================================== */
-
-.legal-reference {
-  background: var(--art-accent-light);
-}
-
-.legal-reference h2 {
-  border-bottom-color: var(--art-accent);
-}
+/* LEGAL REFERENCE — restyled in main.css (neutral bg, gray borders) */
 
 /* ========================================================================
    EVIDENCE FINDINGS — Teal accent
@@ -706,9 +685,7 @@ article > aside[role="complementary"] h3 {
    KEY FINDING / SECTION LABELS — Teal
    ======================================================================== */
 
-.key-finding strong:first-child {
-  color: var(--art-accent);
-}
+/* .key-finding strong color — now uses var(--text-primary) from main.css */
 
 /* .section-label color — now uses var(--text-muted) from main.css metadata conventions */
 
@@ -916,17 +893,17 @@ article > aside[role="complementary"] h3 {
 
 .stat .stat-number {
   display: block;
-  font-family: var(--font-mono);
-  font-weight: 600;
-  font-size: clamp(1.75rem, 1.5rem + 1.5vw, 2.5rem);
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(2.5rem, 2rem + 2.5vw, 3.5rem);
   line-height: 1;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
   color: var(--text-primary);
 }
 
 .stat-rule {
   display: block;
-  width: 1.5rem;
+  width: 1rem;
   height: 1px;
   margin-top: 0.75rem;
   margin-bottom: 0.5rem;
@@ -954,9 +931,10 @@ article > aside[role="complementary"] h3 {
 }
 
 .stats-provenance p {
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
   letter-spacing: 0.03em;
+  font-weight: 400;
 }
 
 /* Stats bar: token-based colors (replaces light/dark/fallback hardcoded values) */
@@ -1675,10 +1653,10 @@ html {
     color: var(--text-primary, #1b1b1b);
   }
 
-  /* Active state — weight + color shift only, no colored background */
+  /* Active state — weight + color + subtle accent border */
   .evidence-toc-link--active {
     color: var(--text-primary, #1b1b1b);
-    border-left-color: var(--border-dark, #303030);
+    border-left-color: var(--accent, #1a5276);
     background-color: transparent;
     font-weight: 600;
   }
