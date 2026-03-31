@@ -1878,7 +1878,8 @@ html {
   color: var(--text-secondary, #474747);
 }
 
-.subfinding-content p {
+.subfinding-content p,
+.subfinding-content li {
   margin-bottom: 1rem;
 }
 
