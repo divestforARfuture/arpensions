@@ -266,10 +266,26 @@ a:hover {
   color: var(--link-hover);
 }
 
-/* Visited links — prose content only (prevents nav/footer purple staining) */
-.container-prose a:visited,
-main article a:visited {
+/* Prevent purple visited links in body content and footer — exclude buttons */
+.page-content a:visited:not([class*="btn"]),
+.landing-content a:visited:not([class*="btn"]),
+.site-footer a:visited,
+.site-nav a:visited {
+  color: inherit;
+}
+
+/* Source-order override: prose visited links keep editorial visited color */
+article.page-content .container-prose a:visited {
   color: var(--link-visited);
+}
+
+/* Evidence TOC specific */
+article.page-content .evidence-toc-link:visited {
+  color: var(--text-muted);
+}
+
+article.page-content .evidence-toc-link--active:visited {
+  color: var(--text-primary);
 }
 
 /* --- Skip Link (a11y) --- */
