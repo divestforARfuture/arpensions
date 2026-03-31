@@ -867,7 +867,7 @@ article > aside[role="complementary"] h3 {
 /* --- Light theme: dark hero (inverted) --- */
 [data-theme="light"] .hero { background-color: var(--text-primary); }
 [data-theme="light"] .hero-ghost { color: rgba(255, 255, 255, 0.04); }
-[data-theme="light"] .hero-eyebrow { color: rgba(255, 255, 255, 0.4); }
+[data-theme="light"] .hero-eyebrow { color: rgba(255, 255, 255, 0.55); }
 [data-theme="light"] .hero h1 { color: var(--bg-primary); }
 [data-theme="light"] .hero-sub,
 [data-theme="light"] .hero-subtitle { color: rgba(255, 255, 255, 0.6); }
@@ -882,18 +882,19 @@ article > aside[role="complementary"] h3 {
 [data-theme="dark"] .hero-eyebrow { color: rgba(27, 27, 27, 0.35); }
 [data-theme="dark"] .hero h1 { color: #1b1b1b; }
 [data-theme="dark"] .hero-sub,
-[data-theme="dark"] .hero-subtitle { color: rgba(27, 27, 27, 0.5); }
+[data-theme="dark"] .hero-subtitle { color: rgba(27, 27, 27, 0.7); }
 [data-theme="dark"] .hero .btn-primary-hero { background: #1b1b1b; color: #F8F7F5; }
 [data-theme="dark"] .hero .btn-primary-hero:hover { color: #F8F7F5; }
-[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(27, 27, 27, 0.15); color: rgba(27, 27, 27, 0.5); }
+[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(27, 27, 27, 0.25); color: rgba(27, 27, 27, 0.7); }
 [data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(27, 27, 27, 0.7); }
 
 /* --- Fallback (no data-theme set): dark hero --- */
 :root:not([data-theme]) .hero { background-color: var(--text-primary); }
 :root:not([data-theme]) .hero-ghost { color: rgba(255, 255, 255, 0.04); }
-:root:not([data-theme]) .hero-eyebrow { color: rgba(255, 255, 255, 0.4); }
+:root:not([data-theme]) .hero-eyebrow { color: rgba(255, 255, 255, 0.55); }
 :root:not([data-theme]) .hero h1 { color: var(--bg-primary); }
-:root:not([data-theme]) .hero-sub { color: rgba(255, 255, 255, 0.6); }
+:root:not([data-theme]) .hero-sub,
+:root:not([data-theme]) .hero-subtitle { color: rgba(255, 255, 255, 0.6); }
 :root:not([data-theme]) .hero .btn-primary-hero { background: var(--bg-primary); color: var(--text-primary); }
 :root:not([data-theme]) .hero .btn-secondary-hero { border: 1px solid rgba(255, 255, 255, 0.2); color: rgba(255, 255, 255, 0.7); }
 

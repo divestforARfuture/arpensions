@@ -2716,10 +2716,7 @@ html.theme-transition *::after {
 /* --- Timeline — uses semantic tokens, minimal dark overrides --- */
 
 /* --- Hero and Landing Hero: already dark or using variables, verify --- */
-/* Hero inverts — cream background in dark mode */
-[data-theme="dark"] .hero {
-  background-color: #F8F7F5;
-}
+/* Hero inverts via elegant.css — no override needed here */
 
 [data-theme="dark"] .landing-hero {
   background-color: var(--art-gray-light);
