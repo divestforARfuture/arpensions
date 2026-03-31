@@ -13,7 +13,7 @@
     var dark = document.documentElement.getAttribute('data-theme') === 'dark';
     return {
       red:        dark ? '#e74c3c' : '#B91C1C',
-      teal:       dark ? '#5dade2' : '#1a5276',
+      blue:       dark ? '#5dade2' : '#1a5276',
       amber:      dark ? '#F59E0B' : '#B45309',
       grayFill:   dark ? '#242424' : '#e2e2e2',
       text:       dark ? '#b0aba5' : '#474747',
@@ -52,7 +52,7 @@
         ],
         datasets: [{
           data: [55, 50, 50],
-          backgroundColor: [c.red, c.teal, c.amber],
+          backgroundColor: [c.red, c.blue, c.amber],
           borderWidth: 0,
           borderRadius: 2,
           barPercentage: 0.6,
@@ -175,7 +175,7 @@
         labels: ['Funded', 'Unfunded gap'],
         datasets: [{
           data: [ratio, 100 - ratio],
-          backgroundColor: [c.teal, c.grayFill],
+          backgroundColor: [c.blue, c.grayFill],
           borderWidth: 0,
           circumference: 180,
           rotation: 270
