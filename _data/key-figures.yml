@@ -1,0 +1,348 @@
+# Key Figures — structured profile data for /key-figures/
+# Every claim traces to FOIA documents from five Arkansas state agencies.
+
+# ── Central Figures ──────────────────────────────────────────────────────
+
+- id: dennis-milligan
+  name: Dennis Milligan
+  title: Auditor of State (former State Treasurer)
+  agency: Auditor of State / Arkansas State Treasury
+  type: official
+  relevance: central
+  summary: >-
+    Initiated the sovereign bond program as State Treasurer circa 2017, then
+    continued advocacy as Auditor of State — a position with no investment
+    authority over pension funds. Arranged the April 2025 pitch tour that
+    brought bond issuer representatives to all three investing agencies.
+    Sits on both the ATRS and APERS boards. Served as SFOF National Chair.
+    Appears in more FOIA source documents than any other individual.
+  key_facts:
+    - "Initiated sovereign bond program at Treasury circa 2017"
+    - "Served as SFOF National Chair ~2019–2020"
+    - "Arranged April 2025 two-day pitch tour from Auditor's office"
+    - "Sits on both ATRS and APERS boards"
+    - "Appears in 247+ FOIA source documents — more than any other individual"
+    - "18-minute scheduling blitz on April 11, 2025, set meetings across all three agencies"
+  connections:
+    - target: jason-brady
+      relationship: "Direct report at Auditor's office; Brady serves as operational conduit across agencies"
+    - target: lawrence-berman
+      relationship: "Personal correspondence; Berman called Milligan 'truly one of a kind'"
+    - target: sfof
+      relationship: "Served as SFOF National Chair; used platform to promote sovereign bonds to other states"
+    - target: mark-white
+      relationship: "Arranged April 2025 meeting between bond representatives and ATRS"
+    - target: amy-fecher
+      relationship: "Arranged April 2025 meeting between bond representatives and APERS"
+
+- id: jason-brady
+  name: Jason Brady
+  title: Chief Deputy, Auditor of State
+  agency: Auditor of State / APERS Board
+  type: official
+  relevance: central
+  summary: >-
+    Operational conduit connecting the Auditor's office to both pension systems.
+    As Chief Deputy to Milligan, Brady coordinated logistics across agencies.
+    Simultaneously served as an APERS board member — a dual role that placed him
+    on both sides of the bond pitch. Introduced sovereign bonds at the APERS
+    board and sent the initial request to ATRS Executive Director Mark White.
+  key_facts:
+    - "Chief Deputy, Auditor of State — not a generic 'Deputy Auditor'"
+    - "Dual role: Auditor staff member + APERS board member"
+    - "Introduced sovereign bonds at APERS board"
+    - "Sent initial request to ATRS Executive Director Mark White"
+    - "Five documented operational roles across agencies"
+    - "Used personal email (jasonlbrady@hotmail.com) for state business"
+    - "Appears in 219 FOIA source documents"
+  connections:
+    - target: dennis-milligan
+      relationship: "Reports to Milligan at Auditor's office; executes cross-agency coordination"
+    - target: mark-white
+      relationship: "Sent initial sovereign bond request to ATRS"
+    - target: amy-fecher
+      relationship: "Introduced bonds at APERS board where Brady also sits as member"
+    - target: lawrence-berman
+      relationship: "Coordinated April 2025 tour logistics with bond representatives"
+
+# ── Bond Issuer Representatives ──────────────────────────────────────────
+
+- id: lawrence-berman
+  name: Lawrence Berman
+  title: National Managing Director, Israel Bonds / Development Corporation for Israel
+  agency: Israel Bonds / DCI
+  type: bonds_representative
+  relevance: key
+  summary: >-
+    Cc'd on all major purchase communications across agencies. His resume
+    states he was "directly responsible for selling 60 new pension and treasury
+    funds totaling more than $10 billion." Conducted the April 2025 Arkansas
+    tour meeting with all three agency heads.
+  key_facts:
+    - "National Managing Director, Israel Bonds / DCI"
+    - "Cc'd on all major purchase communications"
+    - 'Resume: "directly responsible for selling 60 new pension and treasury funds totaling more than $10 billion"'
+    - "Conducted April 2025 Arkansas tour with meetings at ATRS, APERS, and Treasury"
+    - "Appears in 25 FOIA source documents"
+  connections:
+    - target: dennis-milligan
+      relationship: "Personal correspondence; called Milligan 'truly one of a kind'"
+    - target: bradley-young
+      relationship: "Colleague at Israel Bonds / DCI; conducted April 2025 tour together"
+    - target: mark-white
+      relationship: "Met with White at ATRS on April 15, 2025"
+    - target: amy-fecher
+      relationship: "Met with Fecher during April 2025 tour"
+
+- id: bradley-young
+  name: Bradley Young
+  title: Executive Director, Israel Bonds / DCI (Atlanta)
+  agency: Israel Bonds / DCI
+  type: bonds_representative
+  relevance: key
+  summary: >-
+    Primary relationship manager for the Arkansas accounts. Congratulated
+    Milligan on his re-election and confirmed wire receipts for bond purchases.
+    Conducted the April 2025 Arkansas tour alongside Lawrence Berman.
+  key_facts:
+    - "Executive Director, Israel Bonds / DCI (Atlanta office)"
+    - "Primary relationship manager for Arkansas"
+    - "Congratulated Milligan on re-election"
+    - "Confirmed wire receipts for bond purchases"
+    - "Appears in 49 FOIA source documents"
+  connections:
+    - target: lawrence-berman
+      relationship: "Colleague at Israel Bonds / DCI; conducted April 2025 tour together"
+    - target: dennis-milligan
+      relationship: "Congratulated Milligan on re-election; ongoing personal relationship"
+
+# ── Agency Decision-Makers ───────────────────────────────────────────────
+
+- id: mark-white
+  name: Mark White
+  title: Executive Director, ATRS
+  agency: Arkansas Teacher Retirement System
+  type: official
+  relevance: key
+  summary: >-
+    Led ATRS through its first-ever direct sovereign bond purchase. Knew the
+    system's investment consultant Aon would not formally recommend the bonds
+    yet proceeded. Met with Berman and Young on April 15, 2025. Authored the
+    "Preview of June 2 Meeting" email that framed the investment request for
+    the board.
+  key_facts:
+    - "Executive Director of ATRS"
+    - 'Knew Aon would not recommend: "I know they will not be making a formal recommendation"'
+    - "Met with Berman and Young on April 15, 2025"
+    - 'Authored "Preview of June 2 Meeting" email framing the board request'
+    - "ATRS authorized $50M — its first-ever direct sovereign bond purchase"
+  connections:
+    - target: jason-brady
+      relationship: "Received initial sovereign bond request from Brady"
+    - target: lawrence-berman
+      relationship: "Met with Berman during April 2025 tour at ATRS"
+    - target: danny-knight
+      relationship: "Knight, as Board Chair, cast sole dissenting vote against White's recommendation"
+
+- id: amy-fecher
+  name: Amy Fecher
+  title: Executive Director, APERS
+  agency: Arkansas Public Employees Retirement System
+  type: official
+  relevance: key
+  summary: >-
+    Led APERS through its first-ever direct sovereign bond authorization.
+    Met with Berman and Young during the April 2025 tour. When a press
+    inquiry came in, forwarded it to Brady at the Auditor's office rather
+    than APERS's own communications staff.
+  key_facts:
+    - "Executive Director of APERS"
+    - "Met with Berman and Young during April 2025 tour"
+    - "Forwarded press inquiry to Brady at Auditor's office rather than APERS comms staff"
+    - "APERS authorized $25–50M — its first-ever direct sovereign bond purchase"
+  connections:
+    - target: jason-brady
+      relationship: "Brady introduced bonds at APERS board; Fecher forwarded press inquiry to Brady"
+    - target: lawrence-berman
+      relationship: "Met with Berman during April 2025 tour at APERS"
+    - target: darryl-bassett
+      relationship: "Bassett chaired the APERS board that authorized the purchase"
+
+- id: danny-knight
+  name: Danny Knight
+  title: Board Chair, ATRS
+  agency: Arkansas Teacher Retirement System
+  type: official
+  relevance: key
+  summary: >-
+    Cast the sole dissenting vote on ATRS Resolution 2025-22 authorizing
+    the sovereign bond purchase. Warned the board it was "going outside of
+    the scope of the way we usually do things."
+  key_facts:
+    - "ATRS Board Chair"
+    - "Cast sole dissenting vote on Resolution 2025-22"
+    - '"Going outside of the scope of the way we usually do things"'
+    - "Only board member across both pension systems to vote against authorization"
+  connections:
+    - target: mark-white
+      relationship: "Dissented against White's recommendation to authorize sovereign bonds"
+
+- id: steve-pulley
+  name: Steve Pulley
+  title: Senior Investment Officer, Treasury
+  agency: Arkansas State Treasury
+  type: official
+  relevance: key
+  summary: >-
+    Authored an internal memo recommending against new sovereign bond
+    purchases, citing credit downgrades by all three major rating agencies.
+    His recommendation was overridden.
+  key_facts:
+    - "Senior Investment Officer, Arkansas State Treasury"
+    - "Authored internal memo recommending against new purchases"
+    - "Cited credit downgrades (Moody's Sep 27, plus Fitch and S&P downgrades)"
+    - "Recommendation was overridden"
+  connections:
+    - target: dennis-milligan
+      relationship: "Milligan, as former Treasurer, initiated the program Pulley later recommended against expanding"
+
+# ── Supporting Roles ─────────────────────────────────────────────────────
+
+- id: larry-walther
+  name: Larry Walther
+  title: 40th State Treasurer (Aug 2023 – Jan 2025)
+  agency: Arkansas State Treasury / APERS Board
+  type: official
+  relevance: supporting
+  summary: >-
+    Maintained the sovereign bond position at Treasury during his tenure.
+    Later served as an APERS board member and chaired the Investment Finance
+    Subcommittee that authorized $25–50M in sovereign bonds. Applied religious
+    framing to the investment decision.
+  key_facts:
+    - "40th Arkansas State Treasurer (Aug 2023 – Jan 2025)"
+    - "Maintained sovereign bond position at Treasury"
+    - "Chaired APERS Investment Finance Subcommittee that authorized $25–50M"
+    - 'Religious framing: "Those who bless Israel will be blessed"'
+  connections:
+    - target: dennis-milligan
+      relationship: "Succeeded Milligan's successor at Treasury; maintained the sovereign bond program"
+    - target: amy-fecher
+      relationship: "Served on APERS board; chaired subcommittee that authorized APERS purchase"
+
+- id: stacy-peterson
+  name: Stacy Peterson
+  title: Director of Communications, Auditor of State
+  agency: Auditor of State
+  type: official
+  relevance: supporting
+  summary: >-
+    Drafted Milligan's political speeches, sent a solidarity email to the
+    Israeli Ambassador, and distributed pension board vote results through
+    the SFOF network for interstate replication.
+  key_facts:
+    - "Director of Communications, Auditor of State"
+    - "Drafted Milligan's political speeches"
+    - "Sent solidarity email to Israeli Ambassador"
+    - "Distributed pension board vote results through SFOF network"
+    - '"Feel free to pass along to any member states"'
+    - "Appears in 63 FOIA source documents"
+  connections:
+    - target: dennis-milligan
+      relationship: "Communications director; drafted speeches and managed external outreach"
+    - target: sfof
+      relationship: "Distributed vote results through SFOF network"
+
+- id: wendy-spadoni
+  name: Wendy Spadoni
+  title: Executive Assistant to the Auditor
+  agency: Auditor of State
+  type: official
+  relevance: supporting
+  summary: >-
+    Organized all logistics for the April 2025 pitch tour. Sent meeting
+    arrangements to the heads of APERS, ATRS, and Treasury.
+  key_facts:
+    - "Executive Assistant to the Auditor of State"
+    - "Organized all April 2025 tour logistics"
+    - "Sent meeting arrangements to APERS, ATRS, and Treasury heads"
+  connections:
+    - target: dennis-milligan
+      relationship: "Executive assistant; managed scheduling for Milligan's bond advocacy"
+    - target: lawrence-berman
+      relationship: "Coordinated tour logistics with bond representatives"
+
+- id: darryl-bassett
+  name: Darryl Bassett
+  title: APERS Board Chair / Secretary of Dept. of Transformation & Shared Services
+  agency: APERS / Dept. of Transformation & Shared Services
+  type: official
+  relevance: supporting
+  summary: >-
+    Held a dual role: met with bond representatives as a cabinet official
+    and then chaired the APERS board that authorized the purchase. His
+    position in both state government and the pension board created overlapping
+    authority over the investment decision.
+  key_facts:
+    - "APERS Board Chair"
+    - "Secretary, Department of Transformation & Shared Services"
+    - "Dual role: met with bond reps as cabinet official AND chaired authorizing board"
+  connections:
+    - target: amy-fecher
+      relationship: "Chaired the APERS board where Fecher recommended the sovereign bond authorization"
+    - target: lawrence-berman
+      relationship: "Met with bond representatives in his cabinet role"
+
+# ── Organizations ────────────────────────────────────────────────────────
+
+- id: israel-bonds-dci
+  name: Israel Bonds / Development Corporation for Israel
+  title: FINRA Member Broker-Dealer (CRD# 11148)
+  agency: ~
+  type: organization
+  relevance: key
+  summary: >-
+    FINRA member broker-dealer that sells non-tradable sovereign bonds.
+    Claims more than $50 billion in worldwide sales since 1951. Marketing
+    materials obtained through FOIA blend financial and political messaging.
+    Representatives conducted the April 2025 Arkansas tour and were cc'd
+    on purchase communications across all three agencies.
+  key_facts:
+    - "FINRA member broker-dealer (CRD# 11148)"
+    - "Sells non-tradable sovereign bonds — cannot be sold on secondary markets"
+    - "Claims >$50B worldwide sales since 1951"
+    - "Marketing blends financial and political messaging"
+    - "Representatives cc'd on purchase communications across all three agencies"
+  connections:
+    - target: lawrence-berman
+      relationship: "Berman serves as National Managing Director"
+    - target: bradley-young
+      relationship: "Young serves as Executive Director (Atlanta)"
+    - target: sfof
+      relationship: "Promoted through SFOF network for interstate replication"
+
+- id: sfof
+  name: State Financial Officers Foundation (SFOF)
+  title: Networking Organization for State Financial Officers
+  agency: ~
+  type: organization
+  relevance: key
+  summary: >-
+    Networking organization connecting state financial officers. Milligan
+    served as National Chair. SFOF conferences included "Corporate Partner
+    Spotlight Meetings." After Arkansas pension boards voted to authorize
+    sovereign bond purchases, results were distributed through SFOF channels
+    for interstate replication.
+  key_facts:
+    - "Networking organization for state financial officers"
+    - "Milligan served as National Chair ~2019–2020"
+    - 'Conferences included "Corporate Partner Spotlight Meetings"'
+    - "Post-vote articles distributed through SFOF for interstate replication"
+    - "$2.92M in revenue in 2024"
+  connections:
+    - target: dennis-milligan
+      relationship: "Milligan served as National Chair"
+    - target: stacy-peterson
+      relationship: "Peterson distributed vote results through SFOF network"
+    - target: israel-bonds-dci
+      relationship: "SFOF network used to promote sovereign bonds to other states"

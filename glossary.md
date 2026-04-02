@@ -42,6 +42,6 @@ When officials named the issuer in their own public statements — and framed th
 
 ## Verify for yourself
 
-The FOIA documents on our [documents archive](/documents/) identify the specific instrument in the agencies' own words. Our [evidence page](/evidence/) presents what those documents show. The [interactive network graph](/network/) maps the relationships discovered across the public record.
+The FOIA documents on our [documents archive](/documents/) identify the specific instrument in the agencies' own words. Our [evidence page](/evidence/) presents what those documents show. The [key figures page](/key-figures/) profiles the individuals and organizations discovered across the public record.
 
 For the specific instrument name and issuer identification, [browse the source documents directly](/documents/).

@@ -103,7 +103,7 @@ The diagram below traces the documented connections from our FOIA investigation.
   </span>
 </div>
 
-<p class="influence-flow-note">Every connection shown is documented in FOIA records obtained from five Arkansas state agencies. Link thickness represents relative influence weight, not dollar amounts. For the full evidence chain, see our <a href="/evidence/">evidence page</a> and <a href="/network/">interactive network graph</a>.</p>
+<p class="influence-flow-note">Every connection shown is documented in FOIA records obtained from five Arkansas state agencies. Link thickness represents relative influence weight, not dollar amounts. For the full evidence chain, see our <a href="/evidence/">evidence page</a> and <a href="/key-figures/">key figures profiles</a>.</p>
 
 </div>
 
