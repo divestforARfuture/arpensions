@@ -416,6 +416,23 @@ article > aside[role="complementary"] h3 {
 
 .callout {
   background: var(--bg-secondary, var(--art-gray-light));
+  max-width: 58ch;
+}
+
+/* List breathing room — editorial standard */
+.page-content ul li,
+.page-content ol li,
+.landing-content ul li,
+.landing-content ol li {
+  margin-bottom: 0.5rem;
+  line-height: 1.65;
+}
+
+.page-content ul,
+.page-content ol,
+.landing-content ul,
+.landing-content ol {
+  padding-left: 1.5rem;
 }
 
 /* ========================================================================
@@ -863,8 +880,8 @@ article > aside[role="complementary"] h3 {
 [data-theme="dark"] .hero-subtitle { color: rgba(27, 27, 27, 0.7); }
 [data-theme="dark"] .hero .btn-primary-hero { background: #1b1b1b; color: #F8F7F5; }
 [data-theme="dark"] .hero .btn-primary-hero:hover { color: #F8F7F5; }
-[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(27, 27, 27, 0.25); color: rgba(27, 27, 27, 0.7); }
-[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(27, 27, 27, 0.88); }
+[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(27, 27, 27, 0.4); color: rgba(27, 27, 27, 0.8); }
+[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(27, 27, 27, 0.92); }
 
 /* --- Fallback (no data-theme set): dark hero --- */
 :root:not([data-theme]) .hero { background-color: var(--text-primary); }
@@ -915,8 +932,8 @@ article > aside[role="complementary"] h3 {
   font-family: var(--font-sans);
   font-variant-caps: small-caps;
   font-size: var(--fs-small);
-  letter-spacing: 0.05em;
-  line-height: 1.5;
+  letter-spacing: 0.06em;
+  line-height: 1.65;
   max-width: 180px;
   margin: 0;
   text-align: left;
@@ -965,7 +982,7 @@ article > aside[role="complementary"] h3 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 1.25rem 0;
+  padding: 1.4rem 0;
   border-top: 0.5px solid var(--color-border);
   text-decoration: none;
   color: var(--color-text-primary);
@@ -1017,7 +1034,7 @@ article > aside[role="complementary"] h3 {
 }
 
 [data-theme="dark"] .pathway-link-arrow {
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.35);
 }
 
 .pathway-link:hover .pathway-link-arrow {
@@ -1027,6 +1044,22 @@ article > aside[role="complementary"] h3 {
 
 [data-theme="dark"] .pathways {
   background-color: var(--color-bg-page);
+}
+
+[data-theme="dark"] .pathway-link {
+  border-top-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="dark"] .pathway-link:last-child {
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="dark"] .role-link {
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-theme="dark"] .role-link:nth-child(odd) {
+  border-right-color: rgba(255, 255, 255, 0.12);
 }
 
 /* ========================================================================
@@ -1673,6 +1706,11 @@ html {
     background-color: transparent;
     font-weight: 600;
   }
+
+  [data-theme="dark"] .evidence-toc-link--active,
+  [data-theme="dark"] .evidence-toc-link--active:visited {
+    border-left-color: rgba(90, 173, 226, 0.6);
+  }
 }
 
 /* --- Mobile TOC (<1024px): dropdown at top of content --- */
@@ -1829,8 +1867,8 @@ html {
 .subfinding > summary {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 0;
+  gap: 0.65rem;
+  padding: 0.85rem 0;
   font-family: var(--font-sans);
   font-weight: 400;
   font-size: 0.9375rem;
@@ -1876,7 +1914,7 @@ html {
 }
 
 .subfinding-content {
-  padding: 0 0 1.25rem 1rem;
+  padding: 0.25rem 0 1.25rem 1rem;
   border-left: 2px solid var(--art-accent);
   margin-left: 3px;
   animation: subfinding-fade 0.25s ease;
@@ -2041,7 +2079,7 @@ html {
    ======================================================================== */
 
 .figure-card {
-  border-top: 1px solid var(--border-default, #e2e2e2);
+  border-top: 2px solid var(--accent, #1a5276);
   padding-top: 1.5rem;
   margin-bottom: 2.5rem;
 }
@@ -2079,6 +2117,26 @@ html {
 
 .figure-connections a {
   color: var(--link-color, #1a5276);
+}
+
+.connections-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0;
+}
+
+.connections-list li {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--border-light, #e2e2e2);
+  font-size: 0.9rem;
+}
+
+.connections-list li:last-child {
+  border-bottom: none;
+}
+
+[data-theme="dark"] .connections-list li {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
 }
 
 /* Organization entries: UI font for heading instead of display serif */

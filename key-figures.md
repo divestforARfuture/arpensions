@@ -29,9 +29,13 @@ These two individuals appear most frequently across the entire 1,200+ document c
 {% endfor %}
 </ul>
 
-<p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
-{% endfor %}</p>
+<div class="figure-connections">
+<strong>Connections:</strong>
+<ul class="connections-list">
+{% for conn in figure.connections %}<li><a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}</li>
+{% endfor %}
+</ul>
+</div>
 
 </div>
 {% endfor %}
@@ -57,9 +61,13 @@ The sales representatives who met with every agency head during the April 2025 p
 {% endfor %}
 </ul>
 
-<p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
-{% endfor %}</p>
+<div class="figure-connections">
+<strong>Connections:</strong>
+<ul class="connections-list">
+{% for conn in figure.connections %}<li><a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}</li>
+{% endfor %}
+</ul>
+</div>
 
 </div>
 {% endfor %}
@@ -86,9 +94,13 @@ The people inside the agencies who received, approved, or resisted these investm
 {% endfor %}
 </ul>
 
-<p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
-{% endfor %}</p>
+<div class="figure-connections">
+<strong>Connections:</strong>
+<ul class="connections-list">
+{% for conn in figure.connections %}<li><a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}</li>
+{% endfor %}
+</ul>
+</div>
 
 </div>
 {% endfor %}
@@ -114,9 +126,13 @@ People who played significant documented roles in the process.
 {% endfor %}
 </ul>
 
-<p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
-{% endfor %}</p>
+<div class="figure-connections">
+<strong>Connections:</strong>
+<ul class="connections-list">
+{% for conn in figure.connections %}<li><a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}</li>
+{% endfor %}
+</ul>
+</div>
 
 </div>
 {% endfor %}
@@ -142,9 +158,13 @@ Institutional actors documented across the FOIA record.
 {% endfor %}
 </ul>
 
-<p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
-{% endfor %}</p>
+<div class="figure-connections">
+<strong>Connections:</strong>
+<ul class="connections-list">
+{% for conn in figure.connections %}<li><a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}</li>
+{% endfor %}
+</ul>
+</div>
 
 </div>
 {% endfor %}
