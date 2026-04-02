@@ -20,7 +20,7 @@ These two individuals appear most frequently across the entire 1,200+ document c
 
 ### {{ figure.name }}
 
-<p class="figure-subtitle">{{ figure.title }}{% if figure.agency != "~" %} · {{ figure.agency }}{% endif %}</p>
+<p class="figure-subtitle">{{ figure.title }}{% if figure.agency %} · {{ figure.agency }}{% endif %}</p>
 
 <p class="figure-summary">{{ figure.summary }}</p>
 
@@ -30,7 +30,7 @@ These two individuals appear most frequently across the entire 1,200+ document c
 </ul>
 
 <p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.target | replace: "-", " " | capitalize }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
+{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
 {% endfor %}</p>
 
 </div>
@@ -48,7 +48,7 @@ The sales representatives who met with every agency head during the April 2025 p
 
 ### {{ figure.name }}
 
-<p class="figure-subtitle">{{ figure.title }}{% if figure.agency != "~" %} · {{ figure.agency }}{% endif %}</p>
+<p class="figure-subtitle">{{ figure.title }}{% if figure.agency %} · {{ figure.agency }}{% endif %}</p>
 
 <p class="figure-summary">{{ figure.summary }}</p>
 
@@ -58,7 +58,7 @@ The sales representatives who met with every agency head during the April 2025 p
 </ul>
 
 <p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.target | replace: "-", " " | capitalize }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
+{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
 {% endfor %}</p>
 
 </div>
@@ -77,7 +77,7 @@ The people inside the agencies who received, approved, or resisted these investm
 
 ### {{ figure.name }}
 
-<p class="figure-subtitle">{{ figure.title }}{% if figure.agency != "~" %} · {{ figure.agency }}{% endif %}</p>
+<p class="figure-subtitle">{{ figure.title }}{% if figure.agency %} · {{ figure.agency }}{% endif %}</p>
 
 <p class="figure-summary">{{ figure.summary }}</p>
 
@@ -87,7 +87,7 @@ The people inside the agencies who received, approved, or resisted these investm
 </ul>
 
 <p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.target | replace: "-", " " | capitalize }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
+{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
 {% endfor %}</p>
 
 </div>
@@ -105,7 +105,7 @@ People who played significant documented roles in the process.
 
 ### {{ figure.name }}
 
-<p class="figure-subtitle">{{ figure.title }}{% if figure.agency != "~" %} · {{ figure.agency }}{% endif %}</p>
+<p class="figure-subtitle">{{ figure.title }}{% if figure.agency %} · {{ figure.agency }}{% endif %}</p>
 
 <p class="figure-summary">{{ figure.summary }}</p>
 
@@ -115,7 +115,7 @@ People who played significant documented roles in the process.
 </ul>
 
 <p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.target | replace: "-", " " | capitalize }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
+{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
 {% endfor %}</p>
 
 </div>
@@ -143,7 +143,7 @@ Institutional actors documented across the FOIA record.
 </ul>
 
 <p class="figure-connections"><strong>Connections:</strong>
-{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.target | replace: "-", " " | capitalize }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
+{% for conn in figure.connections %}<a href="#{{ conn.target }}">{{ conn.label }}</a> — {{ conn.relationship }}{% unless forloop.last %}<br>{% endunless %}
 {% endfor %}</p>
 
 </div>

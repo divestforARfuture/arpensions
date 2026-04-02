@@ -2105,7 +2105,7 @@ html {
 
 [data-theme="dark"] .figure-subtitle,
 [data-theme="dark"] .figure-connections {
-  color: var(--color-text-secondary, #aaa);
+  color: var(--text-secondary, #aaa);
 }
 
 [data-theme="dark"] .pattern-section {

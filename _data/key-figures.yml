@@ -25,14 +25,19 @@
     - "18-minute scheduling blitz on April 11, 2025, set meetings across all three agencies"
   connections:
     - target: jason-brady
+      label: Jason Brady
       relationship: "Direct report at Auditor's office; Brady serves as operational conduit across agencies"
     - target: lawrence-berman
+      label: Lawrence Berman
       relationship: "Personal correspondence; Berman called Milligan 'truly one of a kind'"
     - target: sfof
+      label: SFOF
       relationship: "Served as SFOF National Chair; used platform to promote sovereign bonds to other states"
     - target: mark-white
+      label: Mark White
       relationship: "Arranged April 2025 meeting between bond representatives and ATRS"
     - target: amy-fecher
+      label: Amy Fecher
       relationship: "Arranged April 2025 meeting between bond representatives and APERS"
 
 - id: jason-brady
@@ -57,12 +62,16 @@
     - "Appears in 219 FOIA source documents"
   connections:
     - target: dennis-milligan
+      label: Dennis Milligan
       relationship: "Reports to Milligan at Auditor's office; executes cross-agency coordination"
     - target: mark-white
+      label: Mark White
       relationship: "Sent initial sovereign bond request to ATRS"
     - target: amy-fecher
+      label: Amy Fecher
       relationship: "Introduced bonds at APERS board where Brady also sits as member"
     - target: lawrence-berman
+      label: Lawrence Berman
       relationship: "Coordinated April 2025 tour logistics with bond representatives"
 
 # ── Bond Issuer Representatives ──────────────────────────────────────────
@@ -86,12 +95,16 @@
     - "Appears in 25 FOIA source documents"
   connections:
     - target: dennis-milligan
+      label: Dennis Milligan
       relationship: "Personal correspondence; called Milligan 'truly one of a kind'"
     - target: bradley-young
+      label: Bradley Young
       relationship: "Colleague at Israel Bonds / DCI; conducted April 2025 tour together"
     - target: mark-white
+      label: Mark White
       relationship: "Met with White at ATRS on April 15, 2025"
     - target: amy-fecher
+      label: Amy Fecher
       relationship: "Met with Fecher during April 2025 tour"
 
 - id: bradley-young
@@ -112,8 +125,10 @@
     - "Appears in 49 FOIA source documents"
   connections:
     - target: lawrence-berman
+      label: Lawrence Berman
       relationship: "Colleague at Israel Bonds / DCI; conducted April 2025 tour together"
     - target: dennis-milligan
+      label: Dennis Milligan
       relationship: "Congratulated Milligan on re-election; ongoing personal relationship"
 
 # ── Agency Decision-Makers ───────────────────────────────────────────────
@@ -138,10 +153,13 @@
     - "ATRS authorized $50M — its first-ever direct sovereign bond purchase"
   connections:
     - target: jason-brady
+      label: Jason Brady
       relationship: "Received initial sovereign bond request from Brady"
     - target: lawrence-berman
+      label: Lawrence Berman
       relationship: "Met with Berman during April 2025 tour at ATRS"
     - target: danny-knight
+      label: Danny Knight
       relationship: "Knight, as Board Chair, cast sole dissenting vote against White's recommendation"
 
 - id: amy-fecher
@@ -162,10 +180,13 @@
     - "APERS authorized $25–50M — its first-ever direct sovereign bond purchase"
   connections:
     - target: jason-brady
+      label: Jason Brady
       relationship: "Brady introduced bonds at APERS board; Fecher forwarded press inquiry to Brady"
     - target: lawrence-berman
+      label: Lawrence Berman
       relationship: "Met with Berman during April 2025 tour at APERS"
     - target: darryl-bassett
+      label: Darryl Bassett
       relationship: "Bassett chaired the APERS board that authorized the purchase"
 
 - id: danny-knight
@@ -185,6 +206,7 @@
     - "Only board member across both pension systems to vote against authorization"
   connections:
     - target: mark-white
+      label: Mark White
       relationship: "Dissented against White's recommendation to authorize sovereign bonds"
 
 - id: steve-pulley
@@ -204,6 +226,7 @@
     - "Recommendation was overridden"
   connections:
     - target: dennis-milligan
+      label: Dennis Milligan
       relationship: "Milligan, as former Treasurer, initiated the program Pulley later recommended against expanding"
 
 # ── Supporting Roles ─────────────────────────────────────────────────────
@@ -226,8 +249,10 @@
     - 'Religious framing: "Those who bless Israel will be blessed"'
   connections:
     - target: dennis-milligan
+      label: Dennis Milligan
       relationship: "Succeeded Milligan's successor at Treasury; maintained the sovereign bond program"
     - target: amy-fecher
+      label: Amy Fecher
       relationship: "Served on APERS board; chaired subcommittee that authorized APERS purchase"
 
 - id: stacy-peterson
@@ -249,8 +274,10 @@
     - "Appears in 63 FOIA source documents"
   connections:
     - target: dennis-milligan
+      label: Dennis Milligan
       relationship: "Communications director; drafted speeches and managed external outreach"
     - target: sfof
+      label: SFOF
       relationship: "Distributed vote results through SFOF network"
 
 - id: wendy-spadoni
@@ -268,8 +295,10 @@
     - "Sent meeting arrangements to APERS, ATRS, and Treasury heads"
   connections:
     - target: dennis-milligan
+      label: Dennis Milligan
       relationship: "Executive assistant; managed scheduling for Milligan's bond advocacy"
     - target: lawrence-berman
+      label: Lawrence Berman
       relationship: "Coordinated tour logistics with bond representatives"
 
 - id: darryl-bassett
@@ -289,8 +318,10 @@
     - "Dual role: met with bond reps as cabinet official AND chaired authorizing board"
   connections:
     - target: amy-fecher
+      label: Amy Fecher
       relationship: "Chaired the APERS board where Fecher recommended the sovereign bond authorization"
     - target: lawrence-berman
+      label: Lawrence Berman
       relationship: "Met with bond representatives in his cabinet role"
 
 # ── Organizations ────────────────────────────────────────────────────────
@@ -315,10 +346,13 @@
     - "Representatives cc'd on purchase communications across all three agencies"
   connections:
     - target: lawrence-berman
+      label: Lawrence Berman
       relationship: "Berman serves as National Managing Director"
     - target: bradley-young
+      label: Bradley Young
       relationship: "Young serves as Executive Director (Atlanta)"
     - target: sfof
+      label: SFOF
       relationship: "Promoted through SFOF network for interstate replication"
 
 - id: sfof
@@ -341,8 +375,11 @@
     - "$2.92M in revenue in 2024"
   connections:
     - target: dennis-milligan
+      label: Dennis Milligan
       relationship: "Milligan served as National Chair"
     - target: stacy-peterson
+      label: Stacy Peterson
       relationship: "Peterson distributed vote results through SFOF network"
     - target: israel-bonds-dci
+      label: Israel Bonds / DCI
       relationship: "SFOF network used to promote sovereign bonds to other states"
