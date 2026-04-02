@@ -184,7 +184,7 @@ strong, b {
 h1, .h1 {
   font-family: var(--font-display);
   font-size: var(--fs-h1);
-  font-weight: 500;
+  font-weight: 300;
   line-height: var(--lh-heading);
   letter-spacing: -0.02em;
   color: var(--color-text-primary);
@@ -201,7 +201,7 @@ h2, .h2 {
 h3, .h3 {
   font-family: var(--font-serif);
   font-size: var(--fs-h3);
-  font-weight: 500;
+  font-weight: 400;
   line-height: var(--lh-tight);
   color: var(--color-text-primary);
 }
@@ -2491,12 +2491,12 @@ blockquote footer {
 }
 
 .audience-nav-list a:hover {
-  color: var(--art-red);
+  color: var(--art-accent);
 }
 
 .audience-nav-list a[aria-current="page"] {
-  color: var(--art-red);
-  border-bottom-color: var(--art-red);
+  color: var(--art-accent);
+  border-bottom-color: var(--art-accent);
 }
 
 @media (max-width: 600px) {
@@ -2892,12 +2892,12 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .audience-nav-list a:hover {
-  color: var(--art-red);
+  color: var(--art-accent);
 }
 
 [data-theme="dark"] .audience-nav-list a[aria-current="page"] {
-  color: var(--art-red);
-  border-bottom-color: var(--art-red);
+  color: var(--art-accent);
+  border-bottom-color: var(--art-accent);
 }
 
 /* --- 404 Page (dark mode) --- */

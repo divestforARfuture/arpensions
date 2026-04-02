@@ -20,12 +20,12 @@
   function getColors() {
     var dark = document.documentElement.getAttribute('data-theme') === 'dark';
     return {
-      // Node categories
-      origin:    dark ? '#e74c3c' : '#B91C1C',
-      seller:    dark ? '#F59E0B' : '#B45309',
+      // Node categories — monochromatic editorial palette
+      origin:    dark ? '#d4a574' : '#8B6914',
+      seller:    dark ? '#b0aba5' : '#474747',
       conduit:   dark ? '#8a8480' : '#6e6e6e',
       agency:    dark ? '#5dade2' : '#1a5276',
-      external:  dark ? '#818CF8' : '#4F46E5',
+      external:  dark ? '#c4bfbb' : '#3d3d3d',
       // UI
       text:      dark ? '#b0aba5' : '#474747',
       textMuted: dark ? '#8a8480' : '#6e6e6e',
