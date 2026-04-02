@@ -20,7 +20,7 @@ This is the public-facing campaign website for Arkansans for Retirement Transpar
 /                    # Home (hero + stats + pathway cards)
 /the-issue/          # Core fiduciary argument
 /evidence/           # FOIA findings + timeline
-/network/            # D3 force graph of relationships
+/key-figures/        # Profiles of key officials, orgs, and relationship patterns
 /documents/          # FOIA document archive
 /educators/          # ATRS-specific content
 /public-employees/   # APERS-specific content

@@ -6,7 +6,7 @@
     </a>
 
     <ul id="nav-menu" class="nav-links" role="list">
-      {% assign inv_pages = "/evidence/,/documents/,/network/,/news/" | split: "," %}
+      {% assign inv_pages = "/evidence/,/documents/,/key-figures/,/news/" | split: "," %}
       {% assign inv_active = false %}
       {% for p in inv_pages %}{% if page.url == p or page.url contains p %}{% assign inv_active = true %}{% endif %}{% endfor %}
       <li>
@@ -15,7 +15,7 @@
           <div class="nav-dropdown-menu">
             <a href="{{ '/evidence/' | relative_url }}"{% if page.url == '/evidence/' or page.url contains '/evidence/' %} aria-current="page"{% endif %}>Evidence</a>
             <a href="{{ '/documents/' | relative_url }}"{% if page.url == '/documents/' or page.url contains '/documents/' %} aria-current="page"{% endif %}>Documents</a>
-            <a href="{{ '/network/' | relative_url }}"{% if page.url == '/network/' or page.url contains '/network/' %} aria-current="page"{% endif %}>Network</a>
+            <a href="{{ '/key-figures/' | relative_url }}"{% if page.url == '/key-figures/' or page.url contains '/key-figures/' %} aria-current="page"{% endif %}>Key Figures</a>
             <a href="{{ '/news/' | relative_url }}"{% if page.url == '/news/' or page.url contains '/news/' %} aria-current="page"{% endif %}>News</a>
           </div>
         </details>
