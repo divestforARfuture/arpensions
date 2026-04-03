@@ -3,11 +3,17 @@
    Used on the evidence page for the visual overview section.
    ========================================================================== */
 
+/* JS calculates exact breakout (width + margin-left) to escape the
+   evidence-content sidebar column. box-sizing ensures padding is included
+   in the JS-set width. The max-width on content prevents text stretching
+   on ultra-wide monitors. */
 .scrolly {
   position: relative;
   display: flex;
-  padding: 1rem 0 2rem;
+  padding: 1rem 2rem 2rem;
   border-bottom: none;
+  box-sizing: border-box;
+  max-width: none;
 }
 
 .scrolly__graphic {

@@ -68,6 +68,19 @@
     updateVisualization(response.index);
   }
 
+  function adjustBreakout() {
+    // On mobile (< 768px) the scrolly stacks vertically — no breakout needed
+    if (window.innerWidth < 768) {
+      section.style.width = '';
+      section.style.marginLeft = '';
+      return;
+    }
+    var rect = section.getBoundingClientRect();
+    var vw = document.documentElement.clientWidth;
+    section.style.width = vw + 'px';
+    section.style.marginLeft = -rect.left + 'px';
+  }
+
   function init() {
     initVisualization();
 
@@ -85,7 +98,17 @@
       .onStepEnter(handleStepEnter);
 
     // Handle window resize
-    window.addEventListener('resize', scroller.resize);
+    window.addEventListener('resize', function () {
+      scroller.resize();
+      adjustBreakout();
+    });
+
+    // Break scrolly out of the evidence-content sidebar column to full viewport width.
+    // The section is nested inside .evidence-page > .evidence-content (flex child after
+    // the TOC sidebar), so pure CSS calc(-50vw + 50%) would be off-center. JS measures
+    // the exact offset and sets inline styles. No-JS fallback: section stays at its
+    // natural width inside the prose column — still readable, just not full-width.
+    adjustBreakout();
 
     // Enable CSS dimming of inactive steps now that JS is ready
     section.classList.add('scrolly--initialized');

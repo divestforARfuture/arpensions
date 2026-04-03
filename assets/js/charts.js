@@ -248,7 +248,7 @@
   function initAll() {
     initExposureOnScroll();
     initFundedGauge('atrs-funded-gauge', 84, 'ATRS funded ratio');
-    initFundedGauge('apers-funded-gauge', 84, 'APERS funded ratio');
+    initFundedGauge('apers-funded-gauge', 83, 'APERS funded ratio');
   }
 
   // Rebuild all charts on theme change (colors update)
@@ -258,7 +258,7 @@
         // On theme change, rebuild directly (already visible)
         if (exposureChartReady) initExposureChart();
         initFundedGauge('atrs-funded-gauge', 84, 'ATRS funded ratio');
-        initFundedGauge('apers-funded-gauge', 84, 'APERS funded ratio');
+        initFundedGauge('apers-funded-gauge', 83, 'APERS funded ratio');
       }
     });
   });

@@ -56,7 +56,7 @@ For the full timeline, source quotes, and legal analysis, see our [evidence page
 ## APERS by the numbers
 
 <div style="max-width: 280px; margin: 0 auto 1.5rem;" data-aos="fade-up">
-  <canvas id="apers-funded-gauge" aria-label="APERS funded ratio gauge: approximately 84 percent as of FY2024 actuarial valuation" role="img"></canvas>
+  <canvas id="apers-funded-gauge" aria-label="APERS funded ratio gauge: approximately 83 percent as of FY2024 actuarial valuation" role="img"></canvas>
 </div>
 
 <div class="stats-grid" style="max-width: 720px; margin: 0 0 var(--space-xl);">
