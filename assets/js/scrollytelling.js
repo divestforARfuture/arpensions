@@ -17,7 +17,7 @@
     { stat: '0 pages',  subtitle: 'of independent credit analysis',               colorClass: 'viz-stat--danger' },
     { stat: '49 days',  subtitle: 'from sales pitch to $155 million authorized',   colorClass: 'viz-stat--accent' },
     { stat: '37 vs 0',  subtitle: 'pages of analysis \u2014 other investments vs. these bonds', colorClass: 'viz-stat--danger' },
-    { stat: '1 dissent', subtitle: 'lone \"no\" vote on the ATRS board',            colorClass: 'viz-stat--accent' }
+    { stat: '1 dissent', subtitle: 'lone "no" vote on the ATRS board',            colorClass: 'viz-stat--accent' }
   ];
 
   function initVisualization() {
