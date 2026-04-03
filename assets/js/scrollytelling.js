@@ -20,15 +20,6 @@
     { stat: '1 dissent', subtitle: 'lone "no" vote on the ATRS board',            colorClass: 'viz-stat--accent' }
   ];
 
-  function buildDots(activeIndex) {
-    var html = '<ul class="viz-dots" aria-hidden="true">';
-    for (var i = 0; i < vizData.length; i++) {
-      html += '<li' + (i === activeIndex ? ' class="is-current"' : '') + '></li>';
-    }
-    html += '</ul>';
-    return html;
-  }
-
   function initVisualization() {
     if (!vizContainer) return;
 
@@ -40,8 +31,9 @@
       layer.setAttribute('data-viz-index', i);
       layer.innerHTML =
         '<div class="viz-stat ' + d.colorClass + '">' + d.stat + '</div>' +
+        '<hr class="viz-separator" aria-hidden="true">' +
         '<div class="viz-subtitle">' + d.subtitle + '</div>' +
-        buildDots(i);
+        '<div class="viz-counter">' + (i + 1) + ' of ' + vizData.length + '</div>';
       vizContainer.appendChild(layer);
     }
   }
