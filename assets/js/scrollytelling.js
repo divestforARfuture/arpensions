@@ -7,8 +7,6 @@
   var section = document.querySelector('.scrolly');
   if (!section) return;
 
-  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var graphic = section.querySelector('.scrolly__graphic');
   var vizContainer = document.getElementById('scrolly-viz');
   var steps = section.querySelectorAll('.scrolly__step');
   var scroller = scrollama();
@@ -88,6 +86,9 @@
 
     // Handle window resize
     window.addEventListener('resize', scroller.resize);
+
+    // Enable CSS dimming of inactive steps now that JS is ready
+    section.classList.add('scrolly--initialized');
   }
 
   init();

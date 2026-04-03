@@ -12,7 +12,7 @@
 
 .scrolly__graphic {
   position: sticky;
-  top: 4rem; /* below nav */
+  top: var(--nav-height, 5rem); /* keep in sync with .site-nav height */
   align-self: flex-start;
   width: 45%;
   height: calc(100vh - 6rem);
@@ -28,16 +28,23 @@
   order: 1;
 }
 
+/* Steps are fully visible by default (no-JS baseline) */
 .scrolly__step {
   min-height: 60vh;
   display: flex;
   align-items: center;
   padding: 2rem 0;
-  opacity: 0.25;
+  opacity: 1;
   transition: opacity 0.3s ease;
 }
 
-.scrolly__step.is-active {
+/* Only dim inactive steps after JS has initialized successfully */
+.scrolly--initialized .scrolly__step {
+  opacity: 0.25;
+}
+
+.scrolly--initialized .scrolly__step.is-active,
+.scrolly__step:focus-within {
   opacity: 1;
 }
 

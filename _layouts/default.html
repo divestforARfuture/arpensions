@@ -59,8 +59,7 @@
   <script src="{{ '/assets/js/scroll-progress.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/scroll-to-top.js' | relative_url }}"></script>
   {% if page.scrollytelling %}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/3.2.0/scrollama.min.js" crossorigin="anonymous"></script>
-  <!-- TODO: add SRI hash for scrollama 3.2.0 -->
+  <script src="{{ '/assets/js/vendor/scrollama.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/scrollytelling.js' | relative_url }}"></script>
   {% endif %}
 </body>
