@@ -16,8 +16,8 @@
     { stat: '$100M',    subtitle: 'pension funds committed to sovereign bonds',    colorClass: 'viz-stat--accent' },
     { stat: '0 pages',  subtitle: 'of independent credit analysis',               colorClass: 'viz-stat--danger' },
     { stat: '49 days',  subtitle: 'from sales pitch to $155 million authorized',   colorClass: 'viz-stat--accent' },
-    { stat: '37 vs 0',  subtitle: 'pages of analysis — other investments vs. these bonds', colorClass: 'viz-stat--danger' },
-    { stat: '1 dissent', subtitle: 'lone "no" vote on the ATRS board',            colorClass: 'viz-stat--accent' }
+    { stat: '37 vs 0',  subtitle: 'pages of analysis \u2014 other investments vs. these bonds', colorClass: 'viz-stat--danger' },
+    { stat: '1 dissent', subtitle: 'lone \"no\" vote on the ATRS board',            colorClass: 'viz-stat--accent' }
   ];
 
   function initVisualization() {
@@ -32,8 +32,7 @@
       layer.innerHTML =
         '<div class="viz-stat ' + d.colorClass + '">' + d.stat + '</div>' +
         '<hr class="viz-separator" aria-hidden="true">' +
-        '<div class="viz-subtitle">' + d.subtitle + '</div>' +
-        '<div class="viz-counter">' + (i + 1) + ' of ' + vizData.length + '</div>';
+        '<div class="viz-subtitle">' + d.subtitle + '</div>';
       vizContainer.appendChild(layer);
     }
   }
