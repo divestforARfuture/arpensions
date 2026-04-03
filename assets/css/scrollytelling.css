@@ -88,14 +88,12 @@
   justify-content: center;
   text-align: center;
   opacity: 0;
-  transition: opacity 0.4s ease, transform 0.4s ease;
-  transform: translateY(8px);
+  transition: opacity 0.5s ease;
   padding: 2rem;
 }
 
 .scrolly__viz-state.is-visible {
   opacity: 1;
-  transform: translateY(0);
 }
 
 .viz-stat {
@@ -104,7 +102,7 @@
   font-size: clamp(3rem, 8vw, 5rem);
   line-height: 1.1;
   letter-spacing: -0.02em;
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.5rem;
 }
 
 .viz-stat--accent {
@@ -115,6 +113,14 @@
   color: var(--color-danger, #B91C1C);
 }
 
+/* Thin rule between stat number and subtitle */
+.viz-separator {
+  width: 3rem;
+  border: none;
+  border-top: 1px solid var(--border-light, #e2e2e2);
+  margin: 0.75rem auto;
+}
+
 .viz-subtitle {
   font-family: var(--font-sans, 'Inter', -apple-system, sans-serif);
   font-weight: 400;
@@ -122,28 +128,16 @@
   line-height: 1.5;
   color: var(--text-muted);
   max-width: 24ch;
-  margin: 0 0 1.5rem;
-}
-
-/* Step indicator dots */
-.viz-dots {
-  display: flex;
-  gap: 0.5rem;
-  list-style: none;
-  padding: 0;
   margin: 0;
 }
 
-.viz-dots li {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--border-medium, #c4c4c4);
-  transition: background 0.3s ease;
-}
-
-.viz-dots li.is-current {
-  background: var(--accent, #1a5276);
+/* Step counter — editorial page number style */
+.viz-counter {
+  font-family: var(--font-mono, 'IBM Plex Mono', monospace);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  margin-top: 1.5rem;
 }
 
 /* --- Dark mode --- */
@@ -154,14 +148,6 @@
 
 [data-theme="dark"] .viz-stat--danger {
   color: #EF4444; /* lighter red for dark bg contrast */
-}
-
-[data-theme="dark"] .viz-dots li {
-  background: var(--border-light, #3a3a3a);
-}
-
-[data-theme="dark"] .viz-dots li.is-current {
-  background: #5dade2;
 }
 
 /* --- Mobile: stacked layout --- */
@@ -209,6 +195,5 @@
 
   .scrolly__viz-state {
     transition: none;
-    transform: none;
   }
 }
