@@ -69,12 +69,16 @@
   }
 
   function adjustBreakout() {
-    // On mobile (< 768px) the scrolly stacks vertically — no breakout needed
-    if (window.innerWidth < 768) {
+    // On mobile (<=768px) the scrolly stacks vertically — no breakout needed
+    if (window.innerWidth <= 768) {
       section.style.width = '';
       section.style.marginLeft = '';
       return;
     }
+    // Reset inline styles before measuring so getBoundingClientRect()
+    // returns the natural, un-adjusted offset (not 0 from a previous call)
+    section.style.width = '';
+    section.style.marginLeft = '';
     var rect = section.getBoundingClientRect();
     var vw = document.documentElement.clientWidth;
     section.style.width = vw + 'px';
@@ -97,10 +101,17 @@
       })
       .onStepEnter(handleStepEnter);
 
-    // Handle window resize
+    // Handle window resize — throttled with rAF to prevent layout thrashing
+    var resizePending = false;
     window.addEventListener('resize', function () {
-      scroller.resize();
-      adjustBreakout();
+      if (!resizePending) {
+        resizePending = true;
+        requestAnimationFrame(function () {
+          scroller.resize();
+          adjustBreakout();
+          resizePending = false;
+        });
+      }
     });
 
     // Break scrolly out of the evidence-content sidebar column to full viewport width.
