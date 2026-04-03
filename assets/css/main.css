@@ -3029,6 +3029,11 @@ html.theme-transition *::after {
   margin: 0;
 }
 
+/* Each section creates a containing block for its sticky year header */
+.timeline-section {
+  position: relative;
+}
+
 .timeline-year {
   font-family: var(--font-mono);
   font-weight: 600;
@@ -3042,8 +3047,14 @@ html.theme-transition *::after {
   z-index: 2;
 }
 
+/* Opaque background so stuck headers cover content beneath;
+   specificity must beat the dark-mode :where(div){transparent} reset */
+.timeline-wrapper .timeline-year {
+  background-color: var(--bg-primary);
+}
+
 /* First year header inside wrapper needs less top margin */
-.timeline-wrapper > .timeline-year:first-child {
+.timeline-wrapper > .timeline-section:first-child > .timeline-year {
   margin-top: 0;
 }
 

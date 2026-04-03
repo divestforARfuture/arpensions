@@ -6,6 +6,7 @@ permalink: /evidence/
 charts: true
 apexcharts: true
 evidence_toc: true
+scrollytelling: true
 ---
 
 <div class="evidence-page" markdown="1">
@@ -22,7 +23,47 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 </div>
 
----
+<section class="scrolly" aria-label="Visual overview of key findings">
+  <div class="scrolly__graphic" aria-hidden="true">
+    <div class="scrolly__viz" id="scrolly-viz">
+      <!-- Visualization states rendered here by JS -->
+    </div>
+  </div>
+  <div class="scrolly__text">
+    <div class="scrolly__step" data-step="0">
+      <div class="step__content">
+        <h3>Up to $100 million committed</h3>
+        <p>Three state agencies authorized or committed up to $100 million in pension funds to non-tradable foreign sovereign bonds — the first direct foreign sovereign debt purchases in Arkansas pension history.</p>
+      </div>
+    </div>
+    <div class="scrolly__step" data-step="1">
+      <div class="step__content">
+        <h3>Zero pages of independent analysis</h3>
+        <p>Across more than 1,200 FOIA documents from five state agencies, we found zero pages of independent credit analysis. The bond issuer's own sales representatives served as both seller and analyst.</p>
+      </div>
+    </div>
+    <div class="scrolly__step" data-step="2">
+      <div class="step__content">
+        <h3>49 days from sales pitch to $155 million</h3>
+        <p>After a two-day pitch tour arranged by the Auditor of State in his own Capitol office, all three agencies authorized investments within 49 days — despite an internal memo recommending against new purchases.</p>
+      </div>
+    </div>
+    <div class="scrolly__step" data-step="3">
+      <div class="step__content">
+        <h3>37 pages vs. zero pages</h3>
+        <p>At the same board meetings, APERS received 37 pages of Callan analysis for infrastructure investments — and zero pages for the sovereign bond authorization. Every other investment had professional review. This one had a verbal pitch from the Auditor's proxy.</p>
+      </div>
+    </div>
+    <div class="scrolly__step" data-step="4">
+      <div class="step__content">
+        <h3>One voice of dissent</h3>
+        <p>ATRS Board Chair Danny Knight cast the sole "no" vote, warning that selecting a specific bond at a trustee's request was "going outside of the scope of the way we usually do things." Read the full evidence below.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="section-rule" aria-hidden="true">
 
 <div class="evidence-findings" markdown="1">
 
@@ -348,6 +389,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <div class="timeline-wrapper" aria-label="Timeline of non-tradable sovereign bond investment events">
 
+<div class="timeline-section">
 <div class="timeline-year">2017</div>
 <ol class="timeline" role="list" aria-label="2017 events">
   <li class="timeline-event" data-aos="fade-left">
@@ -356,7 +398,9 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <p>State Treasurer Dennis Milligan, after being approached by the bond issuer's representatives, reached out to then-Senator Jason Rapert to sponsor legislation enabling the state to purchase these bonds. This led to the state's first sovereign bond purchases through the Treasury. Rapert now chairs Christian outreach for the broker-dealer (<a href="https://brokercheck.finra.org/firm/summary/11148">FINRA BrokerCheck, CRD# 11148</a>) — the legislator who created the legal authority now works for the bond seller.</p>
   </li>
 </ol>
+</div>
 
+<div class="timeline-section">
 <div class="timeline-year">2018</div>
 <ol class="timeline" role="list" aria-label="2018 events">
   <li class="timeline-event" data-aos="fade-left">
@@ -365,7 +409,9 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <p>The bond issuer's executives Lawrence Berman and Bradley Young sent congratulations to Dennis Milligan on his re-election as State Treasurer. Milligan replied that he looked "forward to our future together." (<a href="/assets/documents/berman-young-congratulations-milligan-2018.pdf">Read the correspondence</a>)</p>
   </li>
 </ol>
+</div>
 
+<div class="timeline-section">
 <div class="timeline-year">2020</div>
 <ol class="timeline" role="list" aria-label="2020 events">
   <li class="timeline-event" data-aos="fade-left">
@@ -374,7 +420,9 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <p>Indiana Treasurer Kelly Mitchell nominated Dennis Milligan as National Chair of the State Financial Officers Foundation, praising his service and noting he managed an approximately $4.5 billion portfolio. (<a href="/assets/documents/sfof-nominates-milligan-chair-2020.pdf">Read the nomination</a>)</p>
   </li>
 </ol>
+</div>
 
+<div class="timeline-section">
 <div class="timeline-year">2023</div>
 <ol class="timeline" role="list" aria-label="2023 events">
   <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
@@ -383,7 +431,9 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <p>State Board of Finance approves $10 million additional purchase of non-tradable sovereign bonds, bringing total holdings to $57 million. Officials frame the purchase in political rather than financial terms.</p>
   </li>
 </ol>
+</div>
 
+<div class="timeline-section">
 <div class="timeline-year">2024</div>
 <ol class="timeline" role="list" aria-label="2024 events">
   <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
@@ -397,7 +447,9 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <p>Auditor Milligan arranges meeting between the bond issuer's representatives and state officials.</p>
   </li>
 </ol>
+</div>
 
+<div class="timeline-section">
 <div class="timeline-year">2025</div>
 <ol class="timeline" role="list" aria-label="2025 events">
   <li class="timeline-event timeline-event--highlight" data-aos="fade-left">
@@ -456,7 +508,9 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <p>ATRS Deputy Director Rod Graves confirms in a routine board liquidity update that the full $50 million sovereign bond mandate was funded through the Scout (Reams) account — six months after board authorization and without an independent credit analysis at any stage.</p>
   </li>
 </ol>
+</div>
 
+<div class="timeline-section">
 <div class="timeline-year">2026</div>
 <ol class="timeline" role="list" aria-label="2026 events">
   <li class="timeline-event" data-aos="fade-left">
@@ -480,6 +534,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
     <p>ASHERS (Arkansas State Highway Employees' Retirement System) delivered 5 documents including email correspondence revealing that the bond issuer's national sales leadership was introduced to ASHERS staff through the same April 2025 pitch tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009. LOPFI response still pending. Investigation corpus now covers 5 state agencies with 1,227 total documents (1,044 active after deduplication).</p>
   </li>
 </ol>
+</div>
 
 </div>
 
