@@ -124,15 +124,6 @@
   margin: 0;
 }
 
-/* Step counter — editorial page number style */
-.viz-counter {
-  font-family: var(--font-mono, 'IBM Plex Mono', monospace);
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  letter-spacing: 0.05em;
-  margin-top: 1.5rem;
-}
-
 /* --- Dark mode --- */
 
 [data-theme="dark"] .viz-stat--accent {

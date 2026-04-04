@@ -31,7 +31,6 @@ Every claim on this site is backed by documents in the public record. Below are 
         <div class="viz-stat viz-stat--accent" id="scrolly-stat">$100M</div>
         <hr class="viz-separator" aria-hidden="true">
         <div class="viz-subtitle" id="scrolly-subtitle">pension funds committed to sovereign bonds</div>
-        <div class="viz-counter" id="scrolly-counter">1 of 5</div>
       </div>
     </div>
   </div>
