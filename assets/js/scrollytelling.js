@@ -7,9 +7,9 @@
   var section = document.querySelector('.scrolly');
   if (!section) return;
 
-  var vizContainer = document.getElementById('scrolly-viz');
   var steps = section.querySelectorAll('.scrolly__step');
   var scroller = scrollama();
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // Data for each step's visualization state
   var vizData = [
@@ -17,35 +17,68 @@
     { stat: '0 pages',  subtitle: 'of independent credit analysis',               colorClass: 'viz-stat--danger' },
     { stat: '49 days',  subtitle: 'from sales pitch to $155 million authorized',   colorClass: 'viz-stat--accent' },
     { stat: '37 vs 0',  subtitle: 'pages of analysis \u2014 other investments vs. these bonds', colorClass: 'viz-stat--danger' },
-    { stat: '1 dissent', subtitle: 'lone "no" vote on the ATRS board',            colorClass: 'viz-stat--accent' }
+    { stat: '1 dissent', subtitle: 'lone \u201cno\u201d vote on the ATRS board',            colorClass: 'viz-stat--accent' }
   ];
 
-  function initVisualization() {
-    if (!vizContainer) return;
-
-    // Create one state layer per step
-    for (var i = 0; i < vizData.length; i++) {
-      var d = vizData[i];
-      var layer = document.createElement('div');
-      layer.className = 'scrolly__viz-state' + (i === 0 ? ' is-visible' : '');
-      layer.setAttribute('data-viz-index', i);
-      layer.innerHTML =
-        '<div class="viz-stat ' + d.colorClass + '">' + d.stat + '</div>' +
-        '<hr class="viz-separator" aria-hidden="true">' +
-        '<div class="viz-subtitle">' + d.subtitle + '</div>';
-      vizContainer.appendChild(layer);
-    }
-  }
+  var currentStep = 0;
+  var statEl = document.getElementById('scrolly-stat');
+  var subEl = document.getElementById('scrolly-subtitle');
+  var counterEl = document.getElementById('scrolly-counter');
+  var isTransitioning = false;
 
   function updateVisualization(stepIndex) {
-    var layers = vizContainer.querySelectorAll('.scrolly__viz-state');
-    for (var i = 0; i < layers.length; i++) {
-      if (i === stepIndex) {
-        layers[i].classList.add('is-visible');
-      } else {
-        layers[i].classList.remove('is-visible');
-      }
+    if (stepIndex === currentStep && stepIndex !== 0) return;
+    if (stepIndex < 0 || stepIndex >= vizData.length) return;
+
+    var d = vizData[stepIndex];
+
+    // Update counter immediately
+    if (counterEl) {
+      counterEl.textContent = (stepIndex + 1) + ' of ' + vizData.length;
     }
+
+    if (typeof d3 !== 'undefined' && !prefersReducedMotion && !isTransitioning) {
+      isTransitioning = true;
+
+      // Cancel any running transitions
+      d3.select(statEl).interrupt();
+      d3.select(subEl).interrupt();
+
+      // Staggered crossfade with D3
+      d3.select(statEl)
+        .transition().duration(200)
+        .style('opacity', 0)
+        .on('end', function () {
+          statEl.textContent = d.stat;
+          statEl.className = 'viz-stat ' + d.colorClass;
+          d3.select(statEl)
+            .transition().duration(300)
+            .style('opacity', 1)
+            .on('end', function () {
+              isTransitioning = false;
+            });
+        });
+
+      d3.select(subEl)
+        .transition().duration(200).delay(100)
+        .style('opacity', 0)
+        .on('end', function () {
+          subEl.textContent = d.subtitle;
+          d3.select(subEl)
+            .transition().duration(300)
+            .style('opacity', 1);
+        });
+    } else {
+      // Immediate swap (no D3 or reduced-motion or mid-transition)
+      statEl.textContent = d.stat;
+      statEl.className = 'viz-stat ' + d.colorClass;
+      subEl.textContent = d.subtitle;
+      statEl.style.opacity = '1';
+      subEl.style.opacity = '1';
+      isTransitioning = false;
+    }
+
+    currentStep = stepIndex;
   }
 
   function handleStepEnter(response) {
@@ -60,9 +93,8 @@
   }
 
   function init() {
-    initVisualization();
-
-    // Show first step as active on load
+    // The viz container already has the first state in the HTML (no-JS fallback).
+    // Just ensure the first step is active on load.
     if (steps.length > 0) {
       steps[0].classList.add('is-active');
     }

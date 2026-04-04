@@ -79,21 +79,14 @@
   justify-content: center;
 }
 
-.scrolly__viz-state {
-  position: absolute;
-  inset: 0;
+/* Single-container viz inner layout (replaces multi-layer approach) */
+.scrolly__viz-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  opacity: 0;
-  transition: opacity 0.5s ease;
   padding: 2rem;
-}
-
-.scrolly__viz-state.is-visible {
-  opacity: 1;
 }
 
 .viz-stat {
@@ -129,6 +122,15 @@
   color: var(--text-muted);
   max-width: 24ch;
   margin: 0;
+}
+
+/* Step counter — editorial page number style */
+.viz-counter {
+  font-family: var(--font-mono, 'IBM Plex Mono', monospace);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  margin-top: 1.5rem;
 }
 
 /* --- Dark mode --- */
@@ -184,7 +186,8 @@
     opacity: 1;
   }
 
-  .scrolly__viz-state {
+  .viz-stat,
+  .viz-subtitle {
     transition: none;
   }
 }
