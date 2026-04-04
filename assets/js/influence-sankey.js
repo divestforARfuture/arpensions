@@ -321,8 +321,10 @@
         .text(link.desc.length > 30 ? link.desc.slice(0, 28) + '\u2026' : link.desc);
     });
 
-    // Entrance animation: start hidden, reveal on scroll into view
-    if (!reducedMotion && !hasAnimated) {
+    // Entrance animation: start hidden, reveal on scroll into view.
+    // Guard also requires IntersectionObserver — without it, chart
+    // renders fully visible (no animation) to avoid being permanently hidden.
+    if (!reducedMotion && !hasAnimated && 'IntersectionObserver' in window) {
       linkPaths
         .attr('stroke-dasharray', function () {
           return this.getTotalLength() + ' ' + this.getTotalLength();
