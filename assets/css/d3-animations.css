@@ -1,6 +1,6 @@
 /* ==========================================================================
-   D3 Animation Styles — Unit chart, timeline thread, animation overrides
-   Loaded only on pages with d3: true or timeline_thread: true
+   Animation Styles — Unit chart, timeline thread, animation overrides
+   Loaded only on pages with timeline_thread: true
    ========================================================================== */
 
 /* --- Timeline Drawing Thread --- */
@@ -39,9 +39,9 @@
   fill: #5dade2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .timeline-thread {
-    left: 0.75rem; /* matches mobile .timeline-wrapper::before */
+    left: 0.75rem; /* matches mobile .timeline-wrapper::before at 600px */
   }
 }
 

@@ -1,16 +1,26 @@
 /* ==========================================================================
-   D3 Evidence Enhancements — Unit chart for subfinding 3g
-   Loaded only on pages with d3: true
+   Evidence Enhancements — Unit chart for subfinding 3g
+   Vanilla JS (no D3 dependency). Loaded on the evidence page.
    ========================================================================== */
 
 (function () {
   'use strict';
 
-  if (typeof d3 === 'undefined') return;
-
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // --- Unit Chart (37 vs 0) ---
+
+  function appendSquares(container, count, className) {
+    for (var i = 0; i < count; i++) {
+      var div = document.createElement('div');
+      div.className = 'unit ' + className;
+      div.setAttribute('aria-hidden', 'true');
+      if (prefersReducedMotion && className === 'unit--filled') {
+        div.classList.add('is-visible');
+      }
+      container.appendChild(div);
+    }
+  }
 
   function initUnitChart() {
     var filledGrid = document.getElementById('unit-chart-filled');
@@ -20,23 +30,9 @@
     var TOTAL = 37;
     var STAGGER_MS = 15;
 
-    // Create filled squares using D3 data join
-    d3.select(filledGrid)
-      .selectAll('.unit')
-      .data(d3.range(TOTAL))
-      .enter()
-      .append('div')
-      .attr('class', 'unit unit--filled' + (prefersReducedMotion ? ' is-visible' : ''))
-      .attr('aria-hidden', 'true');
-
-    // Create empty squares
-    d3.select(emptyGrid)
-      .selectAll('.unit')
-      .data(d3.range(TOTAL))
-      .enter()
-      .append('div')
-      .attr('class', 'unit unit--empty')
-      .attr('aria-hidden', 'true');
+    // Create squares
+    appendSquares(filledGrid, TOTAL, 'unit--filled');
+    appendSquares(emptyGrid, TOTAL, 'unit--empty');
 
     // If reduced motion, we're done — all squares already visible
     if (prefersReducedMotion) return;

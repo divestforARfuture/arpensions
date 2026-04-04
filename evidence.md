@@ -7,7 +7,6 @@ charts: true
 apexcharts: true
 evidence_toc: true
 scrollytelling: true
-d3: true
 timeline_thread: true
 ---
 
@@ -219,7 +218,7 @@ The publicly-posted APERS board packets for the May 15 Investment Subcommittee a
     <div class="unit-chart__grid" id="unit-chart-filled"></div>
     <div class="unit-chart__count">37 pages</div>
   </div>
-  <div class="unit-chart__section unit-chart__section--empty">
+  <div class="unit-chart__section">
     <div class="unit-chart__label">Sovereign bonds</div>
     <div class="unit-chart__grid" id="unit-chart-empty"></div>
     <div class="unit-chart__count">0 pages</div>

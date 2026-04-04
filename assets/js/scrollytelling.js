@@ -20,65 +20,65 @@
     { stat: '1 dissent', subtitle: 'lone \u201cno\u201d vote on the ATRS board',            colorClass: 'viz-stat--accent' }
   ];
 
-  var currentStep = 0;
+  var currentStep = -1;
   var statEl = document.getElementById('scrolly-stat');
   var subEl = document.getElementById('scrolly-subtitle');
   var counterEl = document.getElementById('scrolly-counter');
-  var isTransitioning = false;
+
+  // Generation counter — prevents stale setTimeout callbacks from
+  // overwriting content when the user scrolls fast between steps
+  var transitionId = 0;
 
   function updateVisualization(stepIndex) {
-    if (stepIndex === currentStep && stepIndex !== 0) return;
+    if (stepIndex === currentStep) return;
     if (stepIndex < 0 || stepIndex >= vizData.length) return;
 
     var d = vizData[stepIndex];
+    currentStep = stepIndex;
+    transitionId++;
+    var myId = transitionId;
 
     // Update counter immediately
     if (counterEl) {
       counterEl.textContent = (stepIndex + 1) + ' of ' + vizData.length;
     }
 
-    if (typeof d3 !== 'undefined' && !prefersReducedMotion && !isTransitioning) {
-      isTransitioning = true;
+    if (!prefersReducedMotion) {
+      // Fade out stat
+      statEl.style.transition = 'opacity 0.2s ease';
+      statEl.style.opacity = '0';
 
-      // Cancel any running transitions
-      d3.select(statEl).interrupt();
-      d3.select(subEl).interrupt();
+      // Fade out subtitle (100ms delay)
+      setTimeout(function () {
+        subEl.style.transition = 'opacity 0.2s ease';
+        subEl.style.opacity = '0';
+      }, 100);
 
-      // Staggered crossfade with D3
-      d3.select(statEl)
-        .transition().duration(200)
-        .style('opacity', 0)
-        .on('end', function () {
-          statEl.textContent = d.stat;
-          statEl.className = 'viz-stat ' + d.colorClass;
-          d3.select(statEl)
-            .transition().duration(300)
-            .style('opacity', 1)
-            .on('end', function () {
-              isTransitioning = false;
-            });
-        });
+      // After fade out completes, swap text and fade in
+      setTimeout(function () {
+        if (myId !== transitionId) return; // stale — newer step took over
+        statEl.textContent = d.stat;
+        statEl.className = 'viz-stat ' + d.colorClass;
+        void statEl.offsetWidth; // force reflow before fading in
+        statEl.style.transition = 'opacity 0.3s ease';
+        statEl.style.opacity = '1';
+      }, 220);
 
-      d3.select(subEl)
-        .transition().duration(200).delay(100)
-        .style('opacity', 0)
-        .on('end', function () {
-          subEl.textContent = d.subtitle;
-          d3.select(subEl)
-            .transition().duration(300)
-            .style('opacity', 1);
-        });
+      setTimeout(function () {
+        if (myId !== transitionId) return; // stale
+        subEl.textContent = d.subtitle;
+        void subEl.offsetWidth;
+        subEl.style.transition = 'opacity 0.3s ease';
+        subEl.style.opacity = '1';
+      }, 320);
     } else {
-      // Immediate swap (no D3 or reduced-motion or mid-transition)
+      // Immediate swap (reduced motion)
       statEl.textContent = d.stat;
       statEl.className = 'viz-stat ' + d.colorClass;
       subEl.textContent = d.subtitle;
       statEl.style.opacity = '1';
       subEl.style.opacity = '1';
-      isTransitioning = false;
     }
-
-    currentStep = stepIndex;
   }
 
   function handleStepEnter(response) {
