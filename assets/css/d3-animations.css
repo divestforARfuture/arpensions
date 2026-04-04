@@ -13,6 +13,7 @@
   height: 100%;
   pointer-events: none;
   z-index: 1;
+  view-transition-name: none; /* exclude from view transition snapshots */
 }
 
 .timeline-thread line {
