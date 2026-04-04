@@ -7,13 +7,14 @@ charts: true
 apexcharts: true
 evidence_toc: true
 scrollytelling: true
+timeline_thread: true
 ---
 
 <div class="evidence-page" markdown="1">
 
 ## Our research
 
-Arkansans for Retirement Transparency has analyzed **more than 1,200 public records** from three rounds of Freedom of Information Act (FOIA) requests to five Arkansas state agencies: the State Treasury, ATRS, APERS, the Auditor of State, and ASHERS. The first round (August 2025) covered four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive). The third round (March 2026) expanded to ASHERS, ASPRS, and LOPFI — ASHERS delivered 5 documents, ASPRS confirmed no responsive records, and LOPFI's response is pending.
+Arkansans for Retirement Transparency has analyzed **more than <span data-countup="1200" data-countup-suffix="" data-countup-duration="1.5">1,200</span> public records** from three rounds of Freedom of Information Act (FOIA) requests to five Arkansas state agencies: the State Treasury, ATRS, APERS, the Auditor of State, and ASHERS. The first round (August 2025) covered four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive). The third round (March 2026) expanded to ASHERS, ASPRS, and LOPFI — ASHERS delivered 5 documents, ASPRS confirmed no responsive records, and LOPFI's response is pending.
 
 Every claim on this site is backed by documents in the public record. Below are the key findings.
 
@@ -26,7 +27,12 @@ Every claim on this site is backed by documents in the public record. Below are 
 <section class="scrolly" aria-label="Visual overview of key findings">
   <div class="scrolly__graphic" aria-hidden="true">
     <div class="scrolly__viz" id="scrolly-viz">
-      <!-- Visualization states rendered here by JS -->
+      <div class="scrolly__viz-inner">
+        <div class="viz-stat viz-stat--accent" id="scrolly-stat">$100M</div>
+        <hr class="viz-separator" aria-hidden="true">
+        <div class="viz-subtitle" id="scrolly-subtitle">pension funds committed to sovereign bonds</div>
+        <div class="viz-counter" id="scrolly-counter">1 of 5</div>
+      </div>
     </div>
   </div>
   <div class="scrolly__text">
@@ -206,6 +212,19 @@ ATRS's $23.7 billion portfolio now holds $50 million in non-tradable sovereign d
 
 The publicly-posted APERS board packets for the May 15 Investment Subcommittee and June 11 Full Board meetings reveal a stark contrast in how the board handled different investment decisions at the same meetings.
 
+<div class="unit-chart" aria-label="Visual comparison: 37 pages of analysis for infrastructure investments versus zero pages for sovereign bonds" role="img">
+  <div class="unit-chart__section">
+    <div class="unit-chart__label">Infrastructure investments</div>
+    <div class="unit-chart__grid" id="unit-chart-filled"></div>
+    <div class="unit-chart__count">37 pages</div>
+  </div>
+  <div class="unit-chart__section">
+    <div class="unit-chart__label">Sovereign bonds</div>
+    <div class="unit-chart__grid" id="unit-chart-empty"></div>
+    <div class="unit-chart__count">0 pages</div>
+  </div>
+</div>
+
 For secondary infrastructure investments (up to $100 million each in three funds), the board received:
 
 - 8 slides of CIO analysis from Carlos Borromeo on portfolio positioning and risk/return characteristics
@@ -333,7 +352,7 @@ Under Arkansas's pecuniary-only standard, none of these are lawful bases for an 
 
 Arkansas's pension funds had never directly invested in foreign government bonds before 2025. Neither ATRS nor APERS previously held any direct foreign sovereign debt; their bond portfolios were limited to U.S. domestic and indirect international exposure.
 
-Authorizing up to $100 million combined in a novel asset class — without documented independent analysis — represents a departure from established practice.
+Authorizing up to $<span data-countup="100" data-countup-prefix="" data-countup-suffix=" million" data-countup-duration="1.5">100 million</span> combined in a novel asset class — without documented independent analysis — represents a departure from established practice.
 
 </div>
 
@@ -372,7 +391,7 @@ Authorizing up to $100 million combined in a novel asset class — without docum
 
 <h2 id="the-decision-window">The decision window</h2>
 
-<p class="decision-window-sub">Three independent state agencies authorized up to $155 million within 49 days of the same April 2025 sales tour. The solid bars show how fast each agency moved from sales contact to board vote. The lighter bars show the gap between authorization and first investment action — in every case, months longer than the decision itself.</p>
+<p class="decision-window-sub">Three independent state agencies authorized up to $<span data-countup="155" data-countup-suffix=" million" data-countup-duration="1.5">155 million</span> within <span data-countup="49" data-countup-suffix=" days" data-countup-duration="1.5">49 days</span> of the same April 2025 sales tour. The solid bars show how fast each agency moved from sales contact to board vote. The lighter bars show the gap between authorization and first investment action — in every case, months longer than the decision itself.</p>
 
 <div class="decision-window-container">
   <div id="decision-window-chart" aria-label="Timeline range chart showing the compressed decision window: Treasury authorized in 1 month, APERS in 2 months, ATRS in 7 weeks after the April 2025 sales tour. Execution gaps ranged from immediate (Treasury) to 5 months (APERS)." role="img"></div>
