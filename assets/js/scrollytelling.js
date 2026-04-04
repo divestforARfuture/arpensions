@@ -23,8 +23,6 @@
   var currentStep = -1;
   var statEl = document.getElementById('scrolly-stat');
   var subEl = document.getElementById('scrolly-subtitle');
-  var counterEl = document.getElementById('scrolly-counter');
-
   // Generation counter — prevents stale setTimeout callbacks from
   // overwriting content when the user scrolls fast between steps
   var transitionId = 0;
@@ -37,11 +35,6 @@
     currentStep = stepIndex;
     transitionId++;
     var myId = transitionId;
-
-    // Update counter immediately
-    if (counterEl) {
-      counterEl.textContent = (stepIndex + 1) + ' of ' + vizData.length;
-    }
 
     if (!prefersReducedMotion) {
       // Fade out stat

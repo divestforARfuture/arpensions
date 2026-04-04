@@ -15,6 +15,7 @@
 
   // --- Respect prefers-reduced-motion ---
   var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasAnimated = false;
 
   // --- Theme-aware colors ---
   function getColors() {
@@ -320,40 +321,73 @@
         .text(link.desc.length > 30 ? link.desc.slice(0, 28) + '\u2026' : link.desc);
     });
 
-    // Entrance animation
-    if (!reducedMotion) {
+    // Entrance animation: start hidden, reveal on scroll into view
+    if (!reducedMotion && !hasAnimated) {
       linkPaths
         .attr('stroke-dasharray', function () {
           return this.getTotalLength() + ' ' + this.getTotalLength();
         })
-        .attr('stroke-dashoffset', function () { return this.getTotalLength(); })
-        .transition()
-        .duration(1200)
-        .ease(d3.easeCubicOut)
-        .attr('stroke-dashoffset', 0);
+        .attr('stroke-dashoffset', function () { return this.getTotalLength(); });
 
-      nodeGroup.selectAll('rect')
-        .attr('opacity', 0)
-        .transition()
-        .duration(600)
-        .ease(d3.easeCubicOut)
-        .attr('opacity', 1);
-
-      nodeGroup.selectAll('text')
-        .attr('opacity', 0)
-        .transition()
-        .delay(400)
-        .duration(600)
-        .ease(d3.easeCubicOut)
-        .attr('opacity', 1);
+      nodeGroup.selectAll('rect').attr('opacity', 0);
+      nodeGroup.selectAll('text').attr('opacity', 0);
+      labelGroup.selectAll('text').attr('opacity', 0);
     }
 
     // Sync legend colors after render
     syncLegendColors(c);
   }
 
+  // --- Entrance animation (triggered by IntersectionObserver) ---
+  function runEntranceAnimation() {
+    if (hasAnimated || reducedMotion) return;
+    hasAnimated = true;
+
+    var svg = d3.select(container).select('svg');
+
+    svg.selectAll('.sankey-links path')
+      .transition()
+      .duration(1200)
+      .ease(d3.easeCubicOut)
+      .attr('stroke-dashoffset', 0);
+
+    svg.selectAll('.sankey-nodes rect')
+      .transition()
+      .duration(600)
+      .ease(d3.easeCubicOut)
+      .attr('opacity', 1);
+
+    svg.selectAll('.sankey-nodes text')
+      .transition()
+      .delay(400)
+      .duration(600)
+      .ease(d3.easeCubicOut)
+      .attr('opacity', 1);
+
+    svg.selectAll('.sankey-path-labels text')
+      .transition()
+      .delay(600)
+      .duration(400)
+      .ease(d3.easeCubicOut)
+      .attr('opacity', 1);
+  }
+
   // --- Init ---
   render();
+
+  // Trigger entrance animation when Sankey scrolls into view
+  if (!reducedMotion && 'IntersectionObserver' in window) {
+    var animObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting && !hasAnimated) {
+          runEntranceAnimation();
+          animObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+
+    animObserver.observe(container);
+  }
 
   // Rebuild on theme change
   var themeObs = new MutationObserver(function (mutations) {
