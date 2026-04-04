@@ -13,21 +13,17 @@
   var container = document.getElementById('influence-sankey');
   if (!container) return;
 
-  // --- Respect prefers-reduced-motion ---
   var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var hasAnimated = false;
 
-  // --- Theme-aware colors ---
   function getColors() {
     var dark = document.documentElement.getAttribute('data-theme') === 'dark';
     return {
-      // Node categories — monochromatic editorial palette
       origin:    dark ? '#d4a574' : '#8B6914',
       seller:    dark ? '#b0aba5' : '#474747',
       conduit:   dark ? '#8a8480' : '#6e6e6e',
       agency:    dark ? '#5dade2' : '#1a5276',
       external:  dark ? '#c4bfbb' : '#3d3d3d',
-      // UI
       text:      dark ? '#b0aba5' : '#474747',
       textMuted: dark ? '#8a8480' : '#6e6e6e',
       linkBase:  dark ? 0.2 : 0.15,
@@ -36,51 +32,36 @@
     };
   }
 
-  // --- Sankey data ---
-  // Nodes are ordered roughly left-to-right by role in the influence chain.
-  // Link values represent relative influence weight (not dollar amounts).
   var graphData = {
     nodes: [
-      { id: 'milligan',       label: 'Dennis Milligan',         category: 'origin' },
+      { id: 'milligan',       label: 'Dennis Milligan',             category: 'origin' },
       { id: 'bonds-reps',     label: 'Bond Issuer / Broker-Dealer', category: 'seller' },
-      { id: 'auditor-office', label: 'Auditor\u2019s Office',   category: 'conduit' },
-      { id: 'brady',          label: 'Jason Brady',              category: 'conduit' },
-      { id: 'sfof',           label: 'SFOF',                     category: 'conduit' },
-      { id: 'sales-tour',     label: 'April 2025 Tour',         category: 'conduit' },
-      { id: 'treasury',       label: 'Treasury $55M',            category: 'agency' },
-      { id: 'apers',          label: 'APERS $25\u201350M',      category: 'agency' },
-      { id: 'atrs',           label: 'ATRS $50M',                category: 'agency' },
-      { id: 'other-states',   label: 'Other States',             category: 'external' }
+      { id: 'auditor-office', label: 'Auditor\u2019s Office',       category: 'conduit' },
+      { id: 'brady',          label: 'Jason Brady',                  category: 'conduit' },
+      { id: 'sfof',           label: 'SFOF',                         category: 'conduit' },
+      { id: 'sales-tour',     label: 'April 2025 Tour',             category: 'conduit' },
+      { id: 'treasury',       label: 'Treasury $55M',                category: 'agency' },
+      { id: 'apers',          label: 'APERS $25\u201350M',          category: 'agency' },
+      { id: 'atrs',           label: 'ATRS $50M',                    category: 'agency' },
+      { id: 'other-states',   label: 'Other States',                 category: 'external' }
     ],
     links: [
-      // Milligan as nexus
       { source: 'milligan',       target: 'auditor-office', value: 5, desc: 'Became Auditor of State' },
       { source: 'milligan',       target: 'sfof',           value: 3, desc: 'Served as SFOF National Chair' },
       { source: 'milligan',       target: 'treasury',       value: 4, desc: 'Initiated sovereign bond purchases as Treasurer (2017)' },
-
-      // Auditor's office channels
       { source: 'auditor-office', target: 'brady',          value: 4, desc: 'Appointed Brady to APERS board' },
       { source: 'auditor-office', target: 'sales-tour',     value: 5, desc: 'Arranged April 2025 meetings' },
-
-      // Bond issuer reps
       { source: 'bonds-reps',     target: 'sales-tour',     value: 5, desc: 'Sales presentations to all agencies' },
       { source: 'bonds-reps',     target: 'treasury',       value: 2, desc: 'Ongoing bond sales relationship' },
-
-      // April 2025 tour → authorizations
       { source: 'sales-tour',     target: 'treasury',       value: 3, desc: '$20M purchased immediately (May 2025)' },
       { source: 'sales-tour',     target: 'apers',          value: 3, desc: 'Subcommittee authorized May 2025' },
       { source: 'sales-tour',     target: 'atrs',           value: 3, desc: 'Board authorized June 2025' },
-
-      // Brady → boards
       { source: 'brady',          target: 'apers',          value: 4, desc: 'Introduced the investment, cited Treasury holdings' },
       { source: 'brady',          target: 'atrs',           value: 3, desc: 'Initiated request as board trustee' },
-
-      // SFOF → interstate
       { source: 'sfof',           target: 'other-states',   value: 3, desc: 'Interstate replication pipeline (TX, AZ, ID, NC)' }
     ]
   };
 
-  // --- Build node index ---
   var nodeMap = {};
   graphData.nodes.forEach(function (n, i) { nodeMap[n.id] = i; });
 
@@ -89,15 +70,9 @@
   });
 
   var sankeyLinks = graphData.links.map(function (l) {
-    return {
-      source: nodeMap[l.source],
-      target: nodeMap[l.target],
-      value: l.value,
-      desc: l.desc
-    };
+    return { source: nodeMap[l.source], target: nodeMap[l.target], value: l.value, desc: l.desc };
   });
 
-  // --- Dimensions ---
   var margin = { top: 16, right: 20, bottom: 16, left: 20 };
 
   function getWidth() {
@@ -107,26 +82,20 @@
 
   var height = 420;
 
-  // --- Sync legend dot colors with current theme ---
   function syncLegendColors(c) {
-    var catColors = {
-      origin: c.origin, seller: c.seller, conduit: c.conduit,
-      agency: c.agency, external: c.external
-    };
+    var catColors = { origin: c.origin, seller: c.seller, conduit: c.conduit, agency: c.agency, external: c.external };
     document.querySelectorAll('.sankey-legend-dot[data-category]').forEach(function (dot) {
       var cat = dot.getAttribute('data-category');
       if (catColors[cat]) dot.style.background = catColors[cat];
     });
   }
 
-  // --- Render ---
   function render() {
     var c = getColors();
     var width = getWidth();
     var innerW = width - margin.left - margin.right;
     var innerH = height - margin.top - margin.bottom;
 
-    // Clear previous
     d3.select(container).selectAll('*').remove();
 
     var svg = d3.select(container)
@@ -139,7 +108,6 @@
       .append('g')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-    // Configure sankey layout
     var sankey = d3.sankey()
       .nodeId(function (d) { return d.index; })
       .nodeWidth(18)
@@ -152,7 +120,6 @@
       links: sankeyLinks.map(function (d) { return Object.assign({}, d); })
     });
 
-    // Category → color
     function nodeColor(cat) {
       switch (cat) {
         case 'origin':   return c.origin;
@@ -164,10 +131,7 @@
       }
     }
 
-    // --- Links ---
-    var linkGroup = svg.append('g')
-      .attr('class', 'sankey-links')
-      .attr('fill', 'none');
+    var linkGroup = svg.append('g').attr('class', 'sankey-links').attr('fill', 'none');
 
     var linkPaths = linkGroup.selectAll('path')
       .data(graph.links)
@@ -178,7 +142,6 @@
       .attr('stroke-width', function (d) { return Math.max(2, d.width); })
       .style('mix-blend-mode', 'normal');
 
-    // --- Tooltip ---
     var tooltip = d3.select(container)
       .append('div')
       .attr('class', 'sankey-tooltip')
@@ -189,8 +152,6 @@
       .on('mouseenter', function (event, d) {
         d3.select(this).attr('stroke-opacity', c.linkHover);
         var tc = getColors();
-
-        // Build tooltip via DOM (safe against future dynamic data)
         var tipNode = tooltip.node();
         tipNode.innerHTML = '';
         var strong = document.createElement('strong');
@@ -202,14 +163,12 @@
         tipNode.appendChild(strong);
         tipNode.appendChild(br);
         tipNode.appendChild(span);
-
         tooltip.style('display', 'block');
       })
       .on('mousemove', function (event) {
         var rect = container.getBoundingClientRect();
         var x = event.clientX - rect.left + 12;
         var y = event.clientY - rect.top - 10;
-        // Clamp
         var tipW = tooltip.node().offsetWidth;
         if (x + tipW > rect.width) x = x - tipW - 24;
         if (y < 0) y = 10;
@@ -220,9 +179,7 @@
         tooltip.style('display', 'none');
       });
 
-    // --- Nodes ---
-    var nodeGroup = svg.append('g')
-      .attr('class', 'sankey-nodes');
+    var nodeGroup = svg.append('g').attr('class', 'sankey-nodes');
 
     var nodes = nodeGroup.selectAll('g')
       .data(graph.nodes)
@@ -237,7 +194,6 @@
       .attr('rx', 2)
       .attr('ry', 2);
 
-    // Node labels
     nodes.append('text')
       .attr('x', function (d) { return d.x0 < innerW / 2 ? d.x1 + 8 : d.x0 - 8; })
       .attr('y', function (d) { return (d.y0 + d.y1) / 2; })
@@ -249,28 +205,22 @@
       .attr('fill', c.text)
       .text(function (d) { return d.name; });
 
-    // --- Touch detection ---
     var isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
 
-    // Node interaction: hover on desktop, tap on mobile
     if (isTouch) {
       var activeNode = null;
       nodes.selectAll('rect')
         .on('click', function(event, d) {
           event.stopPropagation();
           if (activeNode === d) {
-            // Tap again to deselect
             linkPaths.attr('stroke-opacity', c.linkBase);
             activeNode = null;
           } else {
             linkPaths.attr('stroke-opacity', c.linkBase * 0.3);
-            linkPaths.filter(function(l) {
-              return l.source === d || l.target === d;
-            }).attr('stroke-opacity', c.linkHover);
+            linkPaths.filter(function(l) { return l.source === d || l.target === d; }).attr('stroke-opacity', c.linkHover);
             activeNode = d;
           }
         });
-      // Tap background to reset
       d3.select(container).on('click', function() {
         linkPaths.attr('stroke-opacity', c.linkBase);
         activeNode = null;
@@ -279,16 +229,13 @@
       nodes.selectAll('rect')
         .on('mouseenter', function(event, d) {
           linkPaths.attr('stroke-opacity', c.linkBase * 0.3);
-          linkPaths.filter(function(l) {
-            return l.source === d || l.target === d;
-          }).attr('stroke-opacity', c.linkHover);
+          linkPaths.filter(function(l) { return l.source === d || l.target === d; }).attr('stroke-opacity', c.linkHover);
         })
         .on('mouseleave', function() {
           linkPaths.attr('stroke-opacity', c.linkBase);
         });
     }
 
-    // --- Persistent labels on key paths (readable without hover) ---
     var keyPaths = [
       { src: 'milligan', tgt: 'auditor-office' },
       { src: 'auditor-office', tgt: 'sales-tour' },
@@ -298,9 +245,7 @@
 
     var labelGroup = svg.append('g').attr('class', 'sankey-path-labels');
     graph.links.forEach(function(link) {
-      var isKey = keyPaths.some(function(k) {
-        return link.source.id === k.src && link.target.id === k.tgt;
-      });
+      var isKey = keyPaths.some(function(k) { return link.source.id === k.src && link.target.id === k.tgt; });
       if (!isKey) return;
 
       var midX = (link.source.x1 + link.target.x0) / 2;
@@ -321,8 +266,10 @@
         .text(link.desc.length > 30 ? link.desc.slice(0, 28) + '\u2026' : link.desc);
     });
 
-    // Entrance animation: start hidden, reveal on scroll into view
-    if (!reducedMotion && !hasAnimated) {
+    // Entrance animation: start hidden, reveal on scroll into view.
+    // Guard requires IntersectionObserver — without IO support, chart
+    // renders fully visible (no animation) to avoid permanent invisibility.
+    if (!reducedMotion && !hasAnimated && 'IntersectionObserver' in window) {
       linkPaths
         .attr('stroke-dasharray', function () {
           return this.getTotalLength() + ' ' + this.getTotalLength();
@@ -334,11 +281,9 @@
       labelGroup.selectAll('text').attr('opacity', 0);
     }
 
-    // Sync legend colors after render
     syncLegendColors(c);
   }
 
-  // --- Entrance animation (triggered by IntersectionObserver) ---
   function runEntranceAnimation() {
     if (hasAnimated || reducedMotion) return;
     hasAnimated = true;
@@ -346,36 +291,24 @@
     var svg = d3.select(container).select('svg');
 
     svg.selectAll('.sankey-links path')
-      .transition()
-      .duration(1200)
-      .ease(d3.easeCubicOut)
+      .transition().duration(1200).ease(d3.easeCubicOut)
       .attr('stroke-dashoffset', 0);
 
     svg.selectAll('.sankey-nodes rect')
-      .transition()
-      .duration(600)
-      .ease(d3.easeCubicOut)
+      .transition().duration(600).ease(d3.easeCubicOut)
       .attr('opacity', 1);
 
     svg.selectAll('.sankey-nodes text')
-      .transition()
-      .delay(400)
-      .duration(600)
-      .ease(d3.easeCubicOut)
+      .transition().delay(400).duration(600).ease(d3.easeCubicOut)
       .attr('opacity', 1);
 
     svg.selectAll('.sankey-path-labels text')
-      .transition()
-      .delay(600)
-      .duration(400)
-      .ease(d3.easeCubicOut)
+      .transition().delay(600).duration(400).ease(d3.easeCubicOut)
       .attr('opacity', 1);
   }
 
-  // --- Init ---
   render();
 
-  // Trigger entrance animation when Sankey scrolls into view
   if (!reducedMotion && 'IntersectionObserver' in window) {
     var animObserver = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
@@ -385,22 +318,16 @@
         }
       });
     }, { threshold: 0.2 });
-
     animObserver.observe(container);
   }
 
-  // Rebuild on theme change
   var themeObs = new MutationObserver(function (mutations) {
     mutations.forEach(function (m) {
       if (m.attributeName === 'data-theme') render();
     });
   });
-  themeObs.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ['data-theme']
-  });
+  themeObs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
-  // Rebuild on resize (debounced)
   var resizeTimer;
   window.addEventListener('resize', function () {
     clearTimeout(resizeTimer);
