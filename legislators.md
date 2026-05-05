@@ -104,7 +104,7 @@ This legislation would go through the **Joint Committee on Public Retirement & S
 **Committee leadership:**
 
 - **Senate Co-Chair: Sen. Jim Dotson (R, SD-34)** — Senate Republican leadership. Sensitive to any framing that resembles a political boycott; transparency legislation must be presented strictly as fiduciary process and asset-class discipline.
-- **House Co-Chair: Rep. Les Warren (R, HD-84)** — co-sponsored Act 411 (2023, pecuniary factors). FOIA records place Warren at the April 14, 2025 meeting where bond issuer sales executives pitched state officials in the Auditor's Capitol office — the same meeting that preceded the pension fund authorizations. Warren attended alongside Speaker Brian Evans and the bond issuer's national managing director, Lawrence Berman.
+- **House Co-Chair: Rep. Les Warren (R, HD-84)** — FOIA records place Warren at the April 14, 2025 meeting where bond issuer sales executives pitched state officials in the Auditor's Capitol office — the same meeting that preceded the pension fund authorizations. Warren attended alongside Speaker Brian Evans and the bond issuer's national managing director, Lawrence Berman.
 
 Five current committee members co-sponsored Act 411 of 2023.
 

@@ -78,7 +78,7 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 Of more than 1,200 documents reviewed, **zero** contained an independent credit analysis of these non-tradable sovereign bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
 
-Arkansas's pecuniary-only standard (Act 411 of 2023) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) both require documented financial analysis before committing member funds to new investment positions. This finding holds across all documents received in Round 2 — including APERS's 8,648-page FOIA production and Treasury's 118-document response. The absence of any independent credit analysis in the entire public record is a significant gap.
+Arkansas's pecuniary-factors standard (Act 498 of 2023, the State Government Employee Retirement Protection Act, Ark. Code §§ 24-2-802(4)(A), 24-2-804(a)) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) both require documented financial analysis before committing member funds to new investment positions. This finding holds across all documents received in Round 2 — including APERS's 8,648-page FOIA production and Treasury's 118-document response. The absence of any independent credit analysis in the entire public record is a significant gap.
 
 ---
 
@@ -565,7 +565,7 @@ Authorizing up to $<span data-countup="100" data-countup-prefix="" data-countup-
 Arkansas law establishes clear standards for pension investments:
 
 - **Sole interest rule** — Trustees must invest assets "solely in the interest of the members and benefit recipients" (Ark. Code § 24-2-614)
-- **Pecuniary factors only** — Evaluations must be "based only on pecuniary factors" with material financial effects on risk or return (Act 411 of 2023)
+- **Pecuniary factors only** — Evaluations must be "based only on pecuniary factors" with material financial effects on risk or return (Act 498 of 2023, the State Government Employee Retirement Protection Act, Ark. Code §§ 24-2-802(4)(A), 24-2-804(a))
 - **Prudent investor standard** — Trustees must exercise the care, skill, and diligence of an experienced, prudent investor (Ark. Code §§ 24-2-610–619)
 
 The central question is whether these investments were driven by pecuniary benefit — as required by law — or by political motivations. The contrast between official financial justifications and celebratory political statements is the core of this issue.
