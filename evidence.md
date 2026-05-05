@@ -78,7 +78,7 @@ Every claim on this site is backed by documents in the public record. Below are 
 
 Of more than 1,200 documents reviewed, **zero** contained an independent credit analysis of these non-tradable sovereign bonds prepared by pension fund staff or outside consultants. Standard investment practice requires pension fund managers to conduct or commission their own due diligence — not rely on sales materials from the bond issuer.
 
-Arkansas's pecuniary-factors standard (Act 498 of 2023, the State Government Employee Retirement Protection Act, Ark. Code §§ 24-2-802(4)(A), 24-2-804(a)) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) both require documented financial analysis before committing member funds to new investment positions. This finding holds across all documents received in Round 2 — including APERS's 8,648-page FOIA production and Treasury's 118-document response. The absence of any independent credit analysis in the entire public record is a significant gap.
+Arkansas's pecuniary-factors standard (Act 498 of 2023, the State Government Employee Retirement Protection Act, Ark. Code §§ 24-2-802(4)(A), 24-2-804(a)) requires pension board investment evaluations to be based "only on pecuniary factors" — those with material financial effect on risk or return. The prudent-investor rule (Ark. Code §§ 24-2-610–619) requires comparable diligence from pension trustees. Together, those standards already require the kind of analysis our FOIA investigation found missing. This finding holds across all documents received in Round 2 — including APERS's 8,648-page FOIA production and Treasury's 118-document response. The absence of any independent credit analysis in the entire public record is a significant gap.
 
 ---
 
