@@ -7,7 +7,7 @@ permalink: /about/
 
 ## Our mission
 
-Arkansans for Retirement Transparency (ART) is a grassroots campaign using public records and Arkansas law to hold pension decision-makers accountable to the fiduciary standards they are required to follow. When investment decisions bypass independent analysis and override internal staff recommendations, pension beneficiaries deserve answers.
+Arkansans for Pension Integrity (API) is a grassroots campaign using public records and Arkansas law to hold pension decision-makers accountable to the fiduciary standards they are required to follow. When investment decisions bypass independent analysis and override internal staff recommendations, pension beneficiaries deserve answers.
 
 <div class="approach-pillars" markdown="1">
 
@@ -84,7 +84,7 @@ Absolutely. Freedom of Information Act requests are a fundamental right under Ar
 
 **How is this campaign funded?**
 
-Arkansans for Retirement Transparency operates on a shoestring budget through small donations. We have no institutional funding and no paid staff. This is a volunteer-driven campaign.
+Arkansans for Pension Integrity operates on a shoestring budget through small donations. We have no institutional funding and no paid staff. This is a volunteer-driven campaign.
 
 </div>
 
@@ -102,4 +102,4 @@ Arkansans for Retirement Transparency operates on a shoestring budget through sm
 
 **Email:** [info@arpensions.org](mailto:info@arpensions.org)
 
-<p class="campaign-attribution">Arkansans for Retirement Transparency (ART) is a grassroots Arkansas campaign supported by community organizations in central Arkansas.</p>
+<p class="campaign-attribution">Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign supported by community organizations in central Arkansas.</p>
