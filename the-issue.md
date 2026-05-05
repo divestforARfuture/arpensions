@@ -118,7 +118,7 @@ The diagram below traces the documented connections from our FOIA investigation.
 Arkansas law is clear about how pension investments must be made:
 
 - **Sole interest rule:** Trustees must invest assets "solely in the interest of the members and benefit recipients of the trust" (Ark. Code Ann. § 24-2-614).
-- **Pecuniary factors only:** The State Government Employee Retirement Protection Act (Act 498 of 2023) requires pension board investment evaluations to be based "only on pecuniary factors" (Ark. Code § 24-2-802(4)(A), § 24-2-804(a)) — those with a material financial effect on risk or return.
+- **Pecuniary factors only:** The State Government Employee Retirement Protection Act (Act 498 of 2023) requires pension board investment evaluations to be based "only on pecuniary factors" (Ark. Code §§ 24-2-802(4)(A), 24-2-804(a)) — those with a material financial effect on risk or return.
 - **Prudent investor standard:** Trustees must manage assets with the care an experienced, prudent investor would use, with appropriate attention to risk, return, and diversification (Ark. Code §§ 24-2-610–619).
 
 Several red flags suggest these standards may not have been followed:
