@@ -1,4 +1,4 @@
-title: Arkansans for Retirement Transparency
+title: Arkansans for Pension Integrity
 description: "Your Retirement. Your Right to Know."
 url: "https://arpensions.org"
 baseurl: ""
@@ -9,7 +9,7 @@ locale: en_US
 twitter:
   card: summary_large_image
 social:
-  name: Arkansans for Retirement Transparency
+  name: Arkansans for Pension Integrity
 
 # Build settings
 markdown: kramdown

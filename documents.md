@@ -18,7 +18,7 @@ permalink: /documents/
 
 ## About these documents
 
-These are excerpts and key documents from more than 1,200 public records obtained by Arkansans for Retirement Transparency through three rounds of Freedom of Information Act requests to five Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), the Arkansas Auditor of State, and the Arkansas State Highway Employees' Retirement System (ASHERS).
+These are excerpts and key documents from more than 1,200 public records obtained by Arkansans for Pension Integrity through three rounds of Freedom of Information Act requests to five Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), the Arkansas Auditor of State, and the Arkansas State Highway Employees' Retirement System (ASHERS).
 
 All documents were provided by the agencies in response to lawful FOIA requests. Where noted, page ranges have been extracted from larger compiled document sets. No content has been altered.
 
