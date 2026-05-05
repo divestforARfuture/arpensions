@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ART Charts — Chart.js visualizations for evidence and audience pages
+   Charts — Chart.js visualizations for evidence and audience pages
    Loaded conditionally on pages with front matter `charts: true`
    ========================================================================== */
 
