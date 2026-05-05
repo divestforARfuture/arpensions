@@ -112,19 +112,17 @@ Five current committee members co-sponsored Act 411, which requires that the Tre
 
 Three committee members will depart before the 2027 session: Sen. Fredrick Love and Sen. Reginald Murdock are term-limited, and Sen. Kim Hammer is running for Secretary of State. Their replacements represent both uncertainty and opportunity for early engagement.
 
-### The symmetry argument
+### Why pension boards need this standard
 
-Arkansas already requires financial merit for *selling* investments — Act 710 prohibits politically motivated divestment. And Act 411 requires the Treasurer's *investment evaluations* to be based only on pecuniary factors. But pension boards have no equivalent procedural standard for sovereign debt acquisitions. The same rigor should apply when committing members' retirement funds to non-tradable sovereign debt.
+Act 411 of 2023 requires the Treasurer's *investment evaluations* to be based "only on pecuniary factors" — but the statute reaches the Treasurer alone. Pension boards like ATRS and APERS have no equivalent procedural requirement. The Pension Investment Transparency Act extends the same pecuniary-factors discipline to pension board sovereign debt acquisitions. The case for the extension is the asset class itself: non-tradable sovereign debt cannot be sold before maturity and lacks the continuous market repricing that gives most fixed-income instruments their built-in credit check. For that class, independent credit analysis is the substitute for the market scrutiny the absence of a secondary market eliminates.
 
 </div>
 
-<div class="issue-symmetry" markdown="1">
+<div class="issue-principle" markdown="1">
 
-## The precedent: Arkansas's own standard
+## The standard already exists
 
-Arkansas's Act 710 establishes that investment decisions must be based on financial merit, not political motivation. This standard should apply equally in both directions.
-
-If it is wrong to *sell* an investment for political reasons, it is equally wrong to *buy* one for political reasons. The principle is the same: pecuniary factors only. Our campaign is not asking for anything that Arkansas law does not already require — we are asking for it to be enforced consistently.
+Arkansas's pecuniary-factors standard (Act 411 of 2023) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) already require investment decisions to be evaluated on financial merit, with the diligence an experienced fiduciary would apply. The Pension Investment Transparency Act does not invent a new test — it extends the existing test to a class of instruments that bypass the market signals on which most investment evaluations rely.
 
 For the full timeline and detailed source documentation, see our [evidence page](/evidence/). You can also [browse the FOIA document archive](/documents/) directly.
 

@@ -2054,14 +2054,14 @@ blockquote footer {
 }
 
 /* --- Symmetry Section — Visually distinct argument section --- */
-.issue-symmetry {
+.issue-principle {
   background: var(--art-gray-light);
   margin: 2.5rem -1.5rem 2.5rem;
   padding: 2.5rem 1.5rem 2rem;
   border-radius: 8px;
 }
 
-.issue-symmetry h2 {
+.issue-principle h2 {
   margin-top: 0;
 }
 
@@ -2135,7 +2135,7 @@ blockquote footer {
 }
 
 @media (max-width: 600px) {
-  .issue-symmetry {
+  .issue-principle {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     border-radius: 0;
