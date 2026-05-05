@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Campaign Updates"
-description: "Milestones and progress in the Arkansans for Retirement Transparency investigation."
+description: "Milestones and progress in the Arkansans for Pension Integrity investigation."
 permalink: /news/
 ---
 

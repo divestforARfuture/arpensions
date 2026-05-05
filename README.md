@@ -1,4 +1,4 @@
-# Arkansans for Retirement Transparency (ART)
+# Arkansans for Pension Integrity (API)
 
 Grassroots Arkansas campaign for pension transparency and fiduciary accountability.
 
@@ -6,7 +6,7 @@ Grassroots Arkansas campaign for pension transparency and fiduciary accountabili
 
 ## About
 
-Arkansans for Retirement Transparency (ART) is a grassroots campaign using public records and Arkansas law to hold pension decision-makers accountable to the fiduciary standards they are required to follow.
+Arkansans for Pension Integrity (API) is a grassroots campaign using public records and Arkansas law to hold pension decision-makers accountable to the fiduciary standards they are required to follow.
 
 ## Tech Stack
 
