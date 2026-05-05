@@ -1,0 +1,29 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler (lockfile is tracked; only local install dirs ignored)
+/vendor/
+/.bundle/
+
+# Claude Desktop session state
+.claude/
+
+# Local generated artifacts
+og-b64.txt
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
