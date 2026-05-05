@@ -44,7 +44,7 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 Arkansas law is clear about how pension investments must be made:
 
 - **Sole interest rule** (Ark. Code Ann. § 24-2-614): Trustees must invest assets "solely in the interest of the members and benefit recipients of the trust."
-- **Pecuniary factors only** (Act 411 of 2023): The Treasurer's evaluation "shall be based only on pecuniary factors" — those with a material financial effect on risk or return.
+- **Pecuniary factors only** (Act 498 of 2023, Ark. Code § 24-2-804(a)): Pension board investment evaluations must be based "only on pecuniary factors" (§ 24-2-802(4)(A)) — those with a material financial effect on risk or return.
 - **Prudent investor standard** (Ark. Code §§ 24-2-610–619): Trustees must manage assets with the care an experienced, prudent investor would use.
 
 The pattern in the public record raises questions about whether these standards were met:
@@ -95,7 +95,7 @@ We urge the Arkansas General Assembly to consider the **Pension Investment Trans
 
 4. **Require board-level documentation of the financial rationale** for any sovereign debt purchase, particularly instruments that lack a secondary market. At ATRS, Board Chair Danny Knight dissented, warning the process departed from standard practice.
 
-5. **Extend the pecuniary-factors standard** that Act 411 of 2023 applies to the Treasurer's investment evaluations to pension board sovereign debt acquisitions. Act 411 currently covers only the Treasurer of State; pension boards like ATRS and APERS have no equivalent procedural requirement. The publicly-posted APERS board packet demonstrates precisely why Provision 5 is needed. At the same meetings, the board applied full consultant review to infrastructure and private credit investments while authorizing $25–50 million in non-tradable sovereign bonds based solely on one board member's verbal pitch. Provision 5 would require that sovereign debt acquisitions receive the same level of documented pecuniary-factors analysis that every other investment class already receives.
+5. **Enforce the pecuniary-factors standard** already established by Act 498 of 2023, the State Government Employee Retirement Protection Act (Ark. Code §§ 24-2-803, 24-2-804(a)), for pension board sovereign debt acquisitions. Act 498 requires that evaluations be based only on pecuniary factors (§ 24-2-802(4)(A)) but does not prescribe the specific procedural requirements — independent credit analysis, consultant independence, and documented rationale — for non-tradable sovereign debt that lacks a secondary market. The publicly-posted APERS board packet demonstrates precisely why Provision 5 is needed. At the same meetings, the board applied full consultant review to infrastructure and private credit investments while authorizing $25–50 million in non-tradable sovereign bonds based solely on one board member's verbal pitch. Provision 5 would require that sovereign debt acquisitions receive the same level of documented pecuniary-factors analysis that every other investment class already receives.
 
 ### The committee pathway
 
@@ -106,7 +106,7 @@ This legislation would go through the **Joint Committee on Public Retirement & S
 - **Senate Co-Chair: Sen. Jim Dotson (R, SD-34)** — Senate Republican leadership. Sensitive to any framing that resembles a political boycott; transparency legislation must be presented strictly as fiduciary process and asset-class discipline.
 - **House Co-Chair: Rep. Les Warren (R, HD-84)** — co-sponsored Act 411 (2023, pecuniary factors). FOIA records place Warren at the April 14, 2025 meeting where bond issuer sales executives pitched state officials in the Auditor's Capitol office — the same meeting that preceded the pension fund authorizations. Warren attended alongside Speaker Brian Evans and the bond issuer's national managing director, Lawrence Berman.
 
-Five current committee members co-sponsored Act 411, which requires that the Treasurer's investment evaluations be based "only on pecuniary factors." The Transparency Act extends that same standard to pension board sovereign debt acquisitions — an argument that aligns with, rather than contradicts, the committee's existing legislative record.
+Five current committee members co-sponsored Act 411 of 2023.
 
 **Rep. Kendon Underwood (R, HD-16)** is the most promising pathway for bipartisan support. Despite co-sponsoring Act 411, Underwood also authored Act 994 (2025) on campaign contribution transparency — demonstrating openness to transparency-focused governance reform.
 
@@ -114,7 +114,7 @@ Three committee members will depart before the 2027 session: Sen. Fredrick Love 
 
 ### Why pension boards need this standard
 
-Act 411 of 2023 requires the Treasurer's *investment evaluations* to be based "only on pecuniary factors" — but the statute reaches the Treasurer alone. Pension boards like ATRS and APERS have no equivalent procedural requirement. The Pension Investment Transparency Act extends the same pecuniary-factors discipline to pension board sovereign debt acquisitions. The case for the extension is the asset class itself: non-tradable sovereign debt cannot be sold before maturity and lacks the continuous market repricing that gives most fixed-income instruments their built-in credit check. For that class, independent credit analysis is the substitute for the market scrutiny the absence of a secondary market eliminates.
+Act 498 of 2023, the State Government Employee Retirement Protection Act (Ark. Code § 24-2-804(a)), requires pension board investment evaluations to be based "only on pecuniary factors" (§ 24-2-802(4)(A)) — those with a material financial effect on risk or return, under the standard of care at § 24-2-803. Act 498 establishes the standard but does not prescribe the specific procedural safeguards — independent credit analysis, documented rationale, consultant independence — necessary for non-tradable sovereign debt that has no secondary market. The Pension Investment Transparency Act adds those safeguards for sovereign debt acquisitions. The case for the extension is the asset class itself: non-tradable sovereign debt cannot be sold before maturity and lacks the continuous market repricing that gives most fixed-income instruments their built-in credit check. For that class, independent credit analysis is the substitute for the market scrutiny the absence of a secondary market eliminates.
 
 </div>
 
@@ -122,7 +122,7 @@ Act 411 of 2023 requires the Treasurer's *investment evaluations* to be based "o
 
 ## The standard already exists
 
-Arkansas's pecuniary-factors standard (Act 411 of 2023) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) already require investment decisions to be evaluated on financial merit, with the diligence an experienced fiduciary would apply. The Pension Investment Transparency Act does not invent a new test — it extends the existing test to a class of instruments that bypass the market signals on which most investment evaluations rely.
+Arkansas's pecuniary-factors standard (Act 498 of 2023, the State Government Employee Retirement Protection Act, Ark. Code §§ 24-2-802(4)(A), 24-2-804(a)) and the prudent-investor rule (Ark. Code §§ 24-2-610–619) already require investment decisions to be evaluated on financial merit, with the diligence an experienced fiduciary would apply. The Pension Investment Transparency Act does not invent a new test — it adds the specific procedural requirements those standards demand for a class of instruments that bypass the market signals on which most investment evaluations rely.
 
 For the full timeline and detailed source documentation, see our [evidence page](/evidence/). You can also [browse the FOIA document archive](/documents/) directly.
 
