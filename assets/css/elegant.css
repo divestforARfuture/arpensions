@@ -7,7 +7,7 @@
    ======================================================================== */
 
 :root {
-  --font-elegant: var(--font-display, 'Cormorant Garamond', 'Source Serif 4', Georgia, serif);
+  --font-elegant: var(--font-display);
   --nav-height: 5rem;
 }
 
@@ -82,7 +82,7 @@
    ======================================================================== */
 
 h1, h2, h3, h4, h5, h6 {
-  scroll-margin-top: var(--nav-height, 5rem);
+  scroll-margin-top: var(--nav-height);
 }
 
 /* ========================================================================
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 .elegant-heading {
   font-family: var(--font-display);
   font-weight: 300;
-  font-size: var(--fs-h2, clamp(1.5rem, 1.1rem + 2vw, 2.25rem));
+  font-size: var(--fs-h2);
   line-height: 1.25;
   letter-spacing: -0.2px;
   color: var(--color-text-primary);
@@ -353,7 +353,7 @@ nav[aria-label="Continue reading"] a:focus-visible {
 
 aside.cta-box,
 article > aside[role="complementary"] {
-  background: var(--bg-secondary, var(--art-gray-light));
+  background: var(--bg-secondary);
   border-left: 4px solid var(--art-border);
   border-radius: 0;
 }
@@ -415,7 +415,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .callout {
-  background: var(--bg-secondary, var(--art-gray-light));
+  background: var(--bg-secondary);
   max-width: 58ch;
   margin-inline: auto;
 }
@@ -460,7 +460,7 @@ article > aside[role="complementary"] h3 {
 
 .cta-box {
   border-left-color: var(--art-border);
-  background-color: var(--bg-secondary, var(--art-gray-light));
+  background-color: var(--bg-secondary);
 }
 
 /* ========================================================================
@@ -618,7 +618,7 @@ article > aside[role="complementary"] h3 {
   gap: 0.5rem;
   list-style: none;
   padding: 0;
-  margin: 1.5rem 0 var(--space-2xl, 3rem);
+  margin: 1.5rem 0 var(--space-2xl);
 }
 
 /* Remove connecting line */
@@ -632,14 +632,14 @@ article > aside[role="complementary"] h3 {
   gap: 0.5rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  border: 1px solid var(--border-light, var(--art-border));
+  border: 1px solid var(--border-light);
   border-radius: 2px;
   transition: border-color 0.15s, color 0.15s;
 }
 
 .step-ladder-item:hover {
   text-decoration: none;
-  border-color: var(--border-dark, var(--art-gray));
+  border-color: var(--border-dark);
 }
 
 .step-ladder-item:focus-visible {
@@ -652,7 +652,7 @@ article > aside[role="complementary"] h3 {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--text-muted, var(--art-gray));
+  color: var(--text-muted);
   line-height: 1;
 }
 
@@ -665,7 +665,7 @@ article > aside[role="complementary"] h3 {
   font-family: var(--font-sans);
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--text-secondary, var(--art-gray));
+  color: var(--text-secondary);
   line-height: 1.3;
 }
 
@@ -872,17 +872,17 @@ article > aside[role="complementary"] h3 {
 [data-theme="light"] .hero .btn-secondary-hero { border: 1px solid rgba(255, 255, 255, 0.2); color: rgba(255, 255, 255, 0.7); }
 [data-theme="light"] .hero .btn-secondary-hero:hover { color: rgba(255, 255, 255, 0.85); }
 
-/* --- Dark theme: cream hero (inverted from dark page) --- */
-[data-theme="dark"] .hero { background-color: #F8F7F5; }
-[data-theme="dark"] .hero-ghost { color: rgba(27, 27, 27, 0.045); }
-[data-theme="dark"] .hero-eyebrow { color: rgba(27, 27, 27, 0.6); }
-[data-theme="dark"] .hero h1 { color: #1b1b1b; }
+/* --- Dark theme: hero matches the dark page surface --- */
+[data-theme="dark"] .hero { background-color: var(--bg-secondary); }
+[data-theme="dark"] .hero-ghost { color: rgba(232, 230, 227, 0.045); }
+[data-theme="dark"] .hero-eyebrow { color: rgba(232, 230, 227, 0.6); }
+[data-theme="dark"] .hero h1 { color: var(--text-primary); }
 [data-theme="dark"] .hero-sub,
-[data-theme="dark"] .hero-subtitle { color: rgba(27, 27, 27, 0.7); }
-[data-theme="dark"] .hero .btn-primary-hero { background: #1b1b1b; color: #F8F7F5; }
-[data-theme="dark"] .hero .btn-primary-hero:hover { color: #F8F7F5; }
-[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(27, 27, 27, 0.4); color: rgba(27, 27, 27, 0.8); }
-[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(27, 27, 27, 0.92); }
+[data-theme="dark"] .hero-subtitle { color: rgba(232, 230, 227, 0.7); }
+[data-theme="dark"] .hero .btn-primary-hero { background: var(--text-primary); color: var(--bg-primary); }
+[data-theme="dark"] .hero .btn-primary-hero:hover { color: var(--bg-primary); }
+[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(232, 230, 227, 0.4); color: rgba(232, 230, 227, 0.8); }
+[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(232, 230, 227, 0.92); }
 
 /* --- Fallback (no data-theme set): dark hero --- */
 :root:not([data-theme]) .hero { background-color: var(--text-primary); }
@@ -1247,7 +1247,7 @@ article > aside[role="complementary"] h3 {
 
 hr + .section-label,
 hr + * > .section-label:first-child {
-  margin-top: var(--space-xl, 2rem);
+  margin-top: var(--space-xl);
 }
 
 /* .section-label display/margin now set in main.css metadata conventions */
@@ -1295,7 +1295,7 @@ hr + * > .section-label:first-child {
 }
 
 .document-item:hover .doc-icon {
-  color: var(--art-red, #B91C1C);
+  color: var(--art-red);
 }
 
 /* ========================================================================
@@ -1345,7 +1345,7 @@ hr + * > .section-label:first-child {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--art-gray, #474747);
+    color: var(--art-gray);
     margin-bottom: 0.15rem;
   }
 
@@ -1364,7 +1364,7 @@ hr + * > .section-label:first-child {
   left: 0;
   height: 2px;
   width: 0%;
-  background: var(--accent, #1a5276);
+  background: var(--accent);
   z-index: 9999;
   transition: width 0.1s linear;
   pointer-events: none;
@@ -1416,7 +1416,7 @@ hr + * > .section-label:first-child {
   /* --- Force light colors --- */
   body, main, article, .page-content, .landing-content {
     background: white !important;
-    color: var(--art-black, #1b2127) !important;
+    color: var(--art-black) !important;
   }
 
   /* --- Typography fallbacks --- */
@@ -1548,12 +1548,12 @@ html {
    ======================================================================== */
 
 :focus-visible {
-  outline: 2px solid var(--art-accent, #1a5276);
+  outline: 2px solid var(--art-accent);
   outline-offset: 2px;
 }
 
 [data-theme="dark"] :focus-visible {
-  outline-color: var(--art-accent, #1a5276);
+  outline-color: var(--art-accent);
 }
 
 /* ========================================================================
@@ -1568,7 +1568,7 @@ html {
   height: 40px;
   border-radius: 50%;
   background: var(--text-primary);
-  color: var(--art-off-white, #f8f7f5);
+  color: var(--bg-secondary);
   border: none;
   cursor: pointer;
   display: flex;
@@ -1582,11 +1582,6 @@ html {
 
 .scroll-to-top:hover {
   opacity: 1;
-}
-
-[data-theme="dark"] .scroll-to-top {
-  background: var(--art-off-white, #f8f7f5);
-  color: var(--bg-primary);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1638,7 +1633,7 @@ html {
     max-height: calc(100vh - 6rem);
     overflow-y: auto;
     padding-right: 1rem;
-    border-right: 1px solid var(--border-light, #e2e2e2);
+    border-right: 1px solid var(--border-light);
   }
 
   .evidence-toc-toggle {
@@ -1650,9 +1645,9 @@ html {
     font-variant-caps: small-caps;
     letter-spacing: 0.05em;
     font-weight: 600;
-    font-size: var(--fs-small, 0.8125rem);
+    font-size: var(--fs-small);
     text-transform: none;
-    color: var(--text-muted, #6e6e6e);
+    color: var(--text-muted);
     margin: 0 0 1rem;
     padding: 0;
   }
@@ -1680,7 +1675,7 @@ html {
     font-weight: 400;
     font-size: 0.8rem;
     line-height: 1.4;
-    color: var(--text-muted, #6e6e6e);
+    color: var(--text-muted);
     text-decoration: none;
     border-left: 3px solid transparent;
     border-radius: 0;
@@ -1692,18 +1687,18 @@ html {
   }
 
   .evidence-toc-link:visited {
-    color: var(--text-muted, #6e6e6e);
+    color: var(--text-muted);
   }
 
   .evidence-toc-link:hover {
-    color: var(--text-primary, #1b1b1b);
+    color: var(--text-primary);
   }
 
   /* Active state — weight + color + subtle accent border */
   .evidence-toc-link--active,
   .evidence-toc-link--active:visited {
-    color: var(--text-primary, #1b1b1b);
-    border-left-color: var(--accent, #1a5276);
+    color: var(--text-primary);
+    border-left-color: var(--accent);
     background-color: transparent;
     font-weight: 600;
   }
@@ -1721,14 +1716,14 @@ html {
     position: sticky;
     top: 3.5rem;
     z-index: 50;
-    background: var(--color-bg-page, #f8f7f5);
-    border-bottom: 1px solid var(--color-border, #e5e5e5);
+    background: var(--color-bg-page);
+    border-bottom: 1px solid var(--color-border);
     margin: 0 -1rem 1.5rem;
     padding: 0 1rem;
   }
 
   [data-theme="dark"] .evidence-toc-sidebar {
-    background: var(--color-bg-page, #121218);
+    background: var(--color-bg-page);
   }
 
   .evidence-toc-heading {
@@ -1747,7 +1742,7 @@ html {
     font-family: var(--font-sans);
     font-size: 0.85rem;
     font-weight: 500;
-    color: var(--text-primary, #1b1b1b);
+    color: var(--text-primary);
   }
 
   .evidence-toc-toggle-label {
@@ -1757,7 +1752,7 @@ html {
   .evidence-toc-current {
     flex: 1;
     text-align: left;
-    color: var(--color-text-secondary, #474747);
+    color: var(--color-text-secondary);
     font-weight: 400;
     font-size: 0.8rem;
     white-space: nowrap;
@@ -1797,7 +1792,7 @@ html {
     padding: 0.4rem 0;
     font-family: var(--font-sans);
     font-size: 0.85rem;
-    color: var(--color-text-secondary, #474747);
+    color: var(--color-text-secondary);
     text-decoration: none;
     border-left: none;
   }
@@ -1807,12 +1802,12 @@ html {
   }
 
   .evidence-toc-link:visited {
-    color: var(--color-text-secondary, #474747);
+    color: var(--color-text-secondary);
   }
 
   .evidence-toc-link--active,
   .evidence-toc-link--active:visited {
-    color: var(--text-primary, #1b1b1b);
+    color: var(--text-primary);
     font-weight: 600;
   }
 
@@ -1844,7 +1839,7 @@ html {
 
 .subfindings-toggle-all {
   background: none;
-  border: 1px solid var(--color-border, #e5e5e5);
+  border: 1px solid var(--color-border);
   color: var(--art-accent);
   font-family: var(--font-sans);
   font-size: 0.8rem;
@@ -1861,7 +1856,7 @@ html {
 }
 
 .subfinding {
-  border-bottom: 1px solid var(--color-border, #e5e5e5);
+  border-bottom: 1px solid var(--color-border);
   margin-bottom: 0;
 }
 
@@ -1905,7 +1900,7 @@ html {
 }
 
 .subfinding > summary:hover {
-  color: var(--color-text-primary, #1b2127);
+  color: var(--color-text-primary);
 }
 
 .subfinding > summary:focus-visible {
@@ -1919,7 +1914,7 @@ html {
   border-left: 2px solid var(--art-accent);
   margin-left: 3px;
   animation: subfinding-fade 0.25s ease;
-  color: var(--text-secondary, #474747);
+  color: var(--text-secondary);
 }
 
 .subfinding-content p,
@@ -2056,7 +2051,7 @@ html {
   font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 400;
-  color: var(--color-text-secondary, #474747);
+  color: var(--color-text-secondary);
   margin-bottom: 0.75rem;
 }
 
@@ -2080,7 +2075,7 @@ html {
    ======================================================================== */
 
 .figure-card {
-  border-top: 2px solid var(--accent, #1a5276);
+  border-top: 2px solid var(--accent);
   padding-top: 1.5rem;
   margin-bottom: 2.5rem;
 }
@@ -2090,9 +2085,9 @@ html {
 }
 
 .figure-subtitle {
-  font-family: var(--art-font-ui, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-size: 0.9rem;
-  color: var(--text-secondary, #474747);
+  color: var(--text-secondary);
   margin-bottom: 1rem;
 }
 
@@ -2112,12 +2107,12 @@ html {
 
 .figure-connections {
   font-size: 0.9rem;
-  color: var(--text-secondary, #474747);
+  color: var(--text-secondary);
   line-height: 1.7;
 }
 
 .figure-connections a {
-  color: var(--link-color, #1a5276);
+  color: var(--link-color);
 }
 
 .figure-connections .connections-list {
@@ -2129,7 +2124,7 @@ html {
 .figure-connections .connections-list li {
   padding: 0.25rem 0;
   margin-bottom: 0;
-  border-bottom: 1px solid var(--border-light, #e2e2e2);
+  border-bottom: 1px solid var(--border-light);
   font-size: 0.9rem;
 }
 
@@ -2143,13 +2138,13 @@ html {
 
 /* Organization entries: UI font for heading instead of display serif */
 .figure-card--org h3 {
-  font-family: var(--art-font-ui, Inter, sans-serif);
+  font-family: var(--font-sans);
   font-style: normal;
 }
 
 /* Pattern narrative sections */
 .pattern-section {
-  border-left: 3px solid var(--accent, #1a5276);
+  border-left: 3px solid var(--accent);
   padding-left: 1.5rem;
   margin: 2rem 0;
 }
@@ -2160,14 +2155,14 @@ html {
 
 /* Dark mode adjustments */
 [data-theme="dark"] .figure-card {
-  border-top-color: var(--art-border, #333);
+  border-top-color: var(--art-border);
 }
 
 [data-theme="dark"] .figure-subtitle,
 [data-theme="dark"] .figure-connections {
-  color: var(--text-secondary, #aaa);
+  color: var(--text-secondary);
 }
 
 [data-theme="dark"] .pattern-section {
-  border-left-color: var(--accent, #4a9bbe);
+  border-left-color: var(--accent);
 }
