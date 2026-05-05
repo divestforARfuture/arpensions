@@ -68,7 +68,7 @@ Even though the sovereign bond allocations are a small percentage of each fund's
 
 **Are you calling for a boycott?**
 
-No. We are calling for the same standard that Arkansas law already requires: that investment decisions be based solely on financial merit. We are asking for a pause, an independent analysis, and transparent process — the basic requirements of prudent pension management. Arkansas's own laws establish that investment decisions should not be driven by political considerations, and that principle should apply equally to buying and selling.
+No. We are calling for the same standard that Arkansas law already requires: that investment decisions be based solely on financial merit. We are asking for a pause, an independent analysis, and transparent process — the basic requirements of prudent pension management.
 
 </div>
 

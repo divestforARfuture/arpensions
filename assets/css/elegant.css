@@ -574,10 +574,10 @@ article > aside[role="complementary"] h3 {
 }
 
 /* ========================================================================
-   SYMMETRY SECTION — Subtle background
+   PRINCIPLE SECTION — Subtle background
    ======================================================================== */
 
-.issue-symmetry {
+.issue-principle {
   background: var(--color-bg-panel);
 }
 

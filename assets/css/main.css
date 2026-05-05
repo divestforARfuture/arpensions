@@ -1925,7 +1925,7 @@ blockquote footer {
 }
 
 /* ==========================================================================
-   THE ISSUE PAGE — Agency table, red flags, symmetry, demands
+   THE ISSUE PAGE — Agency table, red flags, principle, demands
    ========================================================================== */
 
 /* --- Agency Table — Responsive table with red accent --- */
@@ -2053,15 +2053,15 @@ blockquote footer {
   border-top: 1px solid var(--art-border);
 }
 
-/* --- Symmetry Section — Visually distinct argument section --- */
-.issue-symmetry {
+/* --- Principle Section — Visually distinct argument section --- */
+.issue-principle {
   background: var(--art-gray-light);
   margin: 2.5rem -1.5rem 2.5rem;
   padding: 2.5rem 1.5rem 2rem;
   border-radius: 8px;
 }
 
-.issue-symmetry h2 {
+.issue-principle h2 {
   margin-top: 0;
 }
 
@@ -2135,7 +2135,7 @@ blockquote footer {
 }
 
 @media (max-width: 600px) {
-  .issue-symmetry {
+  .issue-principle {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
     border-radius: 0;

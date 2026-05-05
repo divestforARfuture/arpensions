@@ -143,23 +143,23 @@ Several red flags suggest these standards may not have been followed:
 
 </div>
 
-<div class="issue-symmetry" markdown="1">
+<div class="issue-principle" markdown="1">
 
 <span class="section-label">The principle</span>
 
-## The symmetry argument
+## The fiduciary baseline
 
-Arkansas law already establishes the principle at the heart of this issue. Act 710, the state's anti-boycott law, prohibits state entities from refusing to do business with companies for political reasons. The rationale: investment decisions should be based on financial merit, not political pressure.
+Non-marketable foreign sovereign debt is a class of investment that bypasses the price discovery and credit signaling that liquid markets perform automatically. Without a secondary market, there is no continuous repricing of the obligor's credit. Without a continuous price, there is no market check on the underwriter's analysis.
 
-**We agree.** That principle should apply equally in both directions.
+For that class of instrument, prudent management requires what the market would otherwise provide: documented, independent credit analysis before the commitment is made.
 
 <div class="pull-quote">
-  <p>If it is wrong to <em>sell</em> an investment for political reasons, it is equally wrong to <em>buy</em> one for political reasons. The standard is the same: pecuniary factors only.</p>
+  <p>For non-tradable sovereign debt, independent credit analysis is not optional rigor. It is the substitute for the market scrutiny that a secondary market would otherwise impose.</p>
 </div>
 
-If Arkansas law protects against politically motivated divestment, it should also protect against politically motivated investment.
+Arkansas's pecuniary-factors standard (Act 411 of 2023) already requires the Treasurer's investment evaluations to be based "only on pecuniary factors" — those with material financial effect on risk or return. The prudent-investor rule (Ark. Code §§ 24-2-610–619) requires comparable diligence from pension trustees. Together, those standards already require the kind of analysis our FOIA investigation found missing.
 
-Our campaign is not asking for anything that Arkansas law does not already require. We are asking:
+Our campaign is not asking for anything new. We are asking:
 
 <div class="issue-questions" markdown="1">
 
