@@ -118,7 +118,7 @@ The diagram below traces the documented connections from our FOIA investigation.
 Arkansas law is clear about how pension investments must be made:
 
 - **Sole interest rule:** Trustees must invest assets "solely in the interest of the members and benefit recipients of the trust" (Ark. Code Ann. § 24-2-614).
-- **Pecuniary factors only:** Under the Protecting Arkansas Investments Act (Act 411 of 2023), the Treasurer's evaluation of an investment "shall be based only on pecuniary factors" — those with a material financial effect on risk or return.
+- **Pecuniary factors only:** The State Government Employee Retirement Protection Act (Act 498 of 2023) requires pension board investment evaluations to be based "only on pecuniary factors" (Ark. Code § 24-2-802(4)(A), § 24-2-804(a)) — those with a material financial effect on risk or return.
 - **Prudent investor standard:** Trustees must manage assets with the care an experienced, prudent investor would use, with appropriate attention to risk, return, and diversification (Ark. Code §§ 24-2-610–619).
 
 Several red flags suggest these standards may not have been followed:
@@ -157,7 +157,7 @@ For that class of instrument, prudent management requires what the market would 
   <p>For non-tradable sovereign debt, independent credit analysis is not optional rigor. It is the substitute for the market scrutiny that a secondary market would otherwise impose.</p>
 </div>
 
-Arkansas's pecuniary-factors standard (Act 411 of 2023) already requires the Treasurer's investment evaluations to be based "only on pecuniary factors" — those with material financial effect on risk or return. The prudent-investor rule (Ark. Code §§ 24-2-610–619) requires comparable diligence from pension trustees. Together, those standards already require the kind of analysis our FOIA investigation found missing.
+Arkansas's pecuniary-factors standard (Act 498 of 2023, the State Government Employee Retirement Protection Act, Ark. Code §§ 24-2-802(4)(A), 24-2-804(a)) requires pension board investment evaluations to be based "only on pecuniary factors" — those with material financial effect on risk or return. The prudent-investor rule (Ark. Code §§ 24-2-610–619) requires comparable diligence from pension trustees. Together, those standards already require the kind of analysis our FOIA investigation found missing.
 
 Our campaign is not asking for anything new. We are asking:
 
