@@ -103,7 +103,7 @@ This legislation would go through the **Joint Committee on Public Retirement & S
 
 **Committee leadership:**
 
-- **Senate Co-Chair: Sen. Jim Dotson (R, SD-34)** — co-authored Act 710 (2017), the state's anti-boycott law. Any transparency legislation must demonstrate it is about fiduciary process, not political boycotts.
+- **Senate Co-Chair: Sen. Jim Dotson (R, SD-34)** — Senate Republican leadership. Sensitive to any framing that resembles a political boycott; transparency legislation must be presented strictly as fiduciary process and asset-class discipline.
 - **House Co-Chair: Rep. Les Warren (R, HD-84)** — co-sponsored Act 411 (2023, pecuniary factors). FOIA records place Warren at the April 14, 2025 meeting where bond issuer sales executives pitched state officials in the Auditor's Capitol office — the same meeting that preceded the pension fund authorizations. Warren attended alongside Speaker Brian Evans and the bond issuer's national managing director, Lawrence Berman.
 
 Five current committee members co-sponsored Act 411, which requires that the Treasurer's investment evaluations be based "only on pecuniary factors." The Transparency Act extends that same standard to pension board sovereign debt acquisitions — an argument that aligns with, rather than contradicts, the committee's existing legislative record.
