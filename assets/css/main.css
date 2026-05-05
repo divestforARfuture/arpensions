@@ -34,7 +34,7 @@
   --text-primary: var(--brand-ink);
   --text-secondary: #474747;
   --text-muted: #6e6e6e;   /* darkened from #777 to pass AA on --bg-secondary */
-  --text-on-accent: #ffffff;
+  --text-on-accent: var(--brand-paper);
 
   /* Accent — single authoritative dark blue */
   --accent: var(--brand-primary);
@@ -2671,6 +2671,7 @@ html.theme-transition *::after {
   --bg-surface: #2a2a2a;
   --text-secondary: #b0aba5;
   --text-muted: #8a8480;
+  --text-on-accent: #ffffff;  /* accent backgrounds stay colored in dark mode; text stays white */
   --link-visited: #bb8fce;
   --border-dark: #888888;
   --color-data-secondary: #e74c3c;

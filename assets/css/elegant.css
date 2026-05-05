@@ -872,17 +872,17 @@ article > aside[role="complementary"] h3 {
 [data-theme="light"] .hero .btn-secondary-hero { border: 1px solid rgba(255, 255, 255, 0.2); color: rgba(255, 255, 255, 0.7); }
 [data-theme="light"] .hero .btn-secondary-hero:hover { color: rgba(255, 255, 255, 0.85); }
 
-/* --- Dark theme: hero uses brand surface tokens --- */
-[data-theme="dark"] .hero { background-color: var(--brand-paper-tint); }
-[data-theme="dark"] .hero-ghost { color: rgba(27, 27, 27, 0.045); }
-[data-theme="dark"] .hero-eyebrow { color: rgba(27, 27, 27, 0.6); }
-[data-theme="dark"] .hero h1 { color: var(--brand-ink); }
+/* --- Dark theme: hero matches the dark page surface --- */
+[data-theme="dark"] .hero { background-color: var(--bg-secondary); }
+[data-theme="dark"] .hero-ghost { color: rgba(232, 230, 227, 0.045); }
+[data-theme="dark"] .hero-eyebrow { color: rgba(232, 230, 227, 0.6); }
+[data-theme="dark"] .hero h1 { color: var(--text-primary); }
 [data-theme="dark"] .hero-sub,
-[data-theme="dark"] .hero-subtitle { color: rgba(27, 27, 27, 0.7); }
-[data-theme="dark"] .hero .btn-primary-hero { background: var(--brand-ink); color: var(--brand-paper-tint); }
-[data-theme="dark"] .hero .btn-primary-hero:hover { color: var(--brand-paper-tint); }
-[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(27, 27, 27, 0.4); color: rgba(27, 27, 27, 0.8); }
-[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(27, 27, 27, 0.92); }
+[data-theme="dark"] .hero-subtitle { color: rgba(232, 230, 227, 0.7); }
+[data-theme="dark"] .hero .btn-primary-hero { background: var(--text-primary); color: var(--bg-primary); }
+[data-theme="dark"] .hero .btn-primary-hero:hover { color: var(--bg-primary); }
+[data-theme="dark"] .hero .btn-secondary-hero { border: 1px solid rgba(232, 230, 227, 0.4); color: rgba(232, 230, 227, 0.8); }
+[data-theme="dark"] .hero .btn-secondary-hero:hover { color: rgba(232, 230, 227, 0.92); }
 
 /* --- Fallback (no data-theme set): dark hero --- */
 :root:not([data-theme]) .hero { background-color: var(--text-primary); }
@@ -1568,7 +1568,7 @@ html {
   height: 40px;
   border-radius: 50%;
   background: var(--text-primary);
-  color: #f8f7f5;
+  color: var(--bg-secondary);
   border: none;
   cursor: pointer;
   display: flex;
@@ -1582,11 +1582,6 @@ html {
 
 .scroll-to-top:hover {
   opacity: 1;
-}
-
-[data-theme="dark"] .scroll-to-top {
-  background: #f8f7f5;
-  color: var(--bg-primary);
 }
 
 @media (prefers-reduced-motion: reduce) {
