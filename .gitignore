@@ -4,10 +4,9 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-# Bundler
-Gemfile.lock
-vendor/
-.bundle/
+# Bundler (lockfile is tracked; only local install dirs ignored)
+/vendor/
+/.bundle/
 
 # Claude Desktop session state
 .claude/
