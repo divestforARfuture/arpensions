@@ -4,50 +4,70 @@
 
 /* --- Design Tokens --- */
 :root {
+  /* === Brand Primitives — single source for brand identity ===
+     Replace these tokens to apply a brand redesign across the site.
+     Semantic tokens below cascade from these via var() chains. */
+  --brand-primary: #1a5276;
+  --brand-primary-deep: #154360;
+  --brand-primary-tint: #dce8ef;
+  --brand-emphasis: #B91C1C;
+  --brand-emphasis-deep: #991B1B;
+  --brand-ink: #1b1b1b;
+  --brand-paper: #ffffff;
+  --brand-paper-tint: #f8f8f6;
+  --brand-rule: #e2e2e2;
+  --brand-rule-strong: #c4c4c4;
+
+  --brand-display: 'Cormorant Garamond', 'Source Serif 4', Georgia, serif;
+  --brand-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --brand-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --brand-data: 'IBM Plex Mono', 'Courier New', monospace;
+
   /* === Color Palette — Public Record Elegance === */
 
   /* Backgrounds */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f8f6;
-  --bg-surface: #ffffff;
+  --bg-primary: var(--brand-paper);
+  --bg-secondary: var(--brand-paper-tint);
+  --bg-surface: var(--brand-paper);
 
   /* Text */
-  --text-primary: #1b1b1b;
+  --text-primary: var(--brand-ink);
   --text-secondary: #474747;
   --text-muted: #6e6e6e;   /* darkened from #777 to pass AA on --bg-secondary */
+  --text-on-accent: #ffffff;
 
   /* Accent — single authoritative dark blue */
-  --accent: #1a5276;
-  --accent-hover: #154360;
+  --accent: var(--brand-primary);
+  --accent-hover: var(--brand-primary-deep);
 
   /* Links */
-  --link-color: #1a5276;
-  --link-hover: #154360;
+  --link-color: var(--brand-primary);
+  --link-hover: var(--brand-primary-deep);
   --link-visited: #4a235a;
 
   /* Borders */
-  --border-light: #e2e2e2;
-  --border-medium: #c4c4c4;
+  --border-light: var(--brand-rule);
+  --border-medium: var(--brand-rule-strong);
   --border-dark: #303030;
 
   /* Functional — NOT for decoration */
-  --color-danger: #B91C1C;
+  --color-danger: var(--brand-emphasis);
   --color-data-primary: var(--accent);
   --color-data-secondary: #B91C1C;
   --color-data-tertiary: #6e6e6e;
 
   /* === Legacy tokens — aliased to new palette (do not remove) === */
-  --art-red: var(--color-danger);        /* #B91C1C unchanged */
+  --art-red: var(--color-danger);
   --art-green: #166534;
 
-  --art-accent: var(--accent);           /* was #0C7489 teal → now #1a5276 dark blue */
-  --art-accent-light: #dce8ef;           /* light blue tint (was #E0F2F7 teal tint) */
+  --art-accent: var(--accent);
+  --art-accent-light: var(--brand-primary-tint);
 
-  --art-black: var(--text-primary);      /* was #1b2127 → now #1b1b1b */
-  --art-white: var(--bg-primary);        /* was #f8f7f5 → now #ffffff */
-  --art-gray: var(--text-secondary);     /* was #556068 → now #474747 */
-  --art-gray-light: var(--bg-secondary); /* was #f0efec → now #f8f8f6 */
-  --art-border: var(--border-light);     /* was #dee3e6 → now #e2e2e2 */
+  --art-black: var(--text-primary);
+  --art-white: var(--bg-primary);
+  --art-gray: var(--text-secondary);
+  --art-gray-light: var(--bg-secondary);
+  --art-border: var(--border-light);
 
   --art-red-light: #FEE2E2;
   --art-green-light: #DCFCE7;
@@ -61,7 +81,7 @@
   --color-link: var(--link-color);
   --color-link-hover: var(--link-hover);
   --color-cta: var(--color-danger);
-  --color-cta-hover: #991b1b;
+  --color-cta-hover: var(--brand-emphasis-deep);
   --color-success: var(--art-green);
   --color-border: var(--border-light);
 
@@ -70,11 +90,11 @@
   --art-link-hover: var(--link-hover);
 
   /* Typography — font stacks */
-  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
-  --font-display: 'Cormorant Garamond', 'Source Serif 4', Georgia, serif;
-  --font-body: var(--font-serif);
+  --font-serif: var(--brand-body);
+  --font-sans: var(--brand-ui);
+  --font-mono: var(--brand-data);
+  --font-display: var(--brand-display);
+  --font-body: var(--brand-body);
 
   /* Fluid type scale */
   --fs-body: clamp(1.0625rem, 0.9rem + 0.5vw, 1.1875rem);    /* 17–19px */
@@ -296,7 +316,7 @@ article.page-content .evidence-toc-link--active:visited {
   left: 0;
   padding: 0.5rem 1rem;
   background: var(--art-red);
-  color: #fff;
+  color: var(--text-on-accent);
   z-index: 1000;
   font-weight: 600;
 }
@@ -776,7 +796,7 @@ hr {
   font-family: var(--font-serif);
   font-size: clamp(1.75rem, 4vw + 0.75rem, var(--text-5xl));
   font-weight: 700;
-  color: #fff;
+  color: var(--text-on-accent);
   margin-bottom: 1.5rem;
   max-width: 18ch;
   margin-left: 0;
@@ -875,7 +895,7 @@ hr {
 
 .btn-primary {
   background: var(--color-cta);
-  color: #fff;
+  color: var(--text-on-accent);
   border-color: var(--color-cta);
 }
 
@@ -883,7 +903,7 @@ hr {
 .btn-primary:focus-visible {
   background: var(--color-cta-hover);
   border-color: var(--color-cta-hover);
-  color: #fff;
+  color: var(--text-on-accent);
   box-shadow: 0 2px 8px rgba(185, 28, 28, 0.25);
   text-decoration: none;
 }
@@ -897,7 +917,7 @@ hr {
 .btn-secondary:hover,
 .btn-secondary:focus-visible {
   background: var(--art-accent);
-  color: #fff;
+  color: var(--text-on-accent);
   text-decoration: none;
 }
 
@@ -923,14 +943,14 @@ hr {
 /* Light outline button for dark backgrounds */
 .btn-outline-light {
   background: transparent;
-  color: #fff;
+  color: var(--text-on-accent);
   border: 2px solid rgba(255, 255, 255, 0.6);
 }
 
 .btn-outline-light:hover {
   background: rgba(255, 255, 255, 0.15);
   border-color: #fff;
-  color: #fff;
+  color: var(--text-on-accent);
 }
 
 /* ==========================================================================
@@ -1941,7 +1961,7 @@ blockquote footer {
 
 .issue-agency-table thead {
   background: var(--art-red);
-  color: #fff;
+  color: var(--text-on-accent);
 }
 
 .issue-agency-table th {
@@ -2187,7 +2207,7 @@ blockquote footer {
 
 .copy-letter-btn:hover {
   background: var(--art-red);
-  color: #fff;
+  color: var(--text-on-accent);
 }
 
 .copy-letter-btn:focus-visible {
@@ -2198,7 +2218,7 @@ blockquote footer {
 .copy-letter-btn--copied,
 .copy-letter-btn--copied:hover {
   background: var(--art-green);
-  color: #fff;
+  color: var(--text-on-accent);
   border-color: var(--art-green);
 }
 
@@ -2635,62 +2655,29 @@ html.theme-transition *::after {
    DARK MODE — Design Tokens
    ========================================================================== */
 [data-theme="dark"] {
-  /* Backgrounds — warm dark, not cold blue-black */
-  --bg-primary: #1b1b1b;
-  --bg-secondary: #242424;
-  --bg-surface: #2a2a2a;
+  /* Brand primitive overrides — semantic tokens cascade automatically */
+  --brand-primary: #5dade2;
+  --brand-primary-deep: #85c1e9;
+  --brand-primary-tint: rgba(93, 173, 226, 0.15);
+  --brand-emphasis: #e74c3c;
+  --brand-emphasis-deep: #c0392b;
+  --brand-ink: #e8e6e3;
+  --brand-paper: #1b1b1b;
+  --brand-paper-tint: #242424;
+  --brand-rule: #3a3a3a;
+  --brand-rule-strong: #555555;
 
-  /* Text — warm near-white, not cool gray */
-  --text-primary: #e8e6e3;
+  /* Independent dark-mode values (not derived from a brand primitive) */
+  --bg-surface: #2a2a2a;
   --text-secondary: #b0aba5;
   --text-muted: #8a8480;
-
-  /* Accent — lighter for dark backgrounds */
-  --accent: #5dade2;
-  --accent-hover: #85c1e9;
-
-  /* Links */
-  --link-color: #5dade2;
-  --link-hover: #85c1e9;
   --link-visited: #bb8fce;
-
-  /* Borders */
-  --border-light: #3a3a3a;
-  --border-medium: #555555;
   --border-dark: #888888;
-
-  /* Functional */
-  --color-danger: #e74c3c;
-  --color-data-primary: var(--accent);
   --color-data-secondary: #e74c3c;
   --color-data-tertiary: #8a8480;
-
-  /* Legacy aliases — dark mode */
-  --art-red: var(--color-danger);
   --art-green: #22C55E;
-  --art-accent: var(--accent);
-  --art-accent-light: rgba(93, 173, 226, 0.15);
-  --art-black: var(--text-primary);
-  --art-white: var(--bg-primary);
   --art-red-light: rgba(231, 76, 60, 0.12);
   --art-green-light: rgba(34, 197, 94, 0.12);
-  --art-gray: var(--text-secondary);
-  --art-gray-light: var(--bg-secondary);
-  --art-border: var(--border-light);
-
-  --color-text-primary: var(--text-primary);
-  --color-text-secondary: var(--text-secondary);
-  --color-bg-page: var(--bg-primary);
-  --color-bg-panel: var(--bg-secondary);
-  --color-bg-surface: var(--bg-surface);
-  --color-link: var(--link-color);
-  --color-link-hover: var(--link-hover);
-  --color-border: var(--border-light);
-  --color-cta: var(--color-danger);
-  --color-cta-hover: #c0392b;
-
-  --art-link: var(--link-color);
-  --art-link-hover: var(--link-hover);
 
   /* Pico dark mode overrides */
   --pico-color: var(--text-primary);
