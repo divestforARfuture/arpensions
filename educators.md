@@ -24,7 +24,7 @@ Records from the second FOIA round reveal that ATRS formalized its approach to t
 
 ## Why it matters
 
-Arkansas law says pension trustees must invest and manage assets solely in the interest of members and benefit recipients (Ark. Code Ann. § 24-2-614). The Protecting Arkansas Investments Act (Act 411 of 2023) requires the Treasurer of State to base investment evaluations only on pecuniary factors — those with a material financial effect on risk or return. Pension boards like ATRS are not yet covered by an equivalent procedural standard, which is why the [Pension Investment Transparency Act](/legislators/#the-pension-investment-transparency-act) would extend that same requirement to pension board sovereign debt acquisitions.
+Arkansas law says pension trustees must invest and manage assets solely in the interest of members and benefit recipients (Ark. Code Ann. § 24-2-614). The State Government Employee Retirement Protection Act (Act 498 of 2023) requires pension board investment evaluations to be based only on pecuniary factors (Ark. Code § 24-2-802(4)(A)) — those with a material financial effect on risk or return — under the standard of care at § 24-2-803 and the pecuniary-factors-only requirement at § 24-2-804(a). The [Pension Investment Transparency Act](/legislators/#the-pension-investment-transparency-act) would add specific procedural safeguards for sovereign debt acquisitions: independent credit analysis, consultant independence, and documented financial rationale.
 
 ATRS also follows a prudent-investor approach, which calls for care, skill, diversification, and documented due diligence before committing to a new, relatively illiquid position like foreign government bonds.
 

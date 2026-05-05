@@ -265,7 +265,7 @@ The campaign is calling for independent financial review of existing positions, 
 
 ## The fiduciary question
 
-Arkansas law requires pension investments to be based solely on "pecuniary factors" — financial merit (Protecting Arkansas Investments Act, Act 411 of 2023; Ark. Code § 24-2-614). The central question for journalists: Were these investment decisions made through the standard process of independent financial analysis, or were they driven by political relationships and external pressure?
+Arkansas law requires pension investments to be based solely on "pecuniary factors" — financial merit (State Government Employee Retirement Protection Act, Act 498 of 2023, Ark. Code §§ 24-2-802(4)(A), 24-2-804(a); Ark. Code § 24-2-614). The central question for journalists: Were these investment decisions made through the standard process of independent financial analysis, or were they driven by political relationships and external pressure?
 
 Key evidence points:
 
@@ -297,7 +297,7 @@ Key evidence points:
 
 ## Background resources
 
-- **Arkansas law:** Ark. Code § 24-2-614 (sole interest rule); Act 411 of 2023 (pecuniary factors only); Ark. Code §§ 24-2-610–619 (prudent investor standard)
+- **Arkansas law:** Ark. Code § 24-2-614 (sole interest rule); Act 498 of 2023, §§ 24-2-802(4)(A), 24-2-804(a) (pecuniary factors only); Ark. Code §§ 24-2-610–619 (prudent investor standard)
 - **Credit ratings:** Moody's downgraded the issuing country from A1 to Baa1 (via A2); S&P downgraded from AA- to A (via A+); Fitch downgraded from A+ to A (August 2024); all three maintained negative outlook
 - **Prior press coverage:** Jennifer Lenow, ["Arkansas taxpayers are loaning Israel millions of dollars as its war in Gaza grinds on,"](https://arktimes.com/arkansas-blog/2025/07/11/arkansas-taxpayers-are-loaning-israel-millions-of-dollars-as-its-war-in-gaza-grinds-on) *Arkansas Times*, July 11, 2025
 - **Parallel investigation:** Stephen Caruso, "Treasurer Garrity bought Israel Bonds. Candidate Garrity then campaigned at the firm's gala," [*Spotlight PA*](https://www.spotlightpa.org/news/2026/03/stacy-garrity-treasurer-governor-election-israel-bonds-ethics-elections/), March 17, 2026 — independent journalists in Pennsylvania raising similar fiduciary and ethics questions about state sovereign bond purchases
