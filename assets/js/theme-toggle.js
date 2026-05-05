@@ -1,4 +1,4 @@
-// Dark mode / Light mode toggle for ART
+// Dark mode / Light mode toggle
 (function () {
   'use strict';
 
