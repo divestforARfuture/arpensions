@@ -1,8 +1,8 @@
-# Arkansans for Retirement Transparency (ART) — Campaign Website
+# Arkansans for Pension Integrity (API) — Campaign Website
 
 > **Live site:** [arpensions.org](https://arpensions.org)
 
-This is the public-facing campaign website for Arkansans for Retirement Transparency, a grassroots Arkansas initiative investigating state pension fund investments in non-marketable foreign sovereign debt.
+This is the public-facing campaign website for Arkansans for Pension Integrity, a grassroots Arkansas initiative investigating state pension fund investments in non-marketable foreign sovereign debt.
 
 ## Quick Reference
 
@@ -11,7 +11,7 @@ This is the public-facing campaign website for Arkansans for Retirement Transpar
 | Domain | arpensions.org |
 | Stack | Jekyll + GitHub Pages + Pico CSS v2 |
 | Email | info@arpensions.org |
-| Organization | Arkansans for Retirement Transparency (ART) |
+| Organization | Arkansans for Pension Integrity (API) |
 | Tagline | Your money. Zero analysis. |
 
 ## Site Structure
