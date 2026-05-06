@@ -14,7 +14,7 @@ timeline_thread: true
 
 ## Our research
 
-Arkansans for Pension Integrity has analyzed **more than <span data-countup="1200" data-countup-suffix="" data-countup-duration="1.5">1,200</span> public records** from three rounds of Freedom of Information Act (FOIA) requests to five Arkansas state agencies: the State Treasury, ATRS, APERS, the Auditor of State, and ASHERS. The first round (August 2025) covered four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive). The third round (March 2026) expanded to ASHERS, ASPRS, and LOPFI — ASHERS delivered 5 documents, ASPRS confirmed no responsive records, and LOPFI's response is pending.
+Arkansans for Pension Integrity has analyzed **more than <span data-countup="1200" data-countup-suffix="" data-countup-duration="1.5">1,200</span> public records** from three rounds of Freedom of Information Act (FOIA) requests to five Arkansas state agencies: the State Treasury, ATRS, APERS, the Auditor of State, and ASHERS. The first round (August 2025) covered four agencies; the second round (February–March 2026) produced responses from all four: Treasury (118 documents), APERS (16 documents including an 8,648-page production), ATRS (7 documents, partial response), and the Auditor of State (124 documents from three custodians, delivered March 3, 2026 via flash drive). The third round (March 2026) expanded to ASHERS, ASPRS, and LOPFI — ASHERS delivered 5 documents, ASPRS confirmed no responsive records, and LOPFI confirmed no responsive records and no current holdings of the bonds under investigation (April 9, 2026). All five pension agencies have responded. Total corpus: 1,227 documents across five agencies, three FOIA rounds.
 
 Every claim on this site is backed by documents in the public record. Below are the key findings.
 
@@ -549,7 +549,12 @@ Authorizing up to $<span data-countup="100" data-countup-prefix="" data-countup-
   <li class="timeline-event" data-aos="fade-left">
     <time>March 28, 2026</time>
     <h3>ASHERS delivers Round 3 response; ASPRS confirms null result</h3>
-    <p>ASHERS (Arkansas State Highway Employees' Retirement System) delivered 5 documents including email correspondence revealing that the bond issuer's national sales leadership was introduced to ASHERS staff through the same April 2025 pitch tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009. LOPFI response still pending. Investigation corpus now covers 5 state agencies with 1,227 total documents (1,044 active after deduplication).</p>
+    <p>ASHERS (Arkansas State Highway Employees' Retirement System) delivered 5 documents including email correspondence revealing that the bond issuer's national sales leadership was introduced to ASHERS staff through the same April 2025 pitch tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009. Investigation corpus reaches 1,227 total documents (1,044 active after deduplication).</p>
+  </li>
+  <li class="timeline-event" data-aos="fade-left">
+    <time>April 9, 2026</time>
+    <h3>LOPFI confirms null result; all five pension agencies responded</h3>
+    <p>LOPFI (Local Police and Fire Retirement System) confirmed no responsive records and no current holdings of the bonds under investigation. LOPFI manages its own investments independently with approximately $3.15 billion under management. With LOPFI's response, all five Arkansas pension systems have now responded to API's FOIA requests. Total corpus: 1,227 documents across five agencies, three FOIA rounds.</p>
   </li>
 </ol>
 </div>

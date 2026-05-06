@@ -196,7 +196,8 @@ A third round of FOIA requests expanded the investigation to previously uninvest
   <div class="meeting-info">
     <p><strong>LOPFI</strong> (Local Police and Fire Retirement System)</p>
     <ul>
-      <li><strong>Status:</strong> Response pending</li>
+      <li><strong>Documents:</strong> 0 (null result)</li>
+      <li><strong>Contents:</strong> Confirmed no responsive records and no current holdings of the bonds under investigation (April 9, 2026); LOPFI manages investments independently with approximately $3.15 billion under management</li>
     </ul>
   </div>
 </div>
