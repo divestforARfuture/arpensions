@@ -12,38 +12,8 @@
 }
 
 /* ========================================================================
-   NAVIGATION — Lighter weight, teal accents, restrained CTA
+   NAVIGATION — flat-nav rules live in main.css; nothing to override here.
    ======================================================================== */
-
-.nav-logo {
-  font-weight: 500;
-  font-size: 1rem;
-  letter-spacing: -0.01em;
-}
-
-.nav-title {
-  font-family: var(--font-elegant);
-  font-weight: 500;
-  font-size: 1.1rem;
-  letter-spacing: 0;
-}
-
-.nav-links > li > a,
-.nav-dropdown summary {
-  font-family: var(--font-display);
-  font-weight: 400;
-  font-size: 1rem;
-  letter-spacing: 0;
-  line-height: 1;
-}
-
-.site-nav {
-  border-bottom: 0.5px solid var(--color-border);
-}
-
-[data-theme="dark"] .site-nav {
-  border-bottom: 0.5px solid var(--border-default);
-}
 
 /* ========================================================================
    FOOTER — restyled in main.css (editorial centered layout)
@@ -1967,30 +1937,8 @@ html {
   border-bottom-width: 2px;
 }
 
-/* Nav link bottom-border slide-in */
-.nav-links > li > a,
-.nav-links > li > .nav-dropdown > summary {
-  position: relative;
-}
-
-/* .nav-dropdown summary::after — arrow indicator handled by main.css, no underline animation */
-
-.nav-links > li > a::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background: var(--accent);
-  transition: width 0.2s ease, left 0.2s ease;
-}
-
-.nav-links > li > a:hover::after,
-.nav-links > li > a[aria-current="page"]::after {
-  width: 100%;
-  left: 0;
-}
+/* Nav-link gold underline animation lives in main.css alongside the flat-nav
+   rules — keeping styling concentrated in one place. */
 
 /* Pull-quote entrance glow — removed (pull-quote is now transparent with thin rules) */
 
@@ -2013,9 +1961,6 @@ html {
   .action-step:hover,
   .document-item:hover {
     transform: none;
-  }
-  .nav-links > li > a::after {
-    transition: none;
   }
   /* pull-quote glow animation removed — no override needed */
   .stat-number.counted {

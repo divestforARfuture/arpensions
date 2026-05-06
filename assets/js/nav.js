@@ -9,13 +9,15 @@
   function closeMenu() {
     toggle.setAttribute('aria-expanded', 'false');
     menu.classList.remove('nav-open');
+    document.body.style.overflow = '';
   }
 
   function openMenu() {
     toggle.setAttribute('aria-expanded', 'true');
     menu.classList.add('nav-open');
-    // Move focus to first visible interactive element for keyboard users
-    var firstItem = menu.querySelector('summary, li > a');
+    // Lock background scroll while the full-screen overlay is open
+    document.body.style.overflow = 'hidden';
+    var firstItem = menu.querySelector('a');
     if (firstItem) firstItem.focus();
   }
 
@@ -23,7 +25,6 @@
     return toggle.getAttribute('aria-expanded') === 'true';
   }
 
-  // Toggle button click
   toggle.addEventListener('click', function() {
     if (isOpen()) {
       closeMenu();
@@ -33,18 +34,10 @@
     }
   });
 
-  // Close on Escape key
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape' && isOpen()) {
       closeMenu();
       toggle.focus();
-    }
-  });
-
-  // Close on click outside nav
-  document.addEventListener('click', function(e) {
-    if (isOpen() && !nav.contains(e.target)) {
-      closeMenu();
     }
   });
 
@@ -56,44 +49,18 @@
   });
 })();
 
-// Nav dropdown enhancements — close-on-outside-click, close-on-escape, one-open-at-a-time
+// Scroll-triggered nav shadow — adds .is-scrolled when the page has scrolled
 (function() {
-  var dropdowns = document.querySelectorAll('.nav-dropdown');
-  if (!dropdowns.length) return;
+  var nav = document.querySelector('.site-nav');
+  if (!nav) return;
 
-  // Only one dropdown open at a time
-  dropdowns.forEach(function(details) {
-    details.addEventListener('toggle', function() {
-      if (details.open) {
-        dropdowns.forEach(function(other) {
-          if (other !== details) other.open = false;
-        });
-      }
-    });
-  });
+  function update() {
+    if (window.scrollY > 4) nav.classList.add('is-scrolled');
+    else nav.classList.remove('is-scrolled');
+  }
 
-  // Close dropdowns on Escape
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      dropdowns.forEach(function(d) {
-        if (d.open) {
-          d.open = false;
-          // Don't fight mobile menu Escape handler for focus
-          var mobileOpen = document.querySelector('.nav-toggle');
-          if (!mobileOpen || mobileOpen.getAttribute('aria-expanded') !== 'true') {
-            d.querySelector('summary').focus();
-          }
-        }
-      });
-    }
-  });
-
-  // Close dropdowns when clicking outside
-  document.addEventListener('click', function(e) {
-    if (!e.target.closest('.nav-dropdown')) {
-      dropdowns.forEach(function(d) { d.open = false; });
-    }
-  });
+  update();
+  window.addEventListener('scroll', update, { passive: true });
 })();
 
 // Active nav highlighting — reinforce server-side aria-current with client-side path matching
@@ -105,13 +72,6 @@
     var href = (link.getAttribute('href') || '').replace(/\/+$/, '') || '/';
     if (path === href || (href !== '/' && path.indexOf(href) === 0)) {
       link.setAttribute('aria-current', 'page');
-      // Mark parent dropdown summary as active
-      var dropdown = link.closest('.nav-dropdown');
-      if (dropdown) {
-        var summary = dropdown.querySelector('summary');
-        if (summary) summary.setAttribute('aria-current', 'true');
-        dropdown.setAttribute('data-has-active', 'true');
-      }
     } else {
       link.removeAttribute('aria-current');
     }
@@ -120,7 +80,6 @@
 
 // Scroll-triggered stat counter animation
 (function() {
-  // Respect reduced motion preference
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
   var stats = document.querySelectorAll('[data-count]');
@@ -135,7 +94,6 @@
     var duration = 1500;
     var start = performance.now();
 
-    // Special handling for zero — delay then pulse
     if (target === 0) {
       el.textContent = '0';
       setTimeout(function() {
@@ -147,7 +105,6 @@
     function step(now) {
       var elapsed = now - start;
       var progress = Math.min(elapsed / duration, 1);
-      // Ease-out cubic for natural deceleration
       var eased = 1 - Math.pow(1 - progress, 3);
       var current = Math.round(target * eased);
       el.textContent = prefix + current + suffix;
@@ -185,7 +142,6 @@
       link.setAttribute('target', '_blank');
       link.relList.add('noopener', 'noreferrer');
 
-      // Add visually-hidden cue for screen readers (WCAG AA)
       if (!link.querySelector('.sr-only')) {
         var hint = document.createElement('span');
         hint.className = 'sr-only';
