@@ -1,4 +1,6 @@
-// Mobile nav toggle with Escape key and click-outside-to-close
+// Mobile nav toggle: Escape key, body-scroll lock, close on link click
+// (the prior click-outside-to-close handler was dropped when the nav switched
+// to a full-viewport overlay — clicking outside the menu = clicking the menu)
 (function() {
   var toggle = document.querySelector('.nav-toggle');
   var menu = document.getElementById('nav-menu');

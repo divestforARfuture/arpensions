@@ -3,6 +3,18 @@
   'use strict';
 
   var STORAGE_KEY = 'api-theme';
+  var LEGACY_KEY = 'art-theme';
+
+  // One-time silent migration: copy any legacy 'art-theme' value to the new
+  // 'api-theme' key so returning visitors keep their saved theme. The
+  // anti-FOUC inline script reads both keys for first paint; this just
+  // promotes the value so future paints read it from the new key directly.
+  if (!localStorage.getItem(STORAGE_KEY)) {
+    var legacy = localStorage.getItem(LEGACY_KEY);
+    if (legacy === 'dark' || legacy === 'light') {
+      localStorage.setItem(STORAGE_KEY, legacy);
+    }
+  }
 
   function getTheme() {
     var saved = localStorage.getItem(STORAGE_KEY);
@@ -45,9 +57,9 @@
       if (isDark) lights[i].setAttribute('aria-hidden', 'true');
       else lights[i].removeAttribute('aria-hidden');
     }
-    for (var i = 0; i < darks.length; i++) {
-      if (isDark) darks[i].removeAttribute('aria-hidden');
-      else darks[i].setAttribute('aria-hidden', 'true');
+    for (var j = 0; j < darks.length; j++) {
+      if (isDark) darks[j].removeAttribute('aria-hidden');
+      else darks[j].setAttribute('aria-hidden', 'true');
     }
   }
 
