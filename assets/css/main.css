@@ -18,7 +18,7 @@
   --api-red: #B91C1C;
   --api-forest: #224D36;
   --api-slate: #5F7391;
-  --api-gray: #777773;
+  --api-gray: #696965;  /* darkened from #777773 to clear WCAG AA 4.5:1 on cream + white */
 
   /* Hover / deep variants for transitions */
   --api-navy-deep: #122444;
@@ -44,7 +44,7 @@
   /* Text */
   --text-primary: var(--api-charcoal);
   --text-secondary: var(--api-gray);
-  --text-muted: #6e6e6e;
+  --text-muted: #666664;  /* darkened from #6e6e6e to clear WCAG AA 4.5:1 on cream + white */
   --text-on-dark: var(--api-cream);
   --text-on-accent: var(--api-cream);
   --text-heading: var(--api-navy);
@@ -745,7 +745,7 @@ hr {
   font-size: 0.8rem;
   font-weight: 400;
   letter-spacing: 0.02em;
-  color: rgba(248, 245, 240, 0.5);
+  color: rgba(248, 245, 240, 0.7);  /* 0.5 → 0.7 to clear WCAG AA 4.5:1 against navy hero */
   margin: 1.5rem 0 0;
   max-width: 36rem;
   line-height: 1.5;
@@ -1036,7 +1036,9 @@ hr {
 .pathway-arrow {
   font-family: var(--font-sans);
   font-size: 1.5rem;
-  color: var(--accent);
+  /* Was --accent (gold) — fails WCAG AA on cream/white. --link-color resolves
+     to navy in light mode and gold in dark mode, both pass. */
+  color: var(--link-color);
   transition: transform 0.15s ease;
   justify-self: end;
 }
@@ -1144,7 +1146,9 @@ hr {
   font-family: var(--font-sans);
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--accent);
+  /* Was --accent (gold) — fails WCAG AA on cream/white. --link-color resolves
+     to navy in light mode and gold in dark mode, both pass. */
+  color: var(--link-color);
   margin-top: 0.5rem;
   letter-spacing: 0.02em;
 }
