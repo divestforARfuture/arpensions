@@ -73,7 +73,7 @@ Set `assets/images/capitol-hero.jpg` as the hero section background:
 }
 ```
 
-The hero should show the Capitol building ghosted through a navy overlay. The logo mark, headline ("Up to $100M in pension fund exposure. Zero independent analyses."), tagline ("They're messing with your money."), and CTA buttons sit on top of the overlay. The effect should feel like standing in front of the Capitol with the campaign message in your face.
+The hero should show the Capitol building ghosted through a navy overlay. The logo mark, headline ("Up to $100M in pension fund exposure. Zero independent analyses."), tagline ("Your money. Zero analysis."), and CTA buttons sit on top of the overlay. The effect should feel like standing in front of the Capitol with the campaign message in your face.
 
 ### Commit 3: Brand name find-and-replace across all content
 
@@ -85,7 +85,7 @@ Search ALL `.md` files and ALL `_includes/*.html` files:
 | (ART) | (API) |
 | ART is a grassroots | API is a grassroots |
 | ART operates | API operates |
-| Your Retirement. Your Right to Know. | They're messing with your money. |
+| Your Retirement. Your Right to Know. | Your money. Zero analysis. |
 
 Also search for any remaining references to `art-logo`, `art-theme`, `--art-` in HTML/JS files that weren't caught in the first PR.
 

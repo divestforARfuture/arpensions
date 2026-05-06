@@ -136,7 +136,7 @@ Generate a simplified favicon from the logo mark. The state outline at 32x32 in 
 │     Zero independent analyses.                        │
 │          (Cormorant Garamond, cream, 2.75rem)         │
 │                                                       │
-│       They're messing with your money.                │
+│       Your money. Zero analysis.                      │
 │            (Inter medium, gold, 1rem)                 │
 │                                                       │
 │    [ See the evidence ]  [ Take action ]              │
@@ -253,8 +253,8 @@ Hamburger icon (three lines, Inter). Opens full-screen overlay: navy background,
 │  Arkansans for      Documents          arpensions.org │
 │  Pension Integrity  The Issue                         │
 │                     Take Action        A campaign of  │
-│  They're messing    About              Little Rock    │
-│  with your money.   Methodology        Peace for      │
+│  Your money.        About              Little Rock    │
+│  Zero analysis.     Methodology        Peace for      │
 │  (gold, italic)     Glossary           Palestine      │
 │                                                       │
 │  ─────────────────── [gold hr] ──────────────────── │
