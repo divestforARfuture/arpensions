@@ -12,7 +12,7 @@ This is the public-facing campaign website for Arkansans for Retirement Transpar
 | Stack | Jekyll + GitHub Pages + Pico CSS v2 |
 | Email | info@arpensions.org |
 | Organization | Arkansans for Retirement Transparency (ART) |
-| Tagline | Your Retirement. Your Right to Know. |
+| Tagline | Your money. Zero analysis. |
 
 ## Site Structure
 

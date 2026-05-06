@@ -577,11 +577,11 @@ hr {
   line-height: 1;
 }
 
-[data-theme="dark"] .nav-wordmark {
-  color: var(--api-cream);
-}
-
-@media (max-width: 768px) {
+/* Hide the wordmark whenever the desktop nav (logo + 6 links + theme
+   toggle) plus the nowrap wordmark would crowd or overflow the container.
+   1024px is the safe cutoff: at iPad-landscape width and below, the mark
+   alone carries the brand. */
+@media (max-width: 1024px) {
   .nav-wordmark {
     display: none;
   }
@@ -993,11 +993,22 @@ hr {
 }
 
 /* Subtle vertical dividers between stat columns — keeps the trio reading
-   as a single bar rather than three loose numbers. Hidden on mobile where
-   the grid stacks vertically. */
+   as a single bar rather than three loose numbers. The pseudo-element sits
+   at the midpoint of the 2rem grid gap (left: -1rem from the cell edge), so
+   the line reads as a true divider rather than a left-indent border. Hidden
+   on mobile where the grid stacks. */
 @media (min-width: 601px) {
   .stat + .stat {
-    border-left: 1px solid var(--border-default);
+    position: relative;
+  }
+  .stat + .stat::before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: 15%;
+    height: 70%;
+    width: 1px;
+    background: var(--border-default);
   }
 }
 
