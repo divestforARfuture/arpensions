@@ -5,6 +5,7 @@ description: "Media resources for journalists covering Arkansas pension investme
 permalink: /press/
 audience_nav: true
 breadcrumb: "For Media"
+hero_band: charcoal
 ---
 
 ## Campaign summary

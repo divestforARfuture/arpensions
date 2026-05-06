@@ -2,7 +2,19 @@
 (function () {
   'use strict';
 
-  var STORAGE_KEY = 'art-theme';
+  var STORAGE_KEY = 'api-theme';
+  var LEGACY_KEY = 'art-theme';
+
+  // One-time silent migration: copy any legacy 'art-theme' value to the new
+  // 'api-theme' key so returning visitors keep their saved theme. The
+  // anti-FOUC inline script reads both keys for first paint; this just
+  // promotes the value so future paints read it from the new key directly.
+  if (!localStorage.getItem(STORAGE_KEY)) {
+    var legacy = localStorage.getItem(LEGACY_KEY);
+    if (legacy === 'dark' || legacy === 'light') {
+      localStorage.setItem(STORAGE_KEY, legacy);
+    }
+  }
 
   function getTheme() {
     var saved = localStorage.getItem(STORAGE_KEY);
@@ -13,8 +25,8 @@
   function syncBrowserTheme(theme) {
     var root = document.documentElement;
     root.style.colorScheme = theme;
-    root.style.backgroundColor = theme === 'dark' ? '#1b1b1b' : '#ffffff';
-    root.style.color = theme === 'dark' ? '#e8e6e3' : '#1b1b1b';
+    root.style.backgroundColor = theme === 'dark' ? '#1C1917' : '#F8F5F0';
+    root.style.color = theme === 'dark' ? '#F8F5F0' : '#1C1917';
     var meta = document.querySelector('meta[name="color-scheme"]');
     if (meta) {
       meta.setAttribute('content', theme);
@@ -45,9 +57,9 @@
       if (isDark) lights[i].setAttribute('aria-hidden', 'true');
       else lights[i].removeAttribute('aria-hidden');
     }
-    for (var i = 0; i < darks.length; i++) {
-      if (isDark) darks[i].removeAttribute('aria-hidden');
-      else darks[i].setAttribute('aria-hidden', 'true');
+    for (var j = 0; j < darks.length; j++) {
+      if (isDark) darks[j].removeAttribute('aria-hidden');
+      else darks[j].setAttribute('aria-hidden', 'true');
     }
   }
 

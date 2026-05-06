@@ -5,6 +5,7 @@ description: "What Arkansas state employees need to know about APERS pension inv
 permalink: /public-employees/
 audience_nav: true
 breadcrumb: "For Public Employees"
+hero_band: slate
 charts: true
 ---
 
@@ -60,15 +61,15 @@ For the full timeline, source quotes, and legal analysis, see our [evidence page
 </div>
 
 <div class="stats-grid" style="max-width: 720px; margin: 0 0 var(--space-xl);">
-  <div class="stat-card" style="padding: 1rem 0.75rem;">
+  <div class="stat" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">$11.58B</span>
     <span class="stat-label">Total fund (Q1 FY2025)</span>
   </div>
-  <div class="stat-card" style="padding: 1rem 0.75rem;">
+  <div class="stat" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">-0.79%</span>
     <span class="stat-label">Q1 2025 return (78th percentile)</span>
   </div>
-  <div class="stat-card" style="padding: 1rem 0.75rem;">
+  <div class="stat" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">~$2.6B</span>
     <span class="stat-label">Unfunded liability</span>
   </div>

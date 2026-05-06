@@ -5,6 +5,7 @@ description: "What Arkansas teachers and retired educators need to know about AT
 permalink: /educators/
 audience_nav: true
 breadcrumb: "For Educators"
+hero_band: forest
 charts: true
 ---
 
@@ -52,15 +53,15 @@ Here's what the record shows:
 </div>
 
 <div class="stats-grid" style="max-width: 720px; margin: 0 0 var(--space-xl);">
-  <div class="stat-card" style="padding: 1rem 0.75rem;">
+  <div class="stat" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">$23.7B</span>
     <span class="stat-label">Net assets (FY2025)</span>
   </div>
-  <div class="stat-card" style="padding: 1rem 0.75rem;">
+  <div class="stat" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">9.8%</span>
     <span class="stat-label">FY2025 return</span>
   </div>
-  <div class="stat-card" style="padding: 1rem 0.75rem;">
+  <div class="stat" style="padding: 1rem 0.75rem;">
     <span class="stat-number" style="font-size: var(--text-2xl);">#17</span>
     <span class="stat-label">National ranking</span>
   </div>
