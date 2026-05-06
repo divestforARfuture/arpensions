@@ -1277,29 +1277,82 @@ hr {
   color: var(--text-secondary);
 }
 
-/* --- Landing Page --- */
-.landing-hero {
-  background-color: var(--bg-secondary);
-  padding: 3.5rem 1.5rem 3rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  position: relative;
+/* --- Audience-page colored hero band ---
+   Each audience page sets `hero_band:` front matter (forest / slate /
+   navy / charcoal). The band is ~30vh, accent-colored, with a cream
+   Cormorant Garamond title and an 80%-opacity cream subtitle. */
+.hero-band {
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 1.5rem 3.5rem;
+  color: var(--api-cream);
+  margin-bottom: 0;
 }
 
-.landing-hero h1 {
-  margin-bottom: 0.5rem;
+.hero-band-inner {
+  max-width: 64rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.landing-description {
-  font-size: 1.15rem;
-  color: var(--text-secondary);
-  margin: 0.75rem auto 0;
-  max-width: 600px;
-  line-height: 1.7;
+.hero-band--forest    { background: var(--api-forest); }
+.hero-band--slate     { background: var(--api-slate); }
+.hero-band--navy      { background: var(--api-navy); }
+.hero-band--charcoal  { background: var(--api-charcoal); }
+
+.hero-band .breadcrumb {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: rgba(248, 245, 240, 0.7);
+  margin-bottom: 1.25rem;
+}
+
+.hero-band .breadcrumb a {
+  color: rgba(248, 245, 240, 0.85);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+
+.hero-band .breadcrumb a:hover {
+  border-bottom-color: var(--api-gold);
+}
+
+.hero-band .breadcrumb [aria-current="page"] {
+  color: var(--api-cream);
+  font-weight: 500;
+}
+
+.hero-band-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.85rem, 2vw + 1rem, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--api-cream);
+  margin: 0 0 0.85rem;
+  max-width: 30ch;
+}
+
+.hero-band-subtitle {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  line-height: 1.55;
+  color: rgba(248, 245, 240, 0.8);
+  max-width: 56ch;
+  margin: 0;
 }
 
 .landing-content .container-prose {
-  padding-bottom: 4rem;
+  padding: 3rem 0 4rem;
+}
+
+@media (max-width: 600px) {
+  .hero-band {
+    min-height: 22vh;
+    padding: 3rem 1.25rem 2.5rem;
+  }
 }
 
 /* --- CTA Box --- */
@@ -2095,17 +2148,6 @@ blockquote footer {
    AUDIENCE LANDING PAGES + TAKE ACTION — Visual elevation
    ========================================================================== */
 
-/* --- Landing Hero — Red accent stripe (mirrors homepage hero motif) --- */
-.landing-hero::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: var(--accent-cta);
-}
-
 /* --- Copy to Clipboard Button --- */
 .copy-letter-btn {
   position: absolute;
@@ -2716,12 +2758,7 @@ html.theme-transition *::after {
 
 /* --- Timeline — uses semantic tokens, minimal dark overrides --- */
 
-/* --- Hero and Landing Hero: already dark or using variables, verify --- */
-/* Hero inverts via elegant.css — no override needed here */
-
-[data-theme="dark"] .landing-hero {
-  background-color: var(--bg-secondary);
-}
+/* --- Hero / hero-band: dark variants are token-driven (no extra rules). --- */
 
 /* --- Graph hint (used on graph page but has generic background) --- */
 [data-theme="dark"] .graph-hint p {

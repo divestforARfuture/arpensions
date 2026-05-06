@@ -138,12 +138,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto 0.5rem;
 }
 
-.landing-hero h1 {
-  font-family: var(--font-elegant);
-  font-weight: 300;
-  letter-spacing: -0.3px;
-}
-
 /* ========================================================================
    PAGE HEADERS — Inner page titles (the-issue, evidence, about, etc.)
    ======================================================================== */
@@ -687,29 +681,8 @@ article > aside[role="complementary"] h3 {
 }
 
 /* ========================================================================
-   LANDING HERO — Refined to match elegant system
+   AUDIENCE-PAGE HERO BANDS — defined in main.css (hero-band + variants).
    ======================================================================== */
-
-.landing-hero {
-  background-color: var(--color-bg-panel);
-  padding: 3rem 1.5rem 2.5rem;
-}
-
-.landing-hero::after {
-  height: 2px;
-  background: var(--link-color);
-}
-
-.landing-hero h1 {
-  font-family: var(--font-elegant);
-  font-weight: 300;
-  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
-  letter-spacing: -0.3px;
-}
-
-.landing-description {
-  font-size: 1rem;
-}
 
 /* ========================================================================
    HOMEPAGE COMPONENTS — hero / stats / pathways / audience cards / about

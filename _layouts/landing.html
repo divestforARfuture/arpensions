@@ -2,16 +2,17 @@
 layout: default
 ---
 <article class="landing-content" aria-labelledby="landing-heading">
-  <section class="landing-hero" aria-labelledby="landing-heading">
-    <div class="container container-prose">
+  {% assign band = page.hero_band | default: 'navy' %}
+  <section class="hero-band hero-band--{{ band }}" aria-labelledby="landing-heading">
+    <div class="hero-band-inner">
       {% if page.breadcrumb %}
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="{{ '/' | relative_url }}">Home</a> <span aria-hidden="true">&rarr;</span> <span aria-current="page">{{ page.breadcrumb }}</span>
       </nav>
       {% endif %}
-      <h1 id="landing-heading">{{ page.title }}</h1>
+      <h1 id="landing-heading" class="hero-band-title">{{ page.title }}</h1>
       {% if page.description %}
-      <p class="landing-description">{{ page.description }}</p>
+      <p class="hero-band-subtitle">{{ page.description }}</p>
       {% endif %}
     </div>
   </section>

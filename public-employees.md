@@ -5,6 +5,7 @@ description: "What Arkansas state employees need to know about APERS pension inv
 permalink: /public-employees/
 audience_nav: true
 breadcrumb: "For Public Employees"
+hero_band: slate
 charts: true
 ---
 
