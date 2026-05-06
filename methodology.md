@@ -19,7 +19,7 @@ Our requests targeted investment decision records, board meeting materials, corr
 
 ## Document Processing
 
-We received <span class="font-mono">1,227</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across three rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February–March 2026) added 265 documents from four agencies (Treasury: 118; APERS: 16; ATRS: 7; Auditor: 124). Round 3 (March 2026) added 5 documents from ASHERS; ASPRS confirmed no responsive records; LOPFI response pending. Every document was:
+We received <span class="font-mono">1,227</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across three rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February–March 2026) added 265 documents from four agencies (Treasury: 118; APERS: 16; ATRS: 7; Auditor: 124). Round 3 (March 2026) added 5 documents from ASHERS; ASPRS confirmed no responsive records; LOPFI confirmed no responsive records and no current holdings of the bonds under investigation (April 9, 2026). All five pension agencies have responded. Every document was:
 
 1. **Cataloged** with metadata including source agency, date, document type, and FOIA request number
 2. **Processed** using optical character recognition (OCR) where necessary to make scanned documents searchable

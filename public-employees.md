@@ -87,38 +87,29 @@ These are solid numbers. But even in a well-funded system, bypassing standard in
 
 ## What you can do
 
-### 1. Write to the APERS Board
+### 1. Contact your legislators about the Pension Investment Transparency Act
 
-At least one purchase of these non-tradable sovereign bonds has been confirmed (November 2025 bond statement), though the exact amount has not been disclosed. Email the Board to request an independent financial review and transparent reporting to members.
+The 2027 Arkansas legislative session is the place to fix the procedural gap APERS's authorization exposed. The **[Pension Investment Transparency Act](/legislators/#the-pension-investment-transparency-act)** would require independent credit analysis, consultant independence, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt — closing the gap our FOIA documents revealed.
 
-**Email:** [APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20%E2%80%94%20Sovereign%20Bond%20Investment)
+**Find your legislators** at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/) or **text RESIST to 50409** to reach them through Resistbot.
 
 <div class="letter-template" markdown="1">
 <button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
 
-#### Letter template — APERS trustees
+#### Letter template — your state legislators
 {: .letter-heading }
 
-**Subject line:** Public employees request independent review of non-tradable sovereign bond investment
+**Subject line:** Public employees support the Pension Investment Transparency Act for the 2027 session
 
-Dear APERS Trustees,
+Dear [Representative/Senator],
 
-As Arkansas public employees and APERS members, we ask that every investment decision remain strictly fiduciary. State law requires trustees to act "solely in the interest of the members and benefit recipients," and that evaluations be based only on pecuniary factors — those with a material effect on risk or return. That standard — prudence, loyalty, and process — exists to protect our pensions from politics and keep choices focused on risk, return, liquidity, and long-term security. It also reflects the prudent-investor rule requiring care, skill, diversification, and diligence appropriate to the fund's objectives.
+As an Arkansas public employee and APERS member, I'm writing to ask you to support the Pension Investment Transparency Act in the 2027 legislative session. APERS members earn our retirement through years of state service, and we need the investment process behind that retirement to meet a documented fiduciary standard.
 
-In May–June 2025, the APERS Investment Subcommittee and then the full board approved a $25–50 million non-tradable sovereign bond authorization. The Auditor of State's appointee to the board introduced the investment by citing Treasury holdings — not independent financial analysis. At least one purchase has since been confirmed, though the exact amount has not been disclosed to members. Around the same period, an internal Treasury memo (late 2024) advised holding off on new purchases of these bonds due to credit-rating downgrades, and public comments by some officials framed the investment in political terms.
+In May–June 2025, the APERS Investment Subcommittee and full board approved a $25–50 million authorization for non-tradable sovereign bonds. More than 1,200 public records obtained through FOIA show no independent credit analysis was produced before that vote. The board reviewed 37 pages of consultant analysis covering every other asset class at the same meeting, and three institutional firms presented detailed private credit briefings. The non-tradable sovereign bond authorization received zero pages of written analysis. Arkansas's pecuniary-only standard under Act 498 of 2023 already governs these decisions — but the procedural specificity behind that standard (independent credit analysis, consultant independence, documented rationale) is what was missing.
 
-Now that purchases have been made, we ask you to:
+The Pension Investment Transparency Act closes that procedural gap. It does not pressure pension boards to buy or sell any specific investment. It establishes the same documented due diligence standard for non-tradable sovereign debt that already applies to other investment classes.
 
-1. Commission and publish an independent analysis of APERS's sovereign bond position — comparing risk, return, liquidity, and alternatives — and share it with members.
-2. Disclose the current size and terms of APERS's sovereign bond holdings.
-3. Document how the authorization and purchases complied with APERS's pecuniary-only standard.
-4. Ensure that any future sovereign debt commitments include independent analysis and member input before the board votes.
-
-We recognize that APERS has stated the investment complies with statutes and will result in a good outcome for members. A transparent side-by-side comparison is the surest way to confirm that — and members have every right to see one.
-
-For the specific instrument identified in our FOIA investigation and the full financial profile, see arpensions.org/glossary.
-
-Thank you for safeguarding Arkansas public employees' retirements through prudent process and strictly financial analysis.
+Sound fiduciary process is non-partisan. It protects every Arkansas public employee whose retirement depends on these funds.
 
 Sincerely,
 [Your name, role / agency, and city]
@@ -127,13 +118,13 @@ Sincerely,
 
 <div class="callout email-callout" markdown="1">
 
-**Shorter version for email:** "As an Arkansas public employee and APERS member, I appreciate your work to safeguard our retirement. APERS authorized $25–50 million in non-tradable sovereign bonds in 2025, and at least one purchase has been confirmed — but the exact amount and terms have not been disclosed to members. I'm asking you to commission and publish an independent review of this investment, disclose the current holdings, and ensure future sovereign debt commitments include independent analysis before the board votes. For the specific instrument and full financial profile, see arpensions.org/glossary."
+**Shorter version for email:** "As an Arkansas public employee and APERS member, I'm asking you to support the Pension Investment Transparency Act in the 2027 session. APERS authorized $25–50 million in non-tradable sovereign bonds in 2025, with no independent credit analysis on the record before the vote. PITA would require the same documented due diligence standard for sovereign debt that already applies to APERS's other asset classes. For the financial profile of the bonds under investigation, see arpensions.org/glossary."
 
 </div>
 
 ### 2. Attend the next APERS Board meeting
 
-Public comment is your right as a pension fund member.
+Sitting in on board meetings is one of the most useful things an APERS member can do. You see the documented process firsthand — the consultant analyses presented, the questions asked, the way the record gets made — and that observation is exactly the kind of detail that strengthens the legislative case for PITA.
 
 <div class="meeting-info" markdown="1">
 
@@ -146,7 +137,7 @@ Public comment is your right as a pension fund member.
 
 <div class="callout script-card" markdown="1">
 
-**60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas public employee and APERS member. In May 2025, your Investment Subcommittee approved a $25–50 million authorization for non-tradable sovereign bonds. The Auditor's appointee introduced the investment by citing Treasury holdings, not independent analysis. At least one purchase has since been confirmed, but the exact amount hasn't been disclosed to members. The State Treasurer's own senior investment officer had previously recommended pausing new purchases of these bonds because of credit-rating downgrades. As members, we're asking for transparency: please commission and publish an independent review of this investment, disclose the current holdings, and ensure future sovereign debt commitments include independent analysis and member input before the board votes. For the specific investment identified in the FOIA documents, visit arpensions.org/glossary."
+**60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas public employee and APERS member. I'm here to share that I support the Pension Investment Transparency Act being prepared for the 2027 legislative session. PITA would require independent credit analysis, consultant independence, and documented financial rationale before pension boards commit members' funds to non-tradable sovereign debt — the same documented standard already applied to APERS's other asset classes through Callan and similar consultant work. As a member, I appreciate the rigor of that existing process. Codifying it for sovereign debt acquisitions through PITA would simply make our existing practice the floor, not the ceiling. Thank you for your service to Arkansas public employees."
 
 </div>
 

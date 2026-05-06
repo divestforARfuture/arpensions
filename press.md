@@ -12,7 +12,7 @@ hero_band: charcoal
 
 Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign investigating investments in non-tradable foreign sovereign debt by state pension funds. Through FOIA requests to five state agencies, the campaign has obtained and analyzed more than 1,200 public records revealing up to $100 million in authorized pension fund exposure and $55 million in State Treasury holdings — approximately $155 million in total authorized Arkansas exposure to non-tradable sovereign bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
 
-The campaign is calling for independent financial review of existing positions, a halt to further purchases pending analysis, and pension transparency legislation for the 2027 Arkansas legislative session.
+The campaign's ask is legislative: passage of the **Pension Investment Transparency Act** in the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. The campaign does not ask pension boards to buy or sell any specific investment.
 
 ## Key statistics
 
@@ -329,9 +329,9 @@ The successful campaigns share three characteristics: FOIA-driven transparency, 
 
 ## Background: The specific instrument
 
-The FOIA documents obtained by this campaign identify the instrument as **Israel Bonds**, issued through the **Development Corporation for Israel (DCI)**, a for-profit broker-dealer registered with FINRA (CRD# 11148). For the full financial profile — including credit ratings, liquidity characteristics, and regulatory history — see our [glossary](/glossary/).
+This investigation centers on a class of **non-marketable foreign sovereign debt** — direct loans to a foreign government, sold exclusively through a for-profit broker-dealer registered with FINRA (CRD# 11148). The bonds cannot be sold or traded before maturity, and all three major rating agencies have downgraded the issuing country's sovereign credit rating since 2024. For the full financial profile — credit ratings, liquidity characteristics, regulatory history — see our [glossary](/glossary/).
 
-Throughout this site, we describe the investment by its financial characteristics rather than its issuer name. The [evidence page](/evidence/) and [document archive](/documents/) present what the public records show. The officials' own words — quoted verbatim above — identify the issuer in political terms. That contrast is the point.
+Throughout this site we describe the investment by its financial characteristics rather than its issuer name. The [document archive](/documents/) names the specific instrument and issuer in the agencies' own words. The [evidence page](/evidence/) presents what those records show. The officials' own statements — quoted verbatim above — identify the issuer in political terms. The contrast between the campaign's financial language and the officials' political language is the point.
 
 </div>
 

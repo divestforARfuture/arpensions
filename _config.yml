@@ -1,5 +1,5 @@
 title: Arkansans for Pension Integrity
-description: "Arkansas pension transparency campaign — public records and fiduciary scrutiny of state retirement fund investments. They're messing with your money."
+description: "Arkansas pension funds authorized up to $100 million in non-tradable foreign sovereign debt without independent analysis. We're pushing for pension transparency legislation in 2027."
 url: "https://arpensions.org"
 baseurl: ""
 permalink: /:title/
@@ -51,3 +51,5 @@ exclude:
   - node_modules
   - vendor
   - REFRAME-INSTRUCTIONS.md
+  - REDESIGN-SPEC.md
+  - REDESIGN-V2.md

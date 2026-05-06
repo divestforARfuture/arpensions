@@ -58,7 +58,9 @@ These authorizations came in rapid succession — and under circumstances that r
 
 **March 3, 2026:** Auditor of State delivers Round 2 response — 124 documents from three custodians (Dennis Milligan, Jason Brady, Wendy Spadoni) via flash drive from General Counsel TJ Fowler. Investigation corpus reaches 1,222 documents across four agencies, two FOIA rounds.
 
-**March 28, 2026:** ASHERS (Arkansas State Highway Employees' Retirement System) delivers Round 3 response — 5 documents revealing the bond issuer's national sales leadership pitched ASHERS through the same April 2025 tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirms no responsive documents — assets commingled with APERS under Act 1242 of 2009. LOPFI response still pending. Total corpus: 1,227 documents across five agencies, three FOIA rounds.
+**March 28, 2026:** ASHERS (Arkansas State Highway Employees' Retirement System) delivers Round 3 response — 5 documents revealing the bond issuer's national sales leadership pitched ASHERS through the same April 2025 tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirms no responsive documents — assets commingled with APERS under Act 1242 of 2009. Investigation corpus reaches 1,227 documents across five agencies, three FOIA rounds.
+
+**April 9, 2026:** LOPFI (Local Police and Fire Retirement System) confirms no responsive records and no current holdings of the bonds under investigation. LOPFI manages its own investments independently with approximately $3.15 billion under management; no documentation of contact with the bond issuer. With LOPFI's response, all five Arkansas pension systems have now responded.
 
 <div class="callout" markdown="1">
 

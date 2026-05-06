@@ -6,27 +6,23 @@ permalink: /take-action/
 hide_rule: true
 ---
 
-Every Arkansan whose retirement is managed by a state pension fund has a stake in how that money is invested. Here's how you can make your voice heard — starting today.
+Every Arkansan whose retirement is managed by a state pension fund has a stake in how that money is invested. The 2027 Arkansas legislative session is the place to fix the gap our FOIA records exposed — and that takes legislators hearing from constituents. Here's how you can help.
 
 <div class="step-ladder" role="navigation" aria-label="Action steps">
   <a href="#sign-on" class="step-ladder-item">
     <span class="step-ladder-node">1</span>
     <span class="step-ladder-label">Sign on</span>
   </a>
-  <a href="#write-trustees" class="step-ladder-item">
-    <span class="step-ladder-node">2</span>
-    <span class="step-ladder-label">Write to trustees</span>
-  </a>
   <a href="#contact-legislators" class="step-ladder-item">
-    <span class="step-ladder-node">3</span>
+    <span class="step-ladder-node">2</span>
     <span class="step-ladder-label">Contact legislators</span>
   </a>
   <a href="#attend-meeting" class="step-ladder-item">
-    <span class="step-ladder-node">4</span>
+    <span class="step-ladder-node">3</span>
     <span class="step-ladder-label">Attend a meeting</span>
   </a>
   <a href="#volunteer" class="step-ladder-item">
-    <span class="step-ladder-node">5</span>
+    <span class="step-ladder-node">4</span>
     <span class="step-ladder-label">Volunteer</span>
   </a>
 </div>
@@ -38,59 +34,9 @@ Every Arkansan whose retirement is managed by a state pension fund has a stake i
 
 ## Sign on in support {#sign-on}
 
-We're building a list of Arkansans — educators, public employees, retirees, and concerned taxpayers — who believe pension investments should be based solely on financial merit.
+We're building a list of Arkansans — educators, public employees, retirees, and concerned taxpayers — who believe pension investments should be based solely on financial merit, with documented due diligence on the record.
 
 **Add your name** by emailing **[info@arpensions.org](mailto:info@arpensions.org?subject=I%20support%20pension%20transparency&body=I%20am%20an%20Arkansan%20who%20supports%20pension%20transparency%20and%20fiduciary%20accountability.%0A%0AName%3A%20%0ACity%3A%20%0AReason%20I%20care%3A%20)** with your name, city, and why you care.
-
-</section>
-
-<section class="action-step" markdown="1">
-
-## Write to pension trustees {#write-trustees}
-
-The people who make investment decisions for your retirement fund are required by law to act solely in your financial interest. Let them know you're paying attention.
-
-<div class="callout" markdown="1">
-
-**Keep it professional and focused on fiduciary duty.** The most effective messages are short, specific, and center on pecuniary factors — not politics. Ask for a pause, an independent analysis, and transparency. You can cite that new records confirm no independent credit analysis was found across more than 1,200 documents from two FOIA rounds, and that the APERS board authorized the investment without independent financial analysis being presented beforehand.
-
-</div>
-
-**For ATRS members (educators and retired educators):**
-
-Write to ATRS trustees at **[info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20%E2%80%94%20Sovereign%20Bond%20Authorization)**. You can use or adapt this message:
-
-<div class="letter-template letter-template--compact" markdown="1">
-<button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
-
-Dear ATRS Trustees,
-
-As an Arkansas educator and ATRS member, I appreciate your work to safeguard our retirement. I'm writing to ask you to pause execution of the June 2025 authorization of up to $50 million in non-tradable sovereign bonds until an independent, written analysis is completed and shared with members. That review should compare risk, return, and liquidity to other fixed-income options and explain how this investment satisfies Arkansas's pecuniary-only and prudent-investor requirements.
-
-For the specific instrument identified in our FOIA investigation and the full financial profile, see arpensions.org/glossary.
-
-Sincerely,
-[Your name, role, and city]
-
-</div>
-
-**For APERS members (public employees and retirees):**
-
-Write to APERS at **[APERS@arkansas.gov](mailto:APERS@arkansas.gov?subject=Public%20Comment%20%E2%80%94%20Sovereign%20Bond%20Authorization)**. You can use or adapt this message:
-
-<div class="letter-template letter-template--compact" markdown="1">
-<button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
-
-Dear APERS Trustees,
-
-As an Arkansas public employee and APERS member, I appreciate your work to safeguard our retirement. I'm asking you to pause execution of the 2025 sovereign bond authorization until you complete and share an independent, written analysis. Please compare risk, return, and liquidity to other fixed-income options and explain how this investment meets Arkansas's pecuniary-only standard and prudent-investor duties.
-
-For the specific instrument identified in our FOIA investigation and the full financial profile, see arpensions.org/glossary.
-
-Sincerely,
-[Your name, role / agency, and city]
-
-</div>
 
 </section>
 </div>
@@ -102,15 +48,37 @@ Sincerely,
 
 ## Contact your legislators {#contact-legislators}
 
-The 2027 Arkansas legislative session is an opportunity to establish stronger pension transparency requirements. Let your state legislators know this issue matters to you.
+The 2027 Arkansas legislative session is an opportunity to establish stronger pension transparency requirements through the **[Pension Investment Transparency Act](/legislators/)**. Let your state legislators know this issue matters to you.
 
-**Text RESIST to 50409** to reach your Arkansas state legislators through Resistbot. Ask them to:
+**Text RESIST to 50409** to reach your Arkansas state legislators through Resistbot, or find your legislators at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/). Ask them to:
 
-- Support the **[Pension Investment Transparency Act](/legislators/)** in the 2027 session — issuer-neutral legislation requiring independent analysis before pension funds commit to non-tradable sovereign debt
-- Require independent credit analysis before large new bond purchases
-- Ensure that Arkansas's pecuniary-factors standard applies to purchases and sales alike
+- Support the Pension Investment Transparency Act in the 2027 session — issuer-neutral legislation requiring independent credit analysis, consultant independence, and documented financial rationale before pension funds commit members' retirement money to non-tradable sovereign debt
+- Reinforce that Arkansas's pecuniary-only standard under Act 498 of 2023 governs the full investment process — including the analysis on the record before a vote
+- Treat sound fiduciary process as a non-partisan baseline that protects every Arkansan whose retirement depends on these funds
 
-You can also find your legislators at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/).
+<div class="callout" markdown="1">
+
+**Why legislation, not board pressure.** API does not ask pension boards to buy or sell any specific investment. Boards already operate under Arkansas's pecuniary-factors standard (Act 498 of 2023). What the public record shows is that the procedural specificity behind that standard — the independent credit analysis, consultant independence, and documented rationale — was missing for a $50 million authorization. The fix belongs at the legislature, not at the trustees' table.
+
+</div>
+
+**Letter template.** Copy, edit, and send to your state representative and senator:
+
+<div class="letter-template letter-template--compact" markdown="1">
+<button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
+
+Dear [Representative/Senator],
+
+As an Arkansan whose retirement is managed by a state pension fund, I'm writing to ask you to support the Pension Investment Transparency Act in the 2027 legislative session. This legislation would require independent credit analysis before pension funds commit to non-tradable sovereign debt, ensuring investment decisions are based on financial merit.
+
+Our pension funds authorized up to $100 million in non-tradable foreign sovereign bonds without producing a single independent credit analysis. The Pension Investment Transparency Act would close this gap by requiring the same documented due diligence for sovereign debt that already applies to other investment classes.
+
+This is not a partisan issue. Sound fiduciary standards protect every Arkansan whose retirement depends on these funds.
+
+Sincerely,
+[Your name, city]
+
+</div>
 
 </section>
 </div>
@@ -122,7 +90,7 @@ You can also find your legislators at [arkleg.state.ar.us](https://www.arkleg.st
 
 ## Attend a board meeting {#attend-meeting}
 
-Public comment at pension board meetings is one of the most direct ways to be heard by the people who manage your retirement funds. Board meetings are open to the public under Arkansas law.
+Pension board meetings are open to the public under Arkansas law. Attending is one of the most direct ways to learn how investment decisions get documented and what the public record looks like as it's being made — useful background for the legislative case.
 
 <div class="meeting-grid" markdown="1">
 <div class="meeting-info" markdown="1">
@@ -132,7 +100,6 @@ Public comment at pension board meetings is one of the most direct ways to be he
 - **Location:** ATRS Board Room, 1400 W. Third St., Little Rock
 - **Upcoming 2026 dates:** Check the [ATRS Board Calendar](https://www.artrs.gov/calendar) for the current schedule
 - **Public comment:** Contact Board Secretary Tammy Porter at [tammyp@artrs.gov](mailto:tammyp@artrs.gov) to sign up ahead of the meeting
-- **Written comment:** Email [info@artrs.gov](mailto:info@artrs.gov) with the subject line "Public Comment for [date] Board Meeting"
 
 </div>
 <div class="meeting-info" markdown="1">
@@ -142,14 +109,13 @@ Public comment at pension board meetings is one of the most direct ways to be he
 - **Location:** APERS Office, 124 W. Capitol Ave., Little Rock
 - **Upcoming 2026 dates:** Check [apers.org](https://apers.org/) for the current board meeting schedule
 - **Public comment:** Contact the Executive Director's office at [APERS@arkansas.gov](mailto:APERS@arkansas.gov) for sign-up details
-- **Written comment:** Email [APERS@arkansas.gov](mailto:APERS@arkansas.gov) with a subject line referencing the board meeting date
 
 </div>
 </div>
 
 <div class="callout" markdown="1">
 
-**Tips for public comment:** Keep your statement to 60 seconds. Focus on fiduciary standards — risk, return, liquidity, and process. Ask specific questions: Was an independent credit analysis performed? Why were internal staff recommendations overridden? How does this investment meet the pecuniary-only standard?
+**If you attend.** Listen for how investment decisions are documented and analyzed on the record. Take notes on the process. The Pension Investment Transparency Act is about strengthening that record-making — your observations help make the case to legislators.
 
 </div>
 
@@ -159,7 +125,7 @@ Public comment at pension board meetings is one of the most direct ways to be he
 
 ## Volunteer {#volunteer}
 
-We need Arkansans across the state — especially educators and public employees — to help build this campaign. There are roles for every skill level and time commitment:
+We need Arkansans across the state — especially educators and public employees — to help build this campaign toward the 2027 session. There are roles for every skill level and time commitment:
 
 - **Research and FOIA** — Help analyze public records and file information requests
 - **Outreach** — Talk to coworkers, attend community events, connect with local organizations

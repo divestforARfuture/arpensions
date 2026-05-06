@@ -15,7 +15,7 @@ Arkansans for Pension Integrity (API) is a grassroots campaign using public reco
 
 We believe the strongest advocacy is built on evidence, not rhetoric. Our campaign rests on three pillars:
 
-**Public records research.** We have filed three rounds of Freedom of Information Act requests — 11 requests across three rounds to seven state entities (the State Treasury, ATRS, APERS, the Auditor of State, ASHERS, ASPRS, and LOPFI) — and analyzed more than 1,200 public records. ASHERS (Arkansas State Highway Employees' Retirement System) delivered five documents in Round 3, revealing that the bond issuer's sales leadership pitched ASHERS through the same April 2025 tour but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — its assets are commingled with APERS under Act 1242 of 2009. LOPFI's response is still pending. Every claim we make is sourced from these documents and other public information. FOIA requests are a fundamental right under Arkansas law, and we exercise that right to ensure Arkansans can see how their pension dollars are being managed.
+**Public records research.** We have filed three rounds of Freedom of Information Act requests — 11 requests across three rounds to seven state entities (the State Treasury, ATRS, APERS, the Auditor of State, ASHERS, ASPRS, and LOPFI) — and analyzed more than 1,200 public records. All five pension agencies have now responded. ASHERS (Arkansas State Highway Employees' Retirement System) delivered five documents in Round 3, revealing that the bond issuer's sales leadership pitched ASHERS through the same April 2025 tour but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — its assets are commingled with APERS under Act 1242 of 2009. LOPFI (Local Police and Fire Retirement System) confirmed no responsive records and no current holdings of the bonds under investigation (April 9, 2026); LOPFI manages its own investments independently with approximately $3.15 billion under management. Every claim we make is sourced from these documents and other public information. FOIA requests are a fundamental right under Arkansas law, and we exercise that right to ensure Arkansans can see how their pension dollars are being managed.
 
 **Fiduciary-first framing.** We lead with financial analysis and legal standards, not political arguments. Arkansas law requires that pension investments be made based solely on "pecuniary factors" — financial merit. That's the standard we hold decision-makers to. Our questions are straightforward: Was an independent credit analysis performed? Were internal staff recommendations followed? Does the investment process meet the prudent-investor standard? These are the questions the law requires pension fiduciaries to answer.
 
@@ -27,12 +27,11 @@ We believe the strongest advocacy is built on evidence, not rhetoric. Our campai
 
 ## What we're asking for
 
-Our demands are narrow and rooted in existing Arkansas law:
+Our asks are narrow, legislative, and rooted in existing Arkansas law:
 
-1. **Pause** new purchases of non-tradable sovereign bonds until an independent credit analysis is completed and shared with pension fund members. [See the financial profile →](/glossary/)
-2. **Transparency** — Publish the financial analysis that justifies these investments, comparing risk, return, and liquidity against comparable alternatives.
-3. **Process review** — Document and explain how recent authorizations complied with Arkansas's pecuniary-only standard and the established manager-driven investment process.
-4. **Pension transparency legislation** — Support the **Pension Investment Transparency Act** for the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
+1. **Pension transparency legislation** — Support the **Pension Investment Transparency Act** for the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
+2. **Transparency** — Publish the financial analysis that justifies these investments, comparing risk, return, and liquidity against comparable alternatives. [See the financial profile →](/glossary/)
+3. **Process review** — Document and explain how recent authorizations complied with Arkansas's pecuniary-only standard under Act 498 of 2023 and the established manager-driven investment process.
 
 </div>
 
@@ -68,7 +67,7 @@ Even though the sovereign bond allocations are a small percentage of each fund's
 
 **Are you calling for a boycott?**
 
-No. We are calling for the same standard that Arkansas law already requires: that investment decisions be based solely on financial merit. We are asking for a pause, an independent analysis, and transparent process — the basic requirements of prudent pension management.
+No. We are not asking pension boards to buy or sell any specific investment. We are asking the Arkansas legislature to require independent credit analysis before pension funds commit to non-tradable sovereign debt. The Pension Investment Transparency Act would establish the same documented due diligence standard for sovereign debt that already applies to other investment classes.
 
 </div>
 
@@ -92,7 +91,7 @@ Arkansans for Pension Integrity operates on a shoestring budget through small do
 
 **How can I help?**
 
-[Take action today](/take-action/) — sign on in support, write to your pension trustees, contact your legislators, attend a board meeting, or volunteer with the campaign.
+[Take action today](/take-action/) — sign on in support, contact your legislators about the Pension Investment Transparency Act, attend a board meeting, or volunteer with the campaign.
 
 </div>
 
@@ -102,4 +101,4 @@ Arkansans for Pension Integrity operates on a shoestring budget through small do
 
 **Email:** [info@arpensions.org](mailto:info@arpensions.org)
 
-<p class="campaign-attribution">Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign supported by community organizations in central Arkansas.</p>
+<p class="campaign-attribution">Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign for pension transparency and fiduciary accountability.</p>

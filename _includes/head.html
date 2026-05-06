@@ -35,8 +35,8 @@ html[data-theme="light"] .mobile-cta-bar{background:#FFFFFF}
 [data-theme="dark"] .logo-dark,[data-theme="light"] .logo-light{opacity:1}
 html[data-theme="dark"] :where(main,footer,aside,section,article,div){background-color:transparent}
 /* ADD NEW THEMED COMPONENTS IN ALL THREE LOCATIONS: base pairs above, @media dark block, and @media light block */
-html[data-theme="light"] .hero{background:#1A3057}
-html[data-theme="dark"] .hero{background:#1C1917}
+html[data-theme="light"] .hero{background-color:#1A3057}
+html[data-theme="dark"] .hero{background-color:#1C1917}
 html[data-theme="light"] .hero-band{background:#1A3057}
 html[data-theme="dark"] .hero-band{background:#1C1917}
 html[data-theme="light"] .pathways{background:#F8F5F0}
@@ -111,6 +111,12 @@ html[data-theme="dark"] .about-section{background:#1C1917}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <!-- Elegant redesign layer -->
 <link rel="stylesheet" href="{{ '/assets/css/elegant.css' | relative_url }}">
+{%- if page.url == '/' %}
+<!-- LCP hint: homepage hero background. Otherwise the browser can't discover
+     it until main.css parses. Only emitted on the homepage to avoid wasted
+     preloads on every other page. -->
+<link rel="preload" href="{{ '/assets/images/capitol-hero.jpg' | relative_url }}" as="image" fetchpriority="high">
+{%- endif %}
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
