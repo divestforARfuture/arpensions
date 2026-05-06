@@ -101,4 +101,4 @@ Arkansans for Pension Integrity operates on a shoestring budget through small do
 
 **Email:** [info@arpensions.org](mailto:info@arpensions.org)
 
-<p class="campaign-attribution">Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign supported by community organizations in central Arkansas.</p>
+<p class="campaign-attribution">Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign for pension transparency and fiduciary accountability.</p>
