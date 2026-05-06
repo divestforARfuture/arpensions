@@ -180,6 +180,14 @@
 
 /* --- Logo theme swap — opacity crossfade, no layout reflow --- */
 /* Both images stay in DOM; dark logo is absolutely stacked on top of light. */
+.nav-logo-mark {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
 .logo-dark {
   position: absolute;
   top: 0;
@@ -212,6 +220,17 @@
 /* Fallback: show light logo if data-theme hasn't been set (JS disabled) */
 :root:not([data-theme]) .logo-light { opacity: 1; }
 :root:not([data-theme]) .logo-dark  { opacity: 0; }
+
+/* Nav-scale logo polish — at 44px the PNGs read a bit washed out next to
+   the wordmark. A modest filter lifts contrast without touching the 64px
+   footer logo or the 200px hero logo (which use bare <img> + .hero-logo). */
+.nav-logo .logo-light {
+  filter: brightness(0.78) contrast(1.18) saturate(1.05);
+}
+
+.nav-logo .logo-dark {
+  filter: brightness(1.05) contrast(1.08);
+}
 
 /* --- Base --- */
 body {
@@ -534,6 +553,7 @@ hr {
 .nav-logo {
   display: inline-flex;
   align-items: center;
+  gap: 0.625rem;
   text-decoration: none;
   color: var(--text-primary);
   font-family: var(--font-sans);
@@ -545,6 +565,26 @@ hr {
   height: 44px;
   width: auto;
   display: block;
+}
+
+.nav-wordmark {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--text-heading);
+  white-space: nowrap;
+  line-height: 1;
+}
+
+/* Hide the wordmark whenever the desktop nav (logo + 6 links + theme
+   toggle) plus the nowrap wordmark would crowd or overflow the container.
+   1024px is the safe cutoff: at iPad-landscape width and below, the mark
+   alone carries the brand. */
+@media (max-width: 1024px) {
+  .nav-wordmark {
+    display: none;
+  }
 }
 
 .nav-links {
@@ -767,10 +807,10 @@ hr {
 
 .hero-provenance {
   font-family: var(--font-sans);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 400;
   letter-spacing: 0.02em;
-  color: rgba(248, 245, 240, 0.7);  /* 0.5 → 0.7 to clear WCAG AA 4.5:1 against navy hero */
+  color: rgba(248, 245, 240, 0.82);  /* 0.7 → 0.82 — clearly readable while staying subordinate to the headline; still passes WCAG AA against navy hero */
   margin: 1.5rem 0 0;
   max-width: 36rem;
   line-height: 1.5;
@@ -946,10 +986,30 @@ hr {
 
 .stat {
   text-align: center;
-  padding: 1rem;
+  padding: 1rem 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+}
+
+/* Subtle vertical dividers between stat columns — keeps the trio reading
+   as a single bar rather than three loose numbers. The pseudo-element sits
+   at the midpoint of the 2rem grid gap (left: -1rem from the cell edge), so
+   the line reads as a true divider rather than a left-indent border. Hidden
+   on mobile where the grid stacks. */
+@media (min-width: 601px) {
+  .stat + .stat {
+    position: relative;
+  }
+  .stat + .stat::before {
+    content: '';
+    position: absolute;
+    left: -1rem;
+    top: 15%;
+    height: 70%;
+    width: 1px;
+    background: var(--border-default);
+  }
 }
 
 .stat-number {
@@ -1131,7 +1191,7 @@ hr {
 .audience-card {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
   padding: 2rem 1.75rem;
   background: var(--bg-primary);
   border-top: 2px solid var(--accent);
@@ -1146,6 +1206,12 @@ hr {
   box-shadow: 0 8px 24px rgba(28, 25, 23, 0.08);
   color: var(--text-primary);
   text-decoration: none;
+}
+
+[data-theme="dark"] .audience-card {
+  /* Slightly lighter border weight in dark mode (gold border at ~80% alpha)
+     so the accent reads as a tasteful underline rather than a heavy bar. */
+  border-top-color: rgba(203, 166, 72, 0.8);
 }
 
 [data-theme="dark"] .audience-card:hover {
@@ -1192,8 +1258,17 @@ hr {
    ABOUT SECTION (Homepage)
    ========================================================================== */
 .about-section {
-  padding: 5rem 1.5rem;
+  padding: 6rem 1.5rem;
   background: var(--bg-primary);
+  border-top: 1px solid var(--border-default);
+}
+
+/* In dark mode the section needs --bg-secondary (#242220), not --bg-primary
+   (#1C1917), to keep section distinction from the page bg AND to match the
+   anti-FOUC inline rule in head.html. Without this override, main.css
+   would repaint the section #1C1917 once it loads, creating a flash. */
+[data-theme="dark"] .about-section {
+  background: var(--bg-secondary);
 }
 
 .about-section .container-prose,
