@@ -688,6 +688,7 @@ hr {
   align-items: center;
   justify-content: center;
   background-color: var(--bg-hero);
+  /* Absolute path; CSS files can't run Liquid, so this assumes baseurl: "" in _config.yml. */
   background-image: url('/assets/images/capitol-hero.jpg');
   background-size: cover;
   background-position: center 30%;
@@ -1606,8 +1607,8 @@ blockquote footer {
 }
 
 .footer-logo img {
+  width: 64px;
   height: 64px;
-  width: auto;
   display: block;
 }
 
