@@ -79,35 +79,29 @@ For the full timeline, source quotes, and legal analysis, see our [evidence page
 
 ## What you can do
 
-### 1. Write to the ATRS Board
+### 1. Contact your legislators about the Pension Investment Transparency Act
 
-The full $50 million has already been deployed. Email the Board to request an independent financial review of the investment and transparent reporting to members.
+The 2027 Arkansas legislative session is the place to fix the procedural gap that ATRS's deployment exposed. The **[Pension Investment Transparency Act](/legislators/#the-pension-investment-transparency-act)** would require independent credit analysis, consultant independence, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt — closing the gap our FOIA documents revealed.
 
-**Email:** [info@artrs.gov](mailto:info@artrs.gov?subject=Public%20Comment%20%E2%80%94%20Sovereign%20Bond%20Investment)
+**Find your legislators** at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/) or **text RESIST to 50409** to reach them through Resistbot.
 
 <div class="letter-template" markdown="1">
 <button class="copy-letter-btn" type="button" aria-label="Copy letter to clipboard">Copy</button>
 
-#### Letter template — ATRS trustees
+#### Letter template — your state legislators
 {: .letter-heading }
 
-**Subject line:** Educators request independent review of non-tradable sovereign bond investment
+**Subject line:** Educators support the Pension Investment Transparency Act for the 2027 session
 
-Dear ATRS Trustees,
+Dear [Representative/Senator],
 
-As Arkansas educators and ATRS members, we appreciate your service and ask that our retirement decisions remain strictly fiduciary. Arkansas law and ATRS policy require that investment choices be based only on pecuniary factors and made solely in members' interests. That standard — prudence, loyalty, and process — protects our pensions from non-financial considerations and keeps decisions focused on risk, return, and long-term security.
+As an Arkansas educator and ATRS member, I'm writing to ask you to support the Pension Investment Transparency Act in the 2027 legislative session. ATRS members earn our retirement through decades of classroom work, and we need the investment process behind that retirement to meet a documented fiduciary standard.
 
-In June 2025, the Board authorized up to $50 million in non-tradable sovereign bonds. Board Chair Danny Knight cast the sole "no" vote, cautioning that selecting a specific security arising from trustee discussion could depart from ATRS's usual practice of relying on professional managers. By December 2025, the full $50 million was deployed — without independent credit analysis at any stage. Around the same period, a late-2024 internal Treasury memo advised holding off on new purchases of these bonds due to credit-rating downgrades.
+In June 2025, the ATRS Board authorized up to $50 million in non-tradable sovereign bonds. By December 2025, the full $50 million had been deployed. More than 1,200 public records obtained through FOIA show no independent credit analysis was produced at any stage of that authorization. Arkansas's pecuniary-only standard under Act 498 of 2023 already governs these decisions — but the procedural specificity behind that standard (independent credit analysis, consultant independence, documented rationale) is what was missing.
 
-Now that these funds are committed, we ask you to:
+The Pension Investment Transparency Act closes that procedural gap. It does not pressure pension boards to buy or sell any specific investment. It establishes the same documented due diligence standard for non-tradable sovereign debt that already applies to other investment classes.
 
-1. Commission and publish an independent analysis of ATRS's sovereign bond position — comparing risk, return, liquidity, and alternatives — and share it with members.
-2. Document how the authorization and deployment complied with ATRS's pecuniary-only standard and established manager-driven process.
-3. Ensure that any future sovereign debt commitments include independent analysis and member input before the board votes.
-
-For the specific instrument identified in our FOIA investigation and the full financial profile, see arpensions.org/glossary.
-
-Thank you for safeguarding Arkansas educators' retirements through prudent process and strictly financial analysis.
+Sound fiduciary process is non-partisan. It protects every Arkansas educator whose retirement depends on these funds.
 
 Sincerely,
 [Your name, role, and city]
@@ -116,13 +110,13 @@ Sincerely,
 
 <div class="callout email-callout" markdown="1">
 
-**Shorter version for email:** "As an Arkansas educator and ATRS member, I appreciate your work to safeguard our retirement. ATRS deployed the full $50 million sovereign bond authorization in December 2025 without independent credit analysis at any stage. I'm asking you to commission and publish an independent review of this investment — comparing risk, return, and liquidity to other fixed-income options — and ensure future sovereign debt commitments include independent analysis before the board votes. For the specific instrument and full financial profile, see arpensions.org/glossary."
+**Shorter version for email:** "As an Arkansas educator and ATRS member, I'm asking you to support the Pension Investment Transparency Act in the 2027 session. ATRS deployed the full $50 million sovereign bond authorization in December 2025 without independent credit analysis at any stage. PITA would require independent credit analysis and documented financial rationale before pension boards commit to non-tradable sovereign debt — the same standard that already applies to other investment classes. For the financial profile of the bonds under investigation, see arpensions.org/glossary."
 
 </div>
 
 ### 2. Attend the next ATRS Board meeting
 
-Public comment is your right as a pension fund member.
+Sitting in on board meetings is one of the most useful things an ATRS member can do. You see the documented process firsthand — the analyses presented, the questions asked, the way the record gets made — and that observation is exactly the kind of detail that strengthens the legislative case for PITA.
 
 <div class="meeting-info" markdown="1">
 
@@ -135,7 +129,7 @@ Public comment is your right as a pension fund member.
 
 <div class="callout script-card" markdown="1">
 
-**60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas educator and ATRS member. In June 2025, you approved Resolution 2025-22 authorizing up to $50 million in non-tradable sovereign bonds. The Board Chair cast the lone no vote and raised concerns about the process. By December, the full $50 million was deployed — without independent credit analysis at any stage. The State Treasurer's own senior investment officer had previously recommended pausing new purchases of these bonds because of credit-rating downgrades. As members, we're asking for accountability: please commission and publish an independent review of this investment, and ensure that future sovereign debt commitments include independent analysis and member input before the board votes. For the specific investment identified in the FOIA documents, visit arpensions.org/glossary."
+**60-second public comment script:** "Good morning, my name is [Name], and I'm an Arkansas educator and ATRS member. I'm here to share that I support the Pension Investment Transparency Act being prepared for the 2027 legislative session. PITA would require independent credit analysis, consultant independence, and documented financial rationale before pension boards commit members' funds to non-tradable sovereign debt — the same documented standard that already applies to other investment classes. As an ATRS member, I'm grateful for the rigorous analysis this Board commissions for so many of its decisions. Codifying that same level of process for sovereign debt acquisitions through PITA would simply make our existing practice the floor, not the ceiling. Thank you for your service to Arkansas educators."
 
 </div>
 

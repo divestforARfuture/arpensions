@@ -27,12 +27,11 @@ We believe the strongest advocacy is built on evidence, not rhetoric. Our campai
 
 ## What we're asking for
 
-Our demands are narrow and rooted in existing Arkansas law:
+Our asks are narrow, legislative, and rooted in existing Arkansas law:
 
-1. **Pause** new purchases of non-tradable sovereign bonds until an independent credit analysis is completed and shared with pension fund members. [See the financial profile →](/glossary/)
-2. **Transparency** — Publish the financial analysis that justifies these investments, comparing risk, return, and liquidity against comparable alternatives.
-3. **Process review** — Document and explain how recent authorizations complied with Arkansas's pecuniary-only standard and the established manager-driven investment process.
-4. **Pension transparency legislation** — Support the **Pension Investment Transparency Act** for the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
+1. **Pension transparency legislation** — Support the **Pension Investment Transparency Act** for the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. [Read the full policy brief →](/legislators/)
+2. **Transparency** — Publish the financial analysis that justifies these investments, comparing risk, return, and liquidity against comparable alternatives. [See the financial profile →](/glossary/)
+3. **Process review** — Document and explain how recent authorizations complied with Arkansas's pecuniary-only standard under Act 498 of 2023 and the established manager-driven investment process.
 
 </div>
 
@@ -68,7 +67,7 @@ Even though the sovereign bond allocations are a small percentage of each fund's
 
 **Are you calling for a boycott?**
 
-No. We are calling for the same standard that Arkansas law already requires: that investment decisions be based solely on financial merit. We are asking for a pause, an independent analysis, and transparent process — the basic requirements of prudent pension management.
+No. We are not asking pension boards to buy or sell any specific investment. We are asking the Arkansas legislature to require independent credit analysis before pension funds commit to non-tradable sovereign debt. The Pension Investment Transparency Act would establish the same documented due diligence standard for sovereign debt that already applies to other investment classes.
 
 </div>
 
@@ -92,7 +91,7 @@ Arkansans for Pension Integrity operates on a shoestring budget through small do
 
 **How can I help?**
 
-[Take action today](/take-action/) — sign on in support, write to your pension trustees, contact your legislators, attend a board meeting, or volunteer with the campaign.
+[Take action today](/take-action/) — sign on in support, contact your legislators about the Pension Investment Transparency Act, attend a board meeting, or volunteer with the campaign.
 
 </div>
 
