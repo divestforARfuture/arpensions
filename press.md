@@ -329,9 +329,9 @@ The successful campaigns share three characteristics: FOIA-driven transparency, 
 
 ## Background: The specific instrument
 
-The FOIA documents obtained by this campaign identify the instrument as **Israel Bonds**, issued through the **Development Corporation for Israel (DCI)**, a for-profit broker-dealer registered with FINRA (CRD# 11148). For the full financial profile — including credit ratings, liquidity characteristics, and regulatory history — see our [glossary](/glossary/).
+This investigation centers on a class of **non-marketable foreign sovereign debt** — direct loans to a foreign government, sold exclusively through a for-profit broker-dealer registered with FINRA (CRD# 11148). The bonds cannot be sold or traded before maturity, and all three major rating agencies have downgraded the issuing country's sovereign credit rating since 2024. For the full financial profile — credit ratings, liquidity characteristics, regulatory history — see our [glossary](/glossary/).
 
-Throughout this site, we describe the investment by its financial characteristics rather than its issuer name. The [evidence page](/evidence/) and [document archive](/documents/) present what the public records show. The officials' own words — quoted verbatim above — identify the issuer in political terms. That contrast is the point.
+Throughout this site we describe the investment by its financial characteristics rather than its issuer name. The [document archive](/documents/) names the specific instrument and issuer in the agencies' own words. The [evidence page](/evidence/) presents what those records show. The officials' own statements — quoted verbatim above — identify the issuer in political terms. The contrast between the campaign's financial language and the officials' political language is the point.
 
 </div>
 
