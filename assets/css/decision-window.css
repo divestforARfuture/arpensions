@@ -7,21 +7,21 @@
 .decision-window-section {
   margin: 2rem 0;
   padding: 1.5rem 0;
-  border-top: 0.5px solid var(--art-border);
+  border-top: 0.5px solid var(--border-default);
 }
 
 .decision-window-heading {
   font-family: var(--font-elegant);
   font-weight: 400;
   font-size: 1.25rem;
-  color: var(--art-black);
+  color: var(--text-primary);
   margin: 0 0 0.35rem;
   line-height: 1.3;
 }
 
 .decision-window-sub {
   font-size: 0.85rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   margin: 0 0 1.25rem;
   line-height: 1.55;
 }
@@ -46,7 +46,7 @@
   gap: 0.4rem;
   font-size: 0.75rem;
   font-family: var(--font-mono);
-  color: var(--art-gray);
+  color: var(--text-secondary);
 }
 
 .dw-legend-swatch {
@@ -57,25 +57,25 @@
 }
 
 .dw-legend-swatch--solid {
-  background: var(--art-black);
+  background: var(--text-primary);
 }
 
 .dw-legend-swatch--light {
-  background: var(--art-black);
+  background: var(--text-primary);
   opacity: 0.25;
 }
 
 .dw-legend-swatch--annot {
   width: 14px;
   height: 0;
-  border-top: 2px dashed var(--art-red);
+  border-top: 2px dashed var(--accent-cta);
   background: none;
 }
 
 /* --- Callout below chart --- */
 .decision-window-note {
   font-size: 0.8rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   line-height: 1.55;
   margin: 0.75rem 0 0;
   font-style: italic;

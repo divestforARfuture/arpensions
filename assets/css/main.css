@@ -4,75 +4,77 @@
 
 /* --- Design Tokens --- */
 :root {
-  /* === Brand Primitives — single source for brand identity ===
-     Replace these tokens to apply a brand redesign across the site.
-     Semantic tokens below cascade from these via var() chains. */
-  --brand-primary: #1a5276;
-  --brand-primary-deep: #154360;
-  --brand-primary-tint: #dce8ef;
-  --brand-emphasis: #B91C1C;
-  --brand-emphasis-deep: #991B1B;
-  --brand-ink: #1b1b1b;
-  --brand-paper: #ffffff;
-  --brand-paper-tint: #f8f8f6;
-  --brand-rule: #e2e2e2;
-  --brand-rule-strong: #c4c4c4;
+  /* === API Brand Primitives — single source for brand identity ===
+     The eight color primitives below are the only authoritative brand colors.
+     Semantic tokens further down cascade from these via var() chains. */
 
-  --brand-display: 'Cormorant Garamond', 'Source Serif 4', Georgia, serif;
-  --brand-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-  --brand-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  --brand-data: 'IBM Plex Mono', 'Courier New', monospace;
+  /* Primary */
+  --api-navy: #1A3057;
+  --api-cream: #F8F5F0;
+  --api-charcoal: #1C1917;
 
-  /* === Color Palette — Public Record Elegance === */
+  /* Accent */
+  --api-gold: #CBA648;
+  --api-red: #B91C1C;
+  --api-forest: #224D36;
+  --api-slate: #5F7391;
+  --api-gray: #777773;
+
+  /* Hover / deep variants for transitions */
+  --api-navy-deep: #122444;
+  --api-red-deep: #9B1818;
+  --api-gold-deep: #B59238;
+
+  /* === Typography stacks === */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-serif: var(--font-body);
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+  /* === Semantic tokens — Light Mode (default) === */
 
   /* Backgrounds */
-  --bg-primary: var(--brand-paper);
-  --bg-secondary: var(--brand-paper-tint);
-  --bg-surface: var(--brand-paper);
+  --bg-primary: var(--api-cream);
+  --bg-secondary: #FFFFFF;
+  --bg-surface: #FFFFFF;
+  --bg-hero: var(--api-navy);
+  --bg-footer: var(--api-navy);
 
   /* Text */
-  --text-primary: var(--brand-ink);
-  --text-secondary: #474747;
-  --text-muted: #6e6e6e;   /* darkened from #777 to pass AA on --bg-secondary */
-  --text-on-accent: var(--brand-paper);
+  --text-primary: var(--api-charcoal);
+  --text-secondary: var(--api-gray);
+  --text-muted: #6e6e6e;
+  --text-on-dark: var(--api-cream);
+  --text-on-accent: var(--api-cream);
+  --text-heading: var(--api-navy);
 
-  /* Accent — single authoritative dark blue */
-  --accent: var(--brand-primary);
-  --accent-hover: var(--brand-primary-deep);
+  /* Accent (gold) and CTA (red) */
+  --accent: var(--api-gold);
+  --accent-hover: var(--api-gold-deep);
+  --accent-cta: var(--api-red);
+  --accent-cta-hover: var(--api-red-deep);
 
   /* Links */
-  --link-color: var(--brand-primary);
-  --link-hover: var(--brand-primary-deep);
+  --link-color: var(--api-navy);
+  --link-hover: var(--api-slate);
   --link-visited: #4a235a;
 
   /* Borders */
-  --border-light: var(--brand-rule);
-  --border-medium: var(--brand-rule-strong);
+  --border-default: #E2E2E2;
+  --border-light: var(--border-default);
+  --border-medium: #c4c4c4;
+  --border-accent: var(--api-gold);
   --border-dark: #303030;
 
   /* Functional — NOT for decoration */
-  --color-danger: var(--brand-emphasis);
-  --color-data-primary: var(--accent);
-  --color-data-secondary: #B91C1C;
-  --color-data-tertiary: #6e6e6e;
+  --color-danger: var(--api-red);
+  --color-data-primary: var(--api-navy);
+  --color-data-secondary: var(--api-red);
+  --color-data-tertiary: var(--api-gray);
+  --color-success: #166534;
 
-  /* === Legacy tokens — aliased to new palette (do not remove) === */
-  --art-red: var(--color-danger);
-  --art-green: #166534;
-
-  --art-accent: var(--accent);
-  --art-accent-light: var(--brand-primary-tint);
-
-  --art-black: var(--text-primary);
-  --art-white: var(--bg-primary);
-  --art-gray: var(--text-secondary);
-  --art-gray-light: var(--bg-secondary);
-  --art-border: var(--border-light);
-
-  --art-red-light: #FEE2E2;
-  --art-green-light: #DCFCE7;
-
-  /* Semantic aliases */
+  /* Aliases used by legacy component code (kept so older rules compile). */
   --color-text-primary: var(--text-primary);
   --color-text-secondary: var(--text-secondary);
   --color-bg-page: var(--bg-primary);
@@ -80,21 +82,9 @@
   --color-bg-surface: var(--bg-surface);
   --color-link: var(--link-color);
   --color-link-hover: var(--link-hover);
-  --color-cta: var(--color-danger);
-  --color-cta-hover: var(--brand-emphasis-deep);
-  --color-success: var(--art-green);
-  --color-border: var(--border-light);
-
-  /* Link styling */
-  --art-link: var(--link-color);
-  --art-link-hover: var(--link-hover);
-
-  /* Typography — font stacks */
-  --font-serif: var(--brand-body);
-  --font-sans: var(--brand-ui);
-  --font-mono: var(--brand-data);
-  --font-display: var(--brand-display);
-  --font-body: var(--brand-body);
+  --color-cta: var(--accent-cta);
+  --color-cta-hover: var(--accent-cta-hover);
+  --color-border: var(--border-default);
 
   /* Fluid type scale */
   --fs-body: clamp(1.0625rem, 0.9rem + 0.5vw, 1.1875rem);    /* 17–19px */
@@ -133,6 +123,48 @@
   --space-4xl: 6rem;     /* 96px */
 }
 
+/* === Semantic tokens — Dark Mode === */
+[data-theme="dark"] {
+  --bg-primary: var(--api-charcoal);
+  --bg-secondary: #242220;
+  --bg-surface: #242220;
+  --bg-hero: var(--api-charcoal);
+  --bg-footer: #0E0D0C;
+
+  --text-primary: var(--api-cream);
+  --text-secondary: #A8A5A0;
+  --text-muted: #8A8784;
+  --text-on-dark: var(--api-cream);
+  --text-on-accent: var(--api-cream);
+  --text-heading: var(--api-cream);
+
+  --accent: var(--api-gold);
+  --accent-hover: #D4B968;
+  --accent-cta: var(--api-red);
+  --accent-cta-hover: #D43838;
+
+  --link-color: var(--api-gold);
+  --link-hover: #D4B968;
+  --link-visited: #B59238;
+
+  --border-default: #3A3835;
+  --border-light: var(--border-default);
+  --border-medium: #4A4845;
+  --border-accent: var(--api-gold);
+
+  --color-danger: var(--api-red);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-bg-page: var(--bg-primary);
+  --color-bg-panel: var(--bg-secondary);
+  --color-bg-surface: var(--bg-surface);
+  --color-link: var(--link-color);
+  --color-link-hover: var(--link-hover);
+  --color-cta: var(--accent-cta);
+  --color-cta-hover: var(--accent-cta-hover);
+  --color-border: var(--border-default);
+}
+
 /* --- Pico Overrides --- */
 :root {
   --pico-font-family: var(--font-body);
@@ -140,10 +172,10 @@
   --pico-line-height: var(--lh-body);
   --pico-color: var(--text-primary);
   --pico-background-color: var(--bg-primary);
-  --pico-primary: var(--color-danger);
-  --pico-primary-hover: var(--color-cta-hover, #991b1b);
+  --pico-primary: var(--accent-cta);
+  --pico-primary-hover: var(--accent-cta-hover);
   --pico-muted-color: var(--text-muted);
-  --pico-border-color: var(--border-light);
+  --pico-border-color: var(--border-default);
 }
 
 /* --- Logo theme swap — opacity crossfade, no layout reflow --- */
@@ -288,7 +320,7 @@ a:hover {
 
 /* Prevent purple visited links in nav and footer */
 .site-nav a:visited {
-  color: var(--art-gray);
+  color: var(--text-secondary);
 }
 
 .site-footer a:visited {
@@ -315,7 +347,7 @@ article.page-content .evidence-toc-link--active:visited {
   top: -100%;
   left: 0;
   padding: 0.5rem 1rem;
-  background: var(--art-red);
+  background: var(--accent-cta);
   color: var(--text-on-accent);
   z-index: 1000;
   font-weight: 600;
@@ -323,7 +355,7 @@ article.page-content .evidence-toc-link--active:visited {
 
 .skip-link:focus {
   top: 0;
-  outline: 3px solid var(--art-black);
+  outline: 3px solid var(--text-primary);
   outline-offset: 2px;
 }
 
@@ -339,7 +371,7 @@ article.page-content .evidence-toc-link--active:visited {
 
 /* --- Focus States (a11y) --- */
 :focus-visible {
-  outline: 3px solid var(--art-red);
+  outline: 3px solid var(--accent-cta);
   outline-offset: 2px;
 }
 
@@ -350,7 +382,7 @@ article.page-content .evidence-toc-link--active:visited {
 
 .pathway-card:focus-visible {
   outline-offset: -2px;
-  border-color: var(--art-red);
+  border-color: var(--accent-cta);
   box-shadow: 0 2px 8px rgba(185, 28, 28, 0.1);
 }
 
@@ -512,7 +544,7 @@ hr {
   border: none;
   cursor: pointer;
   padding: 0.5rem;
-  color: var(--art-black);
+  color: var(--text-primary);
 }
 
 .nav-links {
@@ -535,7 +567,7 @@ hr {
   align-items: center;
   padding: 0.5rem 0.75rem;
   text-decoration: none;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   font-weight: 600;
   font-size: 0.95rem;
   border-radius: 6px;
@@ -730,8 +762,8 @@ hr {
    HERO — Dark editorial hero with geometric texture
    ========================================================================== */
 .hero {
-  background-color: var(--art-black);
-  border-top: 3px solid var(--art-red);
+  background-color: var(--text-primary);
+  border-top: 3px solid var(--accent-cta);
   padding: var(--space-4xl) var(--space-lg) var(--space-3xl);
   position: relative;
   overflow: hidden;
@@ -757,7 +789,7 @@ hr {
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--art-red);
+  background: var(--accent-cta);
 }
 
 .hero .container {
@@ -789,7 +821,7 @@ hr {
   transform: translateY(-50%);
   width: 1rem;
   height: 2px;
-  background: var(--art-red);
+  background: var(--accent-cta);
 }
 
 .hero h1 {
@@ -833,7 +865,7 @@ hr {
   font-family: var(--font-mono);
   font-size: var(--text-2xl);
   font-weight: 600;
-  color: var(--art-red);
+  color: var(--accent-cta);
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
   line-height: 1;
@@ -910,20 +942,20 @@ hr {
 
 .btn-secondary {
   background: transparent;
-  color: var(--art-accent);
-  border: 2px solid var(--art-accent);
+  color: var(--link-color);
+  border: 2px solid var(--link-color);
 }
 
 .btn-secondary:hover,
 .btn-secondary:focus-visible {
-  background: var(--art-accent);
+  background: var(--link-color);
   color: var(--text-on-accent);
   text-decoration: none;
 }
 
 /* --- Text Button (tertiary CTA) --- */
 .btn-text {
-  color: var(--art-accent);
+  color: var(--link-color);
   font-family: var(--font-sans);
   font-weight: 600;
   text-decoration: none;
@@ -933,7 +965,7 @@ hr {
 
 .btn-text:hover,
 .btn-text:focus-visible {
-  border-bottom-color: var(--art-accent);
+  border-bottom-color: var(--link-color);
 }
 
 .btn-text::after {
@@ -983,7 +1015,7 @@ hr {
   top: 20%;
   height: 60%;
   width: 2px;
-  background: var(--art-red);
+  background: var(--accent-cta);
   opacity: 0.2;
   border-radius: 1px;
 }
@@ -993,7 +1025,7 @@ hr {
   font-family: var(--font-mono);
   font-size: clamp(2.5rem, 6vw, var(--text-4xl));
   font-weight: 600;
-  color: var(--art-red);
+  color: var(--accent-cta);
   line-height: 1;
   margin-bottom: 0.5rem;
   letter-spacing: -0.02em;
@@ -1012,9 +1044,9 @@ hr {
 
 /* Zero stat — the most damning finding */
 .stat-card--zero {
-  background: var(--art-red-light);
+  background: #FEE2E2;
   border-radius: 8px;
-  border: 2px solid var(--art-red);
+  border: 2px solid var(--accent-cta);
 }
 
 .stat-card--zero .stat-number {
@@ -1032,13 +1064,13 @@ hr {
   transform: translateX(-50%);
   width: 2rem;
   height: 3px;
-  background: var(--art-red);
+  background: var(--accent-cta);
   border-radius: 2px;
 }
 
 .stat-card--zero .stat-label {
   font-weight: 600;
-  color: var(--art-black);
+  color: var(--text-primary);
 }
 
 /* Zero pulse animation */
@@ -1125,7 +1157,7 @@ hr {
    ========================================================================== */
 .pathways {
   padding: var(--space-3xl) var(--space-lg) var(--space-4xl);
-  background-color: var(--art-gray-light);
+  background-color: var(--bg-secondary);
 }
 
 .section-heading {
@@ -1144,7 +1176,7 @@ hr {
   transform: translateX(-50%);
   width: 3rem;
   height: 3px;
-  background: var(--art-red);
+  background: var(--accent-cta);
   border-radius: 2px;
 }
 
@@ -1165,15 +1197,15 @@ hr {
   border: 1px solid var(--color-border);
   border-left: 4px solid transparent;
   text-decoration: none;
-  color: var(--art-black);
+  color: var(--text-primary);
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .pathway-card:hover {
-  border-left-color: var(--art-red);
+  border-left-color: var(--accent-cta);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
   transform: translateY(-2px);
-  color: var(--art-black);
+  color: var(--text-primary);
 }
 
 .pathway-icon {
@@ -1182,14 +1214,14 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--art-red-light);
+  background: #FEE2E2;
   border-radius: 10px;
   margin-bottom: 1.25rem;
   flex-shrink: 0;
 }
 
 .pathway-icon svg {
-  color: var(--art-red);
+  color: var(--accent-cta);
   width: 24px;
   height: 24px;
 }
@@ -1201,7 +1233,7 @@ hr {
 
 .pathway-card p {
   font-size: 0.95rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   margin: 0;
   line-height: 1.6;
   flex-grow: 1;
@@ -1213,7 +1245,7 @@ hr {
   gap: 0.35rem;
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--art-red);
+  color: var(--accent-cta);
   margin-top: 1.25rem;
   transition: gap 0.2s ease;
 }
@@ -1278,12 +1310,12 @@ hr {
   transform: translateX(-50%);
   width: 3rem;
   height: 3px;
-  background: var(--art-red);
+  background: var(--accent-cta);
   border-radius: 2px;
 }
 
 .about-section p {
-  color: var(--art-gray);
+  color: var(--text-secondary);
   font-size: 1.05rem;
   line-height: 1.7;
 }
@@ -1305,7 +1337,7 @@ hr {
 
 .page-description {
   font-size: 1.1rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   margin: 0;
 }
 
@@ -1320,7 +1352,7 @@ hr {
 }
 
 .page-content tbody tr:nth-child(even) {
-  background-color: var(--art-gray-light);
+  background-color: var(--bg-secondary);
 }
 
 [data-theme="dark"] .page-content tbody tr:nth-child(even) {
@@ -1329,7 +1361,7 @@ hr {
 
 [data-theme="dark"] .page-content th {
   background-color: rgba(255, 255, 255, 0.08);
-  color: var(--art-black);
+  color: var(--text-primary);
 }
 
 @media (max-width: 768px) {
@@ -1346,7 +1378,7 @@ hr {
 .post-header {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 3px solid var(--art-red);
+  border-bottom: 3px solid var(--accent-cta);
 }
 
 .post-header h1 {
@@ -1355,12 +1387,12 @@ hr {
 
 .post-header time {
   font-size: 0.95rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
 }
 
 /* --- Landing Page --- */
 .landing-hero {
-  background-color: var(--art-gray-light);
+  background-color: var(--bg-secondary);
   padding: 3.5rem 1.5rem 3rem;
   text-align: center;
   margin-bottom: 2rem;
@@ -1373,7 +1405,7 @@ hr {
 
 .landing-description {
   font-size: 1.15rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   margin: 0.75rem auto 0;
   max-width: 600px;
   line-height: 1.7;
@@ -1432,7 +1464,7 @@ hr {
   margin: 1.5rem 0;
   padding: 2rem;
   background-color: var(--color-bg-surface);
-  border: 2px solid var(--art-border);
+  border: 2px solid var(--border-default);
   border-radius: 8px;
   position: relative;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
@@ -1442,12 +1474,12 @@ hr {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   margin: -2rem -2rem 1.5rem;
   padding: 0.75rem 6rem 0.75rem 2rem;
-  background: var(--art-gray-light);
+  background: var(--bg-secondary);
   border-radius: 6px 6px 0 0;
-  border-bottom: 1px solid var(--art-border);
+  border-bottom: 1px solid var(--border-default);
 }
 
 .letter-template p,
@@ -1506,10 +1538,10 @@ blockquote footer {
 
 /* --- Callout / Pull Quote --- */
 .callout {
-  border: 1px solid var(--art-border);
+  border: 1px solid var(--border-default);
   padding: 1.25rem 1.5rem;
   margin: 1.5rem 0;
-  background: var(--bg-secondary, var(--art-gray-light));
+  background: var(--bg-secondary, var(--bg-secondary));
   border-radius: 2px;
 }
 
@@ -1541,7 +1573,7 @@ blockquote footer {
 .social-share {
   margin-top: 2rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--art-border);
+  border-top: 1px solid var(--border-default);
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -1550,7 +1582,7 @@ blockquote footer {
 .share-label {
   font-weight: 600;
   font-size: 0.9rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
 }
 
 .share-link {
@@ -1712,7 +1744,7 @@ blockquote footer {
 .post-list li {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid var(--art-border);
+  border-bottom: 1px solid var(--border-default);
 }
 
 .post-list li:last-child {
@@ -1729,12 +1761,12 @@ blockquote footer {
 
 .post-list time {
   font-size: 0.9rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
 }
 
 .post-list p {
   margin-top: 0.5rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
 }
 
 /* ==========================================================================
@@ -1758,7 +1790,7 @@ blockquote footer {
 /* Separator between findings */
 .evidence-findings hr {
   border: none;
-  border-top: 1px solid var(--art-border);
+  border-top: 1px solid var(--border-default);
   margin: 2.5rem 0;
 }
 
@@ -1940,7 +1972,7 @@ blockquote footer {
 .legal-reference p {
   margin-top: 1.25rem;
   margin-bottom: 0;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   line-height: 1.65;
 }
 
@@ -1960,7 +1992,7 @@ blockquote footer {
 }
 
 .issue-agency-table thead {
-  background: var(--art-red);
+  background: var(--accent-cta);
   color: var(--text-on-accent);
 }
 
@@ -1976,17 +2008,17 @@ blockquote footer {
 
 .issue-agency-table td {
   padding: 0.85rem 1rem;
-  border-bottom: 1px solid var(--art-border);
+  border-bottom: 1px solid var(--border-default);
   line-height: 1.5;
   vertical-align: top;
 }
 
 .issue-agency-table tbody tr:last-child td {
-  border-bottom: 2px solid var(--art-red);
+  border-bottom: 2px solid var(--accent-cta);
 }
 
 .issue-agency-table td strong {
-  color: var(--art-black);
+  color: var(--text-primary);
   font-size: 1rem;
 }
 
@@ -2010,8 +2042,8 @@ blockquote footer {
   }
 
   .issue-agency-table tbody tr {
-    background: var(--art-gray-light);
-    border-left: 4px solid var(--art-red);
+    background: var(--bg-secondary);
+    border-left: 4px solid var(--accent-cta);
     border-radius: 0 8px 8px 0;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -2033,13 +2065,13 @@ blockquote footer {
     font-size: 1rem;
     padding-bottom: 0.5rem;
     margin-bottom: 0.35rem;
-    border-bottom: 1px solid var(--art-border);
+    border-bottom: 1px solid var(--border-default);
   }
 
   .issue-agency-table td:nth-child(2)::before {
     content: 'Amount: ';
     font-weight: 600;
-    color: var(--art-gray);
+    color: var(--text-secondary);
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -2048,7 +2080,7 @@ blockquote footer {
   .issue-agency-table td:nth-child(3)::before {
     content: 'Date: ';
     font-weight: 600;
-    color: var(--art-gray);
+    color: var(--text-secondary);
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -2059,7 +2091,7 @@ blockquote footer {
 
 /* Red accent bar on finding paragraphs (those starting with bold lead-in) */
 .issue-red-flags > p:has(> strong:first-child) {
-  border-left: 4px solid var(--art-red);
+  border-left: 4px solid var(--accent-cta);
   padding-left: 1.25rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -2070,12 +2102,12 @@ blockquote footer {
 /* Separator between red flag items */
 .issue-red-flags > p:has(> strong:first-child) + p:has(> strong:first-child) {
   padding-top: 1.75rem;
-  border-top: 1px solid var(--art-border);
+  border-top: 1px solid var(--border-default);
 }
 
 /* --- Principle Section — Visually distinct argument section --- */
 .issue-principle {
-  background: var(--art-gray-light);
+  background: var(--bg-secondary);
   margin: 2.5rem -1.5rem 2.5rem;
   padding: 2.5rem 1.5rem 2rem;
   border-radius: 8px;
@@ -2088,8 +2120,8 @@ blockquote footer {
 /* Questions summary box */
 .issue-questions {
   background: var(--color-bg-surface);
-  border: 1px solid var(--art-border);
-  border-left: 4px solid var(--art-red);
+  border: 1px solid var(--border-default);
+  border-left: 4px solid var(--accent-cta);
   border-radius: 0 8px 8px 0;
   padding: 1.25rem 1.5rem;
   margin: 1.5rem 0;
@@ -2103,11 +2135,11 @@ blockquote footer {
 .issue-questions li {
   padding: 0.4rem 0;
   line-height: 1.6;
-  color: var(--art-black);
+  color: var(--text-primary);
 }
 
 .issue-questions li + li {
-  border-top: 1px solid var(--art-border);
+  border-top: 1px solid var(--border-default);
 }
 
 /* --- Demands — Numbered action list with visual weight --- */
@@ -2182,7 +2214,7 @@ blockquote footer {
   left: 0;
   right: 0;
   height: 4px;
-  background: var(--art-red);
+  background: var(--accent-cta);
 }
 
 /* --- Copy to Clipboard Button --- */
@@ -2195,8 +2227,8 @@ blockquote footer {
   font-weight: 600;
   font-size: 0.8rem;
   background: transparent;
-  color: var(--art-red);
-  border: 2px solid var(--art-red);
+  color: var(--accent-cta);
+  border: 2px solid var(--accent-cta);
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
@@ -2206,20 +2238,20 @@ blockquote footer {
 }
 
 .copy-letter-btn:hover {
-  background: var(--art-red);
+  background: var(--accent-cta);
   color: var(--text-on-accent);
 }
 
 .copy-letter-btn:focus-visible {
-  outline: 3px solid var(--art-red);
+  outline: 3px solid var(--accent-cta);
   outline-offset: 2px;
 }
 
 .copy-letter-btn--copied,
 .copy-letter-btn--copied:hover {
-  background: var(--art-green);
+  background: #166534;
   color: var(--text-on-accent);
-  border-color: var(--art-green);
+  border-color: #166534;
 }
 
 /* --- Compact Letter Template (shorter letters on take-action page) --- */
@@ -2238,15 +2270,15 @@ blockquote footer {
 /* --- Email Callout — Distinct shorter-version styling --- */
 .email-callout {
   background: var(--color-bg-surface);
-  border: 1px solid var(--art-border);
-  border-left: 4px solid var(--art-green);
+  border: 1px solid var(--border-default);
+  border-left: 4px solid #166534;
   font-size: 0.95rem;
 }
 
 /* --- Meeting Info Card — Accent-bordered details card --- */
 .meeting-info {
-  border-left: 4px solid var(--art-red);
-  background: var(--art-gray-light);
+  border-left: 4px solid var(--accent-cta);
+  background: var(--bg-secondary);
   border-radius: 0 8px 8px 0;
   padding: 1.25rem 1.5rem 1rem;
   margin: 1.5rem 0;
@@ -2260,7 +2292,7 @@ blockquote footer {
 
 .meeting-info li {
   padding: 0.5rem 0;
-  border-bottom: 1px solid var(--art-border);
+  border-bottom: 1px solid var(--border-default);
   line-height: 1.6;
   font-size: 0.95rem;
 }
@@ -2278,7 +2310,7 @@ blockquote footer {
   margin-top: 0;
   margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--art-border);
+  border-bottom: 1px solid var(--border-default);
 }
 
 /* --- Meeting Grid — Side-by-side on desktop, stacked on mobile --- */
@@ -2303,8 +2335,8 @@ blockquote footer {
 /* --- Script Card — Rehearsal card for public comment scripts --- */
 .script-card {
   background: var(--color-bg-surface);
-  border: 2px solid var(--art-border);
-  border-left: 6px solid var(--art-red);
+  border: 2px solid var(--border-default);
+  border-left: 6px solid var(--accent-cta);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   padding: 1.5rem 1.5rem 1.5rem 1.75rem;
 }
@@ -2319,7 +2351,7 @@ blockquote footer {
   counter-increment: action-steps;
   position: relative;
   background: transparent;
-  border: 1px solid var(--art-border);
+  border: 1px solid var(--border-default);
   border-radius: 2px;
   padding: 1.5rem 1.5rem 1.25rem 3.5rem;
   margin-bottom: 1.5rem;
@@ -2341,7 +2373,7 @@ blockquote footer {
   height: auto;
   display: block;
   background: none;
-  color: var(--text-muted, var(--art-gray));
+  color: var(--text-muted, var(--text-secondary));
   font-family: var(--font-mono);
   font-weight: 600;
   font-size: 0.8rem;
@@ -2391,7 +2423,7 @@ blockquote footer {
 
 /* --- Press Resources — Compact reference card --- */
 .press-resources {
-  background: var(--art-gray-light);
+  background: var(--bg-secondary);
   border-radius: 8px;
   padding: 1.5rem 1.75rem;
   margin: 2rem 0;
@@ -2401,7 +2433,7 @@ blockquote footer {
   margin-top: 0;
   font-size: clamp(1.15rem, 2vw, 1.35rem);
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--art-border);
+  border-bottom: 2px solid var(--border-default);
   margin-bottom: 1rem;
 }
 
@@ -2413,7 +2445,7 @@ blockquote footer {
 
 .press-resources li {
   padding: 0.6rem 0;
-  border-bottom: 1px solid var(--art-border);
+  border-bottom: 1px solid var(--border-default);
   line-height: 1.6;
   font-size: 0.95rem;
 }
@@ -2425,7 +2457,7 @@ blockquote footer {
 
 /* --- Approach Pillars — Gray accent bar on bold-lead paragraphs --- */
 .approach-pillars > p:has(> strong:first-child) {
-  border-left: 4px solid var(--art-gray);
+  border-left: 4px solid var(--text-secondary);
   padding-left: 1.25rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -2435,13 +2467,13 @@ blockquote footer {
 
 .approach-pillars > p:has(> strong:first-child) + p:has(> strong:first-child) {
   padding-top: 1.75rem;
-  border-top: 1px solid var(--art-border);
+  border-top: 1px solid var(--border-default);
 }
 
 /* --- FAQ Section — Visually distinct Q&A pairs --- */
 .faq-section .faq-item {
   padding: 1.5rem 0;
-  border-bottom: 1px solid var(--art-border);
+  border-bottom: 1px solid var(--border-default);
 }
 
 .faq-section .faq-item:first-of-type {
@@ -2456,12 +2488,12 @@ blockquote footer {
 .faq-section .faq-item > p:first-child {
   font-family: var(--font-display);
   font-size: 1.1rem;
-  color: var(--art-black);
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
 .faq-section .faq-item > p:last-child {
-  color: var(--art-gray);
+  color: var(--text-secondary);
   margin-bottom: 0;
   line-height: 1.7;
 }
@@ -2469,18 +2501,18 @@ blockquote footer {
 /* --- Campaign Attribution — Subtle footer note --- */
 .campaign-attribution {
   font-size: 0.85rem;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   margin-top: 2.5rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--art-border);
+  border-top: 1px solid var(--border-default);
 }
 
 /* ==========================================================================
    AUDIENCE SUB-NAV — Cross-links between audience pages
    ========================================================================== */
 .audience-nav {
-  background: var(--art-gray-light);
-  border-bottom: 1px solid var(--art-border);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-default);
 }
 
 .audience-nav .container {
@@ -2503,7 +2535,7 @@ blockquote footer {
   font-family: var(--font-sans);
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   text-decoration: none;
   white-space: nowrap;
   border-bottom: 3px solid transparent;
@@ -2511,12 +2543,12 @@ blockquote footer {
 }
 
 .audience-nav-list a:hover {
-  color: var(--art-accent);
+  color: var(--link-color);
 }
 
 .audience-nav-list a[aria-current="page"] {
-  color: var(--art-accent);
-  border-bottom-color: var(--art-accent);
+  color: var(--link-color);
+  border-bottom-color: var(--link-color);
 }
 
 @media (max-width: 600px) {
@@ -2529,7 +2561,7 @@ blockquote footer {
 .page-flow {
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--art-border);
+  border-top: 1px solid var(--border-default);
   text-align: right;
 }
 
@@ -2540,20 +2572,20 @@ blockquote footer {
 /* === Source Citations === */
 .source-citation {
   font-size: 0.85rem;
-  color: var(--art-gray);
-  border-left: 3px solid var(--art-border);
+  color: var(--text-secondary);
+  border-left: 3px solid var(--border-default);
   padding-left: 0.75rem;
   margin-top: 0.5rem;
   font-style: italic;
 }
 
 .source-citation a {
-  color: var(--art-gray);
+  color: var(--text-secondary);
   text-decoration: underline;
 }
 
 .source-citation a:hover {
-  color: var(--art-red);
+  color: var(--accent-cta);
 }
 
 /* --- Fact/Detail table mobile labels (legislators, press kit) --- */
@@ -2585,19 +2617,19 @@ blockquote footer {
   background: none;
   border: 1px solid transparent;
   border-radius: 6px;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   cursor: pointer;
   transition: color 0.15s, background-color 0.15s, border-color 0.15s;
 }
 
 .theme-toggle-btn:hover {
-  color: var(--art-black);
-  background: var(--art-gray-light);
-  border-color: var(--art-border);
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+  border-color: var(--border-default);
 }
 
 .theme-toggle-btn:focus-visible {
-  outline: 3px solid var(--art-red);
+  outline: 3px solid var(--accent-cta);
   outline-offset: 2px;
 }
 
@@ -2652,44 +2684,24 @@ html.theme-transition *::after {
   }
 }
 /* ==========================================================================
-   DARK MODE — Design Tokens
+   DARK MODE — Pico Overrides (semantic tokens are defined near the top)
    ========================================================================== */
 [data-theme="dark"] {
-  /* Brand primitive overrides — semantic tokens cascade automatically */
-  --brand-primary: #5dade2;
-  --brand-primary-deep: #85c1e9;
-  --brand-primary-tint: rgba(93, 173, 226, 0.15);
-  --brand-emphasis: #e74c3c;
-  --brand-emphasis-deep: #c0392b;
-  --brand-ink: #e8e6e3;
-  --brand-paper: #1b1b1b;
-  --brand-paper-tint: #242424;
-  --brand-rule: #3a3a3a;
-  --brand-rule-strong: #555555;
-
-  /* Independent dark-mode values (not derived from a brand primitive) */
-  --bg-surface: #2a2a2a;
-  --text-secondary: #b0aba5;
-  --text-muted: #8a8480;
-  --text-on-accent: #ffffff;  /* accent backgrounds stay colored in dark mode; text stays white */
-  --link-visited: #bb8fce;
+  --link-visited: #B59238;
   --border-dark: #888888;
-  --color-data-secondary: #e74c3c;
-  --color-data-tertiary: #8a8480;
-  --art-green: #22C55E;
-  --art-red-light: rgba(231, 76, 60, 0.12);
-  --art-green-light: rgba(34, 197, 94, 0.12);
+  --color-data-secondary: var(--api-red);
+  --color-data-tertiary: var(--api-gray);
 
   /* Pico dark mode overrides */
   --pico-color: var(--text-primary);
   --pico-background-color: var(--bg-primary);
-  --pico-primary: var(--color-danger);
-  --pico-primary-hover: var(--color-cta-hover);
+  --pico-primary: var(--accent-cta);
+  --pico-primary-hover: var(--accent-cta-hover);
   --pico-muted-color: var(--text-muted);
-  --pico-muted-border-color: var(--border-light);
-  --pico-border-color: var(--border-light);
+  --pico-muted-border-color: var(--border-default);
+  --pico-border-color: var(--border-default);
   --pico-card-background-color: var(--bg-surface);
-  --pico-card-border-color: var(--border-light);
+  --pico-card-border-color: var(--border-default);
   --pico-card-sectioning-background-color: var(--bg-secondary);
 }
 
@@ -2700,32 +2712,31 @@ html.theme-transition *::after {
 /* --- Navigation --- */
 [data-theme="dark"] .site-nav {
   background: var(--bg-secondary);
-  border-bottom-color: var(--art-border);
+  border-bottom-color: var(--border-default);
 }
 
 [data-theme="dark"] .nav-links a:hover,
 [data-theme="dark"] .nav-links a[aria-current="page"] {
-  color: var(--art-red);
-  background-color: var(--art-red-light);
+  color: var(--accent-cta);
+  background-color: #FEE2E2;
 }
 
 @media (max-width: 768px) {
   [data-theme="dark"] .nav-links {
     background: var(--bg-secondary);
-    border-bottom-color: var(--art-border);
+    border-bottom-color: var(--border-default);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
 }
 
 /* --- Skip Link --- */
-/* Dark-mode --art-red is #EF4444 which gives only ~3.7:1 against #fff.
-   Pin to the light-mode red (#B91C1C → 5.7:1 ratio) for WCAG AA. */
+/* Pinned to a fixed red so the contrast ratio stays at 5.7:1 against white. */
 [data-theme="dark"] .skip-link {
-  background: #B91C1C;
+  background: var(--api-red);
 }
 
 [data-theme="dark"] .skip-link:focus {
-  outline-color: var(--art-red);
+  outline-color: var(--accent-cta);
 }
 
 /* --- Focus States --- */
@@ -2742,44 +2753,44 @@ html.theme-transition *::after {
 /* --- Pathway Cards --- */
 [data-theme="dark"] .pathway-card {
   background: var(--bg-surface);
-  border-color: var(--art-border);
-  color: var(--art-black);
+  border-color: var(--border-default);
+  color: var(--text-primary);
 }
 
 [data-theme="dark"] .pathway-card:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-  color: var(--art-black);
+  color: var(--text-primary);
 }
 
 /* --- Letter Template --- */
 [data-theme="dark"] .letter-template {
   background-color: var(--bg-surface);
-  border-color: var(--art-border);
+  border-color: var(--border-default);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 [data-theme="dark"] .letter-template .letter-heading {
-  background: var(--art-gray-light);
-  border-bottom-color: var(--art-border);
+  background: var(--bg-secondary);
+  border-bottom-color: var(--border-default);
 }
 
 /* --- Issue Questions --- */
 [data-theme="dark"] .issue-questions {
   background: var(--bg-surface);
-  border-color: var(--art-border);
+  border-color: var(--border-default);
 }
 
 /* --- Script Card --- */
 [data-theme="dark"] .script-card {
   background: var(--bg-surface);
-  border-color: var(--art-border);
+  border-color: var(--border-default);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* --- Email Callout --- */
 [data-theme="dark"] .email-callout {
   background: var(--bg-surface);
-  border-color: var(--art-border);
+  border-color: var(--border-default);
 }
 
 /* --- Press Quotes — uses semantic tokens, minimal dark override --- */
@@ -2806,20 +2817,20 @@ html.theme-transition *::after {
 
 /* --- Tables --- */
 [data-theme="dark"] .issue-agency-table td {
-  border-bottom-color: var(--art-border);
+  border-bottom-color: var(--border-default);
 }
 
 [data-theme="dark"] .issue-agency-table tbody tr:last-child td {
-  border-bottom-color: var(--art-red);
+  border-bottom-color: var(--accent-cta);
 }
 
 @media (max-width: 600px) {
   [data-theme="dark"] .issue-agency-table tbody tr {
-    background: var(--art-gray-light);
+    background: var(--bg-secondary);
   }
 
   [data-theme="dark"] .issue-agency-table td:first-child {
-    border-bottom-color: var(--art-border);
+    border-bottom-color: var(--border-default);
   }
 }
 
@@ -2837,43 +2848,43 @@ html.theme-transition *::after {
 /* Hero inverts via elegant.css — no override needed here */
 
 [data-theme="dark"] .landing-hero {
-  background-color: var(--art-gray-light);
+  background-color: var(--bg-secondary);
 }
 
 /* --- Graph hint (used on graph page but has generic background) --- */
 [data-theme="dark"] .graph-hint p {
   background: rgba(27, 27, 27, 0.85);
-  border-color: var(--art-border);
+  border-color: var(--border-default);
 }
 
 /* --- Audience Sub-Nav (dark mode) --- */
 [data-theme="dark"] .audience-nav {
   background: var(--bg-secondary);
-  border-bottom-color: var(--art-border);
+  border-bottom-color: var(--border-default);
 }
 
 [data-theme="dark"] .audience-nav-list a {
-  color: var(--art-gray);
+  color: var(--text-secondary);
 }
 
 [data-theme="dark"] .audience-nav-list a:hover {
-  color: var(--art-accent);
+  color: var(--link-color);
 }
 
 [data-theme="dark"] .audience-nav-list a[aria-current="page"] {
-  color: var(--art-accent);
-  border-bottom-color: var(--art-accent);
+  color: var(--link-color);
+  border-bottom-color: var(--link-color);
 }
 
 /* --- 404 Page (dark mode) --- */
 [data-theme="dark"] .not-found-message {
-  color: var(--art-gray);
+  color: var(--text-secondary);
 }
 
 /* --- Document Items (dark mode) --- */
 [data-theme="dark"] .document-item {
-  background: var(--art-gray-light);
-  border-left-color: var(--art-red);
+  background: var(--bg-secondary);
+  border-left-color: var(--accent-cta);
 }
 
 [data-theme="dark"] .document-item:hover {
@@ -2881,8 +2892,8 @@ html.theme-transition *::after {
 }
 
 [data-theme="dark"] .doc-source {
-  background: var(--art-border);
-  color: var(--art-gray);
+  background: var(--border-default);
+  color: var(--text-secondary);
 }
 
 /* ==========================================================================
@@ -2895,7 +2906,7 @@ html.theme-transition *::after {
 }
 
 .not-found-message {
-  color: var(--art-gray);
+  color: var(--text-secondary);
   font-size: 1.1rem;
   margin-bottom: 2rem;
 }
@@ -3052,8 +3063,8 @@ html.theme-transition *::after {
 }
 
 .action-tier-label--quick {
-  background: var(--art-green-light);
-  color: var(--art-green);
+  background: #DCFCE7;
+  color: #166534;
 }
 
 .action-tier-label--medium {
@@ -3062,8 +3073,8 @@ html.theme-transition *::after {
 }
 
 .action-tier-label--ongoing {
-  background: var(--art-red-light);
-  color: var(--art-red);
+  background: #FEE2E2;
+  color: var(--accent-cta);
 }
 
 [data-theme="dark"] .action-tier-label--quick {
@@ -3102,17 +3113,17 @@ html.theme-transition *::after {
 
 .bar-chart-bar {
   height: 2rem;
-  background: var(--art-red);
+  background: var(--accent-cta);
   border-radius: 4px;
   position: relative;
 }
 
 .bar-chart-bar--secondary {
-  background: var(--art-green);
+  background: #166534;
 }
 
 .bar-chart-bar--tertiary {
-  background: var(--art-gray);
+  background: var(--text-secondary);
 }
 
 /* ==========================================================================
@@ -3129,8 +3140,8 @@ html.theme-transition *::after {
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--art-white);
-    border-top: 1px solid var(--art-border);
+    background: var(--bg-primary);
+    border-top: 1px solid var(--border-default);
     padding: 0.75rem 1rem;
     z-index: 100;
     text-align: center;
@@ -3195,7 +3206,7 @@ html.theme-transition *::after {
 /* --- Section Break Rule (short, colored bar) --- */
 hr.section-break {
   border: none;
-  border-top: 3px solid var(--art-accent);
+  border-top: 3px solid var(--link-color);
   max-width: 4rem;
   margin: 3rem 0;
 }
@@ -3205,7 +3216,7 @@ hr.section-break {
    ========================================================================== */
 .evidence-card {
   border: 1px solid var(--color-border);
-  border-top: 3px solid var(--art-accent);
+  border-top: 3px solid var(--link-color);
   padding: 1.5rem 2rem;
   background: var(--color-bg-surface);
   margin: 2rem 0;
@@ -3231,15 +3242,15 @@ hr.section-break {
 [data-theme="dark"] .evidence-card {
   background: var(--color-bg-surface);
   border-color: var(--color-border);
-  border-top-color: var(--art-accent);
+  border-top-color: var(--link-color);
 }
 
 /* ==========================================================================
    CALLOUT BOX — Hard-edge, The Markup pattern
    ========================================================================== */
 .callout-box {
-  border: 2px solid var(--art-black);
-  box-shadow: 4px 4px 0 var(--art-black);
+  border: 2px solid var(--text-primary);
+  box-shadow: 4px 4px 0 var(--text-primary);
   padding: 1.5rem 2rem;
   background: var(--color-bg-surface);
   margin: 2rem 0;
@@ -3281,7 +3292,7 @@ hr.section-break {
   padding: 1.5rem;
   background: var(--color-bg-surface);
   border: 1px solid var(--color-border);
-  border-left: 4px solid var(--art-accent);
+  border-left: 4px solid var(--link-color);
   border-radius: 0 4px 4px 0;
   text-decoration: none;
   color: var(--color-text-primary);
@@ -3300,7 +3311,7 @@ hr.section-break {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--art-accent);
+  color: var(--link-color);
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -3315,14 +3326,14 @@ hr.section-break {
 .role-card-link {
   font-family: var(--font-sans);
   font-weight: 600;
-  color: var(--art-accent);
+  color: var(--link-color);
   font-size: var(--text-sm);
 }
 
 [data-theme="dark"] .role-card {
   background: var(--color-bg-surface);
   border-color: var(--color-border);
-  border-left-color: var(--art-accent);
+  border-left-color: var(--link-color);
 }
 
 [data-theme="dark"] .role-card:hover {
@@ -3331,7 +3342,7 @@ hr.section-break {
 }
 
 .role-card:focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--link-color);
   outline-offset: -2px;
 }
 
@@ -3372,19 +3383,16 @@ hr.section-break {
    PRINT STYLES — Clean output for letter templates, evidence summaries
    ========================================================================== */
 @media print {
-  /* Force light-mode design tokens for print */
+  /* Force light-mode tokens for print */
   :root {
-    --art-red: #B91C1C;
-    --art-green: #166534;
-    --art-black: #1A1A1A;
-    --art-white: #FAFAFA;
-    --art-red-light: #FEE2E2;
-    --art-green-light: #DCFCE7;
-    --art-gray: #4B5563;
-    --art-gray-light: #F3F4F6;
-    --art-border: #E5E7EB;
-    --art-link: #B91C1C;
-    --art-link-hover: #991B1B;
+    --bg-primary: #FAFAFA;
+    --bg-secondary: #F3F4F6;
+    --text-primary: #1A1A1A;
+    --text-secondary: #4B5563;
+    --link-color: #B91C1C;
+    --link-hover: #991B1B;
+    --border-default: #E5E7EB;
+    --accent-cta: #B91C1C;
   }
 
   /* Hide non-content elements */
@@ -3533,8 +3541,8 @@ hr.section-break {
 .document-item {
   padding: 1.25rem 1.5rem;
   margin-bottom: 1rem;
-  background: var(--art-gray-light);
-  border-left: 4px solid var(--art-red);
+  background: var(--bg-secondary);
+  border-left: 4px solid var(--accent-cta);
   border-radius: 0 8px 8px 0;
 }
 
@@ -3567,7 +3575,7 @@ hr.section-break {
   width: 16px;
   height: 16px;
   margin-top: 0.2rem;
-  color: var(--art-red);
+  color: var(--accent-cta);
 }
 
 /* ==========================================================================
@@ -3577,7 +3585,7 @@ hr.section-break {
   display: block;
   font-size: 0.9rem;
   font-weight: 400;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   line-height: 1.5;
   margin-top: 0.25rem;
 }
@@ -3587,10 +3595,10 @@ hr.section-break {
   font-size: 0.75rem;
   font-family: var(--font-sans);
   font-weight: 600;
-  color: var(--art-gray);
+  color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  background: var(--art-gray-light);
+  background: var(--bg-secondary);
   padding: 0.15rem 0.5rem;
   border-radius: 3px;
   margin-top: 0.35rem;

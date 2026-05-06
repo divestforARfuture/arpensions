@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  var STORAGE_KEY = 'art-theme';
+  var STORAGE_KEY = 'api-theme';
 
   function getTheme() {
     var saved = localStorage.getItem(STORAGE_KEY);
@@ -13,8 +13,8 @@
   function syncBrowserTheme(theme) {
     var root = document.documentElement;
     root.style.colorScheme = theme;
-    root.style.backgroundColor = theme === 'dark' ? '#1b1b1b' : '#ffffff';
-    root.style.color = theme === 'dark' ? '#e8e6e3' : '#1b1b1b';
+    root.style.backgroundColor = theme === 'dark' ? '#1C1917' : '#F8F5F0';
+    root.style.color = theme === 'dark' ? '#F8F5F0' : '#1C1917';
     var meta = document.querySelector('meta[name="color-scheme"]');
     if (meta) {
       meta.setAttribute('content', theme);

@@ -42,7 +42,7 @@
 }
 
 [data-theme="dark"] .site-nav {
-  border-bottom: 0.5px solid var(--art-border);
+  border-bottom: 0.5px solid var(--border-default);
 }
 
 /* ========================================================================
@@ -59,20 +59,20 @@
 .page-content a:not([class]),
 .landing-content a:not([class]) {
   text-decoration: none;
-  color: var(--art-accent);
+  color: var(--link-color);
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s;
 }
 
 .page-content a:not([class]):hover,
 .landing-content a:not([class]):hover {
-  border-bottom-color: var(--art-accent);
+  border-bottom-color: var(--link-color);
   text-decoration: none;
 }
 
 .page-content a:not([class]):focus-visible,
 .landing-content a:not([class]):focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--link-color);
   outline-offset: 2px;
   border-radius: 2px;
 }
@@ -304,12 +304,12 @@ nav[aria-label="Continue reading"] a {
 
 .page-flow a:hover,
 nav[aria-label="Continue reading"] a:hover {
-  color: var(--art-accent);
+  color: var(--link-color);
 }
 
 .page-flow a:focus-visible,
 nav[aria-label="Continue reading"] a:focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--link-color);
   outline-offset: 2px;
 }
 
@@ -323,9 +323,9 @@ nav[aria-label="Continue reading"] a:focus-visible {
   font-family: var(--font-mono);
   font-size: 0.75rem;
   letter-spacing: 0.03em;
-  color: var(--art-accent);
+  color: var(--link-color);
   background: transparent;
-  border: 1px solid var(--art-accent);
+  border: 1px solid var(--link-color);
   border-radius: 2px;
   padding: 0.3rem 0.75rem;
   cursor: pointer;
@@ -334,13 +334,13 @@ nav[aria-label="Continue reading"] a:focus-visible {
 
 .letter-template button:hover,
 .letter-template .copy-letter-btn:hover {
-  background: var(--art-accent);
+  background: var(--link-color);
   color: #fff;
 }
 
 .letter-template button:focus-visible,
 .letter-template .copy-letter-btn:focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--link-color);
   outline-offset: 2px;
 }
 
@@ -354,7 +354,7 @@ nav[aria-label="Continue reading"] a:focus-visible {
 aside.cta-box,
 article > aside[role="complementary"] {
   background: var(--bg-secondary);
-  border-left: 4px solid var(--art-border);
+  border-left: 4px solid var(--border-default);
   border-radius: 0;
 }
 
@@ -370,7 +370,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .issue-agency-table thead {
-  background: var(--art-accent);
+  background: var(--link-color);
 }
 
 .issue-agency-table th {
@@ -382,7 +382,7 @@ article > aside[role="complementary"] h3 {
 }
 
 .issue-agency-table tbody tr:last-child td {
-  border-bottom: 2px solid var(--art-accent);
+  border-bottom: 2px solid var(--link-color);
 }
 
 .issue-agency-table td strong {
@@ -393,12 +393,12 @@ article > aside[role="complementary"] h3 {
 
 /* Dark mode table header: darken the accent via color-mix to maintain contrast with white text */
 [data-theme="dark"] .issue-agency-table thead {
-  background: color-mix(in srgb, var(--art-accent) 60%, black);
+  background: color-mix(in srgb, var(--link-color) 60%, black);
 }
 
 @media (max-width: 600px) {
   .issue-agency-table tbody tr {
-    border-left-color: var(--art-accent);
+    border-left-color: var(--link-color);
   }
 }
 
@@ -441,7 +441,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .issue-red-flags > p:has(> strong:first-child) {
-  border-left: 2px solid var(--art-accent);
+  border-left: 2px solid var(--link-color);
 }
 
 .issue-red-flags > p:has(> strong:first-child) + p:has(> strong:first-child) {
@@ -459,7 +459,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .cta-box {
-  border-left-color: var(--art-border);
+  border-left-color: var(--border-default);
   background-color: var(--bg-secondary);
 }
 
@@ -506,16 +506,16 @@ article > aside[role="complementary"] h3 {
 
 /* ========================================================================
    AUDIENCE NAV — Teal active state
-   Uses var(--art-accent) which auto-adapts in dark mode
+   Uses var(--link-color) which auto-adapts in dark mode
    ======================================================================== */
 
 .audience-nav-list a:hover {
-  color: var(--art-accent);
+  color: var(--link-color);
 }
 
 .audience-nav-list a[aria-current="page"] {
-  color: var(--art-accent);
-  border-bottom-color: var(--art-accent);
+  color: var(--link-color);
+  border-bottom-color: var(--link-color);
 }
 
 /* ========================================================================
@@ -523,15 +523,15 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .document-item {
-  border-left-color: var(--art-accent);
+  border-left-color: var(--link-color);
 }
 
 .document-item a.doc-title:hover {
-  color: var(--art-accent);
+  color: var(--link-color);
 }
 
 .doc-icon {
-  color: var(--art-accent);
+  color: var(--link-color);
 }
 
 /* ========================================================================
@@ -556,7 +556,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .evidence-card {
-  border-top-color: var(--art-accent);
+  border-top-color: var(--link-color);
 }
 
 /* ========================================================================
@@ -586,7 +586,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .issue-questions {
-  border-left-color: var(--art-accent);
+  border-left-color: var(--link-color);
 }
 
 /* ========================================================================
@@ -594,7 +594,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .meeting-info {
-  border-left-color: var(--art-accent);
+  border-left-color: var(--link-color);
 }
 
 /* ========================================================================
@@ -602,7 +602,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .script-card {
-  border-left-color: var(--art-accent);
+  border-left-color: var(--link-color);
 }
 
 /* ========================================================================
@@ -643,7 +643,7 @@ article > aside[role="complementary"] h3 {
 }
 
 .step-ladder-item:focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--link-color);
   outline-offset: 2px;
 }
 
@@ -697,7 +697,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .approach-pillars > p:has(> strong:first-child) {
-  border-left-color: var(--art-accent);
+  border-left-color: var(--link-color);
 }
 
 /* ========================================================================
@@ -713,7 +713,7 @@ article > aside[role="complementary"] h3 {
    ======================================================================== */
 
 .bar-chart-bar {
-  background: var(--art-accent);
+  background: var(--link-color);
 }
 
 /* ========================================================================
@@ -727,7 +727,7 @@ article > aside[role="complementary"] h3 {
 
 .landing-hero::after {
   height: 2px;
-  background: var(--art-accent);
+  background: var(--link-color);
 }
 
 .landing-hero h1 {
@@ -830,7 +830,7 @@ article > aside[role="complementary"] h3 {
 
 /* Focus: teal ring — currentColor matches the hero bg, so use brand accent instead */
 .hero .btn-primary-hero:focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--link-color);
   outline-offset: 3px;
 }
 
@@ -1187,12 +1187,12 @@ article > aside[role="complementary"] h3 {
 }
 
 .btn-text {
-  color: var(--art-accent);
+  color: var(--link-color);
 }
 
 .btn-text:hover,
 .btn-text:focus-visible {
-  border-bottom-color: var(--art-accent);
+  border-bottom-color: var(--link-color);
 }
 
 /* ========================================================================
@@ -1295,7 +1295,7 @@ hr + * > .section-label:first-child {
 }
 
 .document-item:hover .doc-icon {
-  color: var(--art-red);
+  color: var(--accent-cta);
 }
 
 /* ========================================================================
@@ -1345,7 +1345,7 @@ hr + * > .section-label:first-child {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: var(--art-gray);
+    color: var(--text-secondary);
     margin-bottom: 0.15rem;
   }
 
@@ -1416,7 +1416,7 @@ hr + * > .section-label:first-child {
   /* --- Force light colors --- */
   body, main, article, .page-content, .landing-content {
     background: white !important;
-    color: var(--art-black) !important;
+    color: var(--text-primary) !important;
   }
 
   /* --- Typography fallbacks --- */
@@ -1548,12 +1548,12 @@ html {
    ======================================================================== */
 
 :focus-visible {
-  outline: 2px solid var(--art-accent);
+  outline: 2px solid var(--link-color);
   outline-offset: 2px;
 }
 
 [data-theme="dark"] :focus-visible {
-  outline-color: var(--art-accent);
+  outline-color: var(--link-color);
 }
 
 /* ========================================================================
@@ -1840,7 +1840,7 @@ html {
 .subfindings-toggle-all {
   background: none;
   border: 1px solid var(--color-border);
-  color: var(--art-accent);
+  color: var(--link-color);
   font-family: var(--font-sans);
   font-size: 0.8rem;
   font-weight: 500;
@@ -1851,7 +1851,7 @@ html {
 }
 
 .subfindings-toggle-all:hover {
-  background: var(--art-accent);
+  background: var(--link-color);
   color: #fff;
 }
 
@@ -1868,7 +1868,7 @@ html {
   font-family: var(--font-sans);
   font-weight: 400;
   font-size: 0.9375rem;
-  color: var(--art-accent);
+  color: var(--link-color);
   cursor: pointer;
   list-style: none;
   transition: color 0.15s;
@@ -1883,7 +1883,7 @@ html {
   display: inline-block;
   width: 0;
   height: 0;
-  border-left: 6px solid var(--art-accent);
+  border-left: 6px solid var(--link-color);
   border-top: 4px solid transparent;
   border-bottom: 4px solid transparent;
   flex-shrink: 0;
@@ -1904,14 +1904,14 @@ html {
 }
 
 .subfinding > summary:focus-visible {
-  outline: 3px solid var(--art-accent);
+  outline: 3px solid var(--link-color);
   outline-offset: 2px;
   border-radius: 2px;
 }
 
 .subfinding-content {
   padding: 0.25rem 0 1.25rem 1rem;
-  border-left: 2px solid var(--art-accent);
+  border-left: 2px solid var(--link-color);
   margin-left: 3px;
   animation: subfinding-fade 0.25s ease;
   color: var(--text-secondary);
@@ -2056,7 +2056,7 @@ html {
 }
 
 .breadcrumb a {
-  color: var(--art-accent);
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -2155,7 +2155,7 @@ html {
 
 /* Dark mode adjustments */
 [data-theme="dark"] .figure-card {
-  border-top-color: var(--art-border);
+  border-top-color: var(--border-default);
 }
 
 [data-theme="dark"] .figure-subtitle,
