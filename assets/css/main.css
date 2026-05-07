@@ -569,7 +569,7 @@ hr {
 
 .nav-wordmark {
   font-family: var(--font-sans);
-  font-size: 0.95rem;
+  font-size: 0.8125rem; /* 13px — subordinate to the 14.4px nav links */
   font-weight: 600;
   letter-spacing: -0.005em;
   color: var(--text-heading);
@@ -593,7 +593,24 @@ hr {
   list-style: none;
   gap: 0.25rem;
   margin: 0 0 0 auto;
-  padding: 0;
+  padding: 0 0 0 1rem;
+  position: relative;
+}
+
+/* Thin separator between the logo lockup and the nav links — only on
+   wide enough screens where the wordmark is also showing. */
+@media (min-width: 1025px) {
+  .nav-links::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.25rem;
+    width: 1px;
+    background: currentColor;
+    opacity: 0.2;
+  }
 }
 
 .nav-links > li {
@@ -745,7 +762,7 @@ hr {
   position: absolute;
   inset: 0;
   background: var(--api-navy);
-  opacity: 0.78;
+  opacity: 0.70;
   z-index: 1;
   pointer-events: none;
 }
@@ -757,7 +774,7 @@ hr {
 
 [data-theme="dark"] .hero::before {
   background: var(--api-charcoal);
-  opacity: 0.82;
+  opacity: 0.74;
 }
 
 .hero-content {
@@ -785,6 +802,7 @@ hr {
   color: var(--api-cream);
   margin: 0;
   max-width: 24ch;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .hero-tagline {
@@ -795,6 +813,7 @@ hr {
   color: var(--api-gold);
   margin: 0;
   text-transform: none;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .hero-cta {
@@ -1008,7 +1027,10 @@ hr {
     top: 15%;
     height: 70%;
     width: 1px;
-    background: var(--border-default);
+    background: rgba(0, 0, 0, 0.1);
+  }
+  [data-theme="dark"] .stat + .stat::before {
+    background: rgba(255, 255, 255, 0.15);
   }
 }
 
@@ -1125,12 +1147,13 @@ hr {
   /* Was --accent (gold) — fails WCAG AA on cream/white. --link-color resolves
      to navy in light mode and gold in dark mode, both pass. */
   color: var(--link-color);
-  transition: transform 0.15s ease;
+  transition: transform 0.2s ease;
   justify-self: end;
 }
 
-.pathway-row:hover .pathway-arrow {
-  transform: translateX(4px);
+.pathway-row:hover .pathway-arrow,
+.pathway-row:focus-visible .pathway-arrow {
+  transform: translateX(5px);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1194,16 +1217,19 @@ hr {
   gap: 1rem;
   padding: 2rem 1.75rem;
   background: var(--bg-primary);
+  border: 1px solid var(--border-default);
   border-top: 2px solid var(--accent);
   text-decoration: none;
   color: var(--text-primary);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .audience-card:hover,
 .audience-card:focus-visible {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(28, 25, 23, 0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: var(--api-navy);
+  border-top-color: var(--accent);
   color: var(--text-primary);
   text-decoration: none;
 }
@@ -1214,8 +1240,11 @@ hr {
   border-top-color: rgba(203, 166, 72, 0.8);
 }
 
-[data-theme="dark"] .audience-card:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+[data-theme="dark"] .audience-card:hover,
+[data-theme="dark"] .audience-card:focus-visible {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-color: var(--api-gold);
+  border-top-color: rgba(203, 166, 72, 0.8);
 }
 
 .audience-card-label {
@@ -1259,7 +1288,9 @@ hr {
    ========================================================================== */
 .about-section {
   padding: 6rem 1.5rem;
-  background: var(--bg-primary);
+  /* ~3% darker than --bg-primary (#F8F5F0) so the section reads as a
+     distinct content block rather than continuous with the page bg. */
+  background: #F3EFE9;
   border-top: 1px solid var(--border-default);
 }
 
@@ -1544,16 +1575,22 @@ hr {
 /* === Editorial Blockquotes — legal citation style (bilateral indentation) === */
 blockquote {
   margin: 1.75em 2.5em;
-  padding: 0;
-  border-left: none;
-  background-color: transparent;
-  border-radius: 0;
+  /* Subtle paper-like tint + thin gold accent gives FOIA quotes the feel
+     of a document excerpt rather than indented prose. */
+  padding: 1rem 1.25rem 1rem 1.5rem;
+  border-left: 3px solid var(--accent);
+  background-color: rgba(27, 42, 74, 0.03);
+  border-radius: 2px;
   font-family: var(--font-display);
   font-weight: 300;
   font-size: clamp(1.05rem, 0.95rem + 0.5vw, 1.2rem);
   line-height: 1.5;
   color: var(--text-secondary);
   font-style: normal;
+}
+
+[data-theme="dark"] blockquote {
+  background-color: rgba(255, 255, 255, 0.03);
 }
 
 blockquote p {
@@ -1701,6 +1738,7 @@ blockquote footer {
   font-style: italic;
   color: var(--api-gold);
   font-size: 1rem;
+  letter-spacing: 0.01em;
   margin: 0.25rem 0 0;
 }
 
