@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="page-content evidence-page-article" aria-labelledby="page-heading">
-  <div class="page-header-band">
+  <div class="page-header-band{% if page.hide_rule %} page-header-band--no-rule{% endif %}">
     <div class="container container-prose">
       {% if page.breadcrumb %}
       <nav class="breadcrumb" aria-label="Breadcrumb">

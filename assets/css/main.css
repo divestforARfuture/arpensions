@@ -474,10 +474,7 @@ article > section:first-child {
 }
 
 /* First heading after page title shouldn't have extra top margin */
-.container-prose > h2:first-child,
-.page-header + hr + h2,
-.page-header + h2,
-.page-header-rule + h2 {
+.container-prose > h2:first-child {
   margin-top: 0;
 }
 
@@ -1072,7 +1069,6 @@ hr {
     margin-bottom: 0.5rem;
   }
   [data-theme="dark"] .stat:not(:last-child) {
-    border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
   }
 }
@@ -1347,6 +1343,17 @@ hr {
 /* --- Page Content --- */
 .page-content {
   padding: 0 0 4rem;
+}
+
+/* Body content sits below the header band; replaces the top padding that
+   used to live on .page-content itself before the band was introduced.
+   Parallel to .landing-content .container-prose padding-top on audience
+   pages — without it, a content page whose first element is an <h2> would
+   sit flush against the band's bottom border. Also covers the Evidence
+   page's sidebar layout (.evidence-layout). */
+.page-content > .container-prose,
+.page-content > .evidence-layout {
+  padding-top: 3rem;
 }
 
 /* Full-bleed cream header band for content pages.
