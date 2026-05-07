@@ -8,12 +8,24 @@
   btn.style.display = 'none';
   document.body.appendChild(btn);
 
-  btn.addEventListener('click', function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  function smoothScrollTop() {
+    var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
     var target = document.getElementById('main-content') || document.body;
     target.setAttribute('tabindex', '-1');
     target.focus({ preventScroll: true });
-  });
+  }
+
+  btn.addEventListener('click', smoothScrollTop);
+
+  // Footer "Back to top" link — promote the hash anchor to smooth scroll.
+  var footerLink = document.querySelector('.footer-back-to-top');
+  if (footerLink) {
+    footerLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      smoothScrollTop();
+    });
+  }
 
   var ticking = false;
   window.addEventListener('scroll', function() {
