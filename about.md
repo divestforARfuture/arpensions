@@ -43,7 +43,7 @@ Our asks are narrow, legislative, and rooted in existing Arkansas law:
 
 **Isn't this about politics?**
 
-No. This is about fiduciary duty and financial risk. Arkansas law requires that pension investments be made based on "pecuniary factors" — financial merit. When an internal staff memo recommends against new purchases, when the Board Chair dissents warning the process departs from standard practice, and when public officials celebrate the investment as a political statement rather than a financial one, there are legitimate questions about whether the law's fiduciary standard was met. We're asking those questions.
+No. This is about fiduciary duty and financial risk. Arkansas law requires that pension investments be made based on "pecuniary factors" — financial merit. Neither pension board produced an independent credit analysis before authorizing these purchases. The ATRS Board Chair dissented, warning the process departed from standard practice. Public officials celebrated the investment as a political statement rather than a financial one. And the State Treasurer's own senior investment staff had already flagged the credit risk in late 2024 — context the pension boards had every reason to weigh. There are legitimate questions about whether the law's fiduciary standard was met. We're asking those questions.
 
 </div>
 

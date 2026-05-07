@@ -50,7 +50,7 @@ Every claim on this site is backed by documents in the public record. Below are 
     <div class="scrolly__step" data-step="2">
       <div class="step__content">
         <h3>49 days from sales pitch to $155 million</h3>
-        <p>After a two-day pitch tour arranged by the Auditor of State in his own Capitol office, all three agencies authorized investments within 49 days — despite an internal memo recommending against new purchases.</p>
+        <p>After a two-day pitch tour arranged by the Auditor of State in his own Capitol office, all three agencies — Treasury, ATRS, and APERS — authorized $155 million in combined exposure within 49 days. Treasury made a $20 million new purchase even after its own senior investment staff had flagged credit-rating downgrades and recommended holding existing positions.</p>
       </div>
     </div>
     <div class="scrolly__step" data-step="3">
