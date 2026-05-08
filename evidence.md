@@ -38,7 +38,7 @@ Every claim on this site is backed by documents in the public record. Below are 
     <div class="scrolly__step" data-step="0">
       <div class="step__content">
         <h3>Up to $100 million committed</h3>
-        <p>Three state agencies authorized or committed up to $100 million in pension funds to non-tradable foreign sovereign bonds — the first direct foreign sovereign debt purchases in Arkansas pension history.</p>
+        <p>Two Arkansas pension boards authorized or committed up to $100 million in non-tradable foreign sovereign bonds — the first direct foreign sovereign debt purchases in Arkansas pension history.</p>
       </div>
     </div>
     <div class="scrolly__step" data-step="1">
