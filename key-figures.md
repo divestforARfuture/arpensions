@@ -12,7 +12,7 @@ This page profiles the key individuals and organizations whose actions shaped Ar
 
 ## The Central Figures
 
-These two individuals appear most frequently across the entire 1,200+ document corpus. Their actions connected all three investing agencies — the Treasury, ATRS, and APERS.
+These two individuals appear most frequently across the entire 1,200+ document corpus. Their influence reached the two pension boards under investigation — ATRS and APERS — through a chain that began at the State Treasury, where the Arkansas position originated.
 
 {% assign central = site.data.key-figures | where: "relevance", "central" %}
 {% for figure in central %}
@@ -174,13 +174,13 @@ Institutional actors documented across the FOIA record.
 ## How They Connect — Four Key Patterns
 {: .patterns-heading }
 
-The profiles above describe individual roles. The patterns below describe how those roles interacted to produce $155 million in sovereign bond investments across three agencies — with no independent analysis anywhere in the record.
+The profiles above describe individual roles. The patterns below describe how those roles produced up to $100 million in pension fund authorizations — with no independent credit analysis anywhere in the record — and how the Arkansas position originated at the State Treasury years earlier.
 
 <div class="pattern-section" markdown="1">
 
 ### The Milligan Chain
 
-**How one official drove sovereign bond purchases across three agencies.**
+**How one official drove sovereign bond purchases from the State Treasury into two pension boards.**
 
 Dennis Milligan initiated the sovereign bond program as State Treasurer circa 2017. When he moved to the Auditor's office — a position with no investment authority over pension funds — he continued promoting the bonds through a chain of intermediaries. His Chief Deputy Jason Brady introduced the bonds at the APERS board (where Brady also sits as a member) and sent the initial request to ATRS Executive Director Mark White. Milligan personally arranged the April 2025 pitch tour that brought bond issuer representatives to all three agency heads within days. The April 11, 2025 scheduling blitz — 18 minutes to set meetings across three agencies — illustrates the coordination.
 
@@ -220,15 +220,16 @@ The sequence: Milligan as SFOF National Chair builds relationships → the Audit
 
 **What's missing from the fiduciary record.**
 
-For approximately $155 million in combined sovereign bond exposure ($55M Treasury + $50M ATRS + $25–50M APERS), the FOIA record contains:
+For up to $100 million in pension fund authorizations ($50M ATRS + $25–50M APERS), the FOIA record contains:
 
 - **Zero** independent credit analysis
 - **Zero** risk assessments
 - **Zero** yield comparisons against benchmark alternatives
-- **Zero** investment committee deliberation at Treasury
 - **Zero** consultant recommendations
 
-Both the ATRS and APERS 2025 authorizations were first-ever direct purchases of these bonds. Steve Pulley, Senior Investment Officer at Treasury, authored an internal memo recommending against new purchases citing credit downgrades by all three major rating agencies (including Moody's downgrade on September 27). His recommendation was overridden. Danny Knight, ATRS Board Chair, cast the sole dissenting vote, warning the board was "going outside of the scope of the way we usually do things."
+The State Treasury's parallel position ($55M including the May 2025 purchase of $20M in new bonds) shows the same absence of investment committee deliberation in the FOIA record.
+
+Both the ATRS and APERS 2025 authorizations were first-ever direct purchases of these bonds. Steve Pulley, Senior Investment Officer at Treasury, authored an internal memo recommending against new purchases, citing credit downgrades by all three major rating agencies (including Moody's downgrade on September 27). The Treasury then made a $20 million new purchase, and neither pension board produced its own independent credit analysis before authorizing further purchases. Danny Knight, ATRS Board Chair, cast the sole dissenting vote, warning the board was "going outside of the scope of the way we usually do things."
 
 The gap is not just what was absent — it's what was present for every other investment. The same boards that authorized sovereign bonds without independent analysis routinely received dozens of pages of consultant review for comparable commitments.
 

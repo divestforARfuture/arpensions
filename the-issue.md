@@ -24,19 +24,19 @@ In practical terms: an Arkansas pension fund that buys these bonds is accepting 
 
 ## What's happening in Arkansas?
 
-Three Arkansas state agencies have committed or authorized significant funds for non-tradable sovereign bonds:
+Two Arkansas pension boards have authorized substantial new exposure to non-tradable sovereign bonds. The State Treasury — a separately governed state office, not a pension fund — also holds a position in the same instruments:
 
 <div class="issue-agency-table" markdown="1">
 
 | Agency | Amount | Portfolio Share | Date |
 |--------|--------|----------------|------|
-| **State Treasury** | $55 million in holdings (including $20M purchased since May 2025) | ~0.5% of $11B | Ongoing since 2017 |
 | **ATRS** (Arkansas Teacher Retirement System) | Up to **$50 million** authorized; full amount deployed Dec 2025 | ~0.2% of $23.7B | June 2, 2025 |
 | **APERS** (Arkansas Public Employees' Retirement System) | **$25–50 million** authorized; purchase confirmed by Nov 2025 | ~0.2–0.4% of $11.58B | May 15, 2025 (subcommittee); June 11, 2025 (full board) |
+| State Treasury (separately governed) | $55 million in holdings (including $20M purchased since May 2025) | ~0.5% of $11B | Ongoing since 2017 |
 
 </div>
 
-(Note: The $155 million figure represents total authorized exposure. APERS authorized up to $50M but had not yet purchased as of July 2025 per FOIA records; actual current holdings are approximately $105 million.)
+(Note: The pension authorizations total up to $100 million combined. APERS authorized up to $50M but had not yet purchased as of July 2025 per FOIA records. The Treasury's $55M position is governed by separate Treasury investment authority and is shown here for context — it is not within the scope of the Pension Investment Transparency Act, which by its terms applies only to pension benefit plans.)
 
 While the portfolio percentages are small, the question is whether standard fiduciary process was followed — not whether the amounts are material.
 

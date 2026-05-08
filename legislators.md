@@ -26,7 +26,7 @@ We are asking the General Assembly to strengthen pension transparency requiremen
 | **Credit downgrades** | All three major agencies (Moody's, S&P, and Fitch) have downgraded the issuing country's credit rating since 2024, citing economic instability and security risks |
 | **Internal staff advice** | A late-2024 Treasury investment memo recommended against new purchases due to credit downgrades |
 | **Board Chair dissent** | ATRS Board Chair Danny Knight cast the sole "no" vote, warning the process departed from ATRS's normal manager-driven practice |
-| **Sales representative involvement** | The bond issuer's sales representatives met with all three agencies in April 2025; within weeks, new purchases and authorizations followed |
+| **Sales representative involvement** | The bond issuer's sales representatives met with two pension boards (ATRS, APERS) and the State Treasurer in April 2025; within weeks, new purchases and authorizations followed |
 | **Independent credit analysis** | None found in more than 1,200 FOIA documents from five state agencies |
 | **Brady conduit confirmed** | Auditor's appointee Jason Brady introduced the investment to the APERS board citing Treasury's $55M holdings; board approved $25–50M without independent analysis |
 | **APERS two-month purchase delay** | Board authorized in May–June 2025; "Still zero for APERS" confirmed July 30, 2025; staff still establishing contact July 31 |
