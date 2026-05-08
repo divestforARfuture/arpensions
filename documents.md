@@ -18,13 +18,13 @@ permalink: /documents/
 
 ## About these documents
 
-These are excerpts and key documents from more than 1,200 public records obtained by Arkansans for Pension Integrity through three rounds of Freedom of Information Act requests to five Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), the Arkansas Auditor of State, and the Arkansas State Highway Employees' Retirement System (ASHERS).
+These are excerpts and key documents from more than 1,200 public records obtained by Arkansans for Pension Integrity through three rounds of Freedom of Information Act requests to Arkansas state agencies: the State Treasurer's Office, Arkansas Teacher Retirement System (ATRS), Arkansas Public Employees Retirement System (APERS), the Arkansas Auditor of State, and the Arkansas State Highway Employees' Retirement System (ASHERS).
 
 All documents were provided by the agencies in response to lawful FOIA requests. Where noted, page ranges have been extracted from larger compiled document sets. No content has been altered.
 
 <div class="key-finding" markdown="1">
 
-**1,227 documents** obtained across three FOIA rounds from five Arkansas state agencies. 11 requests filed. Every claim on this site traces back to these records.
+**1,227 documents** obtained across three FOIA rounds from Arkansas state agencies. 12 requests filed across four rounds (AJRS Round 4 response pending). Every claim on this site traces back to these records.
 
 </div>
 
@@ -198,6 +198,13 @@ A third round of FOIA requests expanded the investigation to previously uninvest
     <ul>
       <li><strong>Documents:</strong> 0 (null result)</li>
       <li><strong>Contents:</strong> Confirmed no responsive records and no current holdings of the bonds under investigation (April 9, 2026); LOPFI manages investments independently with approximately $3.15 billion under management</li>
+    </ul>
+  </div>
+  <div class="meeting-info">
+    <p><strong>AJRS</strong> (Arkansas Judicial Retirement System)</p>
+    <ul>
+      <li><strong>Documents:</strong> Response pending (FOIA filed May 8, 2026 — Round 4)</li>
+      <li><strong>Contents:</strong> AJRS is administered by APERS staff and shares investment infrastructure, but operates as a separate benefit plan with its own Board of Trustees and trust fund (~$309 million AUM, ~89% funded). FOIA request filed to determine whether AJRS trust assets were included in sovereign bond purchases made through the APERS investment pool.</li>
     </ul>
   </div>
 </div>

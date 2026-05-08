@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Our Methods — How We Conducted This Investigation"
-description: "1,227 documents. Five agencies. Three FOIA rounds. Here's exactly how we did it."
+description: "1,227 documents. Six pension systems covered by Act 498. Four FOIA rounds. Here's exactly how we did it."
 permalink: /methodology/
 ---
 
@@ -11,7 +11,7 @@ Transparency about our own methods is as important as the transparency we demand
 
 ## Public Records Requests
 
-We filed <span class="font-mono">11</span> Freedom of Information Act (FOIA) requests across <span class="font-mono">3</span> rounds to <span class="font-mono">7</span> Arkansas state entities: the State Treasury, the Arkansas Teacher Retirement System (ATRS), the Arkansas Public Employees' Retirement System (APERS), the Auditor of State's office, the Arkansas State Highway Employees' Retirement System (ASHERS), the Arkansas State Police Retirement System (ASPRS), and the Local Police and Fire Retirement System (LOPFI).
+We filed <span class="font-mono">12</span> Freedom of Information Act (FOIA) requests across <span class="font-mono">4</span> rounds to <span class="font-mono">8</span> Arkansas state entities: the State Treasury, the Arkansas Teacher Retirement System (ATRS), the Arkansas Public Employees' Retirement System (APERS), the Auditor of State's office, the Arkansas State Highway Employees' Retirement System (ASHERS), the Arkansas State Police Retirement System (ASPRS), the Local Police and Fire Retirement System (LOPFI), and the Arkansas Judicial Retirement System (AJRS).
 
 Our requests targeted investment decision records, board meeting materials, correspondence with bond issuers, credit analyses, and internal memoranda related to the sovereign bond purchases under investigation.
 
@@ -19,7 +19,7 @@ Our requests targeted investment decision records, board meeting materials, corr
 
 ## Document Processing
 
-We received <span class="font-mono">1,227</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across three rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February–March 2026) added 265 documents from four agencies (Treasury: 118; APERS: 16; ATRS: 7; Auditor: 124). Round 3 (March 2026) added 5 documents from ASHERS; ASPRS confirmed no responsive records; LOPFI confirmed no responsive records and no current holdings of the bonds under investigation (April 9, 2026). All five pension agencies have responded. Every document was:
+We received <span class="font-mono">1,227</span> documents totaling over <span class="font-mono">4.5</span> gigabytes across three rounds of FOIA requests. Round 1 (August–October 2025) produced 957 documents from four agencies. Round 2 (February–March 2026) added 265 documents from four agencies (Treasury: 118; APERS: 16; ATRS: 7; Auditor: 124). Round 3 (March 2026) added 5 documents from ASHERS; ASPRS confirmed no responsive records; LOPFI confirmed no responsive records and no current holdings of the bonds under investigation (April 9, 2026). Round 4 (May 2026) added a FOIA request to AJRS — response pending. Five of six pension agencies have responded; AJRS, identified May 8, 2026 as the sixth pension system covered by Act 498, has not yet responded. Every document was:
 
 1. **Cataloged** with metadata including source agency, date, document type, and FOIA request number
 2. **Processed** using optical character recognition (OCR) where necessary to make scanned documents searchable

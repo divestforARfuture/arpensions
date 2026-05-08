@@ -9,7 +9,9 @@ Follow the progress of our investigation and campaign.
 
 ## 2026
 
-**April 9** — LOPFI (Local Police and Fire Retirement System) confirmed no responsive records and no current holdings of the bonds under investigation. LOPFI manages its own investments independently with approximately $3.15 billion under management. With LOPFI's response, all five Arkansas pension systems have now responded. Total corpus: 1,227 documents across five agencies, three FOIA rounds.
+**May 8** — AJRS (Arkansas Judicial Retirement System) identified as the sixth Arkansas public pension system covered by Act 498 of 2023. FOIA request filed (Round 4). AJRS is administered by APERS staff and shares investment infrastructure, but operates as a separate benefit plan with its own Board of Trustees and approximately $309 million in trust assets (~89% funded). Response pending.
+
+**April 9** — LOPFI (Local Police and Fire Retirement System) confirmed no responsive records and no current holdings of the bonds under investigation. LOPFI manages its own investments independently with approximately $3.15 billion under management. With LOPFI's response, five of six Arkansas pension systems had responded. Total corpus: 1,227 documents across three FOIA rounds.
 
 **March 28** — ASHERS (Arkansas State Highway Employees' Retirement System) delivered FOIA Round 3 response — 5 documents including email correspondence revealing that the bond issuer's national sales leadership was introduced to ASHERS staff through the same April 2025 pitch tour, but ASHERS declined to invest. ASPRS (Arkansas State Police Retirement System) confirmed no responsive documents — assets commingled with APERS under Act 1242 of 2009. Investigation corpus reaches 1,227 total documents (1,044 active after deduplication).
 
