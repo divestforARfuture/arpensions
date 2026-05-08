@@ -89,9 +89,9 @@ bundle exec jekyll serve
 - `prefers-reduced-motion` respected for all transitions
 - `aria-hidden` managed dynamically on inactive logo variants
 
-## Campaign Affiliation
+## About the Campaign
 
-Arkansans for Retirement Transparency operates as a campaign of Little Rock Peace for Palestine, a member organization of Citizens First Congress.
+Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign for pension transparency and fiduciary accountability. The campaign focuses on passing the Pension Investment Transparency Act (PITA) in the 2027 Arkansas legislative session.
 
 ---
 
@@ -121,7 +121,7 @@ Replaced hand-drawn geometric SVG with Cormorant Garamond Medium (500) glyph out
 
 **JS improvements:** `prefers-reduced-motion` guard skips `theme-transition` class entirely. `updateLogoAria()` manages `aria-hidden` on inactive logo. Uses `removeAttribute` (not `"false"`).
 
-**Print URL:** `divestforarfuture.github.io` → `arpensions.org`.
+**Print URL:** Set to `arpensions.org`.
 
 ### PR #5: Final comment cleanup
 
