@@ -49,8 +49,8 @@ Every claim on this site is backed by documents in the public record. Below are 
     </div>
     <div class="scrolly__step" data-step="2">
       <div class="step__content">
-        <h3>49 days from sales pitch to $155 million</h3>
-        <p>After a two-day pitch tour arranged by the Auditor of State in his own Capitol office, all three agencies authorized investments within 49 days — despite an internal memo recommending against new purchases.</p>
+        <h3>49 days from sales pitch to $120 million in new commitments</h3>
+        <p>After a two-day pitch tour arranged by the Auditor of State in his own Capitol office, the Treasury made a $20 million new purchase and the two pension boards authorized up to $100 million more — all within 49 days. The Treasury's new purchase came even after its own senior investment staff had flagged credit-rating downgrades and recommended holding existing positions.</p>
       </div>
     </div>
     <div class="scrolly__step" data-step="3">

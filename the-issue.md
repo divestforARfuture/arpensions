@@ -64,7 +64,7 @@ These authorizations came in rapid succession — and under circumstances that r
 
 <div class="callout" markdown="1">
 
-**What changed between the late-2024 recommendation to hold and the spring 2025 buying spree?** Not the credit ratings — those continued to decline. Not the financial outlook — the risks identified in the internal memo remained. The only thing that changed was the political pressure.
+**Neither pension board produced an independent credit analysis before authorizing these purchases.** ATRS established its written investment guidelines four months after the board vote. APERS authorized up to $50 million before staff had even established a contact at the bond issuer. The credit risk was not unknown inside state government — the State Treasurer's own senior investment staff had already flagged credit-rating downgrades in a late-2024 memo recommending the Treasury hold its existing positions. What the pension boards lacked was their own analysis. What changed in spring 2025 was not the credit picture, but the political pressure.
 
 </div>
 

@@ -54,7 +54,7 @@ The pattern in the public record raises questions about whether these standards 
 
 **The conduit chain is now documented.** New records confirm the specific mechanism. Jason Brady, appointed to the APERS board by Auditor Dennis Milligan, introduced the investment by telling the board "it had come to his attention" that it was available, and cited Treasury's $55 million in holdings. The board approved $25–50 million following Brady's presentation. The chain — Milligan as former Treasurer initiating Treasury purchases, then as Auditor placing his appointee on the APERS board to introduce the same investment — is documented across multiple independent FOIA responses.
 
-**Internal financial advice was overridden.** Senior Investment Officer Steve Pulley recommended holding off, citing credit downgrades. The state purchased $20 million more anyway.
+**State investment staff had already flagged the risk.** In late 2024, Steve Pulley — Senior Investment Officer in the State Treasurer's office — recommended holding existing positions and letting them roll off, citing credit downgrades. The Treasury purchased $20 million more anyway. The pension boards then authorized up to $100 million more in 2025 without producing any independent credit analysis of their own.
 
 **Public statements emphasized political symbolism.** As documented in public records, Governor Sanders stated: "Arkansas puts its money where its mouth is and is investing millions in Israeli bonds." At the APERS committee meeting, as documented in public records, Deputy Auditor Jason Brady referenced the U.S. Ambassador to Israel as "my and Amy's former boss." None of these are pecuniary factors.
 
