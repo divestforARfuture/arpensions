@@ -200,11 +200,22 @@ A third round of FOIA requests expanded the investigation to previously uninvest
       <li><strong>Contents:</strong> Confirmed no responsive records and no current holdings of the bonds under investigation (April 9, 2026); LOPFI manages investments independently with approximately $3.15 billion under management</li>
     </ul>
   </div>
+</div>
+
+---
+
+<span class="section-label">Fourth FOIA round</span>
+
+## Round 4 FOIA request (May 2026)
+
+A fourth round of FOIA requests was filed in May 2026 after AJRS was identified as the sixth Arkansas pension system covered by Act 498:
+
+<div class="meeting-grid">
   <div class="meeting-info">
     <p><strong>AJRS</strong> (Arkansas Judicial Retirement System)</p>
     <ul>
-      <li><strong>Documents:</strong> Response pending (FOIA filed May 8, 2026 — Round 4)</li>
-      <li><strong>Contents:</strong> AJRS is administered by APERS staff and shares investment infrastructure, but operates as a separate benefit plan with its own Board of Trustees and trust fund (~$309 million AUM, ~89% funded). FOIA request filed to determine whether AJRS trust assets were included in sovereign bond purchases made through the APERS investment pool.</li>
+      <li><strong>Status:</strong> Response pending. FOIA filed May 8, 2026; acknowledged same-day by Richmond Giles, APERS Staff Attorney; production deadline extended to May 15, 2026 by mutual agreement.</li>
+      <li><strong>Contents:</strong> AJRS is administered by APERS staff and shares investment infrastructure, but operates as a separate benefit plan with its own Board of Trustees and trust fund (~$309 million AUM, ~89% funded). FOIA request filed to determine whether AJRS trust assets were included in sovereign bond purchases made through the APERS investment pool. The same-day acknowledgment by APERS legal counsel — the single attorney handling correspondence for both pension systems — operationally confirms the shared-staff structure.</li>
     </ul>
   </div>
 </div>

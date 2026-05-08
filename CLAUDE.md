@@ -77,7 +77,7 @@ bundle exec jekyll serve
 3. **Issuer-neutral language** — all campaign-voice content uses financial terminology ("non-marketable foreign sovereign debt," "non-tradable sovereign bonds," "the bonds under investigation") rather than naming the bond issuer. Official quotes stay verbatim with "From the public record:" prefix. The glossary page (`/glossary/`) explains the approach and provides the financial profile. See `REFRAME-INSTRUCTIONS.md` for the complete terminology table.
 4. **No BDS self-identification** — this is a transparency and accountability campaign
 5. **Current data only** — keep stats updated (ATRS: $23.7B, ~84% funded; APERS: $11.82B, ~83% funded)
-6. **Corpus state** — 1,227 total documents (1,044 active after dedup) from the producing-docs agencies (Treasury, ATRS, APERS, ASHERS, Auditor); 12 FOIA requests across 4 rounds to 8 state entities (six pension systems covered by Act 498 plus Treasury and Auditor of State); AJRS Round 4 response pending (filed May 8, 2026)
+6. **Corpus state** — 1,227 total documents (1,044 active after dedup) from the producing-docs agencies (Treasury, ATRS, APERS, ASHERS, Auditor); 12 FOIA requests across 4 rounds to 8 state entities (six pension systems covered by Act 498 plus Treasury and Auditor of State); AJRS Round 4 filed May 8, 2026 and acknowledged by Richmond Giles (APERS Staff Attorney handling both pension systems' legal); production extended to May 15, 2026
 
 ## Accessibility
 

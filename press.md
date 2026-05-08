@@ -28,7 +28,7 @@ The campaign's ask is legislative: passage of the **Pension Investment Transpare
 | **0** | Independent credit analyses of these non-tradable sovereign bonds found in the entire document record |
 | **5** | Arkansas state agencies that produced documents — three pension systems (ATRS, APERS, ASHERS) and two non-pension state offices (the State Treasury and the Auditor of State). Two additional pension systems (ASPRS, LOPFI) confirmed null results; one (AJRS) response pending. Six pension systems total are covered by Act 498. |
 | **1** | Dissenting vote on the ATRS Board — Chair Danny Knight, who warned the process departed from standard practice |
-| **3** | Rounds of FOIA requests filed (August 2025, February 2026, March 2026) |
+| **4** | Rounds of FOIA requests filed (August 2025, February 2026, March 2026, May 2026) |
 | **265** | New documents received in FOIA Round 2 (118 Treasury, 16 APERS, 7 ATRS, 124 Auditor) |
 | **8,648** | Pages in APERS's Round 2 FOIA production — the single largest response received |
 

@@ -558,8 +558,8 @@ Authorizing up to $<span data-countup="100" data-countup-prefix="" data-countup-
   </li>
   <li class="timeline-event" data-aos="fade-left">
     <time>May 8, 2026</time>
-    <h3>AJRS identified as sixth pension system; FOIA Round 4 filed</h3>
-    <p>AJRS (Arkansas Judicial Retirement System) identified as the sixth Arkansas pension system covered by Act 498. AJRS is administered by APERS staff and shares investment infrastructure, but has its own Board of Trustees (five members appointed by the Arkansas Judicial Council) and trust fund (~$309 million AUM, ~89% funded, ~139 active members). A FOIA request was filed May 8, 2026 to determine whether AJRS trust assets were included in sovereign bond purchases made through the APERS investment pool. Response pending.</p>
+    <h3>AJRS identified as sixth pension system; FOIA Round 4 filed and acknowledged</h3>
+    <p>AJRS (Arkansas Judicial Retirement System) identified as the sixth Arkansas pension system covered by Act 498. AJRS is administered by APERS staff and shares investment infrastructure, but has its own Board of Trustees (five members appointed by the Arkansas Judicial Council) and trust fund (~$309 million AUM, ~89% funded, ~139 active members). FOIA request filed May 8, 2026 to determine whether AJRS trust assets were included in sovereign bond purchases made through the APERS investment pool. Same-day acknowledgment received from Richmond Giles, APERS Staff Attorney — the single attorney handling FOIA correspondence for both APERS and AJRS, operationally confirming the shared-staff structure. Production deadline extended to May 15, 2026 by mutual agreement.</p>
   </li>
 </ol>
 </div>
