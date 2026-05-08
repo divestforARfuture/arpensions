@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "Key Figures — Who Drove These Investments"
-description: "Profiles of the officials, organizations, and bond representatives documented across 1,200+ FOIA records from five Arkansas state agencies."
+description: "Profiles of the officials, organizations, and bond representatives documented across 1,200+ FOIA records from Arkansas state agencies."
 permalink: /key-figures/
 breadcrumb: Key Figures
 ---
 
-This page profiles the key individuals and organizations whose actions shaped Arkansas's non-tradable sovereign bond investments. Every fact below is drawn from public records obtained through FOIA requests to five state agencies. Names link to related profiles on this page; for the underlying documents, see the [evidence page](/evidence/) and [document archive](/documents/).
+This page profiles the key individuals and organizations whose actions shaped Arkansas's non-tradable sovereign bond investments. Every fact below is drawn from public records obtained through FOIA requests to Arkansas state agencies. Names link to related profiles on this page; for the underlying documents, see the [evidence page](/evidence/) and [document archive](/documents/).
 
 ---
 
@@ -194,7 +194,7 @@ Milligan sits on both the ATRS and APERS boards, meaning he had a vote on the ve
 
 **The bond issuer's representatives provided the only "analysis."**
 
-Across 1,200+ FOIA documents from five agencies, there is zero independent credit analysis of the bonds under investigation. The only document resembling internal analysis — a two-page Treasury memo (TREAS-SEP25-0006, October 2024) — was created years after tens of millions had already been invested.
+Across 1,200+ FOIA documents from Arkansas state agencies, there is zero independent credit analysis of the bonds under investigation. The only document resembling internal analysis — a two-page Treasury memo (TREAS-SEP25-0006, October 2024) — was created years after tens of millions had already been invested.
 
 ATRS's investment consultant Aon conducted full due diligence for other investments brought before the board. For the sovereign bonds, Mark White knew Aon would not formally recommend them: "I know they will not be making a formal recommendation." The board proceeded anyway. At the same APERS meetings where sovereign bonds were authorized, Callan provided 37 pages of analysis for other investments. The sovereign bonds received no comparable review.
 

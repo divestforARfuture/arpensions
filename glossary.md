@@ -9,7 +9,7 @@ permalink: /glossary/
 
 Our FOIA investigation examines a specific class of **non-marketable foreign sovereign debt** purchased by Arkansas state agencies. These are direct loans to a foreign government, sold exclusively through a for-profit broker-dealer registered with FINRA (CRD# 11148).
 
-The public records we obtained — more than 1,200 documents from five state agencies — identify the specific instrument. We use financial terminology throughout this site because this is a financial question, not a political one. The documents speak for themselves.
+The public records we obtained — more than 1,200 documents from Arkansas state agencies — identify the specific instrument. We use financial terminology throughout this site because this is a financial question, not a political one. The documents speak for themselves.
 
 ## Financial profile
 
