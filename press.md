@@ -10,7 +10,7 @@ hero_band: charcoal
 
 ## Campaign summary
 
-Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign investigating investments in non-tradable foreign sovereign debt by state pension funds. Through FOIA requests to five state agencies, the campaign has obtained and analyzed more than 1,200 public records revealing up to $100 million in authorized pension fund exposure and $55 million in State Treasury holdings — approximately $155 million in total authorized Arkansas exposure to non-tradable sovereign bonds — despite internal recommendations against new purchases, without independent credit analysis, and through a process that bypassed normal investment channels.
+Arkansans for Pension Integrity (API) is a grassroots Arkansas campaign investigating investments in non-tradable foreign sovereign debt by state pension funds. Through FOIA requests to five state agencies, the campaign has obtained and analyzed more than 1,200 public records revealing up to $100 million in authorized pension fund exposure to these bonds — without independent credit analysis, and through a process that bypassed normal investment channels. The State Treasury, a separately governed state office, holds an additional $55 million in the same instruments under different statutory authority; the campaign's legislative ask is scoped to pension boards.
 
 The campaign's ask is legislative: passage of the **Pension Investment Transparency Act** in the 2027 Arkansas legislative session, requiring independent credit analysis, consultant independence, liquidity risk disclosure, and documented financial rationale before pension boards commit members' retirement funds to non-tradable sovereign debt. The campaign does not ask pension boards to buy or sell any specific investment.
 
@@ -20,14 +20,13 @@ The campaign's ask is legislative: passage of the **Pension Investment Transpare
 
 | Figure | Detail |
 |--------|--------|
-| **$55M** | Current Arkansas State Treasury holdings in non-tradable sovereign bonds (including $20M purchased since May 2025) |
 | **$50M** | ATRS (teacher retirement) authorization for these bonds (June 2, 2025; Board Chair cast lone "no" vote); full $50M deployed December 2025 |
 | **$25–50M** | APERS (public employee retirement) authorization for non-tradable sovereign bonds (May 15, 2025) |
-| **$155M** | Total authorized Arkansas exposure — Treasury holdings plus pension fund authorizations combined |
+| **$55M** | Arkansas State Treasury holdings in the same instruments — separately governed under Treasury investment authority, not Act 498; including $20M purchased since May 2025 |
 | **1,227** | Public records obtained and analyzed across three FOIA rounds to five state agencies |
 | **3** | Major credit agencies (S&P, Moody's, Fitch) that have downgraded the issuing country's credit rating since 2024 |
 | **0** | Independent credit analyses of these non-tradable sovereign bonds found in the entire document record |
-| **5** | Arkansas state agencies that produced documents (Treasury, ATRS, APERS, Auditor of State, ASHERS) |
+| **5** | Arkansas state agencies that produced documents — three pension systems (ATRS, APERS, ASHERS) and two non-pension state offices (the State Treasury and the Auditor of State) |
 | **1** | Dissenting vote on the ATRS Board — Chair Danny Knight, who warned the process departed from standard practice |
 | **3** | Rounds of FOIA requests filed (August 2025, February 2026, March 2026) |
 | **265** | New documents received in FOIA Round 2 (118 Treasury, 16 APERS, 7 ATRS, 124 Auditor) |

@@ -38,7 +38,7 @@ Every claim on this site is backed by documents in the public record. Below are 
     <div class="scrolly__step" data-step="0">
       <div class="step__content">
         <h3>Up to $100 million committed</h3>
-        <p>Three state agencies authorized or committed up to $100 million in pension funds to non-tradable foreign sovereign bonds — the first direct foreign sovereign debt purchases in Arkansas pension history.</p>
+        <p>Two Arkansas pension boards authorized or committed up to $100 million in non-tradable foreign sovereign bonds — the first direct foreign sovereign debt purchases in Arkansas pension history.</p>
       </div>
     </div>
     <div class="scrolly__step" data-step="1">
@@ -176,7 +176,7 @@ APERS's FOIA production contains news articles about ATRS's sovereign bond inves
 <summary><h3>3e. The Auditor arranged a two-day pitch tour in his own office</h3></summary>
 <div class="subfinding-content" markdown="1">
 
-Records obtained in March 2026 reveal the Auditor of State's office personally orchestrated a coordinated pitch tour for the bond issuer's sales representatives. On Friday, April 11, 2025, Auditor Dennis Milligan and his executive assistant Wendy Spadoni sent four meeting arrangement emails within 18 minutes — scheduling back-to-back meetings for the issuer's executives Lawrence Berman and Bradley Young with the heads of all three investing agencies:
+Records obtained in March 2026 reveal the Auditor of State's office personally orchestrated a coordinated pitch tour for the bond issuer's sales representatives. On Friday, April 11, 2025, Auditor Dennis Milligan and his executive assistant Wendy Spadoni sent four meeting arrangement emails within 18 minutes — scheduling back-to-back meetings for the issuer's executives Lawrence Berman and Bradley Young with the leadership of two pension boards (APERS and ATRS) and the State Treasurer:
 
 - **2:01 PM** — Spadoni to APERS Executive Director Amy Fecher: Monday, April 14 at 9:00 AM
 - **2:02 PM** — Milligan to APERS Investment Subcommittee Chair Daryl Bassett: Monday, April 14 at 1:15 PM
@@ -390,7 +390,7 @@ Authorizing up to $<span data-countup="100" data-countup-prefix="" data-countup-
 
 <h2 id="the-decision-window">The decision window</h2>
 
-<p class="decision-window-sub">Three independent state agencies authorized up to $<span data-countup="155" data-countup-suffix=" million" data-countup-duration="1.5">155 million</span> within <span data-countup="49" data-countup-suffix=" days" data-countup-duration="1.5">49 days</span> of the same April 2025 sales tour. The solid bars show how fast each agency moved from sales contact to board vote. The lighter bars show the gap between authorization and first investment action — in every case, months longer than the decision itself.</p>
+<p class="decision-window-sub">In the 49-day window after the April 2025 sales tour, the Treasury made a $20 million new purchase and the two pension boards authorized up to $100 million more — up to $<span data-countup="120" data-countup-suffix=" million" data-countup-duration="1.5">120 million</span> in new commitments across <span data-countup="49" data-countup-suffix=" days" data-countup-duration="1.5">49 days</span>. The solid bars show how fast each agency moved from sales contact to board vote. The lighter bars show the gap between authorization and first investment action — in every case, months longer than the decision itself.</p>
 
 <div class="decision-window-container">
   <div id="decision-window-chart" aria-label="Timeline range chart showing the compressed decision window: Treasury authorized in 1 month, APERS in 2 months, ATRS in 7 weeks after the April 2025 sales tour. Execution gaps ranged from immediate (Treasury) to 5 months (APERS)." role="img"></div>
