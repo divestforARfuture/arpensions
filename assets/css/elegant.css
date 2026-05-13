@@ -1636,3 +1636,59 @@ html {
 [data-theme="dark"] .pattern-section {
   border-left-color: var(--accent);
 }
+
+/* =========================================================================
+   Key Findings index — six concept cards on /findings/
+   ========================================================================= */
+
+.findings-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+@media (min-width: 600px) {
+  .findings-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+.finding-card {
+  border-top: 2px solid var(--accent);
+  padding-top: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.finding-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.finding-card h2 a {
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.finding-card h2 a:hover,
+.finding-card h2 a:focus-visible {
+  border-bottom-color: var(--accent);
+}
+
+.finding-card p {
+  margin-bottom: 0;
+  font-size: 0.97rem;
+}
+
+.finding-card p strong {
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .finding-card {
+  border-top-color: var(--border-default);
+}
