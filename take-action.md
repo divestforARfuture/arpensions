@@ -48,7 +48,7 @@ We're building a list of Arkansans — educators, public employees, retirees, an
 
 ## Contact your legislators {#contact-legislators}
 
-The 2027 Arkansas legislative session is an opportunity to establish stronger pension transparency requirements through the **[Pension Investment Transparency Act](/legislators/)**. The Arkansas Citizens First Congress has adopted a resolution on PITA for its June 2026 convention; the resolution articulates three concrete asks that map cleanly to legislator action. [Read the full CFC resolution (PDF)](/assets/documents/PITA-Resolution-CFC-2026.pdf).
+The 2027 Arkansas legislative session is an opportunity to establish stronger pension transparency requirements through the **[Pension Investment Transparency Act](/legislators/)**. Three concrete actions map cleanly to legislator action.
 
 **Text RESIST to 50409** to reach your Arkansas state legislators through Resistbot, or find your legislators at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/). Ask them to:
 

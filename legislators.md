@@ -14,7 +14,7 @@ Arkansas pension funds have authorized up to **$100 million** in non-tradable fo
 
 Six Arkansas pension benefit plans fall within the scope of Act 498 of 2023 (A.C.A. § 24-2-802(3)): **ATRS, APERS, ASHERS, ASPRS, AJRS, and LOPFI.** The Pension Investment Transparency Act would apply to acquisitions of non-tradable sovereign debt by any of these plans.
 
-We are asking the General Assembly to strengthen pension transparency requirements so that Arkansans can be confident their retirement savings are managed based on financial merit — as the law already requires. The Arkansas Citizens First Congress has adopted a resolution calling for the Pension Investment Transparency Act at its June 2026 convention; the resolution is referred to the Civil Rights and Election Reform Caucus and sponsored by Little Rock Peace for Palestine. [Read the CFC resolution (PDF)](/assets/documents/PITA-Resolution-CFC-2026.pdf).
+We are asking the General Assembly to strengthen pension transparency requirements so that Arkansans can be confident their retirement savings are managed based on financial merit — as the law already requires.
 
 ## Key facts
 
@@ -140,15 +140,13 @@ Act 498 of 2023, the State Government Employee Retirement Protection Act (Ark. C
 
 ### Three actions we are calling for
 
-The Arkansas Citizens First Congress resolution on PITA articulates three concrete asks:
+Arkansans for Pension Integrity is calling for three concrete actions to apply Arkansas's existing fiduciary standards to non-tradable sovereign debt acquisitions:
 
 1. **The General Assembly** — enact the Pension Investment Transparency Act during the 2027 Regular Session, with the bill referred to the Joint Interim Committee on Public Retirement and Social Security Programs (A.C.A. § 10-3-703).
 
 2. **The Joint Interim Committee on Public Retirement and Social Security Programs** — exercise its statutory authority under A.C.A. § 10-3-703(c) to study whether current pension investment practices comply with the standards established by Act 498 of 2023, including whether documented, independent credit analyses were prepared before recent acquisitions of non-tradable sovereign debt.
 
 3. **Arkansas pension benefit plan fiduciaries** — adopt, as a matter of board policy pending legislative action, the practice of obtaining and publicly disclosing independent credit analyses before authorizing any new acquisition of non-tradable sovereign debt, consistent with the fiduciary obligations established by Act 498 of 2023 and the prudent investor rule.
-
-Read the full [Citizens First Congress resolution (PDF)](/assets/documents/PITA-Resolution-CFC-2026.pdf). The resolution was submitted by Little Rock Peace for Palestine on behalf of Arkansans for Pension Integrity, referred to the Civil Rights and Election Reform Caucus, and is calendared for the CFC's June 2026 convention in Little Rock.
 
 </div>
 
