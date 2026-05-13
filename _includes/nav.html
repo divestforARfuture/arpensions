@@ -11,6 +11,7 @@
     <ul id="nav-menu" class="nav-links" role="list">
       <li><a href="{{ '/the-issue/' | relative_url }}" class="nav-item"{% if page.url == '/the-issue/' or page.url contains '/the-issue/' %} aria-current="page"{% endif %}>The Issue</a></li>
       <li><a href="{{ '/evidence/' | relative_url }}" class="nav-item"{% if page.url == '/evidence/' or page.url contains '/evidence/' %} aria-current="page"{% endif %}>Evidence</a></li>
+      <li><a href="{{ '/findings/' | relative_url }}" class="nav-item"{% if page.url contains '/findings/' %} aria-current="page"{% endif %}>Key Findings</a></li>
       <li><a href="{{ '/documents/' | relative_url }}" class="nav-item"{% if page.url == '/documents/' or page.url contains '/documents/' %} aria-current="page"{% endif %}>Documents</a></li>
       <li><a href="{{ '/key-figures/' | relative_url }}" class="nav-item"{% if page.url == '/key-figures/' or page.url contains '/key-figures/' %} aria-current="page"{% endif %}>Key Figures</a></li>
       <li><a href="{{ '/take-action/' | relative_url }}" class="nav-item"{% if page.url == '/take-action/' or page.url contains '/take-action/' %} aria-current="page"{% endif %}>Take Action</a></li>
