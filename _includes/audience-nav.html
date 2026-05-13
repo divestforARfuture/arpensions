@@ -5,6 +5,7 @@
       <li><a href="{{ '/public-employees/' | relative_url }}"{% if page.url == '/public-employees/' %} aria-current="page"{% endif %}>For State Employees</a></li>
       <li><a href="{{ '/legislators/' | relative_url }}"{% if page.url == '/legislators/' %} aria-current="page"{% endif %}>For Legislators</a></li>
       <li><a href="{{ '/press/' | relative_url }}"{% if page.url == '/press/' %} aria-current="page"{% endif %}>For Press</a></li>
+      <li><a href="{{ '/findings/' | relative_url }}"{% if page.url contains '/findings/' %} aria-current="page"{% endif %}>Key Findings</a></li>
     </ul>
   </div>
 </nav>
