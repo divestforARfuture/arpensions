@@ -48,13 +48,17 @@ We're building a list of Arkansans — educators, public employees, retirees, an
 
 ## Contact your legislators {#contact-legislators}
 
-The 2027 Arkansas legislative session is an opportunity to establish stronger pension transparency requirements through the **[Pension Investment Transparency Act](/legislators/)**. Let your state legislators know this issue matters to you.
+The 2027 Arkansas legislative session is an opportunity to establish stronger pension transparency requirements through the **[Pension Investment Transparency Act](/legislators/)**. The Arkansas Citizens First Congress has adopted a resolution on PITA for its June 2026 convention; the resolution articulates three concrete asks that map cleanly to legislator action. [Read the full CFC resolution (PDF)](/assets/documents/PITA-Resolution-CFC-2026.pdf).
 
 **Text RESIST to 50409** to reach your Arkansas state legislators through Resistbot, or find your legislators at [arkleg.state.ar.us](https://www.arkleg.state.ar.us/). Ask them to:
 
-- Support the Pension Investment Transparency Act in the 2027 session — issuer-neutral legislation requiring independent credit analysis, consultant independence, and documented financial rationale before pension funds commit members' retirement money to non-tradable sovereign debt
-- Reinforce that Arkansas's pecuniary-only standard under Act 498 of 2023 governs the full investment process — including the analysis on the record before a vote
-- Treat sound fiduciary process as a non-partisan baseline that protects every Arkansan whose retirement depends on these funds
+1. **Enact the Pension Investment Transparency Act in the 2027 Regular Session** — issuer-neutral legislation requiring, for any acquisition of non-tradable sovereign debt by an Arkansas pension benefit plan: an independent credit analysis before the purchase; a written comparison of risk, return, and liquidity against comparable fixed-income alternatives; disclosure of liquidity characteristics in board materials before a vote; a written fiduciary determination that the investment satisfies Act 498's pecuniary-factors standard; and public posting of the analysis within 30 days of the investment.
+
+2. **Direct the Joint Interim Committee on Public Retirement and Social Security Programs** to exercise its A.C.A. § 10-3-703(c) authority and study whether current pension investment practices comply with Act 498 of 2023 — including whether documented, independent credit analyses were prepared before recent acquisitions of non-tradable sovereign debt by Arkansas pension benefit plans.
+
+3. **Encourage pension benefit plan fiduciaries**, as a matter of board policy pending legislative action, to obtain and publicly disclose independent credit analyses before authorizing any new acquisition of non-tradable sovereign debt — consistent with the fiduciary obligations established by Act 498 of 2023 and the prudent investor rule (A.C.A. §§ 24-2-610–619).
+
+Six Arkansas pension benefit plans fall within Act 498's scope (§ 24-2-802(3)): ATRS, APERS, ASHERS, ASPRS, AJRS, and LOPFI. PITA applies issuer-neutral procedural standards to non-tradable sovereign debt acquisitions by any of these plans.
 
 <div class="callout" markdown="1">
 
